@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -77,6 +76,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${spaceGrotesk.variable} h-full antialiased`}>
       <head>
+        {/* Ahrefs Analytics — rendered server-side so crawler can detect it */}
+        {/* eslint-disable-next-line @next/next/no-before-interactive-script-outside-document */}
+        <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="iJhSPjNuKSL7w6tdS9OKKw"
+          async={true}
+        ></script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -98,11 +104,6 @@ export default function RootLayout({
       </head>
       <body className="min-h-full" style={{ fontFamily: "var(--font-space-grotesk), system-ui, sans-serif" }}>
         {children}
-        <Script
-          src="https://analytics.ahrefs.com/analytics.js"
-          data-key="iJhSPjNuKSL7w6tdS9OKKw"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );
