@@ -77,6 +77,11 @@ export default function RootLayout({
     <html lang="en" className={`${spaceGrotesk.variable} h-full antialiased`}>
       <head>
         <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="iJhSPjNuKSL7w6tdS9OKKw"
+          async
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
