@@ -66,6 +66,12 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    other: {
+      "ahrefs-site-verification":
+        "58b5e42909320c25ac1703a79ecef5d5558bfb351354958e8c96a5273f0f96cf",
+    },
+  },
 };
 
 export default function RootLayout({
