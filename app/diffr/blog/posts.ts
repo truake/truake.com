@@ -186,6 +186,58 @@ export const posts: BlogPost[] = [
 <p>If you're tired of shopping apps that give you more when you need less, <a href="/diffr#waitlist">Diffr is building something different</a>.</p>
     `.trim(),
   },
+
+  {
+    slug: 'ship-in-days-not-weeks',
+    title: 'Ship in Days, Not Weeks: What Indie Developers Actually Do',
+    description: 'Lessons from Marc Lou and Simon Høiberg on how to launch a solo app fast — validate with real payments, build in public, and turn social media into a growth engine.',
+    date: '2026-04-04',
+    readTime: '5 min read',
+    tags: ['indie dev', 'app launch', 'solo founder', 'build in public', 'growth'],
+    category: 'strategy',
+    excerpt: 'Marc Lou built 27 startups. Simon Høiberg runs a 7-figure business solo with AI. Both ship in days. Here\'s the methodology they actually use.',
+    content: `
+<p class="lead">There's a recurring pattern among indie developers who actually ship products: they move embarrassingly fast, they charge from day one, and they treat social media as a machine they operate deliberately, not a lottery they enter.</p>
+
+<p>Two creators who've made this approach legible — Marc Lou and Simon Høiberg — have documented it in enough detail that the playbook is visible. Here's what it actually looks like.</p>
+
+<h2>Days, Not Weeks</h2>
+
+<p>Marc Lou's core claim is direct: ship in days, not weeks. His own work demonstrates it — he's documented building and launching a SaaS product in 9 days, from idea to paying customers. Not a landing page. A working product.</p>
+
+<p>The mechanism is AI-assisted development. Using tools like Codex and GitHub Copilot, he targets "a few hundred dollars and some hours of work" to test an idea's viability. The goal is to reach a real decision — does this work or not — as quickly as possible.</p>
+
+<p>Simon Høiberg applies the same principle with a specific entry point: SaaS arbitrage. The method: find popular, complex workflows in tools like n8n (a no-code automation platform), identify what real problems people are solving with them, and rebuild those workflows as specialized, user-friendly SaaS products. The demand is already proven. The implementation question is whether you can deliver a better experience.</p>
+
+<h2>Validate With Real Money</h2>
+
+<p>Both developers are explicit on this: verbal validation doesn't count. The only signal that matters is a real user putting real money down.</p>
+
+<p>Marc Lou's approach: put the solution behind a Stripe checkout from day one. If nobody will pay, the idea doesn't have legs — and better to know that after 9 days than after 3 months. The early "no" is the cheap outcome. The expensive outcome is six months of building something nobody will pay for.</p>
+
+<p>This is the "small bets" mental model: run many experiments, quit early on the ones that don't gain traction, and use the time and capital recovered from failed bets to fund the next one.</p>
+
+<h2>Build an Audience Before You Need One</h2>
+
+<p>The marketing foundation for both developers is an owned audience — not social media followers (which are rented), but an email list (which you own).</p>
+
+<p>Marc Lou's newsletter has 24,000 readers. Simon Høiberg uses YouTube to generate consistent attention. Both use social media as an attention-acquisition channel that funnels into email. The email list is the stable asset; the social following is the acquisition engine.</p>
+
+<p>On social, the content style matters. Marc Lou uses "crazy ideas" and humour — stories about Stripe disputes, behind-the-scenes development updates, the failures as much as the wins. The strategy is narrative: make the audience invested in the developer's journey before any product exists. When a new product launches, the audience is already primed.</p>
+
+<h2>Keep the Machine Running With AI</h2>
+
+<p>Simon Høiberg's operational model is instructive for anyone building solo at scale: use AI for 60–80% of repetitive work. He runs YouTube content production by using AI agents to help write scripts in Notion, treating the AI as a creative collaborator rather than a search tool.</p>
+
+<p>The same principle applies across engineering, support, and content. Avoid vendor lock-in and "black-box" platforms — use replaceable building blocks like Postgres and self-hosted infrastructure to maintain margins and long-term control.</p>
+
+<h2>What This Means for Diffr</h2>
+
+<p>We're building Diffr the same way: ship fast, validate with real users, build in public. The waitlist is the start of the audience. The blog posts are the "building in public" layer. And the first version of the product will be in users' hands long before the database is complete.</p>
+
+<p>If you want to follow the build, <a href="/diffr#waitlist">join the waitlist</a> — we send updates to everyone on the list directly.</p>
+    `.trim(),
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
