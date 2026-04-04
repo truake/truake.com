@@ -61,81 +61,81 @@ export const posts: BlogPost[] = [
 
   {
     slug: 'building-a-brand-database',
-    title: 'Building a Brand Database: 36,000 Brands, Anti-Bot Walls, and Counting',
-    description: 'The technical reality of crawling 36,000 brand websites as a solo developer — strategies, anti-bot systems encountered, and what we learned.',
+    title: 'Building a Brand Database: 36,000 Brands, One Solo Developer',
+    description: 'How we built a structured database of 36,000+ brands with product lines, images, and category data — as a solo developer, from scratch.',
     date: '2026-04-01',
-    readTime: '7 min read',
-    tags: ['build log', 'web crawling', 'indie dev', 'python', 'postgres'],
+    readTime: '6 min read',
+    tags: ['build log', 'indie dev', 'data pipeline', 'python', 'postgres', 'solo founder'],
     category: 'build-log',
-    excerpt: 'To build a brand curation app, you first need to know what brands exist. That means crawling tens of thousands of websites. Here\'s what that actually looks like.',
+    excerpt: 'To build a brand curation app, you first need to know what brands exist. Building that knowledge base — 36,000 brands and counting — is most of the actual work.',
     content: `
-<p class="lead">The hardest part of building Diffr isn't the recommendation logic or the UI. It's the data. You cannot curate brands you don't know about. So before anything else, we needed a database of them.</p>
+<p class="lead">The hardest part of building Diffr isn't the recommendation logic or the UI. It's the data. You cannot curate brands you don't know about. So before anything else, we needed a structured database of them — their names, categories, product lines, and images.</p>
 
-<p>This is the story of building that database — one crawled website at a time.</p>
+<p>This is the story of building that foundation as a solo developer.</p>
 
 <h2>The Scale Problem</h2>
 
-<p>We started with a seed list of brand names and a simple goal: find their official websites, extract their product lines, and build a structured dataset. The number grew fast. We're now at <strong>36,028 brands</strong>, of which 26,785 have confirmed website URLs.</p>
+<p>We started with a seed list of brand names from public directories, aggregators, and category research. The goal: build a complete, structured dataset with product line information for each brand. The number grew fast. We're now at <strong>36,028 brands</strong> across tens of thousands of product categories.</p>
 
-<p>That means ~27,000 websites to crawl. Each one is different: different HTML structures, different JavaScript frameworks, different levels of anti-bot protection.</p>
+<p>Each brand needs more than just a name. For Diffr's no-repeat curation to work, we need to know what a brand actually makes — its product lines, its categories, its visual identity. Building that knowledge at scale is a data engineering problem before it's anything else.</p>
 
-<h2>The Probe Phase</h2>
+<h2>The Data Architecture</h2>
 
-<p>Before crawling anything at scale, we run a probe. The probe visits a brand's website and determines two things: what crawling strategy will work, and what CSS selector targets the product image.</p>
+<p>The database is built on <strong>PostgreSQL 17</strong>, running locally on an external SSD. The schema is deliberately flat for the core tables: brands, product types, and product lines. Relationships live in a separate <strong>Neo4j graph database</strong> — the brand knowledge graph that powers Diffr's "no-repeat" constraint logic.</p>
 
-<p>The output is a <code>crawler_strategies</code> table entry per brand — a record of how to crawl that site. Current breakdown:</p>
-
+<p>Current scale:</p>
 <ul>
-  <li><strong>Static HTML</strong> (no JS needed): ~3,700 brands — fast, cheap, reliable</li>
-  <li><strong>Playwright</strong> (full browser): ~4,200 brands — slower but necessary</li>
-  <li><strong>Blocked entirely</strong>: ~11 brands — gave up on these</li>
+  <li><strong>36,028 brands</strong> — with names, categories, and metadata</li>
+  <li><strong>47,000+ product types</strong> — the vocabulary of what brands make</li>
+  <li><strong>1,079,000 product lines</strong> — the actual items that map to scene slots</li>
+  <li><strong>Redis</strong> — for deduplication during data ingestion</li>
+  <li><strong>Cloudinary CDN</strong> — for serving product and brand images</li>
 </ul>
 
-<p>We're 46% through the probe phase. Every percentage point takes days.</p>
+<h2>The Image Problem</h2>
 
-<h2>The Anti-Bot Landscape</h2>
+<p>Brand data without images is only half useful. A curation platform needs to be visual. Our current status: 402 product lines have confirmed images — that's 0.04% of 1,079,000 total. The image pipeline is the primary bottleneck right now.</p>
 
-<p>Running a crawler at this scale means having an honest conversation with the anti-bot industry. Here's what we've encountered:</p>
+<p>Each product line requires sourcing, validating, and storing a high-quality image. We've built a confidence-scoring system: <code>high</code>, <code>medium</code>, or <code>none</code> per image, so the curation layer can prioritise well-represented brands in early scenes rather than showing blank slots.</p>
 
-<ul>
-  <li><strong>Cloudflare</strong>: The most common. Usually bypassed with <code>curl-cffi</code> for TLS fingerprint spoofing, or Playwright in stealth mode for JS challenges.</li>
-  <li><strong>Akamai</strong>: Harder. Requires proper browser headers and timing patterns.</li>
-  <li><strong>Incapsula / Imperva</strong>: Moderate difficulty. Session management matters.</li>
-  <li><strong>DataDome</strong>: The toughest we've hit. Highly behavioural detection.</li>
-  <li><strong>PerimeterX</strong>: Similar to DataDome — real browser behaviour required.</li>
-</ul>
+<h2>The Logo System</h2>
 
-<p>We're not trying to scrape data we don't have rights to. We're extracting publicly listed product images and names from brand websites — the same information any shopper sees. But anti-bot systems don't ask why you're crawling, only whether you look human.</p>
-
-<h2>The Tech Stack</h2>
-
-<p>The crawler pipeline is Python, running on a local machine with an external SSD for storage:</p>
+<p>Separate from product images, every brand needs a logo — the visual anchor for Diffr's brand-first display format. Logo status is tracked independently:</p>
 
 <ul>
-  <li><strong>probe.py</strong> — determines strategy and image selector per brand</li>
-  <li><strong>crawler.py</strong> — static or Playwright crawler, uploads images to Cloudinary</li>
-  <li><strong>discover.py</strong> — reverse-discovery: finds product lines not yet in the DB</li>
-  <li><strong>logo_fixer.py</strong> — handles brand logos separately (different pages, different selectors)</li>
+  <li><strong>ok</strong>: Clean logo on appropriate background, ready to display</li>
+  <li><strong>warn_black_logo</strong>: Logo exists but needs background treatment</li>
+  <li><strong>warn_bad_bg</strong>: Logo on a problematic background</li>
+  <li><strong>no_source</strong>: Logo not yet sourced</li>
 </ul>
 
-<p>Data lives in <strong>PostgreSQL 17</strong> locally, with a <strong>Neo4j</strong> graph database for brand relationships and <strong>Redis</strong> for deduplication. Images are served via <strong>Cloudinary</strong> CDN.</p>
+<p>Of 36,028 brands, 773 have confirmed clean logos. Logo quality matters more than quantity — a bad logo display undermines the whole premise of visual brand curation.</p>
 
-<h2>The Current State</h2>
+<h2>The Graph Layer</h2>
 
-<p>As of writing: 402 product lines have images — that's 0.04% of 1,079,000 total product lines. The image crawler is the bottleneck. Each product line requires a page visit, selector matching, image download, and CDN upload. At current speed, full coverage is a long road.</p>
+<p>PostgreSQL handles relational data well, but brand relationships aren't relational — they're a network. Which brands compete? Which share a category niche? Which appear together in scenes?</p>
 
-<p>The brand data is good enough to start building the curation layer. The image data will catch up.</p>
+<p>Neo4j stores the brand relationship graph: category co-occupancy, scene co-occurrence, and brand DNA similarity scores. This is what will eventually power Diffr's scene-building logic — selecting the right brand for each slot not just by category match but by relationship fit within the whole scene.</p>
 
-<h2>Lessons for Solo Devs Building Data Pipelines</h2>
+<h2>What Solo Development Looks Like at This Scale</h2>
 
+<p>Running a data pipeline this large solo means making peace with progress that's measured in percentages of percentages. A 1% improvement in image coverage is 10,000 product lines. A database this size takes months to populate, not days.</p>
+
+<p>The things that help most:</p>
 <ol>
-  <li><strong>Probe before you crawl.</strong> Don't assume every site works the same way. A per-site strategy saves you from burning through rate limits on approaches that won't work.</li>
-  <li><strong>Log obsessively.</strong> Every crawler run writes to a log. I check <code>tail -1 /tmp/probe_run.log</code> before I trust any status number.</li>
-  <li><strong>Decouple phases.</strong> Probe → Strategy → Crawl → Upload are separate jobs. Each can fail and restart independently without corrupting the others.</li>
-  <li><strong>Expect the anti-bot landscape to change.</strong> A site that worked last month may not work today. Re-probe on failure, don't assume the selector is wrong.</li>
+  <li><strong>Decouple every phase.</strong> Data ingestion, image processing, logo handling, and graph updates are all separate jobs. Each can fail and restart without corrupting the others.</li>
+  <li><strong>Log obsessively.</strong> At this scale, a silent failure that runs for hours is worse than a fast crash. Every pipeline job writes structured logs. I check status before trusting any summary number.</li>
+  <li><strong>Design for incomplete data.</strong> The curation layer doesn't wait for 100% image coverage. It knows which brands are well-represented and prioritises those for early scenes.</li>
+  <li><strong>Use the right database for each job.</strong> PostgreSQL for structured queries. Neo4j for relationship traversal. Redis for real-time deduplication. Don't force one tool to do everything.</li>
 </ol>
 
-<p>If you're building something similar and want to compare notes, <a href="/diffr#waitlist">join the Diffr waitlist</a> — I reply to everyone who signs up.</p>
+<h2>What Comes Next</h2>
+
+<p>The data foundation is strong enough to start building the curation layer. The first public Diffr experience will work with the brands we have high-confidence data on — a few thousand well-represented brands across core consumer categories.</p>
+
+<p>As image and logo coverage grows, more brands enter the curation pool. The no-repeat principle only gets more powerful with more options to choose from.</p>
+
+<p>If you want to be among the first to see what 36,000 brands look like when structured by scene, <a href="/diffr#waitlist">join the waitlist</a>.</p>
     `.trim(),
   },
 
