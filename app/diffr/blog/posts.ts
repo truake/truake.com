@@ -188,6 +188,94 @@ export const posts: BlogPost[] = [
   },
 
   {
+    slug: 'claude-code-notebooklm-obsidian-workflow',
+    title: 'How I Use Claude Code, NotebookLM, and Obsidian as One System',
+    description: 'A practical architecture for solo developers: Claude Code as the orchestrator, NotebookLM as the analysis engine, and Obsidian as the persistent second brain — all wired into a self-improving loop.',
+    date: '2026-04-05',
+    readTime: '7 min read',
+    tags: ['dev workflow', 'claude code', 'notebooklm', 'obsidian', 'ai tools', 'productivity'],
+    category: 'build-log',
+    excerpt: 'Three tools that seem unrelated — a terminal AI, a research notebook, and a markdown vault — turn out to fit together precisely. Here\'s the architecture I\'m running to build Diffr.',
+    content: `
+<p class="lead">I didn't plan to use Claude Code, NotebookLM, and Obsidian together. I adopted them separately, for different reasons, and only later noticed they were solving complementary problems. Once I wired them together deliberately, the whole system got noticeably faster.</p>
+
+<p>This post documents the actual architecture — not the aspirational version, the one that's running right now while I build Diffr.</p>
+
+<h2>The Problem This Solves</h2>
+
+<p>Solo development has a specific failure mode: context loss. You work on something for three hours, context window fills up, session ends, and the next time you open the project half the reasoning is gone. What was the decision? Why did I structure it that way? What were the three alternatives I considered?</p>
+
+<p>Notes in a markdown file help, but notes are passive. They don't feed back into the AI. The AI doesn't know about them unless you explicitly provide them. Every session starts cold.</p>
+
+<p>The three-tool architecture solves this. Each tool does one thing it's uniquely suited for.</p>
+
+<h2>The Architecture</h2>
+
+<p><strong>Claude Code is the orchestrator.</strong> It lives in the terminal, it has file system access, it can run scripts, and — crucially — it can operate other tools via CLI integrations. Every task starts here. Claude Code is also where the "skills" layer lives: reusable, versioned automation scripts that accumulate over sessions.</p>
+
+<p><strong>NotebookLM is the analysis engine.</strong> It ingests up to 50 sources — YouTube transcripts, PDFs, articles, raw text — and answers questions grounded strictly in those sources. No hallucination about what a video said, because it can only reference what's actually in the document. For research-heavy tasks (competitive analysis, sourcing blog content, extracting launch strategies from creator content), offloading to NotebookLM saves both Claude Code tokens and human time.</p>
+
+<p><strong>Obsidian is the persistent memory.</strong> Every meaningful output — research summaries, architectural decisions, daily progress, blog drafts — lands in the Obsidian vault as markdown. Because the files are local and plain text, Claude Code can read them directly in future sessions. The vault is the project's long-term memory.</p>
+
+<h2>How They Connect</h2>
+
+<p>The connection between Claude Code and NotebookLM is a CLI called <code>notebooklm-pi</code> (wrapped as a Claude Code skill). Claude Code can create notebooks, add sources, and query them — all from the terminal, without touching a browser.</p>
+
+<p>The connection between Claude Code and Obsidian is the file system. Obsidian just reads a folder of markdown files. Claude Code writes to that same folder. The "integration" is a shared directory.</p>
+
+<p>The flow for research tasks looks like this:</p>
+
+<ol>
+  <li>Identify a research question (e.g., "what launch strategies do indie devs use?")</li>
+  <li>Claude Code uses a YouTube skill to fetch relevant video transcripts</li>
+  <li>Those transcripts get sent to NotebookLM as sources</li>
+  <li>Claude Code queries NotebookLM with structured questions</li>
+  <li>Answers come back as text, get written to Obsidian as a markdown note</li>
+  <li>That note becomes source material for a blog post, a decision document, or a strategy file</li>
+</ol>
+
+<p>For this very post: the source video was added to NotebookLM, I queried it with Claude Code, and the answers fed directly into the draft. The whole loop — from "I want to write about this workflow" to "draft is done" — ran inside one session.</p>
+
+<h2>The Skill Layer</h2>
+
+<p>Skills are where this system compounds over time. A skill in Claude Code is a reusable automation script — a defined capability the AI can invoke by name. Once you build a skill for NotebookLM queries, you never have to explain the authentication flow again. Once you build a skill for writing to Obsidian in a specific format, every future output follows that format automatically.</p>
+
+<p>I maintain a <code>~/.claude/skills/</code> directory, tracked in Git, with separate rule files for different domains: deployment, Next.js, workflow, general. Every session that produces a correction or a new discovery adds a rule. The AI reads those rules at the start of each session. It doesn't repeat the same mistakes.</p>
+
+<p>This is the self-improving loop: Claude Code makes a mistake → I correct it → the correction becomes a rule → the rule loads at the start of the next session → the mistake doesn't happen again. Over time, the system gets better at working the way I work.</p>
+
+<h2>The Obsidian Layer</h2>
+
+<p>Obsidian's role is often underestimated in this stack. It looks like "just a notes app," but what it's actually providing is a human-readable audit trail that doubles as AI context.</p>
+
+<p>Every daily progress note for Diffr lives in <code>/Obsidian/Diffr/每日进展/</code>. Every architectural decision is in <code>/Obsidian/Diffr/Projects/</code>. When I start a Claude Code session, I can point at these files directly: "here's the project state, here's what we decided last week, now let's continue." The AI picks up where we left off without me having to reconstruct context manually.</p>
+
+<p>The key convention: every note is structured the same way. Status first, decisions second, open questions third. The AI learns to parse this structure. I stop having to repeat myself.</p>
+
+<h2>Token Economics</h2>
+
+<p>One practical reason this architecture works: it's cheap. NotebookLM runs on Google's infrastructure at no cost. Complex analysis tasks — summarizing a 2-hour video, cross-referencing five sources, extracting structured data from long documents — happen there instead of burning Claude tokens.</p>
+
+<p>Claude Code stays focused on orchestration, code generation, and file operations. NotebookLM handles the heavy reading. Obsidian handles persistence. Each tool does the thing it does cheaply and well.</p>
+
+<h2>What This Produces</h2>
+
+<p>In concrete terms, running this workflow while building Diffr has produced:</p>
+
+<ul>
+  <li>A structured record of every architectural decision, queryable by the AI in future sessions</li>
+  <li>A skills library of 22 reusable rules that prevent previously-made mistakes from recurring</li>
+  <li>A research pipeline that can turn a YouTube video into a structured blog post in one session</li>
+  <li>A daily progress system that feeds directly into the project's public-facing blog</li>
+</ul>
+
+<p>The goal isn't to automate creativity. It's to eliminate the overhead that surrounds it: context reconstruction, repeated mistakes, knowledge that lives only in a closed browser tab. When that overhead is gone, the actual work gets faster.</p>
+
+<p>If you're building something solo and this workflow sounds useful, I document how Diffr is built — tools, decisions, and all — on this blog. <a href="/diffr#waitlist">The waitlist is the fastest way to follow along.</a></p>
+    `.trim(),
+  },
+
+  {
     slug: 'ship-in-days-not-weeks',
     title: 'Ship in Days, Not Weeks: What Indie Developers Actually Do',
     description: 'Lessons from Marc Lou and Simon Høiberg on how to launch a solo app fast — validate with real payments, build in public, and turn social media into a growth engine.',
