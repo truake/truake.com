@@ -329,12 +329,12 @@ export const posts: BlogPost[] = [
   {
     slug: 'the-toothpaste-aisle-tax',
     title: 'The 13-IQ-Point Tax You Pay at Every Checkout',
-    description: 'Choice overload isn't a personal failure — it's a structural extraction. Here's how the default economy harvests your cognitive bandwidth, and how the One-Brand Rule gets it back.',
+    description: "Choice overload isn't a personal failure — it's a structural extraction. Here's how the default economy harvests your cognitive bandwidth, and how the One-Brand Rule gets it back.",
     date: '2026-04-05',
     readTime: '6 min read',
     tags: ['decision fatigue', 'choice overload', 'one-brand rule', 'cognitive bandwidth', 'diff-structism'],
     category: 'strategy',
-    excerpt: 'When you stand paralyzed in a supermarket aisle, you're not being indecisive. You're being taxed.',
+    excerpt: "When you stand paralyzed in a supermarket aisle, you're not being indecisive. You're being taxed.",
     content: `
 <p class="lead">When you stand paralyzed in a supermarket aisle, you're not being indecisive. You're being taxed.</p>
 
@@ -386,7 +386,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'original-priority',
     title: 'Original Priority: Why You Should Always Go to the Source',
-    description: 'We live in an age of derivatives — adaptations, summaries, reboots, and franchise expansions. Gregory Bateson's definition of information explains why most of it is noise.',
+    description: "We live in an age of derivatives — adaptations, summaries, reboots, and franchise expansions. Gregory Bateson's definition of information explains why most of it is noise.",
     date: '2026-04-05',
     readTime: '7 min read',
     tags: ['original priority', 'diff-structism', 'cognitive bandwidth', 'information theory', 'creative consumption'],
