@@ -326,6 +326,124 @@ export const posts: BlogPost[] = [
 <p>If you want to follow the build, <a href="/diffr#waitlist">join the waitlist</a> — we send updates to everyone on the list directly.</p>
     `.trim(),
   },
+  {
+    slug: 'the-toothpaste-aisle-tax',
+    title: 'The 13-IQ-Point Tax You Pay at Every Checkout',
+    description: 'Choice overload isn't a personal failure — it's a structural extraction. Here's how the default economy harvests your cognitive bandwidth, and how the One-Brand Rule gets it back.',
+    date: '2026-04-05',
+    readTime: '6 min read',
+    tags: ['decision fatigue', 'choice overload', 'one-brand rule', 'cognitive bandwidth', 'diff-structism'],
+    category: 'strategy',
+    excerpt: 'When you stand paralyzed in a supermarket aisle, you're not being indecisive. You're being taxed.',
+    content: `
+<p class="lead">When you stand paralyzed in a supermarket aisle, you're not being indecisive. You're being taxed.</p>
+
+<p>The tax isn't paid in money. It's paid in the one resource the modern economy cannot manufacture more of: your ability to think clearly. Researchers have measured this precisely. When faced with excessive choice, people's cortisol levels spike, their heart rates increase — and their effective IQ drops by an average of 13 points. Equivalent to staying awake for 24 hours straight. All for a $4 tube of toothpaste.</p>
+
+<p>This is not a metaphor. It is a mechanism. The default economy was not designed to help you choose. It was designed to prevent you from ever finishing the act of choosing at all.</p>
+
+<h2>Two People, One Aisle</h2>
+
+<p>Meet Jason. 32 years old. Marketing manager. Tuesday evening, 7:47pm, Whole Foods toothpaste aisle. He's been there 23 minutes. His jaw is clenched. Whitening or sensitive? Gel or paste? Natural or clinical? Charcoal or baking soda? His phone buzzes — dinner is getting cold — and he doesn't respond. He can't. He's locked in combat with 200 varieties of toothpaste, and he's losing.</p>
+
+<p>Jason isn't choosing. He's <strong>performing unpaid cognitive labor</strong> for a product worth less than the mental energy he's spending on it. The toothpaste is free. The choosing is not.</p>
+
+<p>Now meet Sarah. 29 years old. One-person design consultancy. Wednesday morning, 5:13am. She wakes without an alarm. Makes coffee. One brand, always the same. No decision required. In the silence, something emerges — a connection between two client problems she's been wrestling with for weeks. A solution, fully formed.</p>
+
+<p>Sarah implemented what we call the One-Brand Rule six months ago. One toothpaste. One coffee. One shampoo. One brand of jeans. She didn't lose anything. She freed up the mental RAM that was previously consumed by micro-decisions — and that surplus became available for actual thinking.</p>
+
+<p>Jason is still in the aisle. Sarah is billing for insight.</p>
+
+<h2>Why "More Choice" Is a Poverty Trap</h2>
+
+<p>Barry Schwartz called it the Paradox of Choice. Sheena Iyengar demonstrated it in her famous jam experiment — when a grocery store offered 24 varieties of jam, 3% of shoppers bought. When it offered 6 varieties, 30% bought. More options, fewer decisions made. The relationship is inverse and consistent.</p>
+
+<p>But the economy ran the opposite lesson. If six varieties sold well, what would sixty do? The logic of the market is not to reduce friction for consumers — it's to occupy mental real estate before a competitor can. Every sub-category created, every variant launched, every "new and improved" SKU placed on a shelf is a bid for the irreplaceable resource of human attention.</p>
+
+<p>Ries and Trout mapped this in <em>Positioning</em> in 1981. The mind, they observed, is a ranking machine. You remember the number one brand in a category, tolerate the number two, and mostly forget the rest. The strategic implication they offered to brands: if the top positions are taken, don't compete for them — create a new sub-category and seize number one there instead.</p>
+
+<p>What they described as a tactic turned out to be a self-replicating engine of artificial difference. Every brand follows the logic. The market fractures endlessly. Sub-categories spawn further sub-categories. You end up with 200 types of toothpaste, and an economy of cognitive poverty underneath the material abundance.</p>
+
+<h2>The One-Brand Rule</h2>
+
+<p>The solution is not willpower. It is not minimalism. It is not a detox week or a capsule wardrobe. These respond to symptoms. The cause is structural — and the response needs to be equally structural.</p>
+
+<p>The One-Brand Rule is simple: for each category of recurring purchase, research once, choose well, and commit. One toothpaste. One coffee brand. One notebook manufacturer. The decision is made once, deeply, with full attention — and then it's done. The category becomes a closed file. The cognitive bandwidth returns.</p>
+
+<p>This is not about loyalty for its own sake. It's about converting a recurring tax into a one-time investment. The person who chooses their toothpaste once and buys it automatically has more available attention than the person who reopens the question at every checkout. Multiply that across every category of daily life and the cognitive dividend becomes substantial.</p>
+
+<p>The constraint is the freedom. A piano has 88 keys — finite, constrained. Within those constraints, infinite music is possible. The One-Brand Rule applies the same insight to consumption: by limiting options, you create the structure within which better thinking becomes possible.</p>
+
+<h2>What This Has to Do With Diffr</h2>
+
+<p>Diffr was built around this exact problem. The curation principle behind every Diffr scene is the same rule applied at the platform level: in any given scene, each brand appears exactly once. No brand gets two slots. The goal is not to show you the most popular choices — it's to give you a map of the available landscape, stripped of algorithmic repetition and marketing budget ranking.</p>
+
+<p>The One-Brand Rule is explored in full in <em>The Default Trap: Why Everything You Own Is Owning You</em> — available now on <a href="https://gumroad.com" target="_blank" rel="noopener">Gumroad</a>. The chapter on choice architecture draws on Schwartz, Iyengar, Ries &amp; Trout, and the cognitive science of decision fatigue to build the case from first principles.</p>
+
+<p>If you want the shorter version first: <a href="/diffr#waitlist">join the Diffr waitlist</a>. We'll send you the Manifesto — the condensed version of the book's core arguments — as part of the early access package.</p>
+    `.trim(),
+  },
+  {
+    slug: 'original-priority',
+    title: 'Original Priority: Why You Should Always Go to the Source',
+    description: 'We live in an age of derivatives — adaptations, summaries, reboots, and franchise expansions. Gregory Bateson's definition of information explains why most of it is noise.',
+    date: '2026-04-05',
+    readTime: '7 min read',
+    tags: ['original priority', 'diff-structism', 'cognitive bandwidth', 'information theory', 'creative consumption'],
+    category: 'strategy',
+    excerpt: 'When you watch the adaptation of a book you\'ve never read, you\'re not experiencing the story. You\'re experiencing someone else\'s compression of it.',
+    content: `
+<p class="lead">When you watch the adaptation of a book you've never read, you're not experiencing the story. You're experiencing someone else's compression of it.</p>
+
+<p>This is not a criticism of adaptation as an art form. It is a description of an information-theoretic fact. Every translation from one medium to another loses structure. Every compression sacrifices depth for accessibility. Every adaptation is, by definition, a simplified version of something richer.</p>
+
+<p>The question is: does that matter? And the answer, according to Gregory Bateson's definition of information, is: yes. Specifically.</p>
+
+<h2>The Difference That Makes a Difference</h2>
+
+<p>Bateson defined information as <strong>"a difference that makes a difference."</strong> Not all differences are information. A difference only becomes information when it changes something — our understanding, our behavior, our model of the world.</p>
+
+<p>Apply this to creative consumption. When you read George R.R. Martin's novels, you receive a vast amount of information in Bateson's sense: character psychology rendered in interior monologue, political complexity that requires you to hold forty competing interests simultaneously, a narrative structure that deliberately withholds easy moral conclusions. These are differences that make differences — they alter how you think about power, loyalty, consequence.</p>
+
+<p>When you watch the HBO adaptation, you receive some of this. The core plot survives. Key characters remain. But the interior monologue is gone. The narrative complexity is compressed to fit episodic pacing. The moral ambiguity, especially in the later seasons, resolves into heroism and villainy. The structural richness is reduced to what can be conveyed visually in fifty minutes.</p>
+
+<p>The show isn't bad. It was often excellent television. But it is <em>structurally simpler</em> — offering simpler meanings from a simpler structure. The viewer who watches only the show receives less difference, in Bateson's sense, than the reader who reads the books.</p>
+
+<h2>The Derivative Economy</h2>
+
+<p>This would matter less if derivative content were rare. But we live in an age of systematic adaptation inflation. A novel succeeds. Within months, film rights are sold. A series follows. Then a mobile game, merchandise, a theme park. The original work becomes a franchise — a content machine designed to extract maximum value from a single creative source.</p>
+
+<p>Lévi-Strauss taught us that meaning emerges from structure — from the relationships between elements, not the elements themselves. When a work is adapted, its structure is inevitably altered. Characters are combined or eliminated. Subplots are compressed. Themes are simplified for a broader audience. Each adaptation is a structural transformation — and most are structural collapses.</p>
+
+<p>The derivative economy produces what looks like expansion but functions as repetition. The same characters, the same world, the same emotional beats — packaged in new formats, targeting new platforms, extracting new revenue. Each iteration claims to "expand the universe." But expansion without structural addition is just reproduction. And in Bateson's terms, reproduction without new difference is not information at all.</p>
+
+<h2>The Cognitive Bandwidth Trap</h2>
+
+<p>Human cognitive bandwidth is finite. We can only process so much, hold so many concepts, engage with so many structures at once. When we fill that bandwidth with low-information repetition — the comfortable familiarity of known characters in slightly new situations — we have less capacity for the genuinely new.</p>
+
+<p>The adaptation economy exploits this. It creates what might be called familiarity addiction: the comfort of recognition, the pleasure of expanded canon, the satisfaction of "completing" a franchise. But this comfort is expensive. It consumes the bandwidth that would otherwise be available for encountering genuinely new structures — new authors, new frameworks, new ways of seeing.</p>
+
+<p>Foucault argued that classification systems determine what can be seen. The recommendation algorithm is a classification system. It shows you more of what you've already seen, because that is what it is optimized to do. Original Priority is the decision to step outside that system — to ask not "what's next in this franchise" but "what source haven't I found yet."</p>
+
+<h2>The Practice</h2>
+
+<p>Original Priority as a practice is simple to state and difficult to maintain, because the defaults run in the opposite direction:</p>
+
+<p>Before consuming a derivative work, ask: does the original exist and is it accessible? If yes, start there. The adaptation may still be worth your time — but start with the source. Read the novel before you watch the series. See the original film before you watch the remake. Listen to the composition before you listen to the cover.</p>
+
+<p>When you encounter a summary, a "key takeaways" article, a podcast explaining a book, ask: does this give me the structural complexity of the source, or does it give me a map of it? Maps are useful for navigation. They are not substitutes for terrain.</p>
+
+<p>The question Bateson's criterion asks about any piece of content is: does consuming this give me new structural differences — differences that will change how I think? Or does it repeat existing structures in a more convenient format? The former justifies attention. The latter, usually, does not.</p>
+
+<h2>Why This Philosophy Matters for How We Build Diffr</h2>
+
+<p>Original Priority and the One-Brand Rule are the same principle applied to different domains. Material consumption and creative consumption face the same fundamental problem: an economy optimized for repetition and pseudo-difference, against a mind that only grows through genuine structural novelty.</p>
+
+<p>These ideas are developed at length in <em>The Default Trap: Why Everything You Own Is Owning You</em>. Chapter 9 builds the full argument from Bateson, Lévi-Strauss, and the structural analysis of the adaptation economy. If the ideas here resonate, that's where they go deeper.</p>
+
+<p>Available on <a href="https://gumroad.com" target="_blank" rel="noopener">Gumroad</a>. Or <a href="/diffr#waitlist">join the waitlist</a> — early access includes the Manifesto edition.</p>
+    `.trim(),
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
