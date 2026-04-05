@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getAllPosts } from './posts'
 import { FeaturedCard, PostCard } from './post-card'
+import { CircleHero } from './circle-hero'
 
 export const metadata: Metadata = {
   title: 'Blog — Diffr',
@@ -44,25 +45,44 @@ export default function BlogIndexPage() {
         </div>
       </nav>
 
-      {/* Header */}
-      <header style={{ paddingTop: '120px', paddingBottom: '64px', textAlign: 'center', padding: '120px 24px 64px' }}>
-        <p style={{ color: '#13ae67', fontSize: '12px', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '16px' }}>
-          The Diffr Blog
-        </p>
-        <h1 style={{
-          fontFamily: 'Space Grotesk, sans-serif',
-          fontSize: 'clamp(36px, 5vw, 56px)',
-          fontWeight: 700,
-          lineHeight: 1.1,
-          letterSpacing: '-0.03em',
-          marginBottom: '20px',
-        }}>
-          Build logs, product thinking,<br />
-          <span style={{ color: '#13ae67' }}>and brand philosophy.</span>
-        </h1>
-        <p style={{ color: 'rgba(232,232,232,0.6)', fontSize: '18px', maxWidth: '480px', margin: '0 auto' }}>
-          From the desk of a solo founder building a brand curation platform from scratch.
-        </p>
+      {/* Hero — circle grid */}
+      <header style={{ position: 'relative', overflow: 'hidden', paddingTop: '64px' }}>
+        {/* Circle canvas */}
+        <div style={{ position: 'relative', height: '320px', overflow: 'hidden' }}>
+          <CircleHero />
+          {/* gradient fade to page bg */}
+          <div style={{
+            position: 'absolute', inset: 0,
+            background: 'linear-gradient(to bottom, rgba(10,10,15,0.35) 0%, rgba(10,10,15,0.0) 30%, rgba(10,10,15,0.5) 75%, #0A0A0F 100%)',
+          }} />
+          {/* centred label over circles */}
+          <div style={{
+            position: 'absolute', inset: 0,
+            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+            textAlign: 'center', padding: '0 24px',
+          }}>
+            <p style={{ color: '#e53e3e', fontSize: '11px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', marginBottom: '12px' }}>
+              The Diffr Blog
+            </p>
+            <h1 style={{
+              fontFamily: 'Space Grotesk, sans-serif',
+              fontSize: 'clamp(30px, 4.5vw, 52px)',
+              fontWeight: 700,
+              lineHeight: 1.1,
+              letterSpacing: '-0.03em',
+              color: '#ffffff',
+            }}>
+              Build logs, product thinking,<br />
+              <span style={{ color: '#13ae67' }}>and brand philosophy.</span>
+            </h1>
+          </div>
+        </div>
+        {/* subheading below circles */}
+        <div style={{ textAlign: 'center', padding: '24px 24px 48px' }}>
+          <p style={{ color: 'rgba(232,232,232,0.55)', fontSize: '17px', maxWidth: '460px', margin: '0 auto' }}>
+            From the desk of a solo founder building a brand curation platform from scratch.
+          </p>
+        </div>
       </header>
 
       {/* Posts */}
