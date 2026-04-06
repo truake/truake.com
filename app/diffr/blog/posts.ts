@@ -378,7 +378,7 @@ export const posts: BlogPost[] = [
 
 <p>Diffr was built around this exact problem. The curation principle behind every Diffr scene is the same rule applied at the platform level: in any given scene, each brand appears exactly once. No brand gets two slots. The goal is not to show you the most popular choices — it's to give you a map of the available landscape, stripped of algorithmic repetition and marketing budget ranking.</p>
 
-<p>The One-Brand Rule is explored in full in <em>The Default Trap: Why Everything You Own Is Owning You</em> — available now on <a href="https://gumroad.com" target="_blank" rel="noopener">Gumroad</a>. The chapter on choice architecture draws on Schwartz, Iyengar, Ries &amp; Trout, and the cognitive science of decision fatigue to build the case from first principles.</p>
+<p>The One-Brand Rule is explored in full in <em>The Default Trap: Why Everything You Own Is Owning You</em> — available now on <a href="https://diffr.gumroad.com/l/thedefaulttrap" target="_blank" rel="noopener">Gumroad</a>. The chapter on choice architecture draws on Schwartz, Iyengar, Ries &amp; Trout, and the cognitive science of decision fatigue to build the case from first principles.</p>
 
 <p>If you want the shorter version first: <a href="/diffr#waitlist">join the Diffr waitlist</a>. We'll send you the Manifesto — the condensed version of the book's core arguments — as part of the early access package.</p>
     `.trim(),
@@ -441,7 +441,7 @@ export const posts: BlogPost[] = [
 
 <p>These ideas are developed at length in <em>The Default Trap: Why Everything You Own Is Owning You</em>. Chapter 9 builds the full argument from Bateson, Lévi-Strauss, and the structural analysis of the adaptation economy. If the ideas here resonate, that's where they go deeper.</p>
 
-<p>Available on <a href="https://gumroad.com" target="_blank" rel="noopener">Gumroad</a>. Or <a href="/diffr#waitlist">join the waitlist</a> — early access includes the Manifesto edition.</p>
+<p>Available on <a href="https://diffr.gumroad.com/l/thedefaulttrap" target="_blank" rel="noopener">Gumroad</a>. Or <a href="/diffr#waitlist">join the waitlist</a> — early access includes the Manifesto edition.</p>
     `.trim(),
   },
 ]
