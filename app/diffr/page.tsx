@@ -91,6 +91,7 @@ export default function DiffrPage() {
           <div className="flex items-center gap-6 text-sm" style={{ color: "rgba(255,255,255,0.5)" }}>
             <a href="#how-it-works" className="hover:opacity-100 transition-opacity hidden md:block">How it works</a>
             <a href="#philosophy" className="hover:opacity-100 transition-opacity hidden md:block">Philosophy</a>
+            <Link href="/diffr/blog" className="hover:opacity-100 transition-opacity hidden md:block" style={{ color: "rgba(255,255,255,0.5)" }}>Blog</Link>
             <a
               href="#waitlist"
               className="px-4 py-2 rounded-full text-sm font-semibold transition-all hover:opacity-90"
@@ -363,6 +364,81 @@ export default function DiffrPage() {
         </div>
       </section>
 
+      {/* Book + Community */}
+      <section className="py-20 px-6" style={{ backgroundColor: "#0A0A0F" }}>
+        <div className="max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Book card */}
+            <a
+              href="https://diffr.gumroad.com/l/thedefaulttrap"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group rounded-2xl p-8 flex flex-col gap-4 transition-all hover:scale-[1.02]"
+              style={{ backgroundColor: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+            >
+              <div className="text-xs font-bold tracking-widest uppercase" style={{ color: "#e53e3e" }}>Book</div>
+              <div>
+                <h3 className="text-xl font-bold mb-2">The Default Trap</h3>
+                <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
+                  Why Everything You Own Is Owning You. The philosophy behind Diffr — 44,000 words on choice overload, the One-Brand Rule, and Original Priority.
+                </p>
+              </div>
+              <div className="flex items-center justify-between mt-auto pt-4" style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+                <span className="text-xs font-semibold px-2 py-1 rounded-full" style={{ backgroundColor: "rgba(19,174,103,0.12)", color: "#13ae67" }}>Pay what you want · incl. $0</span>
+                <span className="text-sm font-semibold group-hover:translate-x-1 transition-transform" style={{ color: "#13ae67" }}>Read →</span>
+              </div>
+            </a>
+
+            {/* Community card */}
+            <div
+              className="rounded-2xl p-8 flex flex-col gap-5"
+              style={{ backgroundColor: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}
+            >
+              <div className="text-xs font-bold tracking-widest uppercase" style={{ color: "rgba(255,255,255,0.4)" }}>Follow the build</div>
+              <div className="flex flex-col gap-3">
+                <a
+                  href="https://x.com/diffr_app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-sm hover:opacity-100 transition-opacity"
+                  style={{ color: "rgba(255,255,255,0.65)" }}
+                >
+                  <span className="w-8 h-8 rounded-lg flex items-center justify-center text-base font-bold" style={{ backgroundColor: "rgba(255,255,255,0.06)" }}>𝕏</span>
+                  <div>
+                    <div className="font-semibold text-white">@Diffr_app</div>
+                    <div className="text-xs" style={{ color: "rgba(255,255,255,0.4)" }}>Build logs, brand philosophy, launch updates</div>
+                  </div>
+                </a>
+                <a
+                  href="https://reddit.com/u/Diffr_app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-sm hover:opacity-100 transition-opacity"
+                  style={{ color: "rgba(255,255,255,0.65)" }}
+                >
+                  <span className="w-8 h-8 rounded-lg flex items-center justify-center text-base" style={{ backgroundColor: "rgba(255,255,255,0.06)" }}>🤿</span>
+                  <div>
+                    <div className="font-semibold text-white">u/Diffr_app</div>
+                    <div className="text-xs" style={{ color: "rgba(255,255,255,0.4)" }}>r/minimalism · r/productivity · r/BuyItForLife</div>
+                  </div>
+                </a>
+                <Link
+                  href="/diffr/blog"
+                  className="flex items-center gap-3 text-sm hover:opacity-100 transition-opacity"
+                  style={{ color: "rgba(255,255,255,0.65)" }}
+                >
+                  <span className="w-8 h-8 rounded-lg flex items-center justify-center text-base" style={{ backgroundColor: "rgba(255,255,255,0.06)" }}>✦</span>
+                  <div>
+                    <div className="font-semibold text-white">Diffr Blog</div>
+                    <div className="text-xs" style={{ color: "rgba(255,255,255,0.4)" }}>truake.com/diffr/blog</div>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Waitlist / CTA */}
       <section
         id="waitlist"
@@ -413,6 +489,9 @@ export default function DiffrPage() {
           </p>
           <div className="flex gap-6 text-xs" style={{ color: "rgba(255,255,255,0.3)" }}>
             <Link href="/" className="hover:opacity-100 transition-opacity">← Truake</Link>
+            <Link href="/diffr/blog" className="hover:opacity-100 transition-opacity">Blog</Link>
+            <a href="https://x.com/diffr_app" target="_blank" rel="noopener noreferrer" className="hover:opacity-100 transition-opacity">𝕏 @Diffr_app</a>
+            <a href="https://diffr.gumroad.com/l/thedefaulttrap" target="_blank" rel="noopener noreferrer" className="hover:opacity-100 transition-opacity">Book</a>
             <a href="mailto:hello@truake.com" className="hover:opacity-100 transition-opacity">Contact</a>
           </div>
         </div>
