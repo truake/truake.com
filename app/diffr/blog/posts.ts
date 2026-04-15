@@ -12,6 +12,57 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'the-default-trap-is-now-on-amazon',
+    title: 'The Default Trap Is Now on Amazon',
+    description: 'The book is out. Four drafts, one foundational question, and a complete philosophy of consumption built on the physics of difference.',
+    date: '2026-04-15',
+    readTime: '4 min read',
+    tags: ["diff-structism", "book launch", "the default trap", "legitimate difference", "intentional living"],
+    category: 'build-log',
+    excerpt: 'The book is out. The Default Trap: Why Everything You Own Is Owning You is now available on Kindle.',
+    content: `
+<p class="lead">The book is out.</p>
+
+<p><em>The Default Trap: Why Everything You Own Is Owning You</em> is now available on Kindle.</p>
+
+<p>It took four drafts. The idea started with a crack in the floor — a question I couldn't stop pulling at: is all the manufactured difference around us purely noise, or does it hide a signal? Is there a way to tell the difference between differences that mean something real, and differences that exist only to occupy market space?</p>
+
+<p>The answer became Diff-Structism.</p>
+
+<h2>What the Book Argues</h2>
+
+<p>A complete philosophy of consumption built on one foundational claim: <strong>legitimate difference is physically grounded</strong>. Everything else is pseudo-difference. And the entire apparatus of modern marketing — now turbocharged by AI — is an engine for producing pseudo-difference at industrial scale, and training your mind to experience it as real.</p>
+
+<p>The book goes from physics and entropy all the way to practical life design:</p>
+
+<ul>
+<li><strong>The One-Brand Rule</strong> — commit to one brand per category, build expertise through repetition, reclaim the cognitive bandwidth you've been hemorrhaging to endless comparison</li>
+<li><strong>Original Priority</strong> — consume original works over adaptations, protect your mind from derivative noise</li>
+<li><strong>The Anti-Entropy Protocol</strong> — daily practices for living with intention in a world optimized for impulse</li>
+</ul>
+
+<p>The theory and the practice are load-bearing on each other. You can read either half and get something. But the architecture holds together.</p>
+
+<h2>Where It Came From</h2>
+
+<p>It started with Al Ries and Jack Trout's <em>Positioning</em> — the insight that the mind is a ranking machine. Every brand follows the logic of creating a new sub-category to seize the number one position. If every brand does this, the market doesn't stabilize. It fractures. Endlessly. What they described as a tactic turned out to be a self-replicating engine of artificial difference.</p>
+
+<p>That connected to Baudrillard's observation in <em>The System of Objects</em> — that commodities derive meaning not from what they do, but from how they differ from each other. Meaning had drifted from use to position. From substance to gap.</p>
+
+<p>The question I sat with: is there a way to distinguish differences that mean something real from differences that exist only to occupy market space?</p>
+
+<p>The answer is the foundation of this book.</p>
+
+<h2>If You've Been Following Diffr</h2>
+
+<p>This is the long-form version of everything we've been building toward. Diffr — the brand curation tool — is the practical expression of Diff-Structism. The book is the philosophical foundation it stands on.</p>
+
+<p>If the One-Brand Rule has made sense to you intuitively, this book will give you the load-bearing argument underneath it.</p>
+
+<p><a href="https://www.amazon.com/dp/B0GX2YRK3T" target="_blank" rel="noopener noreferrer">→ Get it on Kindle: amazon.com/dp/B0GX2YRK3T</a></p>
+    `.trim(),
+  },
+  {
     slug: 'the-minus-13-iq-tax',
     title: 'The −13 IQ Point Tax',
     description: 'Excessive choice doesn't just slow you down — it measurably degrades your cognitive function. Here's what the research shows and why it's a design problem, not a personal failure.',
