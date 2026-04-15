@@ -65,7 +65,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'the-minus-13-iq-tax',
     title: 'The −13 IQ Point Tax',
-    description: 'Excessive choice doesn't just slow you down — it measurably degrades your cognitive function. Here's what the research shows and why it's a design problem, not a personal failure.',
+    description: "Excessive choice doesn't just slow you down — it measurably degrades your cognitive function. Here's what the research shows and why it's a design problem, not a personal failure.",
     date: '2026-04-13',
     readTime: '6 min read',
     tags: ["decision fatigue", "cognitive bandwidth", "choice overload", "iq", "diff-structism"],
