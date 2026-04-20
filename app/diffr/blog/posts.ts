@@ -12,6 +12,65 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'what-bateson-actually-said',
+    title: 'What Bateson Actually Said',
+    description: 'Everyone quotes Gregory Bateson's definition of information. Almost no one has read the original. Here's why that gap matters — and what it reveals about how we consume ideas.',
+    date: '2026-04-20',
+    readTime: '7 min read',
+    tags: ["original priority", "bateson", "information theory", "diff-structism", "reading"],
+    category: 'strategy',
+    excerpt: 'The phrase 'a difference that makes a difference' has been quoted so many times, in so many contexts, that it has become wallpaper. Here's what Bateson actually meant.',
+    content: `
+<p class="lead">There is a specific irony in the way Gregory Bateson’s most famous definition gets used. Bateson said that information is "a difference that makes a difference." He said it in the context of a rigorous argument about mind, perception, and ecology. The phrase gets quoted, routinely, by people who have absorbed it from someone who absorbed it from someone who once read a summary. The definition of information — the thing that distinguishes signal from noise — is itself circulating as noise.</p>
+
+<p>This is not a complaint about intellectual rigor. It is an observation about how ideas degrade in transmission, and what that degradation costs you.</p>
+
+<h2>The Original Argument</h2>
+
+<p>Bateson wrote <em>Steps to an Ecology of Mind</em> in 1972. The book is not a collection of aphorisms. It is a sustained attempt to build a unified theory of mind, communication, and ecological systems using concepts borrowed from cybernetics, anthropology, and biological evolution. The "difference" definition appears within that project, not as a standalone observation.</p>
+
+<p>The argument runs roughly as follows: the physical world is full of potential differences. Differences in temperature, pressure, density, position. Most of these differences do not do anything. They exist, but they have no causal consequence in any system we care about. A difference becomes information only when it makes a difference to some other state in the system. The nerve ending that fires when pressure changes converts a physical difference into a neural difference, which propagates through the organism’s signaling network. The physical difference becomes information by virtue of making a further difference.</p>
+
+<p>What Bateson was doing with this definition is anti-reductionist. He was arguing that information is not a property of things. It is a property of relationships between things and systems. You cannot identify information by examining an object in isolation. You can only identify it by tracing what differences it makes downstream. This is a profound epistemological claim, and it has direct implications for how you evaluate signal versus noise in any domain.</p>
+
+<p>The decontextualized version — "a difference that makes a difference," full stop — sounds like a clever phrase about signal detection. The original argument is about the relational nature of meaning itself. Those are not the same thing.</p>
+
+<h2>What Gets Lost in Summary</h2>
+
+<p>Every compression of a complex argument loses something. The question is what gets lost and whether what remains is still useful or has become misleading.</p>
+
+<p>In Bateson’s case, what gets lost is the ecological and systemic frame. The phrase in isolation implies that you can evaluate a piece of information by examining whether it "makes a difference." But Bateson’s point was that this evaluation is system-relative. The same difference may be information in one system and noise in another. The same signal that fires a nerve ending has no effect on a thermostat. The concept requires you to specify the system before you can identify the information.</p>
+
+<p>This matters practically. When someone invokes Bateson to argue that "only things that make a difference matter," they are running a simpler filter than Bateson actually designed. They are using the phrase as a justification for ignoring things, rather than as a prompt to ask: makes a difference to what, in which system, evaluated by whom?</p>
+
+<p>Claude Shannon’s information theory provides the mathematical foundation for what Bateson was describing qualitatively. Shannon showed that every transmission degrades signal. Each encoding and decoding step introduces noise. A clean signal at source becomes a noisy signal at destination. Apply this to intellectual transmission and the implication is direct: the further an idea travels from its origin, the more noise it accumulates relative to signal. What you receive after three layers of summary is not the original idea plus convenience. It is a degraded version, with the noise level proportional to transmission distance.</p>
+
+<h2>The Same Pattern in Products</h2>
+
+<p>The intellectual transmission problem has a direct commercial analog. Consider what happens to a brand’s founding philosophy when the brand changes hands.</p>
+
+<p>Patagonia was built by Yvon Chouinard on a specific philosophy: environmental accountability, product longevity, and the explicit argument that consumers should buy less. That philosophy is not marketing. It is structurally embedded in Patagonia’s product decisions, repair programs, and public advocacy. It is coherent because it comes from a founder whose convictions predate the brand.</p>
+
+<p>Now consider a craft spirits brand acquired by a private equity firm two years after winning a distillery award. The acquirer retains the name, the bottle design, and the origin story. What they cannot retain is the founding decision-making philosophy, because that lived in a specific person with specific convictions who is no longer making the decisions. The product may be technically identical for several years. The organizational logic that produced it is not.</p>
+
+<p>This is not cynicism about acquisition. It is Bateson’s point applied to brand transmission. The "information" in a founding brand — the differences that make a difference in product decisions — is relational and system-dependent. It exists in the relationship between a founder’s convictions and the product decisions those convictions generate. Change the system, and the same nominal brand produces different information, even if the surface signal looks identical.</p>
+
+<h2>How to Practice Original Priority</h2>
+
+<p>Original Priority is the discipline of going to primary sources before accepting a summary. It is harder than it sounds and easier than it looks, because most primary sources are actually accessible. Bateson’s <em>Steps to an Ecology of Mind</em> is available in most libraries and as an affordable paperback. Shannon’s original 1948 paper, "A Mathematical Theory of Communication," is freely available online. The barrier to original sources is usually not access but habit.</p>
+
+<p>For intellectual content: read the primary source before reading about it. If you are going to cite an argument, find where the argument was first made. This does not mean you must read everything from scratch — it means you should locate the source before accepting the summary as authoritative.</p>
+
+<p>For products: identify who founded the brand, whether the founding team still controls decisions, and how long ago the product philosophy was established. A brand whose founder still runs daily operations is a different epistemic object than a brand whose founder sold six years ago and whose current leadership came from a consumer goods conglomerate. Same name. Different information.</p>
+
+<p>Sarah, a buyer for a specialty retail chain, describes her evaluation process: "I always look for who actually decided the product was good enough to ship. If that person is still there and still has authority, I trust the signal. If it’s been through two acquisitions, I need to verify each claimed quality independently — because the transmission chain has introduced too much noise."</p>
+
+<p>This is Bateson operationalized. The difference that makes a difference is not in the brand name. It is in the relationship between the decision-maker’s standards and the product that results.</p>
+
+<p>The full argument for Original Priority, and how it applies to everything from product selection to media consumption, is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. And if you want to see a product built on this principle — where every brand recommendation traces back to founding-era signal, not acquisition-era noise — <a href="/diffr#waitlist">Diffr is on the waitlist</a>.</p>
+    `.trim(),
+  },
+  {
     slug: 'the-default-trap-is-now-on-amazon',
     title: 'The Default Trap Is Now on Amazon',
     description: 'The book is out. Four drafts, one foundational question, and a complete philosophy of consumption built on the physics of difference.',
