@@ -14,7 +14,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'the-derivative-economy',
     title: 'The Derivative Economy',
-    description: 'We live in a world of adaptations, reboots, and brand successors. Shannon's information theory explains exactly what gets lost each time — and why it matters for what you own.',
+    description: "We live in a world of adaptations, reboots, and brand successors. Shannon's information theory explains exactly what gets lost each time — and why it matters for what you own.",
     date: '2026-04-27',
     readTime: '7 min read',
     tags: ["original priority", "shannon", "brand philosophy", "diff-structism", "signal vs noise"],
@@ -75,12 +75,12 @@ export const posts: BlogPost[] = [
   {
     slug: 'what-bateson-actually-said',
     title: 'What Bateson Actually Said',
-    description: 'Everyone quotes Gregory Bateson's definition of information. Almost no one has read the original. Here's why that gap matters — and what it reveals about how we consume ideas.',
+    description: "Everyone quotes Gregory Bateson's definition of information. Almost no one has read the original. Here's why that gap matters — and what it reveals about how we consume ideas.",
     date: '2026-04-20',
     readTime: '7 min read',
     tags: ["original priority", "bateson", "information theory", "diff-structism", "reading"],
     category: 'strategy',
-    excerpt: 'The phrase 'a difference that makes a difference' has been quoted so many times, in so many contexts, that it has become wallpaper. Here's what Bateson actually meant.',
+    excerpt: "The phrase 'a difference that makes a difference' has been quoted so many times, in so many contexts, that it has become wallpaper. Here's what Bateson actually meant.",
     content: `
 <p class="lead">There is a specific irony in the way Gregory Bateson’s most famous definition gets used. Bateson said that information is "a difference that makes a difference." He said it in the context of a rigorous argument about mind, perception, and ecology. The phrase gets quoted, routinely, by people who have absorbed it from someone who absorbed it from someone who once read a summary. The definition of information — the thing that distinguishes signal from noise — is itself circulating as noise.</p>
 

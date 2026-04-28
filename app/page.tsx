@@ -205,52 +205,37 @@ export default function Home() {
               </div>
             </Link>
 
-            {/* Story Universe card */}
-            <div
-              id="story"
-              className="rounded-3xl p-8 h-full"
-              style={{ backgroundColor: "rgba(168,196,216,0.25)", border: "1px solid rgba(168,196,216,0.4)" }}
-            >
-              <div className="flex items-start justify-between mb-6">
-                <div
-                  className="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl"
-                  style={{ backgroundColor: "rgba(168,196,216,0.3)" }}
-                >
-                  ✦
-                </div>
-                <span
-                  className="text-xs font-semibold px-2.5 py-1 rounded-full"
-                  style={{ backgroundColor: "rgba(42,38,32,0.08)", color: "#6B6560" }}
-                >
-                  Universe
-                </span>
-              </div>
-              <h3 className="text-2xl font-bold mb-3" style={{ color: "#2A2620" }}>
-                Parallel Universe 2708#
-              </h3>
-              <p className="text-sm leading-relaxed mb-6" style={{ color: "#6B6560" }}>
-                A sci-fi story universe set in A.D. 2035 on Earth 2708#. A world
-                of secondary energy crises, the fictional element Truakeum (Tk,
-                126), and the beginning of everything.
-              </p>
+            {/* Pathoragy card */}
+            <Link href="/pathoragy" className="group block">
               <div
-                className="flex flex-wrap gap-2"
-                role="list"
-                aria-label="Story tags"
+                className="rounded-3xl p-8 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-xl"
+                style={{ backgroundColor: "#07090E", color: "#FFFFFF" }}
               >
-                {["Chapter 1: The Beginning", "Truakeum · Tk 126", "A.D. 2035"].map(
-                  (tag) => (
-                    <span
-                      key={tag}
-                      className="text-xs px-2.5 py-1 rounded-full"
-                      style={{ backgroundColor: "rgba(42,38,32,0.08)", color: "#6B6560" }}
-                    >
-                      {tag}
-                    </span>
-                  )
-                )}
+                <div className="flex items-start justify-between mb-6">
+                  <div
+                    className="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl"
+                    style={{ background: "linear-gradient(135deg, rgba(79,142,247,0.2), rgba(124,58,237,0.2))", border: "1px solid rgba(79,142,247,0.25)" }}
+                  >
+                    ◈
+                  </div>
+                  <span
+                    className="text-xs font-semibold px-2.5 py-1 rounded-full"
+                    style={{ backgroundColor: "rgba(79,142,247,0.15)", color: "#4F8EF7" }}
+                  >
+                    iOS Beta
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold mb-3">Pathoragy</h3>
+                <p className="text-sm leading-relaxed mb-6" style={{ color: "#C0C0C0" }}>
+                  A long-horizon life planning app for iOS. Turn wealth, knowledge,
+                  and interest goals into structured routes, waypoints, and evidence-backed tasks.
+                </p>
+                <div className="flex items-center gap-2 text-sm font-semibold" style={{ color: "#4F8EF7" }}>
+                  Learn more
+                  <span className="transition-transform group-hover:translate-x-1">→</span>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
