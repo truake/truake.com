@@ -175,7 +175,7 @@ export default function Home() {
                 <div className="flex items-start justify-between mb-6">
                   <div
                     className="w-14 h-14 rounded-2xl flex items-center justify-center"
-                    style={{ backgroundColor: "rgba(19,174,103,0.15)" }}
+                    style={{ backgroundColor: "rgba(27,139,245,0.15)" }}
                   >
                     <Image
                       src="/diffr-icon.png"
@@ -187,7 +187,7 @@ export default function Home() {
                   </div>
                   <span
                     className="text-xs font-semibold px-2.5 py-1 rounded-full"
-                    style={{ backgroundColor: "rgba(19,174,103,0.15)", color: "#13ae67" }}
+                    style={{ backgroundColor: "rgba(27,139,245,0.15)", color: "#1B8BF5" }}
                   >
                     Live
                   </span>
@@ -198,7 +198,7 @@ export default function Home() {
                   per category. No repeats. No noise. Built on the Non-Repetition
                   Principle.
                 </p>
-                <div className="flex items-center gap-2 text-sm font-semibold" style={{ color: "#13ae67" }}>
+                <div className="flex items-center gap-2 text-sm font-semibold" style={{ color: "#1B8BF5" }}>
                   Learn more
                   <span className="transition-transform group-hover:translate-x-1">→</span>
                 </div>

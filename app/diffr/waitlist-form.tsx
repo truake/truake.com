@@ -22,7 +22,7 @@ export default function WaitlistForm() {
       <button
         type="submit"
         className="px-6 py-3.5 rounded-full text-sm font-semibold transition-all hover:opacity-90 hover:scale-105 whitespace-nowrap"
-        style={{ background: "linear-gradient(135deg, #13ae67, #1d2088)", color: "#fff" }}
+        style={{ background: "linear-gradient(135deg, #1B8BF5, #F0522C)", color: "#fff" }}
       >
         Get Early Access
       </button>

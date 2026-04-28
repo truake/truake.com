@@ -39,25 +39,25 @@ const features = [
     icon: "⬡",
     title: "Scene Decomposition",
     desc: "Every consumption scenario — cooking steak, brewing coffee, setting up a home office — is broken into its minimum units. Each unit gets exactly one brand.",
-    color: "#13ae67",
+    color: "#1B8BF5",
   },
   {
     icon: "◈",
     title: "Non-Repetition Principle",
     desc: "No brand appears twice in the same scenario. Even if a brand excels in multiple categories, the principle forces genuine diversity and discovery.",
-    color: "#1d2088",
+    color: "#F0522C",
   },
   {
     icon: "◉",
     title: "Visual Curation",
     desc: "15 options, not 1,500. Each presented visually, letting you perceive differences the way your brain was designed to — through sight, not text.",
-    color: "#13ae67",
+    color: "#1B8BF5",
   },
   {
     icon: "◎",
     title: "Cultural Value Layer",
     desc: "Every recommendation includes the brand's origin, founding philosophy, and cultural DNA. You're not just buying a product — you're choosing a world.",
-    color: "#1d2088",
+    color: "#F0522C",
   },
 ];
 
@@ -69,11 +69,11 @@ const scenarios = [
 
 export default function DiffrPage() {
   return (
-    <div style={{ backgroundColor: "#0A0A0F", color: "#FFFFFF", minHeight: "100vh" }}>
+    <div style={{ backgroundColor: "#08111E", color: "#FFFFFF", minHeight: "100vh" }}>
       {/* Nav */}
       <nav
         className="fixed top-0 left-0 right-0 z-50 border-b"
-        style={{ backgroundColor: "rgba(10,10,15,0.95)", borderColor: "rgba(255,255,255,0.08)", backdropFilter: "blur(12px)" }}
+        style={{ backgroundColor: "rgba(8,17,30,0.95)", borderColor: "rgba(255,255,255,0.08)", backdropFilter: "blur(12px)" }}
         aria-label="Diffr navigation"
       >
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -86,7 +86,7 @@ export default function DiffrPage() {
               className="h-6 w-auto brightness-0 invert opacity-60"
             />
             <span style={{ color: "rgba(255,255,255,0.3)" }}>/</span>
-            <span className="font-bold text-sm" style={{ color: "#13ae67" }}>diffr</span>
+            <span className="font-bold text-sm" style={{ color: "#1B8BF5" }}>diffr</span>
           </Link>
           <div className="flex items-center gap-6 text-sm" style={{ color: "rgba(255,255,255,0.5)" }}>
             <a href="#how-it-works" className="hover:opacity-100 transition-opacity hidden md:block">How it works</a>
@@ -95,7 +95,7 @@ export default function DiffrPage() {
             <a
               href="#waitlist"
               className="px-4 py-2 rounded-full text-sm font-semibold transition-all hover:opacity-90"
-              style={{ background: "linear-gradient(135deg, #13ae67, #1d2088)", color: "#fff" }}
+              style={{ background: "linear-gradient(135deg, #1B8BF5, #F0522C)", color: "#fff" }}
             >
               Get Early Access
             </a>
@@ -109,7 +109,7 @@ export default function DiffrPage() {
           <div className="flex justify-center mb-8">
             <div
               className="w-20 h-20 rounded-2xl flex items-center justify-center"
-              style={{ background: "linear-gradient(135deg, rgba(19,174,103,0.2), rgba(29,32,136,0.2))", border: "1px solid rgba(19,174,103,0.3)" }}
+              style={{ background: "linear-gradient(135deg, rgba(27,139,245,0.2), rgba(240,82,44,0.2))", border: "1px solid rgba(27,139,245,0.3)" }}
             >
               <Image
                 src="/diffr-icon.png"
@@ -124,9 +124,9 @@ export default function DiffrPage() {
 
           <div
             className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase mb-6 px-3 py-1.5 rounded-full"
-            style={{ backgroundColor: "rgba(19,174,103,0.12)", color: "#13ae67", border: "1px solid rgba(19,174,103,0.2)" }}
+            style={{ backgroundColor: "rgba(27,139,245,0.12)", color: "#1B8BF5", border: "1px solid rgba(27,139,245,0.2)" }}
           >
-            <span className="w-1.5 h-1.5 rounded-full bg-[#13ae67] animate-pulse" />
+            <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ backgroundColor: "#1B8BF5" }} />
             Now in Early Access
           </div>
 
@@ -138,7 +138,7 @@ export default function DiffrPage() {
             <br />
             <span
               style={{
-                background: "linear-gradient(135deg, #13ae67, #4ECDC4, #1d2088)",
+                background: "linear-gradient(135deg, #1B8BF5, #7FC3FA, #F0522C)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
@@ -162,7 +162,7 @@ export default function DiffrPage() {
             <a
               href="#waitlist"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold text-base transition-all hover:scale-105"
-              style={{ background: "linear-gradient(135deg, #13ae67, #1d2088)", color: "#fff" }}
+              style={{ background: "linear-gradient(135deg, #1B8BF5, #F0522C)", color: "#fff" }}
             >
               Get Early Access →
             </a>
@@ -180,7 +180,7 @@ export default function DiffrPage() {
       {/* Problem */}
       <section
         className="py-20 px-6"
-        style={{ backgroundColor: "#0F0F18" }}
+        style={{ backgroundColor: "#0D1828" }}
       >
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -204,7 +204,7 @@ export default function DiffrPage() {
               >
                 <div
                   className="text-4xl font-bold mb-2"
-                  style={{ color: "#13ae67" }}
+                  style={{ color: "#1B8BF5" }}
                 >
                   {item.stat}
                 </div>
@@ -217,13 +217,13 @@ export default function DiffrPage() {
 
           <div
             className="mt-12 p-8 rounded-3xl"
-            style={{ backgroundColor: "rgba(19,174,103,0.06)", border: "1px solid rgba(19,174,103,0.15)" }}
+            style={{ backgroundColor: "rgba(27,139,245,0.06)", border: "1px solid rgba(27,139,245,0.15)" }}
           >
             <p className="text-lg font-medium text-center" style={{ color: "rgba(255,255,255,0.85)", lineHeight: 1.8 }}>
               &ldquo;More options do not create better experiences. More options create anxiety.
               What you need isn&apos;t more doors — it&apos;s a better map.&rdquo;
             </p>
-            <p className="text-center mt-4 text-sm" style={{ color: "#13ae67" }}>
+            <p className="text-center mt-4 text-sm" style={{ color: "#1B8BF5" }}>
               — Diff-Structism, Chapter 9
             </p>
           </div>
@@ -261,7 +261,7 @@ export default function DiffrPage() {
               <div key={item.step} className="relative">
                 <div
                   className="text-6xl font-bold mb-4"
-                  style={{ color: "rgba(19,174,103,0.15)" }}
+                  style={{ color: "rgba(27,139,245,0.15)" }}
                 >
                   {item.step}
                 </div>
@@ -285,7 +285,7 @@ export default function DiffrPage() {
                   <span className="font-semibold text-sm">{s.label}</span>
                   <span
                     className="text-xs px-2 py-0.5 rounded-full font-mono"
-                    style={{ backgroundColor: "rgba(19,174,103,0.12)", color: "#13ae67" }}
+                    style={{ backgroundColor: "rgba(27,139,245,0.12)", color: "#1B8BF5" }}
                   >
                     {s.items} items
                   </span>
@@ -310,7 +310,7 @@ export default function DiffrPage() {
       {/* Features */}
       <section
         className="py-24 px-6"
-        style={{ backgroundColor: "#0F0F18" }}
+        style={{ backgroundColor: "#0D1828" }}
       >
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-center">What makes Diffr different</h2>
@@ -342,7 +342,7 @@ export default function DiffrPage() {
         <div className="max-w-4xl mx-auto text-center">
           <div
             className="inline-block text-xs font-semibold tracking-widest uppercase mb-6 px-3 py-1.5 rounded-full"
-            style={{ backgroundColor: "rgba(29,32,136,0.3)", color: "rgba(200,200,255,0.8)", border: "1px solid rgba(29,32,136,0.5)" }}
+            style={{ backgroundColor: "rgba(240,82,44,0.12)", color: "rgba(255,160,120,0.9)", border: "1px solid rgba(240,82,44,0.35)" }}
           >
             Built on Diff-Structism
           </div>
@@ -365,7 +365,7 @@ export default function DiffrPage() {
       </section>
 
       {/* Book + Community */}
-      <section className="py-20 px-6" style={{ backgroundColor: "#0A0A0F" }}>
+      <section className="py-20 px-6" style={{ backgroundColor: "#08111E" }}>
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Book card */}
@@ -384,8 +384,8 @@ export default function DiffrPage() {
                 </p>
               </div>
               <div className="flex items-center justify-between mt-auto pt-4" style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}>
-                <span className="text-xs font-semibold px-2 py-1 rounded-full" style={{ backgroundColor: "rgba(19,174,103,0.12)", color: "#13ae67" }}>Pay what you want · incl. $0</span>
-                <span className="text-sm font-semibold group-hover:translate-x-1 transition-transform" style={{ color: "#13ae67" }}>Read →</span>
+                <span className="text-xs font-semibold px-2 py-1 rounded-full" style={{ backgroundColor: "rgba(27,139,245,0.12)", color: "#1B8BF5" }}>Pay what you want · incl. $0</span>
+                <span className="text-sm font-semibold group-hover:translate-x-1 transition-transform" style={{ color: "#1B8BF5" }}>Read →</span>
               </div>
             </a>
 
@@ -443,7 +443,7 @@ export default function DiffrPage() {
       <section
         id="waitlist"
         className="py-24 px-6"
-        style={{ backgroundColor: "#0F0F18" }}
+        style={{ backgroundColor: "#0D1828" }}
       >
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4">
