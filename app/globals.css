@@ -11,13 +11,57 @@
   --tk-dark: #2A2620;
   --tk-mid: #6B6560;
 
-  /* Diffr brand palette */
-  --df-bg: #0A0A0F;
-  --df-green: #13ae67;
-  --df-blue: #1d2088;
-  --df-text: #FFFFFF;
-  --df-muted: #C0C0C0;
-  --df-border: rgba(255, 255, 255, 0.12);
+  /* Diffr brand palette (app tokens) */
+  --df-blue:   #1B8BF5;
+  --df-accent: #F0522C;
+  --df-dark:   #0D1B2E;
+}
+
+/* ── Diffr page theme tokens ──────────────────────────────── */
+/* Apply class="diffr-root" to the page wrapper.             */
+.diffr-root {
+  /* dark (default) */
+  --d-bg:          #08111E;
+  --d-bg2:         #0D1828;
+  --d-nav:         rgba(8,17,30,0.95);
+  --d-nav-border:  rgba(255,255,255,0.08);
+  --d-text:        #ffffff;
+  --d-text-85:     rgba(255,255,255,0.85);
+  --d-text-70:     rgba(255,255,255,0.70);
+  --d-text-60:     rgba(255,255,255,0.60);
+  --d-text-50:     rgba(255,255,255,0.50);
+  --d-text-40:     rgba(255,255,255,0.40);
+  --d-text-30:     rgba(255,255,255,0.30);
+  --d-text-20:     rgba(255,255,255,0.20);
+  --d-card:        rgba(255,255,255,0.03);
+  --d-card2:       rgba(255,255,255,0.04);
+  --d-border:      rgba(255,255,255,0.06);
+  --d-border2:     rgba(255,255,255,0.08);
+  --d-input-bg:    rgba(255,255,255,0.06);
+  --d-input-border:rgba(255,255,255,0.14);
+}
+
+@media (prefers-color-scheme: light) {
+  .diffr-root {
+    --d-bg:          #F5F6F8;
+    --d-bg2:         #EAEDF4;
+    --d-nav:         rgba(245,246,248,0.95);
+    --d-nav-border:  rgba(13,27,46,0.10);
+    --d-text:        #0D1B2E;
+    --d-text-85:     rgba(13,27,46,0.88);
+    --d-text-70:     rgba(13,27,46,0.75);
+    --d-text-60:     rgba(13,27,46,0.65);
+    --d-text-50:     rgba(13,27,46,0.58);
+    --d-text-40:     rgba(13,27,46,0.50);
+    --d-text-30:     rgba(13,27,46,0.40);
+    --d-text-20:     rgba(13,27,46,0.28);
+    --d-card:        rgba(13,27,46,0.04);
+    --d-card2:       rgba(255,255,255,0.80);
+    --d-border:      rgba(13,27,46,0.08);
+    --d-border2:     rgba(13,27,46,0.12);
+    --d-input-bg:    rgba(13,27,46,0.04);
+    --d-input-border:rgba(13,27,46,0.16);
+  }
 }
 
 /* Blog article prose styles */
@@ -29,10 +73,10 @@
 .blog-prose li { margin-bottom: 0.5em; line-height: 1.75; }
 .blog-prose strong { color: #e8e8e8; font-weight: 600; }
 .blog-prose em { color: rgba(232,232,232,0.9); }
-.blog-prose a { color: #13ae67; text-decoration: underline; text-decoration-color: rgba(19,174,103,0.4); }
-.blog-prose a:hover { text-decoration-color: #13ae67; }
-.blog-prose code { background: rgba(255,255,255,0.08); color: #13ae67; padding: 2px 6px; border-radius: 4px; font-size: 0.88em; }
-.blog-prose blockquote { border-left: 3px solid #13ae67; padding-left: 1.2em; margin: 1.6em 0; color: rgba(232,232,232,0.7); font-style: italic; }
+.blog-prose a { color: #1B8BF5; text-decoration: underline; text-decoration-color: rgba(27,139,245,0.4); }
+.blog-prose a:hover { text-decoration-color: #1B8BF5; }
+.blog-prose code { background: rgba(255,255,255,0.08); color: #1B8BF5; padding: 2px 6px; border-radius: 4px; font-size: 0.88em; }
+.blog-prose blockquote { border-left: 3px solid #1B8BF5; padding-left: 1.2em; margin: 1.6em 0; color: rgba(232,232,232,0.7); font-style: italic; }
 
 @theme inline {
   --color-tk-cream: var(--tk-cream);
@@ -43,9 +87,9 @@
   --color-tk-tan: var(--tk-tan);
   --color-tk-dark: var(--tk-dark);
   --color-tk-mid: var(--tk-mid);
-  --color-df-bg: var(--df-bg);
-  --color-df-green: var(--df-green);
-  --color-df-blue: var(--df-blue);
+  --color-df-blue:   var(--df-blue);
+  --color-df-accent: var(--df-accent);
+  --color-df-dark:   var(--df-dark);
 }
 
 body {

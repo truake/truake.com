@@ -13,16 +13,16 @@ export default function WaitlistForm() {
         placeholder="your@email.com"
         className="flex-1 px-5 py-3.5 rounded-full text-sm outline-none transition-all"
         style={{
-          backgroundColor: "rgba(255,255,255,0.06)",
-          border: "1px solid rgba(255,255,255,0.12)",
-          color: "#fff",
+          backgroundColor: "var(--d-input-bg)",
+          border: "1px solid var(--d-input-border)",
+          color: "var(--d-text)",
         }}
         aria-label="Email address"
       />
       <button
         type="submit"
         className="px-6 py-3.5 rounded-full text-sm font-semibold transition-all hover:opacity-90 hover:scale-105 whitespace-nowrap"
-        style={{ background: "linear-gradient(135deg, #1B8BF5, #F0522C)", color: "#fff" }}
+        style={{ backgroundColor: "#F0522C", color: "#fff" }}
       >
         Get Early Access
       </button>
