@@ -12,6 +12,63 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'building-diffr-scene-problem',
+    title: 'Building Diffr: The Scene Problem',
+    description: 'What does 'one brand per slot' actually mean in engineering? The answer is harder than it sounds — and it changes everything about how curation works.',
+    date: '2026-05-04',
+    readTime: '5 min read',
+    tags: ["build log", "diffr", "scene decomposition", "indie dev", "product design"],
+    category: 'build-log',
+    excerpt: 'Is 'knife' one slot or three? The answer determines the philosophy of every scene Diffr builds.',
+    content: `
+<p class="lead">The hardest design problem in Diffr is not the recommendation algorithm or the brand database. It is the decomposition problem: given a consumption scene, how do you decide what the slots are? Every other decision in the system depends on getting this right, and there is no objective answer. The decomposition is a philosophical commitment masquerading as a data model.</p>
+
+<p>Here is the specific version of the problem that took me the longest to resolve.</p>
+
+<h2>What Is a Slot?</h2>
+
+<p>Diffr’s core constraint is one brand per slot, per scene. A slot is the minimal unit of product function within a scene. If you are building a home coffee setup, "espresso machine" is a slot. "Coffee grinder" is a slot. But what about "tamper"? Is that a slot, or a component of the espresso machine slot?</p>
+
+<p>The answer has consequences. If tamper is a sub-slot of espresso machine, then the brand that occupies the espresso machine slot potentially covers the tamper as well, which means you never surface a tamper-specialist brand. But if tamper is its own slot, you have to find a brand that is meaningfully differentiated as a tamper specialist — and you have to justify why a user needs brand-level guidance on a 20-dollar piece of machined steel.</p>
+
+<p>The general version of this question is: what is the minimum function unit below which brand choice is not meaningful? The answer is not fixed. It is user-context dependent, category dependent, and in some cases philosophically dependent on what the scene is trying to communicate.</p>
+
+<h2>The Knife Problem</h2>
+
+<p>The knife problem is the clearest version of this. In a home kitchen setup, "knife" could be one slot, or three, or seven.</p>
+
+<p>One-slot version: the scene assigns one brand to cover the user’s cutting needs. You get a recommendation for a brand that makes excellent all-purpose kitchen knives. Simple. The brand covers the need. But you lose the information that chef’s knives, paring knives, and bread knives are genuinely different tools optimized for different tasks — and that the best chef’s knife brand and the best bread knife brand are not the same.</p>
+
+<p>Three-slot version: chef’s knife, paring knife, bread knife each get their own brand. Now the scene is teaching the user something about kitchen knife specialization. A user who didn’t know that Global and Wusthof occupy different positions in the knife landscape — different steel composition, different edge geometry, different ergonomic philosophy — learns it from the structure of the scene itself. The decomposition is doing informational work.</p>
+
+<p>Seven-slot version: add boning knife, fillet knife, santoku, nakiri. Now you have a professional knife set, which is useful for a specific user (the serious home cook building out a full kit) and useless for another (someone who just wants to cook dinner without a research project). The decomposition has become a scope problem as well as a philosophy problem.</p>
+
+<p>The decision I landed on: slots are decomposed to the level at which brand specialization is meaningful and accessible. A brand that specifically makes bread knives as its primary product, and is better at it because of that specialization, justifies a bread knife slot. A brand that makes a product the user could meaningfully seek out independently justifies a slot. If the product is not something a user would ever buy separately or search for independently, it is a component, not a slot.</p>
+
+<h2>When Decomposition Reflects Philosophy</h2>
+
+<p>The slot decomposition problem turns out to be a proxy for a deeper question: what does the scene exist to do?</p>
+
+<p>If the scene’s job is to minimize decisions, then coarser decomposition is correct. Fewer slots means fewer decisions. The user gets functional coverage with less cognitive load. This is the efficiency case.</p>
+
+<p>If the scene’s job is to map a domain — to give the user genuine knowledge about the brand landscape in a category — then finer decomposition is correct. More slots means more information about how the category is actually structured. The user learns something about the space, not just how to cover their immediate need.</p>
+
+<p>Diffr is trying to do both, and the tension is real. The current working resolution: scene decomposition is calibrated by context tag. A "quick setup" scene uses coarser slots. An "enthusiast" or "build out" scene uses finer slots. The decomposition is not fixed per category; it is adjusted by the intent signal in the scene request.</p>
+
+<p>This creates an engineering problem: the slot taxonomy has to be parameterized by intent, not just by category. The same category (kitchen knives) maps to different slot structures depending on context. That parameterization is part of what is currently being built.</p>
+
+<h2>Where We Are Now</h2>
+
+<p>The current state: we have a working slot taxonomy for approximately 40 core scene categories, covering the most common consumption domains — home kitchen, home office, travel kit, fitness setup, and a dozen others. Each category has a default decomposition and an "enthusiast" decomposition that goes one level finer.</p>
+
+<p>The knife problem is marked as resolved-pending-validation. The working answer is three slots (chef’s, paring, bread) for default scenes and five slots (adding santoku and boning) for enthusiast scenes. Whether that is right will only be knowable once real users tell us whether the decomposition matches how they actually think about their kitchens.</p>
+
+<p>This is the part of the build I find most interesting and most uncertain. The data engineering work — brand database, image pipeline, graph layer — has clear success metrics. The decomposition work has success metrics that are ultimately experiential. Did the user feel like the scene gave them the right shape of the problem? That is not a metric you can measure before users exist.</p>
+
+<p>If you have a strong opinion about how a specific scene should be decomposed — what counts as a slot in your domain — I want to hear it. <a href="/diffr#waitlist">Join the waitlist</a> and there is a feedback field in the onboarding. The slot taxonomy is one of the things that will be most improved by domain expert input before launch.</p>
+    `.trim(),
+  },
+  {
     slug: 'the-derivative-economy',
     title: 'The Derivative Economy',
     description: "We live in a world of adaptations, reboots, and brand successors. Shannon's information theory explains exactly what gets lost each time — and why it matters for what you own.",
