@@ -35,6 +35,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
+const C = {
+  bg:     '#F0EBE3',
+  bg2:    '#F8F5F1',
+  text:   '#2A2620',
+  text60: 'rgba(42,38,32,0.60)',
+  text40: 'rgba(42,38,32,0.40)',
+  text25: 'rgba(42,38,32,0.25)',
+  accent: '#E85435',
+  border: 'rgba(42,38,32,0.08)',
+}
+
 const categoryLabel: Record<string, string> = {
   'pillar':  'Pillar Guide',
   'science': 'The Science',
@@ -43,8 +54,8 @@ const categoryLabel: Record<string, string> = {
 
 const categoryColor: Record<string, string> = {
   'pillar':  '#4F8EF7',
-  'science': '#F59E0B',
-  'guide':   '#7C3AED',
+  'science': '#B45309',
+  'guide':   '#6D28D9',
 }
 
 export default async function BlogPostPage({ params }: Props) {
@@ -73,7 +84,7 @@ export default async function BlogPostPage({ params }: Props) {
   }
 
   return (
-    <div style={{ backgroundColor: '#07090E', minHeight: '100vh', color: '#e8e8e8' }}>
+    <div style={{ backgroundColor: C.bg, minHeight: '100vh', color: C.text }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -84,24 +95,24 @@ export default async function BlogPostPage({ params }: Props) {
         position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
         padding: '16px 32px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        background: 'rgba(7,9,14,0.92)',
+        background: 'rgba(240,235,227,0.92)',
         backdropFilter: 'blur(12px)',
-        borderBottom: '1px solid rgba(255,255,255,0.06)',
+        borderBottom: `1px solid ${C.border}`,
       }}>
         <Link href="/pathoragy" style={{ textDecoration: 'none' }}>
           <span style={{
             fontFamily: 'Space Grotesk, sans-serif', fontWeight: 700,
-            fontSize: '18px', color: '#4F8EF7', letterSpacing: '-0.02em',
+            fontSize: '18px', color: C.accent, letterSpacing: '-0.02em',
           }}>
             pathoragy
           </span>
         </Link>
         <div style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>
-          <Link href="/pathoragy/blog" style={{ color: 'rgba(232,232,232,0.7)', textDecoration: 'none', fontSize: '14px' }}>
+          <Link href="/pathoragy/blog" style={{ color: C.text60, textDecoration: 'none', fontSize: '14px' }}>
             ← All articles
           </Link>
           <Link href="/pathoragy#beta" style={{
-            background: '#4F8EF7', color: '#07090E',
+            background: C.accent, color: '#fff',
             padding: '8px 20px', borderRadius: '8px',
             textDecoration: 'none', fontSize: '14px', fontWeight: 600,
           }}>
@@ -116,14 +127,14 @@ export default async function BlogPostPage({ params }: Props) {
         <header style={{ marginBottom: '48px' }}>
           <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginBottom: '24px' }}>
             <span style={{
-              background: `${color}22`, color,
+              background: `${color}15`, color,
               fontSize: '11px', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase',
               padding: '4px 10px', borderRadius: '100px',
-              border: `1px solid ${color}44`,
+              border: `1px solid ${color}30`,
             }}>
               {label}
             </span>
-            <span style={{ color: 'rgba(232,232,232,0.4)', fontSize: '13px' }}>
+            <span style={{ color: C.text40, fontSize: '13px' }}>
               {new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
               {' · '}{post.readTime}
             </span>
@@ -133,30 +144,31 @@ export default async function BlogPostPage({ params }: Props) {
             fontSize: 'clamp(28px, 4vw, 46px)',
             fontWeight: 700, lineHeight: 1.12,
             letterSpacing: '-0.03em', marginBottom: '20px',
+            color: C.text,
           }}>
             {post.title}
           </h1>
-          <p style={{ color: 'rgba(232,232,232,0.6)', fontSize: '18px', lineHeight: 1.65 }}>
+          <p style={{ color: C.text60, fontSize: '18px', lineHeight: 1.65 }}>
             {post.description}
           </p>
-          <div style={{ height: '1px', background: 'rgba(255,255,255,0.08)', margin: '32px 0' }} />
+          <div style={{ height: '1px', background: C.border, margin: '32px 0' }} />
         </header>
 
         {/* Body */}
         <div
-          className="blog-prose"
+          className="pathoragy-prose"
           style={{ fontFamily: 'Georgia, serif', lineHeight: 1.82, fontSize: '17px' }}
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
 
         {/* Tags */}
-        <div style={{ marginTop: '48px', paddingTop: '32px', borderTop: '1px solid rgba(255,255,255,0.08)' }}>
+        <div style={{ marginTop: '48px', paddingTop: '32px', borderTop: `1px solid ${C.border}` }}>
           <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
             {post.tags.map(tag => (
               <span key={tag} style={{
-                color: 'rgba(232,232,232,0.45)', fontSize: '12px',
-                background: 'rgba(255,255,255,0.05)', padding: '4px 12px', borderRadius: '100px',
-                border: '1px solid rgba(255,255,255,0.08)',
+                color: C.text40, fontSize: '12px',
+                background: 'rgba(42,38,32,0.05)', padding: '4px 12px', borderRadius: '100px',
+                border: `1px solid ${C.border}`,
               }}>
                 #{tag}
               </span>
@@ -167,19 +179,19 @@ export default async function BlogPostPage({ params }: Props) {
         {/* CTA */}
         <div style={{
           marginTop: '48px',
-          background: 'rgba(79,142,247,0.07)',
-          border: '1px solid rgba(79,142,247,0.18)',
+          background: 'rgba(232,84,53,0.06)',
+          border: '1px solid rgba(232,84,53,0.18)',
           borderRadius: '16px', padding: '32px', textAlign: 'center',
         }}>
-          <p style={{ fontSize: '16px', lineHeight: 1.65, marginBottom: '8px', color: 'rgba(232,232,232,0.85)' }}>
+          <p style={{ fontSize: '16px', lineHeight: 1.65, marginBottom: '8px', color: C.text }}>
             <strong>Pathoragy</strong> turns long-horizon life goals into structured routes, waypoints, and daily evidence-backed tasks.
           </p>
-          <p style={{ fontSize: '14px', color: 'rgba(232,232,232,0.5)', marginBottom: '24px' }}>
+          <p style={{ fontSize: '14px', color: C.text60, marginBottom: '24px' }}>
             iOS beta — limited spots available.
           </p>
           <Link href="/pathoragy#beta" style={{
             display: 'inline-block',
-            background: '#4F8EF7', color: '#07090E',
+            background: C.accent, color: '#fff',
             padding: '14px 32px', borderRadius: '10px',
             textDecoration: 'none', fontSize: '15px', fontWeight: 700,
           }}>
@@ -192,11 +204,12 @@ export default async function BlogPostPage({ params }: Props) {
 
       {/* Footer */}
       <footer style={{
-        borderTop: '1px solid rgba(255,255,255,0.06)',
+        borderTop: `1px solid ${C.border}`,
         padding: '32px 24px', textAlign: 'center',
-        color: 'rgba(232,232,232,0.3)', fontSize: '13px',
+        color: C.text40, fontSize: '13px',
+        backgroundColor: C.bg2,
       }}>
-        <p>© 2026 Truake OPC · <Link href="/pathoragy" style={{ color: 'rgba(232,232,232,0.45)', textDecoration: 'none' }}>Pathoragy</Link></p>
+        <p>© 2026 Truake OPC · <Link href="/pathoragy" style={{ color: C.text60, textDecoration: 'none' }}>Pathoragy</Link></p>
       </footer>
     </div>
   )

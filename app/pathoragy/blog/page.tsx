@@ -13,34 +13,45 @@ export const metadata: Metadata = {
   },
 }
 
+const C = {
+  bg:     '#F0EBE3',
+  bg2:    '#F8F5F1',
+  text:   '#2A2620',
+  text60: 'rgba(42,38,32,0.60)',
+  text40: 'rgba(42,38,32,0.40)',
+  text25: 'rgba(42,38,32,0.25)',
+  accent: '#E85435',
+  border: 'rgba(42,38,32,0.08)',
+}
+
 export default function BlogIndexPage() {
   const posts = getAllPosts()
   const pillarPosts = posts.filter(p => p.category === 'pillar')
   const otherPosts  = posts.filter(p => p.category !== 'pillar')
 
   return (
-    <div style={{ backgroundColor: '#07090E', minHeight: '100vh', color: '#e8e8e8' }}>
+    <div style={{ backgroundColor: C.bg, minHeight: '100vh', color: C.text }}>
       {/* Nav */}
       <nav style={{
         position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
         padding: '16px 32px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        background: 'rgba(7,9,14,0.88)',
+        background: 'rgba(240,235,227,0.92)',
         backdropFilter: 'blur(12px)',
-        borderBottom: '1px solid rgba(255,255,255,0.06)',
+        borderBottom: `1px solid ${C.border}`,
       }}>
         <Link href="/pathoragy" style={{ textDecoration: 'none' }}>
           <span style={{
             fontFamily: 'Space Grotesk, sans-serif', fontWeight: 700,
-            fontSize: '18px', color: '#4F8EF7', letterSpacing: '-0.02em',
+            fontSize: '18px', color: C.accent, letterSpacing: '-0.02em',
           }}>
             pathoragy
           </span>
         </Link>
         <div style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>
-          <Link href="/pathoragy/blog" style={{ color: '#e8e8e8', textDecoration: 'none', fontSize: '14px', fontWeight: 500 }}>Blog</Link>
+          <Link href="/pathoragy/blog" style={{ color: C.text, textDecoration: 'none', fontSize: '14px', fontWeight: 500 }}>Blog</Link>
           <Link href="/pathoragy#beta" style={{
-            background: '#4F8EF7', color: '#07090E',
+            background: C.accent, color: '#fff',
             padding: '8px 20px', borderRadius: '8px',
             textDecoration: 'none', fontSize: '14px', fontWeight: 600,
           }}>
@@ -53,10 +64,10 @@ export default function BlogIndexPage() {
       <header style={{
         paddingTop: '120px', paddingBottom: '64px',
         textAlign: 'center', padding: '120px 24px 64px',
-        borderBottom: '1px solid rgba(255,255,255,0.05)',
+        borderBottom: `1px solid ${C.border}`,
       }}>
         <p style={{
-          color: '#4F8EF7', fontSize: '11px', fontWeight: 700,
+          color: C.accent, fontSize: '11px', fontWeight: 700,
           letterSpacing: '0.22em', textTransform: 'uppercase', marginBottom: '16px',
         }}>
           The Pathoragy Blog
@@ -65,12 +76,12 @@ export default function BlogIndexPage() {
           fontFamily: 'Space Grotesk, sans-serif',
           fontSize: 'clamp(30px, 4.5vw, 54px)',
           fontWeight: 700, lineHeight: 1.1,
-          letterSpacing: '-0.03em', color: '#ffffff', marginBottom: '20px',
+          letterSpacing: '-0.03em', color: C.text, marginBottom: '20px',
         }}>
           Plan the life<br />
-          <span style={{ color: '#4F8EF7' }}>you actually want.</span>
+          <span style={{ color: C.accent }}>you actually want.</span>
         </h1>
-        <p style={{ color: 'rgba(232,232,232,0.5)', fontSize: '17px', maxWidth: '480px', margin: '0 auto' }}>
+        <p style={{ color: C.text60, fontSize: '17px', maxWidth: '480px', margin: '0 auto' }}>
           Guides on long-horizon planning, sustainable happiness, purpose, and building wealth, knowledge, and interests that last.
         </p>
       </header>
@@ -83,12 +94,12 @@ export default function BlogIndexPage() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
               <h2 style={{
                 fontFamily: 'Space Grotesk, sans-serif', fontSize: '13px', fontWeight: 700,
-                letterSpacing: '0.15em', textTransform: 'uppercase', color: '#4F8EF7',
+                letterSpacing: '0.15em', textTransform: 'uppercase', color: C.accent,
               }}>
                 Pillar Guides
               </h2>
-              <div style={{ flex: 1, height: '1px', background: 'rgba(79,142,247,0.15)' }} />
-              <span style={{ fontSize: '12px', color: 'rgba(232,232,232,0.3)' }}>Comprehensive long-form resources</span>
+              <div style={{ flex: 1, height: '1px', background: 'rgba(232,84,53,0.18)' }} />
+              <span style={{ fontSize: '12px', color: C.text40 }}>Comprehensive long-form resources</span>
             </div>
             {pillarPosts[0] && <FeaturedCard post={pillarPosts[0]} />}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '20px' }}>
@@ -105,11 +116,11 @@ export default function BlogIndexPage() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
               <h2 style={{
                 fontFamily: 'Space Grotesk, sans-serif', fontSize: '13px', fontWeight: 700,
-                letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(232,232,232,0.4)',
+                letterSpacing: '0.15em', textTransform: 'uppercase', color: C.text40,
               }}>
                 Deep Dives & Science
               </h2>
-              <div style={{ flex: 1, height: '1px', background: 'rgba(255,255,255,0.06)' }} />
+              <div style={{ flex: 1, height: '1px', background: C.border }} />
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '20px' }}>
               {otherPosts.map(post => (
@@ -122,11 +133,12 @@ export default function BlogIndexPage() {
 
       {/* Footer */}
       <footer style={{
-        borderTop: '1px solid rgba(255,255,255,0.06)',
+        borderTop: `1px solid ${C.border}`,
         padding: '32px 24px', textAlign: 'center',
-        color: 'rgba(232,232,232,0.3)', fontSize: '13px',
+        color: C.text40, fontSize: '13px',
+        backgroundColor: C.bg2,
       }}>
-        <p>© 2026 Truake OPC · <Link href="/pathoragy" style={{ color: 'rgba(232,232,232,0.45)', textDecoration: 'none' }}>Pathoragy</Link></p>
+        <p>© 2026 Truake OPC · <Link href="/pathoragy" style={{ color: C.text60, textDecoration: 'none' }}>Pathoragy</Link></p>
       </footer>
     </div>
   )

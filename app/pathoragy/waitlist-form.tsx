@@ -15,10 +15,10 @@ export default function PathoragyWaitlistForm() {
     return (
       <div
         className="flex items-center justify-center gap-3 px-6 py-4 rounded-2xl"
-        style={{ backgroundColor: "rgba(79,142,247,0.1)", border: "1px solid rgba(79,142,247,0.25)" }}
+        style={{ backgroundColor: "rgba(232,84,53,0.08)", border: "1px solid rgba(232,84,53,0.20)" }}
       >
-        <span style={{ color: "#4F8EF7", fontSize: "1.2rem" }}>✓</span>
-        <p className="text-sm font-medium" style={{ color: "#4F8EF7" }}>
+        <span style={{ color: "#E85435", fontSize: "1.2rem" }}>✓</span>
+        <p className="text-sm font-medium" style={{ color: "#E85435" }}>
           You&apos;re on the list. We&apos;ll reach out when Beta access opens.
         </p>
       </div>
@@ -39,16 +39,16 @@ export default function PathoragyWaitlistForm() {
         placeholder="your@email.com"
         className="flex-1 px-5 py-3.5 rounded-full text-sm outline-none transition-all"
         style={{
-          backgroundColor: "rgba(255,255,255,0.06)",
-          border: "1px solid rgba(255,255,255,0.12)",
-          color: "#fff",
+          backgroundColor: "#FFFFFF",
+          border: "1px solid rgba(42,38,32,0.18)",
+          color: "#2A2620",
         }}
         aria-label="Email address"
       />
       <button
         type="submit"
         className="px-6 py-3.5 rounded-full text-sm font-semibold transition-all hover:opacity-90 hover:scale-105 whitespace-nowrap"
-        style={{ background: "linear-gradient(135deg, #4F8EF7, #7C3AED)", color: "#fff" }}
+        style={{ background: "#E85435", color: "#fff" }}
       >
         Request Beta Access
       </button>
