@@ -81,7 +81,7 @@ export default function PathoragyPage() {
     <div style={{ backgroundColor: C.bg, color: C.text, fontFamily: "'Space Grotesk', sans-serif", overflowX: "hidden" }}>
 
       {/* ══ NAV ══════════════════════════════════════════════════════ */}
-      <nav style={{
+      <nav className="p-nav" style={{
         position: "fixed", top: 0, left: 0, right: 0, zIndex: 100,
         display: "flex", alignItems: "center", justifyContent: "space-between",
         padding: "0 40px", height: "60px",
@@ -94,7 +94,7 @@ export default function PathoragyPage() {
           pathoragy
         </span>
         <div style={{ display: "flex", gap: "32px", alignItems: "center" }}>
-          <Link href="/pathoragy/blog"
+          <Link href="/pathoragy/blog" className="p-nav-blog"
             style={{ color: C.t60, textDecoration: "none", fontSize: "14px", fontWeight: 500, letterSpacing: "-0.01em" }}>
             Blog
           </Link>
@@ -109,13 +109,13 @@ export default function PathoragyPage() {
       </nav>
 
       {/* ══ HERO ══════════════════════════════════════════════════════ */}
-      <section style={{
+      <section className="p-hero" style={{
         display: "grid", gridTemplateColumns: "55% 45%",
         minHeight: "100svh", paddingTop: "60px",
         borderBottom: `1px solid ${C.bd2}`,
       }}>
         {/* Left — headline + form */}
-        <div style={{
+        <div className="p-hero-left" style={{
           display: "flex", flexDirection: "column", justifyContent: "center",
           padding: "100px 72px 100px 40px",
           borderRight: `1px solid ${C.bd2}`,
@@ -127,7 +127,7 @@ export default function PathoragyPage() {
             </span>
           </div>
 
-          <h1 style={{
+          <h1 className="p-hero-h1" style={{
             fontSize: "clamp(52px, 5.8vw, 84px)",
             fontWeight: 800, lineHeight: 1.0, letterSpacing: "-0.045em",
             color: C.text, margin: "0 0 36px",
@@ -149,15 +149,23 @@ export default function PathoragyPage() {
           <p style={{ marginTop: "16px", fontSize: "12px", color: C.t40, letterSpacing: "0.01em" }}>
             Built on <em>The Value Boat</em> (Lam, 2026) · Limited beta spots
           </p>
+
+          {/* Mobile-only screenshot — visible only below 768px */}
+          <div className="p-hero-mobile-shot">
+            <img
+              src="/pathoragy/screenshots/home.png"
+              alt="Pathoragy app"
+              style={{ width: "160px", borderRadius: "32px", filter: "drop-shadow(0 20px 40px rgba(42,38,32,0.22))" }}
+            />
+          </div>
         </div>
 
-        {/* Right — hero screenshot */}
-        <div style={{
+        {/* Right — hero screenshot (desktop only) */}
+        <div className="p-hero-right" style={{
           background: C.bg2, position: "relative", overflow: "hidden",
           display: "flex", alignItems: "center", justifyContent: "center",
           padding: "80px 40px",
         }}>
-          {/* Editorial watermark */}
           <span aria-hidden="true" style={{
             position: "absolute", top: "50%", left: "50%",
             transform: "translate(-52%, -48%)",
@@ -203,8 +211,7 @@ export default function PathoragyPage() {
       </div>
 
       {/* ══ CONCEPTS ══════════════════════════════════════════════════ */}
-      <section style={{ padding: "140px 40px 100px", maxWidth: "1360px", margin: "0 auto" }}>
-        {/* Header */}
+      <section className="p-concepts-outer" style={{ padding: "140px 40px 100px", maxWidth: "1360px", margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "20px", marginBottom: "80px" }}>
           <span style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: C.t40 }}>
             How it works
@@ -213,10 +220,9 @@ export default function PathoragyPage() {
           <span style={{ fontSize: "11px", color: C.t40, fontVariantNumeric: "tabular-nums" }}>01 / 04</span>
         </div>
 
-        {/* 2 × 2 editorial grid */}
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr" }}>
+        <div className="p-concepts-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr" }}>
           {CONCEPTS.map((c, i) => (
-            <div key={i} style={{
+            <div key={i} className="p-concept-cell" style={{
               padding: "56px 64px", position: "relative",
               borderRight:  i % 2 === 0 ? `1px solid ${C.bd2}` : "none",
               borderBottom: i < 2       ? `1px solid ${C.bd2}` : "none",
@@ -233,7 +239,7 @@ export default function PathoragyPage() {
                 {c.label}
               </p>
               <h3 style={{
-                fontSize: "clamp(32px, 3.2vw, 48px)", fontWeight: 800,
+                fontSize: "clamp(28px, 3.2vw, 48px)", fontWeight: 800,
                 letterSpacing: "-0.035em", lineHeight: 1.05,
                 color: C.text, marginBottom: "20px",
               }}>
@@ -248,11 +254,11 @@ export default function PathoragyPage() {
       </section>
 
       {/* ══ PULL QUOTE ════════════════════════════════════════════════ */}
-      <section style={{ background: C.bgDark, padding: "128px 40px" }}>
+      <section className="p-quote" style={{ background: C.bgDark, padding: "128px 40px" }}>
         <div style={{ maxWidth: "880px", margin: "0 auto", textAlign: "center" }}>
           <div style={{ width: "40px", height: "3px", background: C.accent, margin: "0 auto 52px" }} />
           <blockquote style={{
-            fontSize: "clamp(28px, 4.5vw, 58px)",
+            fontSize: "clamp(24px, 4.5vw, 58px)",
             fontWeight: 700, lineHeight: 1.18, letterSpacing: "-0.03em",
             color: "rgba(240,235,227,0.92)", fontStyle: "italic", margin: 0,
           }}>
@@ -269,7 +275,7 @@ export default function PathoragyPage() {
       </section>
 
       {/* ══ EDITORIAL SCREENSHOTS ═════════════════════════════════════ */}
-      <section style={{ padding: "160px 40px 120px", maxWidth: "1360px", margin: "0 auto" }}>
+      <section className="p-shots-outer" style={{ padding: "160px 40px 120px", maxWidth: "1360px", margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "20px", marginBottom: "96px" }}>
           <span style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: C.t40 }}>
             See it in action
@@ -277,10 +283,9 @@ export default function PathoragyPage() {
           <div style={{ flex: 1, height: "1px", background: C.bd2 }} />
         </div>
 
-        {/* Three phones — asymmetric sizes + angles + vertical offsets */}
-        <div style={{ display: "grid", gridTemplateColumns: "1.15fr 0.65fr 0.9fr", gap: "48px", alignItems: "end" }}>
+        <div className="p-shots-grid" style={{ display: "grid", gridTemplateColumns: "1.15fr 0.65fr 0.9fr", gap: "48px", alignItems: "end" }}>
           {SCREENSHOTS.map((s, i) => (
-            <div key={i} style={{ transform: `translateY(${s.lift})` }}>
+            <div key={i} className="p-shot-item" style={{ transform: `translateY(${s.lift})` }}>
               <div style={{ transform: s.rotate, filter: "drop-shadow(0 32px 64px rgba(42,38,32,0.20))" }}>
                 <img src={s.src} alt={s.alt} style={{ width: "100%", borderRadius: "44px" }} />
               </div>
@@ -296,20 +301,19 @@ export default function PathoragyPage() {
       </section>
 
       {/* ══ THE BOOK ══════════════════════════════════════════════════ */}
-      <section style={{
+      <section className="p-book" style={{
         borderTop: `1px solid ${C.bd2}`,
         padding: "140px 40px",
         display: "grid", gridTemplateColumns: "1fr 1fr",
         gap: "100px", alignItems: "center",
         maxWidth: "1360px", margin: "0 auto",
       }}>
-        {/* Left — copy */}
         <div>
           <p style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: C.accent, marginBottom: "28px" }}>
             The foundation
           </p>
           <h2 style={{
-            fontSize: "clamp(40px, 4.8vw, 72px)", fontWeight: 800,
+            fontSize: "clamp(36px, 4.8vw, 72px)", fontWeight: 800,
             letterSpacing: "-0.045em", lineHeight: 1.02,
             color: C.text, marginBottom: "32px",
           }}>
@@ -324,7 +328,6 @@ export default function PathoragyPage() {
           </p>
         </div>
 
-        {/* Right — Notable Routes grid */}
         <div>
           <p style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: C.t40, marginBottom: "28px" }}>
             Notable routes
@@ -352,10 +355,10 @@ export default function PathoragyPage() {
       </section>
 
       {/* ══ BETA CTA ══════════════════════════════════════════════════ */}
-      <section id="beta" style={{ background: C.bgDark, padding: "148px 40px 168px" }}>
+      <section id="beta" className="p-beta" style={{ background: C.bgDark, padding: "148px 40px 168px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto", textAlign: "center" }}>
           <div style={{ width: "40px", height: "3px", background: C.accent, margin: "0 auto 52px" }} />
-          <h2 style={{
+          <h2 className="p-beta-h2" style={{
             fontSize: "clamp(52px, 8vw, 108px)", fontWeight: 800,
             letterSpacing: "-0.05em", lineHeight: 0.96,
             color: "rgba(240,235,227,0.96)", marginBottom: "32px",
@@ -371,7 +374,7 @@ export default function PathoragyPage() {
       </section>
 
       {/* ══ FOOTER ════════════════════════════════════════════════════ */}
-      <footer style={{
+      <footer className="p-footer" style={{
         background: C.bgDark,
         borderTop: "1px solid rgba(255,255,255,0.07)",
         padding: "28px 40px",
@@ -391,15 +394,107 @@ export default function PathoragyPage() {
 
       {/* ══ CSS ════════════════════════════════════════════════════════ */}
       <style>{`
+        /* Ticker animation */
         @keyframes p-ticker-scroll {
           0%   { transform: translateX(0); }
           100% { transform: translateX(-50%); }
         }
-        .p-ticker {
-          animation: p-ticker-scroll 24s linear infinite;
+        .p-ticker { animation: p-ticker-scroll 24s linear infinite; }
+        .p-ticker:hover { animation-play-state: paused; }
+
+        /* Mobile-only hero phone — hidden on desktop */
+        .p-hero-mobile-shot {
+          display: none;
         }
-        .p-ticker:hover {
-          animation-play-state: paused;
+
+        /* ── Mobile ≤ 768px ─────────────────────── */
+        @media (max-width: 768px) {
+
+          /* NAV */
+          .p-nav { padding: 0 20px !important; }
+          .p-nav-blog { display: none; }
+
+          /* HERO — stack vertically */
+          .p-hero {
+            grid-template-columns: 1fr !important;
+            min-height: auto !important;
+          }
+          .p-hero-left {
+            padding: 88px 24px 64px !important;
+            border-right: none !important;
+          }
+          .p-hero-h1 {
+            font-size: clamp(40px, 10vw, 56px) !important;
+          }
+          .p-hero-right {
+            display: none !important;
+          }
+          /* Show inline phone below form on mobile */
+          .p-hero-mobile-shot {
+            display: flex;
+            justify-content: center;
+            margin-top: 48px;
+          }
+
+          /* CONCEPTS */
+          .p-concepts-outer { padding: 80px 24px 60px !important; }
+          .p-concepts-grid  { grid-template-columns: 1fr !important; }
+          .p-concept-cell   {
+            padding: 40px 24px !important;
+            border-right:  none !important;
+            border-bottom: 1px solid rgba(42,38,32,0.14) !important;
+          }
+          .p-concept-cell:last-child { border-bottom: none !important; }
+
+          /* PULL QUOTE */
+          .p-quote { padding: 80px 24px !important; }
+
+          /* SCREENSHOTS — horizontal snap scroll */
+          .p-shots-outer { padding: 80px 0 60px !important; }
+          .p-shots-outer > div:first-child { padding: 0 24px; margin-bottom: 48px !important; }
+          .p-shots-grid {
+            display: flex !important;
+            overflow-x: auto !important;
+            scroll-snap-type: x mandatory !important;
+            -webkit-overflow-scrolling: touch !important;
+            gap: 24px !important;
+            padding: 0 24px 32px !important;
+            align-items: flex-end !important;
+          }
+          .p-shots-grid::-webkit-scrollbar { display: none; }
+          .p-shot-item {
+            flex: 0 0 72vw !important;
+            transform: none !important;
+            scroll-snap-align: center;
+          }
+          .p-shot-item > div:first-child {
+            transform: none !important;
+          }
+
+          /* THE BOOK */
+          .p-book {
+            grid-template-columns: 1fr !important;
+            gap: 48px !important;
+            padding: 80px 24px !important;
+          }
+
+          /* BETA CTA */
+          .p-beta { padding: 80px 24px 100px !important; }
+          .p-beta-h2 { font-size: clamp(44px, 12vw, 72px) !important; }
+
+          /* FOOTER */
+          .p-footer { padding: 24px 20px !important; }
+        }
+
+        /* ── Tablet 769–1024px ──────────────────── */
+        @media (min-width: 769px) and (max-width: 1024px) {
+          .p-hero { grid-template-columns: 58% 42% !important; }
+          .p-hero-left { padding: 80px 48px 80px 32px !important; }
+          .p-concepts-outer { padding: 100px 32px 80px !important; }
+          .p-concept-cell { padding: 40px 40px !important; }
+          .p-shots-outer { padding: 100px 32px 80px !important; }
+          .p-book { padding: 100px 32px !important; gap: 60px !important; }
+          .p-beta { padding: 100px 32px 120px !important; }
         }
       `}</style>
     </div>
