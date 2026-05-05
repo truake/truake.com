@@ -14,12 +14,12 @@ export const posts: BlogPost[] = [
   {
     slug: 'building-diffr-scene-problem',
     title: 'Building Diffr: The Scene Problem',
-    description: 'What does 'one brand per slot' actually mean in engineering? The answer is harder than it sounds — and it changes everything about how curation works.',
+    description: "What does 'one brand per slot' actually mean in engineering? The answer is harder than it sounds — and it changes everything about how curation works.",
     date: '2026-05-04',
     readTime: '5 min read',
     tags: ["build log", "diffr", "scene decomposition", "indie dev", "product design"],
     category: 'build-log',
-    excerpt: 'Is 'knife' one slot or three? The answer determines the philosophy of every scene Diffr builds.',
+    excerpt: "Is 'knife' one slot or three? The answer determines the philosophy of every scene Diffr builds.",
     content: `
 <p class="lead">The hardest design problem in Diffr is not the recommendation algorithm or the brand database. It is the decomposition problem: given a consumption scene, how do you decide what the slots are? Every other decision in the system depends on getting this right, and there is no objective answer. The decomposition is a philosophical commitment masquerading as a data model.</p>
 
