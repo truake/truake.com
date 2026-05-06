@@ -1,5 +1,14 @@
 import Link from "next/link";
 import PathoragyWaitlistForm from "./waitlist-form";
+import { Fraunces } from "next/font/google";
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "900"],
+  style: ["normal", "italic"],
+  variable: "--font-fraunces",
+  display: "swap",
+});
 
 /* ─── Design tokens ──────────────────────────────── */
 const C = {
@@ -78,7 +87,7 @@ const SCREENSHOTS = [
 /* ─── Page ───────────────────────────────────────── */
 export default function PathoragyPage() {
   return (
-    <div style={{ backgroundColor: C.bg, color: C.text, fontFamily: "'Space Grotesk', sans-serif", overflowX: "hidden" }}>
+    <div className={fraunces.variable} style={{ backgroundColor: C.bg, color: C.text, fontFamily: "'Space Grotesk', sans-serif", overflowX: "hidden" }}>
 
       {/* ══ NAV ══════════════════════════════════════════════════════ */}
       <nav className="p-nav" style={{
@@ -90,7 +99,7 @@ export default function PathoragyPage() {
         WebkitBackdropFilter: "blur(20px) saturate(160%)",
         borderBottom: `1px solid ${C.bd2}`,
       }}>
-        <span style={{ fontWeight: 800, fontSize: "17px", letterSpacing: "-0.035em", color: C.accent }}>
+        <span style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontWeight: 900, fontSize: "18px", letterSpacing: "-0.03em", color: C.accent, fontStyle: "italic" }}>
           pathoragy
         </span>
         <div style={{ display: "flex", gap: "32px", alignItems: "center" }}>

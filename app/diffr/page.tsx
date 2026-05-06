@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import WaitlistForm from "./waitlist-form";
-import { Barlow_Condensed, IBM_Plex_Mono } from "next/font/google";
+import { Barlow_Condensed, IBM_Plex_Mono, Syne } from "next/font/google";
 
 const barlow = Barlow_Condensed({
   subsets: ["latin"],
@@ -17,6 +17,13 @@ const ibmMono = IBM_Plex_Mono({
   weight: ["300", "400", "500", "600"],
   style: ["normal", "italic"],
   variable: "--font-mono",
+  display: "swap",
+});
+
+const syne = Syne({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-syne",
   display: "swap",
 });
 
@@ -109,7 +116,7 @@ const scenarios = [
 export default function DiffrPage() {
   return (
     <div
-      className={`diffr-root ${barlow.variable} ${ibmMono.variable}`}
+      className={`diffr-root ${barlow.variable} ${ibmMono.variable} ${syne.variable}`}
       style={{ backgroundColor: "var(--d-bg)", color: "var(--d-text)", minHeight: "100vh" }}
     >
       {/* ── Nav ── */}
@@ -129,15 +136,15 @@ export default function DiffrPage() {
               alt="Truake"
               width={72}
               height={28}
-              className="h-5 w-auto brightness-0 invert opacity-50"
+              className="h-5 w-auto brightness-0 opacity-60"
             />
             <span style={{ color: "var(--d-text-20)" }}>/</span>
             <span
               style={{
-                fontFamily: "var(--font-barlow), sans-serif",
-                fontWeight: 700,
+                fontFamily: "var(--font-syne), sans-serif",
+                fontWeight: 800,
                 fontSize: 15,
-                letterSpacing: "0.08em",
+                letterSpacing: "0.04em",
                 textTransform: "uppercase",
                 color: "#1B8BF5",
               }}
@@ -181,14 +188,14 @@ export default function DiffrPage() {
           {/* Protocol label */}
           <div className="flex items-center gap-4 mb-10">
             <div
-              style={{ width: 1, height: 36, backgroundColor: "rgba(255,255,255,0.12)" }}
+              style={{ width: 1, height: 36, backgroundColor: "rgba(42,38,32,0.12)" }}
             />
             <span
               style={{
                 fontFamily: "var(--font-mono), monospace",
                 fontSize: 10,
                 letterSpacing: "0.25em",
-                color: "rgba(255,255,255,0.3)",
+                color: "var(--d-text-30)",
                 textTransform: "uppercase",
               }}
             >
@@ -208,12 +215,12 @@ export default function DiffrPage() {
               marginBottom: 4,
             }}
           >
-            <span style={{ color: "#ffffff", display: "block" }}>One Brand.</span>
+            <span style={{ color: "var(--d-text)", display: "block" }}>One Brand.</span>
             <span style={{ color: "#1B8BF5", display: "block" }}>Per Slot.</span>
             <span
               style={{
                 display: "block",
-                WebkitTextStroke: "2px rgba(255,255,255,0.18)",
+                WebkitTextStroke: "2px rgba(27,139,245,0.35)",
                 WebkitTextFillColor: "transparent",
               }}
             >
@@ -223,10 +230,10 @@ export default function DiffrPage() {
 
           {/* Sub + CTAs row */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-end mt-10 mb-12">
-            <p style={{ fontSize: 17, color: "rgba(255,255,255,0.5)", lineHeight: 1.65, maxWidth: 480 }}>
+            <p style={{ fontSize: 17, color: "var(--d-text-50)", lineHeight: 1.65, maxWidth: 480 }}>
               Diffr decomposes any consumption scenario into its minimum units — then assigns
               exactly one brand to each. Non-Repetition is not a feature.{" "}
-              <span style={{ color: "rgba(255,255,255,0.75)" }}>It&apos;s a law.</span>
+              <span style={{ color: "var(--d-text)" }}>It&apos;s a law.</span>
             </p>
             <div className="flex flex-wrap gap-3 lg:justify-end">
               <a
@@ -249,8 +256,8 @@ export default function DiffrPage() {
           {/* ── Slot Assignment Matrix ── */}
           <div
             style={{
-              border: "1px solid rgba(255,255,255,0.07)",
-              backgroundColor: "rgba(255,255,255,0.018)",
+              border: "1px solid rgba(42,38,32,0.10)",
+              backgroundColor: "rgba(42,38,32,0.025)",
               fontFamily: "var(--font-mono), monospace",
             }}
           >
@@ -261,7 +268,7 @@ export default function DiffrPage() {
                 alignItems: "center",
                 justifyContent: "space-between",
                 padding: "16px 28px",
-                borderBottom: "1px solid rgba(255,255,255,0.06)",
+                borderBottom: "1px solid rgba(42,38,32,0.08)",
               }}
             >
               <span
@@ -279,7 +286,7 @@ export default function DiffrPage() {
                   style={{
                     fontSize: 10,
                     letterSpacing: "0.15em",
-                    color: "rgba(255,255,255,0.2)",
+                    color: "var(--d-text-20)",
                     textTransform: "uppercase",
                   }}
                 >
@@ -289,7 +296,7 @@ export default function DiffrPage() {
                   style={{
                     fontSize: 10,
                     letterSpacing: "0.15em",
-                    color: "rgba(255,255,255,0.2)",
+                    color: "var(--d-text-20)",
                     textTransform: "uppercase",
                   }}
                 >
@@ -305,7 +312,7 @@ export default function DiffrPage() {
                 gridTemplateColumns: "32px 1fr 1fr 120px",
                 gap: "0 16px",
                 padding: "10px 28px",
-                borderBottom: "1px solid rgba(255,255,255,0.04)",
+                borderBottom: "1px solid rgba(42,38,32,0.06)",
               }}
             >
               {["#", "SLOT", "ASSIGNED BRAND", "STATUS"].map((h) => (
@@ -314,7 +321,7 @@ export default function DiffrPage() {
                   style={{
                     fontSize: 9,
                     letterSpacing: "0.25em",
-                    color: "rgba(255,255,255,0.2)",
+                    color: "var(--d-text-20)",
                     textTransform: "uppercase",
                   }}
                 >
@@ -332,21 +339,21 @@ export default function DiffrPage() {
                   gridTemplateColumns: "32px 1fr 1fr 120px",
                   gap: "0 16px",
                   padding: "9px 28px",
-                  borderBottom: "1px solid rgba(255,255,255,0.025)",
+                  borderBottom: "1px solid rgba(42,38,32,0.06)",
                 }}
               >
-                <span style={{ fontSize: 11, color: "rgba(255,255,255,0.18)" }}>{row.n}</span>
+                <span style={{ fontSize: 11, color: "var(--d-text-18)" }}>{row.n}</span>
                 <span
                   style={{
                     fontSize: 11,
-                    color: "rgba(255,255,255,0.45)",
+                    color: "var(--d-text-45)",
                     textTransform: "uppercase",
                     letterSpacing: "0.06em",
                   }}
                 >
                   {row.slot}
                 </span>
-                <span style={{ fontSize: 11, color: "rgba(255,255,255,0.82)", letterSpacing: "0.04em" }}>
+                <span style={{ fontSize: 11, color: "var(--d-text-80)", letterSpacing: "0.04em" }}>
                   {row.brand}
                 </span>
                 <span style={{ fontSize: 10, color: "#1B8BF5", letterSpacing: "0.15em" }}>
@@ -362,13 +369,13 @@ export default function DiffrPage() {
                 gridTemplateColumns: "32px 1fr 1fr 120px",
                 gap: "0 16px",
                 padding: "9px 28px",
-                borderBottom: "1px solid rgba(255,255,255,0.04)",
+                borderBottom: "1px solid rgba(42,38,32,0.06)",
               }}
             >
-              <span style={{ fontSize: 11, color: "rgba(255,255,255,0.12)" }}>···</span>
-              <span style={{ fontSize: 11, color: "rgba(255,255,255,0.2)" }}>+ 8 more slots</span>
-              <span style={{ fontSize: 11, color: "rgba(255,255,255,0.2)" }}>···</span>
-              <span style={{ fontSize: 10, color: "rgba(255,255,255,0.15)" }}>···</span>
+              <span style={{ fontSize: 11, color: "var(--d-text-15)" }}>···</span>
+              <span style={{ fontSize: 11, color: "var(--d-text-20)" }}>+ 8 more slots</span>
+              <span style={{ fontSize: 11, color: "var(--d-text-20)" }}>···</span>
+              <span style={{ fontSize: 10, color: "var(--d-text-15)" }}>···</span>
             </div>
 
             {/* Footer stats */}
@@ -385,18 +392,18 @@ export default function DiffrPage() {
                   style={{
                     fontSize: 10,
                     letterSpacing: "0.15em",
-                    color: "rgba(255,255,255,0.25)",
+                    color: "var(--d-text-25)",
                     textTransform: "uppercase",
                   }}
                 >
                   TOTAL:{" "}
-                  <span style={{ color: "rgba(255,255,255,0.65)" }}>15 BRANDS</span>
+                  <span style={{ color: "var(--d-text-60)" }}>15 BRANDS</span>
                 </span>
                 <span
                   style={{
                     fontSize: 10,
                     letterSpacing: "0.15em",
-                    color: "rgba(255,255,255,0.25)",
+                    color: "var(--d-text-25)",
                     textTransform: "uppercase",
                   }}
                 >
@@ -460,7 +467,7 @@ export default function DiffrPage() {
                   animation: "pulse 2s ease-in-out infinite",
                 }}
               />
-              <span style={{ color: "rgba(255,255,255,0.3)" }}>Now in Early Access</span>
+              <span style={{ color: "var(--d-text-30)" }}>Now in Early Access</span>
             </div>
           </div>
         </div>
@@ -477,7 +484,7 @@ export default function DiffrPage() {
                 fontFamily: "var(--font-mono), monospace",
                 fontSize: 10,
                 letterSpacing: "0.25em",
-                color: "rgba(255,255,255,0.3)",
+                color: "var(--d-text-30)",
                 textTransform: "uppercase",
               }}
             >
@@ -494,7 +501,7 @@ export default function DiffrPage() {
               textTransform: "uppercase",
               letterSpacing: "-0.01em",
               lineHeight: 1,
-              color: "#ffffff",
+              color: "var(--d-text)",
               marginBottom: 12,
             }}
           >
@@ -508,7 +515,7 @@ export default function DiffrPage() {
           {/* Stat columns */}
           <div
             className="grid grid-cols-1 md:grid-cols-3"
-            style={{ border: "1px solid rgba(255,255,255,0.06)" }}
+            style={{ border: "1px solid var(--d-border)" }}
           >
             {[
               { stat: "200+", label: "brands in a typical supermarket toothpaste aisle", indicator: "↑ Overload" },
@@ -519,7 +526,7 @@ export default function DiffrPage() {
                 key={item.stat}
                 style={{
                   padding: "36px 32px",
-                  borderLeft: i > 0 ? "1px solid rgba(255,255,255,0.06)" : "none",
+                  borderLeft: i > 0 ? "1px solid var(--d-border)" : "none",
                 }}
               >
                 <div
@@ -593,7 +600,7 @@ export default function DiffrPage() {
                 fontFamily: "var(--font-mono), monospace",
                 fontSize: 10,
                 letterSpacing: "0.25em",
-                color: "rgba(255,255,255,0.3)",
+                color: "var(--d-text-30)",
                 textTransform: "uppercase",
               }}
             >
@@ -609,14 +616,14 @@ export default function DiffrPage() {
               textTransform: "uppercase",
               letterSpacing: "-0.01em",
               lineHeight: 1,
-              color: "#ffffff",
+              color: "var(--d-text)",
               marginBottom: 40,
             }}
           >
             How Diffr Works
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-px" style={{ backgroundColor: "rgba(255,255,255,0.06)" }}>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-px" style={{ backgroundColor: "var(--d-border)" }}>
             {[
               {
                 step: "01",
@@ -643,7 +650,7 @@ export default function DiffrPage() {
                     fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
                     fontSize: 80,
                     fontWeight: 900,
-                    color: "rgba(27,139,245,0.1)",
+                    color: "rgba(27,139,245,0.12)",
                     lineHeight: 1,
                     marginBottom: 20,
                     letterSpacing: "-0.02em",
@@ -658,7 +665,7 @@ export default function DiffrPage() {
                     fontWeight: 700,
                     textTransform: "uppercase",
                     letterSpacing: "0.04em",
-                    color: "#ffffff",
+                    color: "var(--d-text)",
                     marginBottom: 14,
                   }}
                 >
@@ -678,8 +685,8 @@ export default function DiffrPage() {
                 key={s.label}
                 style={{
                   padding: "20px 24px",
-                  border: "1px solid rgba(255,255,255,0.06)",
-                  backgroundColor: "rgba(255,255,255,0.02)",
+                  border: "1px solid var(--d-border)",
+                  backgroundColor: "rgba(42,38,32,0.02)",
                 }}
               >
                 <div className="flex items-center justify-between mb-3">
@@ -705,9 +712,9 @@ export default function DiffrPage() {
                       key={b}
                       className="text-xs px-2 py-0.5"
                       style={{
-                        backgroundColor: "rgba(255,255,255,0.04)",
+                        backgroundColor: "rgba(42,38,32,0.04)",
                         color: "var(--d-text-40)",
-                        border: "1px solid rgba(255,255,255,0.04)",
+                        border: "1px solid var(--d-border)",
                       }}
                     >
                       {b}
@@ -730,7 +737,7 @@ export default function DiffrPage() {
                 fontFamily: "var(--font-mono), monospace",
                 fontSize: 10,
                 letterSpacing: "0.25em",
-                color: "rgba(255,255,255,0.3)",
+                color: "var(--d-text-30)",
                 textTransform: "uppercase",
               }}
             >
@@ -738,7 +745,7 @@ export default function DiffrPage() {
             </span>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-px" style={{ backgroundColor: "rgba(255,255,255,0.06)" }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px" style={{ backgroundColor: "var(--d-border)" }}>
             {features.map((f) => (
               <div
                 key={f.title}
@@ -764,7 +771,7 @@ export default function DiffrPage() {
                     fontWeight: 700,
                     textTransform: "uppercase",
                     letterSpacing: "0.04em",
-                    color: "#ffffff",
+                    color: "var(--d-text)",
                     marginBottom: 14,
                   }}
                 >
@@ -805,7 +812,7 @@ export default function DiffrPage() {
               textTransform: "uppercase",
               letterSpacing: "-0.01em",
               lineHeight: 1,
-              color: "#ffffff",
+              color: "var(--d-text)",
               marginBottom: 20,
             }}
           >
@@ -816,7 +823,7 @@ export default function DiffrPage() {
             className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start"
             style={{
               paddingTop: 32,
-              borderTop: "1px solid rgba(255,255,255,0.07)",
+              borderTop: "1px solid var(--d-border)",
               marginTop: 32,
             }}
           >
@@ -841,13 +848,13 @@ export default function DiffrPage() {
       {/* ── Book + Community ── */}
       <section className="py-20 px-6" style={{ backgroundColor: "var(--d-bg2)" }}>
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-px" style={{ backgroundColor: "rgba(255,255,255,0.06)" }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px" style={{ backgroundColor: "var(--d-border)" }}>
             {/* Book card */}
             <a
               href="https://diffr.gumroad.com/l/thedefaulttrap"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col gap-4 transition-all hover:brightness-110"
+              className="group flex flex-col gap-4 transition-all hover:brightness-95"
               style={{ padding: "40px 36px", backgroundColor: "var(--d-bg2)" }}
             >
               <div
@@ -869,7 +876,7 @@ export default function DiffrPage() {
                     fontWeight: 700,
                     textTransform: "uppercase",
                     letterSpacing: "0.02em",
-                    color: "#ffffff",
+                    color: "var(--d-text)",
                     marginBottom: 10,
                   }}
                 >
@@ -882,7 +889,7 @@ export default function DiffrPage() {
               </div>
               <div
                 className="flex items-center justify-between mt-auto pt-4"
-                style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}
+                style={{ borderTop: "1px solid var(--d-border)" }}
               >
                 <span
                   style={{
@@ -952,8 +959,8 @@ export default function DiffrPage() {
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        backgroundColor: "rgba(255,255,255,0.04)",
-                        border: "1px solid rgba(255,255,255,0.06)",
+                        backgroundColor: "rgba(42,38,32,0.04)",
+                        border: "1px solid var(--d-border)",
                         fontSize: 14,
                         flexShrink: 0,
                       }}
@@ -989,8 +996,8 @@ export default function DiffrPage() {
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      backgroundColor: "rgba(255,255,255,0.04)",
-                      border: "1px solid rgba(255,255,255,0.06)",
+                      backgroundColor: "rgba(42,38,32,0.04)",
+                      border: "1px solid var(--d-border)",
                       fontSize: 14,
                       flexShrink: 0,
                     }}
@@ -1024,7 +1031,7 @@ export default function DiffrPage() {
         <div className="max-w-6xl mx-auto">
           <div
             style={{
-              border: "1px solid rgba(255,255,255,0.07)",
+              border: "1px solid var(--d-border)",
               padding: "56px 48px",
               maxWidth: 560,
               margin: "0 auto",
@@ -1036,7 +1043,7 @@ export default function DiffrPage() {
                 fontFamily: "var(--font-mono), monospace",
                 fontSize: 10,
                 letterSpacing: "0.25em",
-                color: "rgba(255,255,255,0.25)",
+                color: "var(--d-text-25)",
                 textTransform: "uppercase",
                 marginBottom: 20,
               }}
@@ -1051,7 +1058,7 @@ export default function DiffrPage() {
                 textTransform: "uppercase",
                 letterSpacing: "-0.01em",
                 lineHeight: 1,
-                color: "#ffffff",
+                color: "var(--d-text)",
                 marginBottom: 16,
               }}
             >
@@ -1083,7 +1090,7 @@ export default function DiffrPage() {
       {/* ── Footer ── */}
       <footer
         className="py-10 px-6"
-        style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}
+        style={{ borderTop: "1px solid var(--d-border)" }}
       >
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
@@ -1096,10 +1103,10 @@ export default function DiffrPage() {
             />
             <span
               style={{
-                fontFamily: "var(--font-barlow), sans-serif",
-                fontWeight: 700,
+                fontFamily: "var(--font-syne), sans-serif",
+                fontWeight: 800,
                 fontSize: 13,
-                letterSpacing: "0.1em",
+                letterSpacing: "0.08em",
                 textTransform: "uppercase",
                 color: "var(--d-text-40)",
               }}

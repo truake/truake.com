@@ -233,13 +233,13 @@ export default function Home() {
               {/* Diffr — 3 cols */}
               <Link href="/diffr" className="lg:col-span-3 group">
                 <div
-                  className="relative overflow-hidden transition-all duration-500 group-hover:brightness-110"
+                  className="relative overflow-hidden transition-all duration-500 group-hover:brightness-105"
                   style={{
-                    backgroundColor: "#080A0F",
-                    color: "#fff",
+                    backgroundColor: "#EEF3FC",
+                    color: "#2A2620",
                     minHeight: 380,
                     padding: "44px 48px",
-                    borderRight: "1px solid rgba(255,255,255,0.04)",
+                    borderRight: "1px solid rgba(42,38,32,0.08)",
                   }}
                 >
                   {/* Ghost watermark */}
@@ -253,7 +253,7 @@ export default function Home() {
                       fontSize: "clamp(90px, 14vw, 180px)",
                       fontStyle: "italic",
                       fontWeight: 700,
-                      color: "rgba(255,255,255,0.025)",
+                      color: "rgba(27,139,245,0.07)",
                       lineHeight: 1,
                       letterSpacing: "-0.04em",
                       pointerEvents: "none",
@@ -309,7 +309,7 @@ export default function Home() {
                       </h3>
                       <p
                         className="text-sm leading-relaxed mb-8"
-                        style={{ color: "rgba(255,255,255,0.45)", maxWidth: 360 }}
+                        style={{ color: "rgba(42,38,32,0.55)", maxWidth: 360 }}
                       >
                         The curated brand guide that ends choice overload. One brand per category. No repeats. No noise. Built on the Non-Repetition Principle.
                       </p>
@@ -328,10 +328,10 @@ export default function Home() {
               {/* Pathoragy — 2 cols */}
               <Link href="/pathoragy" className="lg:col-span-2 group">
                 <div
-                  className="relative overflow-hidden transition-all duration-500 group-hover:brightness-110"
+                  className="relative overflow-hidden transition-all duration-500 group-hover:brightness-105"
                   style={{
-                    backgroundColor: "#060810",
-                    color: "#fff",
+                    backgroundColor: "#EDE6DD",
+                    color: "#2A2620",
                     minHeight: 380,
                     padding: "44px 48px",
                   }}
@@ -348,7 +348,7 @@ export default function Home() {
                       fontSize: "clamp(40px, 7vw, 88px)",
                       fontStyle: "italic",
                       fontWeight: 700,
-                      color: "rgba(79,142,247,0.035)",
+                      color: "rgba(232,84,53,0.08)",
                       lineHeight: 1,
                       letterSpacing: "-0.03em",
                       pointerEvents: "none",
@@ -366,8 +366,8 @@ export default function Home() {
                         className="w-11 h-11 flex items-center justify-center text-lg"
                         style={{
                           background:
-                            "linear-gradient(135deg, rgba(79,142,247,0.2), rgba(124,58,237,0.2))",
-                          border: "1px solid rgba(79,142,247,0.25)",
+                            "linear-gradient(135deg, rgba(232,84,53,0.15), rgba(232,84,53,0.08))",
+                          border: "1px solid rgba(232,84,53,0.2)",
                         }}
                       >
                         ◈
@@ -375,9 +375,9 @@ export default function Home() {
                       <span
                         className="text-xs tracking-[0.2em] uppercase px-3 py-1"
                         style={{
-                          backgroundColor: "rgba(79,142,247,0.1)",
-                          color: "#4F8EF7",
-                          border: "1px solid rgba(79,142,247,0.2)",
+                          backgroundColor: "rgba(232,84,53,0.08)",
+                          color: "#E85435",
+                          border: "1px solid rgba(232,84,53,0.18)",
                         }}
                       >
                         iOS Beta
@@ -385,7 +385,7 @@ export default function Home() {
                     </div>
                     <div>
                       <div
-                        style={{ width: 28, height: 1, backgroundColor: "#4F8EF7", marginBottom: 16 }}
+                        style={{ width: 28, height: 1, backgroundColor: "#E85435", marginBottom: 16 }}
                       />
                       <h3
                         style={{
@@ -400,13 +400,13 @@ export default function Home() {
                       </h3>
                       <p
                         className="text-sm leading-relaxed mb-8"
-                        style={{ color: "rgba(255,255,255,0.45)" }}
+                        style={{ color: "rgba(42,38,32,0.55)" }}
                       >
                         A long-horizon life planning app for iOS. Turn wealth, knowledge, and interest goals into structured routes and evidence-backed tasks.
                       </p>
                       <span
                         className="inline-flex items-center gap-2 text-sm font-medium"
-                        style={{ color: "#4F8EF7" }}
+                        style={{ color: "#E85435" }}
                       >
                         Learn more{" "}
                         <span className="transition-transform group-hover:translate-x-1.5">→</span>
@@ -420,7 +420,7 @@ export default function Home() {
         </section>
 
         {/* ── Philosophy ── */}
-        <section id="philosophy" className="py-20 px-8" style={{ backgroundColor: "#2A2620" }}>
+        <section id="philosophy" className="py-20 px-8" style={{ backgroundColor: "#F8F5F1" }}>
           <div className="max-w-7xl mx-auto">
             <div className="flex items-baseline gap-8 mb-16">
               <span
@@ -428,7 +428,7 @@ export default function Home() {
                   fontFamily: "var(--font-cormorant), Georgia, serif",
                   fontSize: 80,
                   fontStyle: "italic",
-                  color: "rgba(236,237,224,0.055)",
+                  color: "rgba(42,38,32,0.055)",
                   lineHeight: 1,
                   letterSpacing: "-0.03em",
                 }}
@@ -437,7 +437,7 @@ export default function Home() {
               </span>
               <h2
                 className="text-xs tracking-[0.3em] uppercase"
-                style={{ color: "rgba(236,237,224,0.3)" }}
+                style={{ color: "rgba(42,38,32,0.35)" }}
               >
                 Philosophy
               </h2>
@@ -445,7 +445,7 @@ export default function Home() {
 
             <div
               className="grid grid-cols-1 md:grid-cols-3"
-              style={{ borderTop: "1px solid rgba(236,237,224,0.07)" }}
+              style={{ borderTop: "1px solid rgba(42,38,32,0.08)" }}
             >
               {[
                 {
@@ -473,7 +473,7 @@ export default function Home() {
                   style={{
                     paddingLeft: i === 0 ? 0 : 40,
                     paddingRight: i === 2 ? 0 : 40,
-                    borderLeft: i > 0 ? "1px solid rgba(236,237,224,0.07)" : "none",
+                    borderLeft: i > 0 ? "1px solid rgba(42,38,32,0.08)" : "none",
                   }}
                 >
                   <div
@@ -481,7 +481,7 @@ export default function Home() {
                       fontFamily: "var(--font-cormorant), Georgia, serif",
                       fontSize: 52,
                       fontStyle: "italic",
-                      color: "rgba(236,237,224,0.06)",
+                      color: "rgba(42,38,32,0.06)",
                       lineHeight: 1,
                       marginBottom: 20,
                       letterSpacing: "-0.02em",
@@ -497,14 +497,14 @@ export default function Home() {
                       fontFamily: "var(--font-cormorant), Georgia, serif",
                       fontSize: 26,
                       fontWeight: 600,
-                      color: "#ECEDE0",
+                      color: "#2A2620",
                       marginBottom: 14,
                       letterSpacing: "-0.01em",
                     }}
                   >
                     {item.title}
                   </h3>
-                  <p className="text-sm leading-loose" style={{ color: "rgba(236,237,224,0.4)" }}>
+                  <p className="text-sm leading-loose" style={{ color: "rgba(42,38,32,0.45)" }}>
                     {item.desc}
                   </p>
                 </div>
@@ -650,24 +650,24 @@ export default function Home() {
         </section>
 
         {/* ── Footer ── */}
-        <footer className="py-10 px-8" style={{ backgroundColor: "#2A2620" }}>
+        <footer className="py-10 px-8" style={{ borderTop: "1px solid rgba(42,38,32,0.1)" }}>
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
             <Image
               src="/truake-logo.png"
               alt="Truake"
               width={72}
               height={28}
-              className="h-5 w-auto brightness-0 invert opacity-40"
+              className="h-5 w-auto brightness-0 opacity-40"
             />
             <p
               className="text-xs tracking-[0.08em]"
-              style={{ color: "rgba(236,237,224,0.25)" }}
+              style={{ color: "rgba(42,38,32,0.35)" }}
             >
               © {new Date().getFullYear()} Truake. Built by Rock Lam.
             </p>
             <div
               className="flex gap-8 text-xs tracking-[0.15em] uppercase"
-              style={{ color: "rgba(236,237,224,0.35)" }}
+              style={{ color: "rgba(42,38,32,0.45)" }}
             >
               <Link href="/diffr" className="hover:opacity-100 transition-opacity">
                 Diffr

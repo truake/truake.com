@@ -20,48 +20,30 @@
 /* ── Diffr page theme tokens ──────────────────────────────── */
 /* Apply class="diffr-root" to the page wrapper.             */
 .diffr-root {
-  /* dark (default) */
-  --d-bg:          #08111E;
-  --d-bg2:         #0D1828;
-  --d-nav:         rgba(8,17,30,0.95);
-  --d-nav-border:  rgba(255,255,255,0.08);
-  --d-text:        #ffffff;
-  --d-text-85:     rgba(255,255,255,0.85);
-  --d-text-70:     rgba(255,255,255,0.70);
-  --d-text-60:     rgba(255,255,255,0.60);
-  --d-text-50:     rgba(255,255,255,0.50);
-  --d-text-40:     rgba(255,255,255,0.40);
-  --d-text-30:     rgba(255,255,255,0.30);
-  --d-text-20:     rgba(255,255,255,0.20);
-  --d-card:        rgba(255,255,255,0.03);
-  --d-card2:       rgba(255,255,255,0.04);
-  --d-border:      rgba(255,255,255,0.06);
-  --d-border2:     rgba(255,255,255,0.08);
-  --d-input-bg:    rgba(255,255,255,0.06);
-  --d-input-border:rgba(255,255,255,0.14);
-}
-
-@media (prefers-color-scheme: light) {
-  .diffr-root {
-    --d-bg:          #F5F6F8;
-    --d-bg2:         #EAEDF4;
-    --d-nav:         rgba(245,246,248,0.95);
-    --d-nav-border:  rgba(13,27,46,0.10);
-    --d-text:        #0D1B2E;
-    --d-text-85:     rgba(13,27,46,0.88);
-    --d-text-70:     rgba(13,27,46,0.75);
-    --d-text-60:     rgba(13,27,46,0.65);
-    --d-text-50:     rgba(13,27,46,0.58);
-    --d-text-40:     rgba(13,27,46,0.50);
-    --d-text-30:     rgba(13,27,46,0.40);
-    --d-text-20:     rgba(13,27,46,0.28);
-    --d-card:        rgba(13,27,46,0.04);
-    --d-card2:       rgba(255,255,255,0.80);
-    --d-border:      rgba(13,27,46,0.08);
-    --d-border2:     rgba(13,27,46,0.12);
-    --d-input-bg:    rgba(13,27,46,0.04);
-    --d-input-border:rgba(13,27,46,0.16);
-  }
+  /* warm parchment light — matches pathoragy palette */
+  --d-bg:          #F0EBE3;
+  --d-bg2:         #F8F5F1;
+  --d-nav:         rgba(240,235,227,0.96);
+  --d-nav-border:  rgba(42,38,32,0.10);
+  --d-text:        #2A2620;
+  --d-text-85:     rgba(42,38,32,0.88);
+  --d-text-80:     rgba(42,38,32,0.82);
+  --d-text-70:     rgba(42,38,32,0.75);
+  --d-text-60:     rgba(42,38,32,0.65);
+  --d-text-50:     rgba(42,38,32,0.58);
+  --d-text-45:     rgba(42,38,32,0.52);
+  --d-text-40:     rgba(42,38,32,0.50);
+  --d-text-30:     rgba(42,38,32,0.40);
+  --d-text-25:     rgba(42,38,32,0.32);
+  --d-text-20:     rgba(42,38,32,0.28);
+  --d-text-18:     rgba(42,38,32,0.22);
+  --d-text-15:     rgba(42,38,32,0.18);
+  --d-card:        rgba(42,38,32,0.04);
+  --d-card2:       rgba(255,255,255,0.70);
+  --d-border:      rgba(42,38,32,0.08);
+  --d-border2:     rgba(42,38,32,0.12);
+  --d-input-bg:    rgba(42,38,32,0.04);
+  --d-input-border:rgba(42,38,32,0.16);
 }
 
 /* Blog article prose styles — dark bg (Diffr) */
