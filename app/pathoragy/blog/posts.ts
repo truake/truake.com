@@ -922,5 +922,242 @@ const posts: BlogPost[] = [
 <p>This is why long-horizon planning is not just a productivity strategy — it is, fundamentally, a wellbeing strategy. The person who is systematically building deep relationships, pursuing genuine mastery in a meaningful domain, and working toward purposes that extend beyond their immediate self-interest is structurally engaged in the activities the research identifies as producing durable happiness. They are not searching for the right life; they are living the right practices.</p>
 <p>Pathoragy's three-domain structure — Wealth, Knowledge, Interest — maps directly onto the research findings. Wealth goals pursued wisely build the financial security that eliminates the chronic stress of precarity. Knowledge goals pursued with genuine depth develop the mastery that produces sustained engagement. Interest goals pursued with genuine commitment cultivate the relationships and meanings that the longitudinal research consistently identifies as the strongest predictors of late-life wellbeing.</p>
 <p>The research says clearly what a good life is built from. The question is whether you have a structure for building it — or whether you are leaving it to chance and circumstance. For the complete framework, see the guide on <a href="/pathoragy/blog/sustainable-happiness">The Science of Sustainable Happiness</a>. For the foundational question of purpose that meaningful goal pursuit requires, see <a href="/pathoragy/blog/how-to-find-purpose-in-life">How to Find Your Purpose in Life</a>.</p>`
+  },
+  {
+    slug: "life-goals-examples",
+    title: "Life Goals Examples: 100+ Ideas Across Wealth, Knowledge, and Interest",
+    description: "Real, concrete life goals examples organized across the three domains that actually determine the quality of a life — with guidance on making them genuinely yours.",
+    date: "2026-05-06",
+    readTime: "14 min read",
+    tags: ["life goals examples", "life goals list", "examples of life goals", "life goals ideas", "life goals"],
+    category: "guide",
+    excerpt: "Most life goals examples lists are either too vague to be useful or too generic to be yours. Here are 100+ concrete examples organized by domain — plus the framework for turning any of them into a goal worth pursuing.",
+    content: `<p class="lead">Most life goals examples lists have the same problem: they are either so vague they could belong to anyone ("be financially independent," "travel more," "pursue my passion"), or so specific they clearly belong to someone else. A list of life goal examples is only useful if it helps you recognize — or articulate — goals that are genuinely yours. This guide offers 100+ concrete examples organized across the three domains that actually determine the quality of a life: Wealth, Knowledge, and Interest. Plus the framework for making any of them your own.</p>
+
+<h2>What Makes Something a Life Goal (And What Doesn't)</h2>
+<p>Before the examples, a distinction worth making: a life goal is not a wish, a task, or someone else's goal in disguise.</p>
+<p>A wish is something you'd enjoy receiving with no effort — "I'd like to be wealthy" or "I'd love to speak another language." A task is something you complete once and move on — "book a trip to Italy." Neither is a life goal. A life goal is a structured direction — a deliberate commitment to developing, building, or becoming something over a meaningful time horizon, in a domain that genuinely matters to you.</p>
+<p>The ownership test is the most important filter for any example you find on a list: if no one would ever know whether you achieved this goal, would you still want it? Goals you want only because they sound impressive, or because someone whose approval you value has pursued them, do not sustain motivation over the years that life goals require. If a goal passes the ownership test — if you would want it in complete privacy, for its own sake — it is worth pursuing. If it doesn't, no amount of execution will make it feel worthwhile.</p>
+
+<h2>Wealth Goals: Examples for Financial Direction</h2>
+<p>Wealth goals are not about maximizing money. They are about building the financial security and optionality that allow you to make meaningful choices about how you spend your time and energy. A good Wealth goal specifies what financial security means for your life — not just a number, but a threshold that enables something.</p>
+
+<h3>Financial Foundation Goals</h3>
+<ul>
+  <li>Build a fully-funded emergency reserve of 12 months of household expenses within three years</li>
+  <li>Eliminate all consumer debt (credit cards, car loans, student loans) by a specific age</li>
+  <li>Reach a net worth sufficient to cover 25 times my annual expenses — enabling work to become a choice, not a requirement</li>
+  <li>Own a primary home outright before retirement, eliminating fixed housing costs in my later decades</li>
+  <li>Build and sustain a savings rate above 25% for at least 10 consecutive years</li>
+  <li>Max tax-advantaged retirement accounts every year for 20+ years</li>
+  <li>Build a real estate investment position that generates meaningful passive income within 15 years</li>
+  <li>Fund my children's education without debt — for them or for us — allowing them to start adult life without that structural weight</li>
+</ul>
+
+<h3>Income and Career Wealth Goals</h3>
+<ul>
+  <li>Reach a household income that covers my family's needs and meaningful saving without ongoing financial stress</li>
+  <li>Build a business to a specific revenue or profit level — not for wealth maximization, but to achieve a specific kind of work autonomy</li>
+  <li>Develop an income stream that is not fully dependent on my time (investment income, business income, licensing) by my fifties</li>
+  <li>Achieve enough financial independence that geography is a choice, not a constraint</li>
+  <li>Reach a compensation level that reflects the genuine value of my expertise, not just my seniority</li>
+</ul>
+
+<h3>Legacy and Late-Life Wealth Goals</h3>
+<ul>
+  <li>Build a financial position that allows me to stop working on my own terms before 60</li>
+  <li>Develop enough wealth to make meaningful charitable contributions over my lifetime, not just at the end of it</li>
+  <li>Leave my family in a genuinely secure financial position — not rich, but protected against the scenarios that destroy ordinary families</li>
+  <li>Achieve the financial position where I can support my parents if needed, without financial strain on my own family</li>
+</ul>
+
+<p>For a deeper treatment of how Wealth goals interact with the other domains of life, see <a href="/pathoragy/blog/life-goals-wealth-knowledge-interest">Life Goals: Wealth, Knowledge, and Interest</a>. For examples and a framework specifically focused on financial goal-setting, see <a href="/pathoragy/blog/wealth-goals">What Are Wealth Goals?</a></p>
+
+<h2>Knowledge Goals: Examples for Intellectual and Professional Development</h2>
+<p>Knowledge goals are among the most consistently underplanned category in most people's lives. There is often a vague intention to "keep learning" — but without a specific direction, that intention produces scattered reading and no accumulated depth. Knowledge compounds differently from money: a decade of deliberate focus in a domain produces judgment and expertise that mere years of general interest cannot replicate.</p>
+
+<h3>Professional Mastery Goals</h3>
+<ul>
+  <li>Become one of the recognized practitioners in my specific field within my city or professional community by my mid-forties</li>
+  <li>Build deep expertise in a narrowly defined domain — specific enough that I can be genuinely useful in ways that broadly competent practitioners cannot</li>
+  <li>Develop a credential stack that opens a specific door I currently cannot access — not for the credential itself, but for what it enables</li>
+  <li>Build a body of published work (articles, research, projects) in my domain that demonstrates genuine depth over time</li>
+  <li>Develop management and leadership skills to the point where I can lead effectively at a level that currently feels out of reach</li>
+  <li>Achieve a level of technical mastery in my field that makes me one of the people others consult when the problem is difficult</li>
+  <li>Build enough expertise to teach or mentor others in my domain at a meaningful level</li>
+</ul>
+
+<h3>Intellectual Development Goals</h3>
+<ul>
+  <li>Develop genuine scientific literacy in a domain I currently understand only superficially — nutrition, behavioral economics, climate science, or similar</li>
+  <li>Read deliberately in a domain for 10+ years, accumulating the kind of layered understanding that occasional reading never produces</li>
+  <li>Develop genuine philosophical or historical literacy — not to be interesting at dinner parties, but to think more clearly about how to live</li>
+  <li>Study one field deeply enough to understand its genuine frontier questions, not just its popularized version</li>
+  <li>Develop deep financial literacy — understanding how markets, tax systems, and investment vehicles actually work, not just surface-level familiarity</li>
+  <li>Build genuine statistical and probabilistic reasoning ability — the capacity to think clearly about uncertainty and evidence</li>
+</ul>
+
+<h3>Skill Goals</h3>
+<ul>
+  <li>Achieve conversational or professional fluency in a second language — not "basic phrases," but the ability to think and connect in another culture</li>
+  <li>Learn to play an instrument to a level that allows genuine musical participation — not performance, but musical literacy</li>
+  <li>Develop programming proficiency sufficient to build functional tools for my own purposes</li>
+  <li>Build genuine writing ability — the capacity to write clearly, persuasively, and with voice</li>
+  <li>Develop cooking competence to the point where feeding people well is an expression of care, not a source of stress</li>
+  <li>Build enough physical training knowledge to design effective programs for myself without depending on external instruction</li>
+</ul>
+
+<h2>Interest Goals: Examples for Meaning, Relationships, and Personal Life</h2>
+<p>Interest goals are the most personal and the most frequently deferred. They cover the domains that give life its texture and meaning: the relationships you build, the creative work you do, the experiences you accumulate, the ways you contribute to things beyond yourself. They are also the domain where the end-of-life research consistently identifies the greatest regrets. People rarely wish they had worked more. They frequently wish they had invested more in the relationships, experiences, and creative pursuits they kept postponing.</p>
+<p>For the scientific case behind why Interest-domain investment matters as much as the other two domains, see <a href="/pathoragy/blog/sustainable-happiness">The Science of Sustainable Happiness</a>.</p>
+
+<h3>Relationship Goals</h3>
+<ul>
+  <li>Build and consistently maintain 3-5 deep friendships — not a wide network, but genuine relationships characterized by mutual care and real contact over decades</li>
+  <li>Cultivate a marriage or long-term partnership that is genuinely good, not just stable — that continues to grow and deepen rather than merely persist</li>
+  <li>Be a genuinely present, engaged parent — not in terms of hours alone, but in terms of real attention and meaningful connection</li>
+  <li>Invest deliberately in extended family relationships before distance, divergence, or death makes investment no longer possible</li>
+  <li>Build a meaningful mentor relationship — as both mentee and mentor — at the appropriate stages of life</li>
+  <li>Develop a small community of people who share my most important interests and values — not acquaintances, but genuine companions</li>
+  <li>Maintain meaningful connections with 5+ friends from different periods and contexts of my life, not just current convenience</li>
+</ul>
+
+<h3>Creative and Expressive Goals</h3>
+<ul>
+  <li>Write a book — not necessarily to publish, but because there is something you have thought about long enough to deserve that form</li>
+  <li>Build a photographic practice that produces a body of work you are genuinely proud of over decades</li>
+  <li>Develop a creative discipline — writing, music, visual art, craft — to a level where it becomes a genuine form of self-expression</li>
+  <li>Record or write a family history: the stories that will not survive if you don't tell them</li>
+  <li>Create something — a project, a piece of work, a body of photographs — that will still exist and matter after you are gone</li>
+  <li>Build a musical repertoire you can perform from memory — pieces that are fully yours</li>
+  <li>Develop a consistent creative practice that produces work regularly, not just when inspiration arrives</li>
+</ul>
+
+<h3>Experience Goals</h3>
+<ul>
+  <li>See the natural and cultural wonders that matter most to you — not a generic bucket list, but specifically what you would regret not having witnessed</li>
+  <li>Live or work abroad for an extended period — long enough that it changes how you understand culture and your own assumptions</li>
+  <li>Complete a significant physical challenge — a long-distance race, a multi-day trek, a physical goal that requires sustained training</li>
+  <li>Attend or participate in the events in your domain that represent peak human achievement: the performances, competitions, or gatherings that define the field</li>
+  <li>Take a trip with my children while they are young enough to remember it and old enough to appreciate it</li>
+  <li>Spend extended time in a place that has always called to me — not a vacation, but genuine immersion</li>
+  <li>Complete a physical challenge that would have seemed impossible five years before attempting it</li>
+</ul>
+
+<h3>Contribution Goals</h3>
+<ul>
+  <li>Contribute meaningful time — not just money — to a cause or organization you genuinely care about, at a scale that requires something of you</li>
+  <li>Mentor a specific number of younger people in your domain over your career — not casually, but with real investment in their development</li>
+  <li>Build or create something that serves your community and that would not exist without your effort</li>
+  <li>Develop a financial giving practice that grows over time — starting at whatever level is meaningful now and scaling with capacity</li>
+  <li>Contribute expertise to an organization whose mission matters to you — bringing real skills, not just goodwill</li>
+  <li>Help someone who helped you, in a way that is proportionate to what they gave</li>
+</ul>
+
+<h3>Health and Physical Goals</h3>
+<ul>
+  <li>Build and sustain health habits that position me to remain active, cognitively sharp, and physically capable well into my seventies and eighties</li>
+  <li>Achieve and maintain a relationship with food, movement, and sleep that doesn't require constant willpower — because the structures and habits are in place</li>
+  <li>Complete a specific physical challenge that requires a meaningful training investment — because the process changes you as much as the achievement does</li>
+  <li>Build a movement practice that I actually enjoy and will sustain for decades, not a regimen I tolerate until I stop</li>
+  <li>Understand my own health well enough to make genuinely informed decisions — not delegating all judgment to practitioners</li>
+  <li>Achieve a level of physical conditioning in my forties that I did not have in my twenties</li>
+</ul>
+
+<h2>How to Choose Examples That Are Actually Yours</h2>
+<p>The value of a list like this is not comprehensiveness. It is recognition — the experience of reading an example and feeling a specific pull toward it that is different from mild approval. Mild approval is how you respond to goals that seem good in the abstract. The pull you are looking for is more visceral: a slight acceleration, a sense of "yes, that one — that actually matters to me."</p>
+<p>Three filters help separate genuine goals from good-sounding ones:</p>
+<ul>
+  <li><strong>The privacy test.</strong> Would you want this goal if no one would ever know you had pursued it? Goals that require an audience to feel meaningful are extrinsic goals. They tend to lose motivational force once achieved — or to produce achievement that feels hollow.</li>
+  <li><strong>The five-year persistence test.</strong> Do you expect to still care about this goal in five years? Life goals need to sustain motivation across years and decades. Goals that are compelling now but likely to feel irrelevant soon are not life goals — they are phases.</li>
+  <li><strong>The trade-off test.</strong> What would you give up to pursue this goal? A goal that you want only if it costs you nothing is not a genuine priority. The goals that are real reveal themselves when you identify what you are genuinely willing to sacrifice for them.</li>
+</ul>
+<p>If you are uncertain which goals are genuinely yours — if the list above produces mild approval everywhere but the visceral pull nowhere — the structured inquiry in <a href="/pathoragy/blog/how-to-find-purpose-in-life">How to Find Your Purpose in Life</a> is a useful precursor. It surfaces the values and directions that make some goals feel right and others feel hollow, regardless of how well they look on a list.</p>
+
+<h2>From Example to Your Own Goal: The Specificity Step</h2>
+<p>An example from someone else's list is a starting point, not a finished goal. The process of making it yours requires specificity: adding your own time horizon, your own definition of success, and your own reason for wanting it.</p>
+<p>Take the example: "Reach financial independence." Generic. Adapt it: "Reach a net worth of 25x my annual expenses by 52 — so that at that point, continuing to work is a genuine choice and not a financial necessity." Now it is a goal. It has a threshold, a time horizon, and a reason that connects it to something real.</p>
+<p>Every example on this list can be transformed through the same process. The specificity is not about rigidity — plans can and should evolve. It is about concreteness: a goal concrete enough to generate decisions, routes, and daily actions is a goal that will actually shape your life. A goal that remains vague will remain inert.</p>
+<p>For the framework that connects life goals to actual daily behavior — through routes, waypoints, and evidence-backed actions — see <a href="/pathoragy/blog/intentional-life-design">Intentional Life Design</a>. And for the complete long-horizon planning architecture that gives your goals a navigable structure, see <a href="/pathoragy/blog/long-horizon-life-planning">Long-Horizon Life Planning: The Complete Guide</a>.</p>
+
+<h2>How Pathoragy Structures Life Goals Into Action</h2>
+<p>The gap between having life goals and actually living toward them is where most people get stuck. The goal exists; the daily behavior doesn't reflect it. Pathoragy was built to close this gap.</p>
+<p>When you define your goals across Wealth, Knowledge, and Interest, Pathoragy generates structured routes toward each — with waypoints at meaningful intervals and evidence-backed daily tasks that connect your present behavior to your long-horizon direction. Your financial independence goal generates a route with savings rate targets, investment milestones, and daily financial practices drawn from what research shows actually moves people toward that outcome. Your expertise goal generates a knowledge route with depth milestones and a practice structure grounded in deliberate skill development research.</p>
+<p>The result: your goals are not documents you revisit annually. They are active navigational structures that shape what you do this week — connecting Tuesday's choices to the life you are building over the next fifteen years.</p>`
+  },
+  {
+    slug: "what-is-life-design",
+    title: "What Is Life Design? A Practical Guide to Designing Your Life",
+    description: "Life design is the practice of deliberately shaping your life rather than letting circumstances shape it for you. Here is what it is, how it works, and how to begin.",
+    date: "2026-05-06",
+    readTime: "12 min read",
+    tags: ["life design", "what is life design", "designing your life", "life design guide", "intentional life"],
+    category: "guide",
+    excerpt: "Most people don't design their lives — they accumulate them. Life design is the practice of making your life deliberate rather than default. Here is what it involves and where to begin.",
+    content: `<p class="lead">Most people do not design their lives. They accumulate them — gathering a sequence of decisions made in response to circumstances, opportunities, and social expectations, without a guiding framework for what they are actually trying to build. Life design is the alternative: the deliberate, systematic practice of shaping your life as an object of design rather than a sequence of reactions. This guide explains what life design is, where the concept comes from, what it involves in practice, and how to begin.</p>
+
+<h2>What Life Design Actually Means</h2>
+<p>Life design is the practice of applying design thinking — the iterative, prototype-and-learn methodology used in product and systems design — to the problem of how to live. The central insight is that a life, like a product, can be designed: not perfectly specified in advance, but deliberately shaped through a cycle of orientation, hypothesis, testing, and refinement.</p>
+<p>The alternative to life design is not life chaos. Most people have coherent, functional lives that were never designed. The alternative to life design is a life that accumulated — built up from inherited expectations, ambient social norms, reactive decisions made under pressure, and paths of least resistance. An accumulated life can be comfortable and even good. It is rarely deeply one's own.</p>
+<p>Life design asks a prior question before any planning or goal-setting begins: what kind of life do you actually want to be building? Not what you think you should want, not what people in your social circle are building, not what you were implicitly pointed toward by education and upbringing. What you actually want — the version of your life that would feel genuinely yours if you lived it in full.</p>
+
+<h2>The Origins of Life Design as a Discipline</h2>
+<p>The term "life design" was most significantly popularized by Bill Burnett and Dave Evans, who developed and teach the Life Design Lab at Stanford University. Their approach applies design thinking principles — reframing problems, generating multiple possibilities, prototyping options before committing — to the challenge of building a satisfying life. Their core argument: the skills designers use to create products (curiosity, bias toward action, prototyping, reframing) are exactly the skills needed to design a life that works.</p>
+<p>Several features of the Stanford approach are worth understanding regardless of where you encounter life design ideas:</p>
+<p><strong>Wayfinding over mapping.</strong> Life designers do not believe you can fully map out the right life in advance. Instead, they emphasize wayfinding — moving toward better and better versions of the life you are building, iteratively, using real-world feedback. You do not discover the right life by thinking harder; you discover it by trying things and learning from what you find.</p>
+<p><strong>Prototyping over committing.</strong> Rather than committing to a major life change and discovering it was the wrong one, life design advocates for prototyping: small, low-cost experiments that give you real information about whether a path is actually what you expected. An informational conversation is a prototype. A weekend immersion in a field you're considering is a prototype. Taking on a project in a domain you want to understand is a prototype.</p>
+<p><strong>Reframing dysfunctional beliefs.</strong> Life designers identify and reframe the implicit beliefs that constrain life choices — "I have to stay in this career," "changing direction at my age is irresponsible," "I need to know what I want before I can move" — because these beliefs are often not facts. They are design constraints that have never been questioned.</p>
+
+<h2>What Life Design Is Not</h2>
+<p>Life design is frequently confused with adjacent practices. The distinctions matter.</p>
+<p><strong>Life design is not life planning.</strong> Planning asks: given my goals, what is the best route toward them? Design asks a prior question: what goals are worth having? Life planning assumes you know what you want to build. Life design questions that assumption and often revises it before planning begins. The two practices work best together — design establishes direction, planning operationalizes it.</p>
+<p><strong>Life design is not productivity.</strong> Productivity asks: how do I get more done? Life design asks: am I building the right things? A highly productive life aimed at the wrong direction is not a well-designed life. It is an efficiently executed mistake.</p>
+<p><strong>Life design is not vision boarding.</strong> Visualization tools can be useful, but life design is characterized by real-world engagement — prototyping, conversations, experiments — not imagining. The insight of design thinking is that you learn by doing, not by imagining.</p>
+
+<h2>The Five Domains of a Designed Life</h2>
+<p>A life can be designed across multiple dimensions simultaneously. The most consequential are:</p>
+
+<h3>Work and Career</h3>
+<p>Most people allow their career to be designed by their employer, industry norms, and whatever opportunities present themselves. Designing your work life means identifying what kind of work engages you genuinely — not just what you're good at or what pays well, but what you would sustain for decades with real motivation — and then deliberately moving toward roles, environments, and structures that fit that design.</p>
+<p>The goal is not to find a perfect job. It is to build a career that is moving in a direction you have actually chosen, rather than a direction that emerged from inertia and availability.</p>
+
+<h3>Relationships</h3>
+<p>Relationships are among the strongest predictors of long-term wellbeing in the research — and among the least deliberately designed aspects of most people's lives. A designed relational life is not one with a large network; it is one with a small number of deep, mutually invested relationships — built intentionally and protected from the ambient drift that erodes connection over time. This includes not just romantic relationships but friendships, family bonds, and professional relationships that genuinely matter.</p>
+
+<h3>Time and Environment</h3>
+<p>How you spend your time and where you spend it are two of the most consequential design choices you make — and two of the least examined. The designed life structures time around what actually matters rather than what creates the most urgency. It also engineers the physical and digital environment to make desired behavior easier and undesired behavior harder. For a detailed treatment of these environmental design principles, see the guide on <a href="/pathoragy/blog/intentional-life-design">Intentional Life Design</a>.</p>
+
+<h3>Learning and Development</h3>
+<p>What you are becoming over time — what capabilities you are building, what domains you are developing depth in — is a design choice, whether or not it is made explicitly. A designed intellectual life has a direction: specific domains, skills, and depth that you are moving toward with sustained effort. An undesigned intellectual life drifts toward whatever is convenient, trending, or immediately entertaining — accumulating breadth without depth, familiarity without expertise.</p>
+
+<h3>Meaning and Contribution</h3>
+<p>The dimension of life that is most frequently underemphasized is meaning — the sense of contributing to something beyond yourself, of living in accordance with values that extend beyond personal gain. Designing this dimension means identifying what you genuinely care about (not what you think you should care about) and building structures that make contributing to it a regular feature of your life, not an occasional aspiration.</p>
+<p>If the meaning dimension feels unclear — if you are unsure what you genuinely care about beyond the immediate — the inquiry in <a href="/pathoragy/blog/how-to-find-purpose-in-life">How to Find Your Purpose in Life</a> is a useful starting point before attempting to design around it.</p>
+
+<h2>Common Life Design Mistakes</h2>
+<p>Several patterns appear consistently among people who attempt life design without a clear framework.</p>
+<p><strong>Designing for someone else's criteria.</strong> The most common failure mode: designing a life that looks good by the criteria of your parents, your social environment, or the culture you grew up in — rather than by criteria that are genuinely yours. A life can pass every external measure of success and still feel foreign to the person living it. The design question is always: whose criteria am I actually using?</p>
+<p><strong>Skipping the reframe phase.</strong> Many people attempt to optimize the life they already have without questioning whether it is the right life to optimize. Real life design often requires questioning fundamental assumptions about what you are trying to build — not just finding better routes toward the same destination.</p>
+<p><strong>Prototyping in imagination only.</strong> Understanding an option intellectually is not prototyping. Real prototypes involve real-world engagement — conversations with people living the life you're considering, small experiments that generate genuine feedback, temporary immersions rather than extended research. If you have been "thinking about" a major change for years without taking any real-world action, you have been planning, not designing.</p>
+<p><strong>Treating life design as a one-time event.</strong> Life design is iterative. The best-designed life at 28 is not the best-designed life at 42. Circumstances change, values clarify, what matters shifts. A well-designed life is one that is regularly revisited and updated — not because the original design was wrong, but because the person living it is different.</p>
+
+<h2>Life Design and Long-Horizon Planning: How They Work Together</h2>
+<p>Life design and long-horizon planning are complementary practices, not competing ones. Design is the process of discovering and clarifying what kind of life you actually want to build — using inquiry, prototyping, and reframing to surface genuine directions. Planning is the process of structuring your route toward those directions — with waypoints, time horizons, and evidence-backed daily practices.</p>
+<p>Done in the right sequence, design comes first: it establishes the directions that planning then operationalizes. Without design, planning tends to optimize the default life rather than a deliberately chosen one. Without planning, design produces valuable clarity that never quite connects to behavior change.</p>
+<p>For the planning architecture that gives your design directions operational form — routes, waypoints, and daily practices — see <a href="/pathoragy/blog/long-horizon-life-planning">Long-Horizon Life Planning: The Complete Guide</a>. For concrete goal examples that can anchor your design directions once they are clear, see <a href="/pathoragy/blog/life-goals-examples">Life Goals Examples: 100+ Ideas Across Wealth, Knowledge, and Interest</a>.</p>
+
+<h2>How to Begin Life Design</h2>
+<p>Life design does not begin with a framework. It begins with honest observation of your current life — what is working, what is not, and what assumptions you are making about what is possible or appropriate.</p>
+<p><strong>Step 1: Map where you actually are.</strong> Not where you think you should be — where you actually are, across the domains that matter: work, relationships, learning, health, meaning, financial position. Rate your genuine engagement and satisfaction in each. The areas of significant dissatisfaction are where redesign is most needed.</p>
+<p><strong>Step 2: Identify the dysfunctional beliefs.</strong> What beliefs are you holding that are constraining your design rather than informing it? "I'm too old to change," "it's too late to pursue this," "people like me don't get to live that kind of life." These may be real constraints. They may be untested assumptions. Design thinking requires distinguishing between the two.</p>
+<p><strong>Step 3: Generate multiple possible versions of your future.</strong> Not the one you are currently building — at least two or three alternatives. What would your life look like in five years if you made a significant pivot in your work? Your location? How you spend your time? You do not need to pursue any of these alternatives; the exercise is to discover that alternatives exist and to feel which ones produce genuine interest rather than intellectual approval.</p>
+<p><strong>Step 4: Prototype the most interesting alternative.</strong> Identify one small, real-world action that would give you genuine information about whether a different direction is as appealing as it seems from the outside. An informational conversation, a weekend experiment, a small project in the domain you're considering. Learn from what you find.</p>
+<p><strong>Step 5: Design your daily environment to support your chosen direction.</strong> Once a direction is clearer, the most consequential design work is environmental: structuring your time, physical space, and social environment to make movement in your chosen direction the path of least resistance. This is where <a href="/pathoragy/blog/intentional-life-design">intentional life design</a> becomes indispensable — translating the broad question of what kind of life you want to build into the daily structures that actually produce it.</p>
+
+<h2>What Pathoragy Adds to Life Design</h2>
+<p>The insight of life design — that a life can be shaped deliberately — is powerful. The gap it often leaves is operationalization: once you have clarity about the kind of life you want to build, how do you translate that clarity into what you actually do on a Tuesday?</p>
+<p>Pathoragy was built to close this gap. It takes the output of life design — your genuine goals across Wealth, Knowledge, and Interest — and structures the route toward them: with waypoints at meaningful intervals, evidence-backed daily practices derived from research on what actually produces change in each domain, and a review mechanism that makes annual recalibration a built-in feature rather than an aspiration.</p>
+<p>Life design tells you what to build. Pathoragy gives you the navigation system for building it — connecting the life you want to the choices you make this week, in a structure that compounds over the years it takes to build a life worth living.</p>
+<p>For a full treatment of the goal-setting framework that gives life design directions their operational form, see <a href="/pathoragy/blog/life-goals-wealth-knowledge-interest">Life Goals: The Complete Guide to Wealth, Knowledge, and Interest</a>.</p>`
   }
 ]
