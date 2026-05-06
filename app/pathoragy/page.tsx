@@ -100,13 +100,23 @@ export default function PathoragyPage() {
         WebkitBackdropFilter: "blur(20px) saturate(160%)",
         borderBottom: `1px solid ${C.bd2}`,
       }}>
-        <Image
-          src="/pathoragy-wordmark.png"
-          alt="Pathoragy"
-          width={140}
-          height={30}
-          className="h-8 w-auto"
-        />
+        <Link href="/" style={{ display: "flex", alignItems: "center", gap: "8px", textDecoration: "none" }} aria-label="Back to Truake">
+          <Image
+            src="/truake-logo-web.png"
+            alt="Truake"
+            width={120}
+            height={40}
+            className="h-7 w-auto opacity-60"
+          />
+          <span style={{ color: C.t20, fontSize: "16px" }}>/</span>
+          <Image
+            src="/pathoragy-wordmark.png"
+            alt="Pathoragy"
+            width={140}
+            height={30}
+            className="h-7 w-auto"
+          />
+        </Link>
         <div style={{ display: "flex", gap: "32px", alignItems: "center" }}>
           <Link href="/pathoragy/blog" className="p-nav-blog"
             style={{ color: C.t60, textDecoration: "none", fontSize: "14px", fontWeight: 500, letterSpacing: "-0.01em" }}>

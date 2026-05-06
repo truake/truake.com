@@ -142,9 +142,9 @@ export default function DiffrPage() {
             <Image
               src="/diffr-wordmark.png"
               alt="Diffr"
-              width={96}
-              height={24}
-              className="h-6 w-auto"
+              width={120}
+              height={32}
+              className="h-8 w-auto"
             />
           </Link>
           <div className="flex items-center gap-6">
