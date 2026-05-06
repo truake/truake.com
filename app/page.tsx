@@ -50,11 +50,11 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
             <Link href="/" aria-label="Truake home">
               <Image
-                src="/truake-logo.png"
+                src="/truake-logo-web.png"
                 alt="Truake logo"
-                width={100}
-                height={40}
-                className="h-7 w-auto"
+                width={160}
+                height={52}
+                className="h-10 w-auto"
                 priority
               />
             </Link>

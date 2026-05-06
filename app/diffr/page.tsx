@@ -132,25 +132,20 @@ export default function DiffrPage() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2" aria-label="Back to Truake">
             <Image
-              src="/truake-logo.png"
+              src="/truake-logo-web.png"
               alt="Truake"
-              width={72}
-              height={28}
-              className="h-5 w-auto brightness-0 opacity-60"
+              width={120}
+              height={40}
+              className="h-7 w-auto opacity-60"
             />
             <span style={{ color: "var(--d-text-20)" }}>/</span>
-            <span
-              style={{
-                fontFamily: "var(--font-syne), sans-serif",
-                fontWeight: 800,
-                fontSize: 15,
-                letterSpacing: "0.04em",
-                textTransform: "uppercase",
-                color: "#1B8BF5",
-              }}
-            >
-              diffr
-            </span>
+            <Image
+              src="/diffr-wordmark.png"
+              alt="Diffr"
+              width={96}
+              height={24}
+              className="h-6 w-auto"
+            />
           </Link>
           <div className="flex items-center gap-6">
             <div

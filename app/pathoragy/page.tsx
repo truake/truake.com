@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import PathoragyWaitlistForm from "./waitlist-form";
 import { Fraunces } from "next/font/google";
@@ -99,9 +100,13 @@ export default function PathoragyPage() {
         WebkitBackdropFilter: "blur(20px) saturate(160%)",
         borderBottom: `1px solid ${C.bd2}`,
       }}>
-        <span style={{ fontFamily: "var(--font-fraunces), Georgia, serif", fontWeight: 900, fontSize: "18px", letterSpacing: "-0.03em", color: C.accent, fontStyle: "italic" }}>
-          pathoragy
-        </span>
+        <Image
+          src="/pathoragy-wordmark.png"
+          alt="Pathoragy"
+          width={140}
+          height={30}
+          className="h-8 w-auto"
+        />
         <div style={{ display: "flex", gap: "32px", alignItems: "center" }}>
           <Link href="/pathoragy/blog" className="p-nav-blog"
             style={{ color: C.t60, textDecoration: "none", fontSize: "14px", fontWeight: 500, letterSpacing: "-0.01em" }}>
