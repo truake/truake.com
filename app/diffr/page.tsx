@@ -144,7 +144,7 @@ export default function DiffrPage() {
               alt="Diffr"
               width={280}
               height={100}
-              className="h-11 w-auto"
+              className="h-8 w-auto"
             />
           </Link>
           <div className="flex items-center gap-6">
