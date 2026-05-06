@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "truake-website",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--", "--port", "3099"],
+      "runtimeExecutable": "/usr/local/bin/node",
+      "runtimeArgs": ["/Volumes/Samsung SSD 990 PRO 1TB Media/truake-website/node_modules/next/dist/bin/next", "dev", "--port", "3099"],
       "port": 3099
     }
   ]
