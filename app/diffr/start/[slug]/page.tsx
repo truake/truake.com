@@ -5,9 +5,11 @@ import Image from "next/image";
 import {
   getAllGuides,
   getGuideBySlug,
+  getRedditInsightsForSlug,
   symbolToEmoji,
   toUrlSlug,
   formatBudget,
+  type RedditInsight,
 } from "../lib";
 
 // ── Static generation ─────────────────────────────────────────
@@ -41,6 +43,132 @@ export async function generateMetadata(
   };
 }
 
+// ── Reddit Insights Section ───────────────────────────────────
+function RedditInsightsSection({
+  insights,
+  domainName,
+}: {
+  insights: RedditInsight[];
+  domainName: string;
+}) {
+  const C = {
+    bg: "#F0EBE3",
+    bg2: "#F8F5F1",
+    text: "#2A2620",
+    t80: "rgba(42,38,32,0.82)",
+    t60: "rgba(42,38,32,0.60)",
+    t40: "rgba(42,38,32,0.40)",
+    t30: "rgba(42,38,32,0.30)",
+    blue: "#1B8BF5",
+    orange: "#F0522C",
+    bd: "rgba(42,38,32,0.10)",
+  };
+
+  // Collect all unique subreddits mentioned
+  const subs = [...new Set(insights.map((i) => `r/${i.sub}`))].join(", ");
+
+  return (
+    <section style={{ marginBottom: "52px" }}>
+      <h2 style={{
+        fontSize: "22px", fontWeight: 700, letterSpacing: "-0.025em",
+        color: C.text, margin: "0 0 6px",
+      }}>
+        What Reddit Users Are Asking
+      </h2>
+      <p style={{ fontSize: "15px", color: C.t60, margin: "0 0 24px", lineHeight: 1.6 }}>
+        According to {subs} top discussions — these are the real questions beginners ask about{" "}
+        {domainName}. Sourced from Diffr&apos;s analysis of 3,900 community posts.
+      </p>
+
+      <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+        {insights.map((insight, idx) => {
+          const topComment = insight.top_comments?.[0];
+          const secondComment = insight.top_comments?.[1];
+          const redditUrl = `https://www.reddit.com${insight.permalink}`;
+
+          return (
+            <div key={idx} style={{
+              background: C.bg2,
+              border: `1px solid ${C.bd}`,
+              borderRadius: "14px",
+              padding: "20px 22px",
+              borderLeft: `3px solid rgba(255,69,0,0.35)`,
+            }}>
+              {/* Post title + sub badge */}
+              <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: "12px", marginBottom: "12px" }}>
+                <a
+                  href={redditUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ fontSize: "15px", fontWeight: 600, color: C.text, textDecoration: "none", lineHeight: 1.4, flex: 1 }}
+                >
+                  {insight.title}
+                </a>
+                <span style={{
+                  flexShrink: 0,
+                  fontSize: "10px", fontWeight: 700, letterSpacing: "0.08em",
+                  padding: "3px 8px", borderRadius: "100px",
+                  background: "rgba(255,69,0,0.08)",
+                  color: "rgba(255,69,0,0.80)",
+                }}>
+                  r/{insight.sub}
+                </span>
+              </div>
+
+              {/* Pain signals */}
+              {insight.pain_signals?.length > 0 && (
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "6px", marginBottom: "14px" }}>
+                  {insight.pain_signals.slice(0, 4).map((p, i) => (
+                    <span key={i} style={{
+                      fontSize: "11px", fontWeight: 500,
+                      padding: "3px 9px", borderRadius: "100px",
+                      background: "rgba(240,82,44,0.07)",
+                      color: C.orange,
+                    }}>
+                      {p}
+                    </span>
+                  ))}
+                </div>
+              )}
+
+              {/* Top comments as user quotes */}
+              {[topComment, secondComment].filter(Boolean).slice(0, 2).map((comment, ci) => (
+                <blockquote key={ci} style={{
+                  margin: "0 0 8px",
+                  padding: "10px 14px",
+                  background: "rgba(42,38,32,0.04)",
+                  borderRadius: "8px",
+                  borderLeft: "none",
+                }}>
+                  <p style={{ fontSize: "13px", color: C.t80, margin: "0 0 4px", lineHeight: 1.55, fontStyle: "italic" }}>
+                    &ldquo;{comment!.body.length > 220 ? comment!.body.slice(0, 220) + "…" : comment!.body}&rdquo;
+                  </p>
+                  <cite style={{ fontSize: "11px", color: C.t40, fontStyle: "normal" }}>
+                    — u/{comment!.author} · ↑{comment!.score}
+                  </cite>
+                </blockquote>
+              ))}
+
+              {/* Meta footer */}
+              <div style={{ display: "flex", alignItems: "center", gap: "16px", marginTop: "10px" }}>
+                <span style={{ fontSize: "12px", color: C.t40 }}>↑ {insight.score} · {insight.num_comments} comments</span>
+                <a
+                  href={redditUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ fontSize: "12px", color: C.blue, textDecoration: "none" }}
+                >
+                  View on Reddit →
+                </a>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
 // ── Design tokens ─────────────────────────────────────────────
 const C = {
   bg: "#F0EBE3",
@@ -69,7 +197,10 @@ export default async function StarterGuidePage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
-  const guide = await getGuideBySlug(slug);
+  const [guide, redditInsights] = await Promise.all([
+    getGuideBySlug(slug),
+    getRedditInsightsForSlug(slug),
+  ]);
   if (!guide) notFound();
 
   const emoji = symbolToEmoji(guide.icon_symbol);
@@ -133,6 +264,21 @@ export default async function StarterGuidePage(
           description: cat.why,
         })) ?? [],
       },
+      // Reddit-sourced Q&A for GEO (LLM citation friendly)
+      ...redditInsights.slice(0, 3).map((insight) => ({
+        "@type": "Question",
+        name: insight.title,
+        url: `https://www.reddit.com${insight.permalink}`,
+        answerCount: insight.num_comments,
+        acceptedAnswer: insight.top_comments?.[0]
+          ? {
+              "@type": "Answer",
+              text: insight.top_comments[0].body.slice(0, 300),
+              author: { "@type": "Person", name: `u/${insight.top_comments[0].author}` },
+            }
+          : undefined,
+        keywords: insight.pain_signals?.join(", "),
+      })),
     ],
   };
 
@@ -354,6 +500,11 @@ export default async function StarterGuidePage(
               ))}
             </div>
           </section>
+        )}
+
+        {/* Reddit module — "What Reddit Users Are Asking" */}
+        {redditInsights.length > 0 && (
+          <RedditInsightsSection insights={redditInsights} domainName={guide.domain_name} />
         )}
 
         {/* CTA — primary conversion block */}
