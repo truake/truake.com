@@ -2,13 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import WaitlistForm from "./waitlist-form";
-import { Barlow_Condensed, IBM_Plex_Mono, Syne } from "next/font/google";
+import { Playfair_Display, IBM_Plex_Mono, Syne } from "next/font/google";
 
-const barlow = Barlow_Condensed({
+const playfair = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
   style: ["normal", "italic"],
-  variable: "--font-barlow",
+  variable: "--font-display",
   display: "swap",
 });
 
@@ -116,7 +116,7 @@ const scenarios = [
 export default function DiffrPage() {
   return (
     <div
-      className={`diffr-root ${barlow.variable} ${ibmMono.variable} ${syne.variable}`}
+      className={`diffr-root ${playfair.variable} ${ibmMono.variable} ${syne.variable}`}
       style={{ backgroundColor: "var(--d-bg)", color: "var(--d-text)", minHeight: "100vh" }}
     >
       {/* ── Nav ── */}
@@ -201,20 +201,20 @@ export default function DiffrPage() {
           {/* Giant headline */}
           <h1
             style={{
-              fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
-              fontSize: "clamp(72px, 13vw, 168px)",
-              lineHeight: 0.92,
-              letterSpacing: "-0.01em",
-              fontWeight: 900,
-              textTransform: "uppercase",
+              fontFamily: "var(--font-display), 'Playfair Display', serif",
+              fontSize: "clamp(68px, 12vw, 160px)",
+              lineHeight: 0.9,
+              letterSpacing: "-0.03em",
+              fontWeight: 800,
               marginBottom: 4,
             }}
           >
             <span style={{ color: "var(--d-text)", display: "block" }}>One Brand.</span>
-            <span style={{ color: "#1B8BF5", display: "block" }}>Per Slot.</span>
+            <span style={{ color: "#1B8BF5", display: "block", fontStyle: "italic" }}>Per Slot.</span>
             <span
               style={{
                 display: "block",
+                fontStyle: "italic",
                 WebkitTextStroke: "2px rgba(27,139,245,0.35)",
                 WebkitTextFillColor: "transparent",
               }}
@@ -490,7 +490,7 @@ export default function DiffrPage() {
           {/* Headline */}
           <h2
             style={{
-              fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
+              fontFamily: "var(--font-display), 'Playfair Display', serif",
               fontSize: "clamp(40px, 6vw, 72px)",
               fontWeight: 800,
               textTransform: "uppercase",
@@ -526,7 +526,7 @@ export default function DiffrPage() {
               >
                 <div
                   style={{
-                    fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
+                    fontFamily: "var(--font-display), 'Playfair Display', serif",
                     fontSize: "clamp(48px, 7vw, 80px)",
                     fontWeight: 900,
                     color: "#1B8BF5",
@@ -605,7 +605,7 @@ export default function DiffrPage() {
 
           <h2
             style={{
-              fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
+              fontFamily: "var(--font-display), 'Playfair Display', serif",
               fontSize: "clamp(36px, 5vw, 60px)",
               fontWeight: 800,
               textTransform: "uppercase",
@@ -642,7 +642,7 @@ export default function DiffrPage() {
               >
                 <div
                   style={{
-                    fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
+                    fontFamily: "var(--font-display), 'Playfair Display', serif",
                     fontSize: 80,
                     fontWeight: 900,
                     color: "rgba(27,139,245,0.12)",
@@ -655,7 +655,7 @@ export default function DiffrPage() {
                 </div>
                 <h3
                   style={{
-                    fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
+                    fontFamily: "var(--font-display), 'Playfair Display', serif",
                     fontSize: 22,
                     fontWeight: 700,
                     textTransform: "uppercase",
@@ -748,7 +748,7 @@ export default function DiffrPage() {
               >
                 <div
                   style={{
-                    fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
+                    fontFamily: "var(--font-display), 'Playfair Display', serif",
                     fontSize: 48,
                     fontWeight: 700,
                     color: f.color,
@@ -761,7 +761,7 @@ export default function DiffrPage() {
                 </div>
                 <h3
                   style={{
-                    fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
+                    fontFamily: "var(--font-display), 'Playfair Display', serif",
                     fontSize: 22,
                     fontWeight: 700,
                     textTransform: "uppercase",
@@ -801,7 +801,7 @@ export default function DiffrPage() {
 
           <h2
             style={{
-              fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
+              fontFamily: "var(--font-display), 'Playfair Display', serif",
               fontSize: "clamp(36px, 5vw, 60px)",
               fontWeight: 800,
               textTransform: "uppercase",
@@ -866,7 +866,7 @@ export default function DiffrPage() {
               <div>
                 <h3
                   style={{
-                    fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
+                    fontFamily: "var(--font-display), 'Playfair Display', serif",
                     fontSize: 28,
                     fontWeight: 700,
                     textTransform: "uppercase",
@@ -1047,7 +1047,7 @@ export default function DiffrPage() {
             </div>
             <h2
               style={{
-                fontFamily: "var(--font-barlow), 'Barlow Condensed', sans-serif",
+                fontFamily: "var(--font-display), 'Playfair Display', serif",
                 fontSize: "clamp(40px, 6vw, 60px)",
                 fontWeight: 900,
                 textTransform: "uppercase",
