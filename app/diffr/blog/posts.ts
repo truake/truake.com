@@ -12,6 +12,59 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'capsule-wardrobe-is-not-the-point',
+    title: 'The Capsule Wardrobe Is Not the Point',
+    description: 'One-Brand Rule and minimalism look similar from the outside. They're solving different problems. Here's the structural difference — and why it matters.',
+    date: '2026-05-18',
+    readTime: '6 min read',
+    tags: ["one-brand rule", "minimalism", "decision architecture", "bifl", "diff-structism"],
+    category: 'strategy',
+    excerpt: 'You can own two hundred things and still have a fully closed decision architecture. You can own twenty things and still be trapped.',
+    content: `
+<p class="lead">The minimalist wardrobe is everywhere. "33 items, 3 months, complete freedom." The capsule wardrobe promises that fewer things means fewer decisions, lower anxiety, more clarity. Project 333 has millions of followers. Marie Kondō became a cultural event. And yet: if you spend forty-five minutes reading "best minimalist wardrobe" articles to figure out which 33 items to keep, you have walked directly into the trap minimalism claimed to help you escape. The search for the optimal reduced set is itself a maximally open decision loop.</p>
+
+<p>The problem minimalism solves and the problem the One-Brand Rule solves are not the same problem. Conflating them produces systems that look clean but remain cognitively expensive.</p>
+
+<h2>Two Different Problems</h2>
+
+<p>Minimalism addresses quantity. The premise is that owning fewer objects reduces the maintenance burden — cleaning, storage, decision-making at the point of use — and that this reduction produces something like mental clarity. The research supporting this is real but qualified. Studies on environmental clutter and cognitive load do show measurable effects. A cluttered environment imposes ongoing low-level processing demands. Reducing physical clutter reduces those demands.</p>
+
+<p>But the quantity problem and the decision architecture problem are distinct. Decision architecture is about the number of open loops — unresolved questions about what to buy, what to replace, what to try next — that are running in your cognitive background at any given moment. You can have a 30-item wardrobe with 15 open loops ("I should replace this with a better version," "I need to find a better option for this slot," "this doesn’t quite work but I haven’t found the replacement yet"). You can have a 200-item wardrobe with zero open loops, if every item was chosen through a committed decision that you do not intend to revisit.</p>
+
+<p>Lévi-Strauss argued that meaning resides not in elements themselves but in the structural relationships between elements. The minimalist mistake is to treat quantity as the structural variable. But the relevant structure is the decision architecture — the pattern of open and closed loops — not the count of items. A 200-item wardrobe with a fully closed decision architecture is structurally simpler, in the sense that matters, than a 30-item wardrobe under constant re-evaluation.</p>
+
+<h2>The BIFL Parallel</h2>
+
+<p>The Buy It For Life community (BIFL) got closer to the right problem. The core premise: buy the best version of a thing once, maintain it correctly, never buy it again. Red Wing boots resoled every few years. A Darn Tough lifetime-guarantee sock replaced once when it wears out. A Lodge cast iron pan that outlasts the owner.</p>
+
+<p>BIFL is not minimalism. BIFL practitioners often own more things than average, because the logic extends to every category and produces a large set of high-quality, long-duration objects. The appeal is not quantity reduction. It is decision closure. Once you have identified and purchased the best version of a thing for lifetime use, you have permanently closed that decision loop. The sock question is answered. You will never stand in a sock aisle again.</p>
+
+<p>This is very close to the One-Brand Rule logic. The difference is that BIFL operates at the product level (this specific boot, this specific cast iron) while the One-Brand Rule operates at the category level (this brand handles my footwear, this brand handles my cookware). BIFL closes the individual product decision. The One-Brand Rule closes the category-level research loop — you never need to evaluate competing brands in a category you have assigned.</p>
+
+<p>Tom, a 41-year-old engineer who has been active in BIFL communities for a decade, describes the evolution: "I started buying for life because I was tired of replacing things. I ended up at brand loyalty not because I’m lazy but because I realized that once you’ve verified a brand’s standards are consistent, you stop needing to evaluate every new product they release. The brand is a heuristic. A good one."</p>
+
+<h2>What a Closed Decision Looks Like</h2>
+
+<p>A closed decision has two properties. First, it was made with sufficient information: you evaluated the relevant options, applied the relevant criteria, and chose. Second, you have committed to not reopening it absent a specific triggering condition. The condition matters: "I will reconsider my coffee brand if they change their roasting process or if I develop evidence their quality has declined" is a closed decision with a conditional reopen trigger. "I will always be looking for a better coffee" is an open loop.</p>
+
+<p>Elena runs a research operation at a mid-sized law firm. Her clothing decision architecture: one brand each for work trousers, work shirts, casual trousers, casual shirts, outerwear, shoes, and underwear. That is seven categories, each closed. She does not read fashion content. She does not browse. When an item wears out, she orders a replacement from the same brand, same model, or the current equivalent if the model has been discontinued. Her wardrobe has approximately 60 items. She spends roughly 20 minutes per year on wardrobe decisions.</p>
+
+<p>This is not minimalism. Elena’s wardrobe is not small by capsule wardrobe standards. It is closed. The decision architecture has no open loops. The cognitive cost is not zero — she made real evaluations when she chose each brand — but those costs were paid once and are not being paid again.</p>
+
+<h2>The Question Is Not "How Much?"</h2>
+
+<p>The frame shift required to move from minimalism to decision architecture thinking is simple but requires undoing a habit. The question is not "how much do I own?" or even "how much do I need?" The question is "how many open decision loops am I running?"</p>
+
+<p>Baudrillard argued that in consumer culture, objects derive meaning from their position in a system of differences — the sign-value, distinct from use-value. The minimalist responds to this by exiting the sign system through reduction. But reduction is not the same as resolution. You can reduce your object count and still be fully embedded in the sign system if you are still actively evaluating, comparing, and seeking the optimal configuration.</p>
+
+<p>The One-Brand Rule resolves, rather than reduces. You do not exit the system of consumer differences. You make a single decision about your position within it, per category, and then stop moving. The cognitive cost of the decision is amortized over the entire remaining duration of that category’s relevance to your life. The first evaluation is the last evaluation.</p>
+
+<p>Diffr is built on this logic. A scene is not a minimalist edit of the product landscape. It is a set of resolved positions — one brand per slot, chosen once, available for adoption without re-evaluation. The point is not fewer things. The point is fewer open loops.</p>
+
+<p>If this distinction resonates, the full argument is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. To see what a fully closed scene looks like for your specific consumption contexts, <a href="/diffr#waitlist">Diffr’s waitlist is open</a>.</p>
+    `.trim(),
+  },
+  {
     slug: 'building-diffr-scene-problem',
     title: 'Building Diffr: The Scene Problem',
     description: "What does 'one brand per slot' actually mean in engineering? The answer is harder than it sounds — and it changes everything about how curation works.",
