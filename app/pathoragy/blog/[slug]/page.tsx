@@ -19,6 +19,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${post.title} — Pathoragy`,
     description: post.description,
+    alternates: {
+      canonical: `https://truake.com/pathoragy/blog/${slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.description,
@@ -83,12 +86,28 @@ export default async function BlogPostPage({ params }: Props) {
     keywords: post.tags.join(', '),
   }
 
+  const faqJsonLd = post.faq && post.faq.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: post.faq.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
+  } : null
+
   return (
     <div style={{ backgroundColor: C.bg, minHeight: '100vh', color: C.text }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       {/* Nav */}
       <nav style={{

@@ -2,30 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import WaitlistForm from "./waitlist-form";
-import { Playfair_Display, IBM_Plex_Mono, Syne } from "next/font/google";
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
-  style: ["normal", "italic"],
-  variable: "--font-display",
-  display: "swap",
-});
-
-const ibmMono = IBM_Plex_Mono({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-  style: ["normal", "italic"],
-  variable: "--font-mono",
-  display: "swap",
-});
-
-const syne = Syne({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-syne",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Diffr — Curated Brand Guide. Zero Repeats.",
@@ -116,7 +92,7 @@ const scenarios = [
 export default function DiffrPage() {
   return (
     <div
-      className={`diffr-root ${playfair.variable} ${ibmMono.variable} ${syne.variable}`}
+      className="diffr-root"
       style={{ backgroundColor: "var(--d-bg)", color: "var(--d-text)", minHeight: "100vh" }}
     >
       {/* ── Nav ── */}

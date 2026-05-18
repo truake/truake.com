@@ -8,6 +8,7 @@ export interface BlogPost {
   category: "pillar" | "science" | "guide"
   excerpt: string
   content: string
+  faq?: Array<{ q: string; a: string }>
 }
 
 export function getAllPosts(): BlogPost[] {
@@ -259,13 +260,36 @@ const posts: BlogPost[] = [
   {
     slug: "intentional-life-design",
     title: "Intentional Life Design: How to Architect the Life You Actually Want",
-    description: "Intentional living is not a mindset. It is a design problem. Here is how to architect your environment, time, and relationships to produce the life you actually want.",
+    description: "Intentional life design is the practice of replacing your environment's unhelpful defaults with deliberate choices across five domains. Here is how to architect your time, relationships, and daily structure to produce the life you actually want.",
     date: "2026-05-05",
     readTime: "18 min read",
-    tags: ["intentional living", "life design", "living with intention", "life architecture", "deliberate living"],
+    tags: ["intentional life design", "intentional living", "life design", "living with intention", "life architecture", "deliberate living"],
     category: "pillar",
     excerpt: "Most people do not live unintentionally because they lack values. They live unintentionally because their environment is optimized by others to produce outcomes those others want. Intentional life design is the correction.",
+    faq: [
+      {
+        q: "What is intentional life design?",
+        a: "Intentional life design is the practice of systematically replacing the default settings of your environment, time structures, relationships, and finances with deliberate choices aligned to your values and long-horizon goals. It treats living intentionally as an engineering problem — a matter of design — rather than purely a matter of mindset or willpower.",
+      },
+      {
+        q: "How is intentional life design different from productivity systems?",
+        a: "Productivity systems optimize for output within an existing structure. Intentional life design questions the structure itself. A productivity system helps you do more of what you are already doing; intentional life design helps you ensure that what you are doing is what you actually want to be doing. The two are complementary but operate at different levels.",
+      },
+      {
+        q: "Where do I start with intentional life design?",
+        a: "The most effective starting point is an honest audit of your current defaults: how your time is actually allocated, what your information environment actually consists of, and where your money actually goes. The gap between this audit and your stated values identifies the highest-leverage domains for intentional redesign. Most people find that time architecture — protecting specific hours for their most important priorities — is the most tractable first intervention.",
+      },
+      {
+        q: "How long does intentional life design take?",
+        a: "Intentional life design is not a one-time project but an ongoing practice. The initial audit and design takes a few focused sessions. First meaningful environmental changes can be implemented within a week. The compound effects accumulate over months and years, reinforced by a regular review practice where you assess alignment between your actual behavior and your design.",
+      },
+    ],
     content: `<p class="lead">Intentional living is frequently described as a mindset — a way of being more present, more conscious, more deliberate in how you move through your days. This is true as far as it goes, but it does not go far enough. A mindset without a corresponding environmental design is aspirational furniture. Real intentional living is an engineering problem: you must design your environment, your time structures, your relationships, and your information diet such that your life, when it runs on autopilot, produces outcomes you actually endorse.</p>
+
+<h2>What Is Intentional Life Design?</h2>
+<p>Intentional life design is the systematic practice of replacing the default settings of your life — the defaults set by employers, platforms, social norms, and early environment — with settings you have deliberately chosen. Most approaches to intentional living focus on mindset and attitude. Intentional life design focuses on <em>structure</em>: the deliberate architecture of your time, environment, relationships, information diet, and finances such that your life, when it runs on autopilot, produces outcomes you actually endorse.</p>
+<p>The distinction matters enormously in practice. A commitment to living more intentionally, without a corresponding change in environmental design, is aspirational furniture — motivating for a week, inert by the second month. The behavioral economics research is unambiguous: default options determine the overwhelming majority of outcomes in virtually every domain studied. Intentional life design works by changing the defaults, not just the intentions.</p>
+<p>In concrete terms: intentional life design is not about trying harder. It is about building a life in which the right things happen by default.</p>
 
 <h2>The Default Life and Why It Is Not Yours</h2>
 <p>The default life is not designed by you. It is assembled from the defaults set by your employer (what hours you work, how you are evaluated, what you optimize for), your platform choices (what your feeds surface, what your notifications interrupt), your neighborhood (what is convenient to consume, what is socially normal), and your early environment (what you absorbed as normal from family and culture before you had the capacity to evaluate it).</p>
@@ -273,7 +297,7 @@ const posts: BlogPost[] = [
 <p>The behavioral economics literature has documented this with precision. Default options — the choices people receive when they make no active choice — capture the overwhelming majority of outcomes in almost every domain studied. Organ donation rates in countries with opt-out defaults are three times higher than in countries with opt-in defaults. Retirement savings rates differ dramatically based on whether automatic enrollment is the default. People consistently reveal, through their behavior, that they live inside whatever default they are given.</p>
 <p>Intentional life design is, in the most concrete terms, a systematic replacement of unhelpful defaults with ones you have deliberately chosen.</p>
 
-<h2>The Five Domains of Life Design</h2>
+<h2>The Five Domains of Intentional Life Design</h2>
 <p>Intentional design applies across five interconnected domains of everyday life. Neglect any one of them and the others become harder to maintain intentionally — the system is only as intentional as its weakest designed component.</p>
 
 <h3>1. Time Architecture</h3>
@@ -332,7 +356,21 @@ const posts: BlogPost[] = [
 <h2>How Pathoragy Supports Intentional Life Design</h2>
 <p>Pathoragy works at the intersection of long-horizon planning and intentional daily design. When you define your life directions and the app generates structured routes and evidence-backed daily tasks, it is doing something specific: it is providing a designed daily practice that is directly connected to your long-horizon directions.</p>
 <p>This replaces one of the most common failure modes of intentional living — the gap between the articulated plan and the actual day. With Pathoragy, the daily practice is not separate from the long-horizon direction; it is derived from it. The task you do on Tuesday morning is a logical consequence of the direction you have chosen and the waypoint you are working toward. The intentional design is built into the system, not left to willpower and memory.</p>
-<p>It is, in the most literal sense, a tool for replacing unhelpful defaults with intentional ones — at the level of the individual day, connected to the level of the entire life.</p>`
+<p>It is, in the most literal sense, a tool for replacing unhelpful defaults with intentional ones — at the level of the individual day, connected to the level of the entire life.</p>
+
+<h2>Frequently Asked Questions About Intentional Life Design</h2>
+
+<h3>What is intentional life design?</h3>
+<p>Intentional life design is the practice of systematically replacing the default settings of your environment, time structures, relationships, and finances with deliberate choices aligned to your values and long-horizon goals. It treats living intentionally as an engineering problem — a matter of design — rather than purely a matter of mindset or willpower.</p>
+
+<h3>How is intentional life design different from productivity systems?</h3>
+<p>Productivity systems optimize for output within an existing structure. Intentional life design questions the structure itself. A productivity system helps you do more of what you are already doing; intentional life design helps you ensure that what you are doing is what you actually want to be doing. The two are complementary but operate at different levels.</p>
+
+<h3>Where do I start with intentional life design?</h3>
+<p>The most effective starting point is an honest audit of your current defaults: how your time is actually allocated, what your information environment actually consists of, and where your money actually goes. The gap between this audit and your stated values identifies the highest-leverage domains for intentional redesign. Most people find that time architecture — protecting specific hours for their most important priorities — is the most tractable first intervention.</p>
+
+<h3>How long does intentional life design take?</h3>
+<p>Intentional life design is not a one-time project but an ongoing practice. The initial audit and design takes a few focused sessions. First meaningful environmental changes can be implemented within a week. The compound effects accumulate over months and years, reinforced by a regular review practice where you assess alignment between your actual behavior and your design.</p>`
   },
   {
     slug: "life-goals-wealth-knowledge-interest",

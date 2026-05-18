@@ -14,7 +14,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'capsule-wardrobe-is-not-the-point',
     title: 'The Capsule Wardrobe Is Not the Point',
-    description: 'One-Brand Rule and minimalism look similar from the outside. They're solving different problems. Here's the structural difference — and why it matters.',
+    description: "One-Brand Rule and minimalism look similar from the outside. They're solving different problems. Here's the structural difference — and why it matters.",
     date: '2026-05-18',
     readTime: '6 min read',
     tags: ["one-brand rule", "minimalism", "decision architecture", "bifl", "diff-structism"],

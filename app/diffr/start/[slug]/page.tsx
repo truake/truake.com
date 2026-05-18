@@ -70,7 +70,8 @@ function RedditInsightsSection({
   return (
     <section style={{ marginBottom: "52px" }}>
       <h2 style={{
-        fontSize: "22px", fontWeight: 700, letterSpacing: "-0.025em",
+        fontFamily: "var(--font-display), 'Playfair Display', serif",
+        fontSize: "22px", fontWeight: 700, letterSpacing: "-0.02em",
         color: C.text, margin: "0 0 6px",
       }}>
         What Reddit Users Are Asking
@@ -343,9 +344,10 @@ export default async function StarterGuidePage(
 
         {/* H1 */}
         <h1 style={{
+          fontFamily: "var(--font-display), 'Playfair Display', serif",
           fontSize: "clamp(36px, 5vw, 60px)",
           fontWeight: 800, lineHeight: 1.05,
-          letterSpacing: "-0.04em",
+          letterSpacing: "-0.03em",
           color: C.text, margin: "0 0 24px",
         }}>
           How to Start{" "}
@@ -520,7 +522,8 @@ export default async function StarterGuidePage(
             Build Your Pack
           </p>
           <h3 style={{
-            fontSize: "28px", fontWeight: 800, letterSpacing: "-0.03em",
+            fontFamily: "var(--font-display), 'Playfair Display', serif",
+            fontSize: "28px", fontWeight: 800, letterSpacing: "-0.02em",
             color: C.text, margin: "0 0 12px",
           }}>
             Start your {guide.domain_name} kit in Diffr

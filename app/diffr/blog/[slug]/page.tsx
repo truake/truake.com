@@ -86,7 +86,7 @@ export default async function BlogPostPage({ params }: Props) {
         borderBottom: '1px solid rgba(255,255,255,0.06)',
       }}>
         <Link href="/diffr" style={{ textDecoration: 'none' }}>
-          <span style={{ fontFamily: 'Space Grotesk, sans-serif', fontWeight: 700, fontSize: '18px', color: '#13ae67', letterSpacing: '-0.02em' }}>
+          <span style={{ fontFamily: "var(--font-display), 'Playfair Display', serif", fontWeight: 700, fontSize: '18px', color: '#13ae67', letterSpacing: '-0.02em', fontStyle: 'italic' }}>
             diffr
           </span>
         </Link>
@@ -122,10 +122,10 @@ export default async function BlogPostPage({ params }: Props) {
             </span>
           </div>
           <h1 style={{
-            fontFamily: 'Space Grotesk, sans-serif',
+            fontFamily: "var(--font-display), 'Playfair Display', serif",
             fontSize: 'clamp(28px, 4vw, 44px)',
             fontWeight: 700, lineHeight: 1.15,
-            letterSpacing: '-0.03em',
+            letterSpacing: '-0.02em',
             marginBottom: '20px',
           }}>
             {post.title}

@@ -172,9 +172,10 @@ export default async function ComparePage(
 
         {/* H1 */}
         <h1 style={{
+          fontFamily: "var(--font-display), 'Playfair Display', serif",
           fontSize: "clamp(32px, 5vw, 56px)",
           fontWeight: 800, lineHeight: 1.05,
-          letterSpacing: "-0.04em",
+          letterSpacing: "-0.03em",
           color: C.text, margin: "0 0 16px",
         }}>
           <span style={{ color: C.blue }}>{brandA}</span>
@@ -236,7 +237,8 @@ export default async function ComparePage(
         {insights.length > 0 ? (
           <section style={{ marginBottom: "52px" }}>
             <h2 style={{
-              fontSize: "22px", fontWeight: 700, letterSpacing: "-0.025em",
+              fontFamily: "var(--font-display), 'Playfair Display', serif",
+              fontSize: "22px", fontWeight: 700, letterSpacing: "-0.02em",
               color: C.text, margin: "0 0 6px",
             }}>
               What the Community Says
@@ -384,7 +386,7 @@ export default async function ComparePage(
           <p style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: C.blue, margin: "0 0 12px" }}>
             Still Deciding?
           </p>
-          <h3 style={{ fontSize: "26px", fontWeight: 800, letterSpacing: "-0.03em", color: C.text, margin: "0 0 12px" }}>
+          <h3 style={{ fontFamily: "var(--font-display), 'Playfair Display', serif", fontSize: "26px", fontWeight: 800, letterSpacing: "-0.02em", color: C.text, margin: "0 0 12px" }}>
             Build your starter pack in Diffr
           </h3>
           <p style={{ fontSize: "15px", color: C.t60, margin: "0 0 28px", lineHeight: 1.6 }}>

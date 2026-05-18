@@ -80,9 +80,10 @@ export default async function StarterIndexPage() {
         </div>
 
         <h1 style={{
+          fontFamily: "var(--font-display), 'Playfair Display', serif",
           fontSize: "clamp(40px, 5.5vw, 68px)",
           fontWeight: 800, lineHeight: 1.05,
-          letterSpacing: "-0.04em",
+          letterSpacing: "-0.03em",
           color: C.text, margin: "0 0 24px",
         }}>
           The Beginner{" "}

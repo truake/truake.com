@@ -29,7 +29,7 @@ export default function BlogIndexPage() {
         borderBottom: '1px solid rgba(255,255,255,0.06)',
       }}>
         <Link href="/diffr" style={{ textDecoration: 'none' }}>
-          <span style={{ fontFamily: 'Space Grotesk, sans-serif', fontWeight: 700, fontSize: '18px', color: '#13ae67', letterSpacing: '-0.02em' }}>
+          <span style={{ fontFamily: "var(--font-display), 'Playfair Display', serif", fontWeight: 700, fontSize: '18px', color: '#13ae67', letterSpacing: '-0.02em', fontStyle: 'italic' }}>
             diffr
           </span>
         </Link>
@@ -65,11 +65,11 @@ export default function BlogIndexPage() {
               The Diffr Blog
             </p>
             <h1 style={{
-              fontFamily: 'Space Grotesk, sans-serif',
+              fontFamily: "var(--font-display), 'Playfair Display', serif",
               fontSize: 'clamp(30px, 4.5vw, 52px)',
               fontWeight: 700,
               lineHeight: 1.1,
-              letterSpacing: '-0.03em',
+              letterSpacing: '-0.02em',
               color: '#ffffff',
             }}>
               Build logs, product thinking,<br />

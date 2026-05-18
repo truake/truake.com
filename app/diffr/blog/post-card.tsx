@@ -47,7 +47,7 @@ export function FeaturedCard({ post }: { post: BlogPost }) {
           </span>
         </div>
         <h2 style={{
-          fontFamily: 'Space Grotesk, sans-serif',
+          fontFamily: "var(--font-display), 'Playfair Display', serif",
           fontSize: 'clamp(22px, 3vw, 30px)',
           fontWeight: 700, lineHeight: 1.2,
           letterSpacing: '-0.02em',
@@ -107,7 +107,7 @@ export function PostCard({ post }: { post: BlogPost }) {
           </span>
         </div>
         <h2 style={{
-          fontFamily: 'Space Grotesk, sans-serif',
+          fontFamily: "var(--font-display), 'Playfair Display', serif",
           fontSize: '18px', fontWeight: 700, lineHeight: 1.3,
           letterSpacing: '-0.02em',
           color: '#e8e8e8', marginBottom: '12px',
