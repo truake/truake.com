@@ -16,8 +16,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const post = getPostBySlug(slug)
   if (!post) return {}
+
+  // Smart title: use "Short Title — Pathoragy" (≤60 chars) or just post.title
+  const suffix = ' — Pathoragy'
+  const colonIdx = post.title.indexOf(':')
+  const shortBase = colonIdx > 0 ? post.title.slice(0, colonIdx) : post.title
+  const seoTitle =
+    (post.title + suffix).length <= 60 ? post.title + suffix
+    : (shortBase + suffix).length <= 60 ? shortBase + suffix
+    : post.title.length <= 60 ? post.title
+    : post.title.slice(0, 57) + '...'
+
   return {
-    title: `${post.title} — Pathoragy`,
+    title: seoTitle,
     description: post.description,
     alternates: {
       canonical: `https://truake.com/pathoragy/blog/${slug}`,
@@ -29,6 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       publishedTime: post.date,
       tags: post.tags,
+      images: [{ url: 'https://truake.com/pathoragy-wordmark.png', width: 900, height: 200, alt: 'Pathoragy' }],
     },
     twitter: {
       card: 'summary_large_image',
