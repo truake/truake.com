@@ -92,7 +92,7 @@ export default async function BlogPostPage({ params }: Props) {
     headline: post.title,
     description: post.description,
     datePublished: post.date,
-    author: { '@type': 'Person', name: 'Rock Lam', url: 'https://truake.com' },
+    author: { '@type': 'Person', name: 'Rock Lam', url: 'https://truake.com/about' },
     publisher: { '@type': 'Organization', name: 'Truake', url: 'https://truake.com' },
     url: `https://truake.com/pathoragy/blog/${post.slug}`,
     keywords: post.tags.join(', '),
@@ -183,6 +183,28 @@ export default async function BlogPostPage({ params }: Props) {
             {post.description}
           </p>
           <div style={{ height: '1px', background: C.border, margin: '32px 0' }} />
+          {/* Author byline */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+            <div style={{
+              width: '36px', height: '36px', borderRadius: '50%',
+              background: `${C.accent}18`,
+              border: `1px solid ${C.accent}30`,
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              flexShrink: 0,
+            }}>
+              <span style={{ fontSize: '13px', fontWeight: 700, color: C.accent }}>R</span>
+            </div>
+            <div>
+              <Link href="/about" style={{ textDecoration: 'none' }}>
+                <span style={{ fontSize: '14px', fontWeight: 600, color: C.text, display: 'block', lineHeight: 1.3 }}>
+                  Rock Lam
+                </span>
+              </Link>
+              <span style={{ fontSize: '12px', color: C.text40, lineHeight: 1.3 }}>
+                Founder, Truake · Author of <em>The Value Boat</em>
+              </span>
+            </div>
+          </div>
         </header>
 
         {/* Body */}

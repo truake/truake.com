@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "intentional consumption",
     "diff-structism",
   ],
-  authors: [{ name: "Rock Lam", url: "https://truake.com" }],
+  authors: [{ name: "Rock Lam", url: "https://truake.com/about" }],
   creator: "Rock Lam",
   openGraph: {
     type: "website",
@@ -103,6 +103,7 @@ export default function RootLayout({
               founder: {
                 "@type": "Person",
                 name: "Rock Lam",
+                url: "https://truake.com/about",
               },
             }),
           }}

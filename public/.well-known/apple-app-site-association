@@ -1,0 +1,30 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["UH7D745P6G.truake.Diffr"],
+        "components": [
+          {
+            "/": "/tier/*",
+            "comment": "Tier share links"
+          },
+          {
+            "/": "/scene/*",
+            "comment": "Scene share links"
+          },
+          {
+            "/": "/profile/*",
+            "comment": "User profile links"
+          },
+          {
+            "/": "/brand/*",
+            "comment": "Brand detail links"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["UH7D745P6G.truake.Diffr"]
+  }
+}

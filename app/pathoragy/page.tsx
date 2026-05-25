@@ -27,21 +27,56 @@ const C = {
 } as const;
 
 /* ─── Static data ────────────────────────────────── */
+/* ── SVG icons for Concepts (replaces emoji for cross-platform consistency) ── */
+const CONCEPT_ICONS: Record<string, React.ReactNode> = {
+  "01": (
+    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+      <path d="M18 5V22" stroke="#E85435" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M18 5L27 17H18V5Z" fill="rgba(232,84,53,0.12)" stroke="#E85435" strokeWidth="1.3" strokeLinejoin="round"/>
+      <path d="M7 26L29 26L26 32H10L7 26Z" stroke="#E85435" strokeWidth="1.5" strokeLinejoin="round"/>
+      <path d="M4 22C7 19 11 22 14 19" stroke="#E85435" strokeWidth="1.2" strokeLinecap="round" strokeOpacity="0.45"/>
+    </svg>
+  ),
+  "02": (
+    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+      <circle cx="18" cy="10" r="4" stroke="#E85435" strokeWidth="1.5"/>
+      <path d="M18 14V26" stroke="#E85435" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M11 20H25" stroke="#E85435" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M11 26C11 30 14 32 18 32C22 32 25 30 25 26" stroke="#E85435" strokeWidth="1.5" strokeLinecap="round"/>
+    </svg>
+  ),
+  "03": (
+    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+      <rect x="6" y="4" width="18" height="25" rx="1.5" stroke="#E85435" strokeWidth="1.5"/>
+      <path d="M24 4C27 4 30 6.5 30 10V26C30 29.5 27 32 24 32" stroke="#E85435" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M10 12H20M10 17H17" stroke="#E85435" strokeWidth="1.4" strokeLinecap="round"/>
+    </svg>
+  ),
+  "04": (
+    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+      <path d="M6 27A12 12 0 0 1 30 27" stroke="#E85435" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M12 24L10 23M24 24L26 23M18 15V17" stroke="#E85435" strokeWidth="1.2" strokeLinecap="round" strokeOpacity="0.5"/>
+      <path d="M18 27L13 18" stroke="#E85435" strokeWidth="1.5" strokeLinecap="round"/>
+      <circle cx="18" cy="27" r="2.5" fill="#E85435"/>
+    </svg>
+  ),
+};
+
 const CONCEPTS = [
   {
-    n: "01", icon: "⛵", label: "Life directions", title: "Routes",
+    n: "01", label: "Life directions", title: "Routes",
     body: "Up to 3 long-horizon arcs — one each for Wealth, Knowledge, and Interest. You can only hold three at once. That constraint makes them real.",
   },
   {
-    n: "02", icon: "⚓", label: "Ordered milestones", title: "Waypoints",
+    n: "02", label: "Ordered milestones", title: "Waypoints",
     body: "The chapters of your Route. Each Waypoint unlocks the next, building irreversible momentum. You cannot skip ahead.",
   },
   {
-    n: "03", icon: "📖", label: "Daily evidence", title: "Logbooks",
+    n: "03", label: "Daily evidence", title: "Logbooks",
     body: "Concrete actions inside each Waypoint. You complete them and attach evidence — making progress visible and undeniable.",
   },
   {
-    n: "04", icon: "🧭", label: "Progress metric", title: "Boat Height",
+    n: "04", label: "Progress metric", title: "Boat Height",
     body: "A single number that rises with hull vitality, waypoint progress, and recent waves. Not a productivity score — a proxy for sustainable meaning.",
   },
 ] as const;
@@ -88,7 +123,7 @@ const SCREENSHOTS = [
 /* ─── Page ───────────────────────────────────────── */
 export default function PathoragyPage() {
   return (
-    <div className={fraunces.variable} style={{ backgroundColor: C.bg, color: C.text, fontFamily: "'Space Grotesk', sans-serif", overflowX: "hidden" }}>
+    <div className={fraunces.variable} style={{ backgroundColor: C.bg, color: C.text, fontFamily: "var(--font-space-grotesk), 'Space Grotesk', sans-serif", overflowX: "hidden" }}>
 
       {/* ══ NAV ══════════════════════════════════════════════════════ */}
       <nav className="p-nav" style={{
@@ -176,10 +211,12 @@ export default function PathoragyPage() {
 
           {/* Mobile-only screenshot — visible only below 768px */}
           <div className="p-hero-mobile-shot">
-            <img
+            <Image
               src="/pathoragy/screenshots/home.png"
-              alt="Pathoragy app"
-              style={{ width: "160px", borderRadius: "32px", filter: "drop-shadow(0 20px 40px rgba(42,38,32,0.22))" }}
+              alt="Pathoragy app — routes and waypoints overview screen"
+              width={160}
+              height={346}
+              style={{ borderRadius: "32px", filter: "drop-shadow(0 20px 40px rgba(42,38,32,0.22))" }}
             />
           </div>
         </div>
@@ -199,11 +236,13 @@ export default function PathoragyPage() {
           }}>
             3
           </span>
-          <img
+          <Image
             src="/pathoragy/screenshots/home.png"
-            alt="Pathoragy マイルート home screen"
+            alt="Pathoragy マイルート home screen — routes and navigation overview"
+            width={240}
+            height={520}
             style={{
-              width: "min(240px, 54%)", borderRadius: "44px",
+              width: "min(240px, 54%)", height: "auto", borderRadius: "44px",
               transform: "rotate(-4deg)",
               filter: "drop-shadow(0 40px 80px rgba(42,38,32,0.26))",
               position: "relative", zIndex: 2,
@@ -258,7 +297,7 @@ export default function PathoragyPage() {
               }}>
                 {c.n}
               </span>
-              <span style={{ fontSize: "36px", display: "block", marginBottom: "28px", lineHeight: 1 }}>{c.icon}</span>
+              <div style={{ display: "block", marginBottom: "28px", lineHeight: 1 }}>{CONCEPT_ICONS[c.n]}</div>
               <p style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", color: C.accent, marginBottom: "10px" }}>
                 {c.label}
               </p>
@@ -311,7 +350,7 @@ export default function PathoragyPage() {
           {SCREENSHOTS.map((s, i) => (
             <div key={i} className="p-shot-item" style={{ transform: `translateY(${s.lift})` }}>
               <div style={{ transform: s.rotate, filter: "drop-shadow(0 32px 64px rgba(42,38,32,0.20))" }}>
-                <img src={s.src} alt={s.alt} style={{ width: "100%", borderRadius: "44px" }} />
+                <Image src={s.src} alt={s.alt} width={400} height={866} style={{ width: "100%", height: "auto", borderRadius: "44px" }} />
               </div>
               <div style={{ marginTop: "24px", paddingLeft: "10px", paddingTop: "4px", paddingBottom: "4px", borderLeft: `2px solid ${s.accent}` }}>
                 <strong style={{ fontSize: "13px", fontWeight: 700, color: C.text, display: "block", marginBottom: "4px" }}>

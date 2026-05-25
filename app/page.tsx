@@ -156,8 +156,8 @@ export default function Home() {
               </Link>
             </div>
 
-            {/* Cube — tilted, right-aligned */}
-            <div className="flex justify-end" style={{ marginTop: "-72px" }}>
+            {/* Cube — tilted, right-aligned; hidden on mobile to prevent CTA overlap */}
+            <div className="hidden sm:flex justify-end" style={{ marginTop: "-72px" }}>
               <div style={{ position: "relative", transform: "rotate(4deg)" }}>
                 <div
                   style={{
@@ -363,14 +363,17 @@ export default function Home() {
                   >
                     <div className="flex items-start justify-between">
                       <div
-                        className="w-11 h-11 flex items-center justify-center text-lg"
+                        className="w-11 h-11 flex items-center justify-center"
                         style={{
                           background:
                             "linear-gradient(135deg, rgba(232,84,53,0.15), rgba(232,84,53,0.08))",
                           border: "1px solid rgba(232,84,53,0.2)",
                         }}
                       >
-                        ◈
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                          <path d="M10 2L18 10L10 18L2 10Z" stroke="#E85435" strokeWidth="1.4" strokeLinejoin="round"/>
+                          <path d="M10 5.5L14.5 10L10 14.5L5.5 10Z" fill="rgba(232,84,53,0.15)" stroke="#E85435" strokeWidth="1" strokeLinejoin="round"/>
+                        </svg>
                       </div>
                       <span
                         className="text-xs tracking-[0.2em] uppercase px-3 py-1"
@@ -504,7 +507,7 @@ export default function Home() {
                   >
                     {item.title}
                   </h3>
-                  <p className="text-sm leading-loose" style={{ color: "rgba(42,38,32,0.45)" }}>
+                  <p className="text-sm leading-loose" style={{ color: "rgba(42,38,32,0.65)" }}>
                     {item.desc}
                   </p>
                 </div>
