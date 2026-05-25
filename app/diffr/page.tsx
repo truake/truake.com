@@ -55,48 +55,12 @@ const proofStats = [
 ];
 
 const sceneCards = [
-  {
-    title: "Mobile & Casual Gaming",
-    count: "12 brands",
-    from: "#1E1B4B",
-    to: "#4338CA",
-    icon: "🎮",
-  },
-  {
-    title: "Home Gym Essentials",
-    count: "16 brands",
-    from: "#0F172A",
-    to: "#1B8BF5",
-    icon: "🏋️",
-  },
-  {
-    title: "Running Starter Kit",
-    count: "11 brands",
-    from: "#7C2D12",
-    to: "#F0522C",
-    icon: "🏃",
-  },
-  {
-    title: "Yoga & Mindfulness",
-    count: "9 brands",
-    from: "#14532D",
-    to: "#16A34A",
-    icon: "🧘",
-  },
-  {
-    title: "Film Photography",
-    count: "14 brands",
-    from: "#1C1917",
-    to: "#57534E",
-    icon: "📷",
-  },
-  {
-    title: "Home Coffee Ritual",
-    count: "10 brands",
-    from: "#451A03",
-    to: "#92400E",
-    icon: "☕",
-  },
+  { title: "Mobile & Casual Gaming", count: "12 brands", from: "#1E1B4B", to: "#4338CA",  icon: "gaming"       },
+  { title: "Home Gym Essentials",    count: "16 brands", from: "#0F172A", to: "#1B8BF5",  icon: "gym"          },
+  { title: "Running Starter Kit",    count: "11 brands", from: "#7C2D12", to: "#F0522C",  icon: "running"      },
+  { title: "Yoga & Mindfulness",     count: "9 brands",  from: "#14532D", to: "#16A34A",  icon: "yoga"         },
+  { title: "Film Photography",       count: "14 brands", from: "#1C1917", to: "#57534E",  icon: "photography"  },
+  { title: "Home Coffee Ritual",     count: "10 brands", from: "#451A03", to: "#92400E",  icon: "coffee"       },
 ];
 
 const trustCards = [
@@ -140,43 +104,23 @@ const trustCards = [
 ───────────────────────────────────────────────────────────── */
 
 function AppStoreBadge({ href, large = false }: { href: string; large?: boolean }) {
+  const w = large ? 172 : 136;
+  const h = large ? 51  : 40;
   return (
     <a
       href={href}
       data-app-store-href={href}
       className="diffr-badge-appstore"
       aria-label="Download Diffr on the App Store"
-      style={{
-        display: "inline-flex",
-        alignItems: "center",
-        gap: large ? 14 : 10,
-        background: "#000",
-        color: "#fff",
-        borderRadius: 14,
-        padding: large ? "14px 24px" : "10px 18px",
-        textDecoration: "none",
-        fontFamily: "-apple-system, sans-serif",
-        transition: "transform 150ms, box-shadow 150ms",
-      }}
+      style={{ display: "inline-block", textDecoration: "none", lineHeight: 0 }}
     >
-      {/* Apple logo */}
-      <svg
-        width={large ? 30 : 22}
-        height={large ? 36 : 27}
-        viewBox="0 0 814 1000"
-        fill="white"
-        aria-hidden="true"
-      >
-        <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-43.4-150.3-107.9L74.1 680c-16.7-22.3-37.7-61.5-37.7-100.7 0-115.9 91.8-269.4 280.3-269.4 72 0 151.1 27.6 202.8 100.1C559.2 434.5 610.8 340.9 788.1 340.9zM551 115.3C590.5 72.6 619.3 11.2 619.3 0c0-.6-1-1.3-1.6-1.3C606.1 1.3 542.4 38.3 504 83.6c-32.4 38.1-63.4 103.2-51.8 160.4.6 3.2 2.6 6.4 4.5 6.4C462.3 250 511.7 157.9 551 115.3z"/>
-      </svg>
-      <div style={{ lineHeight: 1.2 }}>
-        <div style={{ fontSize: large ? 11 : 10, opacity: 0.8, letterSpacing: "0.04em", marginBottom: 2 }}>
-          Download on the
-        </div>
-        <div style={{ fontSize: large ? 22 : 16, fontWeight: 700, letterSpacing: "-0.01em" }}>
-          App Store
-        </div>
-      </div>
+      <Image
+        src="/app-store-badge.png"
+        alt="Download on the App Store"
+        width={w}
+        height={h}
+        style={{ display: "block" }}
+      />
     </a>
   );
 }
@@ -330,6 +274,57 @@ function HexBadge({ score, label = "OVERALL" }: { score: string; label?: string 
   );
 }
 
+function SceneIcon({ name }: { name: string }) {
+  const s = { width: 44, height: 44, "aria-hidden": true as const, fill: "none", stroke: "white", strokeWidth: 1.6, strokeLinecap: "round" as const, strokeLinejoin: "round" as const, viewBox: "0 0 24 24" };
+  if (name === "gaming") return (
+    <svg {...s}>
+      <rect x="2" y="7" width="20" height="13" rx="3"/>
+      <path d="M8 13.5v-2m-1 1h2"/>
+      <circle cx="16" cy="11.5" r=".9" fill="white" stroke="none"/>
+      <circle cx="14" cy="13.5" r=".9" fill="white" stroke="none"/>
+    </svg>
+  );
+  if (name === "gym") return (
+    <svg {...s}>
+      <path d="M6 4v16M18 4v16"/>
+      <path d="M2 9.5h4M18 9.5h4"/>
+      <path d="M2 14.5h4M18 14.5h4"/>
+      <path d="M6 12h12"/>
+    </svg>
+  );
+  if (name === "running") return (
+    <svg {...s}>
+      <circle cx="13.5" cy="3.5" r="1.5" fill="white" stroke="none"/>
+      <path d="M7.5 21l3.5-7 2.5 3.5 2.5-5L19 16"/>
+      <path d="M17.5 8.5c-1.2.2-2.8-.3-3.5-1.5l-1-2c-.5-1-1.7-1.2-2.3-.4L8.5 8"/>
+    </svg>
+  );
+  if (name === "yoga") return (
+    <svg {...s}>
+      <circle cx="12" cy="4" r="1.5" fill="white" stroke="none"/>
+      <path d="M5 14c2 0 4-1 7-1s5 1 7 1"/>
+      <path d="M12 6v4"/>
+      <path d="M9.5 18.5L7 21M14.5 18.5L17 21"/>
+      <path d="M12 10l-2.5 5h5L12 10z"/>
+    </svg>
+  );
+  if (name === "photography") return (
+    <svg {...s}>
+      <rect x="2" y="8" width="20" height="13" rx="2"/>
+      <path d="M16 8V6a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
+      <circle cx="12" cy="14.5" r="3"/>
+    </svg>
+  );
+  // coffee (default)
+  return (
+    <svg {...s}>
+      <path d="M18 8h1a3.5 3.5 0 010 7h-1"/>
+      <path d="M3 8h15v8.5A4 4 0 0114.5 20.5h-7A4 4 0 013.5 16.5z"/>
+      <path d="M7.5 2.5v1.8M11.5 2.5v1.8"/>
+    </svg>
+  );
+}
+
 /* ─────────────────────────────────────────────────────────────
    Page
 ───────────────────────────────────────────────────────────── */
@@ -384,66 +379,108 @@ export default function DiffrPage() {
           }
           .diffr-pro-bg { animation: diffrProHue 14s ease-in-out infinite; }
 
-          /* Proof stat counters — stagger via nth-child */
+          /* ── Hero entrance stagger ── */
           @keyframes diffrFadeUp {
-            from { opacity: 0; transform: translateY(20px); }
+            from { opacity: 0; transform: translateY(22px); }
             to   { opacity: 1; transform: translateY(0);    }
           }
+          @keyframes diffrFadeIn {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+          }
 
-          /* Scroll reveal */
+          /* Spring-style easing: slight overshoot for lively feel */
+          .diffr-hero-eyebrow { animation: diffrFadeUp 640ms cubic-bezier(0.22,1.2,0.36,1) 80ms  both; }
+          .diffr-hero-h1      { animation: diffrFadeUp 700ms cubic-bezier(0.22,1.2,0.36,1) 200ms both; }
+          .diffr-hero-body    { animation: diffrFadeUp 640ms cubic-bezier(0.22,1,0.36,1)   340ms both; }
+          .diffr-hero-ctas    { animation: diffrFadeUp 640ms cubic-bezier(0.22,1,0.36,1)   460ms both; }
+          .diffr-hero-phone-wrap { animation: diffrFadeUp 800ms cubic-bezier(0.22,1.2,0.36,1) 180ms both; }
+
+          /* Proof bar stat stagger */
+          .diffr-proof-stat:nth-child(1) { animation: diffrFadeUp 480ms cubic-bezier(0.22,1,0.36,1) 120ms both; }
+          .diffr-proof-stat:nth-child(2) { animation: diffrFadeUp 480ms cubic-bezier(0.22,1,0.36,1) 200ms both; }
+          .diffr-proof-stat:nth-child(3) { animation: diffrFadeUp 480ms cubic-bezier(0.22,1,0.36,1) 280ms both; }
+          .diffr-proof-stat:nth-child(4) { animation: diffrFadeUp 480ms cubic-bezier(0.22,1,0.36,1) 360ms both; }
+          .diffr-proof-stat:nth-child(5) { animation: diffrFadeUp 480ms cubic-bezier(0.22,1,0.36,1) 440ms both; }
+
+          /* Scroll reveal — spring easing */
           .diffr-reveal {
             opacity: 0;
-            transform: translateY(28px);
-            transition: opacity 550ms cubic-bezier(0.16,1,0.3,1),
-                        transform 550ms cubic-bezier(0.16,1,0.3,1);
+            transform: translateY(32px);
+            transition: opacity 600ms cubic-bezier(0.22,1,0.36,1),
+                        transform 600ms cubic-bezier(0.22,1.1,0.36,1);
           }
           .diffr-reveal.visible { opacity: 1; transform: translateY(0); }
 
           /* Button micro-interactions */
           .diffr-cta-primary {
-            transition: transform 150ms ease, box-shadow 150ms ease;
+            transition: transform 200ms cubic-bezier(0.34,1.56,0.64,1), box-shadow 200ms ease;
           }
-          .diffr-cta-primary:hover  { transform: scale(1.025); }
-          .diffr-cta-primary:active { transform: scale(0.975); }
+          .diffr-cta-primary:hover  { transform: scale(1.03); }
+          .diffr-cta-primary:active { transform: scale(0.96); transition-duration: 80ms; }
           .diffr-cta-primary:focus-visible {
             outline: 2px solid rgba(27,139,245,0.5);
             outline-offset: 3px;
           }
 
           .diffr-badge-appstore {
-            transition: transform 150ms ease, opacity 150ms ease;
+            transition: transform 200ms cubic-bezier(0.34,1.56,0.64,1), opacity 150ms ease;
           }
-          .diffr-badge-appstore:hover  { transform: scale(1.025); opacity: 0.92; }
-          .diffr-badge-appstore:active { transform: scale(0.975); }
+          .diffr-badge-appstore:hover  { transform: scale(1.04); opacity: 0.9; }
+          .diffr-badge-appstore:active { transform: scale(0.96); transition-duration: 80ms; }
           .diffr-badge-appstore:focus-visible {
             outline: 2px solid rgba(27,139,245,0.5);
             outline-offset: 3px;
           }
 
-          /* Scene card hover */
+          /* Scene card hover — spring lift */
           .diffr-scene-card {
-            transition: transform 150ms ease, box-shadow 150ms ease;
+            transition: transform 280ms cubic-bezier(0.34,1.56,0.64,1),
+                        box-shadow 280ms ease;
           }
-          .diffr-scene-card:hover { transform: translateY(-4px); }
+          .diffr-scene-card:hover {
+            transform: translateY(-6px) scale(1.015);
+            box-shadow: 0 16px 48px rgba(0,0,0,0.22);
+          }
 
-          /* Trust card hover */
+          /* Axis pill hover */
+          .diffr-axis-pill {
+            transition: background 160ms ease, border-color 160ms ease, transform 200ms cubic-bezier(0.34,1.56,0.64,1);
+          }
+          .diffr-axis-pill:hover {
+            background: rgba(27,139,245,0.16) !important;
+            transform: scale(1.04);
+          }
+
+          /* Trust card hover — subtle lift */
           .diffr-trust-card {
-            transition: border-color 200ms ease, box-shadow 200ms ease;
+            transition: border-color 220ms ease, box-shadow 220ms ease,
+                        transform 280ms cubic-bezier(0.34,1.56,0.64,1);
           }
           .diffr-trust-card:hover {
             border-color: rgba(27,139,245,0.3) !important;
-            box-shadow: 0 8px 32px rgba(27,139,245,0.08);
+            box-shadow: 0 12px 40px rgba(27,139,245,0.10);
+            transform: translateY(-3px);
           }
 
           /* Nav link hover */
-          .diffr-nav-link { transition: color 150ms; }
+          .diffr-nav-link { transition: color 150ms ease; }
           .diffr-nav-link:hover { color: #1B8BF5 !important; }
+
+          /* Tier label hover */
+          .diffr-tier-row {
+            transition: transform 200ms cubic-bezier(0.34,1.56,0.64,1);
+          }
+          .diffr-tier-row:hover { transform: translateX(4px); }
 
           /* Reduced motion: kill everything */
           @media (prefers-reduced-motion: reduce) {
             .diffr-glow, .diffr-marquee, .diffr-hex-badge,
             .diffr-hex-spin, .mic-ring-1, .mic-ring-2, .mic-ring-3,
-            .diffr-pro-bg {
+            .diffr-pro-bg,
+            .diffr-hero-eyebrow, .diffr-hero-h1, .diffr-hero-body,
+            .diffr-hero-ctas, .diffr-hero-phone-wrap,
+            .diffr-proof-stat {
               animation: none !important;
             }
             .diffr-reveal {
@@ -451,11 +488,10 @@ export default function DiffrPage() {
               transform: none !important;
               transition: none !important;
             }
-            .diffr-cta-primary:hover,
-            .diffr-cta-primary:active,
-            .diffr-badge-appstore:hover,
-            .diffr-badge-appstore:active,
-            .diffr-scene-card:hover {
+            .diffr-cta-primary:hover, .diffr-cta-primary:active,
+            .diffr-badge-appstore:hover, .diffr-badge-appstore:active,
+            .diffr-scene-card:hover, .diffr-trust-card:hover,
+            .diffr-tier-row:hover, .diffr-axis-pill:hover {
               transform: none !important;
             }
           }
@@ -579,6 +615,7 @@ export default function DiffrPage() {
             <div style={{ paddingTop: 40, maxWidth: 620 }}>
               {/* Eyebrow */}
               <div
+                className="diffr-hero-eyebrow"
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
@@ -615,6 +652,7 @@ export default function DiffrPage() {
 
               {/* H1 */}
               <h1
+                className="diffr-hero-h1"
                 style={{
                   fontFamily: "var(--font-display), 'Playfair Display', Georgia, serif",
                   fontSize: "clamp(44px, 7vw, 88px)",
@@ -630,6 +668,7 @@ export default function DiffrPage() {
               </h1>
 
               <p
+                className="diffr-hero-body"
                 style={{
                   fontSize: 18,
                   lineHeight: 1.65,
@@ -644,7 +683,7 @@ export default function DiffrPage() {
               </p>
 
               {/* CTAs */}
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 14, alignItems: "center" }}>
+              <div className="diffr-hero-ctas" style={{ display: "flex", flexWrap: "wrap", gap: 14, alignItems: "center" }}>
                 <AppStoreBadge href={appStoreUrl} large />
                 <a
                   href="#discover"
@@ -681,7 +720,7 @@ export default function DiffrPage() {
                 display: "flex",
                 justifyContent: "center",
               }}
-              className="diffr-hero-phone"
+              className="diffr-hero-phone diffr-hero-phone-wrap"
             >
               {/* Glow blob behind phone */}
               <div
@@ -734,6 +773,7 @@ export default function DiffrPage() {
           {proofStats.map((stat, i) => (
             <div
               key={stat.label}
+              className="diffr-proof-stat"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -831,6 +871,7 @@ export default function DiffrPage() {
               {["Heritage", "Quality", "Aesthetic", "Innovation", "Value", "Cultural"].map((axis) => (
                 <span
                   key={axis}
+                  className="diffr-axis-pill"
                   style={{
                     fontFamily: "var(--font-syne), sans-serif",
                     fontSize: 11,
@@ -841,6 +882,8 @@ export default function DiffrPage() {
                     border: "1px solid rgba(27,139,245,0.2)",
                     borderRadius: 100,
                     padding: "4px 12px",
+                    cursor: "default",
+                    display: "inline-block",
                   }}
                 >
                   {axis}
@@ -900,7 +943,7 @@ export default function DiffrPage() {
                     padding: "5px 14px",
                   }}
                 >
-                  <span style={{ color: "#F0522C" }}>✦</span>
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="#F0522C" aria-hidden="true"><polygon points="4,0 8,4 4,8 0,4"/></svg>
                   {h}
                 </span>
               ))}
@@ -933,7 +976,7 @@ export default function DiffrPage() {
                   zIndex: 10,
                 }}
               >
-                ✨ New to a hobby?
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" style={{display:"inline-block",verticalAlign:"middle",marginRight:6,marginBottom:1}}><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>New to a hobby?
               </div>
             </div>
           </RevealOnScroll>
@@ -987,12 +1030,18 @@ export default function DiffrPage() {
               >
                 <div
                   style={{
-                    fontSize: 48,
-                    lineHeight: 1,
-                    filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.3))",
+                    width: 52,
+                    height: 52,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    background: "rgba(255,255,255,0.12)",
+                    borderRadius: 14,
+                    filter: "drop-shadow(0 2px 10px rgba(0,0,0,0.25))",
+                    flexShrink: 0,
                   }}
                 >
-                  {card.icon}
+                  <SceneIcon name={card.icon} />
                 </div>
                 <div>
                   <div
@@ -1141,6 +1190,7 @@ export default function DiffrPage() {
               ].map((tier) => (
                 <div
                   key={tier.label}
+                  className="diffr-tier-row"
                   style={{ display: "flex", alignItems: "center", gap: 12 }}
                 >
                   <div
@@ -1216,6 +1266,7 @@ export default function DiffrPage() {
             className="diffr-feature-grid"
           >
             {/* Copy */}
+            <RevealOnScroll>
             <div>
               {/* Pro eyebrow */}
               <p
@@ -1257,17 +1308,10 @@ export default function DiffrPage() {
                   "All future Pro-only features at today's price",
                 ].map((item) => (
                   <li key={item} style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
-                    <span
-                      style={{
-                        color: "rgba(255,255,255,0.7)",
-                        fontSize: 18,
-                        lineHeight: 1,
-                        marginTop: 1,
-                        flexShrink: 0,
-                      }}
-                    >
-                      ✓
-                    </span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" style={{flexShrink:0,marginTop:2}}>
+                      <circle cx="12" cy="12" r="10" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5"/>
+                      <path d="M8 12l3 3 5-5"/>
+                    </svg>
                     <span style={{ fontSize: 15, color: "rgba(255,255,255,0.85)", lineHeight: 1.6 }}>
                       {item}
                     </span>
@@ -1294,8 +1338,10 @@ export default function DiffrPage() {
                 </p>
               </div>
             </div>
+            </RevealOnScroll>
 
             {/* Mic animation mock */}
+            <RevealOnScroll delay={180}>
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
               <div style={{ position: "relative", display: "flex", alignItems: "center", justifyContent: "center", width: 200, height: 200 }}>
                 {/* Pulse rings */}
@@ -1334,6 +1380,7 @@ export default function DiffrPage() {
                 </div>
               </div>
             </div>
+            </RevealOnScroll>
           </div>
         </div>
       </section>
