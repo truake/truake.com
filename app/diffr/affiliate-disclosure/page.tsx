@@ -39,7 +39,7 @@ export default function DiffrAffiliateDisclosurePage() {
         </p>
         <p style={s.p}>
           As an Amazon Associate, Diffr earns from qualifying purchases. Our Amazon
-          Associate tag is <code style={s.code}>diffr-20</code>. Links to Amazon products
+          Associate tag is <code style={s.code}>diffr20-20</code>. Links to Amazon products
           on our platform may contain this tag.
         </p>
 
