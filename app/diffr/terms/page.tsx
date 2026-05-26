@@ -201,12 +201,13 @@ function Header({ label }: { label: string }) {
   );
 }
 
-function FooterLinks({ current }: { current: "privacy" | "terms" | "support" }) {
+function FooterLinks({ current }: { current: "privacy" | "terms" | "support" | "affiliate-disclosure" }) {
   const links = [
     { href: "/diffr", label: "← Back to Diffr" },
     { href: "/diffr/privacy", label: "Privacy" },
     { href: "/diffr/terms", label: "Terms" },
     { href: "/diffr/support", label: "Support" },
+    { href: "/diffr/affiliate-disclosure", label: "Affiliate Disclosure" },
   ];
   return (
     <div style={{ marginTop: "64px", paddingTop: "32px", borderTop: "1px solid rgba(42,38,32,0.15)", display: "flex", gap: "24px", flexWrap: "wrap" as const }}>

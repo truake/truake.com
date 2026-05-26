@@ -203,12 +203,13 @@ function Header({ label }: { label: string }) {
   );
 }
 
-function FooterLinks({ current }: { current: "privacy" | "terms" | "support" }) {
+function FooterLinks({ current }: { current: "privacy" | "terms" | "support" | "affiliate-disclosure" }) {
   const links = [
     { href: "/diffr", label: "← Back to Diffr" },
     { href: "/diffr/privacy", label: "Privacy" },
     { href: "/diffr/terms", label: "Terms" },
     { href: "/diffr/support", label: "Support" },
+    { href: "/diffr/affiliate-disclosure", label: "Affiliate Disclosure" },
   ].filter(l => !(l.href === `/diffr/${current}` || (l.href === "/diffr" && false)));
 
   return (

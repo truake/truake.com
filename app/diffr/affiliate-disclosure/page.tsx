@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Affiliate Disclosure — Diffr",
   description:
-    "FTC-required disclosure of Diffr's affiliate relationships with Amazon, eBay, and Walmart. We earn commission on qualifying purchases at no extra cost to you.",
+    "FTC-required disclosure (16 CFR Part 255) of Diffr's affiliate relationships. Amazon Associates tag diffr20-20, eBay Partner Network campaign 5339154635.",
   robots: { index: true, follow: true },
 };
 
@@ -17,120 +17,126 @@ export default function DiffrAffiliateDisclosurePage() {
         <h1 style={s.h1}>Affiliate Disclosure</h1>
         <p style={s.meta}>Last updated: May 26, 2026</p>
 
-        {/* FTC callout box */}
-        <div style={{ background: "#FEF6E4", padding: "20px 24px", borderRadius: 10, borderLeft: "4px solid #F0522C", marginBottom: 36 }}>
-          <p style={{ ...s.p, margin: 0 }}>
-            <strong>FTC Required Disclosure:</strong> Diffr participates in affiliate
-            advertising programs that provide a means for us to earn commissions by
-            linking to products on third-party marketplaces. We may earn a commission
-            on qualifying purchases made through our links, <strong>at no additional
-            cost to you</strong>.
-          </p>
-        </div>
-
-        <Hr />
-
-        <H2>Amazon Associates Program</H2>
         <p style={s.p}>
-          Diffr is a participant in the Amazon Services LLC Associates Program, an
-          affiliate advertising program designed to provide a means for sites to earn
-          advertising fees by advertising and linking to{" "}
-          <A href="https://www.amazon.com" target="_blank" rel="sponsored nofollow">amazon.com</A>.
-        </p>
-        <p style={s.p}>
-          As an Amazon Associate, Diffr earns from qualifying purchases. Our Amazon
-          Associate tag is <code style={s.code}>diffr20-20</code>. Links to Amazon products
-          on our platform may contain this tag.
+          This page explains how Diffr makes money from the retailer links inside the iOS app. We&apos;re required to say this clearly under U.S. FTC rules (16 CFR Part 255) and we&apos;d want to say it anyway — opacity around financial incentives is the easiest way to lose trust.
         </p>
 
         <Hr />
 
-        <H2>eBay Partner Network</H2>
+        <H2>Short version</H2>
         <p style={s.p}>
-          Diffr participates in the eBay Partner Network (EPN) and uses the eBay Browse
-          API under the eBay Developers Program. We display publicly available product
-          data and may earn a commission on traffic referred to{" "}
-          <A href="https://www.ebay.com" target="_blank" rel="sponsored nofollow">ebay.com</A>{" "}
-          that results in a qualifying transaction.
+          When you tap <strong>Buy on Amazon</strong> or <strong>Buy on eBay</strong> in the Diffr app and complete a qualifying purchase within 24 hours, those retailers pay us a small commission. <strong>Your price is identical to going to the retailer directly</strong> — the commission comes out of the retailer&apos;s margin, not your wallet.
+        </p>
+        <p style={s.p}>
+          Commission revenue does <strong>not</strong> influence which brands Diffr recommends. The six-axis brand score (Heritage, Quality, Aesthetic, Innovation, Value, Cultural) is computed independently of which retailers carry the brand.
         </p>
 
         <Hr />
 
-        <H2>Walmart Creator Program</H2>
+        <H2>Active affiliate partners</H2>
+        <Table
+          headers={["Partner", "Diffr ID", "Cookie window"]}
+          rows={[
+            [<><strong>Amazon Associates (US)</strong></>, <><code style={s.code}>diffr20-20</code></>, "24 hours"],
+            [<><strong>eBay Partner Network (US)</strong></>, <>Campaign <code style={s.code}>5339154635</code></>, "24 hours"],
+          ]}
+        />
         <p style={s.p}>
-          Diffr participates in the Walmart Creator Program, administered through
-          Impact.com. We may earn a commission on purchases referred to{" "}
-          <A href="https://www.walmart.com" target="_blank" rel="sponsored nofollow">walmart.com</A>{" "}
-          via our links.
+          When you tap a buy button, the URL you land on contains our partner ID. The retailer&apos;s first-party cookie remembers that ID for 24 hours. If you check out within that window — even on items unrelated to the one we showed you — that purchase is credited to Diffr.
         </p>
 
         <Hr />
 
-        <H2>What This Means for You</H2>
+        <H2>What is NOT an affiliate link</H2>
+        <p style={s.p}>
+          The following retailers appear in the Diffr app, but tapping their buttons sends you to the retailer with <strong>no commission to Diffr</strong>:
+        </p>
         <Ul>
-          <Li>
-            You pay <strong>the exact same price</strong> whether you navigate directly
-            to Amazon, eBay, or Walmart or go through a Diffr link. Our commission is
-            paid by the retailer, not added to your purchase.
-          </Li>
-          <Li>
-            Diffr earns a <strong>small commission</strong> (typically 2–10% depending
-            on product category) on items purchased after clicking our links.
-          </Li>
-          <Li>
-            This commission model is how Diffr remains <strong>free to download and use</strong>{" "}
-            without charging users or selling advertising.
-          </Li>
-          <Li>
-            We <strong>do not receive payment</strong> to recommend specific brands or
-            products. Our editorial picks and six-axis scores are calculated by our
-            internal algorithm using public product data, and no brand can pay to improve
-            its Diffr ranking.
-          </Li>
+          <Li>Walmart</Li>
+          <Li>Best Buy</Li>
+          <Li>REI · Backcountry · Dick&apos;s Sporting Goods</Li>
+          <Li>Sephora · Ulta · Nordstrom · Farfetch · Net-A-Porter</Li>
+          <Li>Williams-Sonoma · Crate &amp; Barrel</Li>
+          <Li>Target · GameStop · Etsy</Li>
+          <Li>Any brand&apos;s own official website</Li>
+        </Ul>
+        <p style={s.p}>
+          We show these buttons to give you marketplace options. As we secure affiliate relationships with each retailer, we&apos;ll update this page. We will never silently flip a non-affiliate link into an affiliate one without disclosing it here first.
+        </p>
+
+        <Hr />
+
+        <H2>Why this doesn&apos;t bias recommendations</H2>
+        <p style={s.p}>
+          A reasonable question: if Diffr earns more when you buy from Amazon, wouldn&apos;t we be tempted to push Amazon-friendly brands?
+        </p>
+        <p style={s.p}>Three reasons we don&apos;t:</p>
+        <ol style={{ listStyle: "none", padding: 0, margin: "0 0 14px" }}>
+          <li style={{ fontSize: "0.93rem", lineHeight: 1.8, color: "#2A2620", paddingLeft: "28px", marginBottom: "14px", position: "relative" }}>
+            <span style={{ position: "absolute", left: 0, top: "0.1em", fontFamily: "var(--font-syne), sans-serif", fontWeight: 700, fontSize: "0.85rem", color: "#F0522C" }}>1.</span>
+            <strong>The score is computed before retailer mapping.</strong> Each brand&apos;s six-axis score is generated by our recommendation engine using the brand&apos;s own data (founding story, product line breadth, community ratings, PSY-Match similarity to your profile). The retailer match step happens <em>after</em> — we look at the recommended brand and pick which retailers carry it.
+          </li>
+          <li style={{ fontSize: "0.93rem", lineHeight: 1.8, color: "#2A2620", paddingLeft: "28px", marginBottom: "14px", position: "relative" }}>
+            <span style={{ position: "absolute", left: 0, top: "0.1em", fontFamily: "var(--font-syne), sans-serif", fontWeight: 700, fontSize: "0.85rem", color: "#F0522C" }}>2.</span>
+            <strong>Commission rates are roughly comparable across the partners we list.</strong> Amazon Associates pays 1–10% depending on category (luxury beauty 1%, home &amp; kitchen 3%, fashion 4%); eBay Partner Network pays 1–4% depending on category. The difference is too small to be worth corrupting recommendations over.
+          </li>
+          <li style={{ fontSize: "0.93rem", lineHeight: 1.8, color: "#2A2620", paddingLeft: "28px", marginBottom: "14px", position: "relative" }}>
+            <span style={{ position: "absolute", left: 0, top: "0.1em", fontFamily: "var(--font-syne), sans-serif", fontWeight: 700, fontSize: "0.85rem", color: "#F0522C" }}>3.</span>
+            <strong>A bad recommendation costs us more than a missed commission.</strong> Diffr&apos;s premise is &ldquo;brands that won&apos;t punish you for being new.&rdquo; Recommending the wrong brand to make $0.50 in commission would shred the only reason anyone keeps using us.
+          </li>
+        </ol>
+        <p style={s.p}>
+          We&apos;d rather you trust the recommendation and buy <em>anything</em> through our links than lose trust and stop opening the app.
+        </p>
+
+        <Hr />
+
+        <H2>How to verify (for the skeptical)</H2>
+        <p style={s.p}>You can inspect the actual URLs the app generates:</p>
+        <Ul>
+          <Li>Amazon: <code style={{ ...s.code, wordBreak: "break-all" as const }}>https://www.amazon.com/s?k=&lt;brand&gt;+&lt;product&gt;&amp;tag=diffr20-20</code></Li>
+          <Li>eBay: <code style={{ ...s.code, wordBreak: "break-all" as const }}>https://rover.ebay.com/rover/1/711-53200-19255-0/4?mpre=&lt;encoded ebay URL&gt;&amp;campid=5339154635&amp;toolid=10001</code></Li>
+        </Ul>
+        <p style={s.p}>
+          Both are documented as our partner IDs in the respective programs&apos; publisher dashboards.
+        </p>
+        <p style={s.p}>
+          If you don&apos;t want Diffr to earn commission on a purchase, just copy the brand name and paste it into your browser yourself.
+        </p>
+
+        <Hr />
+
+        <H2>Upcoming changes we&apos;ll disclose here</H2>
+        <p style={s.p}>
+          We&apos;re applying to several other affiliate networks. When any of them activate, this page is updated <strong>before</strong> the new links go live in the app:
+        </p>
+        <Ul>
+          <Li><strong>Walmart</strong> (via Impact) — application pending</Li>
+          <Li><strong>Best Buy</strong> (via Impact) — not yet applied</Li>
+          <Li><strong>REI, Backcountry, Dick&apos;s</strong> (Avantlink) — not yet applied</Li>
+          <Li><strong>Sephora, Ulta</strong> (Rakuten) — not yet applied</Li>
         </Ul>
 
         <Hr />
 
-        <H2>Identifying Affiliate Links</H2>
+        <H2>Amazon Product Advertising API</H2>
         <p style={s.p}>
-          Within the Diffr iOS app, all retailer links (buttons labeled{" "}
-          <code style={s.code}>Buy on Amazon</code>,{" "}
-          <code style={s.code}>Buy on eBay</code>, or{" "}
-          <code style={s.code}>Buy on Walmart</code>) are affiliate links.
+          When Diffr&apos;s affiliate sales reach Amazon&apos;s threshold for unlocking the Product Advertising API (PA-API 5.0), we&apos;ll start using PA-API to pull product images, prices, and ASINs into our recommendations. This will make our product pages richer and let us link to specific products rather than search results.
         </p>
         <p style={s.p}>
-          On this website, affiliate links carry{" "}
-          <code style={s.code}>rel=&quot;sponsored nofollow&quot;</code> attributes as
-          required by FTC guidelines and Google Search policies.
-        </p>
-
-        <Hr />
-
-        <H2>Our Editorial Independence</H2>
-        <p style={s.p}>
-          Brand rankings, scores, and recommendations on Diffr are generated by our
-          internal six-axis scoring algorithm using public product data, pricing,
-          community reviews, and editorial research.{" "}
-          <strong>No brand can pay to improve its Diffr score or ranking.</strong>
-        </p>
-        <p style={s.p}>
-          If we ever introduce sponsored placements or paid brand features, they will be
-          clearly and prominently labeled as such — distinct from our editorially-scored
-          content.
-        </p>
-        <p style={s.p}>
-          Affiliate relationships do not influence which brands or products appear in
-          Beginner Packs or Scenes. Curation is based on score quality and beginner
-          relevance, not commission rates.
+          This does <strong>not</strong> change the affiliate relationship — same partner ID, same commission rate, same 24-hour window. It just means the link goes to <code style={s.code}>https://www.amazon.com/dp/&lt;ASIN&gt;?tag=diffr20-20</code> instead of a search URL.
         </p>
 
         <Hr />
 
         <H2>Questions</H2>
         <p style={s.p}>
-          If you have questions about this disclosure or our affiliate relationships,
-          email us at{" "}
-          <A href="mailto:diffr@truake.com">diffr@truake.com</A>.
+          Email <A href="mailto:diffr@truake.com">diffr@truake.com</A> with &ldquo;Affiliate&rdquo; in the subject line.
+        </p>
+        <p style={s.p}>
+          For Amazon&apos;s own disclosure rules: <A href="https://affiliate-program.amazon.com/help/operating/agreement" target="_blank">https://affiliate-program.amazon.com/help/operating/agreement</A>
+          <br />
+          For eBay Partner Network&apos;s: <A href="https://partnernetwork.ebay.com/agreements" target="_blank">https://partnernetwork.ebay.com/agreements</A>
         </p>
 
         <FooterLinks current="affiliate-disclosure" />
@@ -139,7 +145,7 @@ export default function DiffrAffiliateDisclosurePage() {
   );
 }
 
-/* ── Shared sub-components ── */
+/* ── Shared layout pieces ── */
 
 function Header({ label }: { label: string }) {
   return (
@@ -220,6 +226,35 @@ function A({ href, children, target, rel }: { href: string; children: React.Reac
     >
       {children}
     </a>
+  );
+}
+
+function Table({ headers, rows }: { headers: string[]; rows: (React.ReactNode | string)[][] }) {
+  return (
+    <div style={{ overflowX: "auto", margin: "0 0 16px" }}>
+      <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.875rem", lineHeight: 1.65 }}>
+        <thead>
+          <tr>
+            {headers.map((h, i) => (
+              <th key={i} style={{ textAlign: "left", padding: "10px 14px", background: "#F0522C", color: "#fff", fontFamily: "var(--font-syne), sans-serif", fontWeight: 700, fontSize: "0.7rem", letterSpacing: "0.1em", textTransform: "uppercase" as const, borderRight: i < headers.length - 1 ? "1px solid rgba(255,255,255,0.2)" : "none" }}>
+                {h}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row, ri) => (
+            <tr key={ri} style={{ background: ri % 2 === 0 ? "#F8F5F1" : "#F0EBE3" }}>
+              {row.map((cell, ci) => (
+                <td key={ci} style={{ padding: "10px 14px", color: "#2A2620", borderBottom: "1px solid rgba(42,38,32,0.08)", borderRight: ci < row.length - 1 ? "1px solid rgba(42,38,32,0.08)" : "none", verticalAlign: "top" }}>
+                  {cell}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 
