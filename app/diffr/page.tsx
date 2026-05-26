@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import RevealOnScroll from "./components/RevealOnScroll";
+import BlurText from "./components/BlurText";
+import ShinyText from "./components/ShinyText";
+import CountUp from "./components/CountUp";
+import SpotlightCard from "./components/SpotlightCard";
+import ScrollVelocity from "./components/ScrollVelocity";
 
 /* ─────────────────────────────────────────────────────────────
    SEO
@@ -52,6 +57,14 @@ const proofStats = [
   { number: "0", label: "ad networks" },
   { number: "0", label: "data sold" },
   { number: "1", label: "person built it" },
+];
+
+const proofStatsCounted = [
+  { to: 47000, from: 0,   direction: "up"   as const, suffix: "+", separator: ",", label: "brands scored",     duration: 2.2, delay: 0 },
+  { to: 6,     from: 0,   direction: "up"   as const, suffix: "",  separator: "",  label: "axes of brand truth", duration: 1.2, delay: 0.1 },
+  { to: 0,     from: 0,   direction: "up"   as const, suffix: "",  separator: "",  label: "ad networks",        duration: 0.4, delay: 0.2 },
+  { to: 0,     from: 0,   direction: "up"   as const, suffix: "",  separator: "",  label: "data sold",          duration: 0.4, delay: 0.3 },
+  { to: 1,     from: 0,   direction: "up"   as const, suffix: "",  separator: "",  label: "person built it",    duration: 1,   delay: 0.4 },
 ];
 
 const sceneCards = [
@@ -342,13 +355,27 @@ export default function DiffrPage() {
           }
           .diffr-glow { animation: diffrGlow 8s ease-in-out infinite; }
 
-          /* Scene marquee */
-          @keyframes diffrMarquee {
-            from { transform: translateX(0); }
-            to   { transform: translateX(-50%); }
+          /* Grain texture overlay — impeccable editorial aesthetic */
+          .diffr-root::after {
+            content: '';
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            pointer-events: none;
+            z-index: 9999;
+            opacity: 0.028;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            animation: diffrGrain 0.9s steps(3) infinite;
           }
-          .diffr-marquee { animation: diffrMarquee 28s linear infinite; }
-          .diffr-marquee-wrap:hover .diffr-marquee { animation-play-state: paused; }
+          @keyframes diffrGrain {
+            0%   { transform: translate(0, 0); }
+            33%  { transform: translate(2%, -1%); }
+            66%  { transform: translate(-1.5%, 2%); }
+            100% { transform: translate(1%, 1%); }
+          }
 
           /* Hex badge continuous slow spin */
           @keyframes diffrHexSpin {
@@ -475,12 +502,13 @@ export default function DiffrPage() {
 
           /* Reduced motion: kill everything */
           @media (prefers-reduced-motion: reduce) {
-            .diffr-glow, .diffr-marquee, .diffr-hex-badge,
+            .diffr-glow, .diffr-hex-badge,
             .diffr-hex-spin, .mic-ring-1, .mic-ring-2, .mic-ring-3,
             .diffr-pro-bg,
-            .diffr-hero-eyebrow, .diffr-hero-h1, .diffr-hero-body,
+            .diffr-hero-eyebrow, .diffr-hero-h1,
             .diffr-hero-ctas, .diffr-hero-phone-wrap,
-            .diffr-proof-stat {
+            .diffr-proof-stat,
+            .diffr-root::after {
               animation: none !important;
             }
             .diffr-reveal {
@@ -599,6 +627,12 @@ export default function DiffrPage() {
           paddingLeft: 32,
           paddingRight: 32,
           overflow: "hidden",
+          background: [
+            "radial-gradient(ellipse 55% 60% at 4% 12%, rgba(27,139,245,0.09) 0%, transparent 60%)",
+            "radial-gradient(ellipse 40% 50% at 94% 85%, rgba(240,82,44,0.07) 0%, transparent 60%)",
+            "radial-gradient(ellipse 35% 40% at 60% 5%, rgba(27,139,245,0.04) 0%, transparent 60%)",
+            "var(--d-bg)",
+          ].join(", "),
         }}
       >
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
@@ -655,20 +689,27 @@ export default function DiffrPage() {
                 className="diffr-hero-h1"
                 style={{
                   fontFamily: "var(--font-display), 'Playfair Display', Georgia, serif",
-                  fontSize: "clamp(44px, 7vw, 88px)",
+                  fontSize: "clamp(48px, 8.5vw, 104px)",
                   fontWeight: 700,
-                  letterSpacing: "-0.025em",
-                  lineHeight: 1.0,
+                  letterSpacing: "-0.04em",
+                  lineHeight: 0.98,
                   color: "#2A2620",
-                  marginBottom: 24,
+                  marginBottom: 28,
                 }}
               >
                 Beginner&#8209;friendly brands.{" "}
-                <em style={{ color: "#1B8BF5", fontStyle: "italic" }}>Without the regret.</em>
+                <em style={{ fontStyle: "italic" }}>
+                  <ShinyText text="Without the regret." color="#1B8BF5" shineColor="rgba(91,175,255,0.9)" speed={3.5} />
+                </em>
               </h1>
 
-              <p
-                className="diffr-hero-body"
+              <BlurText
+                text="Tell us what you want to start — fishing, coffee, running, investing — and we'll show you exactly what to buy first. And what to skip until you're sure."
+                animateBy="words"
+                direction="bottom"
+                delay={80}
+                stepDuration={0.38}
+                threshold={0}
                 style={{
                   fontSize: 18,
                   lineHeight: 1.65,
@@ -677,10 +718,7 @@ export default function DiffrPage() {
                   maxWidth: 520,
                   fontWeight: 400,
                 }}
-              >
-                Tell us what you want to start — fishing, coffee, running, investing — and
-                we&apos;ll show you exactly what to buy first. And what to skip until you&apos;re sure.
-              </p>
+              />
 
               {/* CTAs */}
               <div className="diffr-hero-ctas" style={{ display: "flex", flexWrap: "wrap", gap: 14, alignItems: "center" }}>
@@ -770,7 +808,7 @@ export default function DiffrPage() {
             gap: "20px 0",
           }}
         >
-          {proofStats.map((stat, i) => (
+          {proofStatsCounted.map((stat, i) => (
             <div
               key={stat.label}
               className="diffr-proof-stat"
@@ -780,7 +818,7 @@ export default function DiffrPage() {
                 alignItems: "center",
                 gap: 4,
                 padding: "0 28px",
-                borderRight: i < proofStats.length - 1 ? "1px solid rgba(255,255,255,0.12)" : "none",
+                borderRight: i < proofStatsCounted.length - 1 ? "1px solid rgba(255,255,255,0.12)" : "none",
               }}
             >
               <span
@@ -791,9 +829,18 @@ export default function DiffrPage() {
                   color: "#fff",
                   letterSpacing: "-0.02em",
                   lineHeight: 1,
+                  display: "inline-block",
                 }}
               >
-                {stat.number}
+                <CountUp
+                  to={stat.to}
+                  from={stat.from}
+                  direction={stat.direction}
+                  duration={stat.duration}
+                  delay={stat.delay}
+                  separator={stat.separator}
+                  suffix={stat.suffix}
+                />
               </span>
               <span
                 style={{
@@ -1005,75 +1052,79 @@ export default function DiffrPage() {
           </RevealOnScroll>
         </div>
 
-        {/* Marquee track — duplicated for seamless loop */}
-        <div className="diffr-marquee-wrap" style={{ overflow: "hidden", cursor: "default" }}>
-          <div
-            className="diffr-marquee"
-            style={{ display: "flex", gap: 20, width: "max-content" }}
-          >
-            {[...sceneCards, ...sceneCards].map((card, i) => (
-              <div
-                key={i}
-                className="diffr-scene-card"
-                style={{
-                  width: 260,
-                  height: 320,
-                  borderRadius: 20,
-                  flexShrink: 0,
-                  background: `linear-gradient(135deg, ${card.from}, ${card.to})`,
-                  padding: 28,
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "space-between",
-                  boxShadow: "0 4px 16px rgba(0,0,0,0.12)",
-                }}
-              >
+        {/* Velocity-scroll track — physics-based marquee via react-bits */}
+        <ScrollVelocity
+          velocity={55}
+          numCopies={4}
+          wrapperStyle={{ overflow: "hidden", cursor: "default", paddingBottom: 8 }}
+          itemStyle={{ display: "inline-flex", gap: 20, paddingRight: 20 }}
+          texts={[
+            <span key="row" style={{ display: "inline-flex", gap: 20 }}>
+              {sceneCards.map((card, i) => (
                 <div
+                  key={i}
+                  className="diffr-scene-card"
                   style={{
-                    width: 52,
-                    height: 52,
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    background: "rgba(255,255,255,0.12)",
-                    borderRadius: 14,
-                    filter: "drop-shadow(0 2px 10px rgba(0,0,0,0.25))",
+                    width: 260,
+                    height: 320,
+                    borderRadius: 20,
                     flexShrink: 0,
+                    background: `linear-gradient(135deg, ${card.from}, ${card.to})`,
+                    padding: 28,
+                    display: "inline-flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                    boxShadow: "0 4px 16px rgba(0,0,0,0.12)",
+                    verticalAlign: "top",
                   }}
                 >
-                  <SceneIcon name={card.icon} />
-                </div>
-                <div>
                   <div
                     style={{
-                      fontFamily: "var(--font-display), 'Playfair Display', serif",
-                      fontSize: 20,
-                      fontWeight: 700,
-                      color: "#fff",
-                      letterSpacing: "-0.01em",
-                      lineHeight: 1.2,
-                      marginBottom: 8,
+                      width: 52,
+                      height: 52,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      background: "rgba(255,255,255,0.12)",
+                      borderRadius: 14,
+                      filter: "drop-shadow(0 2px 10px rgba(0,0,0,0.25))",
+                      flexShrink: 0,
                     }}
                   >
-                    {card.title}
+                    <SceneIcon name={card.icon} />
                   </div>
-                  <div
-                    style={{
-                      fontFamily: "var(--font-syne), sans-serif",
-                      fontSize: 11,
-                      fontWeight: 700,
-                      letterSpacing: "0.12em",
-                      textTransform: "uppercase",
-                      color: "rgba(255,255,255,0.55)",
-                    }}
-                  >
-                    {card.count}
+                  <div>
+                    <div
+                      style={{
+                        fontFamily: "var(--font-display), 'Playfair Display', serif",
+                        fontSize: 20,
+                        fontWeight: 700,
+                        color: "#fff",
+                        letterSpacing: "-0.01em",
+                        lineHeight: 1.2,
+                        marginBottom: 8,
+                      }}
+                    >
+                      {card.title}
+                    </div>
+                    <div
+                      style={{
+                        fontFamily: "var(--font-syne), sans-serif",
+                        fontSize: 11,
+                        fontWeight: 700,
+                        letterSpacing: "0.12em",
+                        textTransform: "uppercase",
+                        color: "rgba(255,255,255,0.55)",
+                      }}
+                    >
+                      {card.count}
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
+              ))}
+            </span>
+          ]}
+        />
       </section>
 
       {/* ════════════════════════════════════════════
@@ -1412,13 +1463,11 @@ export default function DiffrPage() {
           >
             {trustCards.map((card, i) => (
               <RevealOnScroll key={card.title} delay={i * 100}>
-                <div
+                <SpotlightCard
                   className="diffr-trust-card"
+                  spotlightColor="rgba(27,139,245,0.11)"
                   style={{
                     padding: "32px 28px",
-                    background: "#fff",
-                    border: "1px solid rgba(42,38,32,0.08)",
-                    borderRadius: 16,
                     display: "flex",
                     flexDirection: "column",
                     gap: 16,
@@ -1469,7 +1518,7 @@ export default function DiffrPage() {
                       {card.link.label}
                     </a>
                   </div>
-                </div>
+                </SpotlightCard>
               </RevealOnScroll>
             ))}
           </div>
