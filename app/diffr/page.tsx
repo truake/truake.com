@@ -1555,10 +1555,11 @@ export default function DiffrPage() {
               }}
             >
               {[
-                { href: "/diffr/privacy", label: "Privacy" },
-                { href: "/diffr/terms", label: "Terms" },
-                { href: "/diffr/support", label: "Support" },
-                { href: "mailto:diffr@truake.com", label: "diffr@truake.com" },
+                { href: "/diffr/privacy",               label: "Privacy" },
+                { href: "/diffr/terms",                 label: "Terms" },
+                { href: "/diffr/support",               label: "Support" },
+                { href: "/diffr/affiliate-disclosure",  label: "Affiliate Disclosure" },
+                { href: "mailto:diffr@truake.com",      label: "diffr@truake.com" },
               ].map((l) => (
                 <a
                   key={l.href}
