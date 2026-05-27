@@ -193,7 +193,7 @@ export default function DiffrTermsPage() {
 function Header({ label }: { label: string }) {
   return (
     <header style={{ borderBottom: "1px solid rgba(42,38,32,0.15)", padding: "20px 40px", display: "flex", alignItems: "center", justifyContent: "space-between", background: "#F8F5F1" }}>
-      <Link href="/diffr" style={{ fontFamily: "var(--font-syne), sans-serif", fontWeight: 800, fontSize: "1.1rem", letterSpacing: "0.08em", color: "#1B8BF5", textDecoration: "none", textTransform: "uppercase" as const }}>
+      <Link href="/diffr" style={{ fontFamily: "var(--font-display), 'Playfair Display', Georgia, serif", fontWeight: 700, fontStyle: "italic", fontSize: "1.4rem", letterSpacing: "-0.02em", color: "#1B8BF5", textDecoration: "none" }}>
         Diffr
       </Link>
       <span style={{ fontSize: "0.75rem", letterSpacing: "0.12em", textTransform: "uppercase" as const, color: "rgba(42,38,32,0.45)" }}>{label}</span>
@@ -254,7 +254,7 @@ function A({ href, children, target }: { href: string; children: React.ReactNode
 }
 
 const s = {
-  h1: { fontFamily: "var(--font-syne), sans-serif", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 3rem)", letterSpacing: "-0.02em", lineHeight: 1.1, margin: "0 0 10px", color: "#1B8BF5" },
+  h1: { fontFamily: "var(--font-display), 'Playfair Display', Georgia, serif", fontWeight: 700, fontSize: "clamp(2.2rem, 5vw, 3.2rem)", letterSpacing: "-0.03em", lineHeight: 1.05, margin: "0 0 10px", color: "#2A2620" },
   meta: { fontSize: "0.78rem", letterSpacing: "0.1em", textTransform: "uppercase" as const, color: "rgba(42,38,32,0.5)", margin: "0 0 36px" },
   p: { fontSize: "0.93rem", lineHeight: 1.8, color: "#2A2620", margin: "0 0 14px" },
   code: { fontFamily: "var(--font-mono), monospace", fontSize: "0.82em", background: "rgba(27,139,245,0.1)", color: "#1B8BF5", padding: "1px 5px", borderRadius: "2px" },
