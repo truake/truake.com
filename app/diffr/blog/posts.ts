@@ -1575,6 +1575,193 @@ Diffr ends with: here is what you get.</p>
 <p>Diffr is pro-resolution. The decision is already made. You can stop now.</p>
 `.trim(),
   },
+
+  // ── Brand Guide Batch — Hobby Scenes ─────────────────────────────────────
+
+  {
+    slug: 'running-gear-brand-guide',
+    title: 'The Beginner Runner Brand Guide: Every Slot Assigned',
+    description: 'Eleven running gear slots — shoes to training app — assigned and closed. The Diffr brand guide for new runners who want to start without spending six hours reading gear reviews.',
+    date: '2026-05-30',
+    readTime: '7 min read',
+    tags: ['brand guide', 'running brands for beginners', 'running gear brands', 'beginner running', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eleven slots. Eleven brand answers. Shoes to training app — assigned and closed. Start running. Stop researching.',
+    content: `
+<p>Starting to run has roughly fifteen gear decision points before your first mile, and the running internet has strong, contradictory opinions on every single one. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to athletic footwear. The Diffr approach is the same as it is for every other scenario: decompose into discrete slots, assign exactly one brand to each slot, close the file. What follows is the complete beginner runner guide. No &ldquo;it depends.&rdquo; No &ldquo;top five options.&rdquo; One answer per slot.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Running Shoes</h3>
+<p><strong>Hoka Clifton 9</strong></p>
+<p>The Clifton is the right answer for a new runner who does not know their gait, has not built mileage-specific muscular conditioning, and needs something forgiving on a wide variety of surfaces. The maximal cushioning absorbs the impact that underdeveloped running muscles cannot yet manage, and the geometry guides foot strike without requiring a precise technique that beginners do not yet have. Hoka&rsquo;s quality control is consistent &mdash; the 9th iteration of a shoe that has been refined over a decade is not a risk. This slot is closed until you have logged enough miles to have opinions based on actual evidence rather than forum posts.</p>
+
+<h3>Slot 2 &mdash; Running Socks</h3>
+<p><strong>Darn Tough Run No-Show Tab Ultra-Lightweight</strong></p>
+<p>Darn Tough socks come with an unconditional lifetime guarantee because they do not wear through. For running specifically, their merino wool construction manages moisture and temperature in ways that cotton cannot, and the seamless toe construction eliminates the friction points that cause blisters on long efforts. The No-Show Tab sits below the ankle and includes a heel tab that prevents the shoe collar from rubbing. These are not interesting. They are correct. Buy three pairs.</p>
+
+<h3>Slot 3 &mdash; GPS Watch</h3>
+<p><strong>Garmin Forerunner 55</strong></p>
+<p>The Forerunner 55 tracks pace, distance, heart rate, and GPS without requiring you to learn a complicated interface or pay for features you will not use as a beginner. Garmin&rsquo;s GPS accuracy is the benchmark in the category &mdash; the data it produces is reliable enough to actually train with rather than just collect. It costs around $200, has a two-week battery life, and does not try to be a smartwatch. If you are not yet tracking heart rate zones and lactate threshold, you do not need a $600 device. The 55 covers everything a new runner needs. Upgrade when you have a specific reason to, not before.</p>
+
+<h3>Slot 4 &mdash; Running Shorts</h3>
+<p><strong>On Running Men&rsquo;s 5-Inch Shorts (or Women&rsquo;s equivalent: On Running Lightweight Shorts)</strong></p>
+<p>On&rsquo;s running shorts use a lightweight ripstop fabric that does not absorb moisture and does not restrict stride. The 5-inch inseam length avoids inner-thigh friction without being impractically short. The built-in liner eliminates the need for a separate base layer. The back pocket closes securely enough for a phone or key. On Running makes technical run apparel without the inflated marketing premium of some competing brands at this price point. The fit is consistent with the sizing charts. This slot does not require more analysis than this.</p>
+
+<h3>Slot 5 &mdash; Running Shirt</h3>
+<p><strong>Patagonia Capilene Cool Daily Short-Sleeve</strong></p>
+<p>The Capilene Cool Daily is a recycled polyester baselayer that manages moisture by wicking it away from the skin and distributing it across the fabric surface for faster evaporation. It does not hold odor the way synthetic shirts often do after repeated use without washing, because of the Fair Trade Certified construction that uses materials with lower chemical treatment. It is not the lightest shirt in running. It is the shirt that works across temperature ranges, washes well repeatedly, and lasts. For a new runner who does not yet know which performance properties matter most to them, it is the correct default.</p>
+
+<h3>Slot 6 &mdash; Light Rain and Wind Layer</h3>
+<p><strong>Patagonia Houdini Air Jacket</strong></p>
+<p>The Houdini Air packs into its own chest pocket, weighs 70 grams, and provides meaningful wind and light rain protection without adding warmth you do not need on a run. The Air version has micro-perforations that allow more airflow than the standard Houdini, making it specifically better for running than for static cold-weather use. It is not a waterproof shell &mdash; it will not keep you dry in sustained heavy rain. For the specific use case of &ldquo;I started in mild weather and it got cold and windy,&rdquo; it is precisely calibrated. Stuff it in a shorts pocket. Forget it is there until you need it.</p>
+
+<h3>Slot 7 &mdash; Headphones</h3>
+<p><strong>Shokz OpenRun Mini</strong></p>
+<p>Shokz bone conduction headphones sit in front of the ear canal rather than in or over it, which means you hear your music while also hearing ambient sound &mdash; traffic, other runners, your own breathing. For a new runner who is building environmental awareness and route safety instincts, maintaining situational awareness is not optional. The sound quality is not audiophile-grade; it does not need to be. The OpenRun Mini is the compact version for runners with smaller heads. IP67 waterproof rating. Eight-hour battery. These work for every weather condition a road runner will encounter.</p>
+
+<h3>Slot 8 &mdash; Hydration</h3>
+<p><strong>Nathan SpeedDraw Plus Insulated Flask (18 oz)</strong></p>
+<p>For runs under 60 minutes in moderate temperatures, you do not need hydration at all. For runs over 60 minutes or in heat, a handheld flask is the lowest-friction solution that does not require a vest or belt. The Nathan SpeedDraw has a strap that holds the bottle against your palm without requiring you to grip it &mdash; a design detail that matters over a 90-minute effort. The Plus version adds a zip pocket large enough for a phone, gel, and key. The insulated version keeps water cold for meaningfully longer than non-insulated handheld flasks in summer heat. This is not a glamorous purchase. It is the correct one.</p>
+
+<h3>Slot 9 &mdash; Sunglasses</h3>
+<p><strong>Goodr OG Sunglasses</strong></p>
+<p>Goodr OGs cost $25, have polarized lenses, do not bounce during a run because the frame fits snugly without pinching, and come in enough color options that you will find one you like. Photochromic lenses that automatically adjust to light conditions cost $150+ and are meaningfully better only if you are running across variable light conditions in a single session. For most new runners, the OGs are the honest answer. If you lose them, drop them, or sit on them, the financial consequence is proportionate. This slot does not require more analysis.</p>
+
+<h3>Slot 10 &mdash; Recovery Tool</h3>
+<p><strong>TriggerPoint GRID Foam Roller (13&ldquo;)</strong></p>
+<p>New runners develop muscle soreness in the calves, IT band, and hip flexors faster than they develop recovery habits. The GRID&rsquo;s three-dimensional surface provides targeted pressure that a smooth foam roller cannot match, and the 13-inch length is portable enough to use anywhere. Foam rolling is not a substitute for rest or for proper running mechanics, but for the specific discomfort of muscles adapting to a new load pattern, consistent daily use of a quality roller reduces recovery time meaningfully. TriggerPoint has been making this exact product for years with consistent quality.</p>
+
+<h3>Slot 11 &mdash; Training Plan</h3>
+<p><strong>Nike Run Club App (free, Guided Runs feature)</strong></p>
+<p>Nike Run Club&rsquo;s Guided Runs feature provides audio coaching during your run that adjusts pacing guidance, motivation cues, and effort instructions in real time. For a new runner who does not yet have the internal calibration to know whether their effort level is appropriate, external coaching during the run is more useful than a pre-written plan you follow mechanically. The Coach Mike Smith beginner runs are specifically designed for people building from zero. The app is free. The Guided Runs are the specific feature worth using. This slot is closed until you have enough experience to build your own programming.</p>
+
+<h2>The Slot Structure</h2>
+<p>Eleven slots. Eleven answers. No comparison shopping, no forum diving, no second-guessing after you have purchased. This is the Diffr Non-Repetition Principle applied to running gear: one brand per slot, then the slot is closed. The brands in this guide are the correct answers for the specific use case of a new runner building from zero. If you develop specific preferences through experience &mdash; you discover you overpronate and need a stability shoe, or you run in heat that makes the Houdini redundant &mdash; the relevant slot opens again with new evidence. Until then, the file is closed. <a href="/diffr/blog/the-one-brand-rule">One brand per slot</a> is the structure that eliminates decision fatigue without requiring you to stop caring about quality.</p>
+`.trim(),
+  },
+
+  {
+    slug: 'film-photography-brand-guide',
+    title: 'The Film Photography Brand Guide for Beginners: Every Slot Assigned',
+    description: 'Eleven film photography slots — camera body to mail-in processing — assigned and closed. The Diffr brand guide for new film photographers who want to shoot without the gear paralysis.',
+    date: '2026-05-30',
+    readTime: '8 min read',
+    tags: ['brand guide', 'film photography brands for beginners', 'best 35mm camera brands', 'film photography gear', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eleven slots. Eleven brand answers. Camera body to mail-in processing — assigned and closed. Start shooting. Stop researching which Pentax body is "better."',
+    content: `
+<p>Starting film photography has approximately fourteen gear decisions before you shoot your first roll, and the film photography internet has passionate, contradictory opinions on every one of them &mdash; most written by people who own six cameras and have a financial or emotional interest in the one they recommend. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to a medium that already has enough friction in its chemical development process. The Diffr answer is the same as always: one brand per slot, then close the file. Here is the complete guide for a new film photographer starting from zero.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Camera Body</h3>
+<p><strong>Pentax K1000 (used, $80&ndash;150)</strong></p>
+<p>The Pentax K1000 is a fully mechanical 35mm SLR with no electronics beyond a battery-powered light meter. This matters for a beginner for one specific reason: everything the camera does is determined by settings you choose, not by automated systems you do not yet understand. When you learn to shoot on a fully manual camera, you understand what you are doing. When you learn on a camera with automatic modes, you produce technically correct photos while understanding very little about why they are correct. The K1000 was manufactured from 1976 to 1997 in numbers sufficient that used examples are widely available at prices that do not require a significant financial commitment to a hobby you are exploring. Buy from a seller who has tested the meter and shutter. The camera will outlast the question of whether you like film photography.</p>
+
+<h3>Slot 2 &mdash; First Lens (if body is lensless)</h3>
+<p><strong>SMC Pentax-A 50mm f/2 (used, $40&ndash;70)</strong></p>
+<p>The SMC Pentax-A 50mm f/2 is a standard prime lens with an aperture range that works across lighting conditions, a focal length that approximates human visual perception without compression or distortion, and a build quality consistent with the K1000&rsquo;s metal construction. Many K1000 bodies are sold with a 50mm lens already attached; if yours is not, this is the correct lens for the slot. Do not start with a wide or telephoto lens. A 50mm teaches composition. A 50mm forces you to move your feet rather than adjust focal length. A 50mm is the correct first lens for every beginner in every era of photography.</p>
+
+<h3>Slot 3 &mdash; Everyday Film</h3>
+<p><strong>Kodak Gold 200 (36 exposure)</strong></p>
+<p>Kodak Gold 200 is a color negative film with a daylight-balanced emulsion optimized for natural light conditions. At ISO 200, it provides fine grain in outdoor conditions while remaining usable in shade. The color rendering is warm, with slightly elevated yellows and reds that are consistent with the &ldquo;film look&rdquo; that most new film photographers are actually trying to achieve. It is one of the most widely available and least expensive color films in production. For everyday use &mdash; street photography, family documentation, learning how to expose &mdash; it is the correct answer. Buy the 36-exposure version rather than the 24, because you learn faster from more shots per roll at a similar cost per roll.</p>
+
+<h3>Slot 4 &mdash; Special Occasion Film</h3>
+<p><strong>Kodak Portra 400 (36 exposure)</strong></p>
+<p>Kodak Portra 400 is a professional-grade color negative film optimized for portrait work &mdash; skin tones are accurate and pleasing, shadow detail is preserved at the cost of slight highlight rolloff, and the grain at ISO 400 is finer than most competing films at the same speed. The higher ISO (400 versus 200) makes it more flexible in mixed or lower light conditions. The cost is approximately three times Gold 200 per roll. Use it when the photographs matter &mdash; portraits, events, the days you want the images to be genuinely good rather than simply learned from. The difference between Portra 400 and Gold 200 is visible on a print and irrelevant on a phone screen; make your choice accordingly.</p>
+
+<h3>Slot 5 &mdash; Camera Bag</h3>
+<p><strong>F-Stop Navin Shoulder Bag</strong></p>
+<p>A new film photographer needs a bag that protects one camera body, one lens, and six to ten rolls of film without looking like camera equipment. The F-Stop Navin is a padded shoulder bag with a removable internal divider system that configures for either a camera kit or general daily carry. It is not weatherproof (use a dry bag for the camera in rain), but it provides adequate padding for normal use. The external design does not announce its contents, which matters for street and travel photography. This slot does not need to be expensive &mdash; the camera is already small and the equipment list is minimal. Protect it without overengineering the protection.</p>
+
+<h3>Slot 6 &mdash; Camera Strap</h3>
+<p><strong>OP/TECH USA Super Classic Strap (5/8&ldquo;)</strong></p>
+<p>OP/TECH makes neoprene camera straps with a continuous sliding adjustment and a cushioned pad that distributes the weight of a metal camera across the shoulder or neck without the pressure points of leather or nylon straps. The Super Classic is the correct width for a 35mm SLR that weighs under 700 grams with lens. It attaches directly to the lugs of the K1000 without requiring additional hardware. It costs around $15. This slot requires exactly this amount of analysis.</p>
+
+<h3>Slot 7 &mdash; Processing and Scanning</h3>
+<p><strong>Darkroom (thedarkroom.com)</strong></p>
+<p>Darkroom is a US-based mail-in film processing lab that develops, scans, and delivers digital files. For a new film photographer who does not have access to a local lab with a known reputation, Darkroom is the correct default: consistent development quality, predictable turnaround (7&ndash;14 days), and scans returned at resolution sufficient for printing up to 8x10. The process is: shoot the roll, put it in a prepaid mailer, wait two weeks, download digital files. This is the slot that determines whether your negatives are good. Use a reliable lab. Darkroom is one.</p>
+
+<h3>Slot 8 &mdash; Film Storage</h3>
+<p><strong>Pelican 1010 Micro Case</strong></p>
+<p>Unshot film should be stored in a cool, dry, dark environment. The Pelican 1010 holds eight 35mm film canisters with the foam insert removed (or six with the insert, if you prefer individual pockets). It is waterproof, crushproof, and opaque. This is significantly more protection than the film requires under normal storage conditions, but the cost is $15 and the protection is absolute. A film photographer who learns to shoot and then discovers their stored film was damaged by heat or light has wasted both the film and the time. The Pelican is the correct answer to this slot because it eliminates the failure mode entirely.</p>
+
+<h3>Slot 9 &mdash; Cleaning Blower</h3>
+<p><strong>Giottos Rocket Air Blower (Large)</strong></p>
+<p>Dust on the film plane produces spots on every frame of a roll. Dust on the lens front element produces lower-contrast images. Neither is visible until you see the scanned negatives, which is an expensive time to discover the problem. A rocket blower removes dust with a burst of air &mdash; no liquid, no cloth, no risk of scratching optical surfaces. Use it before shooting each roll and before reattaching a lens. The Giottos large version moves enough air to clear the mirror box of a 35mm SLR. This costs $10. Buy it with the camera. Use it every time.</p>
+
+<h3>Slot 10 &mdash; Exposure Reference</h3>
+<p><strong>Lux Light Meter app (iOS, free)</strong></p>
+<p>The K1000 has a built-in light meter that is accurate enough for most outdoor shooting. For situations where the camera meter is not available &mdash; dim interiors, the camera meter has drifted with age, shooting with the lens cap on while walking &mdash; a phone light meter app provides incident metering that the camera&rsquo;s TTL (through the lens) meter cannot. The Lux app is free, accurate enough for film photography, and requires no additional hardware. This is not a substitute for learning to use your camera&rsquo;s built-in meter; it is a backup for the situations where that meter is not useful.</p>
+
+<h3>Slot 11 &mdash; Printing</h3>
+<p><strong>Artifact Uprising</strong></p>
+<p>Film photography produces negatives. Negatives exist to be printed. Digital files on a hard drive are not photographs &mdash; they are the potential for photographs. Artifact Uprising prints on papers and substrates with accurate color calibration and a print quality that matches what the film emulsion was designed to produce. Their lay-flat photo books are specifically well-matched to the warm-toned color rendition of Kodak Gold and Portra. The minimum useful output is an 8x8 softcover book from each roll of Portra you shoot on an occasion that matters. The cost is approximately $25. This slot completes the circuit from shooting to having something physical that exists in the world independently of your phone.</p>
+
+<h2>The Stack</h2>
+<p>Eleven slots. Eleven answers. The complete film photography kit for a new photographer, assigned and closed. The film photography internet will tell you that you need to try ten different films before deciding on a favorite, that the K1000 is &ldquo;too basic,&rdquo; that a light meter app is not as accurate as a dedicated meter. It is right about all of this in a technical sense. It is wrong about what a new film photographer actually needs, which is to start shooting with a reliable kit and build preferences from experience rather than from forum reading. The slot structure keeps the file closed until you have a specific, evidence-based reason to reopen it. <a href="/diffr/blog/the-decide-once-rule">Decide once.</a> Shoot more.</p>
+`.trim(),
+  },
+
+  {
+    slug: 'home-gym-brand-guide',
+    title: 'The Home Gym Brand Guide for Beginners: Every Slot Assigned',
+    description: 'Ten home gym slots — adjustable dumbbells to training app — assigned and closed. The Diffr brand guide for new lifters who want to start without spending three days in Amazon rabbit holes.',
+    date: '2026-05-30',
+    readTime: '7 min read',
+    tags: ['brand guide', 'home gym brands for beginners', 'best home gym equipment brands', 'home gym', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten slots. Ten brand answers. Dumbbells to training app — assigned and closed. No comparison shopping, no YouTube review holes.',
+    content: `
+<p>Building a home gym has approximately twelve equipment decisions before you lift a single rep, and the fitness industry has financial incentives to make every one of those decisions feel urgent and complex. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to strength training. Diffr solves it the same way it solves every scenario: decompose the space into discrete slots, assign one brand to each slot, close the file. Here is the complete home gym guide for someone building from zero. No &ldquo;best budget option,&rdquo; no &ldquo;top five adjustable dumbbells,&rdquo; no &ldquo;it depends on your goals.&rdquo; One answer per slot. Start training.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Adjustable Dumbbells</h3>
+<p><strong>Bowflex SelectTech 552</strong></p>
+<p>The SelectTech 552 adjusts from 5 to 52.5 pounds in 2.5-pound increments up to 25 pounds, and 5-pound increments above that. A single pair replaces 15 sets of fixed dumbbells. The dial adjustment mechanism takes three seconds to change weight and is reliable through years of use. The 552 has been in continuous production for long enough that quality control issues have been identified and resolved. There are cheaper adjustable dumbbells. They are cheaper because they are made from lower-quality materials with less reliable adjustment mechanisms. There are more expensive adjustable dumbbells. The additional cost buys incremental weight range and marginally faster adjustments &mdash; neither of which changes training outcomes at the beginner level. The 552 is the correct answer until you have specific reasons to need more than 52.5 pounds per dumbbell, which will not be your situation for at least 18 months.</p>
+
+<h3>Slot 2 &mdash; Pull-Up Bar</h3>
+<p><strong>Iron Gym Total Upper Body Workout Bar</strong></p>
+<p>The Iron Gym bar fits in a standard door frame without screws or permanent installation. It supports up to 300 pounds. It provides grip positions for wide-grip, neutral-grip, and close-grip pull-ups and chin-ups. It removes in three seconds. For a beginner who does not yet own a power rack or have wall anchors, this is the correct pull-up solution because it requires zero installation commitment and zero additional floor space. When you can do 15 strict pull-ups &mdash; which will take most beginners 6&ndash;18 months &mdash; the question of whether to invest in a more serious pull-up station becomes worth asking. Until then, the Iron Gym bar is the slot answer.</p>
+
+<h3>Slot 3 &mdash; Resistance Bands</h3>
+<p><strong>Fit Simplify Resistance Loop Bands (Set of 5)</strong></p>
+<p>Resistance loop bands provide assistance for pull-up progressions (loop around the bar and under a knee or foot to reduce effective bodyweight), additional resistance for squat and hip hinge patterns, and targeted activation work for hip abductors and external rotators that dumbbell training does not address. Fit Simplify&rsquo;s set of five provides five resistance levels from extra-light to extra-heavy. The bands are made from layered latex and do not snap or lose elasticity under normal training use. They cost around $12 for the set and store in a small carry bag. This slot does not need to be expensive or complicated.</p>
+
+<h3>Slot 4 &mdash; Exercise Mat</h3>
+<p><strong>Manduka PRO Yoga Mat (6mm, 85&rdquo; length)</strong></p>
+<p>A gym mat serves two functions in a home gym: surface padding for floor work (push-ups, core exercises, stretching) and equipment protection for the floor when dumbbells are set down. The Manduka PRO is closed-cell PVC, which means it does not absorb moisture or bacteria. The 6mm thickness provides adequate cushioning for floor work without the instability of thicker foam mats. The 85-inch length accommodates tall users lying flat. The surface texture is grippy enough for stability without being so grippy that it slows movement. Manduka offers a lifetime guarantee. This is the mat that does not need to be replaced. It costs more than foam mats. It is worth the difference.</p>
+
+<h3>Slot 5 &mdash; Kettlebell</h3>
+<p><strong>Rogue Fitness Cast Iron Kettlebell (35 lb)</strong></p>
+<p>A single kettlebell is the most versatile piece of equipment in a home gym for beginner-to-intermediate conditioning: swings, goblet squats, carries, presses, and Turkish get-ups cover a complete training stimulus that complements dumbbell work. The 35-pound kettlebell is the correct starting weight for most adults who are learning the hip hinge pattern: heavy enough to develop genuine power output from the swing, light enough to maintain form through a set. Rogue cast iron kettlebells are precisely machined, with a handle diameter and texture that work for both bare-hand and chalk-assisted grip. The quality difference between a Rogue kettlebell and a no-name version is not subtle at the 35-pound price point. Buy one. Use it for years.</p>
+
+<h3>Slot 6 &mdash; Foam Roller</h3>
+<p><strong>TriggerPoint GRID Foam Roller (13&rdquo;)</strong></p>
+<p>The GRID&rsquo;s three-dimensional surface &mdash; three distinct surface textures across the length of the roller &mdash; provides targeted pressure on specific tissue types rather than uniform compression across the entire surface. For the hips, thoracic spine, IT band, and calves that home gym training loads most heavily, this distinction matters in practice. The 13-inch length is compact enough to store in a gym bag and use anywhere. The hollow core provides firm, consistent compression without collapsing under bodyweight. TriggerPoint has made this product for years. The quality is consistent. Use it before and after training sessions.</p>
+
+<h3>Slot 7 &mdash; Jump Rope</h3>
+<p><strong>Crossrope Get Lean Set</strong></p>
+<p>The Crossrope system uses interchangeable weighted cables that connect to a single pair of handles. The Get Lean Set includes a 1/4-lb cable (for speed and double-under work) and a 1/2-lb cable (for conditioning and skill development). The weighted cables provide proprioceptive feedback that thin speed ropes do not &mdash; you can feel where the rope is in its rotation, which dramatically accelerates the learning curve for consistent double-unders. The handles are aluminum with a comfortable grip diameter. For conditioning work that does not require additional equipment, floor space, or noise (relative to sprinting), a weighted jump rope is the correct solution. The Crossrope is the best-designed system in this category.</p>
+
+<h3>Slot 8 &mdash; Rubber Flooring</h3>
+<p><strong>Rubber Flooring Inc. Rolled Rubber (8mm, Black)</strong></p>
+<p>Hard flooring &mdash; concrete, hardwood, tile &mdash; is damaged by dropped weights and is acoustically harsh for exercises involving foot contact. Rubber flooring protects the surface below, absorbs impact noise, and provides a non-slip surface for training. Rubber Flooring Inc. sells rolled rubber by the linear foot, allowing you to cover exactly the area you need without excess. The 8mm thickness is sufficient for dumbbell drops from waist height and for the impact of kettlebell swings and jump rope on hard surfaces. Cut it with a utility knife. Lay it flat. The installation requires no adhesive. This is the correct flooring answer for a home gym on any hard surface.</p>
+
+<h3>Slot 9 &mdash; Training Program</h3>
+<p><strong>Nike Training Club App (free)</strong></p>
+<p>Nike Training Club&rsquo;s free tier includes hundreds of guided training sessions at beginner, intermediate, and advanced levels, organized by goal (strength, endurance, mobility) and time available. The video instruction is produced at a quality level that actually communicates technique rather than just demonstrating it. The programs are designed by coaches rather than generated by an algorithm. For a new home gym user who does not yet have enough training background to design their own programming intelligently, following a structured program from a qualified source is more effective than improvising. NTC is free. It is the correct starting point. The question of whether you need a paid program or a coach becomes relevant once you have trained consistently for six months and have identified specific goals that NTC does not address.</p>
+
+<h3>Slot 10 &mdash; Speaker</h3>
+<p><strong>JBL Charge 5</strong></p>
+<p>Training in silence works. Training with music that you actually want to hear, at a volume that matches the training intensity, works better. The JBL Charge 5 is waterproof (IP67), produces 40 watts of output at a volume level that does not require maximum settings in a normal-sized room, has a 20-hour battery life, and charges via USB-C. The passive radiator on the rear extends the bass response to a level that matters for music with significant low-frequency content. It is not the smallest portable speaker in the JBL lineup &mdash; use the Flip if size is the primary constraint. It is the speaker that does not require compromise. Put it on a shelf. Connect via Bluetooth. Train.</p>
+
+<h2>The Stack</h2>
+<p>Ten slots. Ten answers. The complete home gym for a new lifter who wants to train seriously without making equipment selection a multi-week project. The fitness internet will tell you that adjustable dumbbells are inferior to fixed plates, that a kettlebell is redundant if you have dumbbells, that you need a power rack before you can train productively. It is wrong about all of this in the context of a beginner building a home gym. The ten brands above provide everything needed to run a complete strength and conditioning program from a space the size of a parking spot. The <a href="/diffr/blog/the-one-brand-rule">one-brand-per-slot rule</a> is the structure that keeps you training instead of shopping. The slot is closed. The decision is made. <a href="/diffr/blog/the-decide-once-rule">Decide once.</a> Train more.</p>
+`.trim(),
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
