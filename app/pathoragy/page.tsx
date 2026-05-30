@@ -187,10 +187,11 @@ export default function PathoragyPage() {
           </div>
 
           <h1 className="p-hero-h1" style={{
-            fontSize: "clamp(52px, 5.8vw, 84px)",
-            fontWeight: 800, lineHeight: 1.0, letterSpacing: "-0.045em",
+            fontSize: "clamp(48px, 5.5vw, 82px)",
+            fontWeight: 800, lineHeight: 1.0, letterSpacing: "-0.040em",
             color: C.text, margin: "0 0 36px",
-          }}>
+            textWrap: "balance",
+          } as React.CSSProperties}>
             Your life is a<br />
             navigation<br />
             <em style={{ fontStyle: "italic", color: C.accent }}>problem.</em>
@@ -321,10 +322,12 @@ export default function PathoragyPage() {
         <div style={{ maxWidth: "880px", margin: "0 auto", textAlign: "center" }}>
           <div style={{ width: "40px", height: "3px", background: C.accent, margin: "0 auto 52px" }} />
           <blockquote style={{
-            fontSize: "clamp(24px, 4.5vw, 58px)",
-            fontWeight: 700, lineHeight: 1.18, letterSpacing: "-0.03em",
+            fontFamily: "var(--font-fraunces), Georgia, serif",
+            fontSize: "clamp(24px, 4.2vw, 54px)",
+            fontWeight: 600, lineHeight: 1.22, letterSpacing: "-0.025em",
             color: "rgba(240,235,227,0.92)", fontStyle: "italic", margin: 0,
-          }}>
+            textWrap: "balance",
+          } as React.CSSProperties}>
             &ldquo;Stop trying to be happy.<br />Start navigating toward meaning.&rdquo;
           </blockquote>
           <p style={{
@@ -376,10 +379,12 @@ export default function PathoragyPage() {
             The foundation
           </p>
           <h2 style={{
-            fontSize: "clamp(36px, 4.8vw, 72px)", fontWeight: 800,
-            letterSpacing: "-0.045em", lineHeight: 1.02,
+            fontFamily: "var(--font-fraunces), Georgia, serif",
+            fontSize: "clamp(36px, 4.5vw, 68px)", fontWeight: 700,
+            letterSpacing: "-0.030em", lineHeight: 1.04,
             color: C.text, marginBottom: "32px",
-          }}>
+            textWrap: "balance",
+          } as React.CSSProperties}>
             Built on<br />
             <em style={{ fontStyle: "italic" }}>The Value Boat</em>
           </h2>
@@ -422,10 +427,11 @@ export default function PathoragyPage() {
         <div style={{ maxWidth: "600px", margin: "0 auto", textAlign: "center" }}>
           <div style={{ width: "40px", height: "3px", background: C.accent, margin: "0 auto 52px" }} />
           <h2 className="p-beta-h2" style={{
-            fontSize: "clamp(52px, 8vw, 108px)", fontWeight: 800,
-            letterSpacing: "-0.05em", lineHeight: 0.96,
+            fontSize: "clamp(48px, 6.5vw, 88px)", fontWeight: 800,
+            letterSpacing: "-0.040em", lineHeight: 0.97,
             color: "rgba(240,235,227,0.96)", marginBottom: "32px",
-          }}>
+            textWrap: "balance",
+          } as React.CSSProperties}>
             Navigate<br />your life.
           </h2>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "rgba(240,235,227,0.42)", marginBottom: "52px" }}>
@@ -464,6 +470,43 @@ export default function PathoragyPage() {
         }
         .p-ticker { animation: p-ticker-scroll 24s linear infinite; }
         .p-ticker:hover { animation-play-state: paused; }
+
+        /* ── Join Beta button — active state (Emil Kowalski rule) ── */
+        nav a[href="#beta"] {
+          transition: opacity 180ms ease,
+                      transform 200ms cubic-bezier(0.34,1.56,0.64,1) !important;
+        }
+        nav a[href="#beta"]:hover  { opacity: 0.85; }
+        nav a[href="#beta"]:active {
+          transform: scale(0.96) !important;
+          transition-duration: 70ms !important;
+        }
+
+        /* ── Beta CTA form button ── */
+        .p-beta button[type="submit"],
+        .p-beta input[type="submit"] {
+          transition: opacity 180ms ease,
+                      transform 200ms cubic-bezier(0.34,1.56,0.64,1);
+        }
+        .p-beta button[type="submit"]:hover  { opacity: 0.85; }
+        .p-beta button[type="submit"]:active {
+          transform: scale(0.96);
+          transition-duration: 70ms;
+        }
+
+        /* ── Concept cells — subtle lift on hover ── */
+        .p-concept-cell {
+          transition: background 220ms ease;
+        }
+        .p-concept-cell:hover {
+          background: rgba(232,84,53,0.025);
+        }
+
+        /* ── Nav blog link ── */
+        .p-nav-blog {
+          transition: opacity 150ms ease;
+        }
+        .p-nav-blog:hover { opacity: 0.55; }
 
         /* Mobile-only hero phone — hidden on desktop */
         .p-hero-mobile-shot {
@@ -547,6 +590,17 @@ export default function PathoragyPage() {
 
           /* FOOTER */
           .p-footer { padding: 24px 20px !important; }
+        }
+
+        /* ── Reduce motion ── */
+        @media (prefers-reduced-motion: reduce) {
+          .p-ticker { animation: none !important; }
+          nav a[href="#beta"],
+          .p-beta button[type="submit"],
+          .p-concept-cell {
+            transition: none !important;
+            transform: none !important;
+          }
         }
 
         /* ── Tablet 769–1024px ──────────────────── */

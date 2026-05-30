@@ -451,10 +451,14 @@ export default function DiffrPage() {
           }
 
           .diffr-badge-appstore {
-            transition: transform 200ms cubic-bezier(0.34,1.56,0.64,1), opacity 150ms ease;
+            transition: transform 200ms cubic-bezier(0.34,1.56,0.64,1),
+                        opacity 150ms ease;
           }
           .diffr-badge-appstore:hover  { transform: scale(1.04); opacity: 0.9; }
-          .diffr-badge-appstore:active { transform: scale(0.96); transition-duration: 80ms; }
+          .diffr-badge-appstore:active {
+            transform: scale(0.95);
+            transition-duration: 70ms;
+          }
           .diffr-badge-appstore:focus-visible {
             outline: 2px solid rgba(27,139,245,0.5);
             outline-offset: 3px;
@@ -468,6 +472,12 @@ export default function DiffrPage() {
           .diffr-scene-card:hover {
             transform: translateY(-6px) scale(1.015);
             box-shadow: 0 16px 48px rgba(0,0,0,0.22);
+          }
+
+          /* text-wrap: balance on editorial headings */
+          .split-parent,
+          .diffr-hero-h1 {
+            text-wrap: balance;
           }
 
           /* Axis pill hover */
@@ -689,13 +699,14 @@ export default function DiffrPage() {
                 className="diffr-hero-h1"
                 style={{
                   fontFamily: "var(--font-display), 'Playfair Display', Georgia, serif",
-                  fontSize: "clamp(48px, 8.5vw, 104px)",
+                  fontSize: "clamp(48px, 7.5vw, 96px)",
                   fontWeight: 700,
-                  letterSpacing: "-0.04em",
+                  letterSpacing: "-0.040em",
                   lineHeight: 0.98,
                   color: "#2A2620",
                   marginBottom: 28,
-                }}
+                  textWrap: "balance",
+                } as React.CSSProperties}
               >
                 Beginner&#8209;friendly brands.{" "}
                 <em style={{ fontStyle: "italic" }}>

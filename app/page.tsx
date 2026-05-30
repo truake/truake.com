@@ -68,7 +68,7 @@ export default function Home() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className="hover:opacity-40 transition-opacity"
+                    className="truake-nav-link"
                     style={{ color: "#2A2620" }}
                   >
                     {item.label}
@@ -77,7 +77,7 @@ export default function Home() {
               </div>
               <Link
                 href="/diffr"
-                className="text-xs font-medium tracking-[0.15em] uppercase px-5 py-2.5 transition-opacity hover:opacity-70"
+                className="text-xs font-medium tracking-[0.15em] uppercase px-5 py-2.5 truake-cta-primary"
                 style={{ backgroundColor: "#2A2620", color: "#ECEDE0" }}
               >
                 Try Diffr →
@@ -105,13 +105,14 @@ export default function Home() {
               <h1
                 style={{
                   fontFamily: "var(--font-cormorant), Georgia, serif",
-                  fontSize: "clamp(52px, 8.5vw, 112px)",
+                  fontSize: "clamp(48px, 7vw, 92px)",
                   lineHeight: 1.0,
                   letterSpacing: "-0.025em",
                   color: "#2A2620",
                   fontWeight: 600,
                   maxWidth: 860,
-                }}
+                  textWrap: "balance",
+                } as React.CSSProperties}
               >
                 Building the future,
                 <br />
@@ -142,14 +143,14 @@ export default function Home() {
             <div className="flex flex-wrap items-center gap-5 mt-12">
               <Link
                 href="/diffr"
-                className="inline-flex items-center gap-3 px-8 py-4 text-sm font-medium tracking-[0.12em] uppercase transition-opacity hover:opacity-70"
+                className="inline-flex items-center gap-3 px-8 py-4 text-sm font-medium tracking-[0.12em] uppercase truake-cta-primary"
                 style={{ backgroundColor: "#2A2620", color: "#ECEDE0" }}
               >
                 Explore Diffr <span>→</span>
               </Link>
               <Link
                 href="#story"
-                className="text-sm font-medium tracking-[0.12em] uppercase pb-px transition-opacity hover:opacity-40"
+                className="text-sm font-medium tracking-[0.12em] uppercase pb-px truake-cta-ghost"
                 style={{ color: "#2A2620", borderBottom: "1px solid rgba(42,38,32,0.35)" }}
               >
                 Read the Story
@@ -233,7 +234,7 @@ export default function Home() {
               {/* Diffr — 3 cols */}
               <Link href="/diffr" className="lg:col-span-3 group">
                 <div
-                  className="relative overflow-hidden transition-all duration-500 group-hover:brightness-105"
+                  className="relative overflow-hidden truake-product-card"
                   style={{
                     backgroundColor: "#EEF3FC",
                     color: "#2A2620",
@@ -328,7 +329,7 @@ export default function Home() {
               {/* Pathoragy — 2 cols */}
               <Link href="/pathoragy" className="lg:col-span-2 group">
                 <div
-                  className="relative overflow-hidden transition-all duration-500 group-hover:brightness-105"
+                  className="relative overflow-hidden truake-product-card"
                   style={{
                     backgroundColor: "#EDE6DD",
                     color: "#2A2620",
@@ -472,7 +473,7 @@ export default function Home() {
               ].map((item, i) => (
                 <div
                   key={item.title}
-                  className="py-10"
+                  className="py-10 truake-philosophy-item"
                   style={{
                     paddingLeft: i === 0 ? 0 : 40,
                     paddingRight: i === 2 ? 0 : 40,
@@ -632,7 +633,8 @@ export default function Home() {
                   color: "#2A2620",
                   marginBottom: 20,
                   letterSpacing: "-0.025em",
-                }}
+                  textWrap: "balance",
+                } as React.CSSProperties}
               >
                 Stop drowning
                 <br />
@@ -643,7 +645,7 @@ export default function Home() {
               </p>
               <Link
                 href="/diffr"
-                className="inline-flex items-center gap-3 px-8 py-4 text-sm font-medium tracking-[0.12em] uppercase transition-opacity hover:opacity-70"
+                className="inline-flex items-center gap-3 px-8 py-4 text-sm font-medium tracking-[0.12em] uppercase truake-cta-primary"
                 style={{ backgroundColor: "#2A2620", color: "#ECEDE0" }}
               >
                 Discover Diffr →
@@ -651,6 +653,65 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* ── Global styles ── */}
+        <style dangerouslySetInnerHTML={{ __html: `
+          /* ── Product card lift (replaces brightness filter) ── */
+          .truake-product-card {
+            transition: transform 300ms cubic-bezier(0.34,1.56,0.64,1),
+                        box-shadow 300ms ease;
+          }
+          .truake-product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 56px rgba(42,38,32,0.11);
+          }
+
+          /* ── Primary CTA button ── */
+          .truake-cta-primary {
+            transition: opacity 180ms ease,
+                        transform 200ms cubic-bezier(0.34,1.56,0.64,1);
+          }
+          .truake-cta-primary:hover  { opacity: 0.76; }
+          .truake-cta-primary:active {
+            transform: scale(0.96);
+            transition-duration: 70ms;
+          }
+          .truake-cta-primary:focus-visible {
+            outline: 2px solid rgba(42,38,32,0.45);
+            outline-offset: 3px;
+          }
+
+          /* ── Ghost CTA (underline link) ── */
+          .truake-cta-ghost {
+            transition: opacity 150ms ease;
+          }
+          .truake-cta-ghost:hover  { opacity: 0.45; }
+          .truake-cta-ghost:active { opacity: 0.25; }
+
+          /* ── Nav links ── */
+          .truake-nav-link {
+            transition: opacity 150ms ease;
+          }
+          .truake-nav-link:hover { opacity: 0.42; }
+
+          /* ── Philosophy item hover ── */
+          .truake-philosophy-item {
+            transition: transform 250ms cubic-bezier(0.34,1.56,0.64,1);
+          }
+          .truake-philosophy-item:hover { transform: translateY(-3px); }
+
+          /* ── Reduce motion ── */
+          @media (prefers-reduced-motion: reduce) {
+            .truake-product-card,
+            .truake-cta-primary,
+            .truake-cta-ghost,
+            .truake-nav-link,
+            .truake-philosophy-item {
+              transition: none !important;
+              transform: none !important;
+            }
+          }
+        ` }} />
 
         {/* ── Footer ── */}
         <footer className="py-10 px-8" style={{ borderTop: "1px solid rgba(42,38,32,0.1)" }}>
