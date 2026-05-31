@@ -1763,6 +1763,10 @@ Diffr ends with: here is what you get.</p>
 `.trim(),
   },
 
+  // TODO(loop-blog-hybrid): brand data here should render from the DB
+  // (preset_scenarios id=98 + v_brand_type_hero, reuse start/lib getSceneBrandKit).
+  // Narrative stays as the editorial shell. App-side renderer already live
+  // (/diffr/start/cycling-commute). See Obsidian "Scene 数据闭环" doc.
   {
     slug: 'bike-commuting-gear-brand-guide',
     title: 'The Bike Commuting Gear Brand Guide for Beginners: Every Slot Assigned',

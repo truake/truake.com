@@ -429,7 +429,9 @@ export default async function StarterGuidePage(
           </div>
         </section>
 
-        {/* Section 1.5: DB-driven brand picks (the closed loop) */}
+        {/* Section 1.5: DB-driven brand picks — the closed loop.
+            Renders real brands + scores + images from preset_scenarios +
+            v_brand_type_hero. Only appears for slugs in SLUG_TO_PRESET. */}
         {brandKit && brandKit.slots.length > 0 && <SceneBrandKit kit={brandKit} />}
 
         {/* Section 2: Budget Tiers */}

@@ -33,17 +33,24 @@ const headers = {
 };
 
 // ── Scene Brand Kit (preset_scenarios → brands → images) ───────────
-// The closed loop: a /diffr/start guide's editorial shell (domain_guides)
-// is enriched with DB-driven brand picks from the canonical scene table
-// (preset_scenarios), each slot resolved to one brand + one image via the
-// v_brand_type_hero contract view. Hybrid model: editorial prose stays,
-// product data (brand + image + score) renders from the DB.
+// THE CLOSED LOOP (first live instance, 2026-06-01). A /diffr/start guide's
+// editorial shell (domain_guides) is enriched with DB-driven brand picks from
+// the canonical scene table (preset_scenarios), each slot resolved to one brand
+// + one image via the v_brand_type_hero contract view. Hybrid model: editorial
+// prose stays, product data (brand + image + score) renders from the DB — the
+// same data the iOS app reads. Built jointly with the App/DB agent (who owns
+// preset_scenarios + brand scoring) and the image agent (who owns the hero view
+// + image crawling). Full design + 3-agent contract in Obsidian:
+// "Scene 数据闭环 — Blog×预设场景×品牌×图片 三方协作".
 
 // Explicit map: /diffr/start URL slug → preset_scenarios.id
 // preset_scenarios.domain is null for dev-built scenes, so there is no
 // automatic join key. Extend this as more scenes get the DB-backed treatment.
 export const SLUG_TO_PRESET: Record<string, number> = {
   "cycling-commute": 98,
+  // Add more as scenes get DB-backed brand picks. Each entry lights up the
+  // SceneBrandKit section on that /diffr/start guide page. See Obsidian
+  // "Scene 数据闭环" + "Cycling 试点" docs.
 };
 
 export interface SceneSlot {
