@@ -273,8 +273,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'what-bateson-actually-said',
-    title: 'What Bateson Actually Said',
-    description: "Everyone quotes Gregory Bateson's definition of information. Almost no one has read the original. Here's why that gap matters — and what it reveals about how we consume ideas.",
+    title: '"A Difference That Makes a Difference": What Gregory Bateson Actually Said',
+    description: "Gregory Bateson's phrase \"a difference that makes a difference\" gets quoted everywhere, almost always without its source. Here is where it actually comes from, the 1972 book Steps to an Ecology of Mind, and what the original context reveals about how we consume ideas.",
     date: '2026-04-20',
     readTime: '7 min read',
     tags: ["original priority", "bateson", "information theory", "diff-structism", "reading"],
@@ -341,7 +341,7 @@ export const posts: BlogPost[] = [
 
 <p>This is Bateson operationalized. The difference that makes a difference is not in the brand name. It is in the relationship between the decision-maker’s standards and the product that results.</p>
 
-<p>The full argument for Original Priority, and how it applies to everything from product selection to media consumption, is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. And if you want to see a product built on this principle — where every brand recommendation traces back to founding-era signal, not acquisition-era noise — <a href="/diffr#waitlist">Diffr is on the waitlist</a>.</p>
+<p>The full argument for <a href="/diffr/blog/original-priority">Original Priority</a>, and how it applies to everything from product selection to media consumption, is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. The same degradation-in-transmission problem shows up when an idea passes through layer after layer of secondhand summary, which is the subject of <a href="/diffr/blog/the-derivative-economy">The Derivative Economy</a>. And if you want to see a product built on this principle, where every brand recommendation traces back to founding-era signal rather than acquisition-era noise, <a href="/diffr#waitlist">Diffr is on the waitlist</a>.</p>
 
 <h3>What book is "a difference that makes a difference" from?</h3>
 <p>The phrase appears in <em>Steps to an Ecology of Mind</em> by Gregory Bateson, published by the University of Chicago Press in 1972. The specific essay is "Form, Substance and Difference." The lecture on which the essay is based was first delivered in 1970, and the text was published in <em>General Semantics Bulletin</em> No. 37 before being collected in the book.</p>
