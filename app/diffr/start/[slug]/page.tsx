@@ -6,11 +6,14 @@ import {
   getAllGuides,
   getGuideBySlug,
   getRedditInsightsForSlug,
+  getSceneBrandKit,
+  SLUG_TO_PRESET,
   symbolToEmoji,
   toUrlSlug,
   formatBudget,
   type RedditInsight,
 } from "../lib";
+import SceneBrandKit from "../SceneBrandKit";
 
 // ── Static generation ─────────────────────────────────────────
 export async function generateStaticParams() {
@@ -198,9 +201,11 @@ export default async function StarterGuidePage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
-  const [guide, redditInsights] = await Promise.all([
+  const presetId = SLUG_TO_PRESET[slug];
+  const [guide, redditInsights, brandKit] = await Promise.all([
     getGuideBySlug(slug),
     getRedditInsightsForSlug(slug),
+    presetId ? getSceneBrandKit(presetId) : Promise.resolve(null),
   ]);
   if (!guide) notFound();
 
@@ -423,6 +428,9 @@ export default async function StarterGuidePage(
             ))}
           </div>
         </section>
+
+        {/* Section 1.5: DB-driven brand picks (the closed loop) */}
+        {brandKit && brandKit.slots.length > 0 && <SceneBrandKit kit={brandKit} />}
 
         {/* Section 2: Budget Tiers */}
         {(basic || standard || pro) && (

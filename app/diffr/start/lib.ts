@@ -32,6 +32,146 @@ const headers = {
   Authorization: `Bearer ${ANON_KEY}`,
 };
 
+// ── Scene Brand Kit (preset_scenarios → brands → images) ───────────
+// The closed loop: a /diffr/start guide's editorial shell (domain_guides)
+// is enriched with DB-driven brand picks from the canonical scene table
+// (preset_scenarios), each slot resolved to one brand + one image via the
+// v_brand_type_hero contract view. Hybrid model: editorial prose stays,
+// product data (brand + image + score) renders from the DB.
+
+// Explicit map: /diffr/start URL slug → preset_scenarios.id
+// preset_scenarios.domain is null for dev-built scenes, so there is no
+// automatic join key. Extend this as more scenes get the DB-backed treatment.
+export const SLUG_TO_PRESET: Record<string, number> = {
+  "cycling-commute": 98,
+};
+
+export interface SceneSlot {
+  index: number;
+  productTypeId: number;
+  productTypeName: string;
+  brandId: number;
+  brandName: string;
+  beginnerScore: number | null;
+  beginnerBlurb: string | null;
+  productLine: string | null; // flagship product name
+  imageUrl: string | null;
+  status: "ready" | "pending" | string;
+}
+
+export interface SceneBrandKit {
+  presetId: number;
+  name: string;
+  description: string | null;
+  slotCount: number;
+  slots: SceneSlot[];
+  readyCount: number;
+}
+
+interface PresetScenarioRow {
+  id: number;
+  name: string;
+  description: string | null;
+  slot_count: number | null;
+  product_types: number[] | null;
+  slot_brand_ids: number[] | null;
+}
+
+async function sbGet<T>(path: string): Promise<T> {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
+    headers,
+    next: { revalidate: 3600 },
+  });
+  if (!res.ok) throw new Error(`Supabase ${path} → ${res.status}`);
+  return res.json();
+}
+
+/**
+ * Resolve a preset_scenarios row into an ordered list of brand-filled slots,
+ * each with its image (or pending state) from v_brand_type_hero.
+ * Returns null on any missing/invalid data so callers can skip the section.
+ */
+export async function getSceneBrandKit(
+  presetId: number
+): Promise<SceneBrandKit | null> {
+  let scenario: PresetScenarioRow | undefined;
+  try {
+    const rows = await sbGet<PresetScenarioRow[]>(
+      `preset_scenarios?id=eq.${presetId}&is_active=eq.true` +
+        `&select=id,name,description,slot_count,product_types,slot_brand_ids`
+    );
+    scenario = rows[0];
+  } catch {
+    return null;
+  }
+  if (!scenario) return null;
+
+  const types = scenario.product_types ?? [];
+  const brandIds = scenario.slot_brand_ids ?? [];
+  if (types.length === 0 || types.length !== brandIds.length) return null;
+
+  const uniqBrands = [...new Set(brandIds)];
+  const uniqTypes = [...new Set(types)];
+
+  // Batch-fetch brand details, product_type names, and hero images in parallel.
+  const [brandRows, typeRows, heroRows] = await Promise.all([
+    sbGet<{ id: number; name: string; beginner_score: number | null; beginner_blurb: string | null }[]>(
+      `brands?id=in.(${uniqBrands.join(",")})&select=id,name,beginner_score,beginner_blurb`
+    ).catch(() => []),
+    sbGet<{ id: number; name: string }[]>(
+      `product_types?id=in.(${uniqTypes.join(",")})&select=id,name`
+    ).catch(() => []),
+    sbGet<{ brand_id: number; product_type_id: number; pl_id: number | null; image_url: string | null; status: string }[]>(
+      `v_brand_type_hero?brand_id=in.(${uniqBrands.join(",")})&product_type_id=in.(${uniqTypes.join(",")})` +
+        `&select=brand_id,product_type_id,pl_id,image_url,status`
+    ).catch(() => []),
+  ]);
+
+  const brandMap = new Map(brandRows.map((b) => [b.id, b]));
+  const typeMap = new Map(typeRows.map((t) => [t.id, t.name]));
+  const heroMap = new Map(heroRows.map((h) => [`${h.brand_id}:${h.product_type_id}`, h]));
+
+  // Flagship product-line names (nice-to-have label) via pl_id.
+  const plIds = [...new Set(heroRows.map((h) => h.pl_id).filter((x): x is number => !!x))];
+  let plMap = new Map<number, string>();
+  if (plIds.length) {
+    const plRows = await sbGet<{ id: number; product_line: string | null }[]>(
+      `product_lines?id=in.(${plIds.join(",")})&select=id,product_line`
+    ).catch(() => []);
+    plMap = new Map(plRows.map((p) => [p.id, p.product_line ?? ""]));
+  }
+
+  let readyCount = 0;
+  const slots: SceneSlot[] = types.map((pt, i) => {
+    const brandId = brandIds[i];
+    const brand = brandMap.get(brandId);
+    const hero = heroMap.get(`${brandId}:${pt}`);
+    const status = hero?.status ?? "pending";
+    if (status === "ready") readyCount++;
+    return {
+      index: i,
+      productTypeId: pt,
+      productTypeName: typeMap.get(pt) ?? "",
+      brandId,
+      brandName: brand?.name ?? "",
+      beginnerScore: brand?.beginner_score ?? null,
+      beginnerBlurb: brand?.beginner_blurb ?? null,
+      productLine: hero?.pl_id ? plMap.get(hero.pl_id) || null : null,
+      imageUrl: status === "ready" ? hero?.image_url ?? null : null,
+      status,
+    };
+  });
+
+  return {
+    presetId: scenario.id,
+    name: scenario.name,
+    description: scenario.description,
+    slotCount: scenario.slot_count ?? slots.length,
+    slots,
+    readyCount,
+  };
+}
+
 export async function getAllGuides(): Promise<DomainGuide[]> {
   const res = await fetch(
     `${SUPABASE_URL}/rest/v1/domain_guides?select=*&order=id.asc`,
