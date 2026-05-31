@@ -1762,6 +1762,76 @@ Diffr ends with: here is what you get.</p>
 <p>Ten slots. Ten answers. The complete home gym for a new lifter who wants to train seriously without making equipment selection a multi-week project. The fitness internet will tell you that adjustable dumbbells are inferior to fixed plates, that a kettlebell is redundant if you have dumbbells, that you need a power rack before you can train productively. It is wrong about all of this in the context of a beginner building a home gym. The ten brands above provide everything needed to run a complete strength and conditioning program from a space the size of a parking spot. The <a href="/diffr/blog/the-one-brand-rule">one-brand-per-slot rule</a> is the structure that keeps you training instead of shopping. The slot is closed. The decision is made. <a href="/diffr/blog/the-decide-once-rule">Decide once.</a> Train more.</p>
 `.trim(),
   },
+
+  {
+    slug: 'bike-commuting-gear-brand-guide',
+    title: 'The Bike Commuting Gear Brand Guide for Beginners: Every Slot Assigned',
+    description: 'Twelve bike commuting gear slots, bike to roadside kit, assigned and closed. The Diffr brand guide for new commuters who want to start riding to work without the gear-forum paralysis.',
+    date: '2026-05-31',
+    readTime: '8 min read',
+    tags: ['brand guide', 'bike commuting gear', 'commuter gear', 'bike commuting for beginners', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Twelve slots. Twelve brand answers. Bike to roadside kit, assigned and closed. Start commuting. Stop reading bike forums.',
+    content: `
+<p>Setting up for bike commuting has roughly twenty gear decisions before your first ride to work, and the cycling internet has passionate, contradictory, and frequently gatekept opinions on every one of them. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to a transport choice that is supposed to make your life simpler, not hand you a second job researching disc-brake pad compounds. Diffr resolves it the way it resolves every scenario: decompose into discrete slots, assign one brand to each slot, close the file. Here is the complete beginner bike-commuting kit. No &ldquo;n+1,&rdquo; no &ldquo;it depends on your N+1,&rdquo; no twelve-tab comparison. One answer per slot. Start riding.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; The Bike</h3>
+<p><strong>Priority Continuum Onyx</strong></p>
+<p>The single most consequential decision, and the one where beginner advice goes most wrong. The forums will steer you toward a used road bike with a greasy derailleur drivetrain that requires regular cleaning, lubrication, and adjustment. For a commuter, that is the opposite of what you want. The Priority Continuum Onyx uses a Gates Carbon belt drive instead of a chain, which means no grease on your work trousers and effectively no drivetrain maintenance. It pairs that with an internally geared hub (the gears are sealed inside the rear wheel, protected from rain and road grit) and hydraulic disc brakes that stop reliably in the wet. Priority built this bike for exactly one use case: getting a normal person to work and back without becoming a part-time mechanic. That is your use case. The slot is closed.</p>
+
+<h3>Slot 2 &mdash; Helmet</h3>
+<p><strong>Thousand Chapter MIPS</strong></p>
+<p>A helmet has two jobs for a commuter: protect your head in an impact, and be something you will actually wear every single day. The Thousand Chapter does both. The MIPS layer (a low-friction liner that lets the shell rotate slightly on impact) addresses the rotational forces that cause the worst brain injuries, which is the safety feature that actually matters. The commuter-specific design is what makes it the right slot answer rather than a generic sports helmet: it has a magnetic rear light built in, and a &ldquo;PopLock&rdquo; channel so you can secure the helmet to your bike with your U-lock instead of carrying it into every coffee shop. It looks like something a person wears, not a piece of race equipment. You will wear it. That is the whole point.</p>
+
+<h3>Slot 3 &mdash; Lock</h3>
+<p><strong>Kryptonite New-U Evolution Mini-7</strong></p>
+<p>The lock is not the slot to economize on, and it is not the slot to overthink. A cheap cable lock is theft insurance for the thief. The Kryptonite Evolution Mini-7 is a hardened-steel U-lock rated Sold Secure Gold, the independent standard that actually correlates with resisting real-world attacks. The &ldquo;Mini&rdquo; size is deliberate: a smaller U-lock has less open space for a thief to insert leverage tools, and it forces you to lock the frame close to a solid object. Kryptonite has been the category benchmark for decades and includes anti-theft protection registration. Buy this, learn to lock the frame and rear wheel to an immovable object, and stop thinking about it.</p>
+
+<h3>Slot 4 &mdash; Lights</h3>
+<p><strong>Cygolite Metro Plus 800 (front) + Hotshot Pro 150 (rear)</strong></p>
+<p>Lights are not optional and in many jurisdictions are legally required after dark. The function is twofold: the front light lets you see the road, and the rear light lets drivers see you, which is the one that prevents the most common commuter collision. The Cygolite Metro Plus 800 front light is bright enough to actually illuminate an unlit path, USB rechargeable, and has a daytime running-flash mode that improves visibility even at noon. The Hotshot Pro rear light is the most-recommended commuter taillight for a reason: it is genuinely bright, the mount is secure, and the battery lasts through weeks of commutes. One front, one rear, both rechargeable from the same cable you already own. Slot closed.</p>
+
+<h3>Slot 5 &mdash; Panniers</h3>
+<p><strong>Ortlieb Back-Roller Classic</strong></p>
+<p>A backpack on a commute means a sweaty back by the time you arrive. The correct answer is to put the weight on the bike, and the correct way to do that is a waterproof pannier. The Ortlieb Back-Roller Classic is the definitive answer in this slot, full stop. The roll-top closure is genuinely, submersibly waterproof, which means your laptop and a change of clothes survive any downpour without a rain cover. The mounting system clips onto the rack with one motion and detaches into a carry handle when you arrive. Ortlieb has made this exact bag in Germany for decades and it outlasts the bikes people put it on. Buy one. If your commute needs more capacity, buy the matching second one. The slot does not reopen.</p>
+
+<h3>Slot 6 &mdash; Rear Rack</h3>
+<p><strong>Topeak Super Tourist DX</strong></p>
+<p>The pannier needs a rack to hang from. The Topeak Super Tourist DX is the right slot answer because it is rated to carry a genuine load (not a token 10kg), fits the vast majority of bikes with disc brakes, and has the rail spacing that the Ortlieb mounting hooks are designed for. It includes a sprung top clip for securing a bag or jacket on top of the panniers. There are lighter racks and there are more expensive boutique-steel racks, but for a commuter carrying a laptop and lunch, the Super Tourist DX is correct: strong enough that you never think about it, affordable enough that the decision is easy. Mount it once. It stays.</p>
+
+<h3>Slot 7 &mdash; Fenders</h3>
+<p><strong>SKS Bluemels</strong></p>
+<p>Without fenders, the first wet road sprays a stripe of gritty water up your back and across your face, and your bike commute becomes a thing you dread on any day with clouds. Full-coverage fenders eliminate this entirely. SKS Bluemels are the standard: German-made, full wrap-around coverage, with a stainless core that keeps them from rattling loose. The mudflap on the front fender is what actually keeps spray off your feet and drivetrain. This is the least glamorous purchase in the entire kit and one of the two or three that most determines whether you keep commuting through the seasons. Fit them and forget them.</p>
+
+<h3>Slot 8 &mdash; Rain Shell</h3>
+<p><strong>Showers Pass Refuge Jacket</strong></p>
+<p>A generic rain jacket traps sweat, so you arrive wet from the inside instead of the outside. A cycling-specific shell is cut and ventilated for the riding position and the heat you generate pedaling. Showers Pass is a Portland company that builds for exactly this climate and use case. The Refuge jacket is genuinely waterproof and breathable, has a longer tail to cover your lower back in the riding position, reflective detailing for low-light visibility, and pit zips to dump heat on a hard climb. It is the dedicated answer where a fashion rain jacket is a compromise. One shell, built for riding in the rain. Slot closed.</p>
+
+<h3>Slot 9 &mdash; Floor Pump</h3>
+<p><strong>Topeak JoeBlow Sport III</strong></p>
+<p>Correct tire pressure is the single highest-leverage maintenance habit for a commuter: it prevents most flats, makes the bike noticeably easier to pedal, and protects the rims. That requires a floor pump with an accurate gauge, not the mini pump you carry for emergencies. The Topeak JoeBlow Sport III is the workhorse standard: a stable base, a large readable gauge, and a dual head that fits both common valve types without fiddling. Keep it by the door, top up your tires once a week, and you will eliminate the majority of the roadside problems that make beginners give up. This is the boring purchase that quietly makes everything else work.</p>
+
+<h3>Slot 10 &mdash; Roadside Kit</h3>
+<p><strong>Crankbrothers M19 multi-tool + spare tube, levers, and mini pump</strong></p>
+<p>A flat tire two miles from home should be a fifteen-minute fix, not a reason to call a ride. The Crankbrothers M19 is the multi-tool slot answer: nineteen genuinely useful tools (the hex keys you actually need, screwdrivers, a chain tool) in a forged body that survives being thrown in a pannier for years. Pair it with the flat-fix essentials that live permanently in your bag: one spare tube in your tire size, a pair of tire levers, and a compact mini pump or CO2 inflator. You do not need to be a mechanic to change a tube; you need the tools present when it happens. Assemble this kit once, leave it in the pannier, and the most common commute failure stops being an emergency.</p>
+
+<h3>Slot 11 &mdash; Saddle</h3>
+<p><strong>Brooks Cambium C17</strong></p>
+<p>The saddle that comes on most bikes is chosen to look acceptable in a showroom, not to be sat on for thirty minutes a day. Discomfort here is the quiet reason many new commuters stop. The Brooks Cambium C17 is the modern &ldquo;decide once for years&rdquo; commuter saddle: a vulcanized natural-rubber and organic-cotton top that flexes with you, requires zero break-in (unlike Brooks&rsquo; classic leather saddles), and shrugs off rain that would ruin a leather one. It is wide enough for an upright commuting posture and weatherproof enough to live outside on a locked bike. Comfortable from the first ride, durable for years of them. The slot is closed.</p>
+
+<h3>Slot 12 &mdash; Gloves</h3>
+<p><strong>Pearl Izumi Select (warm-weather) — note the seasonal pair</strong></p>
+<p>Gloves do two things on a commute: cushion the vibration that numbs your hands on longer rides, and protect your palms in the instinctive catch of a fall. Pearl Izumi is the established cycling-apparel answer, and the Select fingerless glove is the correct warm-weather slot fill: gel padding where your hands bear weight, a terry thumb for the obvious purpose, and a pull-tab for getting them off sweaty hands. This is the one slot with an honest seasonal caveat: in genuine cold, add a full-finger insulated pair (Pearl Izumi makes those too, keeping the slot to one brand). For most of the year, the Select is the answer.</p>
+
+<h2>The Slot We Deleted</h2>
+<p>Notice what is not on this list: chain lube, a chain-cleaning tool, degreaser, and the recurring fifteen-minute drivetrain-scrubbing ritual that defines chain-driven commuting. That entire category of decisions and chores was eliminated in Slot 1, by choosing a belt-drive bike. This is the Non-Repetition Principle doing something subtler than assigning one brand per slot: a correct decision upstream can delete a whole slot downstream. Choosing the Priority Continuum did not just fill the &ldquo;bike&rdquo; slot. It removed the &ldquo;chain maintenance&rdquo; slot from your life entirely.</p>
+
+<h2>The Stack</h2>
+<p>Twelve slots, one of them deleted by a smart upstream choice, and a complete answer for a person who wants to ride to work starting Monday. The cycling internet will tell you that a belt-drive bike is &ldquo;not a real bike,&rdquo; that you should learn to maintain a derailleur, that Sold Secure Gold is overkill, that you need three more accessories before you are ready. It is, in every case, optimizing for the hobby of cycling rather than the task of commuting. Those are different problems. The twelve brands above answer the commuting problem completely, and they answer it once. The <a href="/diffr/blog/the-one-brand-rule">one-brand-per-slot rule</a> is what keeps the answer from dissolving back into a forum thread. The slot is closed. The decision is made. <a href="/diffr/blog/the-decide-once-rule">Decide once.</a> Ride more.</p>
+`.trim(),
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
