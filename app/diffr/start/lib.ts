@@ -46,12 +46,58 @@ const headers = {
 // Explicit map: /diffr/start URL slug → preset_scenarios.id
 // preset_scenarios.domain is null for dev-built scenes, so there is no
 // automatic join key. Extend this as more scenes get the DB-backed treatment.
+// slug → preset_scenarios.id. Two kinds of entry:
+//  (a) slug matches an existing domain_guide → brand kit layers onto that
+//      editorial page (URL preserved).
+//  (b) slug has NO domain_guide → a lean preset-driven page is generated
+//      (name + description shell + brand kit). See PRESET_ONLY_SLUGS below.
+// See Obsidian "Canonical Scene-Slot 蓝本库" for the full scene roster.
 export const SLUG_TO_PRESET: Record<string, number> = {
+  // (a) domain_guide-matched (brand kit on existing editorial page)
   "cycling-commute": 98,
-  // Add more as scenes get DB-backed brand picks. Each entry lights up the
-  // SceneBrandKit section on that /diffr/start guide page. See Obsidian
-  // "Scene 数据闭环" + "Cycling 试点" docs.
+  "home-coffee": 3,
+  "hiking": 27,
+  "home-office": 15,
+  "home-gaming": 19,
+  "skincare": 10,
+  "cooking-basics": 1,
+  // (b) preset-only (lean DB-driven page, no domain_guide)
+  "home-gym-essentials": 22,
+  "running-starter-kit": 23,
+  "pm-skincare-routine": 11,
+  "make-up-starter-kit": 12,
+  "complete-sleep-setup": 16,
+  "console-gaming-lounge": 20,
+  "gaming-pc-build": 37,
+  "productivity-workstation": 38,
+  "budget-pc-starter": 39,
 };
+
+// Slugs with no domain_guide editorial shell — rendered lean from preset data.
+export const PRESET_ONLY_SLUGS = new Set<string>([
+  "home-gym-essentials",
+  "running-starter-kit",
+  "pm-skincare-routine",
+  "make-up-starter-kit",
+  "complete-sleep-setup",
+  "console-gaming-lounge",
+  "gaming-pc-build",
+  "productivity-workstation",
+  "budget-pc-starter",
+]);
+
+export async function getPresetMeta(
+  presetId: number
+): Promise<{ name: string; description: string | null } | null> {
+  try {
+    const rows = await sbGet<{ name: string; description: string | null }[]>(
+      `preset_scenarios?id=eq.${presetId}&is_active=eq.true&select=name,description`
+    );
+    return rows[0] ?? null;
+  } catch {
+    return null;
+  }
+}
 
 export interface SceneSlot {
   index: number;

@@ -7,18 +7,24 @@ import {
   getGuideBySlug,
   getRedditInsightsForSlug,
   getSceneBrandKit,
+  getPresetMeta,
   SLUG_TO_PRESET,
+  PRESET_ONLY_SLUGS,
   symbolToEmoji,
   toUrlSlug,
   formatBudget,
   type RedditInsight,
 } from "../lib";
 import SceneBrandKit from "../SceneBrandKit";
+import PresetScenePage from "../PresetScenePage";
 
 // ── Static generation ─────────────────────────────────────────
 export async function generateStaticParams() {
   const guides = await getAllGuides();
-  return guides.map((g) => ({ slug: toUrlSlug(g.domain_slug) }));
+  const guideSlugs = guides.map((g) => toUrlSlug(g.domain_slug));
+  // Union with preset-only slugs (scenes with no domain_guide editorial page).
+  const all = new Set([...guideSlugs, ...Object.keys(SLUG_TO_PRESET)]);
+  return [...all].map((slug) => ({ slug }));
 }
 
 // ── Metadata ──────────────────────────────────────────────────
@@ -27,7 +33,23 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { slug } = await params;
   const guide = await getGuideBySlug(slug);
-  if (!guide) return { title: "Not Found" };
+
+  // Preset-only scene (no domain_guide): metadata from the preset row.
+  if (!guide) {
+    const presetId = SLUG_TO_PRESET[slug];
+    const meta = presetId ? await getPresetMeta(presetId) : null;
+    if (!meta) return { title: "Not Found" };
+    const title = `${meta.name} — Beginner Brand Guide | Diffr`;
+    const description =
+      meta.description ??
+      `Diffr's beginner brand picks for ${meta.name}. One brand per slot, no repeats.`;
+    return {
+      title,
+      description,
+      openGraph: { title, description, url: `https://truake.com/diffr/start/${slug}` },
+      alternates: { canonical: `https://truake.com/diffr/start/${slug}` },
+    };
+  }
 
   const title = `How to Start ${guide.domain_name} in 2026 — Beginner's Gear Guide`;
   const description = `${guide.short_pitch}. Diffr analyzed 6,800 brands to give you the definitive starter kit — by budget tier, with zero fluff.`;
@@ -203,11 +225,18 @@ export default async function StarterGuidePage(
   const { slug } = await params;
   const presetId = SLUG_TO_PRESET[slug];
   const [guide, redditInsights, brandKit] = await Promise.all([
-    getGuideBySlug(slug),
-    getRedditInsightsForSlug(slug),
+    PRESET_ONLY_SLUGS.has(slug) ? Promise.resolve(null) : getGuideBySlug(slug),
+    PRESET_ONLY_SLUGS.has(slug) ? Promise.resolve([]) : getRedditInsightsForSlug(slug),
     presetId ? getSceneBrandKit(presetId) : Promise.resolve(null),
   ]);
-  if (!guide) notFound();
+
+  // Preset-only scene (no domain_guide editorial shell): render lean DB page.
+  if (!guide) {
+    if (brandKit && brandKit.slots.length > 0) {
+      return <PresetScenePage kit={brandKit} slug={slug} />;
+    }
+    notFound();
+  }
 
   const emoji = symbolToEmoji(guide.icon_symbol);
   const { basic, standard, pro } = guide.budget_tiers ?? {};
