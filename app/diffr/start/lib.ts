@@ -61,29 +61,60 @@ export const SLUG_TO_PRESET: Record<string, number> = {
   "home-gaming": 19,
   "skincare": 10,
   "cooking-basics": 1,
-  // (b) preset-only (lean DB-driven page, no domain_guide)
+  // (b) preset-only (lean DB-driven page, no domain_guide) — all 41 active scenes
   "home-gym-essentials": 22,
   "running-starter-kit": 23,
+  "yoga-mindfulness": 24,
   "pm-skincare-routine": 11,
   "make-up-starter-kit": 12,
   "complete-sleep-setup": 16,
+  "bed-frame-upgrade": 17,
+  "cold-night-bundle": 18,
   "console-gaming-lounge": 20,
+  "mobile-casual-gaming": 21,
   "gaming-pc-build": 37,
   "productivity-workstation": 38,
   "budget-pc-starter": 39,
+  // preset 1 (Weeknight Family Dinner) is served by "cooking-basics" above — no separate slug (avoids duplicate content)
+  "weekend-baking-project": 2,
+  "deep-home-clean": 4,
+  "laundry-day-essentials": 5,
+  "kitchen-dish-cleaning": 6,
+  "daily-shower-routine": 7,
+  "oral-care-upgrade": 8,
+  "relaxing-bath-night": 9,
+  "living-room-refresh": 13,
+  "bedroom-sanctuary": 14,
+  "backpacking-basecamp": 25,
+  "car-camping-weekend": 26,
+  "everyday-casual-look": 28,
+  "workwear-essentials": 29,
+  "cold-weather-layering": 30,
+  "power-tool-starter-kit": 31,
+  "site-safety-gear": 32,
+  "precision-workshop": 33,
+  "home-health-monitoring": 34,
+  "first-aid-ready": 35,
+  "daily-wellness-routine": 36,
+  "family-game-night": 40,
 };
 
 // Slugs with no domain_guide editorial shell — rendered lean from preset data.
 export const PRESET_ONLY_SLUGS = new Set<string>([
-  "home-gym-essentials",
-  "running-starter-kit",
-  "pm-skincare-routine",
-  "make-up-starter-kit",
-  "complete-sleep-setup",
-  "console-gaming-lounge",
-  "gaming-pc-build",
-  "productivity-workstation",
-  "budget-pc-starter",
+  "home-gym-essentials", "running-starter-kit", "yoga-mindfulness",
+  "pm-skincare-routine", "make-up-starter-kit",
+  "complete-sleep-setup", "bed-frame-upgrade", "cold-night-bundle",
+  "console-gaming-lounge", "mobile-casual-gaming",
+  "gaming-pc-build", "productivity-workstation", "budget-pc-starter",
+  "weekend-baking-project",
+  "deep-home-clean", "laundry-day-essentials", "kitchen-dish-cleaning",
+  "daily-shower-routine", "oral-care-upgrade", "relaxing-bath-night",
+  "living-room-refresh", "bedroom-sanctuary",
+  "backpacking-basecamp", "car-camping-weekend",
+  "everyday-casual-look", "workwear-essentials", "cold-weather-layering",
+  "power-tool-starter-kit", "site-safety-gear", "precision-workshop",
+  "home-health-monitoring", "first-aid-ready", "daily-wellness-routine",
+  "family-game-night",
 ]);
 
 export async function getPresetMeta(
@@ -161,9 +192,12 @@ export async function getSceneBrandKit(
 
   const types = scenario.product_types ?? [];
   const brandIds = scenario.slot_brand_ids ?? [];
-  if (types.length === 0 || types.length !== brandIds.length) return null;
+  if (types.length === 0) return null;
 
-  const uniqBrands = [...new Set(brandIds)];
+  // Tolerate length mismatch: a slot may be unbranded (e.g. a [digital] app
+  // slot with no product brand). Such slots are skipped, not fatal.
+  const uniqBrands = [...new Set(brandIds.filter((b): b is number => b != null))];
+  if (uniqBrands.length === 0) return null;
   const uniqTypes = [...new Set(types)];
 
   // Batch-fetch brand details, product_type names, and hero images in parallel.
@@ -195,25 +229,28 @@ export async function getSceneBrandKit(
   }
 
   let readyCount = 0;
-  const slots: SceneSlot[] = types.map((pt, i) => {
-    const brandId = brandIds[i];
-    const brand = brandMap.get(brandId);
-    const hero = heroMap.get(`${brandId}:${pt}`);
-    const status = hero?.status ?? "pending";
-    if (status === "ready") readyCount++;
-    return {
-      index: i,
-      productTypeId: pt,
-      productTypeName: typeMap.get(pt) ?? "",
-      brandId,
-      brandName: brand?.name ?? "",
-      beginnerScore: brand?.beginner_score ?? null,
-      beginnerBlurb: brand?.beginner_blurb ?? null,
-      productLine: hero?.pl_id ? plMap.get(hero.pl_id) || null : null,
-      imageUrl: status === "ready" ? hero?.image_url ?? null : null,
-      status,
-    };
-  });
+  const slots: SceneSlot[] = types
+    .map((pt, i): SceneSlot | null => {
+      const brandId = brandIds[i];
+      if (brandId == null) return null; // unbranded slot (e.g. [digital] app)
+      const brand = brandMap.get(brandId);
+      const hero = heroMap.get(`${brandId}:${pt}`);
+      const status = hero?.status ?? "pending";
+      if (status === "ready") readyCount++;
+      return {
+        index: i,
+        productTypeId: pt,
+        productTypeName: typeMap.get(pt) ?? "",
+        brandId,
+        brandName: brand?.name ?? "",
+        beginnerScore: brand?.beginner_score ?? null,
+        beginnerBlurb: brand?.beginner_blurb ?? null,
+        productLine: hero?.pl_id ? plMap.get(hero.pl_id) || null : null,
+        imageUrl: status === "ready" ? hero?.image_url ?? null : null,
+        status,
+      };
+    })
+    .filter((s): s is SceneSlot => s !== null);
 
   return {
     presetId: scenario.id,
