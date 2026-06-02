@@ -137,7 +137,8 @@ export interface SceneSlot {
   brandId: number;
   brandName: string;
   beginnerScore: number | null;
-  beginnerBlurb: string | null;
+  fitScore: number | null; // type-specific fit (from v_slot_pool; null until computed)
+  isCuratedPick: boolean; // the scene's curated choice for this slot
   productLine: string | null; // flagship product name
   imageUrl: string | null;
   status: "ready" | "pending" | string;
@@ -172,7 +173,10 @@ async function sbGet<T>(path: string): Promise<T> {
 
 /**
  * Resolve a preset_scenarios row into an ordered list of brand-filled slots,
- * each with its image (or pending state) from v_brand_type_hero.
+ * each with brand + image data from the unified canonical contract view
+ * `v_slot_pool` (clean: plausible-only + retailers excluded; image LEFT-joined
+ * from synonym members; curated picks force-included via is_curated_pick).
+ * This is the same surface iOS reads (fetch_slot_pool projects it).
  * Returns null on any missing/invalid data so callers can skip the section.
  */
 export async function getSceneBrandKit(
@@ -200,26 +204,33 @@ export async function getSceneBrandKit(
   if (uniqBrands.length === 0) return null;
   const uniqTypes = [...new Set(types)];
 
-  // Batch-fetch brand details, product_type names, and hero images in parallel.
-  const [brandRows, typeRows, heroRows] = await Promise.all([
-    sbGet<{ id: number; name: string; beginner_score: number | null; beginner_blurb: string | null }[]>(
-      `brands?id=in.(${uniqBrands.join(",")})&select=id,name,beginner_score,beginner_blurb`
+  // One unified query to v_slot_pool (brand + score + fit + image + curated flag)
+  // plus product_type names, in parallel.
+  const [poolRows, typeRows] = await Promise.all([
+    sbGet<{
+      brand_id: number;
+      product_type_id: number;
+      brand_name: string | null;
+      beginner_score: number | null;
+      fit_score: number | null;
+      is_curated_pick: boolean | null;
+      image_url: string | null;
+      image_status: string | null;
+      pl_id: number | null;
+    }[]>(
+      `v_slot_pool?brand_id=in.(${uniqBrands.join(",")})&product_type_id=in.(${uniqTypes.join(",")})` +
+        `&select=brand_id,product_type_id,brand_name,beginner_score,fit_score,is_curated_pick,image_url,image_status,pl_id`
     ).catch(() => []),
     sbGet<{ id: number; name: string }[]>(
       `product_types?id=in.(${uniqTypes.join(",")})&select=id,name`
     ).catch(() => []),
-    sbGet<{ brand_id: number; product_type_id: number; pl_id: number | null; image_url: string | null; status: string }[]>(
-      `v_brand_type_hero?brand_id=in.(${uniqBrands.join(",")})&product_type_id=in.(${uniqTypes.join(",")})` +
-        `&select=brand_id,product_type_id,pl_id,image_url,status`
-    ).catch(() => []),
   ]);
 
-  const brandMap = new Map(brandRows.map((b) => [b.id, b]));
+  const poolMap = new Map(poolRows.map((r) => [`${r.brand_id}:${r.product_type_id}`, r]));
   const typeMap = new Map(typeRows.map((t) => [t.id, t.name]));
-  const heroMap = new Map(heroRows.map((h) => [`${h.brand_id}:${h.product_type_id}`, h]));
 
   // Flagship product-line names (nice-to-have label) via pl_id.
-  const plIds = [...new Set(heroRows.map((h) => h.pl_id).filter((x): x is number => !!x))];
+  const plIds = [...new Set(poolRows.map((r) => r.pl_id).filter((x): x is number => !!x))];
   let plMap = new Map<number, string>();
   if (plIds.length) {
     const plRows = await sbGet<{ id: number; product_line: string | null }[]>(
@@ -233,20 +244,23 @@ export async function getSceneBrandKit(
     .map((pt, i): SceneSlot | null => {
       const brandId = brandIds[i];
       if (brandId == null) return null; // unbranded slot (e.g. [digital] app)
-      const brand = brandMap.get(brandId);
-      const hero = heroMap.get(`${brandId}:${pt}`);
-      const status = hero?.status ?? "pending";
+      const row = poolMap.get(`${brandId}:${pt}`);
+      // Missing from v_slot_pool ⇒ orphan pick (non-existent brand_id). Skip it
+      // rather than render an empty card; surfaced separately for re-pick.
+      if (!row) return null;
+      const status = row.image_status ?? "pending";
       if (status === "ready") readyCount++;
       return {
         index: i,
         productTypeId: pt,
         productTypeName: typeMap.get(pt) ?? "",
         brandId,
-        brandName: brand?.name ?? "",
-        beginnerScore: brand?.beginner_score ?? null,
-        beginnerBlurb: brand?.beginner_blurb ?? null,
-        productLine: hero?.pl_id ? plMap.get(hero.pl_id) || null : null,
-        imageUrl: status === "ready" ? hero?.image_url ?? null : null,
+        brandName: row.brand_name ?? "",
+        beginnerScore: row.beginner_score ?? null,
+        fitScore: row.fit_score ?? null,
+        isCuratedPick: row.is_curated_pick ?? false,
+        productLine: row.pl_id ? plMap.get(row.pl_id) || null : null,
+        imageUrl: status === "ready" ? row.image_url ?? null : null,
         status,
       };
     })
