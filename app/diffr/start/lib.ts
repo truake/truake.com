@@ -162,13 +162,42 @@ interface PresetScenarioRow {
   slot_brand_ids: number[] | null;
 }
 
+interface PoolRow {
+  brand_id: number;
+  product_type_id: number;
+  brand_name: string | null;
+  beginner_score: number | null;
+  fit_score: number | null;
+  is_curated_pick: boolean | null;
+  image_url: string | null;
+  image_status: string | null;
+  pl_id: number | null;
+}
+
+// Canonical v_slot_pool ordering for the fallback query (PostgREST syntax):
+const POOL_ORDER =
+  "is_curated_pick.desc,fit_score.desc.nullslast,beginner_score.desc.nullslast";
+const POOL_SELECT =
+  "brand_id,product_type_id,brand_name,beginner_score,fit_score,is_curated_pick,image_url,image_status,pl_id";
+
+// Retry once on transient failure so a momentary network blip during SSG does
+// not silently drop a scene's brand kit (the .catch fallback would otherwise
+// produce an empty kit and hide the whole section).
 async function sbGet<T>(path: string): Promise<T> {
-  const res = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
-    headers,
-    next: { revalidate: 3600 },
-  });
-  if (!res.ok) throw new Error(`Supabase ${path} → ${res.status}`);
-  return res.json();
+  let lastErr: unknown;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const res = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
+        headers,
+        next: { revalidate: 3600 },
+      });
+      if (!res.ok) throw new Error(`Supabase ${path} → ${res.status}`);
+      return res.json();
+    } catch (e) {
+      lastErr = e;
+    }
+  }
+  throw lastErr;
 }
 
 /**
@@ -204,33 +233,38 @@ export async function getSceneBrandKit(
   if (uniqBrands.length === 0) return null;
   const uniqTypes = [...new Set(types)];
 
-  // One unified query to v_slot_pool (brand + score + fit + image + curated flag)
-  // plus product_type names, in parallel.
-  const [poolRows, typeRows] = await Promise.all([
-    sbGet<{
-      brand_id: number;
-      product_type_id: number;
-      brand_name: string | null;
-      beginner_score: number | null;
-      fit_score: number | null;
-      is_curated_pick: boolean | null;
-      image_url: string | null;
-      image_status: string | null;
-      pl_id: number | null;
-    }[]>(
-      `v_slot_pool?brand_id=in.(${uniqBrands.join(",")})&product_type_id=in.(${uniqTypes.join(",")})` +
-        `&select=brand_id,product_type_id,brand_name,beginner_score,fit_score,is_curated_pick,image_url,image_status,pl_id`
+  // Bounded query: resolve each slot's curated pick directly (small, reliable).
+  const [pickRows, typeRows] = await Promise.all([
+    sbGet<PoolRow[]>(
+      `v_slot_pool?brand_id=in.(${uniqBrands.join(",")})&product_type_id=in.(${uniqTypes.join(",")})&select=${POOL_SELECT}`
     ).catch(() => []),
     sbGet<{ id: number; name: string }[]>(
       `product_types?id=in.(${uniqTypes.join(",")})&select=id,name`
     ).catch(() => []),
   ]);
-
-  const poolMap = new Map(poolRows.map((r) => [`${r.brand_id}:${r.product_type_id}`, r]));
+  const pickMap = new Map(pickRows.map((r) => [`${r.brand_id}:${r.product_type_id}`, r]));
   const typeMap = new Map(typeRows.map((t) => [t.id, t.name]));
 
+  // Orphan fallback (dev's intent: orphan slots still render from the pool, not
+  // vanish). Only the slots whose curated pick is missing — bounded limit=1 each.
+  const orphanTypes = [
+    ...new Set(
+      types.filter((pt, i) => brandIds[i] != null && !pickMap.has(`${brandIds[i]}:${pt}`))
+    ),
+  ];
+  const fallbackMap = new Map<number, PoolRow>();
+  await Promise.all(
+    orphanTypes.map(async (pt) => {
+      const top = await sbGet<PoolRow[]>(
+        `v_slot_pool?product_type_id=eq.${pt}&order=${POOL_ORDER}&limit=1&select=${POOL_SELECT}`
+      ).catch(() => []);
+      if (top[0]) fallbackMap.set(pt, top[0]);
+    })
+  );
+
   // Flagship product-line names (nice-to-have label) via pl_id.
-  const plIds = [...new Set(poolRows.map((r) => r.pl_id).filter((x): x is number => !!x))];
+  const allRows = [...pickRows, ...fallbackMap.values()];
+  const plIds = [...new Set(allRows.map((r) => r.pl_id).filter((x): x is number => !!x))];
   let plMap = new Map<number, string>();
   if (plIds.length) {
     const plRows = await sbGet<{ id: number; product_line: string | null }[]>(
@@ -244,9 +278,8 @@ export async function getSceneBrandKit(
     .map((pt, i): SceneSlot | null => {
       const brandId = brandIds[i];
       if (brandId == null) return null; // unbranded slot (e.g. [digital] app)
-      const row = poolMap.get(`${brandId}:${pt}`);
-      // Missing from v_slot_pool ⇒ orphan pick (non-existent brand_id). Skip it
-      // rather than render an empty card; surfaced separately for re-pick.
+      // Curated pick if valid; otherwise pool-top fallback; else skip (sparse).
+      const row = pickMap.get(`${brandId}:${pt}`) ?? fallbackMap.get(pt);
       if (!row) return null;
       const status = row.image_status ?? "pending";
       if (status === "ready") readyCount++;
@@ -254,7 +287,7 @@ export async function getSceneBrandKit(
         index: i,
         productTypeId: pt,
         productTypeName: typeMap.get(pt) ?? "",
-        brandId,
+        brandId: row.brand_id,
         brandName: row.brand_name ?? "",
         beginnerScore: row.beginner_score ?? null,
         fitScore: row.fit_score ?? null,
