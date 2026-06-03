@@ -3,9 +3,23 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getAllPosts, getPostBySlug } from '../posts'
 import { PostNavLinks } from './nav-links'
+import { getSceneBrandKit } from '../../start/lib'
+import SceneBrandKit from '../../start/SceneBrandKit'
 
 interface Props {
   params: Promise<{ slug: string }>
+}
+
+// Brand-guide blog posts whose live shoppable kit comes from a preset_scenario.
+// The editorial prose stays; the DB block (brands + images + affiliate buy
+// links) renders from v_slot_pool — the same data the App reads.
+const BLOG_SLUG_TO_PRESET: Record<string, number> = {
+  'bike-commuting-gear-brand-guide': 98,
+  'running-gear-brand-guide': 23,
+  'home-gym-brand-guide': 22,
+  'home-coffee-brand-guide': 3,
+  'home-office-brand-guide': 15,
+  'steak-dinner-brand-guide': 1,
 }
 
 export async function generateStaticParams() {
@@ -56,6 +70,10 @@ export default async function BlogPostPage({ params }: Props) {
   const currentIndex = allPosts.findIndex((p) => p.slug === post.slug)
   const prevPost = allPosts[currentIndex + 1] ?? null
   const nextPost = allPosts[currentIndex - 1] ?? null
+
+  // Live shoppable kit for brand-guide posts (DB-driven + affiliate).
+  const presetId = BLOG_SLUG_TO_PRESET[slug]
+  const brandKit = presetId ? await getSceneBrandKit(presetId) : null
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -142,6 +160,19 @@ export default async function BlogPostPage({ params }: Props) {
           style={{ fontFamily: 'Georgia, serif', lineHeight: 1.8, fontSize: '17px' }}
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
+
+        {/* Live shoppable kit — DB-driven brand picks + affiliate buy links.
+            Wrapped in a light panel so the light-themed kit reads on the dark blog. */}
+        {brandKit && brandKit.slots.length > 0 && (
+          <div style={{
+            marginTop: '48px',
+            background: '#F0EBE3',
+            borderRadius: '16px',
+            padding: '28px 28px 8px',
+          }}>
+            <SceneBrandKit kit={brandKit} />
+          </div>
+        )}
 
         {/* Tags */}
         <div style={{ marginTop: '48px', paddingTop: '32px', borderTop: '1px solid rgba(255,255,255,0.08)' }}>

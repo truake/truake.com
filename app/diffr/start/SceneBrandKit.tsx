@@ -1,4 +1,6 @@
+import Link from "next/link";
 import type { SceneBrandKit as Kit, SceneSlot } from "./lib";
+import { amazonSearchUrl, ebaySearchUrl, buyQuery, AFFILIATE_REL } from "../affiliate";
 
 // Design tokens (match /diffr/start)
 const C = {
@@ -11,6 +13,30 @@ const C = {
   orange: "#F0522C",
   bd: "rgba(42,38,32,0.10)",
 } as const;
+
+function BuyButton({ href, label, primary }: { href: string; label: string; primary?: boolean }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel={AFFILIATE_REL}
+      style={{
+        fontSize: "12px",
+        fontWeight: 700,
+        letterSpacing: "0.01em",
+        textDecoration: "none",
+        padding: "5px 12px",
+        borderRadius: "100px",
+        whiteSpace: "nowrap",
+        color: primary ? "#fff" : C.text,
+        background: primary ? C.orange : "transparent",
+        border: primary ? `1px solid ${C.orange}` : `1px solid ${C.bd}`,
+      }}
+    >
+      {label} ↗
+    </a>
+  );
+}
 
 function scoreOutOfTen(s: number | null): string | null {
   if (s == null) return null;
@@ -125,6 +151,14 @@ function SlotCard({ slot }: { slot: SceneSlot }) {
             <span style={{ fontSize: "11px", color: C.t40 }}>photo coming</span>
           )}
         </div>
+
+        {/* Affiliate buy links */}
+        {slot.brandName && (
+          <div style={{ display: "flex", gap: "8px", marginTop: "10px", flexWrap: "wrap" }}>
+            <BuyButton href={amazonSearchUrl(buyQuery(slot.brandName, slot.productLine))} label="Amazon" primary />
+            <BuyButton href={ebaySearchUrl(buyQuery(slot.brandName, slot.productLine))} label="eBay" />
+          </div>
+        )}
       </div>
     </div>
   );
@@ -165,6 +199,17 @@ export default function SceneBrandKit({ kit }: { kit: Kit }) {
           <SlotCard key={`${slot.index}-${slot.brandId}-${slot.productTypeId}`} slot={slot} />
         ))}
       </div>
+
+      {/* FTC affiliate disclosure (16 CFR Part 255) */}
+      <p style={{ fontSize: "12px", color: C.t40, margin: "14px 0 0", lineHeight: 1.6 }}>
+        Buy links are affiliate links — Diffr may earn a commission at no extra
+        cost to you. Which brand fills each slot is decided by the score, not by
+        commission.{" "}
+        <Link href="/diffr/affiliate-disclosure" style={{ color: C.blue, textDecoration: "underline" }}>
+          Full disclosure
+        </Link>
+        .
+      </p>
     </section>
   );
 }
