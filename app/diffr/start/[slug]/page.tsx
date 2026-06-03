@@ -218,12 +218,24 @@ const priorityColors: Record<string, string> = {
   optional: "rgba(42,38,32,0.45)",
 };
 
+// Scenes that have a long-form editorial twin at /diffr/blog/<slug>.
+// Reciprocal of BLOG_SLUG_TO_START — closes the blog ↔ scene topic cluster.
+const START_SLUG_TO_BLOG: Record<string, string> = {
+  "cycling-commute": "bike-commuting-gear-brand-guide",
+  "running-starter-kit": "running-gear-brand-guide",
+  "home-gym-essentials": "home-gym-brand-guide",
+  "home-coffee": "home-coffee-brand-guide",
+  "home-office": "home-office-brand-guide",
+  "cooking-basics": "steak-dinner-brand-guide",
+};
+
 // ── Page ──────────────────────────────────────────────────────
 export default async function StarterGuidePage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
   const presetId = SLUG_TO_PRESET[slug];
+  const blogSlug = START_SLUG_TO_BLOG[slug] ?? null;
   const [guide, redditInsights, brandKit] = await Promise.all([
     PRESET_ONLY_SLUGS.has(slug) ? Promise.resolve(null) : getGuideBySlug(slug),
     PRESET_ONLY_SLUGS.has(slug) ? Promise.resolve([]) : getRedditInsightsForSlug(slug),
@@ -233,7 +245,7 @@ export default async function StarterGuidePage(
   // Preset-only scene (no domain_guide editorial shell): render lean DB page.
   if (!guide) {
     if (brandKit && brandKit.slots.length > 0) {
-      return <PresetScenePage kit={brandKit} slug={slug} />;
+      return <PresetScenePage kit={brandKit} slug={slug} blogSlug={blogSlug} />;
     }
     notFound();
   }
@@ -462,6 +474,24 @@ export default async function StarterGuidePage(
             Renders real brands + scores + images from preset_scenarios +
             v_brand_type_hero. Only appears for slugs in SLUG_TO_PRESET. */}
         {brandKit && brandKit.slots.length > 0 && <SceneBrandKit kit={brandKit} />}
+
+        {/* Reciprocal link to the long-form editorial brand guide (blog). */}
+        {blogSlug && (
+          <div style={{
+            marginTop: "-28px", marginBottom: "52px",
+            paddingTop: "20px", borderTop: `1px solid ${C.bd}`,
+          }}>
+            <Link href={`/diffr/blog/${blogSlug}`} style={{
+              display: "inline-flex", alignItems: "center", gap: "8px",
+              color: C.blue, textDecoration: "none", fontSize: "15px", fontWeight: 700,
+            }}>
+              Read the full {guide.domain_name} brand guide →
+            </Link>
+            <p style={{ fontSize: "13px", color: C.t60, margin: "6px 0 0", lineHeight: 1.5 }}>
+              The deep dive — why each brand wins its slot, and the mistakes that cost beginners the most.
+            </p>
+          </div>
+        )}
 
         {/* Section 2: Budget Tiers */}
         {(basic || standard || pro) && (

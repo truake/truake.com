@@ -20,9 +20,11 @@ const C = {
 export default function PresetScenePage({
   kit,
   slug,
+  blogSlug = null,
 }: {
   kit: Kit;
   slug: string;
+  blogSlug?: string | null;
 }) {
   const year = new Date().getFullYear();
 
@@ -122,6 +124,24 @@ export default function PresetScenePage({
 
         {/* Brand kit — the DB-driven product data */}
         <SceneBrandKit kit={kit} />
+
+        {/* Reciprocal link to the long-form editorial brand guide (blog). */}
+        {blogSlug && (
+          <div style={{
+            marginTop: "-28px", marginBottom: "52px",
+            paddingTop: "20px", borderTop: `1px solid ${C.bd}`,
+          }}>
+            <Link href={`/diffr/blog/${blogSlug}`} style={{
+              display: "inline-flex", alignItems: "center", gap: "8px",
+              color: C.blue, textDecoration: "none", fontSize: "15px", fontWeight: 700,
+            }}>
+              Read the full {kit.name} brand guide →
+            </Link>
+            <p style={{ fontSize: "13px", color: C.t60, margin: "6px 0 0", lineHeight: 1.5 }}>
+              The deep dive — why each brand wins its slot, and the mistakes that cost beginners the most.
+            </p>
+          </div>
+        )}
 
         {/* CTA */}
         <section style={{

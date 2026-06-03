@@ -22,6 +22,18 @@ const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'steak-dinner-brand-guide': 1,
 }
 
+// Each brand-guide post has a live, interactive twin at /diffr/start/<slug>
+// (the App-funnel page reading the same v_slot_pool). Linking blog → scene
+// clusters the topic and funnels SEO readers toward conversion.
+const BLOG_SLUG_TO_START: Record<string, string> = {
+  'bike-commuting-gear-brand-guide': 'cycling-commute',
+  'running-gear-brand-guide': 'running-starter-kit',
+  'home-gym-brand-guide': 'home-gym-essentials',
+  'home-coffee-brand-guide': 'home-coffee',
+  'home-office-brand-guide': 'home-office',
+  'steak-dinner-brand-guide': 'cooking-basics',
+}
+
 export async function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }))
 }
@@ -74,6 +86,7 @@ export default async function BlogPostPage({ params }: Props) {
   // Live shoppable kit for brand-guide posts (DB-driven + affiliate).
   const presetId = BLOG_SLUG_TO_PRESET[slug]
   const brandKit = presetId ? await getSceneBrandKit(presetId) : null
+  const startSlug = BLOG_SLUG_TO_START[slug] ?? null
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -114,6 +127,16 @@ export default async function BlogPostPage({ params }: Props) {
         }
       : null
 
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Diffr', item: 'https://truake.com/diffr' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://truake.com/diffr/blog' },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `https://truake.com/diffr/blog/${post.slug}` },
+    ],
+  }
+
   return (
     <div style={{ backgroundColor: '#0A0A0F', minHeight: '100vh', color: '#e8e8e8' }}>
       <script
@@ -126,6 +149,10 @@ export default async function BlogPostPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
 
       {/* Nav */}
       <nav style={{
@@ -204,6 +231,24 @@ export default async function BlogPostPage({ params }: Props) {
             padding: '28px 28px 8px',
           }}>
             <SceneBrandKit kit={brandKit} />
+            {startSlug && (
+              <div style={{
+                marginTop: '4px',
+                paddingTop: '20px',
+                borderTop: '1px solid rgba(42,38,32,0.10)',
+              }}>
+                <Link href={`/diffr/start/${startSlug}`} style={{
+                  display: 'inline-flex', alignItems: 'center', gap: '8px',
+                  color: '#1B8BF5', textDecoration: 'none',
+                  fontSize: '15px', fontWeight: 700,
+                }}>
+                  See the interactive {brandKit.name} starter guide on Diffr →
+                </Link>
+                <p style={{ fontSize: '13px', color: 'rgba(42,38,32,0.55)', margin: '6px 0 0', lineHeight: 1.5 }}>
+                  Swap any slot, compare picks side by side, and build your own no-repeat kit.
+                </p>
+              </div>
+            )}
           </div>
         )}
 
