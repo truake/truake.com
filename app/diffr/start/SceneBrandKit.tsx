@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { motion, useReducedMotion, type Variants } from "motion/react";
 import type { SceneBrandKit as Kit, SceneSlot } from "./lib";
 import { amazonSearchUrl, ebaySearchUrl, buyQuery, AFFILIATE_REL } from "../affiliate";
 
@@ -14,12 +17,31 @@ const C = {
   bd: "rgba(42,38,32,0.10)",
 } as const;
 
-function BuyButton({ href, label, primary }: { href: string; label: string; primary?: boolean }) {
+const EASE = [0.22, 1, 0.36, 1] as const;
+
+function scoreOutOfTen(s: number | null): string | null {
+  if (s == null) return null;
+  return (Math.round(s * 100) / 10).toFixed(1);
+}
+
+function BuyButton({
+  href,
+  label,
+  primary,
+  tap,
+}: {
+  href: string;
+  label: string;
+  primary?: boolean;
+  tap: boolean;
+}) {
   return (
-    <a
+    <motion.a
       href={href}
       target="_blank"
       rel={AFFILIATE_REL}
+      whileTap={tap ? { scale: 0.94 } : undefined}
+      whileHover={tap ? { y: -1 } : undefined}
       style={{
         fontSize: "12px",
         fontWeight: 700,
@@ -31,25 +53,28 @@ function BuyButton({ href, label, primary }: { href: string; label: string; prim
         color: primary ? "#fff" : C.text,
         background: primary ? C.orange : "transparent",
         border: primary ? `1px solid ${C.orange}` : `1px solid ${C.bd}`,
+        display: "inline-block",
       }}
     >
       {label} ↗
-    </a>
+    </motion.a>
   );
 }
 
-function scoreOutOfTen(s: number | null): string | null {
-  if (s == null) return null;
-  // beginner_score is 0–1; present on Diffr's familiar /10 scale.
-  return (Math.round(s * 100) / 10).toFixed(1);
-}
-
-function SlotCard({ slot }: { slot: SceneSlot }) {
+function SlotCard({ slot, cardV, imgV, hover }: {
+  slot: SceneSlot;
+  cardV: Variants;
+  imgV: Variants;
+  hover: boolean;
+}) {
   const score = scoreOutOfTen(slot.beginnerScore);
   const ready = slot.status === "ready" && slot.imageUrl;
+  const q = buyQuery(slot.brandName, slot.productLine);
 
   return (
-    <div
+    <motion.div
+      variants={cardV}
+      whileHover={hover ? "hover" : undefined}
       style={{
         display: "flex",
         gap: "16px",
@@ -78,7 +103,8 @@ function SlotCard({ slot }: { slot: SceneSlot }) {
         {ready ? (
           // External R2 image — plain img (domain not in next/image config)
           // eslint-disable-next-line @next/next/no-img-element
-          <img
+          <motion.img
+            variants={imgV}
             src={slot.imageUrl!}
             alt={`${slot.brandName} — ${slot.productTypeName}`}
             width={84}
@@ -147,24 +173,36 @@ function SlotCard({ slot }: { slot: SceneSlot }) {
               Beginner {score}
             </span>
           )}
-          {!ready && (
-            <span style={{ fontSize: "11px", color: C.t40 }}>photo coming</span>
-          )}
+          {!ready && <span style={{ fontSize: "11px", color: C.t40 }}>photo coming</span>}
         </div>
 
         {/* Affiliate buy links */}
         {slot.brandName && (
           <div style={{ display: "flex", gap: "8px", marginTop: "10px", flexWrap: "wrap" }}>
-            <BuyButton href={amazonSearchUrl(buyQuery(slot.brandName, slot.productLine))} label="Amazon" primary />
-            <BuyButton href={ebaySearchUrl(buyQuery(slot.brandName, slot.productLine))} label="eBay" />
+            <BuyButton href={amazonSearchUrl(q)} label="Amazon" primary tap={hover} />
+            <BuyButton href={ebaySearchUrl(q)} label="eBay" tap={hover} />
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
 
 export default function SceneBrandKit({ kit }: { kit: Kit }) {
+  const reduce = useReducedMotion();
+  const animate = !reduce;
+
+  const containerV: Variants = {
+    hidden: {},
+    show: { transition: { staggerChildren: 0.05, delayChildren: 0.04 } },
+  };
+  const cardV: Variants = {
+    hidden: { opacity: 0, y: 16 },
+    show: { opacity: 1, y: 0, transition: { duration: 0.42, ease: EASE } },
+    hover: { y: -5, boxShadow: "0 14px 36px rgba(42,38,32,0.12)", transition: { duration: 0.25, ease: EASE } },
+  };
+  const imgV: Variants = { hover: { scale: 1.07, transition: { duration: 0.3, ease: EASE } } };
+
   return (
     <section style={{ marginBottom: "52px" }}>
       <h2
@@ -188,7 +226,11 @@ export default function SceneBrandKit({ kit }: { kit: Kit }) {
         )}
       </p>
 
-      <div
+      <motion.div
+        variants={animate ? containerV : undefined}
+        initial={animate ? "hidden" : undefined}
+        whileInView={animate ? "show" : undefined}
+        viewport={{ once: true, margin: "-40px" }}
         style={{
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
@@ -196,9 +238,15 @@ export default function SceneBrandKit({ kit }: { kit: Kit }) {
         }}
       >
         {kit.slots.map((slot) => (
-          <SlotCard key={`${slot.index}-${slot.brandId}-${slot.productTypeId}`} slot={slot} />
+          <SlotCard
+            key={`${slot.index}-${slot.brandId}-${slot.productTypeId}`}
+            slot={slot}
+            cardV={cardV}
+            imgV={imgV}
+            hover={animate}
+          />
         ))}
-      </div>
+      </motion.div>
 
       {/* FTC affiliate disclosure (16 CFR Part 255) */}
       <p style={{ fontSize: "12px", color: C.t40, margin: "14px 0 0", lineHeight: 1.6 }}>
