@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: "Truake — One Person. Full Company.",
   description:
     "Truake is a one-person company by Rock Lam, building AI-powered products for intentional living. Creator of Diffr — the curated brand guide that ends choice overload.",
+  alternates: { canonical: "https://truake.com" },
 };
 
 export default function Home() {
@@ -217,9 +218,9 @@ export default function Home() {
                 02
               </span>
               <div>
-                <p className="text-xs tracking-[0.3em] uppercase mb-0.5" style={{ color: "#6B6560" }}>
+                <h2 className="text-xs tracking-[0.3em] uppercase mb-0.5" style={{ color: "#6B6560" }}>
                   Products
-                </p>
+                </h2>
                 <p className="text-sm" style={{ color: "#6B6560" }}>
                   Less noise, more signal.
                 </p>
