@@ -87,12 +87,45 @@ export default async function BlogPostPage({ params }: Props) {
     keywords: post.tags.join(', '),
   }
 
+  // ItemList of the DB-driven brand picks — structured, AI-citable, content-aligned.
+  // Each item is a Product (name/brand/category/image). No offers/ratings (no
+  // real price or reviews pre-PA-API) — honest schema, no spam.
+  const itemListLd =
+    brandKit && brandKit.slots.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          name: `${brandKit.name} — Diffr's beginner brand picks`,
+          numberOfItems: brandKit.slots.length,
+          itemListOrder: 'https://schema.org/ItemListOrderAscending',
+          itemListElement: brandKit.slots.map((s, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            item: {
+              '@type': 'Product',
+              // Flagship product line is a clean name (usually already includes
+              // the brand); brand is carried separately below.
+              name: s.productLine || s.brandName,
+              brand: { '@type': 'Brand', name: s.brandName },
+              category: s.productTypeName,
+              ...(s.status === 'ready' && s.imageUrl ? { image: s.imageUrl } : {}),
+            },
+          })),
+        }
+      : null
+
   return (
     <div style={{ backgroundColor: '#0A0A0F', minHeight: '100vh', color: '#e8e8e8' }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {itemListLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }}
+        />
+      )}
 
       {/* Nav */}
       <nav style={{
