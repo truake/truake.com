@@ -12,9 +12,9 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Truake — One Person. Full Company.",
+  title: "Truake — One Person. Full Company. AI Products by Rock Lam",
   description:
-    "Truake is a one-person company by Rock Lam, building AI-powered products for intentional living. Creator of Diffr — the curated brand guide that ends choice overload.",
+    "A one-person AI company by Rock Lam, building products for intentional living. Maker of Diffr — the curated brand guide that ends choice overload.",
   alternates: { canonical: "https://truake.com" },
 };
 

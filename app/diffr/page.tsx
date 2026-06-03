@@ -14,7 +14,8 @@ import ScrollVelocity from "./components/ScrollVelocity";
 export const metadata: Metadata = {
   title: "Diffr — What to buy first when you're new to a hobby",
   description:
-    "Beginner-friendly brand recommendations for fishing, coffee, running, photography, investing and 40+ other hobbies. 47,000+ brands scored across six axes. Free on iOS.",
+    "Beginner-friendly brand picks for fishing, coffee, running, photography, investing and 40+ hobbies. 47,000+ brands scored across six axes. Free on iOS.",
+  alternates: { canonical: "https://truake.com/diffr" },
   keywords: [
     "Diffr",
     "beginner brands",
