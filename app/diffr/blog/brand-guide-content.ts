@@ -1,13 +1,33 @@
-// FAQ content for the DB-driven brand-guide blog posts.
+// GEO/AEO supplementary content for the DB-driven brand-guide blog posts:
+//   - BLOG_TLDR : answer-first "bottom line up front" lead (AI-citable summary)
+//   - BLOG_FAQ  : 4 beginner Q&A per scene (visible section + FAQPage JSON-LD)
 //
 // Kept separate from posts.ts (which holds long-form essay HTML) because the
 // brand-guide-specific maps (preset, scene slug) already live in [slug]/page.tsx
-// rather than in posts.ts. Each entry renders as a VISIBLE FAQ section AND a
-// FAQPage JSON-LD block — schema must mirror visible content (Google policy).
+// rather than in posts.ts. FAQ renders as a VISIBLE section AND a FAQPage
+// JSON-LD block — schema must mirror visible content (Google policy).
 //
-// Answers are evergreen, defensible beginner advice grounded in domain knowledge
+// All copy is evergreen, defensible beginner advice grounded in domain knowledge
 // + Diffr's "one good pick per slot, don't overbuy" philosophy. Budget ranges are
 // realistic and qualitative — no fabricated statistics.
+
+// Answer-first TL;DR shown at the top of the article (after the header) and set
+// as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
+// AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
+export const BLOG_TLDR: Record<string, string> = {
+  'bike-commuting-gear-brand-guide':
+    'Bottom line: a beginner bike commuter needs five things — a reliable bike, a helmet, front and rear lights, a way to carry gear, and a hardened lock. Spend on lights, the lock, and durable tires first; skip the cycling-specific wardrobe until your route tells you what you actually miss. Below is one solid brand per slot, no repeats.',
+  'running-gear-brand-guide':
+    "Bottom line: the only gear a new runner truly needs is one pair of well-fitting running shoes — get fitted, expect to spend $120–160, and replace them every 300–500 miles. Skip the carbon-plate racers and the GPS watch until you've built a base. Below is Diffr's one-brand-per-slot starter kit.",
+  'home-gym-brand-guide':
+    'Bottom line: a beginner home gym needs surprisingly little — adjustable dumbbells, a sturdy bench, and a pull-up bar or bands train every major movement. Skip the single-purpose machines; a $300–600 setup built around adjustable dumbbells beats a garage of specialized gear. Below is one brand per slot, no repeats.',
+  'home-coffee-brand-guide':
+    "Bottom line: great home coffee comes down to fresh beans, a burr grinder, and a brew method you'll use daily — and the grinder matters more than a fancy brewer. You can start genuinely well for $100–150; leave espresso for later. Below is Diffr's one-brand-per-slot setup.",
+  'home-office-brand-guide':
+    'Bottom line: a productive home office rests on four things — a supportive chair, a desk at the right height, an external monitor, and good lighting. Spend the most on the chair and the screen; a standing desk and accessories can wait. Below is one brand per slot, no repeats.',
+  'steak-dinner-brand-guide':
+    "Bottom line: a restaurant-quality steak at home needs just a heavy skillet, an instant-read thermometer, and tongs — the thermometer is what guarantees doneness. One good chef's knife beats a matching block. Below is Diffr's one-brand-per-slot kit for cooking at home.",
+}
 
 export interface FaqItem {
   q: string

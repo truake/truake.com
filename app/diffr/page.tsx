@@ -556,6 +556,7 @@ export default function DiffrPage() {
               "https://truake.com/diffr-screens/screen-116.jpg",
             ],
             author: { "@type": "Organization", name: "truake LLC", url: "https://truake.com" },
+            sameAs: ["https://x.com/Diffr_app"],
           }),
         }}
       />

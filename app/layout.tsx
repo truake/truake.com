@@ -105,6 +105,10 @@ export default function RootLayout({
                 name: "Rock Lam",
                 url: "https://truake.com/about",
               },
+              // Only verified, resolvable profiles belong in sameAs — no
+              // placeholders. Currently the company's public channel is the
+              // Diffr product account; add Truake-specific profiles as they go live.
+              sameAs: ["https://x.com/Diffr_app"],
             }),
           }}
         />

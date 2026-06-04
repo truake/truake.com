@@ -5,7 +5,7 @@ import { getAllPosts, getPostBySlug } from '../posts'
 import { PostNavLinks } from './nav-links'
 import { getSceneBrandKit } from '../../start/lib'
 import SceneBrandKit from '../../start/SceneBrandKit'
-import { BLOG_FAQ } from '../faq'
+import { BLOG_FAQ, BLOG_TLDR } from '../brand-guide-content'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -89,6 +89,7 @@ export default async function BlogPostPage({ params }: Props) {
   const brandKit = presetId ? await getSceneBrandKit(presetId) : null
   const startSlug = BLOG_SLUG_TO_START[slug] ?? null
   const faq = BLOG_FAQ[slug] ?? null
+  const tldr = BLOG_TLDR[slug] ?? null
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -100,6 +101,7 @@ export default async function BlogPostPage({ params }: Props) {
     publisher: { '@type': 'Organization', name: 'Truake', url: 'https://truake.com' },
     url: `https://truake.com/diffr/blog/${post.slug}`,
     keywords: post.tags.join(', '),
+    ...(tldr ? { abstract: tldr } : {}),
   }
 
   // ItemList of the DB-driven brand picks — structured, AI-citable, content-aligned.
@@ -235,6 +237,32 @@ export default async function BlogPostPage({ params }: Props) {
           </p>
           <div style={{ height: '1px', background: 'rgba(255,255,255,0.08)', margin: '32px 0' }} />
         </header>
+
+        {/* TL;DR — answer-first summary (GEO/AEO). Mirrors BlogPosting.abstract. */}
+        {tldr && (
+          <div style={{
+            marginBottom: '40px',
+            background: 'rgba(19,174,103,0.07)',
+            border: '1px solid rgba(19,174,103,0.22)',
+            borderRadius: '12px',
+            padding: '20px 24px',
+          }}>
+            <p style={{
+              fontFamily: "'Space Grotesk', sans-serif",
+              fontSize: '11px', fontWeight: 700, letterSpacing: '0.15em',
+              textTransform: 'uppercase', color: '#13ae67', margin: '0 0 10px',
+            }}>
+              TL;DR
+            </p>
+            <p style={{
+              fontFamily: 'Georgia, serif',
+              fontSize: '16px', lineHeight: 1.7,
+              color: 'rgba(232,232,232,0.88)', margin: 0,
+            }}>
+              {tldr}
+            </p>
+          </div>
+        )}
 
         {/* Body */}
         <div
