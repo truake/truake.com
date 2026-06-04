@@ -1226,8 +1226,8 @@ const posts: BlogPost[] = [
   },
   {
     slug: "ikigai-broken",
-    title: `Why the Ikigai Framework Is Broken (And What to Use Instead)`,
-    description: `The Ikigai Venn diagram isn't Japanese philosophy — it's a 2014 Western invention. Here's what the original concept actually means, why the diagram fails, and what works instead.`,
+    title: `The Ikigai Four-Circles Diagram Isn't Japanese — and It's Broken`,
+    description: `A sourced critique of the Ikigai four-circles diagram: it isn't ancient Japanese philosophy but a 2014 Western invention. Why it fails — and what to use instead.`,
     date: "2026-05-21",
     readTime: "14 min read",
     tags: ["ikigai alternative", "why ikigai doesn't work", "purpose framework", "self-determination theory"],

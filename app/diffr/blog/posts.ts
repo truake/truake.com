@@ -524,8 +524,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'the-derivative-economy',
-    title: 'The Derivative Economy',
-    description: "We live in a world of adaptations, reboots, and brand successors. Shannon's information theory explains exactly what gets lost each time — and why it matters for what you own.",
+    title: "Shannon's Law, Branding, and the Derivative Economy",
+    description: "Shannon's law meets branding: a thesis on why every reboot, reissue, and brand successor loses signal — what information theory says gets lost in each copy, and why it matters.",
     date: '2026-04-27',
     readTime: '7 min read',
     tags: ["original priority", "shannon", "brand philosophy", "diff-structism", "signal vs noise"],
