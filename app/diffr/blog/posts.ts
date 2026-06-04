@@ -12,6 +12,156 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'hiking-gear-brand-guide',
+    title: 'The Beginner Day Hiker Brand Guide: Every Slot Assigned',
+    description: 'Ten day-hiking gear slots &mdash; boots to navigation &mdash; assigned and closed. The Diffr brand guide for new hikers who want to hit the trail without reading forty gear reviews first.',
+    date: '2026-06-04',
+    readTime: '7 min read',
+    tags: ['brand guide', 'hiking gear for beginners', 'hiking brands', 'day hiking', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten slots. Ten brand answers. Boots to navigation &mdash; assigned and closed. Go hike. Stop researching.',
+    content: `
+<p>A day hike needs almost nothing &mdash; and the outdoor industry has spent decades convincing beginners otherwise. Walk into a gear shop with &ldquo;I want to start hiking&rdquo; and you will leave having evaluated forty boots, six pack volumes, and a wall of &ldquo;systems.&rdquo; That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> at altitude. Diffr&rsquo;s approach is the same everywhere: break the scenario into discrete slots, assign exactly one brand to each, and close the file. Here is the complete beginner day-hiking kit. One answer per slot &mdash; no &ldquo;it depends.&rdquo;</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Hiking Shoes</h3>
+<p><strong>Merrell Moab 3</strong></p>
+<p>The Moab (&ldquo;Mother Of All Boots&rdquo;) is the default first hiking shoe for a reason: a roomy fit that forgives foot shape and trail swelling, out-of-the-box comfort with no break-in, and Vibram traction that handles the mixed terrain a beginner actually meets. Low or mid, waterproof or not &mdash; pick the variant and close the slot.</p>
+
+<h3>Slot 2 &mdash; Daypack</h3>
+<p><strong>Osprey Daylite Plus</strong></p>
+<p>Around 20 liters is the day-hike sweet spot: water, layers, snacks, first aid, nothing more. Osprey&rsquo;s ventilated back panel keeps your spine cool, the pack carries well loaded or empty, and the All Mighty Guarantee means they repair it for life.</p>
+
+<h3>Slot 3 &mdash; Hydration Reservoir</h3>
+<p><strong>CamelBak Crux</strong></p>
+<p>Hands-free water is the single biggest comfort upgrade on trail &mdash; you drink more when it is a bite valve at your shoulder than a bottle buried in your pack. The Crux is the category standard: easy-fill cap, leakproof, fits most daypacks.</p>
+
+<h3>Slot 4 &mdash; Hiking Socks</h3>
+<p><strong>Darn Tough Hiker Micro Crew</strong></p>
+<p>Cotton is how beginners get blisters; merino wool is how they stop. Darn Tough&rsquo;s seamless construction and unconditional lifetime guarantee make this the one sock slot you never revisit. (Same brand we pick for running &mdash; when one answer is correct across scenarios, we do not manufacture a different one.)</p>
+
+<h3>Slot 5 &mdash; Rain Shell</h3>
+<p><strong>Marmot PreCip Eco</strong></p>
+<p>Mountain weather changes faster than the forecast. The PreCip is the proven beginner rain shell: genuinely waterproof, packs to fist-size, and costs a fraction of the premium hardshell you do not yet need.</p>
+
+<h3>Slot 6 &mdash; Sun Hat</h3>
+<p><strong>Sunday Afternoons Ultra Adventure Hat</strong></p>
+<p>Sun exposure is the injury beginners forget. A wide brim with a neck cape beats sunscreen you will forget to reapply. Sunday Afternoons owns this category for breathability and coverage.</p>
+
+<h3>Slot 7 &mdash; Navigation</h3>
+<p><strong>AllTrails+</strong></p>
+<p>&ldquo;I will just follow the trail&rdquo; is how people get lost. AllTrails+ gives you downloadable offline maps, wrong-turn alerts, and millions of vetted routes &mdash; the one digital slot that replaces a map, compass, and guidebook for day hikes.</p>
+
+<h3>Slot 8 &mdash; First Aid Kit</h3>
+<p><strong>Adventure Medical Kits Ultralight/Watertight .7</strong></p>
+<p>Pre-built, trail-specific, waterproof. Buying the components separately is a project; this is a purchase. Blister care &mdash; the part beginners need most &mdash; is included.</p>
+
+<h3>Slot 9 &mdash; Trekking Poles</h3>
+<p><strong>Black Diamond Trail</strong></p>
+<p>Optional until your first steep descent, then non-negotiable: poles take load off the knees and add stability on loose ground. Black Diamond&rsquo;s are the reliable, adjustable, beginner-right default.</p>
+
+<h3>Slot 10 &mdash; Headlamp</h3>
+<p><strong>Black Diamond Spot 400</strong></p>
+<p>The &ldquo;my day hike ran long&rdquo; insurance. Phone flashlights die; a real headlamp keeps your hands free and gets you down. Optional for short hikes, essential the day you misjudge daylight.</p>
+
+<h2>The Point</h2>
+<p>Ten slots, ten answers, zero open loops. The interactive version of this kit lives in the Diffr app, where every pick comes straight from the brand database &mdash; swap any slot, compare side by side, and build your own no-repeat pack. Stop researching. Go hike.</p>
+`,
+  },
+  {
+    slug: 'yoga-gear-brand-guide',
+    title: 'The Beginner Yoga Brand Guide: Every Slot Assigned',
+    description: 'Six yoga and mindfulness slots &mdash; mat to meditation cushion &mdash; assigned and closed. The Diffr brand guide for new yogis who want to start without comparing forty mats.',
+    date: '2026-06-04',
+    readTime: '6 min read',
+    tags: ['brand guide', 'yoga gear for beginners', 'yoga brands', 'beginner yoga', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Six slots. Six brand answers. Mat to meditation cushion &mdash; assigned and closed. Start your practice. Stop comparing.',
+    content: `
+<p>Yoga needs a mat and a body. Everything beyond that is a prop that makes the practice more accessible &mdash; and a marketplace that makes choosing one exhausting. The mat aisle alone is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in physical form: thickness, material, grip, length, eco-this, alignment-that. Diffr&rsquo;s answer is one brand per slot, file closed. Here is the complete beginner kit &mdash; most of which you can ignore until your practice asks for it.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Yoga Mat</h3>
+<p><strong>Manduka PROlite</strong></p>
+<p>The one prop that matters, and the one worth buying once. The PROlite is dense enough that your knees and wrists do not bottom out on a hard floor, grippy enough for a beginner&rsquo;s sweat, and durable enough to be the last mat most people buy. A cheap mat that slides or compresses is how beginners learn to dislike yoga.</p>
+
+<h3>Slot 2 &mdash; Yoga Blocks</h3>
+<p><strong>Manduka Cork Yoga Block</strong></p>
+<p>Blocks bring the floor closer &mdash; essential for tight beginners in half the standard poses. Cork is the right material: stable, grippy, and it does not tip like foam. One block does most of the job; two if you want symmetry.</p>
+
+<h3>Slot 3 &mdash; Yoga Strap</h3>
+<p><strong>Hugger Mugger Cotton Yoga Strap</strong></p>
+<p>A strap extends your reach when hamstrings and shoulders will not yet cooperate &mdash; which, for a beginner, is most of the time. Hugger Mugger&rsquo;s cinch buckle holds without slipping. Unglamorous, correct, and roughly the price of a coffee.</p>
+
+<h3>Slot 4 &mdash; Yoga Towel</h3>
+<p><strong>Manduka Yogitoes Skidless</strong></p>
+<p>Optional until you try a warm or sweaty class, then the slot that saves your practice: a grip towel over the mat stops the slow slide that wrecks poses. The Yogitoes&rsquo; silicone nubs are the category standard.</p>
+
+<h3>Slot 5 &mdash; Bolster</h3>
+<p><strong>Hugger Mugger Standard Bolster</strong></p>
+<p>Restorative and yin practice live on a bolster &mdash; it is what lets you hold a supported pose long enough to actually relax. Optional for active flow; transformative if you ever want yoga that calms rather than works.</p>
+
+<h3>Slot 6 &mdash; Meditation Cushion</h3>
+<p><strong>Brentwood Home Crystal Cove Zafu</strong></p>
+<p>The mindfulness half of the practice needs one thing: a cushion that lifts your hips so sitting still does not hurt. A proper zafu beats a folded blanket and makes a daily sit far more likely to become a habit.</p>
+
+<h2>The Point</h2>
+<p>One mat is the requirement; the rest are props you add when your practice asks. The interactive version of this kit lives in the Diffr app, where every pick comes from the brand database &mdash; swap any slot and build your own no-repeat setup. Start your practice. Stop comparing mats.</p>
+`,
+  },
+  {
+    slug: 'pc-gaming-gear-brand-guide',
+    title: 'The Beginner PC Gaming Battlestation Brand Guide: Every Slot Assigned',
+    description: 'Eight battlestation slots &mdash; monitor to stream deck &mdash; assigned and closed. The Diffr brand guide for new PC gamers building a setup without reading a hundred peripheral reviews.',
+    date: '2026-06-04',
+    readTime: '7 min read',
+    tags: ['brand guide', 'pc gaming gear for beginners', 'gaming brands', 'gaming setup', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight slots. Eight brand answers. Monitor to stream deck &mdash; assigned and closed. Build the battlestation. Stop spec-hunting.',
+    content: `
+<p>The PC itself is one decision. The battlestation around it &mdash; the screen, the peripherals, the chair &mdash; is eight more, and each has a subreddit ready to argue about it for a hundred replies. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> with RGB. Diffr assigns one brand per slot and closes the file. Here is the complete beginner battlestation &mdash; peripherals and comfort, assuming the tower is handled.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Gaming Monitor</h3>
+<p><strong>ASUS TUF Gaming VG279Q1A</strong></p>
+<p>For a beginner, refresh rate beats resolution: a 27-inch, 1080p, 165Hz panel makes everything feel smoother and runs on modest hardware. ASUS&rsquo;s TUF line is the reliability-per-dollar default. Chase 1440p and high refresh together only once your GPU can actually drive it.</p>
+
+<h3>Slot 2 &mdash; Mechanical Keyboard</h3>
+<p><strong>Logitech G413 SE</strong></p>
+<p>A mechanical keyboard is the upgrade you feel every keystroke; it is also where beginners overspend on features they will not use. The G413 SE is tactile, durable, no-nonsense, and from the brand whose peripherals just work. Closed.</p>
+
+<h3>Slot 3 &mdash; Gaming Mouse</h3>
+<p><strong>Logitech G502 HERO</strong></p>
+<p>The default beginner gaming mouse for a decade: an accurate sensor, a shape most hands like, and enough buttons to grow into without the weight or price of a pro esports mouse. (Note: this is a gaming scene &mdash; the same mouse type that is off-world in a home office is exactly right here.)</p>
+
+<h3>Slot 4 &mdash; Gaming Headset</h3>
+<p><strong>HyperX Cloud II</strong></p>
+<p>The legendary value pick: comfortable enough for marathon sessions, a clear mic, and the &ldquo;just buy this&rdquo; answer for so long that recommending anything pricier to a beginner is hard to justify.</p>
+
+<h3>Slot 5 &mdash; Gaming Chair</h3>
+<p><strong>Secretlab TITAN Evo</strong></p>
+<p>The one slot where buy-once beats buy-cheap. You are in it for hours; a quality chair pays for itself in a back that does not hurt. Secretlab is the durable, well-supported default that survives the all-nighters a $120 chair will not.</p>
+
+<h3>Slot 6 &mdash; Mousepad</h3>
+<p><strong>SteelSeries QcK (Large)</strong></p>
+<p>An extended cloth pad gives the mouse a consistent surface and your wrist somewhere comfortable to live. The QcK is the boring, correct, decades-proven answer. A few dollars; never think about it again.</p>
+
+<h3>Slot 7 &mdash; Microphone</h3>
+<p><strong>Blue Yeti</strong></p>
+<p>Optional until someone says &ldquo;I cannot hear you,&rdquo; then the slot that fixes it. A real USB mic makes you sound human in voice chat and is the on-ramp to streaming. The Yeti is plug-and-play and the recognized default.</p>
+
+<h3>Slot 8 &mdash; Stream Deck</h3>
+<p><strong>Elgato Stream Deck MK.2</strong></p>
+<p>The only real answer in its category &mdash; Elgato built it and owns it. Purely optional: it is for the day you start streaming or producing content. A beginner gamer can ignore this slot entirely until then.</p>
+
+<h2>The Point</h2>
+<p>Four peripherals and a chair are the core; the mic and stream deck wait until you stream. The interactive version of this kit lives in the Diffr app, where every pick comes from the brand database &mdash; swap any slot and build your own no-repeat battlestation. Build it. Stop spec-hunting.</p>
+`,
+  },
+  {
     slug: 'stop-optimizing-start-deciding',
     title: 'Stop Optimizing, Start Deciding: Why the Shopping Environment Is Designed to Prevent You from Choosing',
     description: 'The shopping environment was engineered to keep you evaluating, not deciding. The fix isn\'t better filters — it\'s exiting the loop entirely.',

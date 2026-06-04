@@ -21,6 +21,9 @@ const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'home-coffee-brand-guide': 3,
   'home-office-brand-guide': 15,
   'steak-dinner-brand-guide': 1,
+  'hiking-gear-brand-guide': 27,
+  'yoga-gear-brand-guide': 24,
+  'pc-gaming-gear-brand-guide': 19,
 }
 
 // Each brand-guide post has a live, interactive twin at /diffr/start/<slug>
@@ -33,6 +36,9 @@ const BLOG_SLUG_TO_START: Record<string, string> = {
   'home-coffee-brand-guide': 'home-coffee',
   'home-office-brand-guide': 'home-office',
   'steak-dinner-brand-guide': 'cooking-basics',
+  'hiking-gear-brand-guide': 'hiking',
+  'yoga-gear-brand-guide': 'yoga-mindfulness',
+  'pc-gaming-gear-brand-guide': 'home-gaming',
 }
 
 export async function generateStaticParams() {

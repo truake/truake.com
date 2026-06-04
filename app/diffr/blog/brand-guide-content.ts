@@ -27,6 +27,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: a productive home office rests on four things — a supportive chair, a desk at the right height, an external monitor, and good lighting. Spend the most on the chair and the screen; a standing desk and accessories can wait. Below is one brand per slot, no repeats.',
   'steak-dinner-brand-guide':
     "Bottom line: a restaurant-quality steak at home needs just a heavy skillet, an instant-read thermometer, and tongs — the thermometer is what guarantees doneness. One good chef's knife beats a matching block. Below is Diffr's one-brand-per-slot kit for cooking at home.",
+  'hiking-gear-brand-guide':
+    'Bottom line: a first day hike needs four things — trail shoes, a ~20L pack, hands-free water, and weather layers — plus good socks and an offline map app, the two cheap items beginners skip. Budget roughly $250–400, with shoes and pack the big line items; skip stiff boots and technical gear until the trail asks for them. Below is one brand per slot, no repeats.',
+  'yoga-gear-brand-guide':
+    'Bottom line: yoga needs a mat and a body — everything else is a prop that makes poses accessible. Buy one quality mat (the one place not to cheap out, ~$90–140 with a block and strap), add blocks and a strap for tight beginner bodies, and leave the bolster, towel, and meditation cushion until a specific practice asks for them. Below is one brand per slot, no repeats.',
+  'pc-gaming-gear-brand-guide':
+    'Bottom line: past the PC itself, a beginner battlestation is four peripherals — monitor, keyboard, mouse, headset — plus a chair worth not cheaping out on. Spend on the monitor (high refresh beats high resolution for beginners) and the chair (hours of your back); keep peripherals solid-and-cheap. The mic and stream deck wait until you stream. Below is one brand per slot, no repeats.',
 }
 
 export interface FaqItem {
@@ -146,6 +152,63 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do beginner cooks overspend?',
       a: 'Gadgets and matching sets — the 15-piece knife block, the single-use tools, the appliance for one specific dish. A heavy skillet, a sharp chef’s knife, and a thermometer will cook more meals better than a cabinet of specialized gear. Buy a few quality basics and learn to use them.',
+    },
+  ],
+
+  'hiking-gear-brand-guide': [
+    {
+      q: 'What do I actually need for my first day hike?',
+      a: 'Realistically four things: trail-worthy shoes, a small pack, water, and weather-appropriate layers you likely already own. Add a hat, sun protection, and a basic first aid kit and you are equipped for almost any maintained day-hike trail. Poles, headlamps, and technical apparel come once the trail tells you that you want them.',
+    },
+    {
+      q: 'How much should I spend to start day hiking?',
+      a: 'A complete, quality day-hiking kit runs roughly $250–400, with the shoes and the pack as the two biggest items. You can start cheaper with trail-running shoes you own and a regular backpack; upgrade the moment comfort or fit becomes the thing limiting your hikes.',
+    },
+    {
+      q: 'Do I need hiking boots, or are trail shoes fine?',
+      a: 'For maintained day-hike trails, low hiking shoes or trail runners are plenty — and often better than stiff boots, which beginners over-buy. Save heavy waterproof boots for genuinely rough, wet, or heavily loaded terrain. Comfort and traction matter more than ankle armor for a day hike.',
+    },
+    {
+      q: 'What is the most overlooked beginner hiking item?',
+      a: 'Socks and navigation. Good merino socks prevent the blisters that end hikes, and an offline map app prevents the wrong turns that turn a two-hour loop into an ordeal. Both are cheap and both get skipped.',
+    },
+  ],
+
+  'yoga-gear-brand-guide': [
+    {
+      q: 'What do I actually need to start yoga at home?',
+      a: 'One thing: a decent mat. With a mat and a free video you can practice for months. Blocks and a strap are the first worthwhile additions — they make tight beginner bodies fit the poses — and everything else (bolster, towel, cushion) waits until a specific style of practice calls for it.',
+    },
+    {
+      q: 'How much should a beginner spend on yoga gear?',
+      a: 'A quality mat plus a block and strap runs about $90–140 total, and the mat is the one place not to cheap out — a sliding, compressing mat is the fastest way to dislike yoga. The rest of the kit can be added one inexpensive prop at a time.',
+    },
+    {
+      q: 'Is an expensive yoga mat worth it for a beginner?',
+      a: 'Yes, more than almost any other beginner-gear question. A dense, grippy mat protects your joints on hard floors and stays put when you sweat, and a buy-once mat outlasts three cheap ones. It is the single prop you are in contact with every session.',
+    },
+    {
+      q: 'Do I need yoga blocks and a strap as a beginner?',
+      a: 'Probably more than an experienced yogi does. Props exist to bring the pose to your current flexibility — blocks raise the floor, a strap extends your reach — so beginners with tight hamstrings and shoulders benefit most. They are cheap and they make the practice work instead of frustrate.',
+    },
+  ],
+
+  'pc-gaming-gear-brand-guide': [
+    {
+      q: 'What do I actually need for a beginner PC gaming setup?',
+      a: 'Beyond the PC itself, four peripherals carry the experience: a monitor, a keyboard, a mouse, and a headset. A chair you will sit in for hours is the next priority. A mic and a stream deck are for voice chat and content creation — skip them until you specifically need them.',
+    },
+    {
+      q: 'Where should a beginner spend the most on a battlestation?',
+      a: 'The monitor and the chair. The monitor is what you stare at, and a high-refresh panel transforms how the game feels far more than a flashier keyboard does; the chair is what your back lives in. Peripherals can be solid-and-cheap; those two reward spending.',
+    },
+    {
+      q: 'Do I need a 1440p or 4K monitor to start?',
+      a: 'No. For most beginners a 1080p, 165Hz monitor is the better buy — a high refresh rate feels smoother and runs well on modest hardware, while 1440p and 4K demand a stronger, pricier GPU to drive. Match the monitor to the PC you actually have, not the one you wish you had.',
+    },
+    {
+      q: 'Is an expensive gaming chair worth it for a beginner?',
+      a: 'It is the one peripheral where buying once beats buying cheap. You are in it for hours, and a quality chair prevents the back and neck pain a cheap chair causes within months. If you trim the budget anywhere, trim the mousepad and the mic — not the chair.',
     },
   ],
 }

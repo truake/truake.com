@@ -227,6 +227,9 @@ const START_SLUG_TO_BLOG: Record<string, string> = {
   "home-coffee": "home-coffee-brand-guide",
   "home-office": "home-office-brand-guide",
   "cooking-basics": "steak-dinner-brand-guide",
+  "hiking": "hiking-gear-brand-guide",
+  "yoga-mindfulness": "yoga-gear-brand-guide",
+  "home-gaming": "pc-gaming-gear-brand-guide",
 };
 
 // ── Page ──────────────────────────────────────────────────────
