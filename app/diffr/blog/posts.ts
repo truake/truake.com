@@ -12,6 +12,168 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'backpacking-gear-brand-guide',
+    title: 'The Beginner Backpacker Brand Guide: Every Slot Assigned',
+    description: 'Eleven backpacking gear slots &mdash; the big three to navigation &mdash; assigned and closed. The Diffr brand guide for new backpackers who want to hit the trail without a six-month research project.',
+    date: '2026-06-04',
+    readTime: '8 min read',
+    tags: ['brand guide', 'backpacking gear for beginners', 'backpacking brands', 'beginner backpacking', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eleven slots. Eleven brand answers. The big three to navigation &mdash; assigned and closed. Hit the trail. Stop researching.',
+    content: `
+<p>Backpacking is car camping with consequences: everything you need to sleep, eat, and stay alive goes on your back, so every gram and every dollar is a decision. The gear forums will happily turn that into a six-month research project &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> measured in ounces. Diffr&rsquo;s approach is the same everywhere: one brand per slot, file closed. Here is the complete beginner overnight kit, starting with the &ldquo;big three&rdquo; that dominate your pack weight and your budget.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Backpacking Pack</h3>
+<p><strong>Osprey Atmos AG 65</strong></p>
+<p>Sixty-five liters is the do-everything beginner volume, and Osprey&rsquo;s Anti-Gravity suspension is the reason this pack carries a heavy load like it weighs less. The All Mighty Guarantee covers it for life. Get fitted for torso length &mdash; this is the slot you live in.</p>
+
+<h3>Slot 2 &mdash; Tent</h3>
+<p><strong>REI Co-op Half Dome SL 2+</strong></p>
+<p>The beginner backpacking tent that has earned the default: genuinely livable for two, freestanding so it pitches anywhere, durable, and a fraction of an ultralight shelter&rsquo;s price. Save the gram-counting for after you know you love this.</p>
+
+<h3>Slot 3 &mdash; Sleeping Bag</h3>
+<p><strong>Kelty Cosmic Down 20</strong></p>
+<p>A 20-degree bag covers three-season backpacking, and the Cosmic is the value benchmark: real down warmth at a beginner price. Warmth is safety out here, and Kelty has already solved the price problem so you do not have to gamble on a cheaper unknown.</p>
+
+<h3>Slot 4 &mdash; Sleeping Pad</h3>
+<p><strong>Therm-a-Rest NeoAir XLite</strong></p>
+<p>Most beginners under-rate the pad; it is half your warmth (insulation from the cold ground) and all of your sleep quality. The NeoAir is the warmth-to-weight standard. A bad pad is how a warm bag still leaves you cold and exhausted.</p>
+
+<h3>Slot 5 &mdash; Stove</h3>
+<p><strong>MSR PocketRocket 2</strong></p>
+<p>A screw-on canister stove that boils water in minutes, weighs almost nothing, and costs little. It is the beginner default for a reason: nothing to prime, nothing to spill, nearly nothing to break.</p>
+
+<h3>Slot 6 &mdash; Water Filter</h3>
+<p><strong>Sawyer Squeeze</strong></p>
+<p>Backcountry water is not optional and not always clean. The Squeeze is the beginner standard: cheap, light, fast, and it threads onto a standard bottle. Drink confidently, skip the stomach bug that ends a trip early.</p>
+
+<h3>Slot 7 &mdash; Cookset</h3>
+<p><strong>GSI Outdoors Pinnacle Dualist</strong></p>
+<p>A pot, mugs, and bowls that nest into one tidy package &mdash; the meals-without-a-project slot. Optional if you only boil water for freeze-dried meals; worth it the moment you want to actually cook at camp.</p>
+
+<h3>Slot 8 &mdash; Headlamp</h3>
+<p><strong>Black Diamond Spot 400</strong></p>
+<p>The same answer as the day hike, because camp chores, midnight nature calls, and pre-dawn starts all need hands-free light. One correct answer, reused without apology.</p>
+
+<h3>Slot 9 &mdash; First Aid Kit</h3>
+<p><strong>Adventure Medical Kits Ultralight/Watertight .7</strong></p>
+<p>Pre-built and trail-specific, with the blister and wound care an overnight trip actually demands. Buying the components separately is a project; this is a purchase.</p>
+
+<h3>Slot 10 &mdash; Trekking Poles</h3>
+<p><strong>Black Diamond Trail</strong></p>
+<p>Under a full pack, on uneven ground, poles save your knees and your balance. Optional on flat, mellow routes; the first thing you reach for on anything steep or heavily loaded.</p>
+
+<h3>Slot 11 &mdash; Navigation</h3>
+<p><strong>Gaia GPS</strong></p>
+<p>Out here, &ldquo;follow the trail&rdquo; fails &mdash; junctions, snow, faint paths. Gaia GPS is the backcountry standard: detailed topographic layers and offline maps that work with no signal. The one digital slot that keeps an overnight from becoming an epic.</p>
+
+<h2>The Point</h2>
+<p>Get the big three right and the rest of the kit is comparatively cheap and easy. The interactive version of this kit lives in the Diffr app, where every pick comes straight from the brand database &mdash; swap any slot and build your own no-repeat pack. Hit the trail. Stop researching.</p>
+`,
+  },
+  {
+    slug: 'skincare-brand-guide',
+    title: 'The Beginner Skincare Brand Guide: Every Slot Assigned',
+    description: 'Six morning skincare slots &mdash; cleanser to sunscreen &mdash; assigned and closed. The Diffr brand guide for skincare beginners who want a routine that works without a ten-step ritual.',
+    date: '2026-06-04',
+    readTime: '5 min read',
+    tags: ['brand guide', 'skincare for beginners', 'skincare brands', 'beginner skincare routine', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Six slots. Six brand answers. Cleanser to sunscreen &mdash; assigned and closed. Build the routine. Stop overthinking.',
+    content: `
+<p>Skincare is where the most decisions meet the most marketing. A beginner asking &ldquo;what should I use&rdquo; gets a ten-step routine, forty serums, and a vocabulary lesson &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to your face. The dermatologist consensus is far simpler than the beauty aisle: cleanse, treat, moisturize, protect. Diffr assigns one brand per slot and closes the file. Here is the complete beginner morning routine &mdash; three steps that matter, three that are optional.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Cleanser</h3>
+<p><strong>CeraVe Hydrating Facial Cleanser</strong></p>
+<p>The dermatologist default: a gentle, non-stripping cleanser with ceramides that cleans without wrecking your skin barrier. Foaming, squeaky-clean cleansers are how beginners cause the dryness they then buy more products to fix. Start here.</p>
+
+<h3>Slot 2 &mdash; Vitamin C Serum</h3>
+<p><strong>Maelove The Glow Maker</strong></p>
+<p>The one active worth adding in the morning: vitamin C brightens and adds antioxidant protection under sunscreen. Maelove is the cult value pick &mdash; a fraction of the prestige serums it is modeled on. Optional, but the highest-payoff optional in the routine.</p>
+
+<h3>Slot 3 &mdash; Moisturizer</h3>
+<p><strong>Cetaphil Daily Hydrating Lotion</strong></p>
+<p>Every skin type, including oily, needs moisture; skipping it is how beginners trigger more oil and irritation. Cetaphil&rsquo;s lightweight lotion hydrates without grease and without a fragrance that bothers sensitive skin. Boring, gentle, correct.</p>
+
+<h3>Slot 4 &mdash; Sunscreen</h3>
+<p><strong>EltaMD UV Clear SPF 46</strong></p>
+<p>The single most important step, and the one beginners skip. Daily sunscreen does more for how your skin looks in ten years than every serum combined. EltaMD is the dermatologist-favorite facial sunscreen because it is light enough that you will actually wear it.</p>
+
+<h3>Slot 5 &mdash; Toner</h3>
+<p><strong>Thayers Alcohol-Free Witch Hazel</strong></p>
+<p>Optional, and a slot beginners overthink. A gentle hydrating toner can add a layer of comfort; a harsh astringent one undoes everything else. If you use one, use this. If you skip it, you have skipped nothing important.</p>
+
+<h3>Slot 6 &mdash; Eye Cream</h3>
+<p><strong>The Ordinary Caffeine Solution 5%</strong></p>
+<p>Optional. Caffeine de-puffs and the price is trivial, which makes The Ordinary the beginner-right answer if you want an eye step at all. The skin around the eyes is thinner, but your face moisturizer already covers most of what a beginner needs.</p>
+
+<h2>The Point</h2>
+<p>Three steps that matter, three you can ignore until you have a reason. The interactive version of this routine lives in the Diffr app, where every pick comes straight from the brand database &mdash; swap any slot and build your own no-repeat shelf. Build the routine. Stop overthinking.</p>
+`,
+  },
+  {
+    slug: 'makeup-brand-guide',
+    title: 'The Beginner Makeup Brand Guide: Every Slot Assigned',
+    description: 'Ten everyday makeup slots &mdash; foundation to primer &mdash; assigned and closed. The Diffr brand guide for makeup beginners who want a natural everyday face without the forty-product aisle.',
+    date: '2026-06-04',
+    readTime: '6 min read',
+    tags: ['brand guide', 'makeup for beginners', 'makeup brands', 'beginner makeup kit', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten slots. Ten brand answers. Foundation to primer &mdash; assigned and closed. Do your face. Stop comparing.',
+    content: `
+<p>The makeup aisle sells maximalism: forty foundations, contour kits, a brush for every conceivable purpose. A beginner who just wants to look like themselves on a good day does not need most of it &mdash; the gap between what you need and what is for sale is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in a compact. Diffr assigns one brand per slot and closes the file. Here is a complete everyday starter kit &mdash; a natural face, no overwhelm, one answer per slot.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Foundation</h3>
+<p><strong>Maybelline Fit Me Matte + Poreless</strong></p>
+<p>The beginner-right base: a wide, genuinely useful shade range, a natural skin-like finish, and a price that forgives the learning curve. Start with a base that looks like skin, not a mask.</p>
+
+<h3>Slot 2 &mdash; Concealer</h3>
+<p><strong>NARS Radiant Creamy Concealer</strong></p>
+<p>The one slot worth a small splurge: it covers what you want covered &mdash; under-eyes, blemishes &mdash; while staying creamy enough not to crease on a beginner who has not learned to set anything yet. The cult-status answer for a reason.</p>
+
+<h3>Slot 3 &mdash; Mascara</h3>
+<p><strong>L&rsquo;Or&eacute;al Voluminous Lash Paradise</strong></p>
+<p>The drugstore mascara that out-performs prestige ones: it opens up the eyes, which is most of what makeup does for a natural look. The single highest-impact-per-dollar item in the kit.</p>
+
+<h3>Slot 4 &mdash; Brushes</h3>
+<p><strong>Real Techniques</strong></p>
+<p>The beginner brush brand: soft, durable, affordable, and labeled for what they do. A small starter set applies everything in this kit. You do not need the thirty-piece set; you need these.</p>
+
+<h3>Slot 5 &mdash; Makeup Sponge</h3>
+<p><strong>Beautyblender Original</strong></p>
+<p>A damp sponge is how beginners get foundation to look like skin instead of makeup &mdash; it sheers and blends in a way a brush cannot. Beautyblender defined the category; the dupes are fine, but this is the reference.</p>
+
+<h3>Slot 6 &mdash; Blush</h3>
+<p><strong>Milani Baked Blush</strong></p>
+<p>A touch of color is what makes a face look alive rather than flat. Milani&rsquo;s baked blushes are buildable (forgiving for a beginner&rsquo;s heavy hand), long-wearing, and a drugstore price. &ldquo;Luminoso&rdquo; is the universally flattering default.</p>
+
+<h3>Slot 7 &mdash; Lip</h3>
+<p><strong>Clinique Almost Lipstick in Black Honey</strong></p>
+<p>The famous goes-with-everyone lip: a sheer, adjustable wash of color that is nearly impossible to apply badly. The beginner-proof answer to the slot that intimidates beginners most.</p>
+
+<h3>Slot 8 &mdash; Setting Spray</h3>
+<p><strong>Urban Decay All Nighter</strong></p>
+<p>Optional until your makeup slides off by noon, then the slot that fixes it. A setting spray makes a beginner&rsquo;s work last the day. The All Nighter is the recognized standard.</p>
+
+<h3>Slot 9 &mdash; Eye &amp; Brow</h3>
+<p><strong>Anastasia Beverly Hills Brow Wiz</strong></p>
+<p>For a natural everyday look, defined brows do more than eyeshadow. The Brow Wiz&rsquo;s fine tip makes hair-like strokes that are hard to overdo &mdash; the beginner-safe entry to the eye area. Optional, but transformative.</p>
+
+<h3>Slot 10 &mdash; Primer</h3>
+<p><strong>e.l.f. Power Grip Primer</strong></p>
+<p>Optional and the last thing to add: a primer grips makeup so it lasts and smooths texture so foundation sits better. e.l.f.&rsquo;s is the cult value pick &mdash; a few dollars, genuinely good. Skip it until everything else is in place.</p>
+
+<h2>The Point</h2>
+<p>Five products make a face; the rest are for occasions and later. The interactive version of this kit lives in the Diffr app, where every pick comes straight from the brand database &mdash; swap any slot and build your own no-repeat kit. Do your face. Stop comparing.</p>
+`,
+  },
+  {
     slug: 'hiking-gear-brand-guide',
     title: 'The Beginner Day Hiker Brand Guide: Every Slot Assigned',
     description: 'Ten day-hiking gear slots &mdash; boots to navigation &mdash; assigned and closed. The Diffr brand guide for new hikers who want to hit the trail without reading forty gear reviews first.',

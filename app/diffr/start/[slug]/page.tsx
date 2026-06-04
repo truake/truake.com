@@ -230,6 +230,9 @@ const START_SLUG_TO_BLOG: Record<string, string> = {
   "hiking": "hiking-gear-brand-guide",
   "yoga-mindfulness": "yoga-gear-brand-guide",
   "home-gaming": "pc-gaming-gear-brand-guide",
+  "backpacking-basecamp": "backpacking-gear-brand-guide",
+  "skincare": "skincare-brand-guide",
+  "make-up-starter-kit": "makeup-brand-guide",
 };
 
 // ── Page ──────────────────────────────────────────────────────

@@ -33,6 +33,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: yoga needs a mat and a body — everything else is a prop that makes poses accessible. Buy one quality mat (the one place not to cheap out, ~$90–140 with a block and strap), add blocks and a strap for tight beginner bodies, and leave the bolster, towel, and meditation cushion until a specific practice asks for them. Below is one brand per slot, no repeats.',
   'pc-gaming-gear-brand-guide':
     'Bottom line: past the PC itself, a beginner battlestation is four peripherals — monitor, keyboard, mouse, headset — plus a chair worth not cheaping out on. Spend on the monitor (high refresh beats high resolution for beginners) and the chair (hours of your back); keep peripherals solid-and-cheap. The mic and stream deck wait until you stream. Below is one brand per slot, no repeats.',
+  'backpacking-gear-brand-guide':
+    'Bottom line: backpacking comes down to the big three — pack, tent, and sleep system (bag + pad) — which dominate your weight, space, and budget; nail those, then add a stove, water filter, headlamp, and first aid kit. Budget roughly $700–1,200, and rent or borrow the big-ticket items for your first trips before committing. Skip ultralight gear until you know what actually bothers you. Below is one brand per slot, no repeats.',
+  'skincare-brand-guide':
+    'Bottom line: a beginner morning routine is three steps — cleanse, moisturize, and protect with sunscreen — and sunscreen matters most, by far. A vitamin C serum is the best optional add; toner and eye cream are genuinely skippable. The whole effective routine costs about $60–100 and is mostly drugstore — expensive rarely means better here. Below is one brand per slot, no repeats.',
+  'makeup-brand-guide':
+    'Bottom line: an everyday beginner face is about five products — a natural base, concealer, mascara, blush, and a forgiving lip — plus a couple of brushes and a sponge to apply them. Go mostly drugstore with one or two splurges (concealer, a good sponge); skip contour, eyeshadow, and setting products until later. Start with the items hardest to apply badly. Below is one brand per slot, no repeats.',
 }
 
 export interface FaqItem {
@@ -209,6 +215,63 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Is an expensive gaming chair worth it for a beginner?',
       a: 'It is the one peripheral where buying once beats buying cheap. You are in it for hours, and a quality chair prevents the back and neck pain a cheap chair causes within months. If you trim the budget anywhere, trim the mousepad and the mic — not the chair.',
+    },
+  ],
+
+  'backpacking-gear-brand-guide': [
+    {
+      q: 'What do I actually need for my first backpacking trip?',
+      a: 'The big three dominate everything: a pack, a shelter (tent), and a sleep system (bag plus pad). Add a stove, a water filter, a headlamp, and a first aid kit and you can complete almost any beginner overnight. Cooksets, poles, and the gram-shaving upgrades come later.',
+    },
+    {
+      q: 'How much does a beginner backpacking kit cost?',
+      a: 'A complete, quality setup runs roughly $700–1,200, with the big three as the bulk of it. You can cut that substantially by renting or borrowing the big-ticket items for your first few trips before committing — the smartest beginner move there is.',
+    },
+    {
+      q: 'What is the big three in backpacking?',
+      a: 'Your pack, your shelter, and your sleep system (bag plus pad). They dominate your pack weight, volume, and cost, so they are where beginners should focus attention and budget. Get those three right and the rest of the kit is comparatively cheap and easy.',
+    },
+    {
+      q: 'Should a beginner buy ultralight gear?',
+      a: 'No. Ultralight gear is expensive, often less durable, and solves a problem (shaving ounces over big miles) that beginners do not yet have. Start with durable, comfortable, well-priced gear, learn what actually bothers you on trail, then upgrade deliberately. Comfort and reliability beat weight for a first season.',
+    },
+  ],
+
+  'skincare-brand-guide': [
+    {
+      q: 'What does a beginner actually need for skincare?',
+      a: 'Three steps, every morning: cleanse, moisturize, and protect with sunscreen. That trio covers the fundamentals for almost everyone. A vitamin C serum is the best optional add, and toners and eye creams are genuinely optional — skip them until you have a specific reason.',
+    },
+    {
+      q: 'What is the most important skincare step?',
+      a: 'Sunscreen, by a wide margin. Daily sun protection does more to keep skin healthy and slow visible aging than any serum or treatment. If a beginner does only one thing, it should be wearing a facial sunscreen every morning, rain or shine.',
+    },
+    {
+      q: 'How much should a beginner spend on skincare?',
+      a: 'A complete, effective beginner routine costs about $60–100 and is mostly drugstore. Skincare is one area where expensive rarely means better for beginners — the dermatologist-recommended staples are affordable. Spend on a sunscreen you will actually wear, not on a ten-step prestige routine.',
+    },
+    {
+      q: 'Do I need a separate morning and night routine?',
+      a: 'Eventually, but not to start. A simple morning routine (cleanse, moisturize, sunscreen) plus removing it at night with a cleanser will serve a beginner well. Night-specific actives like retinol are a deliberate next step, added one at a time once the basics are a habit.',
+    },
+  ],
+
+  'makeup-brand-guide': [
+    {
+      q: 'What does a beginner actually need for an everyday makeup look?',
+      a: 'A natural everyday face needs about five things: a base (foundation or tinted moisturizer), concealer, mascara, a touch of blush, and a lip. Add the tools to apply them — a few brushes and a sponge — and you are done. Eyeshadow, contour, and setting products are for later or for occasions.',
+    },
+    {
+      q: 'Where should a beginner spend the most on makeup?',
+      a: 'Mostly drugstore is the right call, with one or two strategic splurges — a good concealer and a quality sponge or brush set reward spending, because application quality shows. Foundation, mascara, blush, and primer all have excellent affordable options. Do not buy prestige across the board to start.',
+    },
+    {
+      q: 'Do I need expensive makeup brushes to start?',
+      a: 'No. An affordable starter set from a brand like Real Techniques applies everything in a beginner kit well, and a damp makeup sponge does the blending a beginner needs most. The thirty-piece luxury brush set is for hobbyists, not beginners — soft and clean matters more than the logo.',
+    },
+    {
+      q: 'What is the most beginner-friendly makeup item?',
+      a: 'A sheer, universal lip tint and a buildable blush — both are nearly impossible to apply badly and instantly make a face look more put-together. Mascara is the other high-impact, low-skill item. Start where mistakes are hardest to make.',
     },
   ],
 }
