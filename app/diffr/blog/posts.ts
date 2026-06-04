@@ -13,7 +13,7 @@ export interface BlogPost {
 export const posts: BlogPost[] = [
   {
     slug: 'backpacking-gear-brand-guide',
-    title: 'The Beginner Backpacker Brand Guide: Every Slot Assigned',
+    title: 'Best Backpacking Gear for Beginners: Every Slot Assigned',
     description: 'Eleven backpacking gear slots &mdash; the big three to navigation &mdash; assigned and closed. The Diffr brand guide for new backpackers who want to hit the trail without a six-month research project.',
     date: '2026-06-04',
     readTime: '8 min read',
@@ -75,7 +75,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'skincare-brand-guide',
-    title: 'The Beginner Skincare Brand Guide: Every Slot Assigned',
+    title: 'Best Skincare for Beginners: Every Slot Assigned',
     description: 'Six morning skincare slots &mdash; cleanser to sunscreen &mdash; assigned and closed. The Diffr brand guide for skincare beginners who want a routine that works without a ten-step ritual.',
     date: '2026-06-04',
     readTime: '5 min read',
@@ -117,7 +117,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'makeup-brand-guide',
-    title: 'The Beginner Makeup Brand Guide: Every Slot Assigned',
+    title: 'Best Makeup for Beginners: Every Slot Assigned',
     description: 'Ten everyday makeup slots &mdash; foundation to primer &mdash; assigned and closed. The Diffr brand guide for makeup beginners who want a natural everyday face without the forty-product aisle.',
     date: '2026-06-04',
     readTime: '6 min read',
@@ -175,7 +175,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'hiking-gear-brand-guide',
-    title: 'The Beginner Day Hiker Brand Guide: Every Slot Assigned',
+    title: 'Best Hiking Gear for Beginners: Every Slot Assigned',
     description: 'Ten day-hiking gear slots &mdash; boots to navigation &mdash; assigned and closed. The Diffr brand guide for new hikers who want to hit the trail without reading forty gear reviews first.',
     date: '2026-06-04',
     readTime: '7 min read',
@@ -233,7 +233,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'yoga-gear-brand-guide',
-    title: 'The Beginner Yoga Brand Guide: Every Slot Assigned',
+    title: 'Best Yoga Gear for Beginners: Every Slot Assigned',
     description: 'Six yoga and mindfulness slots &mdash; mat to meditation cushion &mdash; assigned and closed. The Diffr brand guide for new yogis who want to start without comparing forty mats.',
     date: '2026-06-04',
     readTime: '6 min read',
@@ -275,7 +275,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'pc-gaming-gear-brand-guide',
-    title: 'The Beginner PC Gaming Battlestation Brand Guide: Every Slot Assigned',
+    title: 'Best PC Gaming Gear for Beginners: Every Slot Assigned',
     description: 'Eight battlestation slots &mdash; monitor to stream deck &mdash; assigned and closed. The Diffr brand guide for new PC gamers building a setup without reading a hundred peripheral reviews.',
     date: '2026-06-04',
     readTime: '7 min read',
@@ -1534,7 +1534,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'steak-dinner-brand-guide',
-    title: 'The Steak Dinner Brand Guide: Every Slot Assigned, Zero Repeats',
+    title: 'Best Steak Dinner Gear for Beginners: Every Slot Assigned',
     description: 'A Diffr brand guide for cooking a premium steak dinner at home. Every slot assigned — cut to candle. Zero repeats, zero decision fatigue.',
     date: '2026-05-23',
     readTime: '7 min read',
@@ -1609,7 +1609,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'home-coffee-brand-guide',
-    title: 'The Home Coffee Brand Guide: One Brand Per Slot, No Decision Fatigue',
+    title: 'Best Home Coffee Gear for Beginners: Every Slot Assigned',
     description: 'A Diffr brand guide for building a quality home coffee setup. One brand per slot — beans to reference book. No rabbit holes, no regret.',
     date: '2026-05-23',
     readTime: '6 min read',
@@ -1672,7 +1672,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'home-office-brand-guide',
-    title: 'The Home Office Brand Guide: 13 Slots, 13 Brands, Every Decision Made',
+    title: 'Best Home Office Gear for Beginners: Every Slot Assigned',
     description: 'Stop scrolling r/homeoffice. Here are 13 home office slots, 13 real brand picks, and zero decisions left for you to make.',
     date: '2026-05-23',
     readTime: '8 min read',
@@ -1892,7 +1892,7 @@ Diffr ends with: here is what you get.</p>
 
   {
     slug: 'running-gear-brand-guide',
-    title: 'The Beginner Runner Brand Guide: Every Slot Assigned',
+    title: 'Best Running Gear for Beginners: Every Slot Assigned',
     description: 'Eleven running gear slots — shoes to training app — assigned and closed. The Diffr brand guide for new runners who want to start without spending six hours reading gear reviews.',
     date: '2026-05-30',
     readTime: '7 min read',
@@ -1955,7 +1955,7 @@ Diffr ends with: here is what you get.</p>
 
   {
     slug: 'film-photography-brand-guide',
-    title: 'The Film Photography Brand Guide for Beginners: Every Slot Assigned',
+    title: 'Best Film Photography Gear for Beginners: Every Slot Assigned',
     description: 'Eleven film photography slots — camera body to mail-in processing — assigned and closed. The Diffr brand guide for new film photographers who want to shoot without the gear paralysis.',
     date: '2026-05-30',
     readTime: '8 min read',
@@ -2018,7 +2018,7 @@ Diffr ends with: here is what you get.</p>
 
   {
     slug: 'home-gym-brand-guide',
-    title: 'The Home Gym Brand Guide for Beginners: Every Slot Assigned',
+    title: 'Best Home Gym Equipment for Beginners: Every Slot Assigned',
     description: 'Ten home gym slots — adjustable dumbbells to training app — assigned and closed. The Diffr brand guide for new lifters who want to start without spending three days in Amazon rabbit holes.',
     date: '2026-05-30',
     readTime: '7 min read',
@@ -2081,7 +2081,7 @@ Diffr ends with: here is what you get.</p>
   // (/diffr/start/cycling-commute). See Obsidian "Scene 数据闭环" doc.
   {
     slug: 'bike-commuting-gear-brand-guide',
-    title: 'The Bike Commuting Gear Brand Guide for Beginners: Every Slot Assigned',
+    title: 'Best Bike Commuting Gear for Beginners: Every Slot Assigned',
     description: 'Twelve bike commuting gear slots, bike to roadside kit, assigned and closed. The Diffr brand guide for new commuters who want to start riding to work without the gear-forum paralysis.',
     date: '2026-05-31',
     readTime: '8 min read',
