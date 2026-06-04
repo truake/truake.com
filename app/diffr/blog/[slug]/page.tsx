@@ -5,6 +5,7 @@ import { getAllPosts, getPostBySlug } from '../posts'
 import { PostNavLinks } from './nav-links'
 import { getSceneBrandKit } from '../../start/lib'
 import SceneBrandKit from '../../start/SceneBrandKit'
+import { BLOG_FAQ } from '../faq'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -87,6 +88,7 @@ export default async function BlogPostPage({ params }: Props) {
   const presetId = BLOG_SLUG_TO_PRESET[slug]
   const brandKit = presetId ? await getSceneBrandKit(presetId) : null
   const startSlug = BLOG_SLUG_TO_START[slug] ?? null
+  const faq = BLOG_FAQ[slug] ?? null
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -137,6 +139,20 @@ export default async function BlogPostPage({ params }: Props) {
     ],
   }
 
+  // FAQPage — mirrors the visible FAQ section below. Strong AEO/GEO signal
+  // (AI engines parse FAQPage directly) and still valid structured data.
+  const faqLd = faq
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faq.map((item) => ({
+          '@type': 'Question',
+          name: item.q,
+          acceptedAnswer: { '@type': 'Answer', text: item.a },
+        })),
+      }
+    : null
+
   return (
     <div style={{ backgroundColor: '#0A0A0F', minHeight: '100vh', color: '#e8e8e8' }}>
       <script
@@ -153,6 +169,12 @@ export default async function BlogPostPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
 
       {/* Nav */}
       <nav style={{
@@ -250,6 +272,43 @@ export default async function BlogPostPage({ params }: Props) {
               </div>
             )}
           </div>
+        )}
+
+        {/* FAQ — visible content mirrored by the FAQPage JSON-LD above */}
+        {faq && (
+          <section style={{ marginTop: '48px' }}>
+            <h2 style={{
+              fontFamily: "var(--font-display), 'Playfair Display', serif",
+              fontSize: 'clamp(24px, 3vw, 32px)',
+              fontWeight: 700, letterSpacing: '-0.02em',
+              color: '#e8e8e8', margin: '0 0 24px',
+            }}>
+              Frequently Asked Questions
+            </h2>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+              {faq.map((item, i) => (
+                <div key={i} style={{
+                  padding: '20px 0',
+                  borderTop: i === 0 ? 'none' : '1px solid rgba(255,255,255,0.08)',
+                }}>
+                  <h3 style={{
+                    fontFamily: "'Space Grotesk', sans-serif",
+                    fontSize: '17px', fontWeight: 600, lineHeight: 1.4,
+                    color: '#e8e8e8', margin: '0 0 10px',
+                  }}>
+                    {item.q}
+                  </h3>
+                  <p style={{
+                    fontFamily: 'Georgia, serif',
+                    fontSize: '16px', lineHeight: 1.7,
+                    color: 'rgba(232,232,232,0.78)', margin: 0,
+                  }}>
+                    {item.a}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
         )}
 
         {/* Tags */}
