@@ -140,17 +140,29 @@ function SlotCard({ slot, cardV, imgV, hover }: {
         >
           {slot.productTypeName}
         </p>
-        <p
-          style={{
-            fontSize: "16px",
-            fontWeight: 700,
-            color: C.text,
-            margin: "0 0 2px",
-            lineHeight: 1.25,
-          }}
-        >
-          {slot.brandName}
-        </p>
+        <div style={{ display: "flex", alignItems: "center", gap: "8px", margin: "0 0 2px", minHeight: "22px" }}>
+          {slot.logoUrl && (
+            // Brand logo (brands.supabase_logo_url) — external host, plain img.
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={slot.logoUrl}
+              alt={`${slot.brandName} logo`}
+              loading="lazy"
+              style={{ height: "22px", width: "auto", maxWidth: "68px", objectFit: "contain", flexShrink: 0 }}
+            />
+          )}
+          <p
+            style={{
+              fontSize: "16px",
+              fontWeight: 700,
+              color: C.text,
+              margin: 0,
+              lineHeight: 1.25,
+            }}
+          >
+            {slot.brandName}
+          </p>
+        </div>
         {slot.productLine && (
           <p style={{ fontSize: "13px", color: C.t60, margin: "0 0 8px", lineHeight: 1.4 }}>
             {slot.productLine}

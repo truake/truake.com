@@ -141,6 +141,7 @@ export interface SceneSlot {
   isCuratedPick: boolean; // the scene's curated choice for this slot
   productLine: string | null; // flagship product name
   imageUrl: string | null;
+  logoUrl: string | null; // brand logo (brands.supabase_logo_url) — shown per slot
   status: "ready" | "pending" | string;
 }
 
@@ -294,10 +295,33 @@ export async function getSceneBrandKit(
         isCuratedPick: row.is_curated_pick ?? false,
         productLine: row.pl_id ? plMap.get(row.pl_id) || null : null,
         imageUrl: status === "ready" ? row.image_url ?? null : null,
+        logoUrl: null, // filled by the brand-logo batch fetch below
         status,
       };
     })
     .filter((s): s is SceneSlot => s !== null);
+
+  // Brand logos — give every slot its brand mark (we value brands). One bounded
+  // batch fetch over the slot brands; gated to skip known-bad logo images.
+  // Optional + best-effort: never block or fail the kit on logos.
+  try {
+    const bids = [...new Set(slots.map((s) => s.brandId))].filter(Boolean);
+    if (bids.length) {
+      const logos = await sbGet<
+        { id: number; supabase_logo_url: string | null; logo_status: string | null }[]
+      >(`brands?id=in.(${bids.join(",")})&select=id,supabase_logo_url,logo_status`);
+      const badStatus = new Set(["blank_image", "corrupt_image"]);
+      const logoMap = new Map<number, string>();
+      for (const b of logos) {
+        if (b.supabase_logo_url && !badStatus.has(b.logo_status ?? "")) {
+          logoMap.set(b.id, b.supabase_logo_url);
+        }
+      }
+      for (const s of slots) s.logoUrl = logoMap.get(s.brandId) ?? null;
+    }
+  } catch {
+    /* logos are optional — leave them null */
+  }
 
   return {
     presetId: scenario.id,
