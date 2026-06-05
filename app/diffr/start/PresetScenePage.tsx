@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import SceneBrandKit from "./SceneBrandKit";
 import type { SceneBrandKit as Kit } from "./lib";
 
@@ -52,33 +51,6 @@ export default function PresetScenePage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* Nav */}
-      <nav style={{
-        position: "fixed", top: 0, left: 0, right: 0, zIndex: 100,
-        display: "flex", alignItems: "center", justifyContent: "space-between",
-        padding: "0 40px", height: "60px",
-        background: "rgba(240,235,227,0.92)",
-        backdropFilter: "blur(20px)",
-        borderBottom: `1px solid ${C.bd}`,
-      }}>
-        <Link href="/diffr" style={{ display: "flex", alignItems: "center", gap: "8px", textDecoration: "none" }}>
-          <Image src="/truake-logo-web.png" alt="Truake" width={120} height={40} className="h-7 w-auto opacity-60" />
-          <span style={{ color: C.t30, fontSize: 16 }}>/</span>
-          <Image src="/diffr-wordmark.png" alt="Diffr" width={225} height={100} className="h-8 w-auto" />
-        </Link>
-        <div style={{ display: "flex", gap: "20px", alignItems: "center" }}>
-          <Link href="/diffr/start" style={{ fontSize: "13px", fontWeight: 500, color: C.t60, textDecoration: "none" }}>
-            All Guides
-          </Link>
-          <a href={`diffr://scene/${slug}`} style={{
-            background: C.blue, color: "#fff",
-            padding: "9px 22px", borderRadius: "100px",
-            textDecoration: "none", fontSize: "13px", fontWeight: 700,
-          }}>
-            Open in Diffr ↗
-          </a>
-        </div>
-      </nav>
 
       <article style={{ maxWidth: "760px", margin: "0 auto", padding: "100px 40px 120px" }}>
         {/* Breadcrumb */}

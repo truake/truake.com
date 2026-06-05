@@ -190,31 +190,6 @@ export default async function BlogPostPage({ params }: Props) {
         />
       )}
 
-      {/* Nav */}
-      <nav style={{
-        position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
-        padding: '16px 32px',
-        display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        background: 'rgba(240,235,227,0.92)',
-        backdropFilter: 'blur(12px)',
-        borderBottom: '1px solid rgba(42,38,32,0.06)',
-      }}>
-        <Link href="/diffr" style={{ textDecoration: 'none' }}>
-          <span style={{ fontFamily: "var(--font-display), 'Playfair Display', serif", fontWeight: 700, fontSize: '18px', color: '#1B8BF5', letterSpacing: '-0.02em', fontStyle: 'italic' }}>
-            diffr
-          </span>
-        </Link>
-        <div style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>
-          <Link href="/diffr/blog" style={{ color: 'rgba(42,38,32,0.7)', textDecoration: 'none', fontSize: '14px' }}>← All posts</Link>
-          <Link href="/diffr#waitlist" style={{
-            background: '#1B8BF5', color: '#fff',
-            padding: '8px 20px', borderRadius: '8px',
-            textDecoration: 'none', fontSize: '14px', fontWeight: 600,
-          }}>
-            Join Waitlist
-          </Link>
-        </div>
-      </nav>
 
       {/* Article */}
       <article style={{ maxWidth: '720px', margin: '0 auto', padding: '100px 24px 80px' }}>
