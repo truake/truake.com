@@ -81,9 +81,9 @@ const categoryLabel: Record<string, string> = {
 }
 
 const categoryColor: Record<string, string> = {
-  'build-log': '#13ae67',
+  'build-log': '#1B8BF5',
   'strategy': '#1d2088',
-  'product': '#7c6af7',
+  'product': '#F0522C',
 }
 
 export default async function BlogPostPage({ params }: Props) {
@@ -168,7 +168,7 @@ export default async function BlogPostPage({ params }: Props) {
     : null
 
   return (
-    <div style={{ backgroundColor: '#0A0A0F', minHeight: '100vh', color: '#e8e8e8' }}>
+    <div style={{ backgroundColor: '#F0EBE3', minHeight: '100vh', color: '#2A2620' }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -195,19 +195,19 @@ export default async function BlogPostPage({ params }: Props) {
         position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
         padding: '16px 32px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        background: 'rgba(10,10,15,0.9)',
+        background: 'rgba(240,235,227,0.92)',
         backdropFilter: 'blur(12px)',
-        borderBottom: '1px solid rgba(255,255,255,0.06)',
+        borderBottom: '1px solid rgba(42,38,32,0.06)',
       }}>
         <Link href="/diffr" style={{ textDecoration: 'none' }}>
-          <span style={{ fontFamily: "var(--font-display), 'Playfair Display', serif", fontWeight: 700, fontSize: '18px', color: '#13ae67', letterSpacing: '-0.02em', fontStyle: 'italic' }}>
+          <span style={{ fontFamily: "var(--font-display), 'Playfair Display', serif", fontWeight: 700, fontSize: '18px', color: '#1B8BF5', letterSpacing: '-0.02em', fontStyle: 'italic' }}>
             diffr
           </span>
         </Link>
         <div style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>
-          <Link href="/diffr/blog" style={{ color: 'rgba(232,232,232,0.7)', textDecoration: 'none', fontSize: '14px' }}>← All posts</Link>
+          <Link href="/diffr/blog" style={{ color: 'rgba(42,38,32,0.7)', textDecoration: 'none', fontSize: '14px' }}>← All posts</Link>
           <Link href="/diffr#waitlist" style={{
-            background: '#13ae67', color: '#0A0A0F',
+            background: '#1B8BF5', color: '#fff',
             padding: '8px 20px', borderRadius: '8px',
             textDecoration: 'none', fontSize: '14px', fontWeight: 600,
           }}>
@@ -230,7 +230,7 @@ export default async function BlogPostPage({ params }: Props) {
             }}>
               {categoryLabel[post.category]}
             </span>
-            <span style={{ color: 'rgba(232,232,232,0.4)', fontSize: '13px' }}>
+            <span style={{ color: 'rgba(42,38,32,0.4)', fontSize: '13px' }}>
               {new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
               {' · '}{post.readTime}
             </span>
@@ -244,32 +244,32 @@ export default async function BlogPostPage({ params }: Props) {
           }}>
             {post.title}
           </h1>
-          <p style={{ color: 'rgba(232,232,232,0.6)', fontSize: '18px', lineHeight: 1.6 }}>
+          <p style={{ color: 'rgba(42,38,32,0.6)', fontSize: '18px', lineHeight: 1.6 }}>
             {post.description}
           </p>
-          <div style={{ height: '1px', background: 'rgba(255,255,255,0.08)', margin: '32px 0' }} />
+          <div style={{ height: '1px', background: 'rgba(42,38,32,0.08)', margin: '32px 0' }} />
         </header>
 
         {/* TL;DR — answer-first summary (GEO/AEO). Mirrors BlogPosting.abstract. */}
         {tldr && (
           <div style={{
             marginBottom: '40px',
-            background: 'rgba(19,174,103,0.07)',
-            border: '1px solid rgba(19,174,103,0.22)',
+            background: 'rgba(27,139,245,0.07)',
+            border: '1px solid rgba(27,139,245,0.22)',
             borderRadius: '12px',
             padding: '20px 24px',
           }}>
             <p style={{
               fontFamily: "'Space Grotesk', sans-serif",
               fontSize: '11px', fontWeight: 700, letterSpacing: '0.15em',
-              textTransform: 'uppercase', color: '#13ae67', margin: '0 0 10px',
+              textTransform: 'uppercase', color: '#1B8BF5', margin: '0 0 10px',
             }}>
               TL;DR
             </p>
             <p style={{
               fontFamily: 'Georgia, serif',
               fontSize: '16px', lineHeight: 1.7,
-              color: 'rgba(232,232,232,0.88)', margin: 0,
+              color: 'rgba(42,38,32,0.88)', margin: 0,
             }}>
               {tldr}
             </p>
@@ -284,13 +284,10 @@ export default async function BlogPostPage({ params }: Props) {
         />
 
         {/* Live shoppable kit — DB-driven brand picks + affiliate buy links.
-            Wrapped in a light panel so the light-themed kit reads on the dark blog. */}
+            Renders on the now-light page (matches /diffr/start). */}
         {brandKit && brandKit.slots.length > 0 && (
           <div style={{
             marginTop: '48px',
-            background: '#F0EBE3',
-            borderRadius: '16px',
-            padding: '28px 28px 8px',
           }}>
             <SceneBrandKit kit={brandKit} />
             {startSlug && (
@@ -321,7 +318,7 @@ export default async function BlogPostPage({ params }: Props) {
               fontFamily: "var(--font-display), 'Playfair Display', serif",
               fontSize: 'clamp(24px, 3vw, 32px)',
               fontWeight: 700, letterSpacing: '-0.02em',
-              color: '#e8e8e8', margin: '0 0 24px',
+              color: '#2A2620', margin: '0 0 24px',
             }}>
               Frequently Asked Questions
             </h2>
@@ -329,19 +326,19 @@ export default async function BlogPostPage({ params }: Props) {
               {faq.map((item, i) => (
                 <div key={i} style={{
                   padding: '20px 0',
-                  borderTop: i === 0 ? 'none' : '1px solid rgba(255,255,255,0.08)',
+                  borderTop: i === 0 ? 'none' : '1px solid rgba(42,38,32,0.08)',
                 }}>
                   <h3 style={{
                     fontFamily: "'Space Grotesk', sans-serif",
                     fontSize: '17px', fontWeight: 600, lineHeight: 1.4,
-                    color: '#e8e8e8', margin: '0 0 10px',
+                    color: '#2A2620', margin: '0 0 10px',
                   }}>
                     {item.q}
                   </h3>
                   <p style={{
                     fontFamily: 'Georgia, serif',
                     fontSize: '16px', lineHeight: 1.7,
-                    color: 'rgba(232,232,232,0.78)', margin: 0,
+                    color: 'rgba(42,38,32,0.78)', margin: 0,
                   }}>
                     {item.a}
                   </p>
@@ -352,13 +349,13 @@ export default async function BlogPostPage({ params }: Props) {
         )}
 
         {/* Tags */}
-        <div style={{ marginTop: '48px', paddingTop: '32px', borderTop: '1px solid rgba(255,255,255,0.08)' }}>
+        <div style={{ marginTop: '48px', paddingTop: '32px', borderTop: '1px solid rgba(42,38,32,0.08)' }}>
           <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
             {post.tags.map(tag => (
               <span key={tag} style={{
-                color: 'rgba(232,232,232,0.45)', fontSize: '12px',
-                background: 'rgba(255,255,255,0.05)', padding: '4px 12px', borderRadius: '100px',
-                border: '1px solid rgba(255,255,255,0.08)',
+                color: 'rgba(42,38,32,0.45)', fontSize: '12px',
+                background: 'rgba(42,38,32,0.05)', padding: '4px 12px', borderRadius: '100px',
+                border: '1px solid rgba(42,38,32,0.08)',
               }}>
                 #{tag}
               </span>
@@ -369,18 +366,18 @@ export default async function BlogPostPage({ params }: Props) {
         {/* CTA */}
         <div style={{
           marginTop: '48px',
-          background: 'rgba(19,174,103,0.08)',
-          border: '1px solid rgba(19,174,103,0.2)',
+          background: 'rgba(27,139,245,0.08)',
+          border: '1px solid rgba(27,139,245,0.2)',
           borderRadius: '16px',
           padding: '32px',
           textAlign: 'center',
         }}>
-          <p style={{ fontSize: '16px', lineHeight: 1.6, marginBottom: '20px', color: 'rgba(232,232,232,0.8)' }}>
+          <p style={{ fontSize: '16px', lineHeight: 1.6, marginBottom: '20px', color: 'rgba(42,38,32,0.8)' }}>
             Diffr is building a brand curation platform based on the no-repeat principle. Early access is limited.
           </p>
           <Link href="/diffr#waitlist" style={{
             display: 'inline-block',
-            background: '#13ae67', color: '#0A0A0F',
+            background: '#1B8BF5', color: '#fff',
             padding: '14px 32px', borderRadius: '10px',
             textDecoration: 'none', fontSize: '15px', fontWeight: 700,
           }}>
@@ -393,13 +390,13 @@ export default async function BlogPostPage({ params }: Props) {
 
       {/* Footer */}
       <footer style={{
-        borderTop: '1px solid rgba(255,255,255,0.06)',
+        borderTop: '1px solid rgba(42,38,32,0.06)',
         padding: '32px 24px',
         textAlign: 'center',
-        color: 'rgba(232,232,232,0.35)',
+        color: 'rgba(42,38,32,0.35)',
         fontSize: '13px',
       }}>
-        <p>© 2026 Truake OPC · <Link href="/diffr" style={{ color: 'rgba(232,232,232,0.5)', textDecoration: 'none' }}>Diffr</Link></p>
+        <p>© 2026 Truake OPC · <Link href="/diffr" style={{ color: 'rgba(42,38,32,0.5)', textDecoration: 'none' }}>Diffr</Link></p>
       </footer>
     </div>
   )

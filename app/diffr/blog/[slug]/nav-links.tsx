@@ -16,14 +16,14 @@ export function PostNavLinks({ prev, next }: { prev: BlogPost | null; next: Blog
         <Link href={`/diffr/blog/${prev.slug}`} style={{ textDecoration: 'none' }}>
           <div
             style={{
-              background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.07)',
+              background: '#F8F5F1', border: '1px solid rgba(42,38,32,0.10)',
               borderRadius: '10px', padding: '20px', transition: 'border-color 0.2s', cursor: 'pointer',
             }}
-            onMouseEnter={e => (e.currentTarget.style.borderColor = 'rgba(19,174,103,0.3)')}
-            onMouseLeave={e => (e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)')}
+            onMouseEnter={e => (e.currentTarget.style.borderColor = 'rgba(27,139,245,0.3)')}
+            onMouseLeave={e => (e.currentTarget.style.borderColor = 'rgba(42,38,32,0.07)')}
           >
-            <p style={{ fontSize: '11px', color: 'rgba(232,232,232,0.4)', marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>← Previous</p>
-            <p style={{ fontSize: '14px', fontWeight: 600, color: '#e8e8e8', lineHeight: 1.4 }}>{prev.title}</p>
+            <p style={{ fontSize: '11px', color: 'rgba(42,38,32,0.4)', marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>← Previous</p>
+            <p style={{ fontSize: '14px', fontWeight: 600, color: '#2A2620', lineHeight: 1.4 }}>{prev.title}</p>
           </div>
         </Link>
       )}
@@ -31,14 +31,14 @@ export function PostNavLinks({ prev, next }: { prev: BlogPost | null; next: Blog
         <Link href={`/diffr/blog/${next.slug}`} style={{ textDecoration: 'none', textAlign: 'right' }}>
           <div
             style={{
-              background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.07)',
+              background: '#F8F5F1', border: '1px solid rgba(42,38,32,0.10)',
               borderRadius: '10px', padding: '20px', transition: 'border-color 0.2s', cursor: 'pointer',
             }}
-            onMouseEnter={e => (e.currentTarget.style.borderColor = 'rgba(19,174,103,0.3)')}
-            onMouseLeave={e => (e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)')}
+            onMouseEnter={e => (e.currentTarget.style.borderColor = 'rgba(27,139,245,0.3)')}
+            onMouseLeave={e => (e.currentTarget.style.borderColor = 'rgba(42,38,32,0.07)')}
           >
-            <p style={{ fontSize: '11px', color: 'rgba(232,232,232,0.4)', marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Next →</p>
-            <p style={{ fontSize: '14px', fontWeight: 600, color: '#e8e8e8', lineHeight: 1.4 }}>{next.title}</p>
+            <p style={{ fontSize: '11px', color: 'rgba(42,38,32,0.4)', marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Next →</p>
+            <p style={{ fontSize: '14px', fontWeight: 600, color: '#2A2620', lineHeight: 1.4 }}>{next.title}</p>
           </div>
         </Link>
       )}

@@ -18,25 +18,25 @@ export default function BlogIndexPage() {
   const posts = getAllPosts()
 
   return (
-    <div style={{ backgroundColor: '#0A0A0F', minHeight: '100vh', color: '#e8e8e8' }}>
+    <div style={{ backgroundColor: '#F0EBE3', minHeight: '100vh', color: '#2A2620' }}>
       {/* Nav */}
       <nav style={{
         position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
         padding: '16px 32px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        background: 'rgba(10,10,15,0.85)',
+        background: 'rgba(240,235,227,0.92)',
         backdropFilter: 'blur(12px)',
-        borderBottom: '1px solid rgba(255,255,255,0.06)',
+        borderBottom: '1px solid rgba(42,38,32,0.06)',
       }}>
         <Link href="/diffr" style={{ textDecoration: 'none' }}>
-          <span style={{ fontFamily: "var(--font-display), 'Playfair Display', serif", fontWeight: 700, fontSize: '18px', color: '#13ae67', letterSpacing: '-0.02em', fontStyle: 'italic' }}>
+          <span style={{ fontFamily: "var(--font-display), 'Playfair Display', serif", fontWeight: 700, fontSize: '18px', color: '#1B8BF5', letterSpacing: '-0.02em', fontStyle: 'italic' }}>
             diffr
           </span>
         </Link>
         <div style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>
-          <Link href="/diffr/blog" style={{ color: '#e8e8e8', textDecoration: 'none', fontSize: '14px', fontWeight: 500 }}>Blog</Link>
+          <Link href="/diffr/blog" style={{ color: '#2A2620', textDecoration: 'none', fontSize: '14px', fontWeight: 500 }}>Blog</Link>
           <Link href="/diffr#waitlist" style={{
-            background: '#13ae67', color: '#0A0A0F',
+            background: '#1B8BF5', color: '#fff',
             padding: '8px 20px', borderRadius: '8px',
             textDecoration: 'none', fontSize: '14px', fontWeight: 600,
           }}>
@@ -53,7 +53,7 @@ export default function BlogIndexPage() {
           {/* gradient fade to page bg */}
           <div style={{
             position: 'absolute', inset: 0,
-            background: 'linear-gradient(to bottom, rgba(10,10,15,0.35) 0%, rgba(10,10,15,0.0) 30%, rgba(10,10,15,0.5) 75%, #0A0A0F 100%)',
+            background: 'linear-gradient(to bottom, rgba(240,235,227,0.0) 0%, rgba(240,235,227,0.0) 55%, rgba(240,235,227,0.6) 82%, #F0EBE3 100%)',
           }} />
           {/* centred label over circles */}
           <div style={{
@@ -70,16 +70,16 @@ export default function BlogIndexPage() {
               fontWeight: 700,
               lineHeight: 1.1,
               letterSpacing: '-0.02em',
-              color: '#ffffff',
+              color: '#2A2620',
             }}>
               Build logs, product thinking,<br />
-              <span style={{ color: '#13ae67' }}>and brand philosophy.</span>
+              <span style={{ color: '#1B8BF5' }}>and brand philosophy.</span>
             </h1>
           </div>
         </div>
         {/* subheading below circles */}
         <div style={{ textAlign: 'center', padding: '24px 24px 48px' }}>
-          <p style={{ color: 'rgba(232,232,232,0.55)', fontSize: '17px', maxWidth: '460px', margin: '0 auto' }}>
+          <p style={{ color: 'rgba(42,38,32,0.55)', fontSize: '17px', maxWidth: '460px', margin: '0 auto' }}>
             From the desk of a solo founder building a brand curation platform from scratch.
           </p>
         </div>
@@ -97,13 +97,13 @@ export default function BlogIndexPage() {
 
       {/* Footer */}
       <footer style={{
-        borderTop: '1px solid rgba(255,255,255,0.06)',
+        borderTop: '1px solid rgba(42,38,32,0.06)',
         padding: '32px 24px',
         textAlign: 'center',
-        color: 'rgba(232,232,232,0.35)',
+        color: 'rgba(42,38,32,0.35)',
         fontSize: '13px',
       }}>
-        <p>© 2026 Truake OPC · <Link href="/diffr" style={{ color: 'rgba(232,232,232,0.5)', textDecoration: 'none' }}>Diffr</Link></p>
+        <p>© 2026 Truake OPC · <Link href="/diffr" style={{ color: 'rgba(42,38,32,0.5)', textDecoration: 'none' }}>Diffr</Link></p>
       </footer>
     </div>
   )

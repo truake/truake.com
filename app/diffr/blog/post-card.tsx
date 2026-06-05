@@ -10,9 +10,9 @@ const categoryLabel: Record<string, string> = {
 }
 
 const categoryColor: Record<string, string> = {
-  'build-log': '#13ae67',
+  'build-log': '#1B8BF5',
   'strategy': '#1d2088',
-  'product': '#7c6af7',
+  'product': '#F0522C',
 }
 
 export function FeaturedCard({ post }: { post: BlogPost }) {
@@ -21,15 +21,15 @@ export function FeaturedCard({ post }: { post: BlogPost }) {
       <article
         className="blog-featured-card"
         style={{
-          background: 'rgba(255,255,255,0.04)',
-          border: '1px solid rgba(255,255,255,0.08)',
+          background: '#F8F5F1',
+          border: '1px solid rgba(42,38,32,0.08)',
           borderRadius: '16px',
           padding: '40px',
           transition: 'border-color 0.2s',
           cursor: 'pointer',
         }}
-        onMouseEnter={e => (e.currentTarget.style.borderColor = 'rgba(19,174,103,0.4)')}
-        onMouseLeave={e => (e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)')}
+        onMouseEnter={e => (e.currentTarget.style.borderColor = 'rgba(27,139,245,0.4)')}
+        onMouseLeave={e => (e.currentTarget.style.borderColor = 'rgba(42,38,32,0.08)')}
       >
         <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginBottom: '20px' }}>
           <span style={{
@@ -41,7 +41,7 @@ export function FeaturedCard({ post }: { post: BlogPost }) {
           }}>
             {categoryLabel[post.category]}
           </span>
-          <span style={{ color: 'rgba(232,232,232,0.4)', fontSize: '13px' }}>
+          <span style={{ color: 'rgba(42,38,32,0.4)', fontSize: '13px' }}>
             {new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
             {' · '}{post.readTime}
           </span>
@@ -51,18 +51,18 @@ export function FeaturedCard({ post }: { post: BlogPost }) {
           fontSize: 'clamp(22px, 3vw, 30px)',
           fontWeight: 700, lineHeight: 1.2,
           letterSpacing: '-0.02em',
-          color: '#e8e8e8', marginBottom: '16px',
+          color: '#2A2620', marginBottom: '16px',
         }}>
           {post.title}
         </h2>
-        <p style={{ color: 'rgba(232,232,232,0.6)', fontSize: '16px', lineHeight: 1.7, marginBottom: '24px', maxWidth: '680px' }}>
+        <p style={{ color: 'rgba(42,38,32,0.6)', fontSize: '16px', lineHeight: 1.7, marginBottom: '24px', maxWidth: '680px' }}>
           {post.excerpt}
         </p>
         <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
           {post.tags.map(tag => (
             <span key={tag} style={{
-              color: 'rgba(232,232,232,0.4)', fontSize: '12px',
-              background: 'rgba(255,255,255,0.05)', padding: '4px 10px', borderRadius: '100px',
+              color: 'rgba(42,38,32,0.4)', fontSize: '12px',
+              background: 'rgba(42,38,32,0.05)', padding: '4px 10px', borderRadius: '100px',
             }}>
               #{tag}
             </span>
@@ -78,8 +78,8 @@ export function PostCard({ post }: { post: BlogPost }) {
     <Link href={`/diffr/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
       <article
         style={{
-          background: 'rgba(255,255,255,0.03)',
-          border: '1px solid rgba(255,255,255,0.07)',
+          background: '#F8F5F1',
+          border: '1px solid rgba(42,38,32,0.07)',
           borderRadius: '12px',
           padding: '28px',
           height: '100%',
@@ -87,12 +87,12 @@ export function PostCard({ post }: { post: BlogPost }) {
           cursor: 'pointer',
         }}
         onMouseEnter={e => {
-          e.currentTarget.style.borderColor = 'rgba(19,174,103,0.3)'
-          e.currentTarget.style.background = 'rgba(255,255,255,0.05)'
+          e.currentTarget.style.borderColor = 'rgba(27,139,245,0.3)'
+          e.currentTarget.style.background = '#F4EFE6'
         }}
         onMouseLeave={e => {
-          e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)'
-          e.currentTarget.style.background = 'rgba(255,255,255,0.03)'
+          e.currentTarget.style.borderColor = 'rgba(42,38,32,0.07)'
+          e.currentTarget.style.background = '#F8F5F1'
         }}
       >
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center', marginBottom: '14px' }}>
@@ -110,14 +110,14 @@ export function PostCard({ post }: { post: BlogPost }) {
           fontFamily: "var(--font-display), 'Playfair Display', serif",
           fontSize: '18px', fontWeight: 700, lineHeight: 1.3,
           letterSpacing: '-0.02em',
-          color: '#e8e8e8', marginBottom: '12px',
+          color: '#2A2620', marginBottom: '12px',
         }}>
           {post.title}
         </h2>
-        <p style={{ color: 'rgba(232,232,232,0.55)', fontSize: '14px', lineHeight: 1.6, marginBottom: '20px' }}>
+        <p style={{ color: 'rgba(42,38,32,0.55)', fontSize: '14px', lineHeight: 1.6, marginBottom: '20px' }}>
           {post.excerpt}
         </p>
-        <p style={{ color: 'rgba(232,232,232,0.35)', fontSize: '12px' }}>
+        <p style={{ color: 'rgba(42,38,32,0.35)', fontSize: '12px' }}>
           {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
           {' · '}{post.readTime}
         </p>
