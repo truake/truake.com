@@ -14,12 +14,12 @@ export const posts: BlogPost[] = [
   {
     slug: 'backpacking-gear-brand-guide',
     title: 'Best Backpacking Gear for Beginners: Every Slot Assigned',
-    description: 'Eleven backpacking gear slots &mdash; the big three to navigation &mdash; assigned and closed. The Diffr brand guide for new backpackers who want to hit the trail without a six-month research project.',
+    description: 'Eleven backpacking gear slots — the big three to navigation — assigned and closed. The Diffr brand guide for new backpackers who want to hit the trail without a six-month research project.',
     date: '2026-06-04',
     readTime: '8 min read',
     tags: ['brand guide', 'backpacking gear for beginners', 'backpacking brands', 'beginner backpacking', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Eleven slots. Eleven brand answers. The big three to navigation &mdash; assigned and closed. Hit the trail. Stop researching.',
+    excerpt: 'Eleven slots. Eleven brand answers. The big three to navigation — assigned and closed. Hit the trail. Stop researching.',
     content: `
 <p>Backpacking is car camping with consequences: everything you need to sleep, eat, and stay alive goes on your back, so every gram and every dollar is a decision. The gear forums will happily turn that into a six-month research project &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> measured in ounces. Diffr&rsquo;s approach is the same everywhere: one brand per slot, file closed. Here is the complete beginner overnight kit, starting with the &ldquo;big three&rdquo; that dominate your pack weight and your budget.</p>
 
@@ -76,12 +76,12 @@ export const posts: BlogPost[] = [
   {
     slug: 'skincare-brand-guide',
     title: 'Best Skincare for Beginners: Every Slot Assigned',
-    description: 'Six morning skincare slots &mdash; cleanser to sunscreen &mdash; assigned and closed. The Diffr brand guide for skincare beginners who want a routine that works without a ten-step ritual.',
+    description: 'Six morning skincare slots — cleanser to sunscreen — assigned and closed. The Diffr brand guide for skincare beginners who want a routine that works without a ten-step ritual.',
     date: '2026-06-04',
     readTime: '5 min read',
     tags: ['brand guide', 'skincare for beginners', 'skincare brands', 'beginner skincare routine', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Six slots. Six brand answers. Cleanser to sunscreen &mdash; assigned and closed. Build the routine. Stop overthinking.',
+    excerpt: 'Six slots. Six brand answers. Cleanser to sunscreen — assigned and closed. Build the routine. Stop overthinking.',
     content: `
 <p>Skincare is where the most decisions meet the most marketing. A beginner asking &ldquo;what should I use&rdquo; gets a ten-step routine, forty serums, and a vocabulary lesson &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to your face. The dermatologist consensus is far simpler than the beauty aisle: cleanse, treat, moisturize, protect. Diffr assigns one brand per slot and closes the file. Here is the complete beginner morning routine &mdash; three steps that matter, three that are optional.</p>
 
@@ -118,12 +118,12 @@ export const posts: BlogPost[] = [
   {
     slug: 'makeup-brand-guide',
     title: 'Best Makeup for Beginners: Every Slot Assigned',
-    description: 'Ten everyday makeup slots &mdash; foundation to primer &mdash; assigned and closed. The Diffr brand guide for makeup beginners who want a natural everyday face without the forty-product aisle.',
+    description: 'Ten everyday makeup slots — foundation to primer — assigned and closed. The Diffr brand guide for makeup beginners who want a natural everyday face without the forty-product aisle.',
     date: '2026-06-04',
     readTime: '6 min read',
     tags: ['brand guide', 'makeup for beginners', 'makeup brands', 'beginner makeup kit', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Ten slots. Ten brand answers. Foundation to primer &mdash; assigned and closed. Do your face. Stop comparing.',
+    excerpt: 'Ten slots. Ten brand answers. Foundation to primer — assigned and closed. Do your face. Stop comparing.',
     content: `
 <p>The makeup aisle sells maximalism: forty foundations, contour kits, a brush for every conceivable purpose. A beginner who just wants to look like themselves on a good day does not need most of it &mdash; the gap between what you need and what is for sale is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in a compact. Diffr assigns one brand per slot and closes the file. Here is a complete everyday starter kit &mdash; a natural face, no overwhelm, one answer per slot.</p>
 
@@ -176,12 +176,12 @@ export const posts: BlogPost[] = [
   {
     slug: 'hiking-gear-brand-guide',
     title: 'Best Hiking Gear for Beginners: Every Slot Assigned',
-    description: 'Ten day-hiking gear slots &mdash; boots to navigation &mdash; assigned and closed. The Diffr brand guide for new hikers who want to hit the trail without reading forty gear reviews first.',
+    description: 'Ten day-hiking gear slots — boots to navigation — assigned and closed. The Diffr brand guide for new hikers who want to hit the trail without reading forty gear reviews first.',
     date: '2026-06-04',
     readTime: '7 min read',
     tags: ['brand guide', 'hiking gear for beginners', 'hiking brands', 'day hiking', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Ten slots. Ten brand answers. Boots to navigation &mdash; assigned and closed. Go hike. Stop researching.',
+    excerpt: 'Ten slots. Ten brand answers. Boots to navigation — assigned and closed. Go hike. Stop researching.',
     content: `
 <p>A day hike needs almost nothing &mdash; and the outdoor industry has spent decades convincing beginners otherwise. Walk into a gear shop with &ldquo;I want to start hiking&rdquo; and you will leave having evaluated forty boots, six pack volumes, and a wall of &ldquo;systems.&rdquo; That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> at altitude. Diffr&rsquo;s approach is the same everywhere: break the scenario into discrete slots, assign exactly one brand to each, and close the file. Here is the complete beginner day-hiking kit. One answer per slot &mdash; no &ldquo;it depends.&rdquo;</p>
 
@@ -234,12 +234,12 @@ export const posts: BlogPost[] = [
   {
     slug: 'yoga-gear-brand-guide',
     title: 'Best Yoga Gear for Beginners: Every Slot Assigned',
-    description: 'Six yoga and mindfulness slots &mdash; mat to meditation cushion &mdash; assigned and closed. The Diffr brand guide for new yogis who want to start without comparing forty mats.',
+    description: 'Six yoga and mindfulness slots — mat to meditation cushion — assigned and closed. The Diffr brand guide for new yogis who want to start without comparing forty mats.',
     date: '2026-06-04',
     readTime: '6 min read',
     tags: ['brand guide', 'yoga gear for beginners', 'yoga brands', 'beginner yoga', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Six slots. Six brand answers. Mat to meditation cushion &mdash; assigned and closed. Start your practice. Stop comparing.',
+    excerpt: 'Six slots. Six brand answers. Mat to meditation cushion — assigned and closed. Start your practice. Stop comparing.',
     content: `
 <p>Yoga needs a mat and a body. Everything beyond that is a prop that makes the practice more accessible &mdash; and a marketplace that makes choosing one exhausting. The mat aisle alone is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in physical form: thickness, material, grip, length, eco-this, alignment-that. Diffr&rsquo;s answer is one brand per slot, file closed. Here is the complete beginner kit &mdash; most of which you can ignore until your practice asks for it.</p>
 
@@ -276,12 +276,12 @@ export const posts: BlogPost[] = [
   {
     slug: 'pc-gaming-gear-brand-guide',
     title: 'Best PC Gaming Gear for Beginners: Every Slot Assigned',
-    description: 'Eight battlestation slots &mdash; monitor to stream deck &mdash; assigned and closed. The Diffr brand guide for new PC gamers building a setup without reading a hundred peripheral reviews.',
+    description: 'Eight battlestation slots — monitor to stream deck — assigned and closed. The Diffr brand guide for new PC gamers building a setup without reading a hundred peripheral reviews.',
     date: '2026-06-04',
     readTime: '7 min read',
     tags: ['brand guide', 'pc gaming gear for beginners', 'gaming brands', 'gaming setup', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Eight slots. Eight brand answers. Monitor to stream deck &mdash; assigned and closed. Build the battlestation. Stop spec-hunting.',
+    excerpt: 'Eight slots. Eight brand answers. Monitor to stream deck — assigned and closed. Build the battlestation. Stop spec-hunting.',
     content: `
 <p>The PC itself is one decision. The battlestation around it &mdash; the screen, the peripherals, the chair &mdash; is eight more, and each has a subreddit ready to argue about it for a hundred replies. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> with RGB. Diffr assigns one brand per slot and closes the file. Here is the complete beginner battlestation &mdash; peripherals and comfort, assuming the tower is handled.</p>
 
