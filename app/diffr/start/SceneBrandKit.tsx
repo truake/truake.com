@@ -93,7 +93,7 @@ function SlotCard({ slot, cardV, imgV, hover }: {
           height: "84px",
           borderRadius: "10px",
           overflow: "hidden",
-          background: ready ? "#fff" : "rgba(42,38,32,0.045)",
+          background: ready || slot.logoUrl ? "#fff" : "rgba(42,38,32,0.045)",
           border: `1px solid ${C.bd}`,
           display: "flex",
           alignItems: "center",
@@ -111,6 +111,15 @@ function SlotCard({ slot, cardV, imgV, hover }: {
             height={84}
             loading="lazy"
             style={{ width: "100%", height: "100%", objectFit: "contain" }}
+          />
+        ) : slot.logoUrl ? (
+          // No product photo yet → feature the brand logo large in the tile.
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={slot.logoUrl}
+            alt={`${slot.brandName} logo`}
+            loading="lazy"
+            style={{ width: "78%", height: "78%", objectFit: "contain" }}
           />
         ) : (
           <span
@@ -140,29 +149,33 @@ function SlotCard({ slot, cardV, imgV, hover }: {
         >
           {slot.productTypeName}
         </p>
-        <div style={{ display: "flex", alignItems: "center", gap: "8px", margin: "0 0 2px", minHeight: "22px" }}>
-          {slot.logoUrl && (
-            // Brand logo (brands.supabase_logo_url) — external host, plain img.
-            // eslint-disable-next-line @next/next/no-img-element
+        {ready && slot.logoUrl ? (
+          // Product photo is in the tile → feature the brand logo here, prominent.
+          <div style={{ margin: "2px 0 4px" }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={slot.logoUrl}
               alt={`${slot.brandName} logo`}
               loading="lazy"
-              style={{ height: "22px", width: "auto", maxWidth: "68px", objectFit: "contain", flexShrink: 0 }}
+              style={{ height: "32px", width: "auto", maxWidth: "150px", objectFit: "contain", objectPosition: "left center", display: "block" }}
             />
-          )}
+            <p style={{ fontSize: "13px", fontWeight: 600, color: C.t60, margin: "5px 0 0", lineHeight: 1.25 }}>
+              {slot.brandName}
+            </p>
+          </div>
+        ) : (
           <p
             style={{
               fontSize: "16px",
               fontWeight: 700,
               color: C.text,
-              margin: 0,
+              margin: "0 0 2px",
               lineHeight: 1.25,
             }}
           >
             {slot.brandName}
           </p>
-        </div>
+        )}
         {slot.productLine && (
           <p style={{ fontSize: "13px", color: C.t60, margin: "0 0 8px", lineHeight: 1.4 }}>
             {slot.productLine}
