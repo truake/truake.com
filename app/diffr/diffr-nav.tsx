@@ -39,15 +39,15 @@ export function DiffrNav() {
           justifyContent: "space-between",
         }}
       >
-        {/* Wordmark — diffr-wordmark.webp, unified across all /diffr pages */}
+        {/* Wordmark — diffr-logo.png (correct-font logo, recolored to brand blue #1B8BF5) */}
         <Link href="/diffr" aria-label="Diffr home" style={{ display: "inline-flex", alignItems: "center", textDecoration: "none" }}>
           <Image
-            src="/diffr-wordmark.webp"
+            src="/diffr-logo.png"
             alt="Diffr"
-            width={384}
-            height={137}
+            width={345}
+            height={163}
             priority
-            style={{ height: 26, width: "auto" }}
+            style={{ height: 30, width: "auto" }}
           />
         </Link>
 
