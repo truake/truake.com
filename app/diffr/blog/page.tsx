@@ -25,10 +25,11 @@ export default function BlogIndexPage() {
         {/* Circle canvas */}
         <div style={{ position: 'relative', height: '320px', overflow: 'hidden' }}>
           <CircleHero />
-          {/* gradient fade to page bg */}
+          {/* parchment scrim: radial spotlight behind the centred text (legibility)
+              + bottom fade into the page. Circles stay visible at the edges. */}
           <div style={{
             position: 'absolute', inset: 0,
-            background: 'linear-gradient(to bottom, rgba(240,235,227,0.0) 0%, rgba(240,235,227,0.0) 55%, rgba(240,235,227,0.6) 82%, #F0EBE3 100%)',
+            background: 'radial-gradient(ellipse 80% 72% at 50% 47%, rgba(240,235,227,0.94) 0%, rgba(240,235,227,0.6) 40%, rgba(240,235,227,0) 78%), linear-gradient(to bottom, rgba(240,235,227,0.0) 0%, rgba(240,235,227,0.0) 55%, rgba(240,235,227,0.6) 82%, #F0EBE3 100%)',
           }} />
           {/* centred label over circles */}
           <div style={{
