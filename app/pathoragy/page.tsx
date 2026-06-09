@@ -452,10 +452,18 @@ export default function PathoragyPage() {
         <span style={{ fontWeight: 800, fontSize: "15px", letterSpacing: "-0.035em", color: C.accent }}>
           pathoragy
         </span>
-        <div style={{ display: "flex", gap: "32px", alignItems: "center" }}>
-          <Link href="/pathoragy/blog"
-            style={{ color: "rgba(240,235,227,0.35)", textDecoration: "none", fontSize: "13px", fontWeight: 500 }}>
+        <div style={{ display: "flex", gap: "22px", alignItems: "center", flexWrap: "wrap" }}>
+          <Link href="/pathoragy/blog" style={{ color: "rgba(240,235,227,0.35)", textDecoration: "none", fontSize: "13px", fontWeight: 500 }}>
             Blog
+          </Link>
+          <Link href="/pathoragy/privacy" style={{ color: "rgba(240,235,227,0.35)", textDecoration: "none", fontSize: "13px", fontWeight: 500 }}>
+            Privacy
+          </Link>
+          <Link href="/pathoragy/terms" style={{ color: "rgba(240,235,227,0.35)", textDecoration: "none", fontSize: "13px", fontWeight: 500 }}>
+            Terms
+          </Link>
+          <Link href="/pathoragy/support" style={{ color: "rgba(240,235,227,0.35)", textDecoration: "none", fontSize: "13px", fontWeight: 500 }}>
+            Support
           </Link>
           <span style={{ color: "rgba(240,235,227,0.22)", fontSize: "13px" }}>© 2026 Truake OPC</span>
         </div>

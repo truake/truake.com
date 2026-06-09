@@ -74,6 +74,24 @@
 .pathoragy-prose code { background: rgba(42,38,32,0.07); color: #B45309; padding: 2px 6px; border-radius: 4px; font-size: 0.88em; }
 .pathoragy-prose blockquote { border-left: 3px solid #E85435; padding-left: 1.2em; margin: 1.6em 0; color: rgba(42,38,32,0.65); font-style: italic; }
 
+/* Legal / support documents (Pathoragy) — readable light theme */
+.legal-prose { font-family: -apple-system, 'Segoe UI', Georgia, serif; font-size: 16px; line-height: 1.7; color: rgba(42,38,32,0.86); }
+.legal-prose h1 { font-family: Georgia, 'Cormorant Garamond', serif; font-size: 2.1em; font-weight: 700; color: #2A2620; letter-spacing: -0.01em; line-height: 1.15; margin: 0 0 0.5em; }
+.legal-prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.32em; font-weight: 700; color: #2A2620; margin: 2.2em 0 0.6em; letter-spacing: -0.01em; padding-top: 0.6em; border-top: 1px solid rgba(42,38,32,0.08); }
+.legal-prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.08em; font-weight: 600; color: #2A2620; margin: 1.6em 0 0.5em; }
+.legal-prose p { margin: 0 0 1.1em; }
+.legal-prose ul, .legal-prose ol { padding-left: 1.4em; margin: 0 0 1.2em; }
+.legal-prose li { margin-bottom: 0.45em; line-height: 1.65; }
+.legal-prose strong { color: #2A2620; font-weight: 700; }
+.legal-prose em { color: rgba(42,38,32,0.9); }
+.legal-prose a { color: #E85435; text-decoration: underline; text-decoration-color: rgba(232,84,53,0.4); }
+.legal-prose a:hover { text-decoration-color: #E85435; }
+.legal-prose code { background: rgba(42,38,32,0.07); color: #B45309; padding: 2px 6px; border-radius: 4px; font-size: 0.86em; word-break: break-word; }
+.legal-prose blockquote { border-left: 3px solid #E85435; background: rgba(232,84,53,0.05); padding: 12px 16px; margin: 1.4em 0; border-radius: 0 8px 8px 0; color: rgba(42,38,32,0.78); }
+.legal-prose blockquote p { margin: 0; }
+.legal-prose hr { border: none; border-top: 1px solid rgba(42,38,32,0.12); margin: 2.4em 0; }
+.legal-prose h1 + p { color: rgba(42,38,32,0.6); font-size: 0.95em; }
+
 @theme inline {
   --color-tk-cream: var(--tk-cream);
   --color-tk-blue: var(--tk-blue);
