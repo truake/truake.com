@@ -96,6 +96,13 @@ export default async function BlogPostPage({ params }: Props) {
   const prevPost = allPosts[currentIndex + 1] ?? null
   const nextPost = allPosts[currentIndex - 1] ?? null
 
+  // Brand-guide cluster: cross-link the brand guides to each other so Google
+  // reads them as one topical cluster and authority flows between them.
+  const isBrandGuide = slug.endsWith('-brand-guide')
+  const relatedGuides = isBrandGuide
+    ? allPosts.filter((p) => p.slug.endsWith('-brand-guide') && p.slug !== slug).slice(0, 6)
+    : []
+
   // Live shoppable kit for brand-guide posts (DB-driven + affiliate).
   const presetId = BLOG_SLUG_TO_PRESET[slug]
   const brandKit = presetId ? await getSceneBrandKit(presetId) : null
@@ -318,6 +325,37 @@ export default async function BlogPostPage({ params }: Props) {
                     {item.a}
                   </p>
                 </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Related brand guides — cross-link the cluster */}
+        {relatedGuides.length > 0 && (
+          <section style={{ marginTop: '48px' }}>
+            <h2 style={{
+              fontFamily: "var(--font-display), 'Playfair Display', serif",
+              fontSize: 'clamp(22px, 3vw, 28px)',
+              fontWeight: 700, letterSpacing: '-0.02em',
+              color: '#2A2620', margin: '0 0 18px',
+            }}>
+              More beginner brand guides
+            </h2>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '12px' }}>
+              {relatedGuides.map((g) => (
+                <Link key={g.slug} href={`/diffr/blog/${g.slug}`} style={{
+                  display: 'block', textDecoration: 'none',
+                  background: '#F8F5F1', border: '1px solid rgba(42,38,32,0.10)',
+                  borderRadius: '12px', padding: '16px 18px',
+                }}>
+                  <p style={{
+                    fontFamily: "'Space Grotesk', sans-serif",
+                    fontSize: '15px', fontWeight: 600, lineHeight: 1.35,
+                    color: '#1B8BF5', margin: 0,
+                  }}>
+                    {g.title} →
+                  </p>
+                </Link>
               ))}
             </div>
           </section>
