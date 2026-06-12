@@ -39,6 +39,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: a beginner morning routine is three steps — cleanse, moisturize, and protect with sunscreen — and sunscreen matters most, by far. A vitamin C serum is the best optional add; toner and eye cream are genuinely skippable. The whole effective routine costs about $60–100 and is mostly drugstore — expensive rarely means better here. Below is one brand per slot, no repeats.',
   'makeup-brand-guide':
     'Bottom line: an everyday beginner face is about five products — a natural base, concealer, mascara, blush, and a forgiving lip — plus a couple of brushes and a sponge to apply them. Go mostly drugstore with one or two splurges (concealer, a good sponge); skip contour, eyeshadow, and setting products until later. Start with the items hardest to apply badly. Below is one brand per slot, no repeats.',
+  'casual-wardrobe-brand-guide':
+    'Bottom line: a versatile casual wardrobe is a system, not a pile — build it around a few neutral pieces that all pair with each other. The core is a good plain tee, a mid-wash slim jean, and a clean white sneaker; add a casual jacket, a leather belt, an everyday watch, and sunglasses to finish. Buy one good version of each in neutral colors (white, navy, grey, brown) and everything goes with everything. Below is one brand per slot, no repeats.',
+  'work-wardrobe-brand-guide':
+    'Bottom line: a first professional wardrobe is mix-and-match separates, not one suit. The core four are a crisp dress shirt, charcoal or navy trousers, dark-brown leather dress shoes, and a navy blazer; add a matching belt, a clean work bag, and one good necktie. Spend the most on the blazer and the shoes — they carry the whole outfit. Two shirts and two trousers already make a week of looks. Below is one brand per slot, no repeats.',
+  'winter-layering-brand-guide':
+    'Bottom line: staying warm is a layering system, not one heavy coat — base layer, mid layer, insulation, and a weatherproof shell, plus the three extremities (head, hands, feet) where most heat escapes. Start with a thermal base layer, a fleece mid layer, and warm boots; the beanie and gloves are the cheapest, highest-impact items beginners skip. Add and shed layers to match the cold. Below is one brand per slot, no repeats.',
 }
 
 export interface FaqItem {
@@ -272,6 +278,63 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'What is the most beginner-friendly makeup item?',
       a: 'A sheer, universal lip tint and a buildable blush — both are nearly impossible to apply badly and instantly make a face look more put-together. Mascara is the other high-impact, low-skill item. Start where mistakes are hardest to make.',
+    },
+  ],
+
+  'casual-wardrobe-brand-guide': [
+    {
+      q: 'What does a beginner casual wardrobe actually need?',
+      a: 'Seven versatile pieces cover almost everything: a good plain tee, a mid-wash slim jean, a clean white sneaker, a casual jacket, a leather belt, an everyday watch, and sunglasses. Buy one good version of each in neutral colors and they all pair with each other. Skip trend pieces and duplicates until the basics are covered.',
+    },
+    {
+      q: 'How do I make sure everything in my wardrobe goes together?',
+      a: 'Stick to a neutral core — white, navy, grey, and brown — and buy your pieces in those colors first. Neutrals pair with each other by default, so a tee, jeans, and a jacket in those tones become a dozen outfits. Add one or two accent colors only after the neutral base is solid.',
+    },
+    {
+      q: 'What should I spend the most on in a casual wardrobe?',
+      a: 'The pieces you wear daily and that take the most abuse — your jeans and your sneakers. A well-cut jean and a quality leather sneaker get worn constantly and look better as they age. Tees, belts, and accessories can be inexpensive without anyone noticing.',
+    },
+    {
+      q: 'What do beginners overbuy when building a wardrobe?',
+      a: 'Trend pieces and near-duplicates — five graphic tees, three trendy jackets, sneakers in colors that match nothing. The fix is the capsule approach: one good version of each slot in a neutral color, then stop. Owning less but pairing better beats a closet full of orphan pieces.',
+    },
+  ],
+
+  'work-wardrobe-brand-guide': [
+    {
+      q: 'What does a beginner need for a first professional wardrobe?',
+      a: 'Seven pieces: a dress shirt, dress trousers, dark-brown leather dress shoes, a navy blazer, a matching belt, a clean work bag, and one good necktie. Two shirts and two pairs of trousers already mix into a week of outfits. Build separates, not a single suit you can wear only one way.',
+    },
+    {
+      q: 'Should I buy a suit or separates first?',
+      a: 'Separates, almost always. A navy blazer with charcoal or grey trousers is more versatile than a matching suit, because each piece also works on its own and mixes with the rest of your wardrobe. A full suit is for specific formal needs; for most offices, smart separates do more.',
+    },
+    {
+      q: 'What should I spend the most on for work clothes?',
+      a: 'The blazer and the shoes. The blazer is what makes an outfit read professional, and good leather shoes — ideally recraftable — last for years and anchor everything. Shirts and ties have excellent affordable options, so put the budget where it shows and lasts.',
+    },
+    {
+      q: 'What color dress shoes should a beginner buy first?',
+      a: 'Dark brown, not black. Brown leather pairs with navy, grey, and charcoal — the colors a beginner wardrobe is built on — while black is more restricted to formal and very dark outfits. One pair of dark-brown oxfords or derbies covers the widest range of work looks.',
+    },
+  ],
+
+  'winter-layering-brand-guide': [
+    {
+      q: 'How does layering actually keep you warm?',
+      a: 'Each layer does one job. A base layer moves sweat off your skin so you do not get chilled, a mid layer (usually fleece) traps body heat, an insulated jacket adds warmth, and a shell or parka blocks wind and snow. Add and shed layers to match the cold instead of relying on one heavy coat.',
+    },
+    {
+      q: 'What is the difference between a base layer, a mid layer, and a shell?',
+      a: 'The base layer sits against your skin and manages moisture; the mid layer (fleece or a light insulated piece) holds warmth; the outer shell or parka stops wind, rain, and snow from stripping that warmth away. A good system has all three, and you remove the outer ones as you warm up.',
+    },
+    {
+      q: 'What cold-weather items do beginners skip and regret?',
+      a: 'A proper base layer and the extremities — a beanie, gloves, and a warm scarf. A large share of body heat escapes through the head and hands, so these inexpensive items make the biggest difference. Many beginners buy a pricey coat and then freeze because their head, hands, and feet are bare.',
+    },
+    {
+      q: 'Do I need an expensive parka to stay warm?',
+      a: 'No. Warmth comes from the system, not one pricey coat. A solid thermal base layer, a fleece mid layer, and a mid-range insulated parka keep you warmer than a single luxury coat over a t-shirt. Spend on warm boots and a good mid layer before splurging on the outer shell.',
     },
   ],
 }

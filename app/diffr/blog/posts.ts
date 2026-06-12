@@ -12,6 +12,148 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'casual-wardrobe-brand-guide',
+    title: 'Best Casual Wardrobe Brands for Beginners: Every Slot Assigned',
+    description: 'Seven everyday-casual slots — tee to sunglasses — assigned and closed. The Diffr brand guide for building a versatile capsule where every piece goes with every other piece. One good version of each, no research spiral.',
+    date: '2026-06-12',
+    readTime: '6 min read',
+    tags: ['brand guide', 'casual wardrobe for beginners', 'capsule wardrobe', 'mens basics', 'what goes with everything', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven slots. Seven brand answers. The everyday-casual capsule where every piece pairs with every other piece. Get dressed. Stop researching.',
+    content: `
+<p>A casual wardrobe is not a pile of clothes &mdash; it is a system where every piece pairs with every other piece. Get that right and a tee, a pair of jeans, and a jacket become a dozen outfits. Get it wrong and you own forty things and wear six. The fashion forums turn &ldquo;what should I buy&rdquo; into a year-long rabbit hole &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in denim form. Diffr&rsquo;s answer is the same everywhere: one good version of each piece, one brand per slot, file closed. Here is the complete beginner capsule &mdash; build it once and everything goes with everything.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; T-Shirt</h3>
+<p><strong>Uniqlo Supima Cotton Crew</strong></p>
+<p>The foundation of the whole capsule. Supima is long-staple cotton that holds its shape and color wash after wash, the crew neck goes under everything, and the price means you can own the colors that matter &mdash; white, navy, grey &mdash; without a second thought. Start here.</p>
+
+<h3>Slot 2 &mdash; Jeans</h3>
+<p><strong>Levi&rsquo;s 511 Slim</strong></p>
+<p>A mid-wash slim-straight jean in a dark-to-mid indigo is the single most versatile thing you can own: it dresses down with the tee and up under the jacket. The 511 is the beginner default for a reason &mdash; the cut flatters most builds and the brand wrote the book on denim.</p>
+
+<h3>Slot 3 &mdash; Casual Sneakers</h3>
+<p><strong>Adidas Stan Smith</strong></p>
+<p>A clean white leather sneaker is the goes-with-literally-everything shoe &mdash; jeans, chinos, shorts, dressed up or down. The Stan Smith is minimal enough to disappear and iconic enough to never look wrong. One pair, endless pairings.</p>
+
+<h3>Slot 4 &mdash; Casual Jacket</h3>
+<p><strong>Alpha Industries MA-1 Bomber</strong></p>
+<p>The layer that turns two pieces into a finished outfit. A navy or olive bomber sits over the tee, zips over a hoodie, and reads put-together without trying. (Diffr&rsquo;s curation engine flagged this slot: the raw catalog listed a <em>fabric</em> here, not a garment &mdash; so the kit assigns an actual jacket you can wear.)</p>
+
+<h3>Slot 5 &mdash; Leather Belt</h3>
+<p><strong>Anson Belt &amp; Buckle</strong></p>
+<p>One good leather belt in brown covers the entire casual wardrobe. Anson&rsquo;s ratchet system fits to the exact notch instead of the nearest hole, so it actually sits right &mdash; the small detail that keeps the whole look from coming undone at the waist.</p>
+
+<h3>Slot 6 &mdash; Everyday Watch</h3>
+<p><strong>Seiko 5</strong></p>
+<p>The legendary beginner automatic: a self-winding mechanical watch at a price that should be impossible. It pairs with the jeans-and-tee just as easily as the jacket, and it is the one accessory that quietly signals you thought about it. Optional, but it is the upgrade everyone notices last and remembers most.</p>
+
+<h3>Slot 7 &mdash; Casual Sunglasses</h3>
+<p><strong>Ray-Ban Wayfarer</strong></p>
+<p>The default frame for a reason &mdash; the Wayfarer shape suits the widest range of faces and finishes the casual look without a thought. Get them in black, and every outfit above just gained its last piece.</p>
+
+<h2>The Point</h2>
+<p>Versatility is not an accident &mdash; it is what happens when every slot is chosen to pair with every other slot. That is exactly what Diffr does: the interactive version of this capsule lives in the app, where every pick comes straight from the brand database, and the non-repetition principle guarantees one brand per slot so you never buy the same thing twice. <a href="/diffr/start/everyday-casual-look">Build your own everyday-casual kit &rarr;</a> Get dressed. Stop researching.</p>
+`,
+  },
+  {
+    slug: 'work-wardrobe-brand-guide',
+    title: 'Best Work Outfit Brands for Beginners: Every Slot Assigned',
+    description: 'Seven office-wardrobe slots — dress shirt to necktie — assigned and closed. The Diffr brand guide for the first professional outfit: one good version of each, every piece earning its place.',
+    date: '2026-06-12',
+    readTime: '6 min read',
+    tags: ['brand guide', 'work outfit for beginners', 'office wardrobe', 'business professional', 'first suit', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven slots. Seven brand answers. The first professional outfit, fully assigned — shirt to necktie. Show up sharp. Stop researching.',
+    content: `
+<p>The first professional wardrobe is where the research spiral gets expensive fast: a blazer, trousers, and shoes that do not agree with each other cost real money to get wrong. This is the office-and-interview kit &mdash; business-professional, the kind of clothes that have to read &ldquo;competent&rdquo; before you say a word. The menswear forums will gladly turn it into a year of reading &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in worsted wool. Diffr&rsquo;s rule holds: one good version of each piece, one brand per slot, file closed. Here is the complete beginner work outfit, built to mix and match into a week of looks.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Dress Shirt</h3>
+<p><strong>Charles Tyrwhitt Non-Iron</strong></p>
+<p>A crisp white and a light-blue non-iron shirt are the backbone of every office outfit. Charles Tyrwhitt is the beginner value default &mdash; genuinely non-iron, fitted properly, and on sale often enough that you can buy both colors at once. Start the wardrobe here.</p>
+
+<h3>Slot 2 &mdash; Dress Trousers</h3>
+<p><strong>Bonobos Dress Trousers</strong></p>
+<p>Charcoal or navy trousers do the heavy lifting in a separates wardrobe. Bonobos built its name on fit &mdash; a cut that works for guys who never found off-the-rack trousers that sat right &mdash; and a good pair pairs with both the blazer and just the shirt.</p>
+
+<h3>Slot 3 &mdash; Dress Shoes</h3>
+<p><strong>Allen Edmonds Park Avenue</strong></p>
+<p>One pair of dark-brown leather oxfords or derbies anchors everything. The Park Avenue is the classic American beginner-to-forever dress shoe: recraftable, so a single pair lasts decades. Brown is more versatile than black for a first pair &mdash; it bridges navy and grey both.</p>
+
+<h3>Slot 4 &mdash; Blazer</h3>
+<p><strong>Suitsupply</strong></p>
+<p>The piece that turns trousers and a shirt into an outfit people take seriously. Suitsupply gives you the best fit-per-dollar at the entry level &mdash; a navy blazer here mixes with the charcoal trousers and stands alone over the dress shirt. The single highest-impact slot in the kit.</p>
+
+<h3>Slot 5 &mdash; Dress Belt</h3>
+<p><strong>Tanner Goods Leather Belt</strong></p>
+<p>The rule beginners miss: match the belt to the shoes. A dark-brown leather dress belt completes the line of the outfit, and Tanner Goods makes the buy-once version &mdash; thick full-grain leather that ages instead of cracking. One belt, mirrored to the Park Avenues.</p>
+
+<h3>Slot 6 &mdash; Work Bag</h3>
+<p><strong>Bellroy</strong></p>
+<p>A backpack with a laptop sleeve undoes a sharp outfit. Bellroy makes the clean, slim work bag that reads professional &mdash; structured enough for the office, modern enough to not look like a briefcase prop. The slot that carries the rest of your day.</p>
+
+<h3>Slot 7 &mdash; Necktie</h3>
+<p><strong>The Tie Bar</strong></p>
+<p>A navy or burgundy tie is the finishing move for interviews and client days. The Tie Bar makes genuinely good silk ties at a price that lets a beginner own a couple. (Diffr&rsquo;s curation engine corrected this slot &mdash; the raw catalog listed a <em>tie clip</em>, but you need the tie before the clip. First things first.)</p>
+
+<h2>The Point</h2>
+<p>A professional wardrobe is a mix-and-match system: two shirts, two trousers, one blazer, and the right shoes already make a week of outfits that never repeat awkwardly. That is the Diffr method &mdash; the interactive version of this kit lives in the app, every pick pulled straight from the brand database, with the non-repetition principle keeping one brand per slot. <a href="/diffr/start/workwear-essentials">Build your own work-outfit kit &rarr;</a> Show up sharp. Stop researching.</p>
+`,
+  },
+  {
+    slug: 'winter-layering-brand-guide',
+    title: 'Best Winter Layering Brands for Beginners: Every Slot Assigned',
+    description: 'Eight cold-weather slots — base layer to winter boots — assigned and closed. The Diffr brand guide to a real layering system: base, mid, insulation, shell, and the extremities that actually keep you warm.',
+    date: '2026-06-12',
+    readTime: '7 min read',
+    tags: ['brand guide', 'winter layering for beginners', 'cold weather clothing', 'base layer mid layer', 'how to layer', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight slots. Eight brand answers. A real layering system — base, mid, insulation, shell, extremities. Stay warm. Stop researching.',
+    content: `
+<p>Staying warm is not about one heavy coat &mdash; it is a system. Base layer moves sweat off your skin, mid layer traps heat, insulation adds warmth, the shell blocks wind and snow, and the extremities (head, hands, feet) are where most of your warmth actually escapes. Get the system right and you are comfortable from a cold commute to a snow day; get it wrong and the most expensive parka still leaves you cold. The gear forums turn it into a physics seminar &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> measured in degrees. Diffr&rsquo;s rule holds: one brand per slot, file closed. Here is the complete beginner cold-weather kit, layer by layer.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Thermal Base Layer</h3>
+<p><strong>Uniqlo HEATTECH</strong></p>
+<p>The layer against your skin is the one beginners skip and regret. HEATTECH is the value default &mdash; thin enough to wear under anything, warm out of proportion to its weight, and cheap enough to own a few. Everything else layers on top of this.</p>
+
+<h3>Slot 2 &mdash; Fleece Mid Layer</h3>
+<p><strong>Patagonia Better Sweater</strong></p>
+<p>The mid layer traps the heat your base layer holds. The Better Sweater is the iconic beginner fleece: warm, wears alone indoors, and zips under a shell when it drops. Patagonia&rsquo;s Ironclad Guarantee means a single one lasts the decade. The workhorse of the system.</p>
+
+<h3>Slot 3 &mdash; Insulated Jacket</h3>
+<p><strong>The North Face ThermoBall Eco</strong></p>
+<p>Packable synthetic insulation that adds real warmth without bulk &mdash; and unlike down, it still insulates when damp, which matters in wet cold. This is the versatile middle of the system: worn alone in mild cold, slid under the parka when it turns serious.</p>
+
+<h3>Slot 4 &mdash; Winter Parka</h3>
+<p><strong>Columbia</strong></p>
+<p>The outer shell for genuine cold: a hooded, weather-sealed parka that blocks wind and snow over everything beneath it. Columbia is the beginner value benchmark for warmth-per-dollar &mdash; the slot that turns a layering system into all-day, any-weather coverage.</p>
+
+<h3>Slot 5 &mdash; Beanie</h3>
+<p><strong>Carhartt Acrylic Watch Hat</strong></p>
+<p>The most heat-per-dollar item you will ever buy. A huge share of warmth leaves through your head, and the Carhartt watch cap is the cheap, indestructible, goes-with-everything fix. No cold-weather kit is complete without it.</p>
+
+<h3>Slot 6 &mdash; Winter Gloves</h3>
+<p><strong>Hestra</strong></p>
+<p>Cold hands end a winter day early. Hestra is the specialist&rsquo;s answer &mdash; properly insulated, properly built gloves that actually keep your fingers working. The buy-once slot for the extremity you notice fastest when it fails.</p>
+
+<h3>Slot 7 &mdash; Wool Scarf</h3>
+<p><strong>Johnstons of Elgin</strong></p>
+<p>A wool scarf seals the gap at your collar where heat escapes and wind gets in. Johnstons of Elgin has woven Scottish lambswool and cashmere since 1797 &mdash; soft, genuinely warm, and built to last. (Diffr&rsquo;s curation engine fixed this slot: the raw catalog listed a <em>silk</em> scarf &mdash; elegant, but silk does not keep you warm. Cold weather wants wool.)</p>
+
+<h3>Slot 8 &mdash; Winter Boots</h3>
+<p><strong>Sorel Caribou</strong></p>
+<p>The foundation of the whole system &mdash; cold, wet feet undo every warm layer above them. The Caribou is the iconic beginner winter boot: waterproof, seam-sealed, rated for real cold, with a removable felt liner. Warm feet, dry feet, the kit stands up.</p>
+
+<h2>The Point</h2>
+<p>Layering is a system, not a shopping list: base, mid, insulation, shell, and the three extremities, each doing one job. Add and shed layers and this kit covers everything from a crisp morning to a blizzard. That is the Diffr method &mdash; the interactive version lives in the app, every pick pulled straight from the brand database, the non-repetition principle keeping one brand per slot. <a href="/diffr/start/cold-weather-layering">Build your own winter-layering kit &rarr;</a> Stay warm. Stop researching.</p>
+`,
+  },
+  {
     slug: 'backpacking-gear-brand-guide',
     title: 'Best Backpacking Gear for Beginners: Every Slot Assigned',
     description: 'Eleven backpacking gear slots — the big three to navigation — assigned and closed. The Diffr brand guide for new backpackers who want to hit the trail without a six-month research project.',
