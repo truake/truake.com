@@ -336,5 +336,9 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       q: 'Do I need an expensive parka to stay warm?',
       a: 'No. Warmth comes from the system, not one pricey coat. A solid thermal base layer, a fleece mid layer, and a mid-range insulated parka keep you warmer than a single luxury coat over a t-shirt. Spend on warm boots and a good mid layer before splurging on the outer shell.',
     },
+    {
+      q: 'How many layers should I wear by temperature?',
+      a: 'Match layers to the temperature: around 50°F a fleece alone is plenty; in the 40s add a thermal base layer; in the 30s add an insulated jacket; and below freezing add the parka shell plus a beanie, gloves, and a wool scarf. The beginner rule of thumb is to dress to feel slightly cool standing still — you warm up fast once moving, and overheating then sweating is what makes you cold later.',
+    },
   ],
 }

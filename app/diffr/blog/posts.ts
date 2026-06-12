@@ -106,7 +106,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'winter-layering-brand-guide',
     title: 'Best Winter Layering Brands for Beginners: Every Slot Assigned',
-    description: 'Eight cold-weather slots — base layer to winter boots — assigned and closed. The Diffr brand guide to a real layering system: base, mid, insulation, shell, and the extremities that actually keep you warm.',
+    description: 'Eight cold-weather slots — base layer to winter boots — assigned and closed. The Diffr brand guide to a real layering system: base, mid, insulation, shell, and the extremities that actually keep you warm — plus a beginner cheat sheet for what to wear by temperature.',
     date: '2026-06-12',
     readTime: '7 min read',
     tags: ['brand guide', 'winter layering for beginners', 'cold weather clothing', 'base layer mid layer', 'how to layer', 'non-repetition principle'],
@@ -148,6 +148,17 @@ export const posts: BlogPost[] = [
 <h3>Slot 8 &mdash; Winter Boots</h3>
 <p><strong>Sorel Caribou</strong></p>
 <p>The foundation of the whole system &mdash; cold, wet feet undo every warm layer above them. The Caribou is the iconic beginner winter boot: waterproof, seam-sealed, rated for real cold, with a removable felt liner. Warm feet, dry feet, the kit stands up.</p>
+
+<h2>What to Wear by Temperature (Beginner Cheat Sheet)</h2>
+<p>The whole point of layering is that you do not buy a new coat for every forecast &mdash; you add and remove the pieces above as the temperature drops. Here is the complete kit mapped to the thermometer:</p>
+<ul>
+<li><strong>50&ndash;60&deg;F / 10&ndash;15&deg;C (mild):</strong> the fleece mid layer on its own, or over a t-shirt. Skip the base layer.</li>
+<li><strong>40&ndash;50&deg;F / 5&ndash;10&deg;C (cool):</strong> thermal base layer + fleece. Add the beanie if it is windy.</li>
+<li><strong>30&ndash;40&deg;F / 0&ndash;5&deg;C (cold):</strong> base + fleece + the insulated jacket. Beanie and gloves on.</li>
+<li><strong>20&ndash;30&deg;F / &minus;7&ndash;0&deg;C (freezing):</strong> base + fleece + insulated jacket under the parka shell, with the wool scarf sealing the collar.</li>
+<li><strong>Below 20&deg;F / &minus;7&deg;C (bitter):</strong> the full system &mdash; every layer, plus the winter boots and all three extremities covered. This is exactly what the kit is built for.</li>
+</ul>
+<p>The beginner rule of thumb: dress to feel slightly cool standing still. If you are toasty before you move, you will overheat and sweat once you do &mdash; and damp is what makes you cold later.</p>
 
 <h2>The Point</h2>
 <p>Layering is a system, not a shopping list: base, mid, insulation, shell, and the three extremities, each doing one job. Add and shed layers and this kit covers everything from a crisp morning to a blizzard. That is the Diffr method &mdash; the interactive version lives in the app, every pick pulled straight from the brand database, the non-repetition principle keeping one brand per slot. <a href="/diffr/start/cold-weather-layering">Build your own winter-layering kit &rarr;</a> Stay warm. Stop researching.</p>
