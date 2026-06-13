@@ -129,9 +129,12 @@ export default async function BlogPostPage({ params }: Props) {
     ...(tldr ? { abstract: tldr } : {}),
   }
 
-  // ItemList of the DB-driven brand picks — structured, AI-citable, content-aligned.
-  // Each item is a Product (name/brand/category/image). No offers/ratings (no
-  // real price or reviews pre-PA-API) — honest schema, no spam.
+  // ItemList of the DB-driven brand picks — a flat "summary list" of names (+image),
+  // structured and AI-citable. Deliberately NOT nested Product items: Google's
+  // Product-snippet rich result requires offers/review/aggregateRating, which we
+  // have no honest data for pre-PA-API — so typed Products only generate
+  // "invalid item" errors in Search Console (seen on winter-layering, 8 items).
+  // Brand + product-type live in the visible page content and the kit UI.
   const itemListLd =
     brandKit && brandKit.slots.length > 0
       ? {
@@ -143,15 +146,9 @@ export default async function BlogPostPage({ params }: Props) {
           itemListElement: brandKit.slots.map((s, i) => ({
             '@type': 'ListItem',
             position: i + 1,
-            item: {
-              '@type': 'Product',
-              // Flagship product line is a clean name (usually already includes
-              // the brand); brand is carried separately below.
-              name: s.productLine || s.brandName,
-              brand: { '@type': 'Brand', name: s.brandName },
-              category: s.productTypeName,
-              ...(s.status === 'ready' && s.imageUrl ? { image: s.imageUrl } : {}),
-            },
+            // Flagship product line is a clean name (usually already includes the brand).
+            name: s.productLine || s.brandName,
+            ...(s.status === 'ready' && s.imageUrl ? { image: s.imageUrl } : {}),
           })),
         }
       : null
