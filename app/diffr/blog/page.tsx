@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getAllPosts } from './posts'
-import { FeaturedCard, PostCard } from './post-card'
+import { BlogFeed } from './blog-feed'
 import { CircleHero } from './circle-hero'
 
 export const metadata: Metadata = {
@@ -63,12 +63,7 @@ export default function BlogIndexPage() {
 
       {/* Posts */}
       <main style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 24px 120px' }}>
-        {posts[0] && <FeaturedCard post={posts[0]} />}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '24px' }}>
-          {posts.slice(1).map(post => (
-            <PostCard key={post.slug} post={post} />
-          ))}
-        </div>
+        <BlogFeed posts={posts} />
       </main>
 
       {/* Footer */}

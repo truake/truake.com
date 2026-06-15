@@ -83,16 +83,22 @@ export function PostCard({ post }: { post: BlogPost }) {
           borderRadius: '12px',
           padding: '28px',
           height: '100%',
-          transition: 'border-color 0.2s, background 0.2s',
+          display: 'flex',
+          flexDirection: 'column',
+          transition: 'border-color 0.2s, background 0.2s, transform 0.2s, box-shadow 0.2s',
           cursor: 'pointer',
         }}
         onMouseEnter={e => {
           e.currentTarget.style.borderColor = 'rgba(27,139,245,0.3)'
           e.currentTarget.style.background = '#F4EFE6'
+          e.currentTarget.style.transform = 'translateY(-3px)'
+          e.currentTarget.style.boxShadow = '0 10px 28px rgba(42,38,32,0.09)'
         }}
         onMouseLeave={e => {
           e.currentTarget.style.borderColor = 'rgba(42,38,32,0.07)'
           e.currentTarget.style.background = '#F8F5F1'
+          e.currentTarget.style.transform = 'translateY(0)'
+          e.currentTarget.style.boxShadow = 'none'
         }}
       >
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center', marginBottom: '14px' }}>
@@ -114,9 +120,22 @@ export function PostCard({ post }: { post: BlogPost }) {
         }}>
           {post.title}
         </h2>
-        <p style={{ color: 'rgba(42,38,32,0.55)', fontSize: '14px', lineHeight: 1.6, marginBottom: '20px' }}>
+        <p style={{ color: 'rgba(42,38,32,0.55)', fontSize: '14px', lineHeight: 1.6, marginBottom: '18px', flexGrow: 1 }}>
           {post.excerpt}
         </p>
+        <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap', marginBottom: '12px' }}>
+          {post.tags
+            .filter(t => t !== 'brand guide' && t !== 'non-repetition principle')
+            .slice(0, 2)
+            .map(tag => (
+              <span key={tag} style={{
+                color: 'rgba(42,38,32,0.45)', fontSize: '11px',
+                background: 'rgba(42,38,32,0.045)', padding: '3px 9px', borderRadius: '100px',
+              }}>
+                #{tag}
+              </span>
+            ))}
+        </div>
         <p style={{ color: 'rgba(42,38,32,0.35)', fontSize: '12px' }}>
           {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
           {' · '}{post.readTime}
