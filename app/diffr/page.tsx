@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ["/diffr-og.png"],
   },
   other: {
-    "apple-itunes-app": `app-id=0000000000`,
+    "apple-itunes-app": `app-id=6772870733`,
   },
 };
 
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
    Data
 ───────────────────────────────────────────────────────────── */
 const appStoreUrl =
-  process.env.NEXT_PUBLIC_APP_STORE_URL ?? "https://apps.apple.com/app/diffr/idTBD";
+  process.env.NEXT_PUBLIC_APP_STORE_URL ?? "https://apps.apple.com/us/app/diffr/id6772870733";
 
 const proofStats = [
   { number: "47,000+", label: "brands scored" },
