@@ -1,7 +1,6 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import { motion } from 'motion/react'
 import type { BlogPost } from './posts'
 import { FeaturedCard, PostCard } from './post-card'
 
@@ -100,12 +99,11 @@ export function BlogFeed({ posts }: { posts: BlogPost[] }) {
       {/* Featured post (only on the unfiltered view) */}
       {showFeatured && filtered[0] && <FeaturedCard post={filtered[0]} />}
 
-      {/* Grid — re-fades on filter change */}
-      <motion.div
+      {/* Grid — CSS fade keyed on the active filter so it replays on change,
+          and is visible without JS (no hydration-gated opacity). */}
+      <div
         key={active}
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.28, ease: 'easeOut' }}
+        className="blog-grid-fade"
         style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
@@ -115,7 +113,7 @@ export function BlogFeed({ posts }: { posts: BlogPost[] }) {
         {gridPosts.map(post => (
           <PostCard key={post.slug} post={post} />
         ))}
-      </motion.div>
+      </div>
 
       {gridPosts.length === 0 && (
         <p style={{ textAlign: 'center', color: 'rgba(42,38,32,0.4)', padding: '48px 0' }}>
