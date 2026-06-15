@@ -42,7 +42,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'casual-wardrobe-brand-guide':
     'Bottom line: a versatile casual wardrobe is a system, not a pile — build it around a few neutral pieces that all pair with each other. The core is a good plain tee, a mid-wash slim jean, and a clean white sneaker; add a casual jacket, a leather belt, an everyday watch, and sunglasses to finish. Buy one good version of each in neutral colors (white, navy, grey, brown) and everything goes with everything. Below is one brand per slot, no repeats.',
   'work-wardrobe-brand-guide':
-    'Bottom line: a first professional wardrobe is mix-and-match separates, not one suit. The core four are a crisp dress shirt, charcoal or navy trousers, dark-brown leather dress shoes, and a navy blazer; add a matching belt, a clean work bag, and one good necktie. Spend the most on the blazer and the shoes — they carry the whole outfit. Two shirts and two trousers already make a week of looks. Below is one brand per slot, no repeats.',
+    'Bottom line: a first work capsule wardrobe is mix-and-match separates, not one suit. The core four are a crisp dress shirt, charcoal or navy trousers, dark-brown leather dress shoes, and a navy blazer; add a matching belt, a clean work bag, and one good necktie. On a first-job budget, buy in this order — shirt, trousers, and shoes first (a complete interview-ready outfit), then the blazer (the highest-impact upgrade), then the rest. Below is one brand per slot, no repeats.',
   'winter-layering-brand-guide':
     'Bottom line: staying warm is a layering system, not one heavy coat — base layer, mid layer, insulation, and a weatherproof shell, plus the three extremities (head, hands, feet) where most heat escapes. Start with a thermal base layer, a fleece mid layer, and warm boots; the beanie and gloves are the cheapest, highest-impact items beginners skip. Add and shed layers to match the cold. Below is one brand per slot, no repeats.',
 }
@@ -316,6 +316,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'What color dress shoes should a beginner buy first?',
       a: 'Dark brown, not black. Brown leather pairs with navy, grey, and charcoal — the colors a beginner wardrobe is built on — while black is more restricted to formal and very dark outfits. One pair of dark-brown oxfords or derbies covers the widest range of work looks.',
+    },
+    {
+      q: 'What should I buy first for a first office job on a budget?',
+      a: 'Start with three pieces: a dress shirt, dress trousers, and a pair of dark-brown leather shoes. A white shirt, charcoal trousers, and brown shoes is a complete, interview-ready outfit on their own. Add a navy blazer next — it is the highest-impact upgrade — then a matching belt, a clean work bag, and a tie only if your role calls for one. Buying in that order lets you build a full work capsule wardrobe without paying for it all at once.',
     },
   ],
 

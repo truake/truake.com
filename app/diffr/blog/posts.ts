@@ -60,14 +60,14 @@ export const posts: BlogPost[] = [
   {
     slug: 'work-wardrobe-brand-guide',
     title: 'Best Work Outfit Brands for Beginners: Every Slot Assigned',
-    description: 'Seven office-wardrobe slots — dress shirt to necktie — assigned and closed. The Diffr brand guide for the first professional outfit: one good version of each, every piece earning its place.',
+    description: 'Seven office-wardrobe slots — dress shirt to necktie — assigned and closed. The Diffr brand guide to your first work capsule wardrobe: the complete starter kit for a first office job, with a buy-in-this-order priority so you can build it on a budget.',
     date: '2026-06-12',
     readTime: '6 min read',
-    tags: ['brand guide', 'work outfit for beginners', 'office wardrobe', 'business professional', 'first suit', 'non-repetition principle'],
+    tags: ['brand guide', 'work outfit for beginners', 'work capsule wardrobe', 'business casual essentials', 'first job wardrobe', 'office wardrobe', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Seven slots. Seven brand answers. The first professional outfit, fully assigned — shirt to necktie. Show up sharp. Stop researching.',
     content: `
-<p>The first professional wardrobe is where the research spiral gets expensive fast: a blazer, trousers, and shoes that do not agree with each other cost real money to get wrong. This is the office-and-interview kit &mdash; business-professional, the kind of clothes that have to read &ldquo;competent&rdquo; before you say a word. The menswear forums will gladly turn it into a year of reading &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in worsted wool. Diffr&rsquo;s rule holds: one good version of each piece, one brand per slot, file closed. Here is the complete beginner work outfit, built to mix and match into a week of looks.</p>
+<p>The first professional wardrobe is where the research spiral gets expensive fast: a blazer, trousers, and shoes that do not agree with each other cost real money to get wrong. This is the office-and-interview kit &mdash; business-professional, the kind of clothes that have to read &ldquo;competent&rdquo; before you say a word. The menswear forums will gladly turn it into a year of reading &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in worsted wool. Diffr&rsquo;s rule holds: one good version of each piece, one brand per slot, file closed. Here is the complete work capsule wardrobe for a first office job &mdash; built to mix and match into a week of looks, with a buy-in-this-order priority at the end so you can spread the cost.</p>
 
 <h2>The Slots</h2>
 
@@ -99,8 +99,17 @@ export const posts: BlogPost[] = [
 <p><strong>The Tie Bar</strong></p>
 <p>A navy or burgundy tie is the finishing move for interviews and client days. The Tie Bar makes genuinely good silk ties at a price that lets a beginner own a couple. (Diffr&rsquo;s curation engine corrected this slot &mdash; the raw catalog listed a <em>tie clip</em>, but you need the tie before the clip. First things first.)</p>
 
+<h2>Buy in This Order (Building It on a First-Job Budget)</h2>
+<p>You do not need all seven pieces on day one. If you are kitting out for a first office job and spreading the cost, this is the priority &mdash; and each step is already a complete, wearable look:</p>
+<ol>
+<li><strong>Start here (interview-ready):</strong> the dress shirt, dress trousers, and dress shoes. A white shirt, charcoal trousers, and dark-brown leather shoes is a complete, competent outfit you can walk into any interview wearing.</li>
+<li><strong>Add next (the upgrade):</strong> the blazer, then the matching belt. The navy blazer is the single highest-impact piece &mdash; it turns the shirt-and-trousers base into something people take seriously.</li>
+<li><strong>Finish when you can:</strong> the work bag, then the necktie. The bag carries your day; the tie only matters if your office or role actually calls for one.</li>
+</ol>
+<p>If you only buy three things, buy the first three. That is the whole point of one-good-version-per-slot: a small, deliberate kit beats a closet full of near-misses.</p>
+
 <h2>The Point</h2>
-<p>A professional wardrobe is a mix-and-match system: two shirts, two trousers, one blazer, and the right shoes already make a week of outfits that never repeat awkwardly. That is the Diffr method &mdash; the interactive version of this kit lives in the app, every pick pulled straight from the brand database, with the non-repetition principle keeping one brand per slot. <a href="/diffr/start/workwear-essentials">Build your own work-outfit kit &rarr;</a> Show up sharp. Stop researching.</p>
+<p>A work capsule wardrobe is a mix-and-match system: two shirts, two trousers, one blazer, and the right shoes already make a week of outfits that never repeat awkwardly. That is the Diffr method &mdash; the interactive version of this kit lives in the app, every pick pulled straight from the brand database, with the non-repetition principle keeping one brand per slot. <a href="/diffr/start/workwear-essentials">Build your own work-outfit kit &rarr;</a> Show up sharp. Stop researching.</p>
 `,
   },
   {
