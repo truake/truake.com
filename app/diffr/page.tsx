@@ -548,6 +548,7 @@ export default function DiffrPage() {
             operatingSystem: "iOS",
             applicationCategory: "ShoppingApplication",
             offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+            downloadUrl: appStoreUrl,
             description:
               "Beginner-friendly brand recommendations. 47,000+ brands scored across six axes.",
             screenshot: [
@@ -556,7 +557,7 @@ export default function DiffrPage() {
               "https://truake.com/diffr-screens/screen-116.jpg",
             ],
             author: { "@type": "Organization", name: "truake LLC", url: "https://truake.com" },
-            sameAs: ["https://x.com/Diffr_app"],
+            sameAs: ["https://x.com/Diffr_app", appStoreUrl],
           }),
         }}
       />

@@ -389,16 +389,16 @@ export default async function BlogPostPage({ params }: Props) {
           textAlign: 'center',
         }}>
           <p style={{ fontSize: '16px', lineHeight: 1.6, marginBottom: '20px', color: 'rgba(42,38,32,0.8)' }}>
-            Diffr is building a brand curation platform based on the no-repeat principle. Early access is limited.
+            Diffr is a brand curation app built on the no-repeat principle — one good brand per slot, every slot assigned. It is live on the App Store.
           </p>
-          <Link href="/diffr#waitlist" style={{
+          <a href="https://apps.apple.com/us/app/diffr/id6772870733" style={{
             display: 'inline-block',
             background: '#1B8BF5', color: '#fff',
             padding: '14px 32px', borderRadius: '10px',
             textDecoration: 'none', fontSize: '15px', fontWeight: 700,
           }}>
-            Join the Waitlist
-          </Link>
+            Get Diffr on the App Store
+          </a>
         </div>
 
         <PostNavLinks prev={prevPost} next={nextPost} />

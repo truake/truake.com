@@ -58,8 +58,8 @@ export function DiffrNav() {
             <Link href="/diffr/blog" style={linkStyle}>Blog</Link>
             <Link href="/diffr/support" style={linkStyle}>Support</Link>
           </div>
-          <Link
-            href="/diffr#waitlist"
+          <a
+            href="https://apps.apple.com/us/app/diffr/id6772870733"
             style={{
               background: "#1B8BF5",
               color: "#fff",
@@ -72,8 +72,8 @@ export function DiffrNav() {
               whiteSpace: "nowrap",
             }}
           >
-            Join Waitlist
-          </Link>
+            Download
+          </a>
         </div>
       </div>
     </nav>

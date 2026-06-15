@@ -562,7 +562,7 @@ export const posts: BlogPost[] = [
 
 <p>Diffr is built around this logic. Every scene encodes one brand per slot — not because there is only one good option, but because the decision has been made, the evaluation has been done, and the result is stored. You are not asked to compare. You are offered a closed decision, available for adoption without re-evaluation. The loop was not entered. The cognitive bandwidth was not spent. That is the product.</p>
 
-<p>The full argument for why commitment beats optimization — across product categories, information consumption, and life design — is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. To see what a set of fully closed decisions looks like for your consumption contexts, <a href="/diffr#waitlist">the Diffr waitlist is open</a>.</p>
+<p>The full argument for why commitment beats optimization — across product categories, information consumption, and life design — is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. To see what a set of fully closed decisions looks like for your consumption contexts, <a href="/diffr">Diffr is live on the App Store</a>.</p>
     `.trim(),
   },
   {
@@ -615,7 +615,7 @@ export const posts: BlogPost[] = [
 
 <p>Diffr is built on this logic. A scene is not a minimalist edit of the product landscape. It is a set of resolved positions — one brand per slot, chosen once, available for adoption without re-evaluation. The point is not fewer things. The point is fewer open loops.</p>
 
-<p>If this distinction resonates, the full argument is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. To see what a fully closed scene looks like for your specific consumption contexts, <a href="/diffr#waitlist">Diffr’s waitlist is open</a>.</p>
+<p>If this distinction resonates, the full argument is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. To see what a fully closed scene looks like for your specific consumption contexts, <a href="/diffr">Diffr is live on the App Store</a>.</p>
     `.trim(),
   },
   {
@@ -672,7 +672,7 @@ export const posts: BlogPost[] = [
 
 <p>This is the part of the build I find most interesting and most uncertain. The data engineering work — brand database, image pipeline, graph layer — has clear success metrics. The decomposition work has success metrics that are ultimately experiential. Did the user feel like the scene gave them the right shape of the problem? That is not a metric you can measure before users exist.</p>
 
-<p>If you have a strong opinion about how a specific scene should be decomposed — what counts as a slot in your domain — I want to hear it. <a href="/diffr#waitlist">Join the waitlist</a> and there is a feedback field in the onboarding. The slot taxonomy is one of the things that will be most improved by domain expert input before launch.</p>
+<p>If you have a strong opinion about how a specific scene should be decomposed — what counts as a slot in your domain — I want to hear it. <a href="/diffr">Get Diffr on the App Store</a> and there is a feedback field in the onboarding. The slot taxonomy is one of the things that will be most improved by domain expert input before launch.</p>
     `.trim(),
   },
   {
@@ -733,7 +733,7 @@ export const posts: BlogPost[] = [
 
 <p>Shannon’s law is not a counsel of despair about derivative culture. It is a measurement tool. Use it to calibrate what you are actually receiving when you encounter a brand, an adaptation, or an idea. Then decide accordingly.</p>
 
-<p>The full framework for evaluating signal quality in products and ideas is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. To see Original Priority applied to brand curation, <a href="/diffr#waitlist">join the Diffr waitlist</a>.</p>
+<p>The full framework for evaluating signal quality in products and ideas is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. To see Original Priority applied to brand curation, <a href="/diffr">get Diffr on the App Store</a>.</p>
     `.trim(),
   },
   {
@@ -806,7 +806,7 @@ export const posts: BlogPost[] = [
 
 <p>This is Bateson operationalized. The difference that makes a difference is not in the brand name. It is in the relationship between the decision-maker’s standards and the product that results.</p>
 
-<p>The full argument for <a href="/diffr/blog/original-priority">Original Priority</a>, and how it applies to everything from product selection to media consumption, is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. The same degradation-in-transmission problem shows up when an idea passes through layer after layer of secondhand summary, which is the subject of <a href="/diffr/blog/the-derivative-economy">The Derivative Economy</a>. And if you want to see a product built on this principle, where every brand recommendation traces back to founding-era signal rather than acquisition-era noise, <a href="/diffr#waitlist">Diffr is on the waitlist</a>.</p>
+<p>The full argument for <a href="/diffr/blog/original-priority">Original Priority</a>, and how it applies to everything from product selection to media consumption, is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. The same degradation-in-transmission problem shows up when an idea passes through layer after layer of secondhand summary, which is the subject of <a href="/diffr/blog/the-derivative-economy">The Derivative Economy</a>. And if you want to see a product built on this principle, where every brand recommendation traces back to founding-era signal rather than acquisition-era noise, <a href="/diffr">Diffr is live on the App Store</a>.</p>
 
 <h3>What book is "a difference that makes a difference" from?</h3>
 <p>The phrase appears in <em>Steps to an Ecology of Mind</em> by Gregory Bateson, published by the University of Chicago Press in 1972. The specific essay is "Form, Substance and Difference." The lecture on which the essay is based was first delivered in 1970, and the text was published in <em>General Semantics Bulletin</em> No. 37 before being collected in the book.</p>
@@ -926,7 +926,7 @@ export const posts: BlogPost[] = [
 
 <p>The −13 IQ point tax is real and it is compounding. The antidote is not smarter evaluation. It is less evaluation — achieved not by avoiding decisions, but by making them once, correctly, and then refusing to reopen them.</p>
 
-<p>If you want to see what a closed decision architecture looks like in practice, the book that built this framework is <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. And if you want to apply it to your actual shopping life, <a href="/diffr#waitlist">Diffr is building the tool layer</a>.</p>
+<p>If you want to see what a closed decision architecture looks like in practice, the book that built this framework is <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. And if you want to apply it to your actual shopping life, <a href="/diffr">Diffr is building the tool layer</a>.</p>
     `.trim(),
   },
   {
@@ -973,7 +973,7 @@ export const posts: BlogPost[] = [
 
 <p>We're working toward a first public version of Diffr where you can enter a scene — anything from "solo hiking trip" to "home recording studio" — and receive a structured brand map that follows the no-repeat principle.</p>
 
-<p>If that sounds like something you want, <a href="/diffr#waitlist">join the waitlist</a>. We're building this for people who are tired of every list being the same five brands in a different order.</p>
+<p>If that sounds like something you want, <a href="/diffr">get Diffr on the App Store</a>. We're building this for people who are tired of every list being the same five brands in a different order.</p>
     `.trim(),
   },
 
@@ -1053,7 +1053,7 @@ export const posts: BlogPost[] = [
 
 <p>As image and logo coverage grows, more brands enter the curation pool. The no-repeat principle only gets more powerful with more options to choose from.</p>
 
-<p>If you want to be among the first to see what 36,000 brands look like when structured by scene, <a href="/diffr#waitlist">join the waitlist</a>.</p>
+<p>If you want to be among the first to see what 36,000 brands look like when structured by scene, <a href="/diffr">get Diffr on the App Store</a>.</p>
     `.trim(),
   },
 
@@ -1101,7 +1101,7 @@ export const posts: BlogPost[] = [
 
 <p>We're not trying to make shopping require less thought. We're trying to make the thought you put in count for more. A Diffr scene is a starting point for a decision, not a decision made for you. But it's a starting point with real signal — not a ranked list of whoever paid the most to appear at the top.</p>
 
-<p>If you're tired of shopping apps that give you more when you need less, <a href="/diffr#waitlist">Diffr is building something different</a>.</p>
+<p>If you're tired of shopping apps that give you more when you need less, <a href="/diffr">Diffr is building something different</a>.</p>
     `.trim(),
   },
 
@@ -1189,7 +1189,7 @@ export const posts: BlogPost[] = [
 
 <p>The goal isn't to automate creativity. It's to eliminate the overhead that surrounds it: context reconstruction, repeated mistakes, knowledge that lives only in a closed browser tab. When that overhead is gone, the actual work gets faster.</p>
 
-<p>If you're building something solo and this workflow sounds useful, I document how Diffr is built — tools, decisions, and all — on this blog. <a href="/diffr#waitlist">The waitlist is the fastest way to follow along.</a></p>
+<p>If you're building something solo and this workflow sounds useful, I document how Diffr is built — tools, decisions, and all — on this blog. <a href="/diffr">Diffr is now live on the App Store.</a></p>
     `.trim(),
   },
 
@@ -1241,7 +1241,7 @@ export const posts: BlogPost[] = [
 
 <p>We're building Diffr the same way: ship fast, validate with real users, build in public. The waitlist is the start of the audience. The blog posts are the "building in public" layer. And the first version of the product will be in users' hands long before the database is complete.</p>
 
-<p>If you want to follow the build, <a href="/diffr#waitlist">join the waitlist</a> — we send updates to everyone on the list directly.</p>
+<p>If you want to follow the build, <a href="/diffr">get Diffr on the App Store</a> — we send updates to everyone on the list directly.</p>
     `.trim(),
   },
   {
@@ -1298,7 +1298,7 @@ export const posts: BlogPost[] = [
 
 <p>The One-Brand Rule is explored in full in <em>The Default Trap: Why Everything You Own Is Owning You</em> — available now on <a href="https://diffr.gumroad.com/l/thedefaulttrap" target="_blank" rel="noopener">Gumroad</a>. The chapter on choice architecture draws on Schwartz, Iyengar, Ries &amp; Trout, and the cognitive science of decision fatigue to build the case from first principles.</p>
 
-<p>If you want the shorter version first: <a href="/diffr#waitlist">join the Diffr waitlist</a>. We'll send you the Manifesto — the condensed version of the book's core arguments — as part of the early access package.</p>
+<p>If you want the shorter version first: <a href="/diffr">get Diffr on the App Store</a>. We'll send you the Manifesto — the condensed version of the book's core arguments — as part of the early access package.</p>
     `.trim(),
   },
   {
@@ -1369,7 +1369,7 @@ export const posts: BlogPost[] = [
 
 <p>The full argument — tracing the line from Baudrillard's sign theory through Ries and Trout's positioning logic to the architectural design of contemporary retail — is developed in <em>The Default Trap: Why Everything You Own Is Owning You</em>. Available on <a href="https://diffr.gumroad.com/l/thedefaulttrap" target="_blank" rel="noopener">Gumroad</a>, pay what you want.</p>
 
-<p>Or start with the shorter version: <a href="/diffr#waitlist">join the Diffr waitlist</a>. The Manifesto edition is the book's core argument in condensed form — and it's included in early access.</p>
+<p>Or start with the shorter version: <a href="/diffr">get Diffr on the App Store</a>. The Manifesto edition is the book's core argument in condensed form — and it's included in early access.</p>
     `.trim(),
   },
   {
@@ -1430,7 +1430,7 @@ export const posts: BlogPost[] = [
 
 <p>These ideas are developed at length in <em>The Default Trap: Why Everything You Own Is Owning You</em>. Chapter 9 builds the full argument from Bateson, Lévi-Strauss, and the structural analysis of the adaptation economy. If the ideas here resonate, that's where they go deeper.</p>
 
-<p>Available on <a href="https://diffr.gumroad.com/l/thedefaulttrap" target="_blank" rel="noopener">Gumroad</a>. Or <a href="/diffr#waitlist">join the waitlist</a> — early access includes the Manifesto edition.</p>
+<p>Available on <a href="https://diffr.gumroad.com/l/thedefaulttrap" target="_blank" rel="noopener">Gumroad</a>. Or <a href="/diffr">get Diffr on the App Store</a> — early access includes the Manifesto edition.</p>
     `.trim(),
   },
   {
@@ -1615,7 +1615,7 @@ export const posts: BlogPost[] = [
 
 <hr>
 
-<p><em>Diffr is building tools to help you identify where your purchases are driven by genuine use and where they're driven by accumulation logic. <a href="/diffr">Join the waitlist</a>.</em></p>
+<p><em>Diffr is building tools to help you identify where your purchases are driven by genuine use and where they're driven by accumulation logic. <a href="/diffr">Get Diffr on the App Store</a>.</em></p>
     `.trim(),
   },
   {
@@ -1682,7 +1682,7 @@ export const posts: BlogPost[] = [
 
 <hr>
 
-<p><em>Diffr is building tools to surface the use-density of what you own and what you're considering buying. <a href="/diffr">Join the waitlist</a>.</em></p>
+<p><em>Diffr is building tools to surface the use-density of what you own and what you're considering buying. <a href="/diffr">Get Diffr on the App Store</a>.</em></p>
     `.trim(),
   },
   {
