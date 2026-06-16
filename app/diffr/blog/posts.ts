@@ -238,14 +238,14 @@ export const posts: BlogPost[] = [
   {
     slug: 'skincare-brand-guide',
     title: 'Best Skincare for Beginners: Every Slot Assigned',
-    description: 'Six morning skincare slots — cleanser to sunscreen — assigned and closed. The Diffr brand guide for skincare beginners who want a routine that works without a ten-step ritual.',
+    description: 'Six morning skincare slots — cleanser to sunscreen — assigned and closed. The Diffr brand guide to a beginner skincare starter kit: the three steps that matter, the three you can skip, and what to buy first — without a ten-step ritual.',
     date: '2026-06-04',
     readTime: '5 min read',
-    tags: ['brand guide', 'skincare for beginners', 'skincare brands', 'beginner skincare routine', 'non-repetition principle'],
+    tags: ['brand guide', 'skincare for beginners', 'skincare starter kit', 'beginner skincare kit', 'skincare starter pack', 'skincare brands', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Six slots. Six brand answers. Cleanser to sunscreen — assigned and closed. Build the routine. Stop overthinking.',
     content: `
-<p>Skincare is where the most decisions meet the most marketing. A beginner asking &ldquo;what should I use&rdquo; gets a ten-step routine, forty serums, and a vocabulary lesson &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to your face. The dermatologist consensus is far simpler than the beauty aisle: cleanse, treat, moisturize, protect. Diffr assigns one brand per slot and closes the file. Here is the complete beginner morning routine &mdash; three steps that matter, three that are optional.</p>
+<p>Skincare is where the most decisions meet the most marketing. A beginner asking &ldquo;what should I use&rdquo; gets a ten-step routine, forty serums, and a vocabulary lesson &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to your face. The dermatologist consensus is far simpler than the beauty aisle: cleanse, treat, moisturize, protect. Diffr assigns one brand per slot and closes the file. Here is the complete beginner skincare starter kit &mdash; three steps that matter, three you can skip, and a buy-in-this-order priority for when budget is tight.</p>
 
 <h2>The Slots</h2>
 
@@ -273,8 +273,17 @@ export const posts: BlogPost[] = [
 <p><strong>The Ordinary Caffeine Solution 5%</strong></p>
 <p>Optional. Caffeine de-puffs and the price is trivial, which makes The Ordinary the beginner-right answer if you want an eye step at all. The skin around the eyes is thinner, but your face moisturizer already covers most of what a beginner needs.</p>
 
+<h2>Buy in This Order (If You Are Starting From Scratch)</h2>
+<p>You do not need all six products to start. If you are building a skincare starter kit on a budget, this is the priority &mdash; and the first three already make a complete, effective routine:</p>
+<ol>
+<li><strong>Start here (the three that matter):</strong> the cleanser, the moisturizer, and the sunscreen. That trio is a complete morning routine for almost everyone &mdash; and the sunscreen matters most, by far.</li>
+<li><strong>Add next (highest-payoff optional):</strong> the vitamin C serum. It is the one active worth adding in the morning, and the value pick costs a fraction of the prestige versions.</li>
+<li><strong>Skip until you have a reason:</strong> the toner and the eye cream. Both are genuinely optional &mdash; your moisturizer already covers most of what a beginner needs.</li>
+</ol>
+<p>If you only buy one thing, buy the sunscreen. Daily sun protection does more for your skin in ten years than every serum combined &mdash; the one slot a beginner must not skip.</p>
+
 <h2>The Point</h2>
-<p>Three steps that matter, three you can ignore until you have a reason. The interactive version of this routine lives in the Diffr app, where every pick comes straight from the brand database &mdash; swap any slot and build your own no-repeat shelf. Build the routine. Stop overthinking.</p>
+<p>Three steps that matter, three you can ignore until you have a reason. The interactive version of this routine lives in the Diffr app, where every pick comes straight from the brand database &mdash; swap any slot and build your own no-repeat starter kit. Build the routine. Stop overthinking.</p>
 `,
   },
   {

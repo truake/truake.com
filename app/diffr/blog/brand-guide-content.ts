@@ -36,7 +36,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'backpacking-gear-brand-guide':
     'Bottom line: backpacking comes down to the big three — pack, tent, and sleep system (bag + pad) — which dominate your weight, space, and budget; nail those, then add a stove, water filter, headlamp, and first aid kit. Budget roughly $700–1,200, and rent or borrow the big-ticket items for your first trips before committing. Skip ultralight gear until you know what actually bothers you. Below is one brand per slot, no repeats.',
   'skincare-brand-guide':
-    'Bottom line: a beginner morning routine is three steps — cleanse, moisturize, and protect with sunscreen — and sunscreen matters most, by far. A vitamin C serum is the best optional add; toner and eye cream are genuinely skippable. The whole effective routine costs about $60–100 and is mostly drugstore — expensive rarely means better here. Below is one brand per slot, no repeats.',
+    'Bottom line: a beginner skincare starter kit is three steps — cleanse, moisturize, and protect with sunscreen — and sunscreen matters most, by far. On a budget, buy in this order: cleanser, moisturizer, and sunscreen first (a complete routine on their own), then a vitamin C serum; skip toner and eye cream. The whole effective kit costs about $60–100 and is mostly drugstore — expensive rarely means better here. Below is one brand per slot, no repeats.',
   'makeup-brand-guide':
     'Bottom line: an everyday beginner face is about five products — a natural base, concealer, mascara, blush, and a forgiving lip — plus a couple of brushes and a sponge to apply them. Go mostly drugstore with one or two splurges (concealer, a good sponge); skip contour, eyeshadow, and setting products until later. Start with the items hardest to apply badly. Below is one brand per slot, no repeats.',
   'casual-wardrobe-brand-guide':
@@ -263,6 +263,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Do I need a separate morning and night routine?',
       a: 'Eventually, but not to start. A simple morning routine (cleanse, moisturize, sunscreen) plus removing it at night with a cleanser will serve a beginner well. Night-specific actives like retinol are a deliberate next step, added one at a time once the basics are a habit.',
+    },
+    {
+      q: 'What should a beginner skincare starter kit include?',
+      a: 'Three essentials: a gentle cleanser, a basic moisturizer, and a facial sunscreen — that is a complete starter kit that works for almost any skin type. A vitamin C serum is the one worthwhile add. Skip the toner, eye cream, and ten-step extras until you have a specific reason. Buy the three essentials first, and the sunscreen above all.',
     },
   ],
 
