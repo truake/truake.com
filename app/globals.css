@@ -172,3 +172,19 @@ body {
 .blog-grid-fade {
   animation: blogGridFade 0.3s ease-out;
 }
+
+/* Blog editorial front page (lead + Latest rail + ruled section lists). */
+.blog-link:hover .blog-title { color: #1B8BF5; }
+.blog-chip:hover { border-color: rgba(27,139,245,0.5) !important; color: #1B8BF5 !important; }
+.blog-chip[aria-pressed="true"]:hover { color: #fff !important; }
+@media (max-width: 760px) {
+  .blog-lead { grid-template-columns: 1fr !important; }
+  .blog-lead-story {
+    border-right: none !important;
+    padding-right: 0 !important;
+    border-bottom: 1px solid rgba(42,38,32,0.16);
+    padding-bottom: 28px;
+    margin-bottom: 4px;
+  }
+  .blog-latest { padding-left: 0 !important; }
+}

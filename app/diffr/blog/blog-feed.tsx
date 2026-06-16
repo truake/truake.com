@@ -1,17 +1,51 @@
 'use client'
 
 import { useMemo, useState } from 'react'
+import Link from 'next/link'
 import type { BlogPost } from './posts'
-import { FeaturedCard, PostCard } from './post-card'
 
-// Top-level tag classification for the blog index. Maps the post `category`
-// onto reader-facing buckets and powers the sticky filter bar.
-const FILTERS: { key: string; label: string }[] = [
+// Editorial "front page" layout: a dominant lead + a "Latest" rail, then
+// section fronts as ruled lists, with a sticky tag-classification filter.
+
+const C = {
+  text: '#2A2620',
+  muted: 'rgba(42,38,32,0.62)',
+  faint: 'rgba(42,38,32,0.4)',
+  rule: 'rgba(42,38,32,0.16)',
+  ruleLight: 'rgba(42,38,32,0.1)',
+  blue: '#1B8BF5',
+}
+
+const CAT_META: Record<string, { label: string; color: string }> = {
+  product: { label: 'Brand Guides', color: '#F0522C' },
+  strategy: { label: 'Strategy', color: '#1d2088' },
+  'build-log': { label: 'Build Logs', color: '#1B8BF5' },
+}
+
+const FILTERS = [
   { key: 'all', label: 'All' },
   { key: 'product', label: 'Brand Guides' },
   { key: 'strategy', label: 'Strategy' },
   { key: 'build-log', label: 'Build Logs' },
 ]
+
+const SECTION_ORDER = ['product', 'strategy', 'build-log']
+
+const play = "var(--font-display), 'Playfair Display', Georgia, serif"
+const sans = "var(--font-syne), -apple-system, sans-serif"
+
+function fmt(d: string) {
+  return new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+}
+
+function Kicker({ cat }: { cat: string }) {
+  const m = CAT_META[cat]
+  return (
+    <span style={{ fontFamily: sans, fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: m?.color ?? C.blue }}>
+      {m?.label ?? cat}
+    </span>
+  )
+}
 
 export function BlogFeed({ posts }: { posts: BlogPost[] }) {
   const [active, setActive] = useState('all')
@@ -23,103 +57,124 @@ export function BlogFeed({ posts }: { posts: BlogPost[] }) {
   }, [posts])
 
   const filtered = active === 'all' ? posts : posts.filter(p => p.category === active)
-  const showFeatured = active === 'all'
-  const gridPosts = showFeatured ? filtered.slice(1) : filtered
 
   return (
     <>
-      {/* Sticky filter bar — tag classification */}
+      {/* Sticky tag-classification filter */}
       <div
         style={{
-          position: 'sticky',
-          top: 64,
-          zIndex: 20,
-          background: 'rgba(240,235,227,0.85)',
-          backdropFilter: 'blur(12px)',
-          WebkitBackdropFilter: 'blur(12px)',
-          margin: '0 -24px 36px',
-          padding: '14px 24px',
-          display: 'flex',
-          gap: '10px',
-          flexWrap: 'wrap',
-          justifyContent: 'center',
-          borderBottom: '1px solid rgba(42,38,32,0.06)',
+          position: 'sticky', top: 64, zIndex: 20,
+          background: 'rgba(240,235,227,0.9)',
+          backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)',
+          margin: '0 -24px 40px', padding: '13px 24px',
+          display: 'flex', gap: 10, flexWrap: 'wrap', justifyContent: 'center',
+          borderBottom: `1px solid ${C.rule}`,
         }}
       >
         {FILTERS.map(f => {
-          const isActive = active === f.key
+          const on = active === f.key
           return (
             <button
               key={f.key}
               onClick={() => setActive(f.key)}
-              aria-pressed={isActive}
+              aria-pressed={on}
+              className="blog-chip"
               style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '7px',
-                padding: '8px 16px',
-                borderRadius: '100px',
-                fontFamily: 'var(--font-syne), sans-serif',
-                fontSize: '13px',
-                fontWeight: 600,
-                cursor: 'pointer',
-                border: isActive ? '1px solid #1B8BF5' : '1px solid rgba(42,38,32,0.14)',
-                background: isActive ? '#1B8BF5' : 'transparent',
-                color: isActive ? '#fff' : 'rgba(42,38,32,0.7)',
-                transition: 'all 0.18s',
-              }}
-              onMouseEnter={e => {
-                if (!isActive) {
-                  e.currentTarget.style.borderColor = 'rgba(27,139,245,0.5)'
-                  e.currentTarget.style.color = '#1B8BF5'
-                }
-              }}
-              onMouseLeave={e => {
-                if (!isActive) {
-                  e.currentTarget.style.borderColor = 'rgba(42,38,32,0.14)'
-                  e.currentTarget.style.color = 'rgba(42,38,32,0.7)'
-                }
+                fontFamily: sans, fontSize: 12, fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase',
+                padding: '7px 15px', borderRadius: 100, cursor: 'pointer',
+                border: on ? `1px solid ${C.blue}` : `1px solid ${C.rule}`,
+                background: on ? C.blue : 'transparent',
+                color: on ? '#fff' : C.muted,
+                transition: 'all .18s',
               }}
             >
-              {f.label}
-              <span
-                style={{
-                  fontSize: '11px',
-                  fontWeight: 700,
-                  color: isActive ? 'rgba(255,255,255,0.8)' : 'rgba(42,38,32,0.35)',
-                }}
-              >
-                {counts[f.key] ?? 0}
-              </span>
+              {f.label}{' '}
+              <span style={{ color: on ? 'rgba(255,255,255,0.75)' : C.faint, fontWeight: 700 }}>{counts[f.key] ?? 0}</span>
             </button>
           )
         })}
       </div>
 
-      {/* Featured post (only on the unfiltered view) */}
-      {showFeatured && filtered[0] && <FeaturedCard post={filtered[0]} />}
+      {active === 'all'
+        ? <FrontPage posts={posts} />
+        : <SectionList title={CAT_META[active].label} posts={filtered} />}
+    </>
+  )
+}
 
-      {/* Grid — CSS fade keyed on the active filter so it replays on change,
-          and is visible without JS (no hydration-gated opacity). */}
-      <div
-        key={active}
-        className="blog-grid-fade"
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-          gap: '24px',
-        }}
-      >
-        {gridPosts.map(post => (
-          <PostCard key={post.slug} post={post} />
-        ))}
+function FrontPage({ posts }: { posts: BlogPost[] }) {
+  const lead = posts[0]
+  const latest = posts.slice(1, 5)
+  const shown = new Set([lead, ...latest].map(p => p.slug))
+  const rest = posts.filter(p => !shown.has(p.slug))
+
+  if (!lead) return null
+
+  return (
+    <>
+      {/* Lead + Latest rail */}
+      <div className="blog-lead" style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: 0, marginBottom: 48 }}>
+        <Link
+          href={`/diffr/blog/${lead.slug}`}
+          className="blog-link blog-lead-story"
+          style={{ textDecoration: 'none', color: C.text, paddingRight: 40, borderRight: `1px solid ${C.rule}` }}
+        >
+          <Kicker cat={lead.category} />
+          <h2 className="blog-title" style={{ fontFamily: play, fontSize: 'clamp(28px,3.4vw,40px)', fontWeight: 800, lineHeight: 1.1, letterSpacing: '-0.015em', margin: '12px 0 14px' }}>
+            {lead.title}
+          </h2>
+          <p style={{ fontFamily: play, fontSize: 18, lineHeight: 1.55, color: C.muted, maxWidth: 560 }}>{lead.excerpt}</p>
+          <p style={{ fontFamily: sans, fontSize: 12, color: C.faint, marginTop: 18, letterSpacing: '0.05em', textTransform: 'uppercase' }}>
+            {fmt(lead.date)} &nbsp;·&nbsp; {lead.readTime}
+          </p>
+        </Link>
+
+        <div className="blog-latest" style={{ paddingLeft: 36 }}>
+          <p style={{ fontFamily: sans, fontSize: 12, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', borderBottom: `2px solid ${C.text}`, paddingBottom: 8, margin: '0 0 4px' }}>
+            Latest
+          </p>
+          {latest.map((p, i) => (
+            <Link
+              key={p.slug}
+              href={`/diffr/blog/${p.slug}`}
+              className="blog-link"
+              style={{ display: 'block', textDecoration: 'none', color: C.text, padding: '15px 0', borderBottom: i < latest.length - 1 ? `1px solid ${C.ruleLight}` : 'none' }}
+            >
+              <Kicker cat={p.category} />
+              <h3 className="blog-title" style={{ fontFamily: play, fontSize: 19, fontWeight: 700, lineHeight: 1.2, margin: '5px 0 0' }}>{p.title}</h3>
+            </Link>
+          ))}
+        </div>
       </div>
 
-      {gridPosts.length === 0 && (
-        <p style={{ textAlign: 'center', color: 'rgba(42,38,32,0.4)', padding: '48px 0' }}>
-          Nothing here yet.
-        </p>
-      )}
+      {/* Section fronts (remaining posts, grouped) */}
+      {SECTION_ORDER.map(cat => {
+        const items = rest.filter(p => p.category === cat)
+        if (!items.length) return null
+        return <SectionList key={cat} title={CAT_META[cat].label} posts={items} />
+      })}
     </>
+  )
+}
+
+function SectionList({ title, posts }: { title: string; posts: BlogPost[] }) {
+  return (
+    <section style={{ marginTop: 44 }}>
+      <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', borderTop: `3px double ${C.text}`, paddingTop: 9, marginBottom: 2 }}>
+        <h2 style={{ fontFamily: sans, fontSize: 13, fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: C.text, margin: 0 }}>{title}</h2>
+        <span style={{ fontFamily: sans, fontSize: 12, color: C.faint }}>{posts.length}</span>
+      </div>
+      {posts.map((p, i) => (
+        <Link
+          key={p.slug}
+          href={`/diffr/blog/${p.slug}`}
+          className="blog-link"
+          style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 24, padding: '17px 0', borderBottom: i < posts.length - 1 ? `1px solid ${C.ruleLight}` : 'none', textDecoration: 'none', color: C.text }}
+        >
+          <span className="blog-title" style={{ fontFamily: play, fontSize: 'clamp(19px,2.2vw,22px)', fontWeight: 600, lineHeight: 1.25 }}>{p.title}</span>
+          <span style={{ fontFamily: sans, fontSize: 12, color: C.faint, whiteSpace: 'nowrap', textTransform: 'uppercase', letterSpacing: '0.04em' }}>{fmt(p.date)}</span>
+        </Link>
+      ))}
+    </section>
   )
 }
