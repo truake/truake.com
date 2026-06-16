@@ -16,7 +16,7 @@
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
   'bike-commuting-gear-brand-guide':
-    'Bottom line: a beginner bike commuter needs five things — a reliable bike, a helmet, front and rear lights, a way to carry gear, and a hardened lock. Spend on lights, the lock, and durable tires first; skip the cycling-specific wardrobe until your route tells you what you actually miss. Below is one solid brand per slot, no repeats.',
+    'Bottom line: a beginner bike-commuting starter kit is five things — a reliable bike, a helmet, front and rear lights, a way to carry gear, and a hardened lock. On a budget, buy in this order: bike, helmet, lock, and lights first (a safe, legal commute), then a rack and panniers, then weather gear. Spend on the lights, the lock, and durable tires first; skip the cycling-specific wardrobe. Below is one solid brand per slot, no repeats.',
   'running-gear-brand-guide':
     "Bottom line: the only gear a new runner truly needs is one pair of well-fitting running shoes — get fitted, expect to spend $120–160, and replace them every 300–500 miles. Skip the carbon-plate racers and the GPS watch until you've built a base. Below is Diffr's one-brand-per-slot starter kit.",
   'home-gym-brand-guide':
@@ -69,6 +69,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'What do commuters overspend on at the start?',
       a: 'Apparel. Beginners often buy a full kit before their first week. For most commutes under five miles, normal clothes are fine — add a packable rain jacket and gloves when the weather demands it. Spend on lights, a lock, and reliable tires first: the things that keep you safe and rolling.',
+    },
+    {
+      q: 'What does a bike commuting starter kit need at a minimum?',
+      a: 'Five things get you commuting safely: a reliable bike, a helmet, a hardened lock, and front and rear lights — plus a way to carry your stuff (a rack and pannier beat a sweaty backpack). That is a complete, legal commute. Add fenders and weather gear as your route demands. Buy the lock and lights first; they protect you and the bike.',
     },
   ],
 
