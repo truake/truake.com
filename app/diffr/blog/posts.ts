@@ -12,6 +12,55 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'starter-kits',
+    title: 'Starter Kits for Beginners: Every Hobby, One Brand Per Slot',
+    description: 'Every Diffr starter kit in one place — complete beginner buying guides for camping, home gym, work wardrobe, skincare, and more. One brand per slot, every slot assigned, buy in this order.',
+    date: '2026-06-16',
+    readTime: '3 min read',
+    tags: ['starter kits', 'beginner buying guides', 'every slot assigned', 'one brand per slot'],
+    category: 'product',
+    excerpt: 'Every Diffr starter kit in one place. Pick your hobby, get the complete list, close the file.',
+    content: `
+<p>Every Diffr guide answers the same question for a different hobby: what do you actually need to start, and which one brand fills each slot? No &ldquo;top ten options,&rdquo; no &ldquo;it depends&rdquo; &mdash; a complete starter kit with every slot assigned, plus a buy-in-this-order priority for when you are on a budget. This is the full index. Pick your hobby, get the list, close the file.</p>
+
+<h2>Gear &amp; Outdoors</h2>
+<ul>
+<li><a href="/diffr/blog/camping-gear-brand-guide">Camping starter kit</a> &mdash; a car-camping kit for two or the family, tent to first aid.</li>
+<li><a href="/diffr/blog/backpacking-gear-brand-guide">Backpacking starter kit</a> &mdash; the big three to navigation, for the trail on your back.</li>
+<li><a href="/diffr/blog/hiking-gear-brand-guide">Hiking starter kit</a> &mdash; everything for a first day hike.</li>
+<li><a href="/diffr/blog/bike-commuting-gear-brand-guide">Bike commuting starter kit</a> &mdash; bike to lock, ready to ride to work.</li>
+<li><a href="/diffr/blog/running-gear-brand-guide">Running starter kit</a> &mdash; shoes first, then the rest.</li>
+<li><a href="/diffr/blog/yoga-gear-brand-guide">Yoga starter kit</a> &mdash; mat to props, the beginner essentials.</li>
+</ul>
+
+<h2>Home &amp; Desk</h2>
+<ul>
+<li><a href="/diffr/blog/home-gym-brand-guide">Home gym starter kit</a> &mdash; a full-body workout in a closet of space.</li>
+<li><a href="/diffr/blog/home-office-brand-guide">Home office starter kit</a> &mdash; chair to plant, for your first remote-job desk.</li>
+<li><a href="/diffr/blog/home-coffee-brand-guide">Home coffee starter kit</a> &mdash; beans, grinder, and a brewer you will use daily.</li>
+<li><a href="/diffr/blog/pc-gaming-gear-brand-guide">PC gaming setup essentials</a> &mdash; monitor to chair, the beginner gaming setup.</li>
+<li><a href="/diffr/blog/steak-dinner-brand-guide">Steak dinner starter kit</a> &mdash; the tools for a restaurant steak at home.</li>
+</ul>
+
+<h2>Wardrobe</h2>
+<ul>
+<li><a href="/diffr/blog/casual-wardrobe-brand-guide">Casual starter wardrobe</a> &mdash; the capsule where everything goes together.</li>
+<li><a href="/diffr/blog/work-wardrobe-brand-guide">Work capsule wardrobe</a> &mdash; the first professional outfit, bought in order.</li>
+<li><a href="/diffr/blog/winter-layering-brand-guide">Winter layering starter kit</a> &mdash; base to shell, plus what to wear by temperature.</li>
+</ul>
+
+<h2>Beauty &amp; Hobby</h2>
+<ul>
+<li><a href="/diffr/blog/skincare-brand-guide">Skincare starter kit</a> &mdash; the three steps that matter, the three you can skip.</li>
+<li><a href="/diffr/blog/makeup-brand-guide">Makeup starter kit</a> &mdash; the everyday-face beginner essentials.</li>
+<li><a href="/diffr/blog/film-photography-brand-guide">Film photography starter kit</a> &mdash; camera to first roll.</li>
+</ul>
+
+<h2>The Pattern</h2>
+<p>Notice what every kit shares: one good brand per slot, no repeats, and a clear order to buy them in. That is the Diffr method &mdash; <a href="/diffr/blog/the-one-brand-rule">one answer per slot</a> so you can <a href="/diffr/blog/the-decide-once-rule">decide once</a> and get on with the hobby instead of researching the gear for it. New kits are added as the brand database grows.</p>
+`,
+  },
+  {
     slug: 'camping-gear-brand-guide',
     title: 'The Complete Camping Starter Kit for Beginners: Every Slot Assigned',
     description: 'Nine car-camping slots — tent to first aid — assigned and closed. The Diffr brand guide to a complete camping starter kit for two or the whole family: what to buy first to camp comfortably, without a gear rabbit hole.',
