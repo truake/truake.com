@@ -12,6 +12,69 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'camping-gear-brand-guide',
+    title: 'The Complete Camping Starter Kit for Beginners: Every Slot Assigned',
+    description: 'Nine car-camping slots — tent to first aid — assigned and closed. The Diffr brand guide to a complete camping starter kit for two or the whole family: what to buy first to camp comfortably, without a gear rabbit hole.',
+    date: '2026-06-16',
+    readTime: '7 min read',
+    tags: ['brand guide', 'camping starter kit', 'camping gear for beginners', 'car camping essentials', 'camping starter kit for family', 'what to buy first camping', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine slots. Nine brand answers. A complete car-camping kit for two or the family — assigned and closed. Pitch camp. Stop researching.',
+    content: `
+<p>Car camping is supposed to be the easy kind: you drive to the site, nothing goes on your back, and comfort is the whole point. Then you open a gear forum and find forty opinions on tent denier, cooler ice-retention, and sleeping-pad R-value &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> pitched at a campsite. Diffr&rsquo;s answer is the same everywhere: one good brand per slot, file closed. Here is the complete beginner camping starter kit &mdash; built for two people or a small family to camp comfortably, with a buy-in-this-order priority at the end so you can start with the basics.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Tent</h3>
+<p><strong>REI Co-op Wonderland 4</strong></p>
+<p>A car-camping tent is not a backpacking tent: weight does not matter, livable space does. The Wonderland 4 stands tall enough to change clothes standing up, sleeps two with room for gear (or a small family snug), and pitches without an engineering degree. Near-vertical walls make the four-person rating honest. This is the slot that decides whether camp feels like a home or a hassle.</p>
+
+<h3>Slot 2 &mdash; Sleeping Bag</h3>
+<p><strong>Kelty Tru.Comfort Doublewide</strong></p>
+<p>The single best upgrade for camping as a couple: one wide bag instead of two mummies zipped awkwardly together. The Tru.Comfort Doublewide sleeps two, has a layered blanket system you can vent or cinch, and is rated warm enough for three-season nights. (Camping solo or with kids? Kelty makes the same comfort in a single, keeping the slot to one brand.)</p>
+
+<h3>Slot 3 &mdash; Sleeping Pad</h3>
+<p><strong>Therm-a-Rest MondoKing</strong></p>
+<p>Car camping is where you stop pretending a thin foam pad is fine. The MondoKing is a plush, self-inflating mattress that feels like a real bed and insulates you from the cold ground that ruins otherwise-warm sleepers. It is heavy and bulky &mdash; which does not matter, because it lives in your trunk, not on your back. Sleep is the whole point of comfort camping.</p>
+
+<h3>Slot 4 &mdash; Camp Stove</h3>
+<p><strong>Coleman Classic 2-Burner</strong></p>
+<p>The iconic car-camping stove for a reason: two burners, a wind-blocking design, cheap propane canisters, and it lights every time for decades. Two burners means a real meal &mdash; coffee and eggs at once &mdash; instead of boiling one pot at a time. The Coleman Classic is the boring, correct answer that has fed campsites for generations.</p>
+
+<h3>Slot 5 &mdash; Cooler</h3>
+<p><strong>RTIC 45</strong></p>
+<p>A good cooler is what separates camping from suffering: cold food, cold drinks, ice that lasts the weekend. The RTIC 45 holds ice for days, fits a family&rsquo;s weekend food, and costs a fraction of the premium brand it is modeled on. Roto-molded construction that outlives the car you haul it in. Buy once.</p>
+
+<h3>Slot 6 &mdash; Camp Chairs</h3>
+<p><strong>GCI Outdoor Freestyle Rocker</strong></p>
+<p>After a day outside, where you sit is not a small thing. The Freestyle Rocker is the camp chair people fight over: it genuinely rocks on any terrain, packs flat, and is sturdy enough for years of campfires. A regular folding chair is fine until you sit in this one. Get two.</p>
+
+<h3>Slot 7 &mdash; Lantern</h3>
+<p><strong>Goal Zero Lighthouse 600</strong></p>
+<p>A headlamp lights your face; a lantern lights the whole campsite &mdash; the table, the tent, the card game after dark. The Lighthouse 600 is bright, runs on USB or its own hand crank, and doubles as a power bank to charge a phone. One device for light and backup power. The slot that turns nightfall into the best part of the day.</p>
+
+<h3>Slot 8 &mdash; Cook Set</h3>
+<p><strong>Stanley Adventure Base Camp Cook Set</strong></p>
+<p>Pots, a pour, and plates that nest into one tidy package sized for a group. The Stanley Base Camp set covers cooking and serving for four without a cabinet of mismatched gear rattling in your trunk. Stainless, near-indestructible, and designed so camp cooking feels like a kitchen instead of a chore.</p>
+
+<h3>Slot 9 &mdash; First Aid Kit</h3>
+<p><strong>Adventure Medical Kits Mountain Series</strong></p>
+<p>The slot you hope to never open and must always pack. The Mountain Series kit is pre-built and trip-specific, with the wound care, blister fixes, and basics a weekend away from a pharmacy actually needs. Buying the components separately is a project; this is a purchase. Throw it in the bin and forget it until the day it matters.</p>
+
+<h2>Buy in This Order (Start With Shelter and Sleep)</h2>
+<p>You do not need all nine slots for a first trip. If you are building a camping starter kit on a budget, this is the priority &mdash; and the first group is the difference between loving camping and never going back:</p>
+<ol>
+<li><strong>Start here (shelter and sleep):</strong> the tent, the sleeping bag, and the sleeping pad. A roof, warmth, and a comfortable surface decide whether you sleep well &mdash; and bad sleep is the number one reason beginners quit camping.</li>
+<li><strong>Add next (cook and keep cold):</strong> the stove and the cooler. Hot food and cold drinks turn a patch of dirt into a campsite. This is the heart of car camping.</li>
+<li><strong>Finish when you can:</strong> the chairs, lantern, cook set, and first aid kit &mdash; comfort around the fire, light after dark, and the safety net.</li>
+</ol>
+<p>If you only buy three things, buy the tent, the bag, and the pad. Sleep well your first trip and everything else is a detail; sleep badly and no amount of gear will bring you back.</p>
+
+<h2>The Point</h2>
+<p>Car camping is the gateway: drive to the site, sleep comfortably, decide once and stop researching. Nine brands cover a complete weekend for two or a small family, and the non-repetition principle keeps one good answer per slot so you never buy the same thing twice. When you are ready to carry it on your back instead of in your trunk, the <a href="/diffr/blog/backpacking-gear-brand-guide">backpacking starter kit</a> is the next file to close. <a href="/diffr/blog/the-decide-once-rule">Decide once.</a> Pitch camp. Stop researching.</p>
+`,
+  },
+  {
     slug: 'casual-wardrobe-brand-guide',
     title: 'Best Casual Wardrobe Brands for Beginners: Every Slot Assigned',
     description: 'Seven everyday-casual slots — tee to sunglasses — assigned and closed. The Diffr brand guide to a beginner starter wardrobe: the capsule wardrobe essentials, what to buy first, and how every piece goes with every other. One good version of each, no research spiral.',

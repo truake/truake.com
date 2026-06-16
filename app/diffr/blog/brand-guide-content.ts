@@ -15,6 +15,8 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'camping-gear-brand-guide':
+    'Bottom line: a beginner car-camping starter kit comes down to shelter and sleep first — a livable tent, a warm sleeping bag, and a plush sleeping pad — because bad sleep is the number one reason people quit camping. Buy in this order: tent, bag, and pad first, then a two-burner stove and a good cooler, then chairs, a lantern, a cook set, and a first aid kit. Built for two or a small family. Below is one brand per slot, no repeats.',
   'bike-commuting-gear-brand-guide':
     'Bottom line: a beginner bike-commuting starter kit is five things — a reliable bike, a helmet, front and rear lights, a way to carry gear, and a hardened lock. On a budget, buy in this order: bike, helmet, lock, and lights first (a safe, legal commute), then a rack and panniers, then weather gear. Spend on the lights, the lock, and durable tires first; skip the cycling-specific wardrobe. Below is one solid brand per slot, no repeats.',
   'running-gear-brand-guide':
@@ -53,6 +55,25 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'camping-gear-brand-guide': [
+    {
+      q: 'What do I actually need for my first camping trip?',
+      a: 'Shelter and sleep come first: a livable tent, a warm sleeping bag, and a comfortable sleeping pad. Add a two-burner stove and a cooler and you can camp and eat well for a weekend. Chairs, a lantern, a cook set, and a first aid kit round it out. Get the sleep system right before anything else — bad sleep is what makes beginners quit.',
+    },
+    {
+      q: 'How much does a beginner camping setup cost?',
+      a: 'A complete, quality car-camping kit for two runs roughly $600–1,000, with the tent, sleeping bags, and cooler as the biggest line items. You can start cheaper by borrowing a tent and bags for your first trip before committing, then buy the pieces you found you actually needed. Spend on sleep and the cooler; save on the extras.',
+    },
+    {
+      q: 'Is car camping gear different from backpacking gear?',
+      a: 'Yes, and it matters. Car camping prizes comfort and space because you carry nothing — a big tent, a plush mattress, a two-burner stove, a heavy cooler. Backpacking prizes light weight because it all goes on your back. Buying ultralight backpacking gear for car camping wastes money on a problem you do not have; buy the comfortable version.',
+    },
+    {
+      q: 'What does a camping starter kit need at a minimum?',
+      a: 'Three essentials get you a good night outdoors: a tent, a sleeping bag, and a sleeping pad. Add a stove and a cooler to eat well, then chairs, a lantern, a cook set, and a first aid kit. Buy the tent, bag, and pad first — comfortable sleep is the difference between a trip you repeat and one you never do again.',
+    },
+  ],
+
   'bike-commuting-gear-brand-guide': [
     {
       q: 'What gear does a beginner bike commuter actually need to start?',
