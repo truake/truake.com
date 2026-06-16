@@ -1844,10 +1844,10 @@ export const posts: BlogPost[] = [
   {
     slug: 'home-office-brand-guide',
     title: 'Best Home Office Gear for Beginners: Every Slot Assigned',
-    description: 'Stop scrolling r/homeoffice. Here are 13 home office slots, 13 real brand picks, and zero decisions left for you to make.',
+    description: 'Stop scrolling r/homeoffice. Here are 13 home office essentials, 13 real brand picks, and a buy-in-this-order priority for your first remote-job setup — zero decisions left for you to make.',
     date: '2026-05-23',
     readTime: '8 min read',
-    tags: ['brand guide', 'home office', 'desk setup', 'knowledge work', 'non-repetition principle'],
+    tags: ['brand guide', 'home office essentials', 'home office starter kit', 'first remote job setup', 'desk setup', 'home office', 'non-repetition principle'],
     category: 'product',
     excerpt: 'You have spent forty minutes on r/homeoffice. Still no desk. This guide assigns every slot — from chair to plant.',
     content: `
@@ -1857,7 +1857,7 @@ export const posts: BlogPost[] = [
 
 <p>Thirteen slots. Thirteen brands. No alternatives listed. No &ldquo;it depends.&rdquo; The Non-Repetition Principle applies: every brand appears once. If you want to understand why one answer per slot is the correct format for this kind of problem, read <a href="/diffr/blog/the-one-brand-rule">The One Brand Rule</a>.</p>
 
-<p>The scenario: a focused, high-quality home office for knowledge work. Not a gaming setup. Not a studio. A place where you think, write, build, and communicate. Let&rsquo;s assign the slots.</p>
+<p>The scenario: a focused, high-quality home office for knowledge work. Not a gaming setup. Not a studio. A place where you think, write, build, and communicate. Let&rsquo;s assign the slots &mdash; and if you are kitting out your first remote-job desk on a budget, there is a buy-in-this-order priority at the end.</p>
 
 <h2>Slot 1 &mdash; Chair: Steelcase Leap V2</h2>
 
@@ -1910,6 +1910,15 @@ export const posts: BlogPost[] = [
 <h2>Slot 13 &mdash; Plant: Pothos (Epipremnum aureum)</h2>
 
 <p>A plant on a desk is not decoration. It is a visual anchor that your eyes can rest on during the micro-pauses that occur naturally in deep work. Pothos requires no grow light, tolerates irregular watering, propagates from cuttings without any equipment, and survives the light conditions found in most home offices. Buy one cutting in a small pot. Put it in a corner of the desk that is not in your direct sightline. Water it when the soil is dry. It will outlast every other item on this list.</p>
+
+<h2>Buy in This Order (Your First Remote-Job Desk)</h2>
+<p>You do not need all thirteen slots to start working. If you are setting up your first remote-job desk on a budget, this is the priority &mdash; spend where your body and your eyes are:</p>
+<ol>
+<li><strong>Start here (the workstation):</strong> the chair and the monitor. You are in the chair for eight hours and a screen at eye level saves your neck &mdash; these two carry most of the comfort. A refurbished ergonomic chair is the single best money you will spend.</li>
+<li><strong>Add next (the desk and daily tools):</strong> the standing desk, then the keyboard, mouse, and monitor arm. Any table works to start; upgrade to a sit-stand desk once the seated ergonomics are right.</li>
+<li><strong>Finish when you can:</strong> the headphones, webcam, microphone, desk light, notebook, pen, and plant &mdash; the focus, calls, and finishing touches.</li>
+</ol>
+<p>If you only buy one thing, buy the chair. It is the one piece you are in physical contact with all day, and it pays for itself in avoided back pain &mdash; one good version of the slot that matters most.</p>
 
 <h2>The Complete Assignment</h2>
 

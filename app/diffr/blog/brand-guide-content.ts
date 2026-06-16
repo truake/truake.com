@@ -24,7 +24,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'home-coffee-brand-guide':
     "Bottom line: great home coffee comes down to fresh beans, a burr grinder, and a brew method you'll use daily — and the grinder matters more than a fancy brewer. You can start genuinely well for $100–150; leave espresso for later. Below is Diffr's one-brand-per-slot setup.",
   'home-office-brand-guide':
-    'Bottom line: a productive home office rests on four things — a supportive chair, a desk at the right height, an external monitor, and good lighting. Spend the most on the chair and the screen; a standing desk and accessories can wait. Below is one brand per slot, no repeats.',
+    'Bottom line: a productive home office starter kit rests on four things — a supportive chair, a desk at the right height, an external monitor, and good lighting. On a budget, buy in this order: the chair and the monitor first (where your body and eyes live), then the desk and daily tools; a standing desk and accessories can wait. Spend the most on the chair and the screen. Below is one brand per slot, no repeats.',
   'steak-dinner-brand-guide':
     "Bottom line: a restaurant-quality steak at home needs just a heavy skillet, an instant-read thermometer, and tongs — the thermometer is what guarantees doneness. One good chef's knife beats a matching block. Below is Diffr's one-brand-per-slot kit for cooking at home.",
   'hiking-gear-brand-guide':
@@ -149,6 +149,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How much should I budget for a decent home office?',
       a: 'A genuinely comfortable setup runs roughly $500–900, with the chair and monitor as the two biggest line items. You can phase it: start with the best chair you can afford and one external monitor, then add lighting, a keyboard, and a desk upgrade over time. Buying everything at once usually means overspending on the wrong things.',
+    },
+    {
+      q: 'What does a home office starter kit need at a minimum?',
+      a: 'Three things get you working comfortably: a supportive chair, an external monitor at eye level, and decent lighting — a real table you already own covers the desk to start. Add a keyboard, mouse, and a sit-stand desk next, then headphones and a webcam for calls. Buy the chair and monitor first; they carry the comfort.',
     },
   ],
 
