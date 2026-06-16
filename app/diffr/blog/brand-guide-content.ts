@@ -34,7 +34,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'pc-gaming-gear-brand-guide':
     'Bottom line: past the PC itself, a beginner gaming setup is four essentials — monitor, keyboard, mouse, headset — plus a chair worth not cheaping out on. On a budget, buy in this order: monitor and the input trio first (a complete setup), then the chair and headset, then the mic and stream deck. Spend on the monitor (high refresh beats high resolution) and the chair. Below is one brand per slot, no repeats.',
   'backpacking-gear-brand-guide':
-    'Bottom line: backpacking comes down to the big three — pack, tent, and sleep system (bag + pad) — which dominate your weight, space, and budget; nail those, then add a stove, water filter, headlamp, and first aid kit. Budget roughly $700–1,200, and rent or borrow the big-ticket items for your first trips before committing. Skip ultralight gear until you know what actually bothers you. Below is one brand per slot, no repeats.',
+    'Bottom line: a beginner backpacking starter kit comes down to the big three — pack, tent, and sleep system (bag + pad) — which dominate your weight, space, and budget. Buy in this order: the big three first (rent or borrow them for your first trips before committing), then a stove, water filter, headlamp, and first aid kit, then the comfort extras. Budget roughly $700–1,200. Skip ultralight gear until you know what actually bothers you. Below is one brand per slot, no repeats.',
   'skincare-brand-guide':
     'Bottom line: a beginner skincare starter kit is three steps — cleanse, moisturize, and protect with sunscreen — and sunscreen matters most, by far. On a budget, buy in this order: cleanser, moisturizer, and sunscreen first (a complete routine on their own), then a vitamin C serum; skip toner and eye cream. The whole effective kit costs about $60–100 and is mostly drugstore — expensive rarely means better here. Below is one brand per slot, no repeats.',
   'makeup-brand-guide':
@@ -256,6 +256,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Should a beginner buy ultralight gear?',
       a: 'No. Ultralight gear is expensive, often less durable, and solves a problem (shaving ounces over big miles) that beginners do not yet have. Start with durable, comfortable, well-priced gear, learn what actually bothers you on trail, then upgrade deliberately. Comfort and reliability beat weight for a first season.',
+    },
+    {
+      q: 'What does a backpacking starter kit need at a minimum?',
+      a: 'The big three carry it: a pack, a tent, and a sleep system (bag plus pad). Add a stove, a water filter, a headlamp, and a first aid kit and you have a complete, safe overnight kit. Cooksets, poles, and a navigation app round it out. Get the big three right first — and rent or borrow them before you buy.',
     },
   ],
 

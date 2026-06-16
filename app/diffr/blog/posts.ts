@@ -176,14 +176,14 @@ export const posts: BlogPost[] = [
   {
     slug: 'backpacking-gear-brand-guide',
     title: 'Best Backpacking Gear for Beginners: Every Slot Assigned',
-    description: 'Eleven backpacking gear slots — the big three to navigation — assigned and closed. The Diffr brand guide for new backpackers who want to hit the trail without a six-month research project.',
+    description: 'Eleven backpacking gear slots — the big three to navigation — assigned and closed. The Diffr brand guide to a complete beginner backpacking starter kit: what to buy first, starting with the big three, without a six-month research project.',
     date: '2026-06-04',
     readTime: '8 min read',
-    tags: ['brand guide', 'backpacking gear for beginners', 'backpacking brands', 'beginner backpacking', 'non-repetition principle'],
+    tags: ['brand guide', 'backpacking gear for beginners', 'backpacking starter kit', 'complete backpacking kit', 'backpacking gear list for beginners', 'backpacking brands', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Eleven slots. Eleven brand answers. The big three to navigation — assigned and closed. Hit the trail. Stop researching.',
     content: `
-<p>Backpacking is car camping with consequences: everything you need to sleep, eat, and stay alive goes on your back, so every gram and every dollar is a decision. The gear forums will happily turn that into a six-month research project &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> measured in ounces. Diffr&rsquo;s approach is the same everywhere: one brand per slot, file closed. Here is the complete beginner overnight kit, starting with the &ldquo;big three&rdquo; that dominate your pack weight and your budget.</p>
+<p>Backpacking is car camping with consequences: everything you need to sleep, eat, and stay alive goes on your back, so every gram and every dollar is a decision. The gear forums will happily turn that into a six-month research project &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> measured in ounces. Diffr&rsquo;s approach is the same everywhere: one brand per slot, file closed. Here is the complete beginner backpacking starter kit, with a buy-in-this-order priority at the end &mdash; starting with the &ldquo;big three&rdquo; that dominate your pack weight and your budget.</p>
 
 <h2>The Slots</h2>
 
@@ -230,6 +230,15 @@ export const posts: BlogPost[] = [
 <h3>Slot 11 &mdash; Navigation</h3>
 <p><strong>Gaia GPS</strong></p>
 <p>Out here, &ldquo;follow the trail&rdquo; fails &mdash; junctions, snow, faint paths. Gaia GPS is the backcountry standard: detailed topographic layers and offline maps that work with no signal. The one digital slot that keeps an overnight from becoming an epic.</p>
+
+<h2>Buy in This Order (Starting From Scratch)</h2>
+<p>You do not need all eleven slots at once. If you are building a backpacking starter kit from scratch, this is the priority &mdash; and renting or borrowing the first group for your first trips is the smartest move before you commit:</p>
+<ol>
+<li><strong>Start here (the big three):</strong> the pack, the tent, and the sleep system (bag and pad). These dominate your weight, your space, and your budget &mdash; get them right and you can complete almost any overnight.</li>
+<li><strong>Add next (cook and stay safe):</strong> the stove, water filter, headlamp, and first aid kit. The systems that turn a sleep setup into a self-sufficient trip.</li>
+<li><strong>Finish when you can:</strong> the cookset, trekking poles, and navigation app &mdash; comfort, support, and the digital backup.</li>
+</ol>
+<p>If you only invest in one group first, nail the big three &mdash; and rent or borrow them for a first trip or two before you buy. That is the smartest beginner move there is.</p>
 
 <h2>The Point</h2>
 <p>Get the big three right and the rest of the kit is comparatively cheap and easy. The interactive version of this kit lives in the Diffr app, where every pick comes straight from the brand database &mdash; swap any slot and build your own no-repeat pack. Hit the trail. Stop researching.</p>
