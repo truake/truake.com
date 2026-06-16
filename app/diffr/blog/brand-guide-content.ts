@@ -40,7 +40,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'makeup-brand-guide':
     'Bottom line: an everyday beginner face is about five products — a natural base, concealer, mascara, blush, and a forgiving lip — plus a couple of brushes and a sponge to apply them. Go mostly drugstore with one or two splurges (concealer, a good sponge); skip contour, eyeshadow, and setting products until later. Start with the items hardest to apply badly. Below is one brand per slot, no repeats.',
   'casual-wardrobe-brand-guide':
-    'Bottom line: a versatile casual wardrobe is a system, not a pile — build it around a few neutral pieces that all pair with each other. The core is a good plain tee, a mid-wash slim jean, and a clean white sneaker; add a casual jacket, a leather belt, an everyday watch, and sunglasses to finish. Buy one good version of each in neutral colors (white, navy, grey, brown) and everything goes with everything. Below is one brand per slot, no repeats.',
+    'Bottom line: a versatile starter wardrobe is a system, not a pile — build it around a few neutral pieces that all pair with each other. Buy in this order: a good plain tee, a mid-wash slim jean, and a clean white sneaker first (a complete outfit on their own), then a casual jacket and a leather belt, then an everyday watch and sunglasses. Keep everything in neutral colors (white, navy, grey, brown) and it all goes with everything. Below is one brand per slot, no repeats.',
   'work-wardrobe-brand-guide':
     'Bottom line: a first work capsule wardrobe is mix-and-match separates, not one suit. The core four are a crisp dress shirt, charcoal or navy trousers, dark-brown leather dress shoes, and a navy blazer; add a matching belt, a clean work bag, and one good necktie. On a first-job budget, buy in this order — shirt, trousers, and shoes first (a complete interview-ready outfit), then the blazer (the highest-impact upgrade), then the rest. Below is one brand per slot, no repeats.',
   'winter-layering-brand-guide':
@@ -321,6 +321,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'What do beginners overbuy when building a wardrobe?',
       a: 'Trend pieces and near-duplicates — five graphic tees, three trendy jackets, sneakers in colors that match nothing. The fix is the capsule approach: one good version of each slot in a neutral color, then stop. Owning less but pairing better beats a closet full of orphan pieces.',
+    },
+    {
+      q: 'What should I buy first to build a starter wardrobe?',
+      a: 'Start with three neutral pieces: a good plain tee, a mid-wash slim jean, and clean white sneakers. In white, navy, or grey, those three already make a complete casual outfit and pair in any combination. Add a casual jacket and a leather belt next, then an everyday watch and sunglasses. Buy the core three first; neutrals are what make everything go together.',
     },
   ],
 

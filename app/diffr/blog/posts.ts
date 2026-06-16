@@ -14,14 +14,14 @@ export const posts: BlogPost[] = [
   {
     slug: 'casual-wardrobe-brand-guide',
     title: 'Best Casual Wardrobe Brands for Beginners: Every Slot Assigned',
-    description: 'Seven everyday-casual slots — tee to sunglasses — assigned and closed. The Diffr brand guide for building a versatile capsule where every piece goes with every other piece. One good version of each, no research spiral.',
+    description: 'Seven everyday-casual slots — tee to sunglasses — assigned and closed. The Diffr brand guide to a beginner starter wardrobe: the capsule wardrobe essentials, what to buy first, and how every piece goes with every other. One good version of each, no research spiral.',
     date: '2026-06-12',
     readTime: '6 min read',
-    tags: ['brand guide', 'casual wardrobe for beginners', 'capsule wardrobe', 'mens basics', 'what goes with everything', 'non-repetition principle'],
+    tags: ['brand guide', 'casual wardrobe for beginners', 'starter wardrobe', 'capsule wardrobe essentials', 'capsule wardrobe checklist', 'mens basics', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Seven slots. Seven brand answers. The everyday-casual capsule where every piece pairs with every other piece. Get dressed. Stop researching.',
     content: `
-<p>A casual wardrobe is not a pile of clothes &mdash; it is a system where every piece pairs with every other piece. Get that right and a tee, a pair of jeans, and a jacket become a dozen outfits. Get it wrong and you own forty things and wear six. The fashion forums turn &ldquo;what should I buy&rdquo; into a year-long rabbit hole &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in denim form. Diffr&rsquo;s answer is the same everywhere: one good version of each piece, one brand per slot, file closed. Here is the complete beginner capsule &mdash; build it once and everything goes with everything.</p>
+<p>A casual wardrobe is not a pile of clothes &mdash; it is a system where every piece pairs with every other piece. Get that right and a tee, a pair of jeans, and a jacket become a dozen outfits. Get it wrong and you own forty things and wear six. The fashion forums turn &ldquo;what should I buy&rdquo; into a year-long rabbit hole &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in denim form. Diffr&rsquo;s answer is the same everywhere: one good version of each piece, one brand per slot, file closed. Here is the complete beginner starter wardrobe &mdash; build it once and everything goes with everything, with a buy-in-this-order priority at the end so you can start with three pieces.</p>
 
 <h2>The Slots</h2>
 
@@ -52,6 +52,15 @@ export const posts: BlogPost[] = [
 <h3>Slot 7 &mdash; Casual Sunglasses</h3>
 <p><strong>Ray-Ban Wayfarer</strong></p>
 <p>The default frame for a reason &mdash; the Wayfarer shape suits the widest range of faces and finishes the casual look without a thought. Get them in black, and every outfit above just gained its last piece.</p>
+
+<h2>Buy in This Order (Start With Three Pieces)</h2>
+<p>You do not need all seven pieces to get dressed well. If you are building a starter wardrobe from scratch, this is the priority &mdash; the first three already make a dozen outfits:</p>
+<ol>
+<li><strong>Start here (the core that pairs with everything):</strong> the t-shirt, the jeans, and the white sneakers. A good plain tee, a mid-wash slim jean, and clean white sneakers go together in any combination &mdash; that is a complete casual outfit on day one.</li>
+<li><strong>Add next (finishes the look):</strong> the casual jacket and the leather belt. The jacket turns two pieces into a put-together outfit; the belt completes the line at the waist.</li>
+<li><strong>Finish when you can:</strong> the everyday watch and the sunglasses &mdash; the accessories that quietly signal you thought about it.</li>
+</ol>
+<p>If you only buy three things, buy the tee, the jeans, and the sneakers in neutral colors. Neutrals pair with each other by default &mdash; that is the whole trick to a wardrobe where everything goes with everything.</p>
 
 <h2>The Point</h2>
 <p>Versatility is not an accident &mdash; it is what happens when every slot is chosen to pair with every other slot. That is exactly what Diffr does: the interactive version of this capsule lives in the app, where every pick comes straight from the brand database, and the non-repetition principle guarantees one brand per slot so you never buy the same thing twice. <a href="/diffr/start/everyday-casual-look">Build your own everyday-casual kit &rarr;</a> Get dressed. Stop researching.</p>
