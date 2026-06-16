@@ -32,7 +32,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'yoga-gear-brand-guide':
     'Bottom line: yoga needs a mat and a body — everything else is a prop that makes poses accessible. Buy one quality mat (the one place not to cheap out, ~$90–140 with a block and strap), add blocks and a strap for tight beginner bodies, and leave the bolster, towel, and meditation cushion until a specific practice asks for them. Below is one brand per slot, no repeats.',
   'pc-gaming-gear-brand-guide':
-    'Bottom line: past the PC itself, a beginner battlestation is four peripherals — monitor, keyboard, mouse, headset — plus a chair worth not cheaping out on. Spend on the monitor (high refresh beats high resolution for beginners) and the chair (hours of your back); keep peripherals solid-and-cheap. The mic and stream deck wait until you stream. Below is one brand per slot, no repeats.',
+    'Bottom line: past the PC itself, a beginner gaming setup is four essentials — monitor, keyboard, mouse, headset — plus a chair worth not cheaping out on. On a budget, buy in this order: monitor and the input trio first (a complete setup), then the chair and headset, then the mic and stream deck. Spend on the monitor (high refresh beats high resolution) and the chair. Below is one brand per slot, no repeats.',
   'backpacking-gear-brand-guide':
     'Bottom line: backpacking comes down to the big three — pack, tent, and sleep system (bag + pad) — which dominate your weight, space, and budget; nail those, then add a stove, water filter, headlamp, and first aid kit. Budget roughly $700–1,200, and rent or borrow the big-ticket items for your first trips before committing. Skip ultralight gear until you know what actually bothers you. Below is one brand per slot, no repeats.',
   'skincare-brand-guide':
@@ -229,6 +229,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Is an expensive gaming chair worth it for a beginner?',
       a: 'It is the one peripheral where buying once beats buying cheap. You are in it for hours, and a quality chair prevents the back and neck pain a cheap chair causes within months. If you trim the budget anywhere, trim the mousepad and the mic — not the chair.',
+    },
+    {
+      q: 'What does a PC gaming starter kit need at a minimum?',
+      a: 'Beyond the tower: a high-refresh monitor, a keyboard, a mouse, and a mousepad get you playing — that is the core setup. Add a chair and a headset next for comfort and multiplayer, then a mic and stream deck only if you stream. Buy the monitor first; refresh rate changes how every game feels.',
     },
   ],
 

@@ -447,14 +447,14 @@ export const posts: BlogPost[] = [
   {
     slug: 'pc-gaming-gear-brand-guide',
     title: 'Best PC Gaming Gear for Beginners: Every Slot Assigned',
-    description: 'Eight battlestation slots — monitor to stream deck — assigned and closed. The Diffr brand guide for new PC gamers building a setup without reading a hundred peripheral reviews.',
+    description: 'Eight gaming setup essentials — monitor to stream deck — assigned and closed. The Diffr brand guide to a beginner PC gaming starter kit: what to buy first around the tower, without reading a hundred peripheral reviews.',
     date: '2026-06-04',
     readTime: '7 min read',
-    tags: ['brand guide', 'pc gaming gear for beginners', 'gaming brands', 'gaming setup', 'non-repetition principle'],
+    tags: ['brand guide', 'pc gaming gear for beginners', 'gaming setup essentials', 'pc gaming starter kit', 'what to buy first gaming setup', 'gaming setup', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Eight slots. Eight brand answers. Monitor to stream deck — assigned and closed. Build the battlestation. Stop spec-hunting.',
     content: `
-<p>The PC itself is one decision. The battlestation around it &mdash; the screen, the peripherals, the chair &mdash; is eight more, and each has a subreddit ready to argue about it for a hundred replies. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> with RGB. Diffr assigns one brand per slot and closes the file. Here is the complete beginner battlestation &mdash; peripherals and comfort, assuming the tower is handled.</p>
+<p>The PC itself is one decision. The battlestation around it &mdash; the screen, the peripherals, the chair &mdash; is eight more, and each has a subreddit ready to argue about it for a hundred replies. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> with RGB. Diffr assigns one brand per slot and closes the file. Here is the complete beginner gaming setup &mdash; the essentials around the tower, with a buy-in-this-order priority at the end for when you are building it on a budget.</p>
 
 <h2>The Slots</h2>
 
@@ -490,8 +490,17 @@ export const posts: BlogPost[] = [
 <p><strong>Elgato Stream Deck MK.2</strong></p>
 <p>The only real answer in its category &mdash; Elgato built it and owns it. Purely optional: it is for the day you start streaming or producing content. A beginner gamer can ignore this slot entirely until then.</p>
 
+<h2>Buy in This Order (Building It on a Budget)</h2>
+<p>You do not need all eight slots to start playing. If you are building your setup around the tower on a budget, this is the priority &mdash; each step is already a working setup:</p>
+<ol>
+<li><strong>Start here (to actually play):</strong> the monitor, keyboard, mouse, and mousepad. A high-refresh monitor makes games feel smooth, and the keyboard, mouse, and pad are how you play. That is a complete setup around your PC.</li>
+<li><strong>Add next (comfort and voice):</strong> the gaming chair and the headset. You are in the chair for hours, and a headset becomes essential the moment you play with other people.</li>
+<li><strong>Finish when you can:</strong> the microphone and stream deck &mdash; for clean voice chat and the day you start streaming.</li>
+</ol>
+<p>If you only upgrade one thing first, make it the monitor &mdash; refresh rate does more for how games feel than resolution or RGB ever will.</p>
+
 <h2>The Point</h2>
-<p>Four peripherals and a chair are the core; the mic and stream deck wait until you stream. The interactive version of this kit lives in the Diffr app, where every pick comes from the brand database &mdash; swap any slot and build your own no-repeat battlestation. Build it. Stop spec-hunting.</p>
+<p>Four peripherals and a chair are the core; the mic and stream deck wait until you stream. The interactive version of this kit lives in the Diffr app, where every pick comes from the brand database &mdash; swap any slot and build your own no-repeat gaming starter kit. Build it. Stop spec-hunting.</p>
 `,
   },
   {
