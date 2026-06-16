@@ -20,7 +20,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'running-gear-brand-guide':
     "Bottom line: the only gear a new runner truly needs is one pair of well-fitting running shoes — get fitted, expect to spend $120–160, and replace them every 300–500 miles. Skip the carbon-plate racers and the GPS watch until you've built a base. Below is Diffr's one-brand-per-slot starter kit.",
   'home-gym-brand-guide':
-    'Bottom line: a beginner home gym needs surprisingly little — adjustable dumbbells, a sturdy bench, and a pull-up bar or bands train every major movement. Skip the single-purpose machines; a $300–600 setup built around adjustable dumbbells beats a garage of specialized gear. Below is one brand per slot, no repeats.',
+    'Bottom line: a beginner home gym starter kit needs surprisingly little — adjustable dumbbells, a mat, and a pull-up bar or bands train every major movement. On a budget, buy in this order: adjustable dumbbells and a mat first (a full-body workout on their own), then bands and a kettlebell, then the rest. A $300–600 setup built around adjustable dumbbells beats a garage of specialized gear. Below is one brand per slot, no repeats.',
   'home-coffee-brand-guide':
     "Bottom line: great home coffee comes down to fresh beans, a burr grinder, and a brew method you'll use daily — and the grinder matters more than a fancy brewer. You can start genuinely well for $100–150; leave espresso for later. Below is Diffr's one-brand-per-slot setup.",
   'home-office-brand-guide':
@@ -107,6 +107,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'What do beginners waste the most money on in a home gym?',
       a: 'Single-purpose machines and gadgets — the ab roller, the vibration plate, the cardio machine that becomes a clothes rack. They eat space and train one thing. A pair of adjustable dumbbells plus consistency will out-build a garage full of specialized equipment every time.',
+    },
+    {
+      q: 'If I am building a home gym from scratch, what should I buy first?',
+      a: 'Start with one pair of adjustable dumbbells and a mat — together they are a complete full-body workout in almost no space. Add resistance bands and a kettlebell next for pull-up assistance and conditioning, then a doorway pull-up bar, a foam roller, and flooring as budget allows. Adjustable dumbbells first is the rule: a single pair replaces a whole rack and trains every movement.',
     },
   ],
 

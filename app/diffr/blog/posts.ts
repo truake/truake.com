@@ -2181,14 +2181,14 @@ Diffr ends with: here is what you get.</p>
   {
     slug: 'home-gym-brand-guide',
     title: 'Best Home Gym Equipment for Beginners: Every Slot Assigned',
-    description: 'Ten home gym slots — adjustable dumbbells to training app — assigned and closed. The Diffr brand guide for new lifters who want to start without spending three days in Amazon rabbit holes.',
+    description: 'Ten home gym slots — adjustable dumbbells to training app — assigned and closed. The Diffr brand guide to a beginner home gym starter kit: what to buy first when you are building from scratch on a budget and in a small space, one good brand per slot.',
     date: '2026-05-30',
     readTime: '7 min read',
-    tags: ['brand guide', 'home gym brands for beginners', 'best home gym equipment brands', 'home gym', 'non-repetition principle'],
+    tags: ['brand guide', 'home gym brands for beginners', 'home gym starter kit', 'home gym essentials', 'what to buy first home gym', 'home gym', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Ten slots. Ten brand answers. Dumbbells to training app — assigned and closed. No comparison shopping, no YouTube review holes.',
     content: `
-<p>Building a home gym has approximately twelve equipment decisions before you lift a single rep, and the fitness industry has financial incentives to make every one of those decisions feel urgent and complex. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to strength training. Diffr solves it the same way it solves every scenario: decompose the space into discrete slots, assign one brand to each slot, close the file. Here is the complete home gym guide for someone building from zero. No &ldquo;best budget option,&rdquo; no &ldquo;top five adjustable dumbbells,&rdquo; no &ldquo;it depends on your goals.&rdquo; One answer per slot. Start training.</p>
+<p>Building a home gym has approximately twelve equipment decisions before you lift a single rep, and the fitness industry has financial incentives to make every one of those decisions feel urgent and complex. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to strength training. Diffr solves it the same way it solves every scenario: decompose the space into discrete slots, assign one brand to each slot, close the file. Here is the complete home gym starter kit for someone building from zero, with a buy-in-this-order priority at the end for tight budgets and small spaces. No &ldquo;best budget option,&rdquo; no &ldquo;top five adjustable dumbbells,&rdquo; no &ldquo;it depends on your goals.&rdquo; One answer per slot. Start training.</p>
 
 <h2>The Slots</h2>
 
@@ -2232,8 +2232,17 @@ Diffr ends with: here is what you get.</p>
 <p><strong>JBL Charge 5</strong></p>
 <p>Training in silence works. Training with music that you actually want to hear, at a volume that matches the training intensity, works better. The JBL Charge 5 is waterproof (IP67), produces 40 watts of output at a volume level that does not require maximum settings in a normal-sized room, has a 20-hour battery life, and charges via USB-C. The passive radiator on the rear extends the bass response to a level that matters for music with significant low-frequency content. It is not the smallest portable speaker in the JBL lineup &mdash; use the Flip if size is the primary constraint. It is the speaker that does not require compromise. Put it on a shelf. Connect via Bluetooth. Train.</p>
 
+<h2>Buy in This Order (Building It on a Budget)</h2>
+<p>You do not need all ten slots to start training. If you are building from scratch with limited money and floor space, this is the priority &mdash; each step is already a complete workout:</p>
+<ol>
+<li><strong>Start here (a full-body workout):</strong> the adjustable dumbbells and the mat. One pair of adjustable dumbbells trains every major movement &mdash; press, squat, row, hinge, curl &mdash; and the mat protects your floor and your back. That alone is a real gym in the size of a closet.</li>
+<li><strong>Add next (cheap range):</strong> the resistance bands and the kettlebell. Bands add pull-up assistance and the activation work dumbbells miss for a few dollars; the kettlebell unlocks swings, carries, and conditioning.</li>
+<li><strong>Finish when you can:</strong> the pull-up bar, foam roller, jump rope, flooring, and speaker. Add the free training app first &mdash; it tells you what to do with everything above.</li>
+</ol>
+<p>If you only buy one thing, buy the adjustable dumbbells. A single pair replaces fifteen sets of fixed weights and builds your whole body &mdash; the definition of one good version per slot.</p>
+
 <h2>The Stack</h2>
-<p>Ten slots. Ten answers. The complete home gym for a new lifter who wants to train seriously without making equipment selection a multi-week project. The fitness internet will tell you that adjustable dumbbells are inferior to fixed plates, that a kettlebell is redundant if you have dumbbells, that you need a power rack before you can train productively. It is wrong about all of this in the context of a beginner building a home gym. The ten brands above provide everything needed to run a complete strength and conditioning program from a space the size of a parking spot. The <a href="/diffr/blog/the-one-brand-rule">one-brand-per-slot rule</a> is the structure that keeps you training instead of shopping. The slot is closed. The decision is made. <a href="/diffr/blog/the-decide-once-rule">Decide once.</a> Train more.</p>
+<p>Ten slots. Ten answers. The complete home gym starter kit for a new lifter who wants to train seriously without making equipment selection a multi-week project. The fitness internet will tell you that adjustable dumbbells are inferior to fixed plates, that a kettlebell is redundant if you have dumbbells, that you need a power rack before you can train productively. It is wrong about all of this in the context of a beginner building a home gym. The ten brands above provide everything needed to run a complete strength and conditioning program from a space the size of a parking spot. The <a href="/diffr/blog/the-one-brand-rule">one-brand-per-slot rule</a> is the structure that keeps you training instead of shopping. The slot is closed. The decision is made. <a href="/diffr/blog/the-decide-once-rule">Decide once.</a> Train more.</p>
 `.trim(),
   },
 
