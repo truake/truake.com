@@ -44,7 +44,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'work-wardrobe-brand-guide':
     'Bottom line: a first work capsule wardrobe is mix-and-match separates, not one suit. The core four are a crisp dress shirt, charcoal or navy trousers, dark-brown leather dress shoes, and a navy blazer; add a matching belt, a clean work bag, and one good necktie. On a first-job budget, buy in this order — shirt, trousers, and shoes first (a complete interview-ready outfit), then the blazer (the highest-impact upgrade), then the rest. Below is one brand per slot, no repeats.',
   'winter-layering-brand-guide':
-    'Bottom line: staying warm is a layering system, not one heavy coat — base layer, mid layer, insulation, and a weatherproof shell, plus the three extremities (head, hands, feet) where most heat escapes. Start with a thermal base layer, a fleece mid layer, and warm boots; the beanie and gloves are the cheapest, highest-impact items beginners skip. Add and shed layers to match the cold. Below is one brand per slot, no repeats.',
+    'Bottom line: a winter layering starter kit is a system, not one heavy coat — base layer, mid layer, insulation, and a weatherproof shell, plus the three extremities (head, hands, feet) where most heat escapes. Buy in this order: a thermal base layer, a fleece mid layer, and warm boots first, then the insulated jacket and parka — and do not skip the beanie and gloves, the cheapest, highest-impact warmth beginners miss. Add and shed layers to match the cold. Below is one brand per slot, no repeats.',
 }
 
 export interface FaqItem {
@@ -367,6 +367,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How many layers should I wear by temperature?',
       a: 'Match layers to the temperature: around 50°F a fleece alone is plenty; in the 40s add a thermal base layer; in the 30s add an insulated jacket; and below freezing add the parka shell plus a beanie, gloves, and a wool scarf. The beginner rule of thumb is to dress to feel slightly cool standing still — you warm up fast once moving, and overheating then sweating is what makes you cold later.',
+    },
+    {
+      q: 'What should I buy first for my first winter?',
+      a: 'Start with the working layers: a thermal base layer, a fleece mid layer, and warm waterproof boots — that trio keeps you genuinely warm. Add an insulated jacket and a parka shell for serious cold. And do not skip the beanie, gloves, and a wool scarf: a large share of your heat escapes through your head and hands, so these cheap items are the highest warmth-per-dollar buy. Buy them before any pricey coat.',
     },
   ],
 }

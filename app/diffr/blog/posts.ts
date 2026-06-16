@@ -115,14 +115,14 @@ export const posts: BlogPost[] = [
   {
     slug: 'winter-layering-brand-guide',
     title: 'Best Winter Layering Brands for Beginners: Every Slot Assigned',
-    description: 'Eight cold-weather slots — base layer to winter boots — assigned and closed. The Diffr brand guide to a real layering system: base, mid, insulation, shell, and the extremities that actually keep you warm — plus a beginner cheat sheet for what to wear by temperature.',
+    description: 'Eight cold-weather slots — base layer to winter boots — assigned and closed. The Diffr brand guide to a beginner winter layering starter kit: how to layer for winter, what to buy first, and what to wear by temperature — base, mid, shell, and the extremities that actually keep you warm.',
     date: '2026-06-12',
     readTime: '7 min read',
-    tags: ['brand guide', 'winter layering for beginners', 'cold weather clothing', 'base layer mid layer', 'how to layer', 'non-repetition principle'],
+    tags: ['brand guide', 'winter layering for beginners', 'winter layering starter kit', 'how to layer for winter', 'first time in winter', 'cold weather clothing', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Eight slots. Eight brand answers. A real layering system — base, mid, insulation, shell, extremities. Stay warm. Stop researching.',
     content: `
-<p>Staying warm is not about one heavy coat &mdash; it is a system. Base layer moves sweat off your skin, mid layer traps heat, insulation adds warmth, the shell blocks wind and snow, and the extremities (head, hands, feet) are where most of your warmth actually escapes. Get the system right and you are comfortable from a cold commute to a snow day; get it wrong and the most expensive parka still leaves you cold. The gear forums turn it into a physics seminar &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> measured in degrees. Diffr&rsquo;s rule holds: one brand per slot, file closed. Here is the complete beginner cold-weather kit, layer by layer.</p>
+<p>Staying warm is not about one heavy coat &mdash; it is a system. Base layer moves sweat off your skin, mid layer traps heat, insulation adds warmth, the shell blocks wind and snow, and the extremities (head, hands, feet) are where most of your warmth actually escapes. Get the system right and you are comfortable from a cold commute to a snow day; get it wrong and the most expensive parka still leaves you cold. The gear forums turn it into a physics seminar &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> measured in degrees. Diffr&rsquo;s rule holds: one brand per slot, file closed. Here is the complete beginner winter layering starter kit, layer by layer &mdash; with a buy-in-this-order priority and a by-temperature cheat sheet, so a first real winter does not catch you cold.</p>
 
 <h2>The Slots</h2>
 
@@ -157,6 +157,15 @@ export const posts: BlogPost[] = [
 <h3>Slot 8 &mdash; Winter Boots</h3>
 <p><strong>Sorel Caribou</strong></p>
 <p>The foundation of the whole system &mdash; cold, wet feet undo every warm layer above them. The Caribou is the iconic beginner winter boot: waterproof, seam-sealed, rated for real cold, with a removable felt liner. Warm feet, dry feet, the kit stands up.</p>
+
+<h2>Buy in This Order (Your First Real Winter)</h2>
+<p>You do not need all eight pieces at once. If you are kitting out for your first real winter on a budget, this is the priority &mdash; the first group already keeps you warm:</p>
+<ol>
+<li><strong>Start here (the working layers):</strong> the thermal base layer, the fleece mid layer, and the winter boots. The base moves sweat, the fleece traps heat, and warm dry feet undo nothing above them &mdash; that is a real cold-weather setup.</li>
+<li><strong>Add next (warmth and weather):</strong> the insulated jacket and the parka shell. Insulation for the cold, the parka to block wind and snow over everything beneath it.</li>
+<li><strong>Do not skip (cheapest warmth):</strong> the beanie, gloves, and wool scarf. A huge share of your heat leaves through your head and hands &mdash; these are the highest warmth-per-dollar buys, and the ones beginners most regret skipping.</li>
+</ol>
+<p>If you are tight on money, buy the base layer, beanie, and gloves before any pricey coat &mdash; the cheapest warmth beats the most expensive parka worn over a t-shirt.</p>
 
 <h2>What to Wear by Temperature (Beginner Cheat Sheet)</h2>
 <p>The whole point of layering is that you do not buy a new coat for every forecast &mdash; you add and remove the pieces above as the temperature drops. Here is the complete kit mapped to the thermometer:</p>
