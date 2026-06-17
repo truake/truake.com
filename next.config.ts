@@ -2,6 +2,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactCompiler: true,
+  images: {
+    // Serve AVIF (then WebP) instead of the source JPEGs — the hero phone
+    // screenshot is the LCP element on mobile; AVIF cuts it ~30% over WebP.
+    formats: ["image/avif", "image/webp"],
+  },
   async headers() {
     return [
       {

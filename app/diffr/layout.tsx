@@ -1,25 +1,31 @@
 import { Playfair_Display, IBM_Plex_Mono, Syne } from "next/font/google";
 import { DiffrNav } from "./diffr-nav";
 
+// Playfair + Syne are variable fonts on Google Fonts. Omitting `weight` loads
+// the single variable file per style (covering the whole weight axis) instead
+// of one static file per weight — Playfair drops from 12 static files to 2
+// variable files, Syne from 5 to 1. The hero <h1> (Playfair 700) is the mobile
+// LCP element, so a smaller, faster-arriving display font directly cuts LCP.
 const playfair = Playfair_Display({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
   style: ["normal", "italic"],
   variable: "--font-display",
   display: "swap",
 });
 
+// IBM Plex Mono is decorative (eyebrows / mono labels), never above-the-fold
+// critical. preload:false keeps it from competing with the display + body
+// fonts for early bandwidth on the hero.
 const ibmMono = IBM_Plex_Mono({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-  style: ["normal", "italic"],
+  weight: ["400", "500", "600"],
   variable: "--font-mono",
   display: "swap",
+  preload: false,
 });
 
 const syne = Syne({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
   variable: "--font-syne",
   display: "swap",
 });
