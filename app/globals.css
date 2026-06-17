@@ -204,3 +204,7 @@ body {
   }
   .patho-latest { padding-left: 0 !important; }
 }
+
+/* Diffr shared nav social icons (light bar). */
+.diffr-nav-social { color: rgba(42,38,32,0.5); transition: color 150ms ease; }
+.diffr-nav-social:hover { color: #1B8BF5; }
