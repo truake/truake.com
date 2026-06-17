@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getAllPosts } from './posts'
-import { FeaturedCard, PostCard } from './post-card'
+import { BlogFeed } from './blog-feed'
 
 export const metadata: Metadata = {
   title: 'Blog — Pathoragy',
@@ -27,8 +27,6 @@ const C = {
 
 export default function BlogIndexPage() {
   const posts = getAllPosts()
-  const pillarPosts = posts.filter(p => p.category === 'pillar')
-  const otherPosts  = posts.filter(p => p.category !== 'pillar')
 
   return (
     <div style={{ backgroundColor: C.bg, minHeight: '100vh', color: C.text }}>
@@ -87,49 +85,8 @@ export default function BlogIndexPage() {
         </p>
       </header>
 
-      <main style={{ maxWidth: '1100px', margin: '0 auto', padding: '64px 24px 120px' }}>
-
-        {/* Pillar Guides section */}
-        {pillarPosts.length > 0 && (
-          <section style={{ marginBottom: '80px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
-              <h2 style={{
-                fontFamily: 'Space Grotesk, sans-serif', fontSize: '13px', fontWeight: 700,
-                letterSpacing: '0.15em', textTransform: 'uppercase', color: C.accent,
-              }}>
-                Pillar Guides
-              </h2>
-              <div style={{ flex: 1, height: '1px', background: 'rgba(232,84,53,0.18)' }} />
-              <span style={{ fontSize: '12px', color: C.text40 }}>Comprehensive long-form resources</span>
-            </div>
-            {pillarPosts[0] && <FeaturedCard post={pillarPosts[0]} />}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '20px' }}>
-              {pillarPosts.slice(1).map(post => (
-                <PostCard key={post.slug} post={post} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Deep Dives + Science */}
-        {otherPosts.length > 0 && (
-          <section>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
-              <h2 style={{
-                fontFamily: 'Space Grotesk, sans-serif', fontSize: '13px', fontWeight: 700,
-                letterSpacing: '0.15em', textTransform: 'uppercase', color: C.text40,
-              }}>
-                Deep Dives & Science
-              </h2>
-              <div style={{ flex: 1, height: '1px', background: C.border }} />
-            </div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '20px' }}>
-              {otherPosts.map(post => (
-                <PostCard key={post.slug} post={post} />
-              ))}
-            </div>
-          </section>
-        )}
+      <main style={{ maxWidth: '1100px', margin: '0 auto', padding: '56px 24px 120px' }}>
+        <BlogFeed posts={posts} />
       </main>
 
       {/* Footer */}

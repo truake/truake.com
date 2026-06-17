@@ -188,3 +188,19 @@ body {
   }
   .blog-latest { padding-left: 0 !important; }
 }
+
+/* Pathoragy blog editorial front page (orange theme). */
+.patho-link:hover .patho-title { color: #E85435; }
+.patho-chip:hover { border-color: rgba(232,84,53,0.5) !important; color: #E85435 !important; }
+.patho-chip[aria-pressed="true"]:hover { color: #fff !important; }
+@media (max-width: 760px) {
+  .patho-lead { grid-template-columns: 1fr !important; }
+  .patho-lead-story {
+    border-right: none !important;
+    padding-right: 0 !important;
+    border-bottom: 1px solid rgba(42,38,32,0.16);
+    padding-bottom: 28px;
+    margin-bottom: 4px;
+  }
+  .patho-latest { padding-left: 0 !important; }
+}
