@@ -62,7 +62,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'womens-capsule-wardrobe-brand-guide',
-    title: 'Best Women’s Capsule Wardrobe Brands for Beginners: Every Slot Assigned',
+    title: 'A Beginner’s Women’s Capsule Wardrobe: One Brand Per Slot',
     description: 'Ten women’s capsule wardrobe slots — tee to tote — assigned and closed. The Diffr brand guide to a beginner capsule wardrobe checklist: what to buy first, in neutral colors that all go together. One good version of each, no research spiral.',
     date: '2026-06-16',
     readTime: '6 min read',
@@ -129,7 +129,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'camping-gear-brand-guide',
-    title: 'The Complete Camping Starter Kit for Beginners: Every Slot Assigned',
+    title: 'The Complete Camping Starter Kit for Beginners: What to Buy First',
     description: 'Nine car-camping slots — tent to first aid — assigned and closed. The Diffr brand guide to a complete camping starter kit for two or the whole family: what to buy first to camp comfortably, without a gear rabbit hole.',
     date: '2026-06-16',
     readTime: '7 min read',
@@ -192,7 +192,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'casual-wardrobe-brand-guide',
-    title: 'Best Casual Wardrobe Brands for Beginners: Every Slot Assigned',
+    title: 'Casual Wardrobe for Beginners: One Brand Per Slot',
     description: 'Seven everyday-casual slots — tee to sunglasses — assigned and closed. The Diffr brand guide to a beginner starter wardrobe: the capsule wardrobe essentials, what to buy first, and how every piece goes with every other. One good version of each, no research spiral.',
     date: '2026-06-12',
     readTime: '6 min read',
@@ -247,7 +247,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'work-wardrobe-brand-guide',
-    title: 'Best Work Outfit Brands for Beginners: Every Slot Assigned',
+    title: 'Building a Work Wardrobe from Scratch: A Beginner’s Guide',
     description: 'Seven office-wardrobe slots — dress shirt to necktie — assigned and closed. The Diffr brand guide to your first work capsule wardrobe: the complete starter kit for a first office job, with a buy-in-this-order priority so you can build it on a budget.',
     date: '2026-06-12',
     readTime: '6 min read',
@@ -302,7 +302,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'winter-layering-brand-guide',
-    title: 'Best Winter Layering Brands for Beginners: Every Slot Assigned',
+    title: 'Winter Layering for Beginners: Base, Mid, and Shell',
     description: 'Eight cold-weather slots — base layer to winter boots — assigned and closed. The Diffr brand guide to a beginner winter layering starter kit: how to layer for winter, what to buy first, and what to wear by temperature — base, mid, shell, and the extremities that actually keep you warm.',
     date: '2026-06-12',
     readTime: '7 min read',
@@ -372,7 +372,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'backpacking-gear-brand-guide',
-    title: 'Best Backpacking Gear for Beginners: Every Slot Assigned',
+    title: 'Backpacking Gear for Beginners: The Big Three to Navigation',
     description: 'Eleven backpacking gear slots — the big three to navigation — assigned and closed. The Diffr brand guide to a complete beginner backpacking starter kit: what to buy first, starting with the big three, without a six-month research project.',
     date: '2026-06-04',
     readTime: '8 min read',
@@ -443,7 +443,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'skincare-brand-guide',
-    title: 'Best Skincare for Beginners: Every Slot Assigned',
+    title: 'A Beginner’s Skincare Routine: The Three Steps That Matter',
     description: 'Six morning skincare slots — cleanser to sunscreen — assigned and closed. The Diffr brand guide to a beginner skincare starter kit: the three steps that matter, the three you can skip, and what to buy first — without a ten-step ritual.',
     date: '2026-06-04',
     readTime: '5 min read',
@@ -494,7 +494,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'makeup-brand-guide',
-    title: 'Best Makeup for Beginners: Every Slot Assigned',
+    title: 'Makeup for Beginners: What to Buy First',
     description: 'Ten everyday makeup slots — foundation to primer — assigned and closed. The Diffr brand guide for makeup beginners who want a natural everyday face without the forty-product aisle.',
     date: '2026-06-04',
     readTime: '6 min read',
@@ -552,7 +552,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'hiking-gear-brand-guide',
-    title: 'Best Hiking Gear for Beginners: Every Slot Assigned',
+    title: 'Your First Hiking Kit: Boots, Pack, and Layers',
     description: 'Ten day-hiking gear slots — boots to navigation — assigned and closed. The Diffr brand guide for new hikers who want to hit the trail without reading forty gear reviews first.',
     date: '2026-06-04',
     readTime: '7 min read',
@@ -610,7 +610,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'yoga-gear-brand-guide',
-    title: 'Best Yoga Gear for Beginners: Every Slot Assigned',
+    title: 'Yoga Gear for Beginners: Mat to Props, One Brand Each',
     description: 'Six yoga and mindfulness slots — mat to meditation cushion — assigned and closed. The Diffr brand guide for new yogis who want to start without comparing forty mats.',
     date: '2026-06-04',
     readTime: '6 min read',
@@ -652,7 +652,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'pc-gaming-gear-brand-guide',
-    title: 'Best PC Gaming Gear for Beginners: Every Slot Assigned',
+    title: 'A Beginner’s PC Gaming Setup: One Brand Per Slot',
     description: 'Eight gaming setup essentials — monitor to stream deck — assigned and closed. The Diffr brand guide to a beginner PC gaming starter kit: what to buy first around the tower, without reading a hundred peripheral reviews.',
     date: '2026-06-04',
     readTime: '7 min read',
@@ -1920,7 +1920,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'steak-dinner-brand-guide',
-    title: 'Best Steak Dinner Gear for Beginners: Every Slot Assigned',
+    title: 'Steak Dinner Gear for Beginners: One Pick Per Slot',
     description: 'A Diffr brand guide for cooking a premium steak dinner at home. Every slot assigned — cut to candle. Zero repeats, zero decision fatigue.',
     date: '2026-05-23',
     readTime: '7 min read',
@@ -1995,7 +1995,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'home-coffee-brand-guide',
-    title: 'Best Home Coffee Gear for Beginners: Every Slot Assigned',
+    title: 'Your First Home Coffee Setup: Grinder to Brewer',
     description: 'A Diffr brand guide for building a quality home coffee setup. One brand per slot — beans to reference book. No rabbit holes, no regret.',
     date: '2026-05-23',
     readTime: '6 min read',
@@ -2058,7 +2058,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'home-office-brand-guide',
-    title: 'Best Home Office Gear for Beginners: Every Slot Assigned',
+    title: 'Home Office Gear for Beginners: One Brand Per Slot',
     description: 'Stop scrolling r/homeoffice. Here are 13 home office essentials, 13 real brand picks, and a buy-in-this-order priority for your first remote-job setup — zero decisions left for you to make.',
     date: '2026-05-23',
     readTime: '8 min read',
@@ -2287,7 +2287,7 @@ Diffr ends with: here is what you get.</p>
 
   {
     slug: 'running-gear-brand-guide',
-    title: 'Best Running Gear for Beginners: Every Slot Assigned',
+    title: 'Running Gear for Beginners: Shoes to GPS',
     description: 'Eleven running gear slots — shoes to training app — assigned and closed. The Diffr brand guide for new runners who want to start without spending six hours reading gear reviews.',
     date: '2026-05-30',
     readTime: '7 min read',
@@ -2350,7 +2350,7 @@ Diffr ends with: here is what you get.</p>
 
   {
     slug: 'film-photography-brand-guide',
-    title: 'Best Film Photography Gear for Beginners: Every Slot Assigned',
+    title: 'Getting Into Film Photography: A Beginner’s Starter Kit',
     description: 'Eleven film photography slots — camera body to mail-in processing — assigned and closed. The Diffr brand guide for new film photographers who want to shoot without the gear paralysis.',
     date: '2026-05-30',
     readTime: '8 min read',
@@ -2413,7 +2413,7 @@ Diffr ends with: here is what you get.</p>
 
   {
     slug: 'home-gym-brand-guide',
-    title: 'Best Home Gym Equipment for Beginners: Every Slot Assigned',
+    title: 'A Beginner’s Home Gym Starter Kit: What to Buy First',
     description: 'Ten home gym slots — adjustable dumbbells to training app — assigned and closed. The Diffr brand guide to a beginner home gym starter kit: what to buy first when you are building from scratch on a budget and in a small space, one good brand per slot.',
     date: '2026-05-30',
     readTime: '7 min read',
@@ -2485,7 +2485,7 @@ Diffr ends with: here is what you get.</p>
   // (/diffr/start/cycling-commute). See Obsidian "Scene 数据闭环" doc.
   {
     slug: 'bike-commuting-gear-brand-guide',
-    title: 'Best Bike Commuting Gear for Beginners: Every Slot Assigned',
+    title: 'Bike Commuting Gear for Beginners: One Brand Per Slot',
     description: 'Twelve bike commuting essentials, bike to roadside kit, assigned and closed. The Diffr brand guide to a beginner bike-commuting starter kit: what to buy first to start riding to work, without the gear-forum paralysis.',
     date: '2026-05-31',
     readTime: '8 min read',
