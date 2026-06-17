@@ -128,6 +128,191 @@ export const posts: BlogPost[] = [
 `,
   },
   {
+    slug: 'womens-minimalist-wardrobe-brand-guide',
+    title: 'A Beginner’s Minimalist Wardrobe for Women: Eight Pieces, Eight Brands',
+    description: 'The smallest women’s wardrobe that still works — eight elevated-basic slots, each assigned to one brand. The Diffr guide to building a minimalist wardrobe from scratch: fewer, better, and everything pairs by default.',
+    date: '2026-06-17',
+    readTime: '6 min read',
+    tags: ['brand guide', 'minimalist wardrobe', 'minimalist wardrobe women', 'elevated basics', 'capsule wardrobe essentials', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight pieces. Eight brand answers. The minimalist wardrobe where owning less is the point — and everything still goes together.',
+    content: `
+<p>A minimalist wardrobe is not deprivation &mdash; it is owning the fewest pieces that still cover your whole life, each one good enough that you never reach for anything else. The minimalism internet hands you a mood board and a dozen contradictory &ldquo;essentials&rdquo; lists &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> with a beige filter. Diffr&rsquo;s answer is narrower and final: eight slots, one good brand each, in neutral colors that agree by default. Build it once and stop shopping.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Elevated Tee</h3>
+<p><strong>COS</strong></p>
+<p>A minimalist wardrobe lives or dies on the quality of its plainest piece. COS makes a heavyweight, architectural crew that hangs like something far more expensive &mdash; in white, then black. The tee you build everything else on top of.</p>
+
+<h3>Slot 2 &mdash; Cashmere Crew</h3>
+<p><strong>Quince</strong></p>
+<p>One good neutral knit does the work of five lesser ones. Quince made real Mongolian cashmere a beginner purchase &mdash; an oatmeal or grey crew for a fraction of the legacy price. Over the tee, under the coat, alone with jeans.</p>
+
+<h3>Slot 3 &mdash; Straight-Leg Jeans</h3>
+<p><strong>Everlane</strong></p>
+<p>One pair of clean, mid-wash straight jeans covers most of casual life. Everlane&rsquo;s denim is the honest-materials default &mdash; a flattering, un-fussy cut at a price that respects a one-pair philosophy.</p>
+
+<h3>Slot 4 &mdash; Tailored Trouser</h3>
+<p><strong>Arket</strong></p>
+<p>The piece that lifts the wardrobe from weekend to anything. Arket&rsquo;s trousers carry the quiet Scandinavian tailoring this whole edit is built around &mdash; a fluid black or stone trouser that reads polished with the tee and the loafer.</p>
+
+<h3>Slot 5 &mdash; Crisp White Shirt</h3>
+<p><strong>Uniqlo</strong></p>
+<p>The most versatile single garment you can own: open over the tee, tucked into trousers, under the coat. Uniqlo&rsquo;s is the beginner value default &mdash; a clean, properly-cut shirt that makes it an obvious first buy.</p>
+
+<h3>Slot 6 &mdash; Wool Coat</h3>
+<p><strong>Uniqlo</strong></p>
+<p>One good neutral overcoat finishes every outfit beneath it. Uniqlo&rsquo;s wool-blend coat is the minimalist town default &mdash; a long, clean camel or black line that needs no decisions and works for years.</p>
+
+<h3>Slot 7 &mdash; Leather Loafer</h3>
+<p><strong>Vagabond</strong></p>
+<p>The shoe that quietly dresses up the whole wardrobe. Vagabond&rsquo;s leather loafer is the minimalist-right pick &mdash; simple enough to disappear, well-made enough to last, in a black that goes with all eight pieces.</p>
+
+<h3>Slot 8 &mdash; Structured Bag</h3>
+<p><strong>Pol&egrave;ne</strong></p>
+<p>One good bag in a neutral carries the day and finishes every look above it. Pol&egrave;ne is the cult &ldquo;fewer, better&rdquo; answer &mdash; clean sculptural leather at a price that undercuts the heritage names. The last piece that pulls the edit together.</p>
+
+<h2>Buy in This Order (Start With Three Pieces)</h2>
+<p>You do not need all eight to dress well. If you are building a minimalist wardrobe from scratch, this is the priority &mdash; the first group already covers most days:</p>
+<ol>
+<li><strong>Start here (the everyday core):</strong> the tee, the jeans, and the white shirt. In neutral colors these three mix into a complete casual look on day one.</li>
+<li><strong>Add next (polish it):</strong> the tailored trouser, the cashmere crew, and the loafer &mdash; the layer that takes the wardrobe anywhere that needs to look considered.</li>
+<li><strong>Finish when you can:</strong> the wool coat and the structured bag &mdash; the outer line and the carry that pull every outfit together.</li>
+</ol>
+<p>If you only buy three things, buy the tee, the jeans, and the white shirt in neutral colors. Neutrals pair with each other by default &mdash; that is the entire trick to owning less and still always having something to wear.</p>
+
+<h2>The Point</h2>
+<p>Minimalism is not a vibe &mdash; it is what happens when every slot is filled once, well, in a color that already agrees with the others. That is the Diffr method: one good brand per slot, no repeats, so you build the wardrobe once and never buy the same thing twice. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> Get dressed. Stop researching.</p>
+`,
+  },
+  {
+    slug: 'womens-winter-layering-brand-guide',
+    title: 'Women’s Winter Layering for Beginners: Base, Mid, and Outer',
+    description: 'Nine women’s cold-weather slots — thermal base to winter boots — assigned and closed. The Diffr guide to a winter layering system that actually keeps you warm: what to buy first, base, mid, and outer.',
+    date: '2026-06-17',
+    readTime: '6 min read',
+    tags: ['brand guide', 'winter layering', 'womens winter clothes', 'how to layer for winter', 'cold weather essentials', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine slots, three layers. The women’s winter system where each piece has a job — base, mid, outer — and one brand answers each.',
+    content: `
+<p>Staying warm is not about one heroic coat &mdash; it is a system of three layers, each doing a different job: a base that moves sweat off your skin, a mid that traps heat, and an outer that blocks wind and weather. Get the system right and you are comfortable from the commute to the trailhead; get it wrong and you are either freezing or soaked from the inside. The gear internet answers &ldquo;how do I layer for winter&rdquo; with a hundred-tab rabbit hole &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in fleece. Diffr&rsquo;s answer is the system, one brand per slot, file closed.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Thermal Base Top</h3>
+<p><strong>Uniqlo (Heattech)</strong></p>
+<p>The layer against your skin sets the whole system. Uniqlo Heattech is the beginner base default &mdash; a thin, warm, non-bulky long-sleeve that disappears under everything and adds real warmth for very little money. Buy two so one is always clean.</p>
+
+<h3>Slot 2 &mdash; Mid-Layer Fleece</h3>
+<p><strong>Patagonia (Better Sweater)</strong></p>
+<p>The mid layer traps the heat your base holds in. Patagonia&rsquo;s Better Sweater is the recognized beginner default &mdash; a warm, durable fleece that zips over the base and under the jacket, and looks at home on its own indoors.</p>
+
+<h3>Slot 3 &mdash; Down Jacket</h3>
+<p><strong>Patagonia (Down Sweater)</strong></p>
+<p>The packable warmth engine for genuinely cold or active days. The Down Sweater is the do-everything insulated layer &mdash; light, compressible, and warm out of proportion to its weight. Your outer shell on milder days, your mid layer under a coat on brutal ones.</p>
+
+<h3>Slot 4 &mdash; Wool Coat</h3>
+<p><strong>Uniqlo</strong></p>
+<p>The outer layer for town, over everything above. Uniqlo&rsquo;s wool-blend coat is the beginner value default &mdash; a long, clean line in camel or black that turns the warm-but-technical layers underneath into something you can wear to dinner.</p>
+
+<h3>Slot 5 &mdash; Beanie</h3>
+<p><strong>Carhartt</strong></p>
+<p>You lose real heat through an uncovered head, and the fix is the cheapest slot here. Carhartt&rsquo;s knit beanie is the quietly-iconic default &mdash; warm, indestructible, and in a neutral that works with the coat and the jacket alike.</p>
+
+<h3>Slot 6 &mdash; Touchscreen Gloves</h3>
+<p><strong>The North Face (Etip)</strong></p>
+<p>Cold hands end an outing faster than cold anything else. The North Face Etip is the beginner-right glove &mdash; warm, well-fitted, and touchscreen-capable so you are not bare-handing your phone at a bus stop in January.</p>
+
+<h3>Slot 7 &mdash; Wool Socks</h3>
+<p><strong>Smartwool</strong></p>
+<p>Warm feet are a base layer too. Smartwool is the merino default for a reason &mdash; warm, cushioned, and odor-resistant enough to wear hard. One good pair changes how the boots feel.</p>
+
+<h3>Slot 8 &mdash; Winter Boots</h3>
+<p><strong>Sorel</strong></p>
+<p>The boot that keeps the whole system standing in snow and slush. Sorel is the women&rsquo;s winter-boot default &mdash; genuinely waterproof, genuinely warm, and styled to wear in town, not just to shovel.</p>
+
+<h3>Slot 9 &mdash; Scarf</h3>
+<p><strong>Uniqlo</strong></p>
+<p>The last piece, and the one that seals the warm air in at your collar. Uniqlo&rsquo;s wool-cashmere scarf is the beginner default &mdash; soft, warm, and in a neutral that finishes the coat. Function that happens to look good.</p>
+
+<h2>Buy in This Order (Start With the Three Layers)</h2>
+<p>You do not need all nine to stay warm this week. If you are building a winter system from scratch, buy one of each layer first &mdash; that is a complete setup on its own:</p>
+<ol>
+<li><strong>Start here (the system):</strong> the thermal base top, the fleece mid-layer, and the down jacket. Base, mid, outer &mdash; the three slots that actually keep you warm, in that order.</li>
+<li><strong>Add next (the extremities):</strong> the beanie, the gloves, the wool socks, and the boots. Warmth is lost at the head, hands, and feet faster than anywhere &mdash; this is the layer that makes the system livable.</li>
+<li><strong>Finish when you can:</strong> the wool coat and the scarf &mdash; the town outer and the collar seal that take the system from functional to put-together.</li>
+</ol>
+<p>If you only buy three things, buy the base, the mid, and the down. A warm core is the whole point &mdash; everything else just protects it.</p>
+
+<h2>The Point</h2>
+<p>Warmth is not a single purchase &mdash; it is a system where each layer has one job and one good brand to do it. That is the Diffr method: one answer per slot, no repeats, so you build the winter kit once and stop second-guessing it every cold snap. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> Layer up. Stop researching.</p>
+`,
+  },
+  {
+    slug: 'womens-work-capsule-brand-guide',
+    title: 'A Beginner’s Work Capsule for Women: A Week of Outfits, One Set of Brands',
+    description: 'Nine women’s workwear slots — blazer to work tote — assigned and closed. The Diffr guide to building a professional capsule wardrobe from scratch: separates that recombine into a full week of office outfits.',
+    date: '2026-06-17',
+    readTime: '6 min read',
+    tags: ['brand guide', 'work capsule wardrobe', 'womens workwear', 'business casual women', 'professional wardrobe', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine slots, a week of outfits. The women’s work capsule where separates recombine — and one brand answers each piece.',
+    content: `
+<p>A work wardrobe is not a closet full of outfits &mdash; it is a small set of separates that recombine into a different look every day. Nine right pieces make a full week without repeating; nine wrong ones make you stare at a full closet with nothing to wear. The workwear internet answers &ldquo;what do I wear to the office&rdquo; with conflicting capsule lists and a scroll that never ends &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in pinstripe. Diffr&rsquo;s answer is the same as always: one good brand per slot, neutral colors, file closed.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Blazer</h3>
+<p><strong>J.Crew</strong></p>
+<p>The single highest-impact piece in a work wardrobe &mdash; it turns separates into an outfit people take seriously. J.Crew is the workwear default for a reason: a structured navy or black blazer that sharpens trousers, a dress, even jeans on a casual Friday.</p>
+
+<h3>Slot 2 &mdash; Tailored Trousers</h3>
+<p><strong>Aritzia (The Effortless Pant)</strong></p>
+<p>The backbone of the week. A fluid, tailored trouser in black or stone pairs with the blazer, the shirt, and the knit in any combination. Aritzia&rsquo;s Effortless Pant is the internet&rsquo;s default &mdash; the drape and fit punch far above the price.</p>
+
+<h3>Slot 3 &mdash; White Button-Down</h3>
+<p><strong>Everlane</strong></p>
+<p>The crisp shirt is the most versatile thing in the capsule: under the blazer, tucked into trousers or the skirt, on its own. Everlane&rsquo;s relaxed shirt is the honest-materials default &mdash; a clean, well-cut white that reads polished without trying.</p>
+
+<h3>Slot 4 &mdash; Sheath Dress</h3>
+<p><strong>J.Crew</strong></p>
+<p>The one-and-done answer for days you do not want to think. A simple sheath needs no styling decisions &mdash; add the blazer for a meeting, the flats for a normal Tuesday. J.Crew is the recognized go-to for a work dress that flatters and lasts.</p>
+
+<h3>Slot 5 &mdash; Pencil Skirt</h3>
+<p><strong>Banana Republic</strong></p>
+<p>The piece that doubles your outfit count &mdash; everything that goes with the trousers also goes with the skirt. Banana Republic is the workwear-skirt default: a well-cut black or grey pencil that anchors the shirt, the knit, and the blazer.</p>
+
+<h3>Slot 6 &mdash; Fine Knit</h3>
+<p><strong>Quince (Cashmere Crew)</strong></p>
+<p>One good neutral knit layers polish over everything beneath it. Quince made real cashmere a beginner buy &mdash; an oatmeal or grey crew over the button-down, under the blazer, or alone with the trousers. The quiet upgrade in any work outfit.</p>
+
+<h3>Slot 7 &mdash; Pumps</h3>
+<p><strong>Cole Haan</strong></p>
+<p>The shoe that finishes the dressed-up end of the week. Cole Haan is the beginner-right work pump &mdash; a classic black heel with the hidden cushioning that lets you actually walk in it, so &ldquo;polished&rdquo; does not have to mean &ldquo;in pain.&rdquo;</p>
+
+<h3>Slot 8 &mdash; Flats</h3>
+<p><strong>Sam Edelman</strong></p>
+<p>The everyday alternative to the pump, and the easiest way to make trousers or the dress look finished on a normal day. Sam Edelman is the beginner default &mdash; comfortable, well-made flats in a neutral that quietly works with the whole capsule.</p>
+
+<h3>Slot 9 &mdash; Work Tote</h3>
+<p><strong>Dagne Dover</strong></p>
+<p>One good structured bag carries the laptop, the lunch, and the day, and finishes every outfit above. Dagne Dover is the work-bag default &mdash; an organized, neutral tote built to hold a 9-to-5 without looking like a gym bag. The last piece that pulls the capsule together.</p>
+
+<h2>Buy in This Order (Start With Three Pieces)</h2>
+<p>You do not need all nine to get through the week. If you are building a work capsule from scratch, this is the priority &mdash; the first group already makes several outfits:</p>
+<ol>
+<li><strong>Start here (the core):</strong> the blazer, the tailored trousers, and the white button-down. These three alone make a meeting-ready outfit and several business-casual ones.</li>
+<li><strong>Add next (double the week):</strong> the sheath dress, the pencil skirt, and the knit &mdash; the pieces that recombine with the core into a different look every day.</li>
+<li><strong>Finish when you can:</strong> the pumps, the flats, and the work tote &mdash; the shoes for both ends of the dress code and the bag that carries it all.</li>
+</ol>
+<p>If you only buy three things, buy the blazer, the trousers, and the white shirt in neutral colors. That combination is a complete work outfit on its own &mdash; everything else just adds days to the week.</p>
+
+<h2>The Point</h2>
+<p>A week of outfits is not a closet of clothes &mdash; it is a few right separates, each chosen to recombine with the others, in colors that already agree. That is the Diffr method: one good brand per slot, no repeats, so you build the work capsule once and never buy the same thing twice. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> Get dressed. Stop researching.</p>
+`,
+  },
+  {
     slug: 'camping-gear-brand-guide',
     title: 'The Complete Camping Starter Kit for Beginners: What to Buy First',
     description: 'Nine car-camping slots — tent to first aid — assigned and closed. The Diffr brand guide to a complete camping starter kit for two or the whole family: what to buy first to camp comfortably, without a gear rabbit hole.',

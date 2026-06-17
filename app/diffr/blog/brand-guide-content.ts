@@ -15,6 +15,12 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'womens-minimalist-wardrobe-brand-guide':
+    'Bottom line: a minimalist wardrobe is the fewest pieces that still cover your whole life, each good enough that you never reach for anything else. The core eight: an elevated tee, a cashmere crew, straight-leg jeans, a tailored trouser, a crisp white shirt, a wool coat, a leather loafer, and a structured bag. Buy in this order: the tee, jeans, and white shirt first (a complete casual look), then the trouser, knit, and loafer, then the coat and bag. Keep it all in neutral colors and everything pairs by default. Below is one brand per slot, no repeats.',
+  'womens-winter-layering-brand-guide':
+    'Bottom line: staying warm is a system of three layers, not one big coat — a base that moves sweat, a mid that traps heat, and an outer that blocks weather. The kit: a thermal base top, a fleece mid-layer, a down jacket, and a wool coat, plus a beanie, gloves, wool socks, winter boots, and a scarf. Buy in this order: the base, mid, and down first (a complete system), then the head, hands, and feet extremities, then the wool coat and scarf. Below is one brand per slot, no repeats.',
+  'womens-work-capsule-brand-guide':
+    'Bottom line: a work wardrobe is a small set of separates that recombine into a different outfit every day, not a closet of complete looks. The core nine: a blazer, tailored trousers, a white button-down, a sheath dress, a pencil skirt, a fine knit, pumps, flats, and a work tote. Buy in this order: the blazer, trousers, and white shirt first (a meeting-ready outfit), then the dress, skirt, and knit to double the week, then the shoes and bag. Keep it neutral and it all interchanges. Below is one brand per slot, no repeats.',
   'womens-capsule-wardrobe-brand-guide':
     'Bottom line: a women’s capsule wardrobe is a system, not a pile — build it around neutral pieces that all pair with each other. The core ten: a tee, a white button-down, jeans, tailored trousers, a knit sweater, a blazer, a little black dress, white sneakers, flats, and a structured tote. Buy in this order: the tee, jeans, button-down, and sneakers first (a complete casual wardrobe), then the blazer, trousers, and flats, then the dress, sweater, and tote. Keep everything in neutral colors and it all goes together. Below is one brand per slot, no repeats.',
   'camping-gear-brand-guide':
@@ -57,6 +63,63 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'womens-minimalist-wardrobe-brand-guide': [
+    {
+      q: 'What is a minimalist wardrobe?',
+      a: 'A minimalist wardrobe is a small set of high-quality, neutral pieces that all pair with each other, chosen so you own less but always have something to wear. The point is not a magic number — it is owning the fewest pieces that still cover your whole life, each one good enough that you never reach for anything else.',
+    },
+    {
+      q: 'How many pieces should a minimalist wardrobe have?',
+      a: 'For a beginner, around eight to twelve core pieces is the sweet spot — enough to dress for most of life without a closet full of orphans. Start with a tight eight in neutral colors, wear it for a season, then add only what you find you actually reach for. Fewer and better, all matching, is the whole idea.',
+    },
+    {
+      q: 'What is the difference between a minimalist wardrobe and a capsule wardrobe?',
+      a: 'They overlap heavily — both are small, neutral, mix-and-match systems. A capsule wardrobe emphasizes maximizing outfit combinations from a set of pieces; a minimalist wardrobe emphasizes owning as little as possible while still being covered. In practice you build them the same way: one good piece per slot, neutral colors, no repeats.',
+    },
+    {
+      q: 'What should I buy first for a minimalist wardrobe?',
+      a: 'Start with three neutral pieces: a good elevated tee, straight-leg jeans, and a crisp white shirt — together they are a complete casual look and pair in any combination. Add a tailored trouser, a cashmere knit, and a leather loafer to dress it up, then a wool coat and a structured bag. Buy the core three first; neutrals are what make everything go together.',
+    },
+  ],
+
+  'womens-winter-layering-brand-guide': [
+    {
+      q: 'How do I layer clothes for winter?',
+      a: 'Use three layers, each with a job: a thin thermal base against your skin to move sweat, a mid layer like fleece to trap heat, and an outer layer to block wind and weather. Add or shed the middle layers to match the cold. Most heat escapes from your head, hands, and feet, so a beanie, gloves, and warm socks matter as much as the coat.',
+    },
+    {
+      q: 'What do I actually need to stay warm in winter?',
+      a: 'A thermal base top, a fleece mid-layer, and a down jacket are the core system — base, mid, outer. Add a wool coat for town, plus a beanie, touchscreen gloves, wool socks, and waterproof winter boots for the extremities. A scarf seals the warm air at your collar. Get the three layers first; everything else protects them.',
+    },
+    {
+      q: 'How much does a beginner winter layering kit cost?',
+      a: 'A complete, quality system runs roughly $500–800, with the down jacket, the boots, and the wool coat as the biggest line items. You can start cheaper with an inexpensive thermal base and fleece, then add the warm outer pieces. Do not skip the beanie and gloves — they are the cheapest, highest-impact warmth.',
+    },
+    {
+      q: 'Is one warm coat enough for winter?',
+      a: 'Usually not, on its own. A single heavy coat traps heat but cannot adjust — you overheat indoors and freeze when it is truly cold. A layered system lets you add and remove warmth to match the conditions, which is both more comfortable and warmer at the extremes. Buy the layers, not just the coat.',
+    },
+  ],
+
+  'womens-work-capsule-brand-guide': [
+    {
+      q: 'What does a women’s work capsule wardrobe need?',
+      a: 'About nine mix-and-match separates: a blazer, tailored trousers, a white button-down, a sheath dress, a pencil skirt, a fine knit, pumps, flats, and a work tote. Buy one good version of each in neutral colors and they recombine into a full week of outfits without repeating. Skip trend pieces until the core is covered.',
+    },
+    {
+      q: 'How do I build a professional wardrobe on a budget?',
+      a: 'Buy separates, not outfits, and buy them in neutral colors so everything interchanges. Start with the three highest-impact pieces — a blazer, tailored trousers, and a white shirt — which alone make a meeting-ready look. Add the dress, skirt, and knit to multiply your combinations, then the shoes and bag. One good blazer does more than three cheap dresses.',
+    },
+    {
+      q: 'What should I buy first for a work wardrobe?',
+      a: 'Start with a blazer, tailored trousers, and a crisp white button-down in neutral colors — together they are a complete, interview-ready outfit and pair with almost anything. The blazer is the single highest-impact piece. Add a sheath dress, a pencil skirt, and a fine knit next to double the week, then pumps, flats, and a work tote.',
+    },
+    {
+      q: 'What colors should a work capsule be?',
+      a: 'Build the core in neutrals — black, navy, grey, white, and one warm neutral like camel or stone. Neutrals pair with each other by default, so any top works with any bottom and the whole capsule interchanges. Add one accent color only after the neutral base is solid; that is what keeps a small wardrobe from feeling repetitive.',
+    },
+  ],
+
   'womens-capsule-wardrobe-brand-guide': [
     {
       q: 'What does a women’s capsule wardrobe need at a minimum?',
