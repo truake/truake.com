@@ -108,7 +108,7 @@ export default function RootLayout({
               // Only verified, resolvable profiles belong in sameAs — no
               // placeholders. Currently the company's public channels are the
               // Diffr product accounts; add Truake-specific profiles as they go live.
-              sameAs: ["https://x.com/Diffr_app", "https://www.tiktok.com/@diffr_app"],
+              sameAs: ["https://x.com/Diffr_app", "https://www.tiktok.com/@diffr_app", "https://www.reddit.com/user/Diffr_app/"],
             }),
           }}
         />
