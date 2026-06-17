@@ -61,6 +61,73 @@ export const posts: BlogPost[] = [
 `,
   },
   {
+    slug: 'womens-capsule-wardrobe-brand-guide',
+    title: 'Best Women’s Capsule Wardrobe Brands for Beginners: Every Slot Assigned',
+    description: 'Ten women’s capsule wardrobe slots — tee to tote — assigned and closed. The Diffr brand guide to a beginner capsule wardrobe checklist: what to buy first, in neutral colors that all go together. One good version of each, no research spiral.',
+    date: '2026-06-16',
+    readTime: '6 min read',
+    tags: ['brand guide', 'womens capsule wardrobe', 'capsule wardrobe essentials', 'capsule wardrobe checklist', 'womens basics', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten slots. Ten brand answers. The women’s capsule where every piece pairs with every other. Get dressed. Stop researching.',
+    content: `
+<p>A capsule wardrobe is not a smaller closet &mdash; it is a system where every piece pairs with every other piece. Get it right and ten things make a month of outfits; get it wrong and you own fifty and wear eight. The fashion internet answers &ldquo;what should I buy&rdquo; with a Pinterest board and a year of scrolling &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in linen. Diffr&rsquo;s answer is the same everywhere: one good version of each piece, one brand per slot, file closed. Here is the complete beginner capsule wardrobe checklist &mdash; build it in neutral colors and everything goes with everything.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; T-Shirt</h3>
+<p><strong>Everlane The Organic Cotton Tee</strong></p>
+<p>The foundation of the whole capsule. A well-cut crew in white, then black and grey, layers under everything and stands alone with jeans. Everlane built its name on this exact piece &mdash; honest cotton, a flattering box-y-but-not-boxy cut, priced so you can own the three colors that matter. Start here.</p>
+
+<h3>Slot 2 &mdash; White Button-Down</h3>
+<p><strong>Uniqlo</strong></p>
+<p>A crisp white shirt is the single most versatile thing in a wardrobe: open over the tee, tucked into trousers, knotted with jeans, under the blazer. Uniqlo&rsquo;s is the beginner value default &mdash; a clean, properly-cut shirt at a price that makes it a no-brainer first buy.</p>
+
+<h3>Slot 3 &mdash; Jeans</h3>
+<p><strong>Madewell The Perfect Vintage Jean</strong></p>
+<p>One great pair of jeans in a mid-to-dark wash does the heavy lifting in any capsule. The Perfect Vintage is Madewell&rsquo;s cult answer for a reason &mdash; a high-rise, straight-leaning cut that flatters most bodies and reads polished with a blazer or easy with the tee. The brand that wrote the modern women&rsquo;s denim playbook.</p>
+
+<h3>Slot 4 &mdash; Tailored Trousers</h3>
+<p><strong>Aritzia (The Effortless Pant)</strong></p>
+<p>The piece that takes the capsule from weekend to work. A fluid, tailored trouser in black or stone dresses up with flats and the blazer, down with the tee and sneakers. Aritzia&rsquo;s Effortless Pant is the internet&rsquo;s default for a reason &mdash; the drape and fit punch far above the price.</p>
+
+<h3>Slot 5 &mdash; Knit Sweater</h3>
+<p><strong>Quince (Mongolian Cashmere Crew)</strong></p>
+<p>One good neutral knit adds warmth and polish to everything beneath it. Quince made real cashmere a beginner purchase &mdash; a soft crew in oatmeal, camel, or grey for a fraction of the legacy-brand price. Over the button-down, with the trousers, alone with jeans. The quiet upgrade in any outfit.</p>
+
+<h3>Slot 6 &mdash; Blazer</h3>
+<p><strong>Mango</strong></p>
+<p>A single tailored blazer turns separates into an outfit people take seriously. Mango is the affordable-tailoring default &mdash; a structured navy or black blazer that sharpens the tee-and-jeans and anchors the trousers. The highest-impact slot for the lowest effort.</p>
+
+<h3>Slot 7 &mdash; Little Black Dress</h3>
+<p><strong>Reformation</strong></p>
+<p>The one-and-done answer for everything from dinner to a wedding. A simple, well-cut black dress needs no decisions and works for years. Reformation is the recognized go-to &mdash; flattering silhouettes in a versatile black that dresses up with flats or down with the sneakers and blazer.</p>
+
+<h3>Slot 8 &mdash; White Sneakers</h3>
+<p><strong>Veja</strong></p>
+<p>A clean white leather sneaker is the goes-with-literally-everything shoe &mdash; jeans, trousers, the dress, dressed up or down. Veja is the minimal, quietly-iconic default: simple enough to disappear, recognizable enough to never look wrong. One pair, endless pairings.</p>
+
+<h3>Slot 9 &mdash; Ballet Flats</h3>
+<p><strong>Sam Edelman</strong></p>
+<p>The polished alternative to the sneaker, and the easiest way to make trousers or the dress look finished. Sam Edelman is the beginner-right flat &mdash; comfortable, well-made, and in a neutral (black, nude, or leopard) that quietly works with the whole capsule.</p>
+
+<h3>Slot 10 &mdash; Tote Bag</h3>
+<p><strong>Cuyana (Classic Structured Leather Tote)</strong></p>
+<p>One good structured tote carries the working day and finishes every outfit above. Cuyana is the &ldquo;fewer, better&rdquo; default &mdash; clean leather in a neutral, built to last and to go with everything. The last piece that pulls the capsule together.</p>
+
+<h2>Buy in This Order (Start With Three Pieces)</h2>
+<p>You do not need all ten pieces to get dressed well. If you are building a capsule wardrobe from scratch, this is the priority &mdash; the first group already makes a dozen outfits:</p>
+<ol>
+<li><strong>Start here (the everyday core):</strong> the t-shirt, the jeans, the white button-down, and the white sneakers. In neutral colors these four mix into a complete casual wardrobe on day one.</li>
+<li><strong>Add next (dress it up):</strong> the blazer, the tailored trousers, and the flats. This is the layer that takes the capsule to work, dinner, or anywhere that needs polish.</li>
+<li><strong>Finish when you can:</strong> the little black dress, the knit sweater, and the tote &mdash; the occasion piece, the warmth, and the bag that carries it all.</li>
+</ol>
+<p>If you only buy three things, buy the tee, the jeans, and the white sneakers in neutral colors. Neutrals pair with each other by default &mdash; that is the whole trick to a wardrobe where everything goes with everything.</p>
+
+<h2>The Point</h2>
+<p>Versatility is not an accident &mdash; it is what happens when every slot is chosen to pair with every other slot, in colors that already agree. That is the Diffr method: one good brand per slot, no repeats, so you build the capsule once and never buy the same thing twice. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> Get dressed. Stop researching.</p>
+`,
+  },
+  {
     slug: 'camping-gear-brand-guide',
     title: 'The Complete Camping Starter Kit for Beginners: Every Slot Assigned',
     description: 'Nine car-camping slots — tent to first aid — assigned and closed. The Diffr brand guide to a complete camping starter kit for two or the whole family: what to buy first to camp comfortably, without a gear rabbit hole.',

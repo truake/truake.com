@@ -15,6 +15,8 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'womens-capsule-wardrobe-brand-guide':
+    'Bottom line: a women’s capsule wardrobe is a system, not a pile — build it around neutral pieces that all pair with each other. The core ten: a tee, a white button-down, jeans, tailored trousers, a knit sweater, a blazer, a little black dress, white sneakers, flats, and a structured tote. Buy in this order: the tee, jeans, button-down, and sneakers first (a complete casual wardrobe), then the blazer, trousers, and flats, then the dress, sweater, and tote. Keep everything in neutral colors and it all goes together. Below is one brand per slot, no repeats.',
   'camping-gear-brand-guide':
     'Bottom line: a beginner car-camping starter kit comes down to shelter and sleep first — a livable tent, a warm sleeping bag, and a plush sleeping pad — because bad sleep is the number one reason people quit camping. Buy in this order: tent, bag, and pad first, then a two-burner stove and a good cooler, then chairs, a lantern, a cook set, and a first aid kit. Built for two or a small family. Below is one brand per slot, no repeats.',
   'bike-commuting-gear-brand-guide':
@@ -55,6 +57,25 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'womens-capsule-wardrobe-brand-guide': [
+    {
+      q: 'What does a women’s capsule wardrobe need at a minimum?',
+      a: 'About ten versatile pieces cover almost everything: a t-shirt, a white button-down, jeans, tailored trousers, a knit sweater, a blazer, a little black dress, white sneakers, flats, and a structured tote. Buy one good version of each in neutral colors and they all pair with each other. Skip trend pieces until the core is covered.',
+    },
+    {
+      q: 'How many pieces should a capsule wardrobe have?',
+      a: 'For a beginner, around ten to fifteen core pieces is the sweet spot — enough to make weeks of non-repeating outfits without a closet full of orphans. Start with a tight ten in neutral colors, wear it for a season, then add only the pieces you find you actually reach for. Fewer and better, all matching, beats more.',
+    },
+    {
+      q: 'What colors should a capsule wardrobe be?',
+      a: 'Build the core in neutrals — white, black, grey, navy, and one warm neutral like camel or stone. Neutrals pair with each other by default, so any top goes with any bottom. Add one or two accent colors only after the neutral base is solid; that is what keeps everything interchangeable.',
+    },
+    {
+      q: 'What should I buy first for a capsule wardrobe?',
+      a: 'Start with three neutral pieces: a good t-shirt, a pair of jeans, and clean white sneakers — together they are a complete casual outfit and pair in any combination. Add a white button-down and a blazer next to dress it up, then the trousers, dress, sweater, flats, and tote. Buy the core three first; neutrals are what make everything go together.',
+    },
+  ],
+
   'camping-gear-brand-guide': [
     {
       q: 'What do I actually need for my first camping trip?',
