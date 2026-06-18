@@ -13,6 +13,28 @@ the canonical URL. The social agent (@Diffr_app) pulls from this queue to publis
 
 ## queued
 
+### Diffr App Store launch
+Blog: https://truake.com/diffr/blog/diffr-is-live-on-the-app-store
+```
+Diffr is live on the App Store. 📱
+
+Pick a hobby, a wardrobe, a routine — Diffr hands you the whole kit, decided: one good brand per slot, no research spiral. Free on iPhone.
+
+https://apps.apple.com/us/app/diffr/id6772870733
+```
+Note: launch tweet links straight to the App Store (drive installs). Pin it.
+
+### r/OneBrandRule community launch
+Blog: https://truake.com/diffr/blog/introducing-r-onebrandrule
+```
+We started a subreddit for decide-once shopping: r/OneBrandRule.
+
+Ask "what's the one ___ for a beginner?" — running shoes, a chef's knife, a first skincare routine. Get one answer, not forty. Come in.
+
+https://www.reddit.com/r/OneBrandRule/
+```
+Note: links to the subreddit (drive joins).
+
 ### Women's Minimalist Wardrobe
 URL: https://truake.com/diffr/blog/womens-minimalist-wardrobe-brand-guide
 ```
