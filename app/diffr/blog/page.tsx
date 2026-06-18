@@ -11,6 +11,13 @@ export const metadata: Metadata = {
     title: 'Diffr Blog',
     description: 'Build logs and product thinking from the team behind Diffr.',
     url: 'https://truake.com/diffr/blog',
+    images: [{ url: '/diffr-og.png', width: 1200, height: 630, alt: 'Diffr — curated beginner brand guides' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Diffr Blog',
+    description: 'Build logs and product thinking from the team behind Diffr.',
+    images: ['/diffr-og.png'],
   },
 }
 

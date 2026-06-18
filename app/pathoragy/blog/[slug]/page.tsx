@@ -40,12 +40,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       publishedTime: post.date,
       tags: post.tags,
-      images: [{ url: 'https://truake.com/pathoragy-wordmark.png', width: 900, height: 200, alt: 'Pathoragy' }],
+      images: [{ url: 'https://truake.com/pathoragy-og.png', width: 1200, height: 630, alt: 'Pathoragy — live on purpose, not by default' }],
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.description,
+      images: ['https://truake.com/pathoragy-og.png'],
     },
   }
 }

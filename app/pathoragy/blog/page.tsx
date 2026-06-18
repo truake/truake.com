@@ -10,7 +10,13 @@ export const metadata: Metadata = {
     title: 'Pathoragy Blog',
     description: 'Guides on long-horizon life planning, the hedonic treadmill, intentional living, and building a life of wealth, knowledge, and interest.',
     url: 'https://truake.com/pathoragy/blog',
-    images: [{ url: 'https://truake.com/pathoragy-wordmark.png', width: 900, height: 200, alt: 'Pathoragy' }],
+    images: [{ url: 'https://truake.com/pathoragy-og.png', width: 1200, height: 630, alt: 'Pathoragy — live on purpose, not by default' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pathoragy Blog',
+    description: 'Guides on long-horizon life planning, the hedonic treadmill, intentional living, and building a life of wealth, knowledge, and interest.',
+    images: ['https://truake.com/pathoragy-og.png'],
   },
 }
 
