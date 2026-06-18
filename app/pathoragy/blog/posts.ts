@@ -208,7 +208,7 @@ const posts: BlogPost[] = [
 
 <h2>Why the Common Advice Fails</h2>
 <p>"Follow your passion" is the most pervasive piece of life advice ever given, and it is, at best, incomplete and at worst, actively harmful. The research on passion — particularly Cal Newport's analysis of how people who love their work actually got there — consistently shows that passion tends to follow mastery, not precede it. People rarely discover a pre-existing passion and then pursue it; they develop passionate engagement with domains where they have invested years of deliberate practice and achieved meaningful competence.</p>
-<p>The passion-first framework also assumes that you currently know what you are passionate about, that this passion is stable, and that a viable life can be built around it. All three assumptions are frequently wrong, particularly for people in their twenties and thirties who have not yet had enough experience to distinguish genuine engagement from novelty.</p>
+<p>The passion-first framework also assumes that you currently know what you are passionate about, that this passion is stable, and that a viable life can be built around it. All three assumptions are frequently wrong, particularly for people in their twenties and thirties who have not yet had enough experience to distinguish genuine engagement from novelty. The most popular version of this passion-first model is the four-circle ikigai diagram &mdash; and it fails for exactly this reason. <a href="/pathoragy/blog/ikigai-broken">The ikigai diagram is not actually Japanese, and it is broken</a>: it demands you already know what you love before you have done the work that produces love.</p>
 <p>The alternative is not to abandon the search for meaningful work and life. It is to approach the search with more intellectual rigor and less magical thinking.</p>
 
 <h2>What Purpose Actually Is (And Is Not)</h2>
@@ -1196,7 +1196,7 @@ const posts: BlogPost[] = [
 
 <h3>Meaning and Contribution</h3>
 <p>The dimension of life that is most frequently underemphasized is meaning — the sense of contributing to something beyond yourself, of living in accordance with values that extend beyond personal gain. Designing this dimension means identifying what you genuinely care about (not what you think you should care about) and building structures that make contributing to it a regular feature of your life, not an occasional aspiration.</p>
-<p>If the meaning dimension feels unclear — if you are unsure what you genuinely care about beyond the immediate — the inquiry in <a href="/pathoragy/blog/how-to-find-purpose-in-life">How to Find Your Purpose in Life</a> is a useful starting point before attempting to design around it.</p>
+<p>If the meaning dimension feels unclear — if you are unsure what you genuinely care about beyond the immediate — the inquiry in <a href="/pathoragy/blog/how-to-find-purpose-in-life">How to Find Your Purpose in Life</a> is a useful starting point before attempting to design around it &mdash; and it is worth knowing why <a href="/pathoragy/blog/ikigai-broken">the popular ikigai framework is broken</a> before you reach for it, since it is the default tool most people try first.</p>
 
 <h2>Common Life Design Mistakes</h2>
 <p>Several patterns appear consistently among people who attempt life design without a clear framework.</p>
@@ -1227,7 +1227,7 @@ const posts: BlogPost[] = [
   {
     slug: "ikigai-broken",
     title: `The Ikigai Four-Circles Diagram Isn't Japanese — and It's Broken`,
-    description: `A sourced critique of the Ikigai four-circles diagram: it isn't ancient Japanese philosophy but a 2014 Western invention. Why it fails — and what to use instead.`,
+    description: `Is ikigai actually Japanese? No — the famous four-circles diagram is a 2014 Western invention, not ancient philosophy. A sourced critique of why it fails as a purpose framework, and what to use instead.`,
     date: "2026-05-21",
     readTime: "14 min read",
     tags: ["ikigai alternative", "why ikigai doesn't work", "purpose framework", "self-determination theory"],
