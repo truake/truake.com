@@ -12,6 +12,70 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'diffr-is-live-on-the-app-store',
+    title: 'Diffr Is Live on the App Store',
+    description: 'Diffr is out — the brand-picker that hands you one good brand per slot is now a free iPhone app. Pick a hobby, a wardrobe, or a routine and get the whole kit decided, no research spiral.',
+    date: '2026-06-18',
+    readTime: '3 min read',
+    tags: ['diffr app', 'app launch', 'one brand rule', 'choice overload', 'curated shopping'],
+    category: 'build-log',
+    excerpt: 'Diffr is out. The thing we’ve been building in public is now a free app on the App Store — one good brand per slot, decided.',
+    content: `
+<p class="lead">Diffr is out.</p>
+
+<p>The thing we&rsquo;ve been building in public for months is now a real app you can hold. <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr is live on the App Store</a> &mdash; free, on iPhone.</p>
+
+<h2>What It Does</h2>
+
+<p>Pick something you want to start &mdash; a hobby, a wardrobe, a routine &mdash; and Diffr hands you the whole kit, already decided: <strong>one good brand per slot, no repeats.</strong> Not a ranked list of forty options. Not &ldquo;here are the top ten, good luck.&rdquo; One answer for each piece, chosen so a beginner can buy the lot and get on with it.</p>
+
+<p>Starting a home gym? You get the dumbbells, the mat, the rack &mdash; one brand each, in the order to buy them. A first work wardrobe, a skincare routine, a camping setup? Same deal. The research spiral, removed.</p>
+
+<h2>Why It Exists</h2>
+
+<p>Because the modern buying experience is broken in a specific way: every category has fractured into a thousand near-identical options that exist mostly to occupy shelf space &mdash; what we call <a href="/diffr/blog/the-toothpaste-aisle-tax">the toothpaste aisle tax</a>. You pay it in hours, in second-guessing, in the low-grade dread of the review rabbit hole. Diffr is the opposite bet: <a href="/diffr/blog/the-one-brand-rule">one brand per slot</a>, <a href="/diffr/blog/the-decide-once-rule">decide once</a>, and spend your attention on the thing itself instead of the gear for it.</p>
+
+<h2>Where to Start</h2>
+
+<p>If you want to see the method before you download, the <a href="/diffr/blog/starter-kits">starter kits</a> are all here on the blog &mdash; every slot assigned, free to read. The app is the same idea in your pocket, with the live brand picks and a way to save what you choose.</p>
+
+<p><a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">&rarr; Download Diffr on the App Store</a></p>
+`.trim(),
+  },
+  {
+    slug: 'introducing-r-onebrandrule',
+    title: 'Introducing r/OneBrandRule',
+    description: 'We started a subreddit for decide-once shopping — r/OneBrandRule. A place to ask “what’s the one ___ for a beginner?”, share your one-brand-per-slot picks, and push back on choice overload.',
+    date: '2026-06-18',
+    readTime: '3 min read',
+    tags: ['one brand rule', 'reddit community', 'r/OneBrandRule', 'choice overload', 'intentional consumption'],
+    category: 'build-log',
+    excerpt: 'We started a subreddit: r/OneBrandRule — a home for decide-once shopping and the single-best-answer question.',
+    content: `
+<p class="lead">We started a subreddit: <a href="https://www.reddit.com/r/OneBrandRule/" target="_blank" rel="noopener noreferrer">r/OneBrandRule</a>.</p>
+
+<p>Diffr runs on one idea simple enough to live without an app: <strong>pick one good brand per category, and stop re-deciding.</strong> The <a href="/diffr/blog/the-one-brand-rule">One-Brand Rule</a>. We wanted a room for the people who already think this way &mdash; and the people tired of the alternative &mdash; to compare notes. So we built one.</p>
+
+<h2>What It&rsquo;s For</h2>
+
+<p>r/OneBrandRule is a community for decide-once shopping. The kind of thing that belongs there:</p>
+
+<ul>
+<li><strong>&ldquo;What&rsquo;s the one ___ for a beginner?&rdquo;</strong> &mdash; the single-best-answer question, for any category. Running shoes, a chef&rsquo;s knife, a winter coat, a first skincare routine.</li>
+<li><strong>Your own one-per-slot picks</strong> &mdash; the brands you committed to and never looked back on, and why they earned it.</li>
+<li><strong>Pushback on choice overload</strong> &mdash; the review rabbit holes, the fake-difference traps, the categories where &ldquo;it depends&rdquo; is a cop-out and there really is a sane default.</li>
+</ul>
+
+<p>It is the opposite of a deal-hunting sub. Nobody is chasing the last three percent. The whole point is to <a href="/diffr/blog/stop-optimizing-start-deciding">stop optimizing and start deciding</a> &mdash; find the good-enough-forever answer and reclaim the hours you were spending on the search.</p>
+
+<h2>Come In</h2>
+
+<p>Whether you live by the rule already or just want a shortcut past your next research spiral, you are welcome. Ask your &ldquo;what&rsquo;s the one ___&rdquo; question, or answer someone else&rsquo;s.</p>
+
+<p><a href="https://www.reddit.com/r/OneBrandRule/" target="_blank" rel="noopener noreferrer">&rarr; Join r/OneBrandRule</a></p>
+`.trim(),
+  },
+  {
     slug: 'starter-kits',
     title: 'Starter Kits for Beginners: Every Hobby, One Brand Per Slot',
     description: 'Every Diffr starter kit in one place — complete beginner buying guides for camping, home gym, work wardrobe, skincare, and more. One brand per slot, every slot assigned, buy in this order.',
