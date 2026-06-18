@@ -27,10 +27,14 @@ const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'backpacking-gear-brand-guide': 25,
   'skincare-brand-guide': 10,
   'makeup-brand-guide': 12,
-  // Apparel scenes (28 casual / 29 work / 30 winter) — kit temporarily
-  // disabled: their DB slot_brand_ids are mis-curated (e.g. a women's crop
-  // tank in the winter base-layer slot). The editorial prose picks in these
-  // posts are correct; re-enable once dev re-curates the apparel slot pools.
+  // Apparel scenes — re-enabled after dev re-curated the slot pools (2026-06-18):
+  // type fixes (Casual Jacket / Necktie / Wool Scarf), brand de-pollution
+  // (Ansonia Clock→Fossil, dead watch brand→Timex, Patagonia dup→TNF,
+  // Canada Goose→Columbia), and the crop-tank base-layer fixed (→Uniqlo
+  // HEATTECH). Verified slot-by-slot, no gender/category contamination.
+  'casual-wardrobe-brand-guide': 28,
+  'work-wardrobe-brand-guide': 29,
+  'winter-layering-brand-guide': 30,
 }
 
 // Each brand-guide post has a live, interactive twin at /diffr/start/<slug>
