@@ -1,93 +1,114 @@
 # Diffr — X (Twitter) Post Queue
 
-Each new Diffr blog post gets a paired X post here: a short, human, non-superlative
-hook (Diffr voice — "one brand per slot, decide once", no "Best/#1/ultimate") plus
-the canonical URL. The social agent (@Diffr_app) pulls from this queue to publish.
+Native-thread format. X suppresses reach on posts with external links and rewards
+self-contained value (lists people can read/save without clicking out). So each
+entry is a **thread**: deliver the whole kit in the tweets, put the link only in
+the **last tweet (or first reply)**. Blue check gives the length + reach boost —
+that only helps if the post is native, not a link drop.
 
 - **Account:** https://x.com/Diffr_app
-- **Voice:** anti-choice-overload, concrete, calm confidence. No hype words.
-- **Format:** hook line → the idea → 1 link. Keep under 280 chars. 0–1 hashtag max.
+- **Voice:** anti-choice-overload, concrete, calm. No hype/superlatives.
+- **Format:** numbered thread, value in-thread, link last. First tweet = the hook.
 - **Status:** `queued` → social agent flips to `posted YYYY-MM-DD` after publishing.
 
 ---
 
 ## queued
 
-### Diffr App Store launch
-Blog: https://truake.com/diffr/blog/diffr-is-live-on-the-app-store
+### Diffr App Store launch  (pin this)
 ```
-Diffr is live on the App Store. 📱
+1/ Diffr is live on the App Store. 📱
+The problem was never too few options — it's too many. So we pick the one good brand per slot, for any kit you want to start.
 
-Pick a hobby, a wardrobe, a routine — Diffr hands you the whole kit, decided: one good brand per slot, no research spiral. Free on iPhone.
+2/ Starting a home gym? You get the dumbbells, the mat, the rack — one brand each, in the order to buy them.
 
+3/ A first work wardrobe, a skincare routine, a camping setup? Same deal. One answer per slot. The research spiral, removed.
+
+4/ Free on iPhone. Decide once, get on with it. 👇
 https://apps.apple.com/us/app/diffr/id6772870733
 ```
-Note: launch tweet links straight to the App Store (drive installs). Pin it.
 
 ### r/OneBrandRule community launch
-Blog: https://truake.com/diffr/blog/introducing-r-onebrandrule
 ```
-We started a subreddit for decide-once shopping: r/OneBrandRule.
+1/ We started a subreddit for decide-once shopping: r/OneBrandRule.
+One idea — pick one good brand per category, and stop re-deciding.
 
-Ask "what's the one ___ for a beginner?" — running shoes, a chef's knife, a first skincare routine. Get one answer, not forty. Come in.
+2/ It's built for the single-best-answer question: "what's the one ___ for a beginner?" Running shoes. A chef's knife. A first cologne.
 
+3/ Share the picks you committed to and never looked back on. Push back on choice overload. Find the good-enough-forever answer.
+
+4/ Come in 👇
 https://www.reddit.com/r/OneBrandRule/
 ```
-Note: links to the subreddit (drive joins).
 
 ### Cologne for Beginners
-URL: https://truake.com/diffr/blog/cologne-for-beginners-brand-guide
 ```
-"What's the one cologne for a beginner?"
+1/ The beginner cologne kit — one scent per occasion, not a $200 collection: 🧵
 
-You don't need a collection — one versatile crowd-pleaser covers most of life (start: Bleu de Chanel), then a summer-fresh and a winter-warm pick. One scent per occasion, no note-pyramid rabbit hole.
+2/ Everyday: Bleu de Chanel — smell good, don't think about it
+3/ Compliments: Dior Sauvage — the safe blind-buy
+4/ Date night: Versace Eros
+5/ Summer: Acqua di Gio
+6/ Winter: Spicebomb
+7/ Under $30 to start: Nautica Voyage
 
+8/ You need one, not six. Full breakdown + why each ↓
 https://truake.com/diffr/blog/cologne-for-beginners-brand-guide
 ```
-Note: high "...for beginners reddit" search intent — community-trust angle fits Diffr + r/OneBrandRule.
 
 ### First Apartment Cleaning Supplies
-URL: https://truake.com/diffr/blog/apartment-cleaning-supplies-brand-guide
 ```
-Moving into your first apartment? You need about 10 cleaning supplies, not 40.
+1/ Moving into your first apartment? You need ~10 cleaning supplies, not 40. One good brand each: 🧵
 
-One good brand per slot — all-purpose (Method), dish soap (Dawn), microfiber, a stick vacuum, a spin mop. Buy three first, add the rest. The whole kit, decided.
+2/ All-purpose: Method
+3/ Dish soap: Dawn
+4/ Microfiber cloths: MR.SIGA (stop buying paper towels for everything)
+5/ Scrubber: Scrub Daddy · Wipes: Clorox
+6/ Floors: Shark stick vacuum + O-Cedar spin mop
+7/ Bathroom: OXO · Trash: Glad · Paper towels: Bounty
 
+8/ Buy the first 3, add the rest. Full kit + buy-order ↓
 https://truake.com/diffr/blog/apartment-cleaning-supplies-brand-guide
 ```
 
 ### Women's Minimalist Wardrobe
-URL: https://truake.com/diffr/blog/womens-minimalist-wardrobe-brand-guide
 ```
-The minimalist wardrobe problem isn't owning too much — it's not knowing which 8 pieces actually cover your life.
+1/ A minimalist wardrobe isn't owning less for its own sake — it's the fewest pieces that still cover your whole life. 8 slots, one brand each: 🧵
 
-So we assigned each one a brand. Tee, jeans, knit, trouser, coat — one good answer per slot. Build it once, stop scrolling.
+2/ Tee: COS · Cashmere: Quince
+3/ Jeans: Everlane · Trouser: Arket
+4/ White shirt: Uniqlo · Coat: Uniqlo
+5/ Loafer: Vagabond · Bag: Polène
 
+6/ Neutral colors = everything pairs by default. Start with the tee, jeans, white shirt ↓
 https://truake.com/diffr/blog/womens-minimalist-wardrobe-brand-guide
 ```
-Image suggestion: the post's hero / a clean neutral flat-lay.
 
 ### Women's Winter Layering
-URL: https://truake.com/diffr/blog/womens-winter-layering-brand-guide
 ```
-Staying warm isn't one heroic coat. It's three layers, each with a job: a base that moves sweat, a mid that traps heat, an outer that blocks weather.
+1/ Staying warm isn't one heroic coat — it's 3 layers, each with a job. The women's winter system, one brand per slot: 🧵
 
-Here's the whole system — one brand per slot, base to boots. No gear rabbit hole.
+2/ Base: Uniqlo Heattech (moves sweat off skin)
+3/ Mid: Patagonia fleece (traps heat)
+4/ Outer: Patagonia down + a Uniqlo wool coat for town
+5/ Extremities: Carhartt beanie · The North Face gloves · Smartwool socks · Sorel boots
 
+6/ Get the base/mid/down first — the rest just protects it. Full system ↓
 https://truake.com/diffr/blog/womens-winter-layering-brand-guide
 ```
-Image suggestion: base/mid/outer layer stack.
 
 ### Women's Work Capsule
-URL: https://truake.com/diffr/blog/womens-work-capsule-brand-guide
 ```
-A work wardrobe isn't a closet full of outfits. It's a few right separates that recombine into a different look every day.
+1/ A work wardrobe isn't a closet of outfits — it's a few separates that recombine into a different look every day. 9 pieces, one brand each: 🧵
 
-Nine pieces, nine brand answers — a full week without repeating. Buy the blazer, trousers, and white shirt first.
+2/ Blazer: J.Crew · Trousers: Aritzia
+3/ White shirt: Everlane · Knit: Quince
+4/ Sheath dress: J.Crew · Pencil skirt: Banana Republic
+5/ Pumps: Cole Haan · Flats: Sam Edelman · Tote: Dagne Dover
 
+6/ Buy the blazer, trousers, and white shirt first — a full week of outfits from there ↓
 https://truake.com/diffr/blog/womens-work-capsule-brand-guide
 ```
-Image suggestion: blazer + trousers + white shirt core three.
 
 ---
 
