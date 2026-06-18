@@ -35,6 +35,27 @@ https://www.reddit.com/r/OneBrandRule/
 ```
 Note: links to the subreddit (drive joins).
 
+### Cologne for Beginners
+URL: https://truake.com/diffr/blog/cologne-for-beginners-brand-guide
+```
+"What's the one cologne for a beginner?"
+
+You don't need a collection — one versatile crowd-pleaser covers most of life (start: Bleu de Chanel), then a summer-fresh and a winter-warm pick. One scent per occasion, no note-pyramid rabbit hole.
+
+https://truake.com/diffr/blog/cologne-for-beginners-brand-guide
+```
+Note: high "...for beginners reddit" search intent — community-trust angle fits Diffr + r/OneBrandRule.
+
+### First Apartment Cleaning Supplies
+URL: https://truake.com/diffr/blog/apartment-cleaning-supplies-brand-guide
+```
+Moving into your first apartment? You need about 10 cleaning supplies, not 40.
+
+One good brand per slot — all-purpose (Method), dish soap (Dawn), microfiber, a stick vacuum, a spin mop. Buy three first, add the rest. The whole kit, decided.
+
+https://truake.com/diffr/blog/apartment-cleaning-supplies-brand-guide
+```
+
 ### Women's Minimalist Wardrobe
 URL: https://truake.com/diffr/blog/womens-minimalist-wardrobe-brand-guide
 ```

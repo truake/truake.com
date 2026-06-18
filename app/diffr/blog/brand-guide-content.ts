@@ -15,6 +15,10 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'cologne-for-beginners-brand-guide':
+    'Bottom line: a beginner does not need a fragrance collection — just one versatile, easy-to-wear scent, maybe with a seasonal pick or two. The first fragrance wardrobe: an everyday versatile (Bleu de Chanel), a crowd-pleaser (Dior Sauvage), a date-night (Versace Eros), a summer fresh (Acqua di Gio), a winter warm (Spicebomb), and a budget starter (Nautica Voyage). Buy in this order: the everyday versatile first (the only one most people need), then the summer and winter picks, then the occasion scents. A single good scent worn consistently beats a shelf you rotate at random. Below is one pick per slot, no repeats.',
+  'apartment-cleaning-supplies-brand-guide':
+    'Bottom line: a first apartment needs about ten cleaning supplies, not forty — one good brand each, most of them cheap. The kit: an all-purpose cleaner (Method), dish soap (Dawn), microfiber cloths (MR.SIGA), a scrubber (Scrub Daddy), disinfecting wipes (Clorox), a stick vacuum (Shark), a spin mop (O-Cedar), bathroom tools (OXO), trash bags (Glad), and paper towels (Bounty). Buy in this order: the all-purpose cleaner, dish soap, and microfiber cloths first (they clean most surfaces), then bathroom and floor gear, then the consumables. Below is one brand per slot, no repeats.',
   'womens-minimalist-wardrobe-brand-guide':
     'Bottom line: a minimalist wardrobe is the fewest pieces that still cover your whole life, each good enough that you never reach for anything else. The core eight: an elevated tee, a cashmere crew, straight-leg jeans, a tailored trouser, a crisp white shirt, a wool coat, a leather loafer, and a structured bag. Buy in this order: the tee, jeans, and white shirt first (a complete casual look), then the trouser, knit, and loafer, then the coat and bag. Keep it all in neutral colors and everything pairs by default. Below is one brand per slot, no repeats.',
   'womens-winter-layering-brand-guide':
@@ -63,6 +67,44 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'cologne-for-beginners-brand-guide': [
+    {
+      q: 'What cologne should a beginner buy first?',
+      a: 'Start with one versatile, crowd-pleasing scent rather than a collection. Bleu de Chanel is the safest all-rounder — clean, fresh, and office- and date-appropriate across most of the year. If you want to test whether you even like wearing fragrance first, a budget pick like Nautica Voyage does the job for under $30. One good scent worn consistently is all most people need.',
+    },
+    {
+      q: 'How many fragrances does a beginner need?',
+      a: 'One to start, and realistically no more than three or four ever. A single versatile scent covers most of life; a summer fresh and a winter warm handle the seasons your everyday pick struggles in; a date-night scent is optional. Beyond that you are collecting, not wearing. Add a scent only when you notice a real gap.',
+    },
+    {
+      q: 'What is a good cheap cologne for beginners?',
+      a: 'Nautica Voyage is the cult under-$30 pick — a clean, fresh aquatic that performs far above its price and is the risk-free way to start. Designer safe blind-buys like Dior Sauvage or Bleu de Chanel cost more but are near-universally liked. Start cheap to learn what you enjoy, then invest in one signature.',
+    },
+    {
+      q: 'What does one scent per occasion mean?',
+      a: 'Instead of owning many similar fragrances, you cover the situations you actually dress for: an everyday versatile for work and daily life, a fresh scent for summer heat, a warm one for winter, and an evening scent for going out. One good pick for each, no overlap — so you always know what to reach for without rotating at random.',
+    },
+  ],
+
+  'apartment-cleaning-supplies-brand-guide': [
+    {
+      q: 'What cleaning supplies do I need for a first apartment?',
+      a: 'About ten things cover every room: an all-purpose cleaner, dish soap, microfiber cloths, a scrubber, disinfecting wipes, a stick vacuum, a spin mop, basic bathroom tools, trash bags, and paper towels. Buy one good brand of each — most are inexpensive — and skip the specialty sprays until you have a specific job for them.',
+    },
+    {
+      q: 'What cleaning supplies should I buy first?',
+      a: 'Start with three daily drivers: an all-purpose cleaner (like Method), dish soap (Dawn), and a pack of microfiber cloths. That trio cleans the kitchen and most surfaces on its own. Add bathroom and floor gear — wipes, a mop, a vacuum, a toilet brush — next, then consumables like trash bags and paper towels.',
+    },
+    {
+      q: 'How much do cleaning supplies for a new apartment cost?',
+      a: 'A complete first-apartment kit runs roughly $120–180, with the stick vacuum as the biggest single line item; everything else is mostly under $15. You can start for well under $50 with just the daily-driver trio and add the rest over your first month. Microfiber cloths over paper towels save money over time.',
+    },
+    {
+      q: 'Do I really need a vacuum and a mop for an apartment?',
+      a: 'For hard floors, yes — a broom misses fine dust and a mop is the only way to actually clean sealed floors. A cordless stick vacuum (like Shark) is enough for an apartment and stores in a closet, and a self-wringing spin mop (O-Cedar) makes mopping quick. If your apartment is fully carpeted, skip the mop and prioritize the vacuum.',
+    },
+  ],
+
   'womens-minimalist-wardrobe-brand-guide': [
     {
       q: 'What is a minimalist wardrobe?',

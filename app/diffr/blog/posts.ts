@@ -377,6 +377,124 @@ export const posts: BlogPost[] = [
 `,
   },
   {
+    slug: 'cologne-for-beginners-brand-guide',
+    title: 'Cologne for Beginners: Building Your First Fragrance Wardrobe',
+    description: 'A beginner’s first fragrance wardrobe — one easy-to-wear scent per occasion, assigned. The Diffr guide to cologne for beginners: what to buy first, from an everyday crowd-pleaser to a budget starter. One good pick per slot, no note-pyramid rabbit hole.',
+    date: '2026-06-18',
+    readTime: '6 min read',
+    tags: ['brand guide', 'cologne for beginners', 'best cologne for beginners', 'fragrance for beginners', 'mens fragrance', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'A first fragrance wardrobe — one easy-to-wear scent per occasion. You need one good cologne, not a shelf of bottles.',
+    content: `
+<p>A signature scent is the cheapest way to be more memorable &mdash; and the fastest way to fall down a $200-a-bottle rabbit hole. The fragrance internet answers &ldquo;what cologne should I buy&rdquo; with a thousand niche houses, note pyramids, and &ldquo;it depends on your skin chemistry&rdquo; &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in a glass bottle. The truth: a beginner needs one versatile scent, not a collection. Here is a first fragrance wardrobe &mdash; one widely-loved, easy-to-wear pick per occasion, the kind that earns compliments instead of confusion. Start with one and stop.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; The Everyday Versatile</h3>
+<p><strong>Bleu de Chanel</strong></p>
+<p>If you buy one fragrance, buy this. Bleu de Chanel is the closest thing to a do-everything scent &mdash; clean, fresh-but-warm, office-safe and date-safe, three seasons out of four. It is the answer to &ldquo;I just want to smell good and not think about it.&rdquo; Start here.</p>
+
+<h3>Slot 2 &mdash; The Crowd-Pleaser</h3>
+<p><strong>Dior Sauvage</strong></p>
+<p>The most popular men&rsquo;s fragrance in the world, for a reason: a near-guaranteed compliment-getter that almost nobody dislikes. Fresh, peppery, a little sweet. If you want the safe blind-buy that the most people will react well to, this is it.</p>
+
+<h3>Slot 3 &mdash; The Date Night</h3>
+<p><strong>Versace Eros</strong></p>
+<p>For when you want more pull than &ldquo;clean.&rdquo; Eros is sweet, warm, and unapologetically attention-getting &mdash; the evening-and-weekend scent that reads as confident. The beginner default for a night out.</p>
+
+<h3>Slot 4 &mdash; The Summer Fresh</h3>
+<p><strong>Giorgio Armani Acqua di Gio</strong></p>
+<p>Heat kills heavy fragrances; this is the antidote. Acqua di Gio is the iconic aquatic-citrus &mdash; light, breezy, and the reason &ldquo;fresh&rdquo; became a fragrance category. The one to reach for when it is hot.</p>
+
+<h3>Slot 5 &mdash; The Winter Warm</h3>
+<p><strong>Viktor&amp;Rolf Spicebomb</strong></p>
+<p>Cold air swallows light scents, so winter wants spice and warmth. Spicebomb is the approachable beginner pick &mdash; cinnamon, tobacco, and just enough sweetness to project in the cold without trying too hard.</p>
+
+<h3>Slot 6 &mdash; The Budget Starter</h3>
+<p><strong>Nautica Voyage</strong></p>
+<p>You do not need to spend $120 to smell good. Nautica Voyage is the cult under-$30 gateway &mdash; a fresh, clean aquatic that punches absurdly above its price and proves the hobby does not have to be expensive. The risk-free way to find out whether you even like wearing fragrance.</p>
+
+<h2>Buy in This Order (You Need One, Not Six)</h2>
+<p>A beginner does not need a fragrance wardrobe &mdash; they need one good scent. Build it in this order, only as far as you actually want to go:</p>
+<ol>
+<li><strong>Start here (the only one you need):</strong> the everyday versatile &mdash; or the budget starter if you want to test the waters first. One clean, crowd-pleasing scent covers ninety percent of life.</li>
+<li><strong>Add next (the seasons):</strong> the summer fresh and the winter warm &mdash; the two picks that matter once you notice your everyday scent disappears in July or vanishes in January.</li>
+<li><strong>Finish if you want it:</strong> the date-night and the second crowd-pleaser &mdash; the occasion scents, for when one signature is not enough.</li>
+</ol>
+<p>If you only buy one, buy the everyday versatile (or test with the budget starter). A single good scent worn consistently beats a shelf of bottles you rotate at random &mdash; that is how a fragrance becomes <em>yours</em>.</p>
+
+<h2>The Point</h2>
+<p>Smelling good is not about owning the most bottles &mdash; it is about one well-chosen scent per occasion, picked to be easy to wear instead of hard to understand. That is the Diffr method: one good pick per slot, no repeats, so you build a signature once and skip the note-pyramid rabbit hole. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> Find your scent. Stop researching.</p>
+`.trim(),
+  },
+  {
+    slug: 'apartment-cleaning-supplies-brand-guide',
+    title: 'First Apartment Cleaning Supplies: One Brand Per Slot',
+    description: 'Everything a first apartment needs to clean every room — about ten supplies, one good brand each, assigned. The Diffr guide to first-apartment cleaning supplies: what to actually buy, in the order to buy it.',
+    date: '2026-06-18',
+    readTime: '6 min read',
+    tags: ['brand guide', 'first apartment cleaning supplies', 'cleaning supplies checklist', 'apartment cleaning essentials', 'first apartment checklist', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'About ten supplies, one brand each, and you can clean every room. The first-apartment cleaning kit, decided.',
+    content: `
+<p>Moving into a first apartment comes with a question nobody teaches you the answer to: what cleaning supplies do you actually need? The internet replies with forty-item checklists, eight kinds of specialty spray, and a different brand for every surface &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> under the sink. The honest answer is about ten things, one good brand each, and most of them are cheap. Here is the complete first-apartment cleaning kit &mdash; buy these and you can clean every room, no haul video required.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; All-Purpose Cleaner</h3>
+<p><strong>Method</strong></p>
+<p>One spray for counters, tables, appliances, and most surfaces &mdash; the bottle you reach for daily. Method is the beginner-friendly default: it works, it is everywhere, and it does not smell like a chemical plant. The single most-used item in the kit.</p>
+
+<h3>Slot 2 &mdash; Dish Soap</h3>
+<p><strong>Dawn</strong></p>
+<p>The undisputed default, and it moonlights far beyond dishes &mdash; greasy pans, spot-cleaning, even a cheap all-purpose in a pinch. Dawn is the one cleaning product almost everyone agrees on. Buy the original blue.</p>
+
+<h3>Slot 3 &mdash; Microfiber Cloths</h3>
+<p><strong>MR.SIGA</strong></p>
+<p>Paper towels are a recurring cost; a pack of microfiber cloths is a one-time buy that cleans better. MR.SIGA is the cult value pick &mdash; a multipack that handles glass, counters, and dusting and goes in the wash. Get the multipack and stop buying paper towels for everything.</p>
+
+<h3>Slot 4 &mdash; Scrubber</h3>
+<p><strong>Scrub Daddy</strong></p>
+<p>The one viral product that earns it. Scrub Daddy is firm in cold water for scrubbing and soft in warm for wiping, and it does not hold odor the way a sponge does. The beginner pick for dishes, sinks, and stovetops.</p>
+
+<h3>Slot 5 &mdash; Disinfecting Wipes</h3>
+<p><strong>Clorox</strong></p>
+<p>For the thirty-second jobs &mdash; bathroom counters, doorknobs, a quick kitchen wipe-down before guests. Clorox wipes are the grab-and-go default that makes you actually clean the high-touch spots. Keep a tub in the bathroom and one in the kitchen.</p>
+
+<h3>Slot 6 &mdash; Stick Vacuum</h3>
+<p><strong>Shark</strong></p>
+<p>An apartment does not need a full-size vacuum. A cordless stick handles floors, rugs, and corners and stores in a closet. Shark is the beginner value default &mdash; the most capability per dollar before you reach premium territory.</p>
+
+<h3>Slot 7 &mdash; Spin Mop &amp; Bucket</h3>
+<p><strong>O-Cedar</strong></p>
+<p>Hard floors need a mop, and the wring-by-hand kind is misery. O-Cedar&rsquo;s EasyWring is the cult default &mdash; a spin bucket that wrings the mop for you, cheap and genuinely good. The one that turns mopping into a five-minute job instead of a chore you avoid.</p>
+
+<h3>Slot 8 &mdash; Bathroom Tools</h3>
+<p><strong>OXO Good Grips</strong></p>
+<p>A toilet brush and a few scrubbers you will not dread holding. OXO Good Grips is the well-made, sensibly-designed default for bathroom cleaning tools &mdash; the kind of thing you buy once and forget about. Covers the room nobody enjoys.</p>
+
+<h3>Slot 9 &mdash; Trash Bags</h3>
+<p><strong>Glad ForceFlex</strong></p>
+<p>The boring slot that matters the moment a cheap bag splits on the way to the dumpster. Glad ForceFlex is the reliable default &mdash; get the tall-kitchen size that fits a standard bin. Buy once a season.</p>
+
+<h3>Slot 10 &mdash; Paper Towels</h3>
+<p><strong>Bounty</strong></p>
+<p>Microfiber handles most jobs, but you still want paper for the gross ones. Bounty is the default for a reason &mdash; it actually holds up wet. The backstop for spills, grease, and anything you would rather throw away than wash.</p>
+
+<h2>Buy in This Order (Start With Three)</h2>
+<p>You do not need all ten on move-in day. If you are stocking a first apartment from scratch, buy in this order:</p>
+<ol>
+<li><strong>Start here (the daily drivers):</strong> the all-purpose cleaner, dish soap, and microfiber cloths. These three clean the kitchen and most surfaces on their own &mdash; the minimum to live cleanly from day one.</li>
+<li><strong>Add next (bathroom and floors):</strong> the disinfecting wipes, bathroom tools, spin mop, and stick vacuum &mdash; the gear that covers the rooms and floors the daily drivers cannot reach.</li>
+<li><strong>Finish the kit:</strong> the scrubber, trash bags, and paper towels &mdash; the consumables and the one tool that round out the whole apartment.</li>
+</ol>
+<p>If you only buy three things, buy the all-purpose cleaner, dish soap, and a pack of microfiber cloths. That trio cleans more of an apartment than any single specialty product on the shelf.</p>
+
+<h2>The Point</h2>
+<p>A clean apartment is not a cabinet full of specialty sprays &mdash; it is about ten reliable items, one good brand each, that cover every room. That is the Diffr method: one good pick per slot, no repeats, so you stock the place once and skip the forty-item checklist. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> Get it clean. Stop researching.</p>
+`.trim(),
+  },
+  {
     slug: 'camping-gear-brand-guide',
     title: 'The Complete Camping Starter Kit for Beginners: What to Buy First',
     description: 'Nine car-camping slots — tent to first aid — assigned and closed. The Diffr brand guide to a complete camping starter kit for two or the whole family: what to buy first to camp comfortably, without a gear rabbit hole.',
