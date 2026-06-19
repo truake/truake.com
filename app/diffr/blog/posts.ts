@@ -12,6 +12,133 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'housewarming-gift-ideas-brand-guide',
+    title: 'Housewarming Gift Ideas: One Great Pick Per Vibe, Not More Clutter',
+    description: 'The housewarming gift ideas they will actually use — one great pick per vibe and per budget, from a $25 candle to an heirloom Dutch oven. No hundred-item roundup, just the gifts that earn their place in a new home.',
+    date: '2026-06-19',
+    readTime: '6 min read',
+    tags: ['brand guide', 'housewarming gift ideas', 'housewarming gifts', 'best housewarming gifts', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'The housewarming gifts they will actually use — one great pick per vibe, grouped by budget. Skip the hundred-item roundup.',
+    content: `
+<p>A housewarming gift has one hard job: be something they will actually use, not one more thing they have to find a place for. The internet&rsquo;s answer is a hundred-item roundup that buries the good ideas under novelty wine stoppers &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> with a bow on it. You do not need a hundred ideas. You need one great pick per vibe, at a price you want to spend. Here are the housewarming gifts that earn their place in a new home &mdash; one brand each, grouped so you can pick by who they are and what you want to spend.</p>
+
+<h2>The Crowd-Pleasers (Can&rsquo;t Go Wrong)</h2>
+
+<h3>A Candle &mdash; Nest New York</h3>
+<p>The default housewarming gift for a reason: everyone uses candles, and a Nest feels like a real gift rather than a grocery-store afterthought. Pick a universally-loved scent (Bamboo, Grapefruit) and you are done.</p>
+
+<h3>Good Olive Oil &mdash; Brightland</h3>
+<p>The chic, affordable pick that quietly signals taste. Brightland&rsquo;s olive oil looks beautiful on a counter and gets used every day &mdash; a consumable gift that never becomes clutter. The safe budget hero.</p>
+
+<h2>The Kitchen Upgrade</h2>
+
+<h3>Dutch Oven &mdash; Le Creuset</h3>
+<p>The heirloom housewarming gift. A Le Creuset Dutch oven is the splurge people register for and rarely buy themselves &mdash; it lasts decades and gets used weekly. If you want one impressive gift, this is it. (On a budget, a Lodge does the same job for a fraction.)</p>
+
+<h3>Cutting Board &mdash; John Boos</h3>
+<p>A thick wooden Boos block is the cutting board that becomes a fixture &mdash; the solid, lasts-forever object a new kitchen is missing. Practical, handsome, and used every single day.</p>
+
+<h3>Electric Kettle &mdash; Fellow</h3>
+<p>For the coffee or tea person, a Fellow Stagg kettle is the design-object-that-works &mdash; it looks like art on the counter and pours like a precision tool. The gift that upgrades a daily ritual.</p>
+
+<h2>The Cozy</h2>
+
+<h3>Throw Blanket &mdash; Barefoot Dreams</h3>
+<p>The cult cozy throw people obsess over and would never spend on themselves. Drape it over a new couch and it becomes the most-used object in the living room. The comfort gift that always lands.</p>
+
+<h3>Luxe Towels &mdash; Brooklinen</h3>
+<p>Everyone needs towels; almost nobody buys themselves nice ones. A set of Brooklinen bath or hand towels is the quiet-luxury gift &mdash; immediately useful, and an upgrade they feel every day.</p>
+
+<h2>The Hosting Starter</h2>
+
+<h3>Bar Tools &mdash; Viski</h3>
+<p>A new home means hosting, and a Viski cocktail set turns a kitchen into a bar &mdash; shaker, jigger, strainer, the lot, in one handsome kit. The gift for the friend excited to have people over.</p>
+
+<h3>A Plant &mdash; The Sill</h3>
+<p>A living gift that makes a new place feel like home. The Sill ships a healthy, low-maintenance potted plant (snake plant, pothos) that survives a beginner &mdash; greenery without a green thumb required.</p>
+
+<h2>If You Only Get One (By Budget)</h2>
+<p>Not sure what to spend? Pick by budget and you cannot go wrong:</p>
+<ol>
+<li><strong>Under $30:</strong> the candle or the olive oil &mdash; the safe, always-welcome default.</li>
+<li><strong>$30&ndash;75:</strong> the luxe towels, the cutting board, the bar tools, or a plant &mdash; useful gifts with a little more weight.</li>
+<li><strong>$75 and up:</strong> the Dutch oven, the kettle, or the cozy throw &mdash; the impressive, lasts-for-years gift for someone you really like.</li>
+</ol>
+<p>If you genuinely cannot decide, bring the candle and a bottle of the olive oil. It is the combination nobody has ever been disappointed to receive.</p>
+
+<h2>The Point</h2>
+<p>A good housewarming gift is not the most original one &mdash; it is the one they will actually use, picked so you do not have to scroll a hundred roundups to find it. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Give the good one. Stop researching.</p>
+`.trim(),
+  },
+  {
+    slug: 'first-apartment-checklist-brand-guide',
+    title: 'First Apartment Checklist: Everything You Need, One Brand Per Slot',
+    description: 'The complete first apartment checklist — sleep, kitchen, cleaning, bathroom, and safety, one brand per slot. The first apartment essentials and new apartment essentials that matter, what to buy first, and what to get secondhand.',
+    date: '2026-06-19',
+    readTime: '7 min read',
+    tags: ['brand guide', 'first apartment checklist', 'first apartment essentials', 'new apartment essentials', 'what to buy first apartment', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'The first apartment checklist that fits in your head: five zones, one brand per slot, and the five things to buy night one.',
+    content: `
+<p>Your first apartment is a list of everything you suddenly have to own at once, and the internet answers it with a 200-item spreadsheet that treats a spatula and a sofa as equally urgent. They are not. The trick is to buy by zone, one good brand per thing, and get the five items you need on night one before everything else. Here is the complete first apartment checklist &mdash; what to actually buy, by zone, with the buy-first picks so you can sleep, eat, and shower from day one. (Coming from a dorm? Much of your <a href="/diffr/blog/dorm-room-essentials-brand-guide">dorm gear</a> comes with you.)</p>
+
+<h2>Sleep</h2>
+<h3>Mattress &mdash; Zinus</h3>
+<p>The one thing to buy new and buy first. A boxed Zinus mattress ships to your door, costs a fraction of a showroom, and is genuinely comfortable &mdash; the budget default that gets you sleeping on night one.</p>
+<h3>Mattress Protector &mdash; SafeRest</h3>
+<p>Cheap insurance for an expensive thing. A SafeRest protector keeps spills and dust off your new mattress &mdash; buy it with the mattress, not after the first accident.</p>
+
+<h2>Kitchen (Enough to Actually Cook)</h2>
+<h3>Chef&rsquo;s Knife &mdash; Victorinox</h3>
+<p>One sharp chef&rsquo;s knife does ninety percent of kitchen work and replaces a whole block of bad ones. The Victorinox Fibrox is the value default every cook recommends &mdash; start here, skip the 15-piece set.</p>
+<h3>Cookware &mdash; Tramontina</h3>
+<p>You need one nonstick for eggs and one pot for everything else, not a 12-piece wall display. Tramontina is the value cookware default &mdash; performance far above its price. A small set covers a first kitchen.</p>
+<h3>Cutting Board &mdash; OXO</h3>
+<p>A dishwasher-safe board you will actually clean. OXO Good Grips is the no-nonsense default &mdash; get one, keep it by the knife.</p>
+<h3>Dishes &amp; Flatware &mdash; Corelle</h3>
+<p>Corelle dishes are nearly unbreakable, stack thin, and survive a move and a clumsy roommate. The starter dinnerware that does not chip the first month &mdash; add a basic flatware set and you can eat.</p>
+
+<h2>Cleaning</h2>
+<h3>Cordless Vacuum &mdash; Shark</h3>
+<p>Apartment floors need a vacuum that stores in a closet. Shark is the value default &mdash; the most capability per dollar before premium territory.</p>
+<h3>Cleaning Supplies &mdash; the ten-item kit</h3>
+<p>A first apartment needs about ten cleaning items &mdash; all-purpose spray, dish soap, microfiber, wipes, a mop, and more, one brand each. The full breakdown is in the <a href="/diffr/blog/apartment-cleaning-supplies-brand-guide">cleaning supplies list</a>.</p>
+
+<h2>Bathroom</h2>
+<h3>Shower Curtain + Liner &mdash; AmazerBath</h3>
+<p>A fabric curtain plus a separate waterproof liner is the setup that does not mildew or stick to you. AmazerBath is the cult liner &mdash; cheap, and heavy enough to stay put.</p>
+<h3>Towels &mdash; Utopia Towels</h3>
+<p>Buy a cheap, absorbent multipack and do not overthink it. Utopia is the bulk default &mdash; two bath towels, two hand towels, done.</p>
+<h3>Bath Mat &mdash; Gorilla Grip</h3>
+<p>A non-slip mat so you are not stepping onto cold tile or slipping on it. Gorilla Grip is the cult pick &mdash; soft, grippy, machine-washable.</p>
+
+<h2>Safety (The Adult Stuff Nobody Mentions)</h2>
+<h3>Surge-Protected Power Strip &mdash; Anker</h3>
+<p>Old apartment wiring plus all your electronics on two outlets is a real risk. An Anker surge protector is the cheap fix &mdash; one safe block for the desk and the TV.</p>
+<h3>Fire Extinguisher &mdash; First Alert</h3>
+<p>A small kitchen fire extinguisher is the thing you hope to never use and must own. First Alert is the home default &mdash; mount it near, not in, the kitchen.</p>
+<h3>First Aid Kit &mdash; First Aid Only</h3>
+<p>Bandages, basic meds, a thermometer. A First Aid Only kit is the under-$20 thing you will be very glad you bought at the wrong moment.</p>
+
+<h2>Furniture (Buy Slow, Buy Secondhand)</h2>
+<p>One rule: buy the <strong>mattress</strong> new and first; buy almost everything else slowly and used. A sofa, a table, a dresser, and shelving are exactly what Facebook Marketplace and thrift stores are full of, at a fraction of retail. Live in the empty space for a week, see what you actually need, and resist filling every corner on day one. The fastest way to overspend on a first apartment is buying all the furniture before you know how you use the place.</p>
+
+<h2>Buy First (Night One)</h2>
+<p>You cannot buy a whole apartment in a day, and you do not need to. Get these first &mdash; they cover sleeping, eating, and showering:</p>
+<ol>
+<li><strong>The mattress + protector</strong> &mdash; you have to sleep somewhere tonight.</li>
+<li><strong>The chef&rsquo;s knife, one pot, and dishes</strong> &mdash; enough to cook and eat one real meal.</li>
+<li><strong>The shower curtain + liner and towels</strong> &mdash; a usable bathroom.</li>
+<li><strong>The power strip and first aid kit</strong> &mdash; the safety basics.</li>
+</ol>
+<p>Everything else &mdash; the vacuum, the full cleaning kit, the furniture &mdash; you add over the first weeks as you see the place.</p>
+
+<h2>The Point</h2>
+<p>A first apartment is not a 200-item spreadsheet &mdash; it is a handful of zones, one good brand each, bought in the order you actually need them. That is the Diffr method: one good pick per slot, no repeats, so you set the place up once and skip the everything-at-once panic. <a href="/diffr/blog/apartment-cleaning-supplies-brand-guide">Cleaning supplies</a> have their own list; <a href="/diffr/blog/starter-kits">see every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Move in. Stop researching.</p>
+`.trim(),
+  },
+  {
     slug: 'dorm-room-essentials-brand-guide',
     title: 'Dorm Room Essentials: The Complete Checklist, One Brand Per Slot',
     description: 'The complete dorm room essentials checklist — sleep, shower, desk, laundry, and food, one brand per slot. What to buy first for move-in, and the dorm room must-haves you actually need (skip the 80-item lists).',

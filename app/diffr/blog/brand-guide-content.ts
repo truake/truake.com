@@ -15,6 +15,10 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'first-apartment-checklist-brand-guide':
+    'Bottom line: a first apartment is a handful of zones, one good brand each — buy by zone, and get five things night one. Sleep: a mattress (Zinus) + protector (SafeRest). Kitchen: a chef’s knife (Victorinox), a small cookware set (Tramontina), a cutting board (OXO), unbreakable dishes (Corelle). Cleaning: a cordless vacuum (Shark) + the ten-item cleaning kit. Bathroom: a curtain + liner (AmazerBath), towels (Utopia), a bath mat (Gorilla Grip). Safety: a surge power strip (Anker), a fire extinguisher (First Alert), a first aid kit. Furniture: buy the mattress new, everything else slowly and secondhand. Buy first: the mattress + protector, a knife + pot + dishes, a shower curtain + towels, and a power strip + first aid kit. Below is one brand per slot, no repeats.',
+  'housewarming-gift-ideas-brand-guide':
+    'Bottom line: a good housewarming gift is one they will actually use, not more clutter — so pick one great gift per vibe and per budget. Under $30: a nice candle (Nest) or good olive oil (Brightland). $30–75: luxe towels (Brooklinen), a wood cutting board (John Boos), bar tools (Viski), or a low-maintenance plant (The Sill). $75+: a Dutch oven (Le Creuset), an electric kettle (Fellow), or a cozy throw (Barefoot Dreams). If you only bring one thing, a candle plus a bottle of olive oil is the combination nobody is disappointed to receive. Below is one pick per slot, no repeats.',
   'college-packing-list-brand-guide':
     'Bottom line: a college packing list is really three short lists — buy before you go, bring from home, and coordinate with your roommate — not one 100-item haul. Buy before: a laptop (MacBook Air for most majors), noise-canceling headphones (Sony), a portable charger (Anker), a backup drive (Samsung), an Ethernet adapter (Cable Matters), laundry detergent (Tide), and Twin XL bedding. Bring from home: a week of clothes, your insurance card, photo ID, prescriptions, a first aid kit, a backpack (JanSport), and a rain shell (Columbia). Coordinate with your roommate: the mini fridge and microwave (one each per room). The dorm room itself has its own checklist. Below is one brand per slot, no repeats.',
   'dorm-room-essentials-brand-guide':
@@ -71,6 +75,44 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'first-apartment-checklist-brand-guide': [
+    {
+      q: 'What do you need for a first apartment?',
+      a: 'About fifteen things across five zones, one good brand each: sleep (a mattress and protector), kitchen (a chef’s knife, a small cookware set, a cutting board, unbreakable dishes), cleaning (a cordless vacuum and a ten-item cleaning kit), bathroom (a shower curtain and liner, towels, a bath mat), and safety (a surge power strip, a fire extinguisher, a first aid kit). Buy furniture slowly and mostly secondhand. Skip the 200-item checklists.',
+    },
+    {
+      q: 'What should I buy first for a new apartment?',
+      a: 'The five things that let you sleep, eat, and shower on night one: a mattress plus a protector, a chef’s knife with one pot and a set of dishes, a shower curtain with a liner and towels, and a surge power strip with a first aid kit. Add the vacuum, the full cleaning kit, and furniture over the following weeks once you see how you use the space.',
+    },
+    {
+      q: 'How much does it cost to furnish a first apartment?',
+      a: 'The essentials checklist (excluding furniture) runs roughly $400–700, with the mattress as the biggest line item; most individual items are under $30. Furniture is where budgets balloon — keep it down by buying the mattress new and sourcing the sofa, table, and storage secondhand from Facebook Marketplace or thrift stores, which can cut furniture costs by half or more.',
+    },
+    {
+      q: 'What should I buy new versus used for a first apartment?',
+      a: 'Buy the mattress new (and first) — it is the one item where used carries real downsides. Almost everything else, especially furniture like a sofa, table, dresser, and shelving, is ideal to buy secondhand; first apartments are exactly what Marketplace and thrift stores are full of. Kitchen and bathroom basics are cheap enough to buy new without overspending.',
+    },
+  ],
+
+  'housewarming-gift-ideas-brand-guide': [
+    {
+      q: 'What is a good housewarming gift?',
+      a: 'Something they will actually use, not decorative clutter. The safe crowd-pleasers are a nice candle (Nest) or good olive oil (Brightland). For more weight: luxe towels (Brooklinen), a wooden cutting board (John Boos), bar tools (Viski), or a low-maintenance plant (The Sill). For an impressive gift: a Le Creuset Dutch oven, a Fellow kettle, or a Barefoot Dreams throw. Pick by your budget and you cannot go wrong.',
+    },
+    {
+      q: 'How much should you spend on a housewarming gift?',
+      a: 'For most situations $20–40 is appropriate — a candle, good olive oil, or nice towels all land well in that range. For close friends or family, $75 and up buys something impressive and lasting like a Dutch oven or a cozy throw. The price matters far less than usefulness: a $25 gift they reach for daily beats a $100 one that sits in a closet.',
+    },
+    {
+      q: 'What should you not give as a housewarming gift?',
+      a: 'Skip anything that adds clutter without use — novelty décor, strongly-themed art, or anything that assumes their taste (specific colors, or scents they may dislike). Avoid highly personal or oversized items they did not ask for. When in doubt, choose a consumable (a candle, olive oil, a plant) or a quality everyday upgrade (towels, a cutting board) that fits any home.',
+    },
+    {
+      q: 'What is the best last-minute housewarming gift?',
+      a: 'A candle plus a bottle of good olive oil. Both are universally welcome, available almost anywhere, and need no guessing about taste or size — the combination nobody has ever been disappointed to receive. A healthy low-maintenance plant is another reliable grab.',
+    },
+  ],
+
   'college-packing-list-brand-guide': [
     {
       q: 'What should I pack for college?',
