@@ -12,6 +12,101 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'dorm-room-essentials-brand-guide',
+    title: 'Dorm Room Essentials: The Complete Checklist, One Brand Per Slot',
+    description: 'The complete dorm room essentials checklist — sleep, shower, desk, laundry, and food, one brand per slot. What to buy first for move-in, and the dorm room must-haves you actually need (skip the 80-item lists).',
+    date: '2026-06-19',
+    readTime: '7 min read',
+    tags: ['brand guide', 'dorm room essentials', 'dorm room must haves', 'dorm essentials checklist', 'college dorm checklist', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'The complete dorm checklist — every must-have, one brand per slot, and what to buy first. Move in sorted, skip the 80-item rabbit hole.',
+    content: `
+<p>Move-in is a deadline with a shopping list attached, and the internet&rsquo;s answer is an 80-item dorm haul that buries the things you actually need under a pile of things you don&rsquo;t &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in a shopping cart. You do not need 80 things. You need about eighteen, organized by zone, one good brand each. Here is the complete dorm room essentials checklist &mdash; what to buy, in five zones, with the four things to buy first so you can sleep and shower on night one.</p>
+
+<h2>Sleep</h2>
+<p>A dorm bed is a Twin XL &mdash; longer than a normal twin, so regular sheets do not fit. Get this zone right; you will spend a third of college here.</p>
+
+<h3>Twin XL Sheets &mdash; Mellanni</h3>
+<p>The Amazon bestseller for a reason: soft, cheap, and actually Twin XL. Buy two sets so one is always clean while the other is in the wash.</p>
+
+<h3>Mattress Topper &mdash; Lucid</h3>
+<p>Dorm mattresses are thin and have hosted strangers. A Lucid memory-foam topper is the single biggest upgrade to your sleep for the money &mdash; the item every upperclassman wishes they had bought freshman year.</p>
+
+<h3>Pillow &mdash; Beckham Hotel Collection</h3>
+<p>The cult Amazon pillow &mdash; hotel-style, plush, and a two-pack that costs less than one decent pillow elsewhere. One to sleep on, one to prop up against the cinderblock wall.</p>
+
+<h3>Comforter &mdash; Bedsure</h3>
+<p>The default dorm comforter: soft, washable, and in every neutral. Pick a color you can live with for a year and move on.</p>
+
+<h2>Shower</h2>
+<p>Most dorm bathrooms are shared and down the hall. This zone is about getting there and back without touching anything you shouldn&rsquo;t.</p>
+
+<h3>Shower Caddy &mdash; Attmu</h3>
+<p>A mesh caddy that drains and carries everything in one trip. Attmu is the dorm classic &mdash; quick-dry, hangs anywhere, holds the whole kit.</p>
+
+<h3>Shower Shoes &mdash; Adidas</h3>
+<p>You do not walk barefoot in a shared shower. A pair of Adidas slides is the no-brainer &mdash; rinse-clean, wear them to the bathroom and to the dining hall.</p>
+
+<h3>Towels &mdash; Utopia Towels</h3>
+<p>Buy a cheap, absorbent multipack and do not overthink it. Utopia is the bulk-towel default &mdash; get a couple of bath towels plus a hand towel and you are covered.</p>
+
+<h3>Toiletry Bag &mdash; BAGSMART</h3>
+<p>A hanging toiletry bag keeps your stuff off the communal counter and carries down the hall on a hook. BAGSMART is the organized, hard-wearing default.</p>
+
+<h2>Desk</h2>
+<p>This is where the actual work happens (eventually). Three things make the difference between a usable desk and a phone-in-bed semester.</p>
+
+<h3>Desk Lamp &mdash; TaoTronics</h3>
+<p>Overhead dorm lighting is grim. A TaoTronics LED lamp with adjustable brightness saves your eyes during late-night reading &mdash; the budget default that does everything a $90 lamp does.</p>
+
+<h3>Surge-Protected Power Strip &mdash; Anker</h3>
+<p>Dorms have two outlets and rules requiring surge protection. An Anker power strip with USB ports powers the laptop, phone, lamp, and everything else from one safe, compliant block. Non-negotiable.</p>
+
+<h3>Headphones &mdash; Sony</h3>
+<p>A roommate, thin walls, and a hallway mean you need to create quiet on demand. Sony&rsquo;s budget noise-canceling over-ears are the studying default &mdash; the difference between focusing and giving up.</p>
+
+<h2>Laundry &amp; Storage</h2>
+<p>Dorm rooms are small and you cannot drill the walls. Storage is about going up and under, not out.</p>
+
+<h3>Laundry Hamper &mdash; Simple Houseware</h3>
+<p>You are carrying laundry down the hall or across campus now. A Simple Houseware divided hamper sorts lights and darks and has straps to haul it &mdash; the unglamorous slot that saves you a sorting headache.</p>
+
+<h3>Under-Bed Storage Bins &mdash; Sterilite</h3>
+<p>Dorm beds raise; the space under them is half your storage. Sterilite bins are the default &mdash; cheap, stackable, and sized to slide under a lofted bed. Get two.</p>
+
+<h3>Wall Hooks &mdash; 3M Command</h3>
+<p>Nails are banned and your security deposit is real. 3M Command hooks and strips hang towels, keys, and string lights and peel off clean in May. The only correct answer for dorm walls.</p>
+
+<h2>Food &amp; Misc</h2>
+<p>The odds-and-ends zone &mdash; the things that make a cinderblock box livable. Coordinate the big one with your roommate first.</p>
+
+<h3>Mini Fridge &mdash; BLACK+DECKER</h3>
+<p>The dorm mini-fridge default &mdash; compact, quiet, and reliable. <strong>Text your roommate before you buy:</strong> you only need one between you, and two is a waste of the room&rsquo;s only spare corner.</p>
+
+<h3>Water Bottle &mdash; Owala</h3>
+<p>You will carry it everywhere, so get one you will actually use. Owala&rsquo;s FreeSip is the current campus default &mdash; spill-proof, big, and the one you will not lose interest in by October.</p>
+
+<h3>Fan &mdash; Honeywell</h3>
+<p>Most dorms are not air-conditioned, and August is brutal. A Honeywell fan is the cheap, quiet default that makes the first month survivable.</p>
+
+<h3>First Aid Kit &mdash; First Aid Only</h3>
+<p>The slot you ignore until 2 a.m. with a fever and no Advil. A small First Aid Only kit with bandages, basic meds, and a thermometer is the adult thing nobody tells you to pack.</p>
+
+<h2>Buy First (Night One)</h2>
+<p>You do not need all eighteen on day one. If you are moving in this week, buy these four first &mdash; they cover sleeping and showering, which is all that matters on night one:</p>
+<ol>
+<li><strong>Twin XL sheets + the mattress topper</strong> &mdash; a bed you can actually sleep in.</li>
+<li><strong>Shower caddy + shower shoes</strong> &mdash; so you can use the shared bathroom on day one.</li>
+<li><strong>The surge-protected power strip</strong> &mdash; you will not last an hour without it, and it is required.</li>
+<li><strong>The laundry hamper</strong> &mdash; because the pile starts immediately.</li>
+</ol>
+<p>Everything else &mdash; desk, storage, fridge, fan &mdash; you can add over the first week once you see the room.</p>
+
+<h2>The Point</h2>
+<p>A good dorm is not the longest packing list &mdash; it is the right eighteen things, one solid brand each, organized so you actually use them. That is the Diffr method: one good pick per slot, no repeats, so you pack once and skip the 80-item haul. <a href="/diffr/blog/apartment-cleaning-supplies-brand-guide">Cleaning supplies</a> and the rest of life come next; <a href="/diffr/blog/starter-kits">see every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Move in. Stop researching.</p>
+`.trim(),
+  },
+  {
     slug: 'diffr-is-live-on-the-app-store',
     title: 'Diffr Is Live on the App Store',
     description: 'Diffr is out — the brand-picker that hands you one good brand per slot is now a free iPhone app. Pick a hobby, a wardrobe, or a routine and get the whole kit decided, no research spiral.',

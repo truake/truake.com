@@ -15,6 +15,8 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'dorm-room-essentials-brand-guide':
+    'Bottom line: a dorm room needs about eighteen things, not eighty — in five zones, one good brand each. Sleep: Twin XL sheets (Mellanni), a mattress topper (Lucid), a pillow (Beckham), a comforter (Bedsure). Shower: a caddy (Attmu), shower shoes (Adidas), towels (Utopia), a toiletry bag (BAGSMART). Desk: a lamp (TaoTronics), a surge-protected power strip (Anker), headphones (Sony). Laundry/storage: a hamper (Simple Houseware), under-bed bins (Sterilite), Command hooks (3M). Food/misc: a mini fridge (BLACK+DECKER — coordinate with your roommate), a water bottle (Owala), a fan (Honeywell), a first aid kit. Buy first: Twin XL sheets + topper, shower caddy + shoes, the power strip, and a hamper. Below is one brand per slot, no repeats.',
   'cologne-for-beginners-brand-guide':
     'Bottom line: a beginner does not need a fragrance collection — just one versatile, easy-to-wear scent, maybe with a seasonal pick or two. The first fragrance wardrobe: an everyday versatile (Bleu de Chanel), a crowd-pleaser (Dior Sauvage), a date-night (Versace Eros), a summer fresh (Acqua di Gio), a winter warm (Spicebomb), and a budget starter (Nautica Voyage). Buy in this order: the everyday versatile first (the only one most people need), then the summer and winter picks, then the occasion scents. A single good scent worn consistently beats a shelf you rotate at random. Below is one pick per slot, no repeats.',
   'apartment-cleaning-supplies-brand-guide':
@@ -67,6 +69,25 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'dorm-room-essentials-brand-guide': [
+    {
+      q: 'What are the essential items for a dorm room?',
+      a: 'About eighteen, in five zones: sleep (Twin XL sheets, a mattress topper, a pillow, a comforter), shower (a caddy, shower shoes, towels, a toiletry bag), desk (a lamp, a surge-protected power strip, headphones), laundry and storage (a hamper, under-bed bins, Command hooks), and food and misc (a mini fridge, a water bottle, a fan, a first aid kit). Buy one good brand of each and skip the 80-item haul lists.',
+    },
+    {
+      q: 'What should I buy first for a dorm room?',
+      a: 'Buy the four things that get you through night one: Twin XL sheets plus a mattress topper (a bed you can sleep in), a shower caddy plus shower shoes (for the shared bathroom), a surge-protected power strip (required, and you will not last an hour without it), and a laundry hamper. Add the desk, storage, fridge, and fan over your first week once you have seen the room.',
+    },
+    {
+      q: 'What do dorms not allow, and what should I coordinate with my roommate?',
+      a: 'Most dorms ban nails and tape (use 3M Command hooks instead) and require surge-protected power strips rather than plain extension cords; many also restrict candles, halogen lamps, and high-wattage appliances — check your housing rules. Coordinate the big shared items with your roommate before buying: you only need one mini fridge and one microwave between you, not two.',
+    },
+    {
+      q: 'Do I need special sheets for a dorm bed?',
+      a: 'Yes — most dorm beds are Twin XL, which is longer than a standard twin, so regular twin sheets will not fit. Buy sheets labeled Twin XL (get two sets so one is always clean), plus a Twin-XL mattress topper, which is the single biggest sleep upgrade for the money on a thin dorm mattress.',
+    },
+  ],
+
   'cologne-for-beginners-brand-guide': [
     {
       q: 'What cologne should a beginner buy first?',
