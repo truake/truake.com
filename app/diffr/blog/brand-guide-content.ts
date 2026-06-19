@@ -15,6 +15,10 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'gym-bag-essentials-brand-guide':
+    'Bottom line: a gym bag works when it is a fixed loadout — one good version of each thing, packed once. The carry: a duffel (Under Armour), a water bottle (Hydro Flask), a shaker (BlenderBottle). Train: training shoes (Nike Metcon), wireless earbuds (Beats Fit Pro), lifting gloves (Harbinger). Clean up: a microfiber towel (Rainleaf), deodorant (Native). Don’t forget: a combination lock (Master Lock) and resistance bands (Fit Simplify). Pack first: the bag, water bottle, and shoes, then the earbuds and lock. Below is one brand per slot, no repeats.',
+  'new-home-essentials-brand-guide':
+    'Bottom line: the new-home layer beyond everyday household basics is short — safety gear, a real toolset, and a couple of smart pieces, one good brand each. Safety: smoke + CO detectors (First Alert), a fire extinguisher (Kidde). Tools: a household tool kit (Craftsman), a cordless drill (Ryobi), a step ladder (Werner), a hardware assortment (Hillman). Smart home: a video doorbell (Ring), a smart lock (Schlage). Buy first: test or replace the smoke/CO detectors and extinguisher, then the tool kit and drill. For everyday basics (kitchen, bath, cleaning) see the first apartment checklist. Below is one brand per slot, no repeats.',
   'road-trip-essentials-brand-guide':
     'Bottom line: a road trip kit is safety gear first, comfort second — one good item per job, not a stuffed trunk. Don’t-get-stranded: a roadside kit (Lifeline), a jump starter (NOCO), a tire inflator (AstroAI). Navigation and power: a phone mount (iOttie), a car charger (Anker), a dash cam (Nextbase). Comfort: a cooler (Coleman), a travel pillow (Cabeau), a windshield sunshade (EcoNour), a water bottle (Owala), and a car trash can (Drive Auto). Pack first: the jump starter, the tire inflator, and the roadside kit — the three that keep a small problem from stranding you. Below is one brand per slot, no repeats.',
   'newborn-must-haves-brand-guide':
@@ -79,6 +83,44 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'gym-bag-essentials-brand-guide': [
+    {
+      q: 'What should I keep in my gym bag?',
+      a: 'A fixed loadout: a duffel, a water bottle, a shaker bottle, training shoes, wireless earbuds, lifting gloves or straps, a microfiber towel, travel deodorant, a combination lock for the locker, and a set of resistance bands for warm-ups. One good version of each, packed once so you never hunt for earbuds at 6 a.m.',
+    },
+    {
+      q: 'What are gym bag essentials for a beginner?',
+      a: 'Start with the three you cannot train without — a bag, a water bottle, and flat training shoes — then add wireless earbuds and a lock so you can actually use the gym. A towel, deodorant, a shaker bottle, and resistance bands round it out. Skip specialized gear (belts, knee sleeves, chalk) until your training asks for it.',
+    },
+    {
+      q: 'What size gym bag do I need?',
+      a: 'A medium duffel (around 30–40 liters) fits a normal workout — shoes, a change of clothes, a towel, and accessories — without becoming luggage you resent carrying. Go larger only if you pack work or class clothes to change into; most people overbuy on size and end up with a half-empty bag.',
+    },
+    {
+      q: 'How do I keep my gym bag from smelling?',
+      a: 'Use a duffel with a vented or separate shoe and wet pocket, do not leave damp towels or clothes in it, and let it air out between sessions. A quick-dry microfiber towel helps because it does not stay wet, and keeping a travel deodorant in the bag means you never skip it.',
+    },
+  ],
+
+  'new-home-essentials-brand-guide': [
+    {
+      q: 'What are the essentials for a new home?',
+      a: 'A short homeowner layer on top of everyday household basics: smoke and CO detectors and a fire extinguisher (safety), a household tool kit, a cordless drill, a step ladder, and a hardware assortment (the toolset), plus a video doorbell and a smart lock (worthwhile smart-home pieces). One good brand each. For kitchen, bath, and cleaning basics, see a first-apartment checklist.',
+    },
+    {
+      q: 'What tools do I need as a new homeowner?',
+      a: 'Start with a household tool kit (hammer, screwdrivers, pliers, tape measure, wrenches), a cordless drill, a step ladder, and an assortment of screws, nails, and drywall anchors. That covers assembling furniture, hanging things, and the constant small fixes a house generates. Add specialized tools only when a specific project needs them.',
+    },
+    {
+      q: 'What should I do first when I move into a new house?',
+      a: 'Handle safety first: test or replace the smoke and carbon-monoxide detectors and put a fire extinguisher in the kitchen. Change or rekey the locks, locate your water shut-off and breaker panel, and set up the tool kit and drill — you will need them within hours. Cosmetic and smart-home upgrades can wait.',
+    },
+    {
+      q: 'What new home items are worth the money?',
+      a: 'The safety basics (detectors, an extinguisher) and a good cordless drill are the highest-value buys — used constantly, cheap relative to the house. A video doorbell and a smart lock earn their cost in convenience and security. Spend less on a huge tool collection up front; buy specialized tools as projects come up.',
+    },
+  ],
+
   'road-trip-essentials-brand-guide': [
     {
       q: 'What are the essentials for a road trip?',

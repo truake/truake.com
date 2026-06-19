@@ -429,6 +429,106 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'gym-bag-essentials-brand-guide',
+    title: 'Gym Bag Essentials: The Fixed Loadout, One Brand Per Slot',
+    description: 'The gym bag essentials that make a fixed loadout — bag, bottle, shoes, earbuds, and the clean-up kit, one brand per slot. What to pack first so the bag is never the reason you skip.',
+    date: '2026-06-19',
+    readTime: '5 min read',
+    tags: ['brand guide', 'gym bag essentials', 'gym bag must haves', 'whats in my gym bag', 'workout essentials', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'A gym bag works as a fixed loadout — one good version of each thing, packed once. The essentials, one brand per slot.',
+    content: `
+<p>A gym bag is a small space that still ends up a mess of damp towels and mystery chargers. The fix is a fixed loadout: one good version of each thing, packed once, so you grab the bag and go instead of hunting for earbuds at 6 a.m. Here are the gym bag essentials &mdash; one brand per slot, with the few to buy first.</p>
+
+<h2>The Carry</h2>
+<h3>Gym Bag &mdash; Under Armour</h3>
+<p>The Under Armour Undeniable duffel is the do-everything default &mdash; tough, water-resistant, with a vented pocket for shoes or sweaty kit. Buy the medium; it fits a workout without becoming luggage.</p>
+<h3>Water Bottle &mdash; Hydro Flask</h3>
+<p>Cold water through a long session, and it survives being dropped on a rack. Hydro Flask is the gym default &mdash; one good bottle you will not replace.</p>
+<h3>Shaker Bottle &mdash; BlenderBottle</h3>
+<p>For protein or pre-workout, a BlenderBottle is the no-clumps default &mdash; the one with the wire whisk ball, and the only one that does not leak in the bag.</p>
+
+<h2>Train</h2>
+<h3>Training Shoes &mdash; Nike Metcon</h3>
+<p>A flat, stable cross-trainer beats running shoes for lifting. The Nike Metcon is the do-it-all default &mdash; solid for weights, fine for everything short of a long run.</p>
+<h3>Earbuds &mdash; Beats Fit Pro</h3>
+<p>Wireless earbuds that stay in through burpees. The Beats Fit Pro is the workout default &mdash; secure fit, sweat-resistant, no cord to catch on a bar.</p>
+<h3>Lifting Gloves &mdash; Harbinger</h3>
+<p>For grip and to save your hands from the bar. Harbinger is the beginner-friendly default &mdash; or swap for wrist straps once you are lifting heavier.</p>
+
+<h2>Clean Up</h2>
+<h3>Microfiber Towel &mdash; Rainleaf</h3>
+<p>One for sweat, one for the shower. A Rainleaf microfiber towel packs to nothing and dries fast &mdash; the gym towel that does not stay damp in the bag.</p>
+<h3>Deodorant &mdash; Native</h3>
+<p>A travel deodorant lives in the bag so you never forget it. Native is the cult default &mdash; effective, and it does not smell like a locker room.</p>
+
+<h2>Don&rsquo;t Forget</h2>
+<h3>Combination Lock &mdash; Master Lock</h3>
+<p>Most gym lockers need your own lock. A Master Lock combination padlock is the default &mdash; no key to lose mid-workout.</p>
+<h3>Resistance Bands &mdash; Fit Simplify</h3>
+<p>For warm-ups, mobility, and hotel workouts. A set of Fit Simplify loop bands is the cheap, packable default that earns its small space.</p>
+
+<h2>Pack First</h2>
+<p>Build the bag around the three you cannot train without:</p>
+<ol>
+<li><strong>The bag, water bottle, and training shoes</strong> &mdash; the carry-and-wear core.</li>
+<li><strong>The earbuds and the lock</strong> &mdash; so you can actually use the gym.</li>
+<li><strong>Towel, deodorant, shaker, and bands</strong> &mdash; the round-it-out kit.</li>
+</ol>
+<p>Pack it once and leave it packed; a gym bag works when you stop unpacking it.</p>
+
+<h2>The Point</h2>
+<p>A good gym bag is not the biggest one &mdash; it is a fixed loadout, one good brand per slot, packed and ready so the bag is never the reason you skip. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/home-gym-brand-guide">Building a home gym?</a> <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Go train. Stop researching.</p>
+`.trim(),
+  },
+  {
+    slug: 'new-home-essentials-brand-guide',
+    title: 'New Home Essentials: The Homeowner Starter Kit, One Brand Per Slot',
+    description: 'The new home essentials beyond the everyday basics — safety gear, a real toolset, and the smart-home pieces worth it, one brand per slot. What to handle first the week you move into a new house.',
+    date: '2026-06-19',
+    readTime: '5 min read',
+    tags: ['brand guide', 'new home essentials', 'new homeowner checklist', 'first time homeowner', 'new house must haves', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'The homeowner layer on top of the household basics: safety, a real toolset, and two smart pieces. One brand per slot.',
+    content: `
+<p>A first house comes with a job an apartment never did: you are the maintenance department now. The good news is the new-home starter kit is short &mdash; a little safety gear, a basic toolset, and a couple of smart-home pieces &mdash; one good brand each. Here are the new home essentials beyond the everyday household basics (for those, see the <a href="/diffr/blog/first-apartment-checklist-brand-guide">first apartment checklist</a>); this is the homeowner layer on top.</p>
+
+<h2>Safety First</h2>
+<h3>Smoke + CO Detectors &mdash; First Alert</h3>
+<p>The first thing to check and replace in any new home. First Alert combination smoke and carbon-monoxide alarms are the default &mdash; one per floor and outside bedrooms, and test them the day you move in.</p>
+<h3>Fire Extinguisher &mdash; Kidde</h3>
+<p>One for the kitchen and ideally one per floor. A Kidde home extinguisher is the standard &mdash; mount it near, not in, the kitchen, where a fire is most likely.</p>
+
+<h2>The Toolset</h2>
+<h3>Tool Kit &mdash; Craftsman</h3>
+<p>A new home needs a real toolbox, not a single screwdriver in a drawer. A Craftsman household tool set covers the hammer, screwdrivers, pliers, tape measure, and wrenches you will reach for weekly &mdash; the one-and-done default.</p>
+<h3>Cordless Drill &mdash; Ryobi</h3>
+<p>The tool that does the most around a house &mdash; shelves, furniture, mounting a TV. Ryobi&rsquo;s One+ system is the homeowner-budget default &mdash; one battery platform you can expand later.</p>
+<h3>Step Ladder &mdash; Werner</h3>
+<p>Light bulbs, smoke alarms, paint, gutters. A Werner step ladder is the sturdy default &mdash; buy one tall enough for your ceilings and stop standing on chairs.</p>
+<h3>Hardware Assortment &mdash; Hillman</h3>
+<p>Nothing kills a project like the wrong screw at 8 p.m. A Hillman assortment of screws, nails, and drywall anchors is the default kit that saves a hardware-store run for every small job.</p>
+
+<h2>Smart Home (Worth It)</h2>
+<h3>Video Doorbell &mdash; Ring</h3>
+<p>See who is at the door and watch for packages. Ring is the default ecosystem &mdash; easy to install, and the one most people and neighbors already use.</p>
+<h3>Smart Lock &mdash; Schlage</h3>
+<p>Keyless entry and codes you can give a guest or dog-sitter without copying a key. The Schlage Encode is the secure, well-rated default that runs on its own Wi-Fi.</p>
+
+<h2>Buy First (Move-In Week)</h2>
+<p>Before anything cosmetic, handle safety and the basics:</p>
+<ol>
+<li><strong>Smoke + CO detectors and a fire extinguisher</strong> &mdash; test or replace them the first day.</li>
+<li><strong>The tool kit and cordless drill</strong> &mdash; you will need them within hours of moving in.</li>
+<li><strong>The step ladder and hardware assortment</strong> &mdash; for the first round of hanging and fixing.</li>
+</ol>
+<p>The smart-home pieces and everything decorative can wait until you have lived in the place a little.</p>
+
+<h2>The Point</h2>
+<p>A new home does not need a garage full of tools on day one &mdash; it needs the safety basics, a real toolset, and a couple of smart pieces, one good brand each. That is the Diffr method: one good pick per slot, no repeats. For the everyday household basics, start with the <a href="/diffr/blog/first-apartment-checklist-brand-guide">first apartment checklist</a>; <a href="/diffr/blog/starter-kits">see every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Settle in. Stop researching.</p>
+`.trim(),
+  },
+  {
     slug: 'diffr-is-live-on-the-app-store',
     title: 'Diffr Is Live on the App Store',
     description: 'Diffr is out — the brand-picker that hands you one good brand per slot is now a free iPhone app. Pick a hobby, a wardrobe, or a routine and get the whole kit decided, no research spiral.',
