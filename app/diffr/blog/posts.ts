@@ -310,6 +310,125 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'newborn-must-haves-brand-guide',
+    title: 'Newborn Must Haves: The Real Checklist, One Brand Per Slot',
+    description: 'The newborn must-haves that actually earn their place — sleep, feeding, diapering, car seat, and health, one brand per slot. What to buy first before the hospital, and the registry gadgets to skip.',
+    date: '2026-06-19',
+    readTime: '7 min read',
+    tags: ['brand guide', 'newborn must haves', 'newborn essentials', 'baby registry essentials', 'new baby checklist', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'A newborn needs about fifteen things, not 300. The real must-haves, one brand per slot, and what to buy before the hospital.',
+    content: `
+<p>Newborn shopping is where well-meaning lists go to spiral: a 300-item registry, half of it gadgets your baby will never use, and the genuinely essential dozen buried in the middle. A newborn needs surprisingly little &mdash; somewhere safe to sleep, a way to feed, a system for diapers, and a car seat to get home &mdash; one good brand each. Here are the newborn must-haves that actually earn their place, with a safety note first: for sleep and car-seat use, follow current AAP safe-sleep guidance and the seat&rsquo;s installation instructions &mdash; the brand is the easy part.</p>
+
+<h2>Sleep</h2>
+<h3>Bassinet &mdash; Halo</h3>
+<p>A bedside bassinet keeps the baby close for night feeds without bed-sharing. The Halo BassiNest is the cult default &mdash; it swivels over the bed and lowers the side, the small things that matter at 3 a.m.</p>
+<h3>Swaddles &mdash; Aden + Anais</h3>
+<p>Newborns sleep better wrapped. Aden + Anais muslin swaddles are the do-everything default &mdash; breathable, big enough to actually wrap, and they double as burp cloths, sunshades, and nursing covers.</p>
+<h3>Sound Machine &mdash; Hatch</h3>
+<p>White noise recreates the womb and buys you sleep. The Hatch Rest is the default &mdash; sound, a dim night light, and an app to run it without opening the door.</p>
+
+<h2>Feeding</h2>
+<h3>Bottles &mdash; Dr. Brown&rsquo;s</h3>
+<p>Whether you breastfeed or formula-feed, you will want bottles. Dr. Brown&rsquo;s vented bottles are the colic-reducing default pediatricians recommend &mdash; start with a few, not a cabinet.</p>
+<h3>Nursing Pillow &mdash; Boppy</h3>
+<p>If you are nursing, a support pillow saves your back and arms through endless feeds. The Boppy is the recognized default &mdash; and it earns its keep later for propping and tummy time.</p>
+<h3>Burp Cloths &mdash; Gerber</h3>
+<p>You will need more than you think. Gerber prefold cloth diapers are the cult burp-cloth hack &mdash; absorbent, cheap by the dozen, indestructible in the wash.</p>
+
+<h2>Diapering</h2>
+<h3>Diapers &mdash; Pampers</h3>
+<p>Pampers Swaddlers are the newborn default &mdash; soft, with the wetness line that tells you when to change. Buy one pack of newborn size; babies outgrow it fast, so do not stockpile.</p>
+<h3>Wipes &mdash; WaterWipes</h3>
+<p>For brand-new skin, the fewer ingredients the better. WaterWipes are the sensitive-skin default &mdash; essentially water, no fragrance.</p>
+<h3>Diaper Cream &mdash; Aquaphor</h3>
+<p>The do-everything ointment for diaper rash and dry newborn skin. Aquaphor is the default tube every nursery has.</p>
+<h3>Changing Pad &mdash; Keekaroo</h3>
+<p>A wipeable changing pad beats fabric covers you have to launder constantly. The Keekaroo Peanut is the cult pick &mdash; soft, seamless, wipes clean in a second.</p>
+
+<h2>Getting Around</h2>
+<h3>Car Seat &mdash; Chicco</h3>
+<p>You cannot legally leave the hospital without one. The Chicco KeyFit 35 is the safety-and-ease default &mdash; consistently top-rated and easy to install correctly, which is the part that actually matters. Get the install checked by a certified technician.</p>
+<h3>Carrier &mdash; Ergobaby</h3>
+<p>A carrier frees your hands and soothes a fussy newborn. The Ergobaby Omni is the grows-with-baby default &mdash; newborn-ready without a separate insert.</p>
+
+<h2>Health &amp; Soothing</h2>
+<h3>Pacifiers &mdash; Philips Avent Soothie</h3>
+<p>The hospital default, and most babies who take a pacifier take this one. Cheap, single-piece, easy to sterilize. Buy a couple; they vanish.</p>
+<h3>Grooming &amp; Health Kit &mdash; Frida Baby</h3>
+<p>The new-parent rite of passage. The Frida Baby kit &mdash; the NoseFrida, nail file, thermometer, and the rest &mdash; is the cult default for the small jobs nobody warns you about.</p>
+
+<h2>Buy First (Before the Hospital)</h2>
+<p>You do not need the whole registry on day one. Get these before the baby comes:</p>
+<ol>
+<li><strong>The car seat</strong> &mdash; installed and checked; you cannot go home without it.</li>
+<li><strong>The bassinet + swaddles</strong> &mdash; a safe place to sleep, night one.</li>
+<li><strong>Diapers, wipes, and cream</strong> &mdash; a newborn goes through ten-plus diapers a day.</li>
+<li><strong>A few bottles</strong>, and the nursing pillow if you are nursing.</li>
+</ol>
+<p>The carrier, sound machine, and grooming kit you can add in the first week. Strollers, high chairs, and toys are months away &mdash; do not buy them now.</p>
+
+<h2>The Point</h2>
+<p>A newborn does not need 300 things &mdash; it needs a safe sleep space, a way to feed, a diaper system, and a car seat, one good brand each. That is the Diffr method: one good pick per slot, no repeats, so you skip the registry rabbit hole and the gadgets that gather dust. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Bring them home. Stop researching.</p>
+`.trim(),
+  },
+  {
+    slug: 'road-trip-essentials-brand-guide',
+    title: 'Road Trip Essentials: The Complete Checklist, One Brand Per Slot',
+    description: 'The road trip essentials checklist — safety gear, navigation, power, and comfort, one brand per slot. What to pack first so a flat or a dead battery never strands you, without a stuffed trunk.',
+    date: '2026-06-19',
+    readTime: '6 min read',
+    tags: ['brand guide', 'road trip essentials', 'road trip checklist', 'car trip must haves', 'road trip packing list', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'A road trip kit is safety first, comfort second — one good item per job. Pack the three that keep you from getting stranded.',
+    content: `
+<p>A road trip goes wrong in one of two ways: you forget the thing that keeps you safe (a dead battery, a flat, no way to call for help), or you drown the trunk in stuff you never open. The fix is the same as always &mdash; one good item per job, the safety gear first, the comfort gear second. Here is the road trip essentials checklist: what to actually pack, one brand per slot, so you can leave without the pre-trip panic-shop.</p>
+
+<h2>Don&rsquo;t Get Stranded</h2>
+<h3>Roadside Emergency Kit &mdash; Lifeline</h3>
+<p>Jumper cables, a reflective triangle, a flashlight, basic tools, and a first aid kit in one bag. The Lifeline AAA kit is the grab-and-go default &mdash; the box you hope never to open and are very glad to have.</p>
+<h3>Jump Starter &mdash; NOCO</h3>
+<p>A dead battery in an empty lot is the classic road-trip nightmare. A NOCO Boost is a pocket-size lithium jump starter that fixes it yourself in minutes &mdash; and it charges your phone. The single best thing to add to a car.</p>
+<h3>Tire Inflator &mdash; AstroAI</h3>
+<p>A slow leak does not have to end the trip. An AstroAI portable inflator plugs into the 12V socket and tops up a low tire on the shoulder &mdash; cheap insurance against a far worse afternoon.</p>
+
+<h2>Navigation &amp; Power</h2>
+<h3>Phone Mount &mdash; iOttie</h3>
+<p>Your phone is your map; it belongs at eye level, not in your lap. The iOttie is the default car mount &mdash; sturdy, one-hand, and it does not fall off the vent on the first bump.</p>
+<h3>Car Charger &mdash; Anker</h3>
+<p>Navigation drains a battery fast. A multi-port Anker car charger keeps every phone in the car alive &mdash; the cheap part that prevents the dead-phone-no-map disaster.</p>
+<h3>Dash Cam &mdash; Nextbase</h3>
+<p>For long highway miles, a dash cam is quiet peace of mind &mdash; evidence if something happens, a deterrent if it does not. Nextbase is the recognized default that installs in minutes.</p>
+
+<h2>Comfort &amp; Sustenance</h2>
+<h3>Cooler &mdash; Coleman</h3>
+<p>Gas-station food adds up and gets old fast. A Coleman cooler keeps drinks and real food cold for the day &mdash; the road-trip default that pays for itself by lunch.</p>
+<h3>Travel Pillow &mdash; Cabeau</h3>
+<p>For the passenger and the rest stops. The Cabeau Evolution is the cult neck pillow &mdash; actual support instead of the inflatable kind that does nothing.</p>
+<h3>Windshield Sunshade &mdash; EcoNour</h3>
+<p>Park in August sun without one and the wheel is untouchable. An EcoNour shade keeps the car livable &mdash; the cheap thing you regret not having at every rest stop.</p>
+<h3>Water Bottle &mdash; Owala</h3>
+<p>Staying hydrated on a long drive keeps you alert. An Owala FreeSip is spill-proof for the cupholder and big enough to skip constant refills.</p>
+
+<h2>Keep It Clean</h2>
+<h3>Car Trash Can &mdash; Drive Auto</h3>
+<p>A road trip generates wrappers fast. A Drive Auto leakproof car trash can keeps the footwell from becoming a landfill &mdash; the cult pick that hangs off the console.</p>
+
+<h2>Pack First (The Safety Three)</h2>
+<p>If you do nothing else, pack the three that keep a small problem from stranding you:</p>
+<ol>
+<li><strong>The jump starter</strong> &mdash; a dead battery is the most common roadside failure, and this fixes it alone.</li>
+<li><strong>The tire inflator</strong> &mdash; for the slow leak that would otherwise end the day.</li>
+<li><strong>The roadside kit</strong> &mdash; cables, a triangle, a light, and first aid in one bag.</li>
+</ol>
+<p>Add the phone mount and charger so you never lose the map, then the cooler and comfort gear. Everything else is optional.</p>
+
+<h2>The Point</h2>
+<p>A good road trip kit is not the fullest trunk &mdash; it is the safety gear that keeps a flat or a dead battery from becoming a tow truck, plus a few comforts, one good brand each. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Hit the road. Stop researching.</p>
+`.trim(),
+  },
+  {
     slug: 'diffr-is-live-on-the-app-store',
     title: 'Diffr Is Live on the App Store',
     description: 'Diffr is out — the brand-picker that hands you one good brand per slot is now a free iPhone app. Pick a hobby, a wardrobe, or a routine and get the whole kit decided, no research spiral.',

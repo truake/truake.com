@@ -15,6 +15,10 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'road-trip-essentials-brand-guide':
+    'Bottom line: a road trip kit is safety gear first, comfort second — one good item per job, not a stuffed trunk. Don’t-get-stranded: a roadside kit (Lifeline), a jump starter (NOCO), a tire inflator (AstroAI). Navigation and power: a phone mount (iOttie), a car charger (Anker), a dash cam (Nextbase). Comfort: a cooler (Coleman), a travel pillow (Cabeau), a windshield sunshade (EcoNour), a water bottle (Owala), and a car trash can (Drive Auto). Pack first: the jump starter, the tire inflator, and the roadside kit — the three that keep a small problem from stranding you. Below is one brand per slot, no repeats.',
+  'newborn-must-haves-brand-guide':
+    'Bottom line: a newborn needs surprisingly little — a safe place to sleep, a way to feed, a diaper system, and a car seat — one good brand each, not a 300-item registry. Sleep: a bassinet (Halo), swaddles (Aden + Anais), a sound machine (Hatch). Feeding: bottles (Dr. Brown’s), a nursing pillow (Boppy), burp cloths (Gerber). Diapering: diapers (Pampers), wipes (WaterWipes), cream (Aquaphor), a changing pad (Keekaroo). Getting around: a car seat (Chicco), a carrier (Ergobaby). Health: pacifiers (Philips Avent Soothie), a grooming kit (Frida Baby). Buy first: the car seat, bassinet + swaddles, diapers/wipes/cream, and a few bottles. Follow current safe-sleep and car-seat-install guidance. Below is one brand per slot, no repeats.',
   'first-apartment-checklist-brand-guide':
     'Bottom line: a first apartment is a handful of zones, one good brand each — buy by zone, and get five things night one. Sleep: a mattress (Zinus) + protector (SafeRest). Kitchen: a chef’s knife (Victorinox), a small cookware set (Tramontina), a cutting board (OXO), unbreakable dishes (Corelle). Cleaning: a cordless vacuum (Shark) + the ten-item cleaning kit. Bathroom: a curtain + liner (AmazerBath), towels (Utopia), a bath mat (Gorilla Grip). Safety: a surge power strip (Anker), a fire extinguisher (First Alert), a first aid kit. Furniture: buy the mattress new, everything else slowly and secondhand. Buy first: the mattress + protector, a knife + pot + dishes, a shower curtain + towels, and a power strip + first aid kit. Below is one brand per slot, no repeats.',
   'housewarming-gift-ideas-brand-guide':
@@ -75,6 +79,44 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'road-trip-essentials-brand-guide': [
+    {
+      q: 'What are the essentials for a road trip?',
+      a: 'About eleven things, safety first: a roadside emergency kit, a portable jump starter, and a tire inflator (the don’t-get-stranded trio), then a phone mount, a car charger, and a dash cam, plus comfort gear — a cooler, a travel pillow, a windshield sunshade, a water bottle, and a car trash can. One good brand each; skip the rest.',
+    },
+    {
+      q: 'What should I pack first for a road trip?',
+      a: 'The three that keep a small problem from stranding you: a portable jump starter (a dead battery is the most common roadside failure), a tire inflator (for a slow leak), and a roadside kit with cables, a triangle, a light, and first aid. Then a phone mount and car charger so you never lose the map.',
+    },
+    {
+      q: 'What do I need in my car for an emergency?',
+      a: 'At minimum a jump starter, a tire inflator, and a roadside kit (jumper cables, a reflective triangle, a flashlight, and a first aid kit). Add water, a phone charger, and a blanket. These cover the common failures — a dead battery, a flat, and being stuck — without a trunk full of gear.',
+    },
+    {
+      q: 'What are the most forgotten road trip items?',
+      a: 'A windshield sunshade, a tire inflator, a car trash can, and enough phone-charging for everyone in the car. People remember the snacks and the playlist and forget the cheap items that prevent a miserable afternoon — the inflator for a slow leak and the sunshade for a baking parking lot.',
+    },
+  ],
+
+  'newborn-must-haves-brand-guide': [
+    {
+      q: 'What does a newborn actually need?',
+      a: 'Far less than the registry suggests: a safe sleep space (a bassinet and swaddles), a feeding setup (bottles, and a nursing pillow if breastfeeding), a diaper system (diapers, wipes, cream, a changing pad), a car seat, and a few health basics (pacifiers, a grooming kit). About fifteen items, one good brand each. Strollers, high chairs, and most gadgets can wait months.',
+    },
+    {
+      q: 'What should I buy first for a newborn?',
+      a: 'The car seat first — it must be installed and checked before you can leave the hospital. Then a safe sleep space (a bassinet and swaddles), a generous supply of diapers, wipes, and cream, and a few bottles. The carrier, sound machine, and grooming kit can come in the first week; everything else is months away.',
+    },
+    {
+      q: 'What newborn products are a waste of money?',
+      a: 'Most single-use gadgets and anything sized for an older baby: wipe warmers, special newborn outfits they outgrow in weeks, bottle-sterilizer machines (a pot of water works), shoes, and most toys. Do not stockpile newborn-size diapers or clothes — babies grow out of that size fast. Buy the essentials, then add only what you find you actually reach for.',
+    },
+    {
+      q: 'How many diapers and bottles do I need to start?',
+      a: 'Newborns go through roughly 10–12 diapers a day, so one or two packs of newborn size to start (not a stockpile — they outgrow the size quickly), plus plenty of wipes. For bottles, start with three or four; buy more once you know your baby takes to them. Buy small, reorder fast.',
+    },
+  ],
+
   'first-apartment-checklist-brand-guide': [
     {
       q: 'What do you need for a first apartment?',
