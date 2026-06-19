@@ -639,6 +639,121 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'pantry-staples-list-brand-guide',
+    title: 'Pantry Staples List: What to Always Have, One Brand Per Slot',
+    description: 'The pantry staples list that actually becomes meals — oils, grains, canned goods, and seasonings, one brand per slot. What to stock first so a real dinner is always a few cabinet items away.',
+    date: '2026-06-19',
+    readTime: '6 min read',
+    tags: ['brand guide', 'pantry staples list', 'pantry essentials', 'pantry staples', 'kitchen staples', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Two dozen real staples, one brand per slot, so a dinner is always a few cabinet items away. Skip the 80-item list.',
+    content: `
+<p>A stocked pantry is the difference between cooking dinner and ordering it. But pantry-staples lists balloon into 80 items you never use, burying the two dozen that actually become meals. Here is the pantry staples list that matters &mdash; the foundation ingredients to always have, one good brand per slot, so a real dinner is always a few cabinet items away.</p>
+
+<h2>Oils &amp; Acids</h2>
+<h3>Olive Oil &mdash; California Olive Ranch</h3>
+<p>Your everyday cooking and finishing oil. California Olive Ranch is the value-quality default &mdash; real, fresh olive oil at a price that lets you actually use it.</p>
+<h3>Neutral Oil &mdash; Chosen Foods</h3>
+<p>For high-heat cooking where olive oil burns. Chosen Foods avocado oil is the clean, high-smoke-point default for searing and frying.</p>
+<h3>Vinegar &mdash; Bragg</h3>
+<p>Acid brightens everything. A bottle of Bragg apple cider vinegar plus a basic balsamic covers dressings, marinades, and the splash that fixes a flat dish.</p>
+
+<h2>Grains &amp; Starches</h2>
+<h3>Rice &mdash; Nishiki</h3>
+<p>The everyday rice that goes with everything. Nishiki is the reliable medium-grain default &mdash; fluffy, forgiving, a base for a hundred dinners.</p>
+<h3>Pasta &mdash; De Cecco</h3>
+<p>Keep two or three shapes on hand and dinner is fifteen minutes away. De Cecco is the value-quality default &mdash; a bronze-cut texture that holds sauce for barely more than the cheap stuff.</p>
+<h3>Flour &mdash; King Arthur</h3>
+<p>For baking, dredging, and thickening. King Arthur all-purpose is the consistent, trusted default &mdash; the one bag that does everything.</p>
+
+<h2>Canned &amp; Jarred</h2>
+<h3>Canned Tomatoes &mdash; Cento</h3>
+<p>The backbone of sauces, soups, and braises. Cento San Marzano-style tomatoes are the cult default &mdash; sweet, low-acid, the base of a great quick sauce.</p>
+<h3>Stock &mdash; Better Than Bouillon</h3>
+<p>A jar of concentrate beats cartons of broth on flavor, price, and shelf space. Better Than Bouillon is the default &mdash; a spoonful turns water into the base of any soup, risotto, or braise.</p>
+<h3>Beans &amp; Tuna &mdash; Goya + Wild Planet</h3>
+<p>The instant-protein staples. Goya canned beans and Wild Planet tuna are pantry workhorses &mdash; a meal&rsquo;s worth of protein from the shelf, any night.</p>
+
+<h2>Flavor Builders</h2>
+<h3>Soy Sauce &mdash; Kikkoman</h3>
+<p>Salt plus umami in one bottle &mdash; it seasons far beyond Asian food. Kikkoman is the default that belongs in every kitchen.</p>
+<h3>Hot Sauce &mdash; Cholula</h3>
+<p>The everyday bottle that wakes up eggs, tacos, and leftovers. Cholula is the versatile default &mdash; flavor first, not just heat.</p>
+<h3>Mustard &amp; Peanut Butter &mdash; Maille + Jif</h3>
+<p>A jar of Maille Dijon (for dressings, sauces, and sandwiches) and a jar of Jif peanut butter (for snacks, sauces, and baking) cover a surprising amount of ground.</p>
+
+<h2>Seasoning</h2>
+<h3>Salt &mdash; Diamond Crystal</h3>
+<p>The one upgrade every cook makes. Diamond Crystal kosher salt is the chef default &mdash; easy to pinch and control, so you season well instead of guessing.</p>
+<h3>Spice Starter &mdash; Spicewalla</h3>
+<p>Old supermarket spices are flavorless dust. A small Spicewalla set &mdash; pepper, cumin, paprika, chili, garlic powder, oregano &mdash; is the fresh, quality default to build from.</p>
+
+<h2>Buy First</h2>
+<p>You do not need the whole shelf to cook. Start with the base that seasons and cooks anything:</p>
+<ol>
+<li><strong>Salt, olive oil, and a neutral oil</strong> &mdash; you cannot cook well without these three.</li>
+<li><strong>Canned tomatoes, stock, pasta, and rice</strong> &mdash; the bones of a dozen quick dinners.</li>
+<li><strong>Soy sauce, vinegar, mustard, and the spice set</strong> &mdash; the flavor that makes it taste like something.</li>
+</ol>
+
+<h2>The Point</h2>
+<p>A good pantry is not the fullest one &mdash; it is two dozen real staples, one solid brand each, that combine into actual meals. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/steak-dinner-brand-guide">For the gear to cook it with,</a> or <a href="/diffr/blog/starter-kits">see every Diffr starter kit &rarr;</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Stock the shelf. Stop researching.</p>
+`.trim(),
+  },
+  {
+    slug: 'toddler-essentials-brand-guide',
+    title: 'Toddler Essentials: The Real Checklist, One Brand Per Slot',
+    description: 'The toddler essentials that actually earn their place — feeding, safety, getting around, and play, one brand per slot. What to buy first for the one-to-three years, without the gadget playroom.',
+    date: '2026-06-19',
+    readTime: '5 min read',
+    tags: ['brand guide', 'toddler essentials', 'toddler must haves', 'toddler gear', 'one year old essentials', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'A toddler needs a feeding setup, a safe space, and a few durable things — one brand per slot. The real checklist.',
+    content: `
+<p>A toddler does not need a playroom of gear &mdash; they need a way to eat independently, a safe space, and a few things that survive being thrown. The toddler-product internet sells hundreds of single-use gadgets; the real list is short. Here are the toddler essentials that actually earn their place, one brand per slot, with a safety note: babyproof to your own home, and follow current car-seat guidance for your child&rsquo;s size.</p>
+
+<h2>Feeding (The Independence Years)</h2>
+<h3>Plates &amp; Bowls &mdash; ezpz</h3>
+<p>A plate that suctions to the table is the single best anti-mess tool of the toddler years. ezpz mats are the cult default &mdash; they do not flip, and they go in the dishwasher.</p>
+<h3>Cup &mdash; Munchkin</h3>
+<p>A spill-proof straw or 360 cup saves your floors. The Munchkin Miracle 360 is the leak-proof default &mdash; the one daycare recommends.</p>
+<h3>Utensils &mdash; NumNum</h3>
+<p>First utensils that actually pick up food. NumNum GOOtensils are the self-feeding default &mdash; designed for fists that have not learned a grip yet.</p>
+<h3>High Chair &mdash; IKEA Antilop</h3>
+<p>The cult cheap high chair for a reason: sturdy, wipes clean in seconds, a fraction of the designer ones. The IKEA Antilop is the default parents quietly all own.</p>
+
+<h2>Getting Around</h2>
+<h3>Convertible Car Seat &mdash; Graco</h3>
+<p>Once they outgrow the infant seat, a convertible grows with them for years. The Graco is the safety-and-value default &mdash; confirm the install with a certified technician.</p>
+<h3>Travel Bag &mdash; Skip Hop</h3>
+<p>A backpack-style bag that holds snacks, a change of clothes, and the chaos of a day out. Skip Hop is the organized default &mdash; the one that does not become a black hole.</p>
+
+<h2>Safe &amp; Sound</h2>
+<h3>Babyproofing Kit &mdash; Safety 1st</h3>
+<p>Outlet covers, cabinet locks, and corner guards in one go. Safety 1st is the default kit &mdash; do the outlets, the cleaning-supply cabinet, and any sharp corners first.</p>
+<h3>Sound Machine &mdash; Hatch</h3>
+<p>White noise and a gentle ok-to-wake light help a toddler stay in bed. The Hatch Rest is the default &mdash; the light that tells them when morning is.</p>
+
+<h2>Wear &amp; Play</h2>
+<h3>First Shoes &mdash; Stride Rite</h3>
+<p>New walkers need flexible, properly-fitted shoes, not stiff miniatures of adult ones. Stride Rite is the first-walker default &mdash; built for feet still learning.</p>
+<h3>Toys &amp; Puzzles &mdash; Melissa &amp; Doug</h3>
+<p>Open-ended wooden toys beat the light-up plastic that ends up ignored. Melissa &amp; Doug is the cult default &mdash; puzzles and play sets that survive siblings and hold attention.</p>
+
+<h2>Buy First</h2>
+<p>Start with the things that make daily life work:</p>
+<ol>
+<li><strong>The high chair, ezpz plates, a cup, and utensils</strong> &mdash; the self-feeding setup that saves your sanity at every meal.</li>
+<li><strong>The convertible car seat</strong> &mdash; once they outgrow the infant one.</li>
+<li><strong>The babyproofing kit</strong> &mdash; before they are fully mobile, which is sooner than you think.</li>
+</ol>
+<p>Shoes, the travel bag, and toys you add as they grow into them.</p>
+
+<h2>The Point</h2>
+<p>A toddler does not need hundreds of products &mdash; a feeding setup, a safe space, a car seat, and a few durable things, one good brand each. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/newborn-must-haves-brand-guide">Coming up from the newborn stage?</a> <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Keep up with them. Stop researching.</p>
+`.trim(),
+  },
+  {
     slug: 'diffr-is-live-on-the-app-store',
     title: 'Diffr Is Live on the App Store',
     description: 'Diffr is out — the brand-picker that hands you one good brand per slot is now a free iPhone app. Pick a hobby, a wardrobe, or a routine and get the whole kit decided, no research spiral.',

@@ -15,6 +15,10 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'pantry-staples-list-brand-guide':
+    'Bottom line: a useful pantry is about two dozen real staples, one good brand each — not an 80-item list. Oils and acids: olive oil (California Olive Ranch), a neutral oil (Chosen Foods), vinegar (Bragg). Grains: rice (Nishiki), pasta (De Cecco), flour (King Arthur). Canned: tomatoes (Cento), stock (Better Than Bouillon), beans and tuna (Goya + Wild Planet). Flavor: soy sauce (Kikkoman), hot sauce (Cholula), Dijon (Maille), peanut butter (Jif). Seasoning: kosher salt (Diamond Crystal), a fresh spice set (Spicewalla). Buy first: salt and the two oils, then tomatoes, stock, pasta, and rice. Below is one brand per slot, no repeats.',
+  'toddler-essentials-brand-guide':
+    'Bottom line: a toddler needs a feeding setup, a safe space, a car seat, and a few durable things — one good brand each, not a gadget playroom. Feeding: suction plates (ezpz), a spill-proof cup (Munchkin), first utensils (NumNum), a high chair (IKEA Antilop). Getting around: a convertible car seat (Graco), a travel bag (Skip Hop). Safe and sound: a babyproofing kit (Safety 1st), a sound machine (Hatch). Wear and play: first shoes (Stride Rite), wooden toys (Melissa & Doug). Buy first: the high chair + feeding set, the convertible car seat, and the babyproofing kit. Follow current car-seat guidance. Below is one brand per slot, no repeats.',
   'home-bar-essentials-brand-guide':
     'Bottom line: a home bar is the right tools plus a short, versatile set of spirits — one good pick each, not a cabinet of half-bottles. Tools: a bar tool set (Barfly), a jigger (Cocktail Kingdom). Glass and ice: glassware (Libbey), an ice mold (Tovolo). The bottles: bourbon (Buffalo Trace), gin (Tanqueray), vodka (Tito’s), tequila (Espolòn), white rum (Bacardi), dry and sweet vermouth (Dolin). Mixers: bitters (Angostura), tonic and soda (Fever-Tree). Buy first: the tools, then bourbon, gin, and Angostura — enough for an Old Fashioned, a Negroni, and a G&T. Below is one brand per slot, no repeats.',
   'baking-essentials-brand-guide':
@@ -87,6 +91,44 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'pantry-staples-list-brand-guide': [
+    {
+      q: 'What are pantry staples?',
+      a: 'The foundation ingredients you always keep so a meal is a few cabinet items away: cooking oils, a vinegar, rice, pasta, flour, canned tomatoes, stock, beans, tuna, soy sauce, hot sauce, mustard, peanut butter, salt, and a basic spice set. About two dozen items, one good brand each, that combine into actual dinners.',
+    },
+    {
+      q: 'What should I stock in my pantry first?',
+      a: 'Start with the base that seasons and cooks anything: kosher salt, olive oil, and a neutral high-heat oil. Then the bones of quick dinners — canned tomatoes, stock, pasta, and rice. Then the flavor builders — soy sauce, vinegar, mustard, and a fresh spice set. That short list already makes dozens of meals.',
+    },
+    {
+      q: 'What pantry staples do I actually need?',
+      a: 'Far fewer than the big lists suggest — about two dozen real staples. Skip single-use specialty ingredients you buy for one recipe; those become the clutter at the back of the shelf. Stock the versatile basics one good brand each, and add a specialty item only when a recipe you will repeat calls for it.',
+    },
+    {
+      q: 'How do I stock a pantry on a budget?',
+      a: 'Buy the versatile basics in their value-quality versions (store-brand flour and rice are fine; spend up only on salt, olive oil, and spices, where quality is noticeable), buy dry goods like rice, beans, and pasta in larger sizes, and use a bouillon concentrate instead of cartons of broth. A complete starter pantry runs well under $100.',
+    },
+  ],
+
+  'toddler-essentials-brand-guide': [
+    {
+      q: 'What does a toddler actually need?',
+      a: 'A feeding setup (suction plates, a spill-proof cup, first utensils, a high chair), a safe space (a babyproofing kit and a sound machine), a way to get around (a convertible car seat and a travel bag), and a few durable things to wear and play with (first shoes, wooden toys). About ten items, one good brand each — not a playroom of single-use gadgets.',
+    },
+    {
+      q: 'What should I buy first for a toddler?',
+      a: 'Start with the feeding setup — a high chair, suction plates, a spill-proof cup, and toddler utensils — which makes every meal saner. Then a convertible car seat once they outgrow the infant one, and a babyproofing kit before they are fully mobile (which comes sooner than you expect). Shoes, a travel bag, and toys can follow.',
+    },
+    {
+      q: 'How do I babyproof for a toddler?',
+      a: 'Cover outlets, lock cabinets that hold cleaning supplies and medicines, anchor tip-prone furniture and TVs to the wall, add guards to sharp corners, and gate stairs. A kit like Safety 1st covers most of it. Get down to their eye level and look for what is reachable — toddlers find every hazard you miss.',
+    },
+    {
+      q: 'When does a toddler move to a convertible car seat?',
+      a: 'When they outgrow the infant seat by height or weight (check the seat’s limits, not just age — usually around the first year or beyond). A convertible seat stays rear-facing as long as possible, then converts to forward-facing, growing with the child for years. Follow current car-seat guidance and have the install checked.',
+    },
+  ],
+
   'home-bar-essentials-brand-guide': [
     {
       q: 'What do I need to set up a home bar?',
