@@ -15,6 +15,10 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'home-bar-essentials-brand-guide':
+    'Bottom line: a home bar is the right tools plus a short, versatile set of spirits — one good pick each, not a cabinet of half-bottles. Tools: a bar tool set (Barfly), a jigger (Cocktail Kingdom). Glass and ice: glassware (Libbey), an ice mold (Tovolo). The bottles: bourbon (Buffalo Trace), gin (Tanqueray), vodka (Tito’s), tequila (Espolòn), white rum (Bacardi), dry and sweet vermouth (Dolin). Mixers: bitters (Angostura), tonic and soda (Fever-Tree). Buy first: the tools, then bourbon, gin, and Angostura — enough for an Old Fashioned, a Negroni, and a G&T. Below is one brand per slot, no repeats.',
+  'baking-essentials-brand-guide':
+    'Bottom line: beginner baking needs accurate measuring, a few good pans, and a way to mix — one good brand each, not a drawer of gadgets. Measure: a kitchen scale (OXO, the biggest upgrade), measuring cups and spoons (OXO), mixing bowls (Pyrex). Mix: a hand or stand mixer (KitchenAid), a whisk and spatula (OXO). Bake: sheet pans (Nordic Ware), cake and loaf pans (USA Pan), a cooling rack (Nordic Ware), a baking mat (Silpat). Plus a rolling pin (J.K. Adams) and an oven thermometer (Taylor). Buy first: the scale, measuring cups, and bowls, then two sheet pans and a Silpat, then a hand mixer. Below is one brand per slot, no repeats.',
   'gym-bag-essentials-brand-guide':
     'Bottom line: a gym bag works when it is a fixed loadout — one good version of each thing, packed once. The carry: a duffel (Under Armour), a water bottle (Hydro Flask), a shaker (BlenderBottle). Train: training shoes (Nike Metcon), wireless earbuds (Beats Fit Pro), lifting gloves (Harbinger). Clean up: a microfiber towel (Rainleaf), deodorant (Native). Don’t forget: a combination lock (Master Lock) and resistance bands (Fit Simplify). Pack first: the bag, water bottle, and shoes, then the earbuds and lock. Below is one brand per slot, no repeats.',
   'new-home-essentials-brand-guide':
@@ -83,6 +87,44 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'home-bar-essentials-brand-guide': [
+    {
+      q: 'What do I need to set up a home bar?',
+      a: 'Two things: the right tools and a short, versatile set of bottles. Tools — a bar set (shaker, strainer, bar spoon, muddler), a jigger, rocks and coupe glasses, and a large-cube ice mold. Bottles — bourbon, gin, vodka, tequila, white rum, and dry and sweet vermouth, plus Angostura bitters and good tonic and soda. One good pick each covers most classic cocktails.',
+    },
+    {
+      q: 'What bottles should I buy first for a home bar?',
+      a: 'Start with bourbon (for an Old Fashioned and a whiskey sour), gin (for a G&T, Martini, and Negroni), and a bottle of Angostura bitters. With a good tonic, those make several classics. Add vodka, tequila, white rum, and dry and sweet vermouth as you find the drinks you actually make.',
+    },
+    {
+      q: 'How many bottles do you need for a home bar?',
+      a: 'About six spirits — bourbon, gin, vodka, tequila, white rum, and vermouth — plus bitters and a couple of mixers cover the large majority of classic cocktails. You can start with just two or three versatile bottles and expand. Buy to match the drinks you make, not to fill a shelf, and you avoid the graveyard of one-recipe liqueurs.',
+    },
+    {
+      q: 'What bar tools do beginners need?',
+      a: 'A matched bar set (a shaker, strainer, bar spoon, and muddler), a double-sided jigger for measuring, a few rocks and coupe glasses, and a silicone mold for large ice cubes. That is enough to make almost any cocktail. Skip specialized tools until a specific drink calls for them.',
+    },
+  ],
+
+  'baking-essentials-brand-guide': [
+    {
+      q: 'What baking equipment does a beginner need?',
+      a: 'A short kit: a kitchen scale, measuring cups and spoons, mixing bowls, a hand mixer, a whisk and spatula, two sheet pans, a cake or loaf pan, a cooling rack, a silicone baking mat, a rolling pin, and an oven thermometer. One good brand each. Skip single-use gadgets — specialty molds, sifters, fancy decorating kits — until a recipe actually calls for them.',
+    },
+    {
+      q: 'What should I buy first for baking?',
+      a: 'Start with accurate measuring — a kitchen scale, measuring cups, and mixing bowls — because precise amounts are most of what makes baking work. Then two sheet pans and a silicone mat, which get you cookies, and a hand mixer, whisk, and spatula. Add cake pans, a rolling pin, and an oven thermometer as your recipes require.',
+    },
+    {
+      q: 'Do I need a kitchen scale for baking?',
+      a: 'It is the single most worthwhile baking purchase. Measuring flour by weight on a scale, instead of scooping it into a cup (which packs in 20–30% more), is the biggest reason home bakes come out consistent instead of random. A basic digital scale costs little and improves nearly everything you bake.',
+    },
+    {
+      q: 'Do I need a stand mixer to start baking?',
+      a: 'No. A hand mixer handles the vast majority of beginner baking — cookies, cakes, whipped cream — for a fraction of the price and the counter space. A stand mixer is a genuine upgrade once you bake often or make bread and need to mix hands-free, but it is an addition, not a starting requirement.',
+    },
+  ],
+
   'gym-bag-essentials-brand-guide': [
     {
       q: 'What should I keep in my gym bag?',

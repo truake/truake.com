@@ -529,6 +529,116 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'home-bar-essentials-brand-guide',
+    title: 'Home Bar Essentials: Tools, Glasses, and the Bottles to Start',
+    description: 'The home bar essentials that actually matter — the right tools, double-duty glassware, and a short, versatile set of bottles, one brand per slot. How to stock a home bar without the half-bottle graveyard.',
+    date: '2026-06-19',
+    readTime: '6 min read',
+    tags: ['brand guide', 'home bar essentials', 'home bar starter kit', 'bar cart essentials', 'how to stock a home bar', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'The right tools plus a short, versatile set of bottles — one good pick each. How to stock a home bar without the bottle graveyard.',
+    content: `
+<p>A home bar is where good intentions turn into a cabinet of half-bottles you bought for one recipe. The fix is the same as any kit: the few tools that matter, glassware that does double duty, and a short list of versatile bottles that make most cocktails &mdash; one good pick each. Here is how to stock a home bar without the bottle graveyard, one brand per slot.</p>
+
+<h2>The Tools</h2>
+<h3>Bar Tool Set &mdash; Barfly</h3>
+<p>A shaker, strainer, bar spoon, and muddler in one matched set. Barfly is the pro-standard default that costs little &mdash; the tools actual bartenders use, not the novelty kit.</p>
+<h3>Jigger &mdash; Cocktail Kingdom</h3>
+<p>Cocktails are recipes; you have to measure. A Cocktail Kingdom jigger is the accurate, well-marked default &mdash; the difference between a balanced drink and a strong mistake.</p>
+
+<h2>Glassware &amp; Ice</h2>
+<h3>Glassware &mdash; Libbey</h3>
+<p>You need rocks glasses and a few coupes, not a cabinet of specialty stems. Libbey is the value default &mdash; classic shapes, cheap enough to replace, good enough to keep.</p>
+<h3>Ice Mold &mdash; Tovolo</h3>
+<p>Big, slow-melting cubes are the single easiest upgrade to a home cocktail. A Tovolo silicone mold makes large cubes or spheres &mdash; the cheap thing that makes a drink look intentional.</p>
+
+<h2>The Bottles (A Starter Bar)</h2>
+<p>Six bottles cover the overwhelming majority of classic cocktails. One good, mid-priced pick per spirit:</p>
+<h3>Bourbon &mdash; Buffalo Trace</h3>
+<p>The value-cult bourbon &mdash; smooth enough to sip, great in an Old Fashioned or a whiskey sour. The one bottle a bar should never be without.</p>
+<h3>Gin &mdash; Tanqueray</h3>
+<p>The classic London Dry default &mdash; crisp and juniper-forward, the backbone of a G&amp;T, a Martini, or a Negroni.</p>
+<h3>Vodka &mdash; Tito&rsquo;s</h3>
+<p>The clean, mixes-with-anything default. Tito&rsquo;s is the reliable everyday vodka for the people who will always order one.</p>
+<h3>Tequila &mdash; Espol&ograve;n</h3>
+<p>A 100% agave blanco at a fair price &mdash; Espol&ograve;n is the value default for Margaritas and Palomas, miles better than the mixto bottles next to it.</p>
+<h3>Rum &amp; Vermouth &mdash; Bacardi + Dolin</h3>
+<p>A white rum (Bacardi) covers Daiquiris and Mojitos; a bottle each of dry and sweet vermouth (Dolin) unlocks Martinis, Manhattans, and Negronis. Keep the vermouth in the fridge once opened.</p>
+
+<h2>Mixers &amp; Bitters</h2>
+<h3>Bitters &mdash; Angostura</h3>
+<p>The one non-negotiable bottle. A few dashes of Angostura is the seasoning of the cocktail world &mdash; it lasts for years and makes an Old Fashioned an Old Fashioned.</p>
+<h3>Tonic &amp; Soda &mdash; Fever-Tree</h3>
+<p>A cheap mixer ruins a good spirit. Fever-Tree tonic and soda are the premium default &mdash; the easiest way to make a two-ingredient drink taste like more.</p>
+
+<h2>Buy First (A Working Bar for Three Cocktails)</h2>
+<p>You do not need all twelve to make a good drink tonight. Start here:</p>
+<ol>
+<li><strong>The bar tool set, a jigger, a few rocks glasses, and the ice mold</strong> &mdash; the tools that make any cocktail.</li>
+<li><strong>Bourbon, gin, and a bottle of Angostura</strong> &mdash; enough for an Old Fashioned, a Negroni, and a G&amp;T with the right tonic.</li>
+<li><strong>Add vodka, tequila, rum, vermouth, and Fever-Tree</strong> as you find the drinks you actually make.</li>
+</ol>
+<p>Buy bottles to match the cocktails you want, not to fill a shelf. That is how you avoid the graveyard of one-recipe liqueurs.</p>
+
+<h2>The Point</h2>
+<p>A good home bar is not the most bottles &mdash; it is the right tools and a short, versatile set of spirits, one good pick each, so you can make a dozen classics without a cabinet of dust. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/home-coffee-brand-guide">Setting up the coffee side of the kitchen?</a> <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Make the drink. Stop researching.</p>
+`.trim(),
+  },
+  {
+    slug: 'baking-essentials-brand-guide',
+    title: 'Baking Essentials: The Starter Kit, One Brand Per Slot',
+    description: 'The baking essentials that actually matter — accurate measuring, a way to mix, and a few good pans, one brand per slot. What to buy first to start baking, without the drawer of single-use gadgets.',
+    date: '2026-06-19',
+    readTime: '6 min read',
+    tags: ['brand guide', 'baking essentials', 'baking starter kit', 'baking tools', 'beginner baking equipment', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Accurate measuring, a way to mix, and a few good pans — one brand each. The baking starter kit, no gadget drawer.',
+    content: `
+<p>Baking is chemistry, and chemistry needs the right equipment &mdash; but not the wall of single-use gadgets the baking internet sells. A beginner needs a way to measure accurately, a way to mix, a few good pans, and not much else, one brand each. Here are the baking essentials that actually matter, with the few to buy first.</p>
+
+<h2>Measure (Where Baking Is Won)</h2>
+<h3>Kitchen Scale &mdash; OXO</h3>
+<p>The single biggest upgrade to your baking. Measuring flour by weight instead of scooping cups is the difference between consistent results and random ones. An OXO digital scale is the clear, cheap default &mdash; buy this before anything fancy.</p>
+<h3>Measuring Cups &amp; Spoons &mdash; OXO</h3>
+<p>For the recipes that still use volume and for liquids. A sturdy OXO set is the no-nonsense default &mdash; the markings stay legible after a hundred washes.</p>
+<h3>Mixing Bowls &mdash; Pyrex</h3>
+<p>A nesting set of glass bowls for everything from whisking eggs to proofing dough. Pyrex is the lasts-forever default &mdash; microwave-safe, and you can see what you are doing.</p>
+
+<h2>Mix</h2>
+<h3>Mixer &mdash; KitchenAid</h3>
+<p>A hand mixer covers most beginner baking; a stand mixer is the upgrade once you bake often. KitchenAid is the default for both &mdash; start with the hand mixer, and the stand mixer is the one you will want for years if you catch the bug.</p>
+<h3>Whisk &amp; Spatula &mdash; OXO</h3>
+<p>A balloon whisk and a flexible silicone spatula do most of the hands-on work. OXO is the durable, comfortable default &mdash; the spatula that scrapes the bowl clean and survives a hot pan.</p>
+
+<h2>Bake</h2>
+<h3>Sheet Pans &mdash; Nordic Ware</h3>
+<p>The most-used pan in any kitchen &mdash; cookies, sheet cakes, roasting. Nordic Ware aluminum half-sheets are the commercial-grade default that does not warp. Buy two.</p>
+<h3>Cake &amp; Loaf Pans &mdash; USA Pan</h3>
+<p>For everything that is not flat. USA Pan&rsquo;s coated steel is the cult default &mdash; even browning and a finish that actually releases. Start with a loaf pan and a round or two.</p>
+<h3>Cooling Rack &mdash; Nordic Ware</h3>
+<p>Cookies and cakes need air underneath or they steam and go soggy. A Nordic Ware rack is the sturdy default that also works for glazing and roasting.</p>
+<h3>Baking Mat &mdash; Silpat</h3>
+<p>Reusable, nonstick, and it replaces endless parchment. A Silpat is the original silicone mat &mdash; nothing sticks, nothing burns on the bottom, and it lasts for years.</p>
+
+<h2>The Two That Get Skipped</h2>
+<h3>Rolling Pin &mdash; J.K. Adams</h3>
+<p>For pie, cookies, and pastry. A simple J.K. Adams hardwood pin is the default &mdash; no handles to fight, just control.</p>
+<h3>Oven Thermometer &mdash; Taylor</h3>
+<p>Home ovens lie, often by 25 degrees or more, and baking is unforgiving about it. A cheap Taylor oven thermometer tells you the real temperature &mdash; the simplest fix for mysteriously bad results.</p>
+
+<h2>Buy First</h2>
+<p>You can bake most things with a short starter set. Get these first:</p>
+<ol>
+<li><strong>The scale, measuring cups, and mixing bowls</strong> &mdash; accurate measuring is most of the battle.</li>
+<li><strong>Two sheet pans and a Silpat</strong> &mdash; enough for cookies, the gateway bake.</li>
+<li><strong>A hand mixer, a whisk, and a spatula</strong> &mdash; the mixing core. Add the cake pans, rolling pin, and oven thermometer as your recipes ask.</li>
+</ol>
+
+<h2>The Point</h2>
+<p>Good baking is not a drawer of gadgets &mdash; it is accurate measuring, a few good pans, and a way to mix, one solid brand each. That is the Diffr method: one good pick per slot, no repeats, so you bake from a real kit instead of a wishlist. <a href="/diffr/blog/home-coffee-brand-guide">For the coffee to go with it,</a> or <a href="/diffr/blog/starter-kits">see every Diffr starter kit &rarr;</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Start baking. Stop researching.</p>
+`.trim(),
+  },
+  {
     slug: 'diffr-is-live-on-the-app-store',
     title: 'Diffr Is Live on the App Store',
     description: 'Diffr is out — the brand-picker that hands you one good brand per slot is now a free iPhone app. Pick a hobby, a wardrobe, or a routine and get the whole kit decided, no research spiral.',
