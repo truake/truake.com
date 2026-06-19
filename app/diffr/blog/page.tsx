@@ -19,6 +19,11 @@ export const metadata: Metadata = {
     description: 'Build logs and product thinking from the team behind Diffr.',
     images: ['/diffr-og.png'],
   },
+  alternates: {
+    types: {
+      'application/rss+xml': 'https://truake.com/diffr/blog/rss.xml',
+    },
+  },
 }
 
 export default function BlogIndexPage() {
@@ -81,7 +86,13 @@ export default function BlogIndexPage() {
         color: 'rgba(42,38,32,0.35)',
         fontSize: '13px',
       }}>
-        <p>© 2026 Truake OPC · <Link href="/diffr" style={{ color: 'rgba(42,38,32,0.5)', textDecoration: 'none' }}>Diffr</Link></p>
+        <p style={{ display: 'inline-flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', justifyContent: 'center' }}>
+          <span>© 2026 Truake OPC · <Link href="/diffr" style={{ color: 'rgba(42,38,32,0.5)', textDecoration: 'none' }}>Diffr</Link> ·</span>
+          <a href="/diffr/blog/rss.xml" title="Subscribe via RSS" style={{ color: 'rgba(42,38,32,0.5)', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 4 }}>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.05 7.38 20 6.18 20 5 20 4 19.05 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 4.83a10.73 10.73 0 0 1 10.73 10.73H11.9A7.9 7.9 0 0 0 4 12.1z"/></svg>
+            RSS
+          </a>
+        </p>
       </footer>
     </div>
   )
