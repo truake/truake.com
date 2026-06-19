@@ -667,8 +667,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'camping-gear-brand-guide',
-    title: 'The Complete Camping Starter Kit for Beginners: What to Buy First',
-    description: 'Nine car-camping slots — tent to first aid — assigned and closed. The Diffr brand guide to a complete camping starter kit for two or the whole family: what to buy first to camp comfortably, without a gear rabbit hole.',
+    title: 'Camping Essentials List: The Complete Starter Kit, What to Buy First',
+    description: 'The complete camping essentials list — nine car-camping slots from tent to first aid, one brand each, assigned. What to buy first to camp comfortably for two or the whole family, without a gear rabbit hole.',
     date: '2026-06-16',
     readTime: '7 min read',
     tags: ['brand guide', 'camping starter kit', 'camping gear for beginners', 'car camping essentials', 'camping starter kit for family', 'what to buy first camping', 'non-repetition principle'],
@@ -840,8 +840,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'winter-layering-brand-guide',
-    title: 'Winter Layering for Beginners: Base, Mid, and Shell',
-    description: 'Eight cold-weather slots — base layer to winter boots — assigned and closed. The Diffr brand guide to a beginner winter layering starter kit: how to layer for winter, what to buy first, and what to wear by temperature — base, mid, shell, and the extremities that actually keep you warm.',
+    title: 'Winter Essentials: The Layering System, Base, Mid, and Shell',
+    description: 'The winter essentials that actually keep you warm — eight cold-weather slots from base layer to winter boots, one brand each. How to layer for winter, what to buy first, and what to wear by temperature: base, mid, shell, and the extremities.',
     date: '2026-06-12',
     readTime: '7 min read',
     tags: ['brand guide', 'winter layering for beginners', 'winter layering starter kit', 'how to layer for winter', 'first time in winter', 'cold weather clothing', 'non-repetition principle'],
@@ -1032,8 +1032,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'makeup-brand-guide',
-    title: 'Makeup for Beginners: What to Buy First',
-    description: 'Ten everyday makeup slots — foundation to primer — assigned and closed. The Diffr brand guide for makeup beginners who want a natural everyday face without the forty-product aisle.',
+    title: 'Makeup Starter Kit: What to Buy First, One Brand Per Slot',
+    description: 'The everyday makeup starter kit — ten slots from foundation to primer, one brand each, assigned. What to buy first for a natural everyday face, without the forty-product aisle.',
     date: '2026-06-04',
     readTime: '6 min read',
     tags: ['brand guide', 'makeup for beginners', 'makeup brands', 'beginner makeup kit', 'non-repetition principle'],
