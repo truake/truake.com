@@ -15,6 +15,10 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'gift-ideas-for-her-brand-guide':
+    'Bottom line: skip the listicles — one genuinely good gift per budget she will actually use. Under $30: a Laneige lip mask or a Boy Smells candle. $30–75: everyday jewelry (Mejuri), affordable cashmere (Quince), or a Stanley tumbler. $75+: a Kindle for a reader, a Barefoot Dreams cozy throw, or a Cuyana leather tote. If you only get one, the lip mask plus a candle is almost never wrong; for a bigger gesture, the cozy throw is the safest splurge. Below is one pick per slot, no repeats.',
+  'gift-ideas-for-him-brand-guide':
+    'Bottom line: skip the gadget drawer — one genuinely good gift per budget he will actually keep. Under $30: a Bellroy slim wallet or a Baxter of California grooming set. $30–75: a Timex watch, a Leatherman multitool, or a Viski bar set. $75+: Apple AirPods, a Fellow electric kettle, or a Carhartt cozy layer. If you only get one, the slim wallet is the safest small gift; for a bigger gesture, AirPods are the splurge he is most likely to use. Below is one pick per slot, no repeats.',
   'pantry-staples-list-brand-guide':
     'Bottom line: a useful pantry is about two dozen real staples, one good brand each — not an 80-item list. Oils and acids: olive oil (California Olive Ranch), a neutral oil (Chosen Foods), vinegar (Bragg). Grains: rice (Nishiki), pasta (De Cecco), flour (King Arthur). Canned: tomatoes (Cento), stock (Better Than Bouillon), beans and tuna (Goya + Wild Planet). Flavor: soy sauce (Kikkoman), hot sauce (Cholula), Dijon (Maille), peanut butter (Jif). Seasoning: kosher salt (Diamond Crystal), a fresh spice set (Spicewalla). Buy first: salt and the two oils, then tomatoes, stock, pasta, and rice. Below is one brand per slot, no repeats.',
   'toddler-essentials-brand-guide':
@@ -91,6 +95,44 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'gift-ideas-for-her-brand-guide': [
+    {
+      q: 'What is a good gift for her?',
+      a: 'Something she will actually use, picked by your budget. Under $30: a Laneige lip mask or a Boy Smells candle. $30–75: everyday jewelry (Mejuri), affordable cashmere (Quince), or a Stanley tumbler. $75 and up: a Kindle for a reader, a Barefoot Dreams throw, or a Cuyana leather tote. One good pick per budget beats a basket of small things.',
+    },
+    {
+      q: 'What is a good cheap gift for her?',
+      a: 'Under $30, the safe, delightful options are a Laneige lip mask (a cult gift that sells out every holiday) or a nice candle from Boy Smells. Together they make a thoughtful sub-$40 gift almost no one is disappointed to receive — useful, a little indulgent, and not guessing at her taste.',
+    },
+    {
+      q: 'What is a safe gift if you do not know her taste?',
+      a: 'Choose something useful and taste-neutral rather than decorative: a lip mask, a quality candle in a crowd-pleasing scent, a Stanley tumbler, or a Kindle if she reads. Avoid clothing sizes, strong scents, and anything that assumes a specific style. A gift card to Mejuri or a bookshop is also a graceful, no-guess option.',
+    },
+    {
+      q: 'What is a good gift for her under $50?',
+      a: 'In the $30–50 range, everyday jewelry from Mejuri, an affordable cashmere scarf or beanie from Quince, or a Stanley tumbler all land well — used often, and nicer than she would buy for herself. Pair a sub-$30 lip mask and candle for a thoughtful combination if you would rather give two smaller things.',
+    },
+  ],
+
+  'gift-ideas-for-him-brand-guide': [
+    {
+      q: 'What is a good gift for him?',
+      a: 'Something useful he will keep, picked by your budget. Under $30: a Bellroy slim wallet or a Baxter of California grooming set. $30–75: a Timex watch, a Leatherman multitool, or a Viski bar set. $75 and up: Apple AirPods, a Fellow electric kettle, or a Carhartt cozy layer. One good pick beats a basket of gadgets.',
+    },
+    {
+      q: 'What is a good cheap gift for him?',
+      a: 'Under $30, the safest useful options are a Bellroy slim leather wallet (an upgrade most men want but never buy themselves) or a quality grooming set from Baxter of California. Both get used daily and do not require guessing at a hobby or size.',
+    },
+    {
+      q: 'What do you get a man who has everything?',
+      a: 'Upgrade something he uses daily but has a worn version of: his wallet (Bellroy), his everyday-carry (a Leatherman), or his coffee ritual (a Fellow kettle). Consumables and quality basics work better than another gadget. A genuinely nicer version of an everyday object is the move when he seems to have it all.',
+    },
+    {
+      q: 'What is a good gift for him under $50?',
+      a: 'In the $30–50 range, a Timex Weekender or Marlin watch, a Leatherman multitool, or a Bellroy wallet are all safe, used-for-years picks. Each is useful, taste-neutral, and looks like more than it costs — no guessing at a hobby required.',
+    },
+  ],
+
   'pantry-staples-list-brand-guide': [
     {
       q: 'What are pantry staples?',

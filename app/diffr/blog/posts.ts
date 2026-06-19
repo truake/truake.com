@@ -754,6 +754,88 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'gift-ideas-for-her-brand-guide',
+    title: 'Gift Ideas for Her: One Good Pick Per Budget, Not a Listicle',
+    description: 'Gift ideas for her she will actually use — one genuinely good pick per budget, from a $25 lip mask to a cozy throw. Skip the listicle spiral; here are the gifts that get kept, not regifted.',
+    date: '2026-06-19',
+    readTime: '5 min read',
+    tags: ['brand guide', 'gift ideas for her', 'gifts for her', 'best gifts for women', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'One genuinely good gift per budget she will actually use. Skip the thousand-item listicle.',
+    content: `
+<p>&ldquo;Gift ideas for her&rdquo; is one of the most-searched, least-helpful phrases on the internet &mdash; it returns a thousand listicles of scented junk. The fix is the same as any Diffr guide: one genuinely good pick per vibe, grouped by budget, so you find the right thing in a minute instead of an hour. Here are gift ideas for her that get used, not regifted &mdash; one brand per slot.</p>
+
+<h2>Under $30 (Always Welcome)</h2>
+<h3>A Lip Mask &mdash; Laneige</h3>
+<p>The cult under-$30 gift that sells out every holiday. The Laneige Lip Sleeping Mask is the safe, delightful default &mdash; useful, a little indulgent, universally liked.</p>
+<h3>A Candle &mdash; Boy Smells</h3>
+<p>A candle is the reliable default; Boy Smells makes the one that feels designed rather than generic. Pick a crowd-pleasing scent and you are done.</p>
+
+<h2>$30&ndash;75 (A Real Gift)</h2>
+<h3>Everyday Jewelry &mdash; Mejuri</h3>
+<p>Delicate, wear-every-day fine jewelry &mdash; or a gift card if you are unsure of taste. Mejuri is the cult default women actually keep wearing.</p>
+<h3>Cashmere &mdash; Quince</h3>
+<p>Real cashmere at a price that makes it giftable. A Quince scarf or beanie is the affordable-luxury default &mdash; soft, neutral, used all winter.</p>
+<h3>A Tumbler &mdash; Stanley</h3>
+<p>The cup that became a phenomenon for a reason &mdash; it works, and people love theirs. A Stanley Quencher is the safe, used-daily default.</p>
+
+<h2>$75 and Up (For Someone You Really Like)</h2>
+<h3>An E-Reader &mdash; Kindle</h3>
+<p>For any reader, a Kindle Paperwhite is the gift they will use every night for years. The universal default that never disappoints a book lover.</p>
+<h3>A Cozy Throw &mdash; Barefoot Dreams</h3>
+<p>The cult blanket people obsess over and never buy themselves. A Barefoot Dreams throw becomes the most-used object in the house &mdash; the comfort splurge that always lands.</p>
+<h3>A Leather Tote &mdash; Cuyana</h3>
+<p>A clean, quality everyday bag in a neutral. Cuyana is the &ldquo;fewer, better&rdquo; default &mdash; the piece she would not splurge on herself but uses constantly.</p>
+
+<h2>If You Only Get One</h2>
+<p>When in doubt, the lip mask plus the candle (under $40 together) is the combination almost no one is disappointed to receive. For a bigger gesture, the cozy throw is the safest splurge there is.</p>
+
+<h2>The Point</h2>
+<p>A good gift is not the most original one &mdash; it is the one she will actually use, picked so you skip the listicle spiral. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/womens-minimalist-wardrobe-brand-guide">Shopping for her wardrobe?</a> <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Give the good one. Stop researching.</p>
+`.trim(),
+  },
+  {
+    slug: 'gift-ideas-for-him-brand-guide',
+    title: 'Gift Ideas for Him: One Good Pick Per Budget, Not a Gadget Drawer',
+    description: 'Gift ideas for him he will actually use — one genuinely good pick per budget, from a slim wallet to a kettle he keeps for years. Useful things a guy keeps, not the gadget drawer.',
+    date: '2026-06-19',
+    readTime: '5 min read',
+    tags: ['brand guide', 'gift ideas for him', 'gifts for him', 'best gifts for men', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'One genuinely good gift per budget he will actually keep. Skip the gadget drawer.',
+    content: `
+<p>&ldquo;Gift ideas for him&rdquo; usually returns the same drawer of gadgets he will never open. The better approach is one good pick per category, grouped by budget &mdash; useful things a guy actually keeps. Here are gift ideas for him that earn a spot, not a shelf, one brand per slot.</p>
+
+<h2>Under $30 (Always Useful)</h2>
+<h3>A Slim Wallet &mdash; Bellroy</h3>
+<p>Most men carry a wallet they have been meaning to replace. A Bellroy slim leather wallet is the upgrade-he-won&rsquo;t-buy-himself default &mdash; thin, well-made, used every single day.</p>
+<h3>Grooming &mdash; Baxter of California</h3>
+<p>A quality grooming set he would not splurge on. Baxter of California is the approachable default &mdash; good face wash, balm, and the basics, in packaging he will leave on the counter.</p>
+
+<h2>$30&ndash;75 (A Real Gift)</h2>
+<h3>A Watch &mdash; Timex</h3>
+<p>A simple, handsome watch beats another gadget. The Timex Weekender or Marlin is the affordable-style default &mdash; goes with everything, costs little, looks like more.</p>
+<h3>A Multitool &mdash; Leatherman</h3>
+<p>The gift a guy keeps for twenty years. A Leatherman is the cult default &mdash; pliers, blade, driver, and the satisfaction of always having the right tool.</p>
+<h3>Bar Tools &mdash; Viski</h3>
+<p>For the friend who likes a good drink, a Viski cocktail set turns his kitchen into a bar &mdash; the handsome, complete default for a new hobby.</p>
+
+<h2>$75 and Up (For Someone You Really Like)</h2>
+<h3>Earbuds &mdash; Apple AirPods</h3>
+<p>The near-universal default he will use every day &mdash; commute, gym, calls. If he does not already have a pair, this is the safe, always-welcome splurge.</p>
+<h3>An Electric Kettle &mdash; Fellow</h3>
+<p>For the coffee or tea guy, a Fellow Stagg kettle is the design-object-that-works &mdash; the gift that upgrades a daily ritual and looks great doing it.</p>
+<h3>A Cozy Layer &mdash; Carhartt</h3>
+<p>A Carhartt beanie or hoodie is the rugged, everyday default he will live in. Quietly iconic, genuinely warm, impossible to get wrong on size.</p>
+
+<h2>If You Only Get One</h2>
+<p>The slim wallet is the safest small gift there is &mdash; everyone needs one, almost nobody buys their own. For a bigger gesture, AirPods are the splurge a guy is most likely to actually use.</p>
+
+<h2>The Point</h2>
+<p>A good gift is not the most clever one &mdash; it is the one he will actually use, picked so you skip the gadget-listicle spiral. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/casual-wardrobe-brand-guide">Shopping for his wardrobe?</a> <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Give the good one. Stop researching.</p>
+`.trim(),
+  },
+  {
     slug: 'diffr-is-live-on-the-app-store',
     title: 'Diffr Is Live on the App Store',
     description: 'Diffr is out — the brand-picker that hands you one good brand per slot is now a free iPhone app. Pick a hobby, a wardrobe, or a routine and get the whole kit decided, no research spiral.',
