@@ -103,7 +103,83 @@ export const posts: BlogPost[] = [
 <p>Everything else &mdash; desk, storage, fridge, fan &mdash; you can add over the first week once you see the room.</p>
 
 <h2>The Point</h2>
-<p>A good dorm is not the longest packing list &mdash; it is the right eighteen things, one solid brand each, organized so you actually use them. That is the Diffr method: one good pick per slot, no repeats, so you pack once and skip the 80-item haul. <a href="/diffr/blog/apartment-cleaning-supplies-brand-guide">Cleaning supplies</a> and the rest of life come next; <a href="/diffr/blog/starter-kits">see every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Move in. Stop researching.</p>
+<p>A good dorm is not the longest packing list &mdash; it is the right eighteen things, one solid brand each, organized so you actually use them. That is the Diffr method: one good pick per slot, no repeats, so you pack once and skip the 80-item haul. Packing for more than the room? The <a href="/diffr/blog/college-packing-list-brand-guide">college packing list</a> covers the tech, documents, and laundry. <a href="/diffr/blog/apartment-cleaning-supplies-brand-guide">Cleaning supplies</a> come next; <a href="/diffr/blog/starter-kits">see every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Move in. Stop researching.</p>
+`.trim(),
+  },
+  {
+    slug: 'college-packing-list-brand-guide',
+    title: 'College Packing List: What to Actually Bring, One Brand Per Slot',
+    description: 'The college packing list that fits on one screen — tech, laundry, documents, and carry, one brand per slot. What to buy before you go, bring from home, and coordinate with your roommate.',
+    date: '2026-06-19',
+    readTime: '6 min read',
+    tags: ['brand guide', 'college packing list', 'college packing checklist', 'what to bring to college', 'college essentials', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Three short lists, not 100 items: what to buy, bring, and coordinate for college. One brand per slot.',
+    content: `
+<p>A college packing list should fit on one screen, not scroll for a hundred items you will never use. The trick is to split it into three lists &mdash; what to buy before you go, what to bring from home, and what to coordinate with your roommate &mdash; and to put one good brand against each thing you actually have to buy. This is that list. Your dorm room itself (bedding, towels, lamp, storage) has its own deep dive in the <a href="/diffr/blog/dorm-room-essentials-brand-guide">dorm room essentials guide</a>; here we cover everything else you are packing.</p>
+
+<h2>Tech (Buy Before You Go)</h2>
+<p>The one category worth real money and thought &mdash; it is what you use every single day.</p>
+
+<h3>Laptop &mdash; Apple MacBook Air</h3>
+<p>The safe default for the vast majority of students: light, silent, all-day battery, runs everything a typical course load needs. <strong>The exception:</strong> if your major mandates Windows-only software &mdash; some engineering, CAD, or finance programs &mdash; buy what the department specifies. Otherwise the Air is the one-and-done answer.</p>
+
+<h3>Noise-Canceling Headphones &mdash; Sony</h3>
+<p>A roommate and thin walls make focus a purchase, not a given. Sony&rsquo;s budget noise-canceling over-ears are the studying default &mdash; quiet on demand, in the library or at your desk.</p>
+
+<h3>Portable Charger &mdash; Anker</h3>
+<p>Campus days are long and outlets are scarce. An Anker power bank keeps the phone alive between a 9 a.m. lecture and a 9 p.m. library session. The brand that owns this slot.</p>
+
+<h3>Backup Drive &mdash; Samsung</h3>
+<p>A dead laptop the night before finals is a catastrophe you can prevent for $40. A Samsung T7 SSD (plus cloud backup) is the insurance every student skips until they lose a term paper once.</p>
+
+<h3>Ethernet Adapter &mdash; Cable Matters</h3>
+<p>Many dorms have a wired port faster and more reliable than the shared Wi-Fi, and modern laptops have no Ethernet jack. A Cable Matters USB-C adapter and a short cable is the cheap fix for video-call drops on deadline day.</p>
+
+<h2>Laundry &amp; Cleaning (Buy Before or There)</h2>
+
+<h3>Laundry Detergent &mdash; Tide</h3>
+<p>Pods are the dorm-laundry default &mdash; no measuring, no spills in a shared machine, no leaking jug in your closet. Tide is the one nobody regrets. Grab the hamper from the <a href="/diffr/blog/dorm-room-essentials-brand-guide">dorm guide</a>.</p>
+
+<h3>Cleaning Supplies &mdash; the ten-item kit</h3>
+<p>A dorm or first apartment needs about ten cleaning items, one brand each. The full list is in the <a href="/diffr/blog/apartment-cleaning-supplies-brand-guide">cleaning supplies guide</a>; pack the wipes and an all-purpose spray for day one.</p>
+
+<h2>Carry &amp; Clothes (Bring From Home)</h2>
+
+<h3>Backpack &mdash; JanSport</h3>
+<p>The backpack that survives four years of being thrown on floors. JanSport is the do-everything default &mdash; simple, warrantied, not worth overthinking.</p>
+
+<h3>Rain Shell &mdash; Columbia</h3>
+<p>You will walk to class in the rain, repeatedly. A packable Columbia rain jacket beats a doomed umbrella in campus wind &mdash; the one weather item that earns its space.</p>
+
+<h3>Clothes &mdash; pack a week, not a closet</h3>
+<p>You do laundry weekly, so pack roughly a week of versatile, neutral basics that mix and match, plus one nice outfit. The <a href="/diffr/blog/casual-wardrobe-brand-guide">casual wardrobe guide</a> is built on exactly this &mdash; one brand per slot, everything pairs.</p>
+
+<h2>Health &amp; Documents (Do Not Skip)</h2>
+<p>The category with no brands and the highest stakes &mdash; a nightmare to replace once you are three states away.</p>
+<ul>
+<li><strong>Insurance card</strong> (a photo on your phone too) plus your <strong>doctor and pharmacy info</strong>.</li>
+<li><strong>Photo ID / passport</strong> and a few copies of important documents.</li>
+<li><strong>Prescriptions</strong> &mdash; a full supply plus a plan to refill near campus.</li>
+<li><strong>A small first aid kit</strong> (First Aid Only) with OTC meds, bandages, and a thermometer &mdash; the 2 a.m.-fever insurance.</li>
+</ul>
+
+<h2>Everyday Carry</h2>
+
+<h3>Water Bottle &mdash; Owala</h3>
+<p>You will carry it to every class. Owala&rsquo;s FreeSip is the current campus default &mdash; spill-proof and big enough to skip the mid-lecture water run.</p>
+
+<h2>The Three Lists (How to Pack)</h2>
+<p>Sort everything above into three piles and packing stops being chaos:</p>
+<ol>
+<li><strong>Buy before you go:</strong> the laptop, headphones, charger, backup drive, and Twin XL bedding &mdash; what you cannot start the semester without.</li>
+<li><strong>Bring from home:</strong> clothes, documents, prescriptions, your backpack, and the rain shell &mdash; the irreplaceables and what you already own.</li>
+<li><strong>Coordinate or buy there:</strong> the mini fridge and microwave (one per room &mdash; text your roommate), and bulky cleaning and laundry supplies you can grab near campus.</li>
+</ol>
+<p>Pack the irreplaceables first &mdash; documents and prescriptions &mdash; then the tech, then everything else.</p>
+
+<h2>The Point</h2>
+<p>A good packing list is not the longest one &mdash; it is three short lists, one good brand against each thing you have to buy, so you arrive sorted instead of overwhelmed. That is the Diffr method: one good pick per slot, no repeats. Start with the <a href="/diffr/blog/dorm-room-essentials-brand-guide">dorm room essentials</a> for the room itself, then <a href="/diffr/blog/starter-kits">see every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Pack once. Stop researching.</p>
 `.trim(),
   },
   {

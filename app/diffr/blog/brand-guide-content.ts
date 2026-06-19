@@ -15,6 +15,8 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'college-packing-list-brand-guide':
+    'Bottom line: a college packing list is really three short lists — buy before you go, bring from home, and coordinate with your roommate — not one 100-item haul. Buy before: a laptop (MacBook Air for most majors), noise-canceling headphones (Sony), a portable charger (Anker), a backup drive (Samsung), an Ethernet adapter (Cable Matters), laundry detergent (Tide), and Twin XL bedding. Bring from home: a week of clothes, your insurance card, photo ID, prescriptions, a first aid kit, a backpack (JanSport), and a rain shell (Columbia). Coordinate with your roommate: the mini fridge and microwave (one each per room). The dorm room itself has its own checklist. Below is one brand per slot, no repeats.',
   'dorm-room-essentials-brand-guide':
     'Bottom line: a dorm room needs about eighteen things, not eighty — in five zones, one good brand each. Sleep: Twin XL sheets (Mellanni), a mattress topper (Lucid), a pillow (Beckham), a comforter (Bedsure). Shower: a caddy (Attmu), shower shoes (Adidas), towels (Utopia), a toiletry bag (BAGSMART). Desk: a lamp (TaoTronics), a surge-protected power strip (Anker), headphones (Sony). Laundry/storage: a hamper (Simple Houseware), under-bed bins (Sterilite), Command hooks (3M). Food/misc: a mini fridge (BLACK+DECKER — coordinate with your roommate), a water bottle (Owala), a fan (Honeywell), a first aid kit. Buy first: Twin XL sheets + topper, shower caddy + shoes, the power strip, and a hamper. Below is one brand per slot, no repeats.',
   'cologne-for-beginners-brand-guide':
@@ -69,6 +71,25 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'college-packing-list-brand-guide': [
+    {
+      q: 'What should I pack for college?',
+      a: 'Split it into three lists. Buy before you go: a laptop, noise-canceling headphones, a portable charger, a backup drive, an Ethernet adapter, laundry detergent, and Twin XL bedding. Bring from home: a week of clothes, your insurance card, photo ID, prescriptions, a first aid kit, a backpack, and a rain shell. Coordinate with your roommate: the mini fridge and microwave. The dorm room itself (bedding, towels, lamp, storage) has its own checklist.',
+    },
+    {
+      q: 'What laptop should I get for college?',
+      a: 'For most students, a MacBook Air is the safe default — light, silent, all-day battery, and it runs everything a typical course load needs. The exception is if your major mandates Windows-only software (some engineering, CAD, or finance programs), in which case buy what the department specifies. Pair it with a backup drive or cloud backup so a dead laptop before finals is not a catastrophe.',
+    },
+    {
+      q: 'What do I need to coordinate with my roommate before move-in?',
+      a: 'The big shared appliances: you only need one mini fridge and one microwave between you, not two — they take up the room’s only spare corner. Agree on who brings what, and ideally on a few shared basics like a trash can and cleaning supplies, before either of you buys duplicates.',
+    },
+    {
+      q: 'What should I not forget to bring to college?',
+      a: 'The irreplaceables: your insurance card (plus a photo of it), photo ID or passport, a full supply of any prescriptions with a plan to refill near campus, and copies of important documents. Add a small first aid kit with OTC meds and a thermometer. These are the things that are a nightmare to replace once you are three states from home — pack them first.',
+    },
+  ],
+
   'dorm-room-essentials-brand-guide': [
     {
       q: 'What are the essential items for a dorm room?',
