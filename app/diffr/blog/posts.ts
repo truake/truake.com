@@ -600,8 +600,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'apartment-cleaning-supplies-brand-guide',
-    title: 'First Apartment Cleaning Supplies: One Brand Per Slot',
-    description: 'Everything a first apartment needs to clean every room — about ten supplies, one good brand each, assigned. The Diffr guide to first-apartment cleaning supplies: what to actually buy, in the order to buy it.',
+    title: 'Cleaning Supplies List: What a First Apartment Needs, One Brand Per Slot',
+    description: 'The complete cleaning supplies list for a first apartment — about ten supplies, one good brand each, assigned. The no-overwhelm cleaning supplies checklist: what to actually buy to clean every room, in the order to buy it.',
     date: '2026-06-18',
     readTime: '6 min read',
     tags: ['brand guide', 'first apartment cleaning supplies', 'cleaning supplies checklist', 'apartment cleaning essentials', 'first apartment checklist', 'non-repetition principle'],
@@ -910,8 +910,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'backpacking-gear-brand-guide',
-    title: 'Backpacking Gear for Beginners: The Big Three to Navigation',
-    description: 'Eleven backpacking gear slots — the big three to navigation — assigned and closed. The Diffr brand guide to a complete beginner backpacking starter kit: what to buy first, starting with the big three, without a six-month research project.',
+    title: 'Backpacking Checklist: The Big Three to Navigation, One Brand Per Slot',
+    description: 'The complete backpacking checklist — eleven slots from the big three to navigation, one brand each, assigned. What to buy first for your first backpacking trip, without a six-month research project.',
     date: '2026-06-04',
     readTime: '8 min read',
     tags: ['brand guide', 'backpacking gear for beginners', 'backpacking starter kit', 'complete backpacking kit', 'backpacking gear list for beginners', 'backpacking brands', 'non-repetition principle'],
@@ -2596,8 +2596,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'home-office-brand-guide',
-    title: 'Home Office Gear for Beginners: One Brand Per Slot',
-    description: 'Stop scrolling r/homeoffice. Here are 13 home office essentials, 13 real brand picks, and a buy-in-this-order priority for your first remote-job setup — zero decisions left for you to make.',
+    title: 'Home Office Setup: The Work-From-Home Essentials, One Brand Per Slot',
+    description: 'The complete home office setup — 13 work-from-home essentials, one real brand pick each, in buy-this-order priority. Everything you need for a first remote-job desk setup, zero decisions left for you to make.',
     date: '2026-05-23',
     readTime: '8 min read',
     tags: ['brand guide', 'home office essentials', 'home office starter kit', 'first remote job setup', 'desk setup', 'home office', 'non-repetition principle'],
