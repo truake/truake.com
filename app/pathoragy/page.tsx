@@ -2,6 +2,43 @@ import Image from "next/image";
 import Link from "next/link";
 import PathoragyWaitlistForm from "./waitlist-form";
 import { Fraunces } from "next/font/google";
+import type { Metadata } from "next";
+
+// The /pathoragy landing page previously exported no metadata, so it inherited
+// the root default title ("Truake — One Person. Full Company.") — a real SEO
+// gap on Pathoragy's most important page. Give it a proper, keyword-targeted
+// title/description/OG (mirrors what /diffr already has).
+export const metadata: Metadata = {
+  title: "Pathoragy — Live on Purpose, Not by Default",
+  description:
+    "Pathoragy is an app for intentional living and long-horizon life design — escape the hedonic treadmill and build a life of lasting purpose, knowledge, and interest, not default consumption.",
+  keywords: [
+    "Pathoragy",
+    "intentional living",
+    "life design",
+    "long-horizon planning",
+    "hedonic treadmill",
+    "sustainable happiness",
+    "purpose",
+    "life planning app",
+  ],
+  alternates: { canonical: "https://truake.com/pathoragy" },
+  openGraph: {
+    type: "website",
+    url: "https://truake.com/pathoragy",
+    siteName: "Truake",
+    title: "Pathoragy — Live on Purpose, Not by Default",
+    description:
+      "An app for intentional living and long-horizon life design — escape the hedonic treadmill and build a life of lasting purpose, knowledge, and interest.",
+    images: [{ url: "/pathoragy-og.png", width: 1200, height: 630, alt: "Pathoragy — live on purpose, not by default" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pathoragy — Live on Purpose, Not by Default",
+    description: "An app for intentional living and long-horizon life design.",
+    images: ["/pathoragy-og.png"],
+  },
+};
 
 const fraunces = Fraunces({
   subsets: ["latin"],
