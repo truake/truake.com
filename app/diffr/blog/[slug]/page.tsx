@@ -35,6 +35,21 @@ const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'casual-wardrobe-brand-guide': 28,
   'work-wardrobe-brand-guide': 29,
   'winter-layering-brand-guide': 30,
+  // Toy Team campaign (TS5 tie-in) — dev built preset_scenarios 99-108. Mapped
+  // by brand roster to the already-published post slugs (the post slugs differ
+  // from dev's working names; rosters matched exactly). Most toy logos/images
+  // are still NULL → kit cards render brand name + 'pending' placeholder until
+  // images backfill; editorial prose is unaffected.
+  'toy-team-heirloom-box': 99,
+  'toy-team-builders-box': 100,
+  'toy-team-saturday-morning-box': 101,
+  'toy-team-backyard-box': 102,
+  'toy-team-learn-and-go-box': 103,
+  'toy-team-quiet-afternoon-box': 104,
+  'toy-team-rainy-day-box': 105,
+  'toy-team-throwback-box': 106,
+  'toy-team-bedtime-box': 107,
+  'toy-team-birthday-box': 108,
 }
 
 // Each brand-guide post has a live, interactive twin at /diffr/start/<slug>
