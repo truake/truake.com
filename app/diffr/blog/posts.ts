@@ -12,6 +12,364 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'mixed-toy-box',
+    title: 'The Mixed Toy Box: 10 Toy Teams, One Best Brand Per Type',
+    description: 'The best toy box was never all one brand — it was one great toy of each kind, assembled into a whole. Ten mixed Toy Teams, each one best brand per toy type: building, plush, die-cast, electronic, dolls, and more.',
+    date: '2026-06-19',
+    readTime: '5 min read',
+    tags: ['toy team', 'mixed toy box', 'best toys by category', 'one toy per type', 'gift guide by age', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'The best toy box was never all one brand. Ten mixed Toy Teams — one best brand per type, assembled, not piled up.',
+    content: `
+<p>Every few years the culture remembers something every kid already knew: the toy box that mattered was never the one stuffed with twenty of the same thing. It was the mixed one &mdash; where a blinking handheld gadget, a wooden train, a plush bear, a die-cast car, and a tub of building blocks all somehow belonged to the same afternoon. Different scales, different art styles, different ages, one world.</p>
+
+<p>That is the Diffr idea applied to toys: <strong>one best brand per type, assembled into a whole &mdash; never a pile of near-identical things.</strong> It is the <a href="/diffr/blog/the-one-brand-rule">One-Brand Rule</a> in a toy box, the cure for the <a href="/diffr/blog/the-toothpaste-aisle-tax">toothpaste-aisle</a> wall of forty figures that all blur together.</p>
+
+<p>So we built ten of them. Each &ldquo;Toy Team&rdquo; is a mixed box: one standout brand for each toy archetype &mdash; building, die-cast, plush, electronic, dolls, board games, art, and more &mdash; with <strong>no brand repeated across any of the ten</strong>. Pick the box that fits the kid (or the kid you were).</p>
+
+<h2>The Ten Toy Teams</h2>
+<ul>
+<li><a href="/diffr/blog/toy-team-heirloom-box">N&ordm;1 &mdash; The Heirloom Box</a>: the keep-forever, pass-it-down mix.</li>
+<li><a href="/diffr/blog/toy-team-builders-box">N&ordm;2 &mdash; The Builder&rsquo;s Box</a>: for the kid who builds before they play.</li>
+<li><a href="/diffr/blog/toy-team-saturday-morning-box">N&ordm;3 &mdash; The Saturday-Morning Box</a>: the big, iconic, everyone-knows-them brands.</li>
+<li><a href="/diffr/blog/toy-team-backyard-box">N&ordm;4 &mdash; The Backyard Box</a>: ride-ons, wood, and things that move.</li>
+<li><a href="/diffr/blog/toy-team-learn-and-go-box">N&ordm;5 &mdash; The Learn-and-Go Box</a>: play that teaches without feeling like it.</li>
+<li><a href="/diffr/blog/toy-team-quiet-afternoon-box">N&ordm;6 &mdash; The Quiet-Afternoon Box</a>: calm, hands-on, batteries optional.</li>
+<li><a href="/diffr/blog/toy-team-rainy-day-box">N&ordm;7 &mdash; The Rainy-Day Box</a>: the indoor, all-day, never-bored mix.</li>
+<li><a href="/diffr/blog/toy-team-throwback-box">N&ordm;8 &mdash; The Throwback Box</a>: the ones that raised the grown-ups.</li>
+<li><a href="/diffr/blog/toy-team-bedtime-box">N&ordm;9 &mdash; The Bedtime Box</a>: stories, softness, and wind-down play.</li>
+<li><a href="/diffr/blog/toy-team-birthday-box">N&ordm;10 &mdash; The Birthday Box</a>: the open-it-and-gasp gift mix.</li>
+</ul>
+
+<h2>Why One Per Type Beats a Pile</h2>
+<p>A kid does not need ten building sets; they need one great one, plus a plush, plus something with wheels, plus something that lights up. Variety of <em>kind</em> &mdash; not quantity of the same kind &mdash; is what makes a toy box a world instead of a shelf. That is the whole Diffr method: <a href="/diffr/blog/the-decide-once-rule">decide once</a>, pick the best of each type, and stop.</p>
+
+<p>Building a real one? <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr</a> picks the one brand per slot for any kit &mdash; toys included. Assemble the box. Stop researching.</p>
+`.trim(),
+  },
+  {
+    slug: 'toy-team-heirloom-box',
+    title: 'Toy Team Nº1 — The Heirloom Box: One Brand Per Toy Type',
+    description: 'The Heirloom Box: a mixed toy box built to last, one best brand per type — electronic, building, die-cast, doll, figure, learning, art, and plush. Eight toys, eight brands, one of each.',
+    date: '2026-06-19',
+    readTime: '4 min read',
+    tags: ['toy team', 'mixed toy box', 'heirloom toys', 'best toys by type', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight toy types, eight keep-forever brands, one of each. The Heirloom Box — the toys worth passing down.',
+    content: `
+<p>Some toys get handed down. The season that has everyone remembering their childhood toy box is a good reminder that the ones worth keeping were never the cheapest or the loudest &mdash; they were the well-made one of each kind. The Heirloom Box is that instinct, assembled: eight toy types, eight brands built to survive a childhood (and maybe a second one). One of each, no repeats &mdash; the Diffr way.</p>
+
+<h2>The Box</h2>
+<h3>Electronic &mdash; Cybiko</h3>
+<p>The cult handheld that proves &ldquo;electronic&rdquo; need not mean disposable &mdash; a pocket gadget with real character, the battery-powered member every mixed box needs.</p>
+<h3>Building &mdash; Geomag</h3>
+<p>Swiss magnetic rods and spheres that snap into structures and never wear out &mdash; the open-ended builder that grows from toddler towers to tricky geometry.</p>
+<h3>Die-Cast Car &mdash; Majorette</h3>
+<p>French-made metal cars with the heft and detail collectors keep for decades &mdash; the &ldquo;something with wheels&rdquo; slot in a brand that outlasts the carpet it races on.</p>
+<h3>Doll &mdash; Rainbow High</h3>
+<p>Bold, fashion-forward dolls with the styling play kids actually return to &mdash; the doll slot covered by a line that reads current without feeling throwaway.</p>
+<h3>Action Figure &mdash; JAKKS Pacific</h3>
+<p>The poseable-figure specialist behind a huge range of well-made characters &mdash; the &ldquo;hero who leads the team&rdquo; slot, sturdy enough for real play.</p>
+<h3>Learning &mdash; Learning Resources</h3>
+<p>Hands-on STEM and counting toys that teach without feeling like homework &mdash; the clever slot that earns its place in any box a parent assembles.</p>
+<h3>Art &mdash; Staedtler</h3>
+<p>German pencils and markers that have outfitted serious drawing for over a century &mdash; the creative slot in a brand that lasts from first scribbles to real sketching.</p>
+<h3>Plush &mdash; Steiff</h3>
+<p>The original heirloom teddy, button-in-ear, made to be loved threadbare and passed on &mdash; the soft, keep-forever member of the box.</p>
+
+<h2>One of Each, Not Ten of One</h2>
+<p>The Heirloom Box works because nothing in it repeats &mdash; one builder, one car, one bear, one gadget &mdash; the variety of kind that turns a box into a world. That is the Diffr method: <a href="/diffr/blog/the-one-brand-rule">one best brand per type</a>, assembled, not piled up. See all ten <a href="/diffr/blog/mixed-toy-box">Toy Teams &rarr;</a> or get the one-per-slot picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Next: <a href="/diffr/blog/toy-team-builders-box">N&ordm;2, The Builder&rsquo;s Box &rarr;</a></p>
+`.trim(),
+  },
+  {
+    slug: 'toy-team-builders-box',
+    title: 'Toy Team Nº2 — The Builder’s Box: One Brand Per Toy Type',
+    description: 'The Builder’s Box: a mixed toy box for the kid who builds before they play — one best brand per type across electronic, construction, die-cast, wooden, playset, preschool, and outdoor.',
+    date: '2026-06-19',
+    readTime: '4 min read',
+    tags: ['toy team', 'mixed toy box', 'building toys', 'best toys by type', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven toy types, seven brands, one of each. The Builder’s Box — for the kid who makes before they play.',
+    content: `
+<p>Some kids build before they play. The toy-box nostalgia in the air right now skips past the flashy stuff for them and lands on the things you assemble, connect, and rebuild. The Builder&rsquo;s Box is that kid&rsquo;s whole world &mdash; seven toy types, seven brands, one of each, no repeats.</p>
+
+<h2>The Box</h2>
+<h3>Electronic &mdash; Kano</h3>
+<p>Build-it-yourself computers and coding kits that turn screen time into make-time &mdash; the electronic slot for a kid who wants to know how it works.</p>
+<h3>Construction &mdash; K&rsquo;NEX</h3>
+<p>Rods-and-connectors building that makes things which actually move &mdash; coasters, machines, motorized rigs. The engineering end of the block aisle.</p>
+<h3>Die-Cast Car &mdash; Matchbox</h3>
+<p>The original pocket-size metal cars, leaning real-world and collectible &mdash; the &ldquo;something with wheels&rdquo; slot with decades of credibility.</p>
+<h3>Wooden &mdash; BRIO</h3>
+<p>The Swedish wooden railway that has connected generations of train tables &mdash; the heirloom-wood slot that never needs batteries.</p>
+<h3>Playset &mdash; Playmobil</h3>
+<p>Tiny figures and detailed worlds to stage and restage endlessly &mdash; the storytelling slot, built for imaginative play that lasts years.</p>
+<h3>Preschool &mdash; Playskool</h3>
+<p>The first-toys specialist: chunky, durable, made for hands still learning &mdash; the youngest-builder slot in the box.</p>
+<h3>Outdoor &mdash; Little Tikes</h3>
+<p>The cult of the indestructible slide, cozy coupe, and climber &mdash; the take-it-outside slot built to survive a yard.</p>
+
+<h2>One of Each, Not Ten of One</h2>
+<p>The Builder&rsquo;s Box covers seven kinds of play with one strong brand each &mdash; the variety of kind that beats a bin of the same set. That is the Diffr method: <a href="/diffr/blog/the-one-brand-rule">one best brand per type</a>. See all ten <a href="/diffr/blog/mixed-toy-box">Toy Teams &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">get the app</a>. Next: <a href="/diffr/blog/toy-team-saturday-morning-box">N&ordm;3, The Saturday-Morning Box &rarr;</a></p>
+`.trim(),
+  },
+  {
+    slug: 'toy-team-saturday-morning-box',
+    title: 'Toy Team Nº3 — The Saturday-Morning Box: One Brand Per Toy Type',
+    description: 'The Saturday-Morning Box: the big, iconic, everyone-knows-them toy brands, one per type — electronic learning, building, die-cast, wooden, transforming figure, ride-on, and outdoor.',
+    date: '2026-06-19',
+    readTime: '4 min read',
+    tags: ['toy team', 'mixed toy box', 'classic toy brands', 'best toys by type', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven toy types, seven household-name brands, one of each. The Saturday-Morning Box.',
+    content: `
+<p>Some toy boxes are pure icon &mdash; the brands every grown-up in the room recognizes the second the lid comes off. With everyone revisiting their childhood toys this season, the Saturday-Morning Box is the all-stars mix: seven toy types, seven names you already know, one of each, no repeats.</p>
+
+<h2>The Box</h2>
+<h3>Electronic &mdash; LeapFrog</h3>
+<p>The learning-tablet and phonics pioneer that made &ldquo;educational electronic&rdquo; actually fun &mdash; the battery-powered slot a parent feels good about.</p>
+<h3>Building &mdash; LEGO</h3>
+<p>The brick that needs no introduction &mdash; the open-ended building slot, and the one toy that genuinely grows from toddler to adult.</p>
+<h3>Die-Cast Car &mdash; Hot Wheels</h3>
+<p>The orange-track icon and the most-recognized small car on earth &mdash; the wheels slot, covered by the brand that defined it.</p>
+<h3>Wooden &mdash; GRIMM&rsquo;S</h3>
+<p>The rainbow-stacker and open-ended wooden shapes that anchor a thousand play shelves &mdash; the heirloom-wood slot with real design pedigree.</p>
+<h3>Transforming Figure &mdash; Transformers</h3>
+<p>Robots that become vehicles and back again &mdash; the action slot with the best built-in play mechanic in the box.</p>
+<h3>Ride-On &mdash; Peg Perego</h3>
+<p>Italian-made battery ride-on cars built like real vehicles &mdash; the big-ticket &ldquo;it moves and so do they&rdquo; slot.</p>
+<h3>Outdoor &mdash; Step2</h3>
+<p>The kitchen, slide, and sand-table specialist &mdash; the sturdy take-it-outside slot that survives every backyard.</p>
+
+<h2>One of Each, Not Ten of One</h2>
+<p>Even an all-icon box wins by variety of kind, not repetition &mdash; one builder, one car, one robot, one ride-on. That is the Diffr method: <a href="/diffr/blog/the-one-brand-rule">one best brand per type</a>. See all ten <a href="/diffr/blog/mixed-toy-box">Toy Teams &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">get the app</a>. Next: <a href="/diffr/blog/toy-team-backyard-box">N&ordm;4, The Backyard Box &rarr;</a></p>
+`.trim(),
+  },
+  {
+    slug: 'toy-team-backyard-box',
+    title: 'Toy Team Nº4 — The Backyard Box: One Brand Per Toy Type',
+    description: 'The Backyard Box: ride-ons, wood, and things that move — one best brand per type across electronic STEM, log building, die-cast, wooden, animal figures, ride-on, and outdoor water play.',
+    date: '2026-06-19',
+    readTime: '4 min read',
+    tags: ['toy team', 'mixed toy box', 'outdoor toys', 'best toys by type', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven toy types, seven brands, one of each. The Backyard Box — for the kid who plays loud and outside.',
+    content: `
+<p>Some kids live outside. The toy box for them is less about the shelf and more about the yard &mdash; things that roll, build, splash, and take a beating. The Backyard Box is that energy assembled: seven toy types, seven brands, one of each, no repeats.</p>
+
+<h2>The Box</h2>
+<h3>Electronic &mdash; littleBits</h3>
+<p>Magnetic electronic modules that snap into working circuits and inventions &mdash; the battery slot for a kid who builds gadgets, not just plays them.</p>
+<h3>Log Building &mdash; Lincoln Logs</h3>
+<p>The notched wooden logs that built cabins for a century &mdash; the heritage construction slot, all imagination, no screen.</p>
+<h3>Die-Cast Car &mdash; Siku</h3>
+<p>German die-cast vehicles, strong on farm and construction rigs &mdash; the realistic-wheels slot for the kid who loves the big machines.</p>
+<h3>Wooden &mdash; Jeujura</h3>
+<p>French wooden building sets and classic games made the old way &mdash; the heirloom-wood slot with European craft behind it.</p>
+<h3>Animal Figure &mdash; Papo</h3>
+<p>Hand-painted, realistic animals and creatures kids line up and narrate &mdash; the &ldquo;the pet that joins the team&rdquo; slot, done with real detail.</p>
+<h3>Ride-On &mdash; Power Wheels</h3>
+<p>The battery ride-on that defined driving-your-own-car as a kid &mdash; the big-move slot, built for grass and driveways.</p>
+<h3>Outdoor &mdash; Waboba</h3>
+<p>Bouncing-on-water balls and active outdoor toys &mdash; the get-them-running slot that turns any yard or pool into a game.</p>
+
+<h2>One of Each, Not Ten of One</h2>
+<p>The Backyard Box wins on range &mdash; build, drive, throw, narrate &mdash; one brand per kind, not a pile of the same ball. That is the Diffr method: <a href="/diffr/blog/the-one-brand-rule">one best brand per type</a>. See all ten <a href="/diffr/blog/mixed-toy-box">Toy Teams &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">get the app</a>. Next: <a href="/diffr/blog/toy-team-learn-and-go-box">N&ordm;5, The Learn-and-Go Box &rarr;</a></p>
+`.trim(),
+  },
+  {
+    slug: 'toy-team-learn-and-go-box',
+    title: 'Toy Team Nº5 — The Learn-and-Go Box: One Brand Per Toy Type',
+    description: 'The Learn-and-Go Box: play that teaches without feeling like it — one best brand per type across electronic STEM, magnetic building, die-cast, wooden classics, animal figures, scooter, and toddler.',
+    date: '2026-06-19',
+    readTime: '4 min read',
+    tags: ['toy team', 'mixed toy box', 'educational toys', 'best toys by type', 'gift guide by age', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven toy types, seven brands, one of each. The Learn-and-Go Box — play that teaches without feeling like it.',
+    content: `
+<p>The best learning toys never announce themselves as learning toys. The Learn-and-Go Box is the mix a parent assembles when they want play that quietly builds skills &mdash; and packs up for the road. Seven toy types, seven brands, one of each, no repeats.</p>
+
+<h2>The Box</h2>
+<h3>Electronic &mdash; Osmo</h3>
+<p>Hands-on games that bridge a tablet and real pieces on the table &mdash; the screen-time-that-counts slot, learning disguised as play.</p>
+<h3>Magnetic Building &mdash; Magformers</h3>
+<p>Magnetic shapes that click flat and fold up into 3D &mdash; the building slot that teaches geometry without a single instruction sheet.</p>
+<h3>Die-Cast Car &mdash; Tomica</h3>
+<p>Precise, pocket-size Japanese die-cast cars with cult detail &mdash; the wheels slot for small hands and big collections.</p>
+<h3>Wooden Classic &mdash; Melissa &amp; Doug</h3>
+<p>Puzzles, play food, and wooden basics that anchor a whole early childhood &mdash; the no-batteries classic slot every box wants.</p>
+<h3>Animal Figure &mdash; Safari Ltd</h3>
+<p>Accurate animals, dinosaurs, and creatures kids learn the names of &mdash; the &ldquo;creature member&rdquo; slot, equal parts toy and field guide.</p>
+<h3>Scooter &mdash; Razor</h3>
+<p>The kick scooter that taught a generation to balance and go &mdash; the get-up-and-move slot that travels to the park.</p>
+<h3>Toddler &mdash; Fisher-Price</h3>
+<p>The first-toys giant behind half the developmental basics &mdash; the youngest-in-the-room slot, built for milestones.</p>
+
+<h2>One of Each, Not Ten of One</h2>
+<p>Learning comes from variety of kind &mdash; build, count, name, move &mdash; not from ten of the same flashcard toy. That is the Diffr method: <a href="/diffr/blog/the-one-brand-rule">one best brand per type</a>. See all ten <a href="/diffr/blog/mixed-toy-box">Toy Teams &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">get the app</a>. Next: <a href="/diffr/blog/toy-team-quiet-afternoon-box">N&ordm;6, The Quiet-Afternoon Box &rarr;</a></p>
+`.trim(),
+  },
+  {
+    slug: 'toy-team-quiet-afternoon-box',
+    title: 'Toy Team Nº6 — The Quiet-Afternoon Box: One Brand Per Toy Type',
+    description: 'The Quiet-Afternoon Box: calm, hands-on, batteries optional — one best brand per type across electronic circuits, magnetic tiles, dolls, wooden toys, animal figures, slot-car racing, and montessori play.',
+    date: '2026-06-19',
+    readTime: '4 min read',
+    tags: ['toy team', 'mixed toy box', 'screen free toys', 'best toys by type', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven toy types, seven brands, one of each. The Quiet-Afternoon Box — calm, hands-on, deeply absorbing.',
+    content: `
+<p>Some boxes are for the long, quiet afternoon &mdash; the kind of play that pulls a kid in for an hour without a single notification. The Quiet-Afternoon Box is that focus, assembled: seven toy types, seven brands, one of each, no repeats.</p>
+
+<h2>The Box</h2>
+<h3>Electronic &mdash; Snap Circuits</h3>
+<p>Snap-together components that build real, working circuits &mdash; the electronic slot that is absorbing, hands-on, and genuinely teaches.</p>
+<h3>Magnetic Tiles &mdash; Magna-Tiles</h3>
+<p>The translucent magnetic tiles that build anything and hold attention for ages &mdash; the open-ended building slot kids return to daily.</p>
+<h3>Doll &mdash; American Girl</h3>
+<p>Story-rich dolls with the depth that turns play into long-form imagination &mdash; the doll slot built for the afternoon, not the unboxing.</p>
+<h3>Wooden &mdash; PlanToys</h3>
+<p>Sustainably-made wooden toys with quiet, beautiful design &mdash; the calm, tactile slot that looks as good on the shelf as in hand.</p>
+<h3>Animal Figure &mdash; Schleich</h3>
+<p>The benchmark for realistic, hand-painted animal and creature figures &mdash; the &ldquo;living member&rdquo; of the box, narrated for hours.</p>
+<h3>Slot-Car Racing &mdash; AFX</h3>
+<p>Electric slot-car sets that turn a tabletop into a racetrack &mdash; the focused, build-and-race slot with deep replay.</p>
+<h3>Montessori &mdash; Lovevery</h3>
+<p>Stage-based play kits designed around what a child is learning right now &mdash; the developmental slot for the youngest at the table.</p>
+
+<h2>One of Each, Not Ten of One</h2>
+<p>Deep play comes from range, not repetition &mdash; circuits, tiles, a doll, a racetrack &mdash; one brand per kind. That is the Diffr method: <a href="/diffr/blog/the-one-brand-rule">one best brand per type</a>. See all ten <a href="/diffr/blog/mixed-toy-box">Toy Teams &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">get the app</a>. Next: <a href="/diffr/blog/toy-team-rainy-day-box">N&ordm;7, The Rainy-Day Box &rarr;</a></p>
+`.trim(),
+  },
+  {
+    slug: 'toy-team-rainy-day-box',
+    title: 'Toy Team Nº7 — The Rainy-Day Box: One Brand Per Toy Type',
+    description: 'The Rainy-Day Box: indoor, all-day, never-bored — one best brand per type across robot, building, doll, collectible figure, board game, slot-car racing, and plush.',
+    date: '2026-06-19',
+    readTime: '4 min read',
+    tags: ['toy team', 'mixed toy box', 'indoor toys', 'best toys by type', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven toy types, seven brands, one of each. The Rainy-Day Box — indoor, all-day, never bored.',
+    content: `
+<p>A rainy day is a stress test for a toy box: does it hold a kid all afternoon, or run dry by lunch? The Rainy-Day Box is built to last the whole day indoors &mdash; seven toy types, seven brands, one of each, no repeats.</p>
+
+<h2>The Box</h2>
+<h3>Robot &mdash; Sphero</h3>
+<p>App-driven rolling robots kids can code and drive &mdash; the electronic slot that turns a wet afternoon into a coding lab.</p>
+<h3>Building &mdash; Mega Bloks</h3>
+<p>Big, easy-grip building blocks that scale from toddlers up &mdash; the construction slot for hands of every age in the house.</p>
+<h3>Doll &mdash; Baby Alive</h3>
+<p>Interactive, care-for-me dolls that anchor hours of nurturing play &mdash; the doll slot with the most built-in story.</p>
+<h3>Collectible Figure &mdash; Funko</h3>
+<p>The vinyl-figure phenomenon &mdash; the &ldquo;collect and display&rdquo; slot, and the brand kids and grown-ups raid shelves for together.</p>
+<h3>Board Game &mdash; Days of Wonder</h3>
+<p>Beautifully-made family board games that are easy to learn and hard to put down &mdash; the everyone-at-the-table slot.</p>
+<h3>Slot-Car Racing &mdash; Carrera</h3>
+<p>Premium electric racing sets with serious track &mdash; the build-it-and-race slot that eats an entire rainy afternoon.</p>
+<h3>Plush &mdash; Manhattan Toy</h3>
+<p>Soft, characterful plush and baby toys with real design &mdash; the comfort slot for the quiet end of the day.</p>
+
+<h2>One of Each, Not Ten of One</h2>
+<p>A box survives a rainy day on variety of kind &mdash; code, build, race, cuddle &mdash; not ten of the same set. That is the Diffr method: <a href="/diffr/blog/the-one-brand-rule">one best brand per type</a>. See all ten <a href="/diffr/blog/mixed-toy-box">Toy Teams &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">get the app</a>. Next: <a href="/diffr/blog/toy-team-throwback-box">N&ordm;8, The Throwback Box &rarr;</a></p>
+`.trim(),
+  },
+  {
+    slug: 'toy-team-throwback-box',
+    title: 'Toy Team Nº8 — The Throwback Box: One Brand Per Toy Type',
+    description: 'The Throwback Box: the toys that raised the grown-ups — one best brand per type across electronic pet, building, doll, collectible cars, board game, slot-car racing, and plush.',
+    date: '2026-06-19',
+    readTime: '4 min read',
+    tags: ['toy team', 'mixed toy box', 'retro toys', 'best toys by type', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven toy types, seven brands, one of each. The Throwback Box — the toys that raised the grown-ups.',
+    content: `
+<p>Part of the fun of revisiting childhood toys is realizing the kids in your life can love the same ones. The Throwback Box is the cross-generational mix &mdash; the brands a parent recognizes instantly, still going strong. Seven toy types, seven brands, one of each, no repeats.</p>
+
+<h2>The Box</h2>
+<h3>Electronic Pet &mdash; Tamagotchi</h3>
+<p>The keychain digital pet that started a phenomenon &mdash; the battery slot with pure nostalgia and a play loop kids still love.</p>
+<h3>Building &mdash; Plus-Plus</h3>
+<p>One simple interlocking shape that builds flat mosaics or 3D models &mdash; the deceptively-deep construction slot, tidy and travel-ready.</p>
+<h3>Doll &mdash; Barbie</h3>
+<p>The most recognized doll in the world, with endless careers and worlds &mdash; the doll slot, covered by the original.</p>
+<h3>Collectible Cars &mdash; Playforever</h3>
+<p>Sculptural, design-led toy cars built to sit on a shelf as much as roll &mdash; the keep-and-display slot with grown-up taste.</p>
+<h3>Board Game &mdash; Hasbro</h3>
+<p>The house behind the family-game-night classics &mdash; the around-the-table slot every throwback box needs.</p>
+<h3>Slot-Car Racing &mdash; Scalextric</h3>
+<p>The classic British electric racing sets that fathers and kids build together &mdash; the cross-generational racetrack slot.</p>
+<h3>Plush &mdash; Gund</h3>
+<p>One of the oldest soft-toy makers, all huggable quality &mdash; the comfort slot with decades of bears behind it.</p>
+
+<h2>One of Each, Not Ten of One</h2>
+<p>Nostalgia works best as a mix &mdash; a pet, a racetrack, a doll, a bear &mdash; one brand per kind, not a shelf of the same line. That is the Diffr method: <a href="/diffr/blog/the-one-brand-rule">one best brand per type</a>. See all ten <a href="/diffr/blog/mixed-toy-box">Toy Teams &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">get the app</a>. Next: <a href="/diffr/blog/toy-team-bedtime-box">N&ordm;9, The Bedtime Box &rarr;</a></p>
+`.trim(),
+  },
+  {
+    slug: 'toy-team-bedtime-box',
+    title: 'Toy Team Nº9 — The Bedtime Box: One Brand Per Toy Type',
+    description: 'The Bedtime Box: stories, softness, and wind-down play — one best brand per type across audio player, wooden building, doll, collectible, puzzle, art, and plush.',
+    date: '2026-06-19',
+    readTime: '4 min read',
+    tags: ['toy team', 'mixed toy box', 'screen free toys', 'best toys by type', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven toy types, seven brands, one of each. The Bedtime Box — stories, softness, and wind-down play.',
+    content: `
+<p>The end-of-day box is its own art: calm enough to wind down, rich enough to hold attention without a screen glowing in the dark. The Bedtime Box is that gentle mix &mdash; seven toy types, seven brands, one of each, no repeats.</p>
+
+<h2>The Box</h2>
+<h3>Audio Player &mdash; Tonies</h3>
+<p>Screen-free audio: place a character figure on the box and a story plays &mdash; the &ldquo;electronic&rdquo; slot that winds a kid down instead of up.</p>
+<h3>Wooden Building &mdash; Tinkertoy</h3>
+<p>The classic wooden spools-and-rods construction set &mdash; the quiet, no-batteries building slot for the calm end of the day.</p>
+<h3>Doll &mdash; Bratz</h3>
+<p>Bold, style-driven dolls with a devoted following &mdash; the doll slot for imaginative, low-key bedside play.</p>
+<h3>Collectible &mdash; Tomy</h3>
+<p>The long-running maker behind countless collectible and character toys &mdash; the little-treasure slot to line up on the nightstand.</p>
+<h3>Puzzle &mdash; Ravensburger</h3>
+<p>The gold standard of jigsaw puzzles and quiet family games &mdash; the focused, wind-down slot that ends the day calmly.</p>
+<h3>Art &mdash; Crayola</h3>
+<p>The crayons-and-markers default that needs no introduction &mdash; the creative slot for one last drawing before lights out.</p>
+<h3>Plush &mdash; Moulin Roty</h3>
+<p>French-made plush and soft toys with storybook charm &mdash; the soft, keep-by-the-pillow member of the box.</p>
+
+<h2>One of Each, Not Ten of One</h2>
+<p>A wind-down box still wants range &mdash; a story, a puzzle, a drawing, a bear &mdash; one brand per kind. That is the Diffr method: <a href="/diffr/blog/the-one-brand-rule">one best brand per type</a>. See all ten <a href="/diffr/blog/mixed-toy-box">Toy Teams &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">get the app</a>. Next: <a href="/diffr/blog/toy-team-birthday-box">N&ordm;10, The Birthday Box &rarr;</a></p>
+`.trim(),
+  },
+  {
+    slug: 'toy-team-birthday-box',
+    title: 'Toy Team Nº10 — The Birthday Box: One Brand Per Toy Type',
+    description: 'The Birthday Box: the open-it-and-gasp gift mix — one best brand per type across audio player, die-cast, surprise doll, collectible, learning, art, and plush.',
+    date: '2026-06-19',
+    readTime: '4 min read',
+    tags: ['toy team', 'mixed toy box', 'birthday gift ideas', 'best toys by type', 'gift guide by age', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven toy types, seven brands, one of each. The Birthday Box — the open-it-and-gasp gift mix.',
+    content: `
+<p>A great birthday gift is not the biggest single thing &mdash; it is the box that has a little of everything the kid loves, with nothing repeated. The Birthday Box is that open-it-and-gasp mix, assembled the Diffr way: seven toy types, seven brands, one of each.</p>
+
+<h2>The Box</h2>
+<h3>Audio Player &mdash; Yoto</h3>
+<p>A screen-free audio player kids control with story cards &mdash; the electronic slot that becomes a daily favorite, not a one-day toy.</p>
+<h3>Die-Cast Car &mdash; Bburago</h3>
+<p>Italian die-cast models with real heft and detail &mdash; the wheels slot, a gift that feels grown-up in a small hand.</p>
+<h3>Surprise Doll &mdash; L.O.L. Surprise!</h3>
+<p>Layered unboxing dolls built for the thrill of the reveal &mdash; the doll slot with the most birthday-morning drama.</p>
+<h3>Collectible &mdash; ZURU</h3>
+<p>The fast, fun mini-brands and novelty collectibles kids trade and chase &mdash; the &ldquo;surprise treasure&rdquo; slot.</p>
+<h3>Learning &mdash; Educational Insights</h3>
+<p>Bright, clever STEM and game-based learning toys &mdash; the smart slot that makes a birthday gift feel generous and good for them.</p>
+<h3>Art &mdash; Faber-Castell</h3>
+<p>Heritage German pencils and quality kids&rsquo; art supplies &mdash; the creative slot that outlasts the wrapping paper by years.</p>
+<h3>Plush &mdash; Jellycat</h3>
+<p>The irresistibly soft, quirky plush kids and adults both covet &mdash; the comfort slot, and the one they will sleep with that night.</p>
+
+<h2>One of Each, Not Ten of One</h2>
+<p>The best birthday box is variety of kind &mdash; a story, a car, a surprise, a bear &mdash; one brand per type, never a pile of the same thing. That is the whole Diffr method: <a href="/diffr/blog/the-one-brand-rule">one best brand per type</a>, <a href="/diffr/blog/the-decide-once-rule">decide once</a>, assemble the box. Back to the full set &mdash; <a href="/diffr/blog/mixed-toy-box">all ten Toy Teams &rarr;</a> &mdash; or get the one-per-slot picks in your pocket: <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Assemble the box. Stop researching.</p>
+`.trim(),
+  },
+  {
     slug: 'housewarming-gift-ideas-brand-guide',
     title: 'Housewarming Gift Ideas: One Great Pick Per Vibe, Not More Clutter',
     description: 'The housewarming gift ideas they will actually use — one great pick per vibe and per budget, from a $25 candle to an heirloom Dutch oven. No hundred-item roundup, just the gifts that earn their place in a new home.',
