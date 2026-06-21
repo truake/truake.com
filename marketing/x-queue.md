@@ -15,6 +15,23 @@ that only helps if the post is native, not a link drop.
 
 ## queued
 
+### Toy Team campaign (TS5 tie-in)  — thread, pin during the film window
+```
+1/ The best toy box was never all one brand. It was the mixed one — a wooden train, a plush bear, a die-cast car, a blinking handheld, a tub of blocks — all in the same afternoon. 🧸🧱🚗
+
+2/ So we built ten of them. Each "Toy Team" = one best brand per toy type, assembled into a box. No brand repeated across any of the ten.
+
+3/ A few of the boxes:
+• Heirloom — Steiff, Geomag, Majorette, Cybiko
+• Saturday-Morning — LEGO, Hot Wheels, Transformers, LeapFrog
+• Bedtime — Tonies, Ravensburger, Crayola, Moulin Roty
+• Birthday — Yoto, Jellycat, Bburago, L.O.L. Surprise!
+
+4/ One per type beats ten of one — variety of kind is what makes a toy box a world. Pick your box, or build your own 👇
+https://truake.com/diffr/blog/mixed-toy-box
+```
+Note: IP-safe — never name the film/characters. "晒出你留下的那一队" engagement angle works as a reply/quote prompt.
+
 ### Diffr App Store launch  (pin this)
 ```
 1/ Diffr is live on the App Store. 📱

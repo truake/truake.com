@@ -71,6 +71,17 @@ const BLOG_SLUG_TO_START: Record<string, string> = {
   'casual-wardrobe-brand-guide': 'everyday-casual-look',
   'work-wardrobe-brand-guide': 'workwear-essentials',
   'winter-layering-brand-guide': 'cold-weather-layering',
+  // Toy Team — same slug for blog and the lean /start funnel twin.
+  'toy-team-heirloom-box': 'toy-team-heirloom-box',
+  'toy-team-builders-box': 'toy-team-builders-box',
+  'toy-team-saturday-morning-box': 'toy-team-saturday-morning-box',
+  'toy-team-backyard-box': 'toy-team-backyard-box',
+  'toy-team-learn-and-go-box': 'toy-team-learn-and-go-box',
+  'toy-team-quiet-afternoon-box': 'toy-team-quiet-afternoon-box',
+  'toy-team-rainy-day-box': 'toy-team-rainy-day-box',
+  'toy-team-throwback-box': 'toy-team-throwback-box',
+  'toy-team-bedtime-box': 'toy-team-bedtime-box',
+  'toy-team-birthday-box': 'toy-team-birthday-box',
 }
 
 export async function generateStaticParams() {
@@ -81,6 +92,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const post = getPostBySlug(slug)
   if (!post) return {}
+  // Toy Team campaign posts get the playful "mixed toy box" card; everything
+  // else uses the editorial Diffr card.
+  const isToyTeam = slug === 'mixed-toy-box' || slug.startsWith('toy-team-')
+  const ogImage = isToyTeam ? '/toy-team-og.png' : '/diffr-og.png'
+  const ogAlt = isToyTeam ? 'Toy Team — one best toy per type' : 'Diffr — curated beginner brand guides'
   return {
     title: `${post.title} — Diffr Blog`,
     description: post.description,
@@ -91,13 +107,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       publishedTime: post.date,
       tags: post.tags,
-      images: [{ url: '/diffr-og.png', width: 1200, height: 630, alt: 'Diffr — curated beginner brand guides' }],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: ogAlt }],
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.description,
-      images: ['/diffr-og.png'],
+      images: [ogImage],
     },
   }
 }

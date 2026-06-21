@@ -97,6 +97,17 @@ export const SLUG_TO_PRESET: Record<string, number> = {
   "first-aid-ready": 35,
   "daily-wellness-routine": 36,
   "family-game-night": 40,
+  // Toy Team campaign (TS5) — preset-only lean pages, same slugs as the blog posts.
+  "toy-team-heirloom-box": 99,
+  "toy-team-builders-box": 100,
+  "toy-team-saturday-morning-box": 101,
+  "toy-team-backyard-box": 102,
+  "toy-team-learn-and-go-box": 103,
+  "toy-team-quiet-afternoon-box": 104,
+  "toy-team-rainy-day-box": 105,
+  "toy-team-throwback-box": 106,
+  "toy-team-bedtime-box": 107,
+  "toy-team-birthday-box": 108,
 };
 
 // Slugs with no domain_guide editorial shell — rendered lean from preset data.
@@ -115,6 +126,10 @@ export const PRESET_ONLY_SLUGS = new Set<string>([
   "power-tool-starter-kit", "site-safety-gear", "precision-workshop",
   "home-health-monitoring", "first-aid-ready", "daily-wellness-routine",
   "family-game-night",
+  "toy-team-heirloom-box", "toy-team-builders-box", "toy-team-saturday-morning-box",
+  "toy-team-backyard-box", "toy-team-learn-and-go-box", "toy-team-quiet-afternoon-box",
+  "toy-team-rainy-day-box", "toy-team-throwback-box", "toy-team-bedtime-box",
+  "toy-team-birthday-box",
 ]);
 
 export async function getPresetMeta(
