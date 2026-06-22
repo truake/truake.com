@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { getAllPosts, getPostBySlug } from '../posts'
 import { PostNavLinks } from './nav-links'
 import { getSceneBrandKit } from '../../start/lib'
@@ -94,9 +95,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {}
   // Toy Team campaign posts get the playful "mixed toy box" card; everything
   // else uses the editorial Diffr card.
-  const isToyTeam = slug === 'mixed-toy-box' || slug.startsWith('toy-team-')
-  const ogImage = isToyTeam ? '/toy-team-og.png' : '/diffr-og.png'
-  const ogAlt = isToyTeam ? 'Toy Team — one best toy per type' : 'Diffr — curated beginner brand guides'
+  // Posts with a hook cover use the photo as the share image; the rest fall
+  // back to the generic Diffr card.
+  const hasCover = slug === 'mixed-toy-box' || slug.startsWith('toy-team-')
+  const ogImage = hasCover ? `/toy-covers/${slug}.jpg` : '/diffr-og.png'
+  const ogAlt = hasCover ? `${post.title} — Diffr` : 'Diffr — curated beginner brand guides'
+  const ogW = hasCover ? 1600 : 1200
+  const ogH = hasCover ? 840 : 630
   return {
     title: `${post.title} — Diffr Blog`,
     description: post.description,
@@ -107,7 +112,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       publishedTime: post.date,
       tags: post.tags,
-      images: [{ url: ogImage, width: 1200, height: 630, alt: ogAlt }],
+      images: [{ url: ogImage, width: ogW, height: ogH, alt: ogAlt }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -134,6 +139,11 @@ export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params
   const post = getPostBySlug(slug)
   if (!post) notFound()
+
+  // Hook cover photo (toy-team campaign posts); rendered as a hero + share image.
+  const coverImage = (slug === 'mixed-toy-box' || slug.startsWith('toy-team-'))
+    ? `/toy-covers/${slug}.jpg`
+    : null
 
   const allPosts = getAllPosts()
   const currentIndex = allPosts.findIndex((p) => p.slug === post.slug)
@@ -270,6 +280,19 @@ export default async function BlogPostPage({ params }: Props) {
           <p style={{ color: 'rgba(42,38,32,0.6)', fontSize: '18px', lineHeight: 1.6 }}>
             {post.description}
           </p>
+          {coverImage && (
+            <div style={{ marginTop: '28px', borderRadius: '14px', overflow: 'hidden', border: '1px solid rgba(42,38,32,0.08)' }}>
+              <Image
+                src={coverImage}
+                alt={post.title}
+                width={1600}
+                height={840}
+                priority
+                sizes="(max-width: 760px) 100vw, 720px"
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
+          )}
           <div style={{ height: '1px', background: 'rgba(42,38,32,0.08)', margin: '32px 0' }} />
         </header>
 
