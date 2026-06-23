@@ -127,6 +127,22 @@ https://truake.com/diffr/blog/womens-winter-layering-brand-guide
 https://truake.com/diffr/blog/womens-work-capsule-brand-guide
 ```
 
+### World Cup 2026 Kit Brands — thread, time to a match-day
+```
+1/ 48 teams at the 2026 World Cup. Cover the crests and it's really three companies on the pitch: Adidas dresses 14 teams, Nike 12, Puma 11. The other 11 are where it gets interesting. 🧵
+
+2/ Adidas (14): Argentina, Germany, Spain, Mexico, Belgium, Japan, Colombia…
+3/ Nike (12): Brazil, England, France, Portugal, USA, Croatia, Netherlands…
+4/ Puma (11): Switzerland, Morocco, Senegal, Austria, Egypt, Ghana…
+
+5/ The independents: Kelme (Jordan, Bosnia) · Marathon (Ecuador) · Kappa (Tunisia) · Umbro (DR Congo) · Reebok (Panama) · Jako (Iraq) · Capelli (Cape Verde) · Saeta (Haiti)
+
+6/ And two brands most people outside the country have never seen: 7Saber on Uzbekistan, Majid on Iran. Every team is dressed by someone — it just isn't always the someone you'd guess.
+
+7/ Team-by-team, all 48 — who actually wears what ↓
+https://truake.com/diffr/blog/world-cup-2026-kit-brands
+```
+
 ---
 
 ## posted
