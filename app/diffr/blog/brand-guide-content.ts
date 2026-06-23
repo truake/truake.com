@@ -15,6 +15,10 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'world-cup-2026-kit-brands':
+    'Bottom line: a national-team kit is one brand head to toe — and at the 2026 World Cup, Adidas dresses the most (14 teams, including Argentina, Germany, Spain, Mexico, Belgium and Japan), Nike 12 (Brazil, France, England, Netherlands, the United States, Croatia and more), and Puma 11 (Portugal, Morocco, Senegal, Switzerland, Egypt and others). The remaining 11 teams split across Kelme (Bosnia, Jordan), Marathon (Ecuador), Kappa (Tunisia), Umbro (DR Congo), Reebok (Panama), Jako (Iraq), Capelli (Cape Verde), Saeta (Haiti), 7Saber (Uzbekistan) and Majid (Iran). Full team-by-team list below.',
+  'beginner-soccer-gear-brand-guide':
+    'Bottom line: a beginner soccer kit is short and mostly lasts seasons — one good brand per slot. Cleats (Nike, fitted and matched to your surface), shin guards (Adidas, mandatory in matches), a ball (Select, sized to age), soccer socks (Puma), a training top (Umbro), goalkeeper gloves only if you play in goal (Uhlsport), a boot bag (Joma), and a water bottle (Owala). Buy first: fitted cleats, shin guards, a ball, and socks — a complete first practice. Below is one brand per slot, no repeats.',
   'international-travel-essentials-brand-guide':
     'Bottom line: international travel comes down to about ten carry-on essentials, one good brand each — not a 60-item list. The carry system: a carry-on suitcase (Away), a personal-item backpack (Peak Design), packing cubes (Eagle Creek). The in-transit kit: a universal travel adapter (Epicka), a power bank (Anker), noise-canceling headphones (Sony), a neck pillow (Cabeau). On the ground: walking shoes (Hoka), an anti-theft sling (Pacsafe), a water bottle (Owala). Buy first: the carry-on, a universal adapter, and the walking shoes. Heading to a stadium? Pack a clear tote within about 12x6x12 inches. Below is one brand per slot, no repeats.',
   'gift-ideas-for-her-brand-guide':
@@ -97,6 +101,25 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'beginner-soccer-gear-brand-guide': [
+    {
+      q: 'What gear do you need to start playing soccer?',
+      a: 'Four things for a first practice: cleats (fitted, matched to your playing surface), shin guards (mandatory in matches), a ball (sized to age), and long soccer socks to hold the guards in place. Add a breathable training top and a boot bag next, plus goalkeeper gloves only if you play in goal. That short list is a complete beginner kit.',
+    },
+    {
+      q: 'What soccer cleats should a beginner buy?',
+      a: 'Get fitted in store and match the cleat to your surface: firm-ground (FG) for natural grass, turf (TF) for artificial turf, and flats or indoor shoes for indoor courts. Nike and Adidas both make beginner-friendly ranges. Avoid metal studs for youth play (most leagues ban them), and replace cleats as feet grow rather than buying expensive pro models.',
+    },
+    {
+      q: 'What size soccer ball do I need?',
+      a: 'Size 5 for ages 12 and up (the adult match size), size 4 for roughly ages 8–11, and size 3 for younger children. Owning your own ball matters more than the brand — you improve by touching it thousands of times — but a quality ball like Select holds its shape and feel far longer than a cheap one.',
+    },
+    {
+      q: 'Are shin guards required for soccer?',
+      a: 'Yes — shin guards are mandatory in virtually all organized matches, and socks must cover them completely. For beginners, the slip-in style with built-in ankle sleeves is the easiest. They are the one piece of soccer safety gear you should never skip, even at practice.',
+    },
+  ],
+
   'international-travel-essentials-brand-guide': [
     {
       q: 'What are the essentials for international travel?',

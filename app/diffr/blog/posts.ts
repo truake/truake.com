@@ -12,6 +12,92 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'world-cup-2026-kit-brands',
+    title: 'World Cup 2026 Kits: What Brand Every Team Wears (All 48)',
+    description: 'World Cup 2026 kits by brand — all 48 teams and the maker behind each jersey. Adidas dresses 14, Nike 12, Puma 11, plus Kelme, Kappa, Umbro, Marathon and more. The full team-by-team kit-brand list.',
+    date: '2026-06-23',
+    readTime: '5 min read',
+    tags: ['world cup 2026 kits', 'world cup jerseys', 'world cup 2026 jersey brands', 'national team kits', 'soccer', 'one brand rule'],
+    category: 'product',
+    excerpt: 'All 48 World Cup 2026 teams, grouped by the brand that makes their kit. Adidas 14, Nike 12, Puma 11, and the rest.',
+    content: `
+<p>A national-team kit is the One-Brand Rule taken to its logical extreme: one brand, head to toe, for an entire country &mdash; the shirt, the shorts, the socks, all from a single maker, decided years in advance. So the question every fan asks before the 2026 World Cup is simple: <strong>what brand does my team wear?</strong> Here is the full answer &mdash; all 48 finalists, grouped by the brand behind their kit. (An independent fan&rsquo;s guide; we are not affiliated with any team, brand, or the tournament.)</p>
+
+<h2>Nike — 12 teams</h2>
+<p>The swoosh outfits a dozen finalists, including most of the favorites:</p>
+<p><strong>Brazil · France · England · Netherlands · United States · Croatia · Uruguay · Australia · Canada · South Korea · Norway · Turkey</strong></p>
+
+<h2>Adidas — 14 teams</h2>
+<p>The most-represented brand of the tournament, with fourteen national sides:</p>
+<p><strong>Argentina · Germany · Spain · Mexico · Belgium · Japan · Colombia · Sweden · Scotland · Saudi Arabia · Qatar · Algeria · South Africa · Curaçao</strong></p>
+
+<h2>Puma — 11 teams</h2>
+<p>Puma rounds out the big three, strong across Africa and central Europe:</p>
+<p><strong>Portugal · Morocco · Senegal · Switzerland · Egypt · Ghana · Ivory Coast · Austria · Czech Republic · Paraguay · New Zealand</strong></p>
+
+<h2>The Rest — 11 teams, 10 brands</h2>
+<p>Beyond the big three, ten more makers dress the remaining finalists &mdash; the kits collectors hunt for:</p>
+<ul>
+<li><strong>Kelme</strong> &mdash; Bosnia &amp; Herzegovina, Jordan</li>
+<li><strong>Marathon</strong> &mdash; Ecuador</li>
+<li><strong>Kappa</strong> &mdash; Tunisia</li>
+<li><strong>Umbro</strong> &mdash; DR Congo</li>
+<li><strong>Reebok</strong> &mdash; Panama</li>
+<li><strong>Jako</strong> &mdash; Iraq</li>
+<li><strong>Capelli Sport</strong> &mdash; Cape Verde</li>
+<li><strong>Saeta</strong> &mdash; Haiti</li>
+<li><strong>7Saber</strong> &mdash; Uzbekistan</li>
+<li><strong>Majid</strong> &mdash; Iran</li>
+</ul>
+
+<h2>The Diffr Take</h2>
+<p>Every one of these teams did exactly what Diffr preaches: <strong>they picked one brand and committed to the whole kit.</strong> No mixing, no second-guessing &mdash; one maker, head to toe. That is the <a href="/diffr/blog/the-one-brand-rule">One-Brand Rule</a> at national scale, and it is why a kit looks like a team instead of a jumble.</p>
+<p>Building your own kit? You do not need a sponsor &mdash; just one good brand per slot. <a href="/diffr/blog/beginner-soccer-gear-brand-guide">See the beginner soccer starter kit &rarr;</a>, or if you are traveling to the matches, the <a href="/diffr/blog/international-travel-essentials-brand-guide">carry-on packing list</a>. Pick your brand &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>.</p>
+`.trim(),
+  },
+  {
+    slug: 'beginner-soccer-gear-brand-guide',
+    title: 'Beginner Soccer Gear: The Starter Kit, One Brand Per Slot',
+    description: 'The beginner soccer gear that matters — cleats, shin guards, a ball, socks, and the rest, one brand per slot. What to buy first to start playing soccer, fitted right, without the hundred-option rabbit hole.',
+    date: '2026-06-23',
+    readTime: '5 min read',
+    tags: ['brand guide', 'beginner soccer gear', 'beginner soccer cleats', 'youth soccer essentials', 'soccer starter kit', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Cleats, shin guards, a ball, socks — one brand per slot. The beginner soccer starter kit, with what you can’t play without first.',
+    content: `
+<p>The 2026 World Cup will have a generation of kids asking for a ball and cleats. The good news: a beginner soccer kit is short, and most of it lasts seasons. Here is the beginner soccer starter kit &mdash; one good brand per slot, with what you can&rsquo;t play without listed first.</p>
+
+<h2>The Slots</h2>
+<h3>Cleats &mdash; Nike</h3>
+<p>The most important buy, and the one to get fitted. Nike is the beginner default with a huge range. <strong>Match the cleat to the surface:</strong> firm-ground (FG) for grass, turf (TF) for artificial, flats for indoor.</p>
+<h3>Shin Guards &mdash; Adidas</h3>
+<p>Mandatory in any real match, and the one piece of safety gear you cannot skip. Adidas is the reliable default &mdash; get the slip-in style with sleeves for a beginner.</p>
+<h3>Ball &mdash; Select</h3>
+<p>You learn by touching the ball a thousand times, so own one. Select is the cult choice for feel &mdash; size 5 for ages 12+, size 4 for 8&ndash;11, size 3 for younger.</p>
+<h3>Soccer Socks &mdash; Puma</h3>
+<p>The long socks that hold the shin guards in place. Puma&rsquo;s are a durable default &mdash; buy two or three pairs in the team color.</p>
+<h3>Training Top &mdash; Umbro</h3>
+<p>A breathable jersey or training top for practice and pickup. Umbro is the heritage football-apparel pick &mdash; lightweight, classic, not tied to one club.</p>
+<h3>Goalkeeper Gloves &mdash; Uhlsport</h3>
+<p>Only if you play in goal &mdash; but if you do, do not use bare hands. Uhlsport is the keeper-specialist default for grip and protection.</p>
+<h3>Boot Bag &mdash; Joma</h3>
+<p>A vented bag for muddy cleats keeps the rest of your kit clean. Joma is the soccer-specialist default &mdash; the brand that lives at the club shop.</p>
+<h3>Water Bottle &mdash; Owala</h3>
+<p>Training is thirsty work. An Owala spill-proof bottle clips to the bag and survives the sideline.</p>
+
+<h2>Buy First (You Can&rsquo;t Play Without These)</h2>
+<ol>
+<li><strong>Cleats, shin guards, a ball, and socks</strong> &mdash; what a first practice actually requires (shin guards are mandatory in matches).</li>
+<li><strong>The training top and the boot bag</strong> &mdash; the practical layer for getting to and from the pitch.</li>
+<li><strong>Goalkeeper gloves</strong> &mdash; only if you are the one in goal.</li>
+</ol>
+<p>If you only buy three things, buy fitted cleats, shin guards, and a ball. That is a complete first practice.</p>
+
+<h2>The Point</h2>
+<p>Starting a sport is not about owning the most gear &mdash; it is the right few pieces, one good brand each, fitted properly. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/world-cup-2026-kit-brands">Curious what brand your favorite national team wears?</a> <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Lace up. Stop researching.</p>
+`.trim(),
+  },
+  {
     slug: 'international-travel-essentials-brand-guide',
     title: 'International Travel Essentials: The Carry-On Packing List, One Brand Per Slot',
     description: 'The international travel essentials that actually matter — a ten-item carry-on packing list, one good brand per slot, from the suitcase to the anti-theft sling. What to pack first for a trip abroad, without the 60-item rabbit hole.',
