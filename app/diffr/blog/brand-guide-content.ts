@@ -15,6 +15,8 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'international-travel-essentials-brand-guide':
+    'Bottom line: international travel comes down to about ten carry-on essentials, one good brand each — not a 60-item list. The carry system: a carry-on suitcase (Away), a personal-item backpack (Peak Design), packing cubes (Eagle Creek). The in-transit kit: a universal travel adapter (Epicka), a power bank (Anker), noise-canceling headphones (Sony), a neck pillow (Cabeau). On the ground: walking shoes (Hoka), an anti-theft sling (Pacsafe), a water bottle (Owala). Buy first: the carry-on, a universal adapter, and the walking shoes. Heading to a stadium? Pack a clear tote within about 12x6x12 inches. Below is one brand per slot, no repeats.',
   'gift-ideas-for-her-brand-guide':
     'Bottom line: skip the listicles — one genuinely good gift per budget she will actually use. Under $30: a Laneige lip mask or a Boy Smells candle. $30–75: everyday jewelry (Mejuri), affordable cashmere (Quince), or a Stanley tumbler. $75+: a Kindle for a reader, a Barefoot Dreams cozy throw, or a Cuyana leather tote. If you only get one, the lip mask plus a candle is almost never wrong; for a bigger gesture, the cozy throw is the safest splurge. Below is one pick per slot, no repeats.',
   'gift-ideas-for-him-brand-guide':
@@ -95,6 +97,25 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'international-travel-essentials-brand-guide': [
+    {
+      q: 'What are the essentials for international travel?',
+      a: 'About ten carry-on items: a carry-on suitcase, a personal-item backpack, packing cubes, a universal travel adapter, a power bank, noise-canceling headphones, a neck pillow, comfortable walking shoes, an anti-theft sling for valuables, and a reusable water bottle. One good brand of each covers a trip abroad without overpacking; skip the single-use gadgets.',
+    },
+    {
+      q: 'What should I pack first for a trip abroad?',
+      a: 'Start with the carry system — a right-sized carry-on, a personal-item backpack, and packing cubes — then the in-transit kit (a universal adapter, a power bank, headphones, a neck pillow) for the flight, then on-the-ground items (walking shoes, an anti-theft sling, a water bottle). If you only buy three things, a good carry-on, a universal adapter, and comfortable walking shoes save the most pain.',
+    },
+    {
+      q: 'What should I bring to a soccer game or stadium?',
+      a: 'Check the venue’s bag policy first — most large North American stadiums only allow a clear tote up to about 12 by 6 by 12 inches plus a small clutch, so pack a cheap clear stadium bag for game days. Bring a portable charger, a refillable water bottle (empty it through security), comfortable shoes for lots of walking, and sun protection for daytime matches.',
+    },
+    {
+      q: 'How do I pack for two weeks in a carry-on?',
+      a: 'Pack by outfit count, not day count: roughly a week of versatile, neutral, mix-and-match clothes you re-wear, plus packing cubes to compress them. Do laundry once mid-trip. Wear your bulkiest items (shoes, jacket) on the plane, keep liquids to the carry-on limit, and leave a little room for one souvenir.',
+    },
+  ],
+
   'gift-ideas-for-her-brand-guide': [
     {
       q: 'What is a good gift for her?',

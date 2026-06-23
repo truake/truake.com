@@ -12,6 +12,60 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'international-travel-essentials-brand-guide',
+    title: 'International Travel Essentials: The Carry-On Packing List, One Brand Per Slot',
+    description: 'The international travel essentials that actually matter — a ten-item carry-on packing list, one good brand per slot, from the suitcase to the anti-theft sling. What to pack first for a trip abroad, without the 60-item rabbit hole.',
+    date: '2026-06-23',
+    readTime: '6 min read',
+    tags: ['brand guide', 'international travel essentials', 'carry on packing list', 'travel must haves', 'what to pack for a trip abroad', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'A ten-item carry-on packing list, one brand per slot. The international travel essentials that earn their space — skip the 60-item list.',
+    content: `
+<p>This is the summer the world is on the move &mdash; millions crossing borders for the biggest soccer tournament on the planet, most of them landing in the United States, Canada, or Mexico. Whether you are chasing matches across host cities or just heading abroad, the question is the same: what do you actually pack? The travel internet answers with 60-item lists that bury the essentials under gadgets you will never use &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in a suitcase. The real carry-on packing list is about ten things, one good brand each. Here it is.</p>
+
+<h2>The Carry System</h2>
+<h3>Carry-On Suitcase &mdash; Away</h3>
+<p>The cult carry-on that made hard-shell, right-sized luggage the default. Sized to pass international carry-on limits, durable enough for a tournament&rsquo;s worth of cities, and the bag you stop thinking about. Start here.</p>
+<h3>Personal-Item Backpack &mdash; Peak Design</h3>
+<p>The under-the-seat bag that organizes everything &mdash; laptop, camera, a day&rsquo;s essentials. Peak Design is the do-everything default that doubles as your daypack once you land.</p>
+<h3>Packing Cubes &mdash; Eagle Creek</h3>
+<p>The original packing cube, and still the most durable. Compress a week into a carry-on and find everything without unpacking the whole bag in a hotel room.</p>
+
+<h2>The In-Transit Kit</h2>
+<h3>Universal Travel Adapter &mdash; Epicka</h3>
+<p>One adapter that works across the host countries and 150-plus more, with USB ports built in. Epicka is the cult value pick &mdash; the thing you forget once and never again.</p>
+<h3>Power Bank &mdash; Anker</h3>
+<p>A long travel day kills a phone you need for tickets, maps, and translation. Anker is the default &mdash; enough to recharge a phone two or three times between outlets.</p>
+<h3>Noise-Canceling Headphones &mdash; Sony</h3>
+<p>A long-haul flight is survivable with the right headphones. Sony&rsquo;s are the travel default &mdash; best-in-class quiet and all-day battery for the plane, the train, and the noisy hotel.</p>
+<h3>Neck Pillow &mdash; Cabeau</h3>
+<p>The difference between landing rested and landing wrecked. The Cabeau Evolution is the cult pick &mdash; real support, not the inflatable kind that does nothing.</p>
+
+<h2>On the Ground</h2>
+<h3>Walking Shoes &mdash; Hoka</h3>
+<p>You will walk miles in a new city and around a stadium. Hoka is the comfort default &mdash; cushioned enough for a 20,000-step day without wrecking your feet.</p>
+<h3>Anti-Theft Sling &mdash; Pacsafe</h3>
+<p>Crowds and unfamiliar cities call for a bag that does not get opened behind your back. Pacsafe is the travel-security default &mdash; slash-resistant straps and locking zips for your phone, passport, and tickets.</p>
+<h3>Water Bottle &mdash; Owala</h3>
+<p>Stay hydrated through airports and hot summer matches. Owala&rsquo;s spill-proof bottle packs empty through security and refills on the other side.</p>
+
+<h2>Match-Day Note: The Clear-Bag Rule</h2>
+<p>If you are heading to a stadium, check the venue&rsquo;s bag policy before you go &mdash; most large North American venues only allow a clear tote up to about 12 by 6 by 12 inches plus a small clutch. Pack a cheap clear stadium bag for game days and leave the backpack at the hotel.</p>
+
+<h2>Buy First</h2>
+<p>You do not need all ten before you fly. Build it in this order:</p>
+<ol>
+<li><strong>The carry system:</strong> the carry-on, the personal-item backpack, and packing cubes &mdash; how everything travels.</li>
+<li><strong>The in-transit kit:</strong> the adapter, power bank, headphones, and neck pillow &mdash; the things that make the flight and the first day bearable.</li>
+<li><strong>On the ground:</strong> the walking shoes, the anti-theft sling, and the water bottle &mdash; what you actually use all day, every day of the trip.</li>
+</ol>
+<p>If you only buy three things, buy the carry-on, a universal adapter, and the walking shoes. Those three save the most pain on an international trip.</p>
+
+<h2>The Point</h2>
+<p>A good trip is not the fullest suitcase &mdash; it is a carry-on of the right ten things, one solid brand each, that you actually use. That is the Diffr method: one good pick per slot, no repeats, so you pack once and skip the 60-item list. <a href="/diffr/blog/backpacking-gear-brand-guide">Heading off-grid instead?</a> <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or get the one-per-slot picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Pack the bag. Stop researching.</p>
+`.trim(),
+  },
+  {
     slug: 'mixed-toy-box',
     title: 'The Mixed Toy Box: 10 Toy Teams, One Best Brand Per Type',
     description: 'The best toy box was never all one brand — it was one great toy of each kind, assembled into a whole. Ten mixed Toy Teams, each one best brand per toy type: building, plush, die-cast, electronic, dolls, and more.',
