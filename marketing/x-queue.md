@@ -143,6 +143,26 @@ https://truake.com/diffr/blog/womens-work-capsule-brand-guide
 https://truake.com/diffr/blog/world-cup-2026-kit-brands
 ```
 
+### 我的 Aritzia (My Aritzia) — HOLD until blog live + sub-brand assets in DB; then time to a weekend
+```
+1/ Aritzia isn't one brand. It's 7 — each built for a different part of your week. Here's which sub-brand to wear when, and where it actually beats the rest. 🧵
+
+2/ Work → Babaton. The Effortless Pant earns the hype. (Want it to outlast the trend? Theory.)
+
+3/ Date night → Wilfred. Soft, romantic, French-girl. (The slip-dress crown still belongs to Reformation.)
+
+4/ Weekend → TNA. Cozy, sporty, all-day. (Vuori or Alo if you actually sweat in them.)
+
+5/ Night out → Sunday Best. Young, loud, fun.
+
+6/ Winter → the Super Puff. Genuinely iconic. (Pound-for-pound warmth: Patagonia.)
+
+7/ Build your whole week from one store — or cherry-pick the best of each. Both, decoded ↓
+https://truake.com/diffr/blog/[ARITZIA-SLUG-TBD]
+
+UGC: reply with your own — which Aritzia sub-brand is your work / date / weekend / night-out?
+```
+
 ---
 
 ## posted
