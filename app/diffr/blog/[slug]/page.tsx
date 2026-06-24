@@ -15,7 +15,7 @@ interface Props {
 // Brand-guide blog posts whose live shoppable kit comes from a preset_scenario.
 // The editorial prose stays; the DB block (brands + images + affiliate buy
 // links) renders from v_slot_pool — the same data the App reads.
-const BLOG_SLUG_TO_PRESET: Record<string, number> = {
+export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'bike-commuting-gear-brand-guide': 98,
   'running-gear-brand-guide': 23,
   'home-gym-brand-guide': 22,
@@ -98,10 +98,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Posts with a hook cover use the photo as the share image; the rest fall
   // back to the generic Diffr card.
   const hasCover = slug === 'mixed-toy-box' || slug.startsWith('toy-team-')
-  const ogImage = hasCover ? `/toy-covers/${slug}.jpg` : '/diffr-og.png'
-  const ogAlt = hasCover ? `${post.title} — Diffr` : 'Diffr — curated beginner brand guides'
-  const ogW = hasCover ? 1600 : 1200
-  const ogH = hasCover ? 840 : 630
+  // Posts with a live slot kit get a dynamic, layered share card (slot product
+  // tiles over the hook cover / default base) — see ./og/route.tsx. Falls back to
+  // the static cover/default for kit-less posts.
+  const hasKit = slug in BLOG_SLUG_TO_PRESET
+  const ogImage = hasKit
+    ? `https://truake.com/diffr/blog/${slug}/og`
+    : hasCover ? `/toy-covers/${slug}.jpg` : '/diffr-og.png'
+  const ogAlt = hasKit ? `${post.title} — pick your slot, decide once — Diffr`
+    : hasCover ? `${post.title} — Diffr` : 'Diffr — curated beginner brand guides'
+  const ogW = hasKit ? 1200 : hasCover ? 1600 : 1200
+  const ogH = hasKit ? 630 : hasCover ? 840 : 630
   return {
     title: `${post.title} — Diffr Blog`,
     description: post.description,
