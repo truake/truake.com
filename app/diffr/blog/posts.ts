@@ -12,6 +12,52 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'aritzia-sub-brands-guide',
+    title: "Aritzia's Brands, Decoded: Which Sub-Brand to Wear When (and What to Buy Instead)",
+    description: "Aritzia isn't one brand — it's a house of seven, each built for a different part of your week. Babaton for work, Wilfred for date night, TNA for the weekend, Sunday Best for going out, the Super Puff for winter. Here's the full map, plus the independent pick that beats each one.",
+    date: '2026-06-24',
+    readTime: '6 min read',
+    tags: ['aritzia brands', 'aritzia sub brands', 'babaton', 'aritzia super puff', 'is aritzia worth it', 'womens fashion', 'one brand rule'],
+    category: 'product',
+    excerpt: "Aritzia is secretly seven brands in one store. Here's which sub-brand to wear for work, date night, the weekend and beyond — and where an independent label still wins.",
+    content: `
+<p>Walk into Aritzia and it feels like one store. It is really seven. The company runs a stable of in-house labels &mdash; Babaton, Wilfred, TNA, Sunday Best and more &mdash; each built for a different part of your life. That is why the same store can dress you for a board meeting and a music festival: you are not shopping one brand, you are shopping a <strong>house of brands</strong>, each one a different slot in your week.</p>
+<p>Which is exactly how Diffr thinks about a wardrobe: <strong>one good pick per slot, no slot wasted.</strong> So here is the full map &mdash; every Aritzia sub-brand, the scenario it owns, and the one piece worth knowing it for. And because we are an independent guide (we are not affiliated with Aritzia), each slot also gets the honest verdict: <em>the label we would reach for instead, and why.</em></p>
+
+<h2>Babaton — Work</h2>
+<p>Babaton is the polished, tailored core: trousers, blazers, the clean separates that read &ldquo;office&rdquo; without trying. The piece it is famous for is the <strong>Effortless Pant</strong> &mdash; a dress trouser that has become a genuine workwear staple.</p>
+<p><strong>The verdict:</strong> the Effortless Pant earns its hype, and Babaton is the easiest one-stop for a work look. But if you want a pair of trousers that holds its shape for five years, <strong>Theory</strong> tailoring is the upgrade &mdash; better wool, sharper line, built to outlast the trend.</p>
+
+<h2>The Group by Babaton — The Big Day</h2>
+<p>The Group is Babaton&rsquo;s elevated tier: investment suiting and blazers for the interview, the pitch, the day that matters. Heavier fabric, more structure, a higher price.</p>
+<p><strong>The verdict:</strong> a strong off-the-rack suit for the money. For a true investment piece you will wear for a decade, <strong>Theory</strong> again wins on fabric and tailoring &mdash; but The Group gets you there for less if you need it this week.</p>
+
+<h2>Wilfred — Date Night</h2>
+<p>Wilfred is the soft, romantic, French-girl side of the house: slip dresses, fluid midis, anything that drapes. It is the label you reach for when the scenario is dinner, not a desk.</p>
+<p><strong>The verdict:</strong> Wilfred nails the mood. But the slip dress is a category <strong>Reformation</strong> simply owns &mdash; better silhouettes, a deeper range, and the same easy-romantic feel. Wilfred for the full look; Reformation for the one dress.</p>
+
+<h2>Wilfred Free — Everyday</h2>
+<p>Wilfred Free is the relaxed, contemporary cousin: knits, bodysuits, smart-casual basics that move from coffee to errands to dinner without thinking about it.</p>
+<p><strong>The verdict:</strong> genuinely versatile, but you pay a brand premium for basics. <strong>Quince</strong> and <strong>Everlane</strong> deliver the same clean knit-and-bodysuit look for noticeably less &mdash; the smartest place to save in the whole lineup.</p>
+
+<h2>TNA — Weekend</h2>
+<p>TNA is the cozy, sporty, athleisure label: leggings, sweats, the soft stuff for the gym, errands and a Saturday that has no plan. It runs younger and more relaxed than the rest of the house.</p>
+<p><strong>The verdict:</strong> great for lounge and low-intensity days. The moment you are actually training, performance brands pull ahead &mdash; <strong>Vuori</strong>, <strong>Alo</strong> and <strong>Lululemon</strong> last longer and move better when you sweat in them.</p>
+
+<h2>Sunday Best — Night Out</h2>
+<p>Sunday Best is the going-out label: bold, youthful, a little loud &mdash; the top or dress for a night that wants a little drama.</p>
+<p><strong>The verdict:</strong> on-trend and fun for the price, which is exactly what a fast-moving night-out wardrobe should be. For a piece that survives past one season, <strong>Reformation</strong> trades some flash for staying power.</p>
+
+<h2>The Super Puff — Winter</h2>
+<p>Not a sub-brand so much as a phenomenon: the <strong>Super Puff</strong> is Aritzia&rsquo;s genuinely iconic puffer, the one people line up for when the temperature drops.</p>
+<p><strong>The verdict:</strong> it looks the part and it is warm. Pound-for-pound, though, <strong>Patagonia</strong> wins on warmth-to-weight and repairability (a jacket you can fix is a jacket you keep), and <strong>Uniqlo</strong>&rsquo;s seamless down is the budget answer. The Super Puff is the style buy; Patagonia is the keep-forever buy.</p>
+
+<h2>The Diffr Take</h2>
+<p>Here is the genuinely useful thing about Aritzia: it proves you <em>can</em> dress your whole week from one store, because it quietly built a different brand for each slot. That is the <a href="/diffr/blog/the-one-brand-rule">One-Brand Rule</a> turned inside out &mdash; one company, seven specialists.</p>
+<p>The best closet does the same thing, just without the loyalty: <strong>one best pick per slot, wherever it comes from.</strong> Use Aritzia where it wins on convenience, and swap in the independent pick where it wins on quality. Building the rest of the wardrobe around it? Start with the <a href="/diffr/blog/womens-work-capsule-brand-guide">women&rsquo;s work capsule</a> or the <a href="/diffr/blog/womens-capsule-wardrobe-brand-guide">capsule wardrobe</a>, then <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock one brand per slot &mdash; yours.</p>
+`.trim(),
+  },
+  {
     slug: 'world-cup-2026-kit-brands',
     title: 'World Cup 2026 Kits: What Brand Every Team Wears (All 48)',
     description: 'World Cup 2026 kits by brand — all 48 teams and the maker behind each jersey. Adidas dresses 14, Nike 12, Puma 11, plus Kelme, Kappa, Umbro, Marathon and more. The full team-by-team kit-brand list.',

@@ -15,6 +15,8 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'aritzia-sub-brands-guide':
+    "Bottom line: Aritzia isn't one brand — it's a house of seven in-house labels, each built for a different scenario. Babaton for work (the Effortless Pant), The Group by Babaton for the big interview, Wilfred for date night, Wilfred Free for everyday, TNA for the weekend, Sunday Best for going out, and the Super Puff for winter — a one-store way to dress your whole week. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; the Super Puff is the style buy while Patagonia is the keep-forever one. Use Aritzia where it wins on convenience, swap in the independent pick where it wins on quality.",
   'world-cup-2026-kit-brands':
     'Bottom line: a national-team kit is one brand head to toe — and at the 2026 World Cup, Adidas dresses the most (14 teams, including Argentina, Germany, Spain, Mexico, Belgium and Japan), Nike 12 (Brazil, France, England, Netherlands, the United States, Croatia and more), and Puma 11 (Portugal, Morocco, Senegal, Switzerland, Egypt and others). The remaining 11 teams split across Kelme (Bosnia, Jordan), Marathon (Ecuador), Kappa (Tunisia), Umbro (DR Congo), Reebok (Panama), Jako (Iraq), Capelli (Cape Verde), Saeta (Haiti), 7Saber (Uzbekistan) and Majid (Iran). Full team-by-team list below.',
   'beginner-soccer-gear-brand-guide':
@@ -101,6 +103,25 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'aritzia-sub-brands-guide': [
+    {
+      q: 'What are the brands that Aritzia owns?',
+      a: "Aritzia is a house of in-house brands rather than a single label. The main ones are Babaton (polished workwear and tailoring), The Group by Babaton (elevated investment suiting), Wilfred (soft, romantic dresses), Wilfred Free (relaxed everyday basics), TNA (cozy athleisure), and Sunday Best (youthful going-out pieces). The Super Puff is its signature puffer. Each label targets a different occasion, which is why one store can dress you for work, a date, the gym and a night out.",
+    },
+    {
+      q: 'Is Babaton the same as Aritzia?',
+      a: 'Babaton is one of Aritzia’s in-house brands, sold only at Aritzia — not a separate company. It is the label for polished, tailored workwear, best known for the Effortless Pant. The Group by Babaton is its higher-end tier for suiting and structured blazers. So when people say they bought “a Babaton blazer,” they bought it at Aritzia.',
+    },
+    {
+      q: 'Is Aritzia worth it?',
+      a: 'It depends on the slot. Aritzia wins on convenience — you can build a whole week’s wardrobe from one store, and pieces like the Effortless Pant and the Super Puff genuinely deliver. But for items you want to last years, an independent specialist often beats it: Theory for tailoring, Reformation for slip dresses, Vuori or Lululemon for real workout gear, and Patagonia for a puffer you can repair. The smart move is to use Aritzia where convenience matters and swap in the specialist where longevity does.',
+    },
+    {
+      q: 'Is the Aritzia Super Puff worth it?',
+      a: 'The Super Puff is warm, well-cut and genuinely iconic, so for style it earns its place. If your priority is maximum warmth-to-weight and a jacket you can repair and keep for a decade, Patagonia is the stronger buy, and Uniqlo’s seamless down is the budget alternative. Buy the Super Puff for the look; buy Patagonia for the long haul.',
+    },
+  ],
+
   'beginner-soccer-gear-brand-guide': [
     {
       q: 'What gear do you need to start playing soccer?',
