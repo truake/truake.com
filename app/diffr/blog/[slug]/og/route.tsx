@@ -29,6 +29,22 @@ async function toPngDataUrl(url: string | null): Promise<string | null> {
   }
 }
 
+// Official Diffr wordmark (public/diffr-logo-white.png) is white-on-transparent.
+// Render it white over dark cover scrims, and a sharp-negated ink version over the
+// light gradient base so it's always legible.
+async function logoDataUrl(dark: boolean): Promise<string | null> {
+  try {
+    const res = await fetch('https://truake.com/diffr-logo-white.png')
+    if (!res.ok) return null
+    let img = sharp(Buffer.from(await res.arrayBuffer()))
+    if (dark) img = img.negate({ alpha: false })
+    const png = await img.resize({ height: 96 }).png().toBuffer()
+    return `data:image/png;base64,${png.toString('base64')}`
+  } catch {
+    return null
+  }
+}
+
 const CREAM = '#F4F1EA'
 const INK = '#2A2620'
 const BLUE = '#1B8BF5'
@@ -55,6 +71,7 @@ export async function GET(
     ready.map(async (s) => ({ slot: s, png: await toPngDataUrl(s.imageUrl) })),
   )
   const extra = Math.max(0, (kit?.readyCount ?? ready.length) - ready.length)
+  const logo = await logoDataUrl(!coverUrl)
 
   return new ImageResponse(
     (
@@ -97,10 +114,14 @@ export async function GET(
 
         {/* ── Top: brand + title ── */}
         <div style={{ display: 'flex', flexDirection: 'column', padding: '56px 64px 0', position: 'relative' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-            <div style={{ display: 'flex', fontSize: 30, fontWeight: 800, color: coverUrl ? '#fff' : INK, letterSpacing: -0.5 }}>
-              Diffr
-            </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+            {logo ? (
+              <img src={logo} height={42} width={89} style={{ height: 42, width: 89, objectFit: 'contain' }} />
+            ) : (
+              <div style={{ display: 'flex', fontSize: 30, fontWeight: 800, color: coverUrl ? '#fff' : INK, letterSpacing: -0.5 }}>
+                Diffr
+              </div>
+            )}
             <div
               style={{
                 display: 'flex', fontSize: 18, fontWeight: 700, color: '#fff', background: BLUE,
