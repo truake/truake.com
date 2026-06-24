@@ -5,6 +5,7 @@
 // generateMetadata in ../page.tsx points slot posts at this route; kit-less posts
 // keep the static cover/default and never hit this handler.
 import { ImageResponse } from 'next/og'
+import sharp from 'sharp'
 import { posts } from '../../posts'
 import { getSceneBrandKit } from '../../../start/lib'
 import { BLOG_SLUG_TO_PRESET } from '../page'
@@ -12,6 +13,21 @@ import { BLOG_SLUG_TO_PRESET } from '../page'
 export const runtime = 'nodejs'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
+
+// next/og (Satori) does not rasterize WEBP, and the product CDN serves only
+// webp — so decode each tile to a PNG data URL here before handing it over.
+async function toPngDataUrl(url: string | null): Promise<string | null> {
+  if (!url) return null
+  try {
+    const res = await fetch(url)
+    if (!res.ok) return null
+    const buf = Buffer.from(await res.arrayBuffer())
+    const png = await sharp(buf).resize(336, 336, { fit: 'cover' }).png().toBuffer()
+    return `data:image/png;base64,${png.toString('base64')}`
+  } catch {
+    return null
+  }
+}
 
 const CREAM = '#F4F1EA'
 const INK = '#2A2620'
@@ -34,10 +50,11 @@ export async function GET(
   const coverUrl = hasCover ? `https://truake.com/toy-covers/${slug}.jpg` : null
 
   const kit = await getSceneBrandKit(presetId).catch(() => null)
-  const tiles = (kit?.slots ?? [])
-    .filter((s) => s.status === 'ready' && s.imageUrl)
-    .slice(0, 4)
-  const extra = Math.max(0, (kit?.readyCount ?? tiles.length) - tiles.length)
+  const ready = (kit?.slots ?? []).filter((s) => s.status === 'ready' && s.imageUrl).slice(0, 4)
+  const tiles = await Promise.all(
+    ready.map(async (s) => ({ slot: s, png: await toPngDataUrl(s.imageUrl) })),
+  )
+  const extra = Math.max(0, (kit?.readyCount ?? ready.length) - ready.length)
 
   return new ImageResponse(
     (
@@ -110,7 +127,7 @@ export async function GET(
             marginTop: 'auto', position: 'relative',
           }}
         >
-          {tiles.map((s) => (
+          {tiles.map(({ slot: s, png }) => (
             <div
               key={s.brandId + '-' + s.productTypeId}
               style={{
@@ -124,7 +141,13 @@ export async function GET(
                   background: CREAM, alignItems: 'center', justifyContent: 'center',
                 }}
               >
-                <img src={s.imageUrl!} width={168} height={168} style={{ width: 168, height: 168, objectFit: 'cover' }} />
+                {png ? (
+                  <img src={png} width={168} height={168} style={{ width: 168, height: 168, objectFit: 'cover' }} />
+                ) : (
+                  <div style={{ display: 'flex', fontSize: 56, fontWeight: 800, color: '#C9C0AE' }}>
+                    {s.brandName.charAt(0)}
+                  </div>
+                )}
               </div>
               <div style={{ display: 'flex', marginTop: 12, fontSize: 22, fontWeight: 800, color: INK }}>
                 {s.brandName.length > 16 ? s.brandName.slice(0, 15) + '…' : s.brandName}
