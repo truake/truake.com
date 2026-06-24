@@ -1,6 +1,9 @@
 # Campaign: 我的 Aritzia (“My Aritzia”) — house-of-brands, hybrid framing
 
-**Status:** brief ready · waiting on img-Agent assets before blog goes live
+**Status:** 🟢 BLOG LIVE 2026-06-24 → https://truake.com/diffr/blog/aritzia-sub-brands-guide
+· social cleared to GO (X thread un-HOLD in x-queue) · img sub-brand rows+PL+hero images
+in DB · OUTSTANDING: (1) dev — add 1 `preset_scenarios` row to light up the inline
+shoppable kit (ids below); (2) img — sub-brand logos still missing (null-graceful).
 **Owner of this doc:** content/SEO. Hands off to **img-Agent** (DB brands + PL + images),
 then **social-Agent** (UGC campaign). Dev item at bottom.
 
@@ -60,3 +63,27 @@ its scenario’s product_type, via the `v_brand_type_hero` contract (so the
   48 World Cup teams can link a brand. See `world-cup-2026-kit-brands` post.
 - (Aritzia) confirm sub-brand→parent linkage convention for img-Agent if `group_id`
   vs `parent_company` matters for the house-of-brands grouping on the brand page.
+
+### Dev — light up the inline shoppable kit (1 preset_scenarios row)
+The blog renderer (`app/diffr/blog/[slug]/page.tsx`) renders a live `SceneBrandKit`
+when `BLOG_SLUG_TO_PRESET['aritzia-sub-brands-guide']` resolves to a preset. All the
+data exists; just needs the scene row + the map entry.
+
+Create a `preset_scenarios` row (name e.g. "My Aritzia", slot_count 7, domain null),
+ordered slots = work→interview→date→everyday→weekend→night-out→winter:
+
+| order | sub-brand | brand_id | pl_id | product_type_id |
+|---|---|---|---|---|
+| 1 | Babaton | 1013001 | 1839830 | 693 |
+| 2 | The Group by Babaton | 1013002 | 1839833 | 691 |
+| 3 | Wilfred | 1013003 | 1839836 | 5166 |
+| 4 | Wilfred Free | 1013004 | 1839839 | 12171 |
+| 5 | TNA | 1013005 | 1839842 | 884 |
+| 6 | Sunday Best | 1013006 | 1839845 | 6757 |
+| 7 | Super Puff | 1013007 | 1839848 | 815 |
+
+→ `slot_brand_ids = {1013001,1013002,1013003,1013004,1013005,1013006,1013007}`,
+`slot_product_line_ids = {1839830,1839833,1839836,1839839,1839842,1839845,1839848}`.
+All 7 hero images already `status='ready'` in `v_brand_type_hero`.
+Then add `'aritzia-sub-brands-guide': <new preset id>` to `BLOG_SLUG_TO_PRESET`
+(I'll do the code line once dev gives the id) — kit goes live, no redeploy of prose.

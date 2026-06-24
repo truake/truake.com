@@ -143,7 +143,7 @@ https://truake.com/diffr/blog/womens-work-capsule-brand-guide
 https://truake.com/diffr/blog/world-cup-2026-kit-brands
 ```
 
-### 我的 Aritzia (My Aritzia) — HOLD until blog live + sub-brand assets in DB; then time to a weekend
+### 我的 Aritzia (My Aritzia) — READY (blog live 2026-06-24); time to a weekend
 ```
 1/ Aritzia isn't one brand. It's 7 — each built for a different part of your week. Here's which sub-brand to wear when, and where it actually beats the rest. 🧵
 
@@ -158,7 +158,7 @@ https://truake.com/diffr/blog/world-cup-2026-kit-brands
 6/ Winter → the Super Puff. Genuinely iconic. (Pound-for-pound warmth: Patagonia.)
 
 7/ Build your whole week from one store — or cherry-pick the best of each. Both, decoded ↓
-https://truake.com/diffr/blog/[ARITZIA-SLUG-TBD]
+https://truake.com/diffr/blog/aritzia-sub-brands-guide
 
 UGC: reply with your own — which Aritzia sub-brand is your work / date / weekend / night-out?
 ```
