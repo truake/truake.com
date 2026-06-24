@@ -15,6 +15,8 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'lululemon-lines-explained':
+    "Bottom line: Lululemon isn't one product, it's a set of collections, each built for a different scene — so instead of scrolling 200 leggings, you pick the lane that matches your week and decide once. Align is the everyday, low-impact line (the Align High-Rise Pant). ABC is the commute/smart-casual trouser (the ABC Pant, “anti-ball-crushing,” reads as real pants). Define is the studio-to-street layer (the Define Jacket). Scuba is cozy weekend fleece (the Scuba Oversized Half-Zip). Steady State and License to Train are the serious-sweat run/train lanes. Tennis & Golf is sport-specific for the court and course. Match the lane to your life: everyday → Align, commute → ABC, weekend → Scuba, sweat → Steady State, court → Tennis & Golf.",
   'aritzia-sub-brands-guide':
     "Bottom line: Aritzia isn't one brand — it's a house of seven in-house labels, each built for a different scenario. Babaton for work (the Effortless Pant), The Group by Babaton for the big interview, Wilfred for date night, Wilfred Free for everyday, TNA for the weekend, Sunday Best for going out, and the Super Puff for winter — a one-store way to dress your whole week. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; the Super Puff is the style buy while Patagonia is the keep-forever one. Use Aritzia where it wins on convenience, swap in the independent pick where it wins on quality.",
   'world-cup-2026-kit-brands':
@@ -103,6 +105,25 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'lululemon-lines-explained': [
+    {
+      q: 'What are the different Lululemon collections?',
+      a: "Lululemon is organized into collections, each built for a scene rather than sold as one undifferentiated range. The main ones: Align (everyday, low-impact leggings), ABC (the “anti-ball-crushing” commute and smart-casual trouser), Define (a fitted studio-to-street jacket), Scuba (cozy oversized fleece), Steady State and License to Train (serious run and training gear), and Tennis & Golf (sport-specific apparel). Knowing the map lets you skip the wall of options and pick the line that matches your day.",
+    },
+    {
+      q: 'What is the difference between the Align and other Lululemon leggings?',
+      a: "Align is made from buttery-soft Nulu fabric and built for low-impact movement — yoga, lounging, errands — where the goal is to feel like you are wearing nothing. It is not the line for high-sweat training; for running and lifting, Lululemon's Steady State, License to Train, and fast-and-free style fabrics are engineered to handle sweat and stay put. Match the leggings to the activity: Align for everyday and low-impact, the training lines when you actually sweat.",
+    },
+    {
+      q: 'What are ABC pants and who are they for?',
+      a: "ABC stands for “anti-ball-crushing,” Lululemon's roomier-through-the-seat men's trouser. They read as real pants but stretch like activewear, which makes them the brand's most versatile piece for the commute, the office, travel, and dinner. There's also a Golf ABC version with extra stretch and UPF protection built for the course. If you want one Lululemon bottom that isn't a legging or a sweatpant, the ABC Pant is the lane.",
+    },
+    {
+      q: 'Is Lululemon worth it?',
+      a: "Lululemon is worth it when you buy by scene instead of by hype. The pieces are durable and well-engineered, but the real value comes from matching the line to the job — Align for everyday, ABC for the commute, Scuba for the weekend, Steady State for the sweat — so you buy one right thing per lane instead of a drawer of near-duplicates. Bought that way it pays off; bought as one-of-everything it's just expensive. Decide once, by lane.",
+    },
+  ],
+
   'aritzia-sub-brands-guide': [
     {
       q: 'What are the brands that Aritzia owns?',

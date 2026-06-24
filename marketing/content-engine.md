@@ -4,11 +4,24 @@ One repeatable format that feeds every platform. **1 decode blog ≈ a week of c
 Reference implementation: `aritzia-sub-brands-guide` (live 2026-06-24).
 
 ## The format (what every decode blog must be)
-A “house of brands” (or sub-line) retailer → one editorial blog mapping each
-**sub-line → scenario**, and — non-negotiable — each slot carries the **independent
-verdict** (the sub-line pick AND the best-in-class alternative + why). This is what
-keeps Diffr an independent judge instead of a brand love-letter, AND it captures the
-high-intent “X vs Y” search. Affiliate disclosure stays on; never imply affiliation.
+> Positioning rule is set by the social-agent BRIEF
+> (`Diffr/social/x/campaigns/scene_brand_content_engine_BRIEF.md`, 2026-06-23) — it
+> is authoritative; this doc mirrors it.
+
+A “house of brands” / sub-line retailer → one editorial blog mapping each
+**sub-line → scenario lane**. Each slot = **the scene lane + one vibe line + the one
+piece that line is strongest for** (“它最强的那一件”). The blog LANDS on the thesis:
+**pick the right lane, decide once** — framed as *trend observation + intellectual
+depth* (cite *The Default Trap*: choice overload / the jam study, 24 options → 3% buy
+vs 6 → 30%). That decide-once lens IS the independent angle.
+
+NOT this: “buy out the whole brand,” “don’t buy,” or a “brand X beats Y” commercial
+verdict. Head-to-head **“[sub] vs [competitor]”** comparisons live in their own
+C-type posts (high commercial intent), not inside the A-decode. Affiliate disclosure
+stays on; never imply affiliation.
+
+NOTE: the Aritzia reference post (live) was written verdict-heavy (“buy Theory
+instead”) — slightly off this rule. Realign to decide-once tone when convenient.
 
 Authoring contract (same as Aritzia):
 - `posts.ts`: self-contained essay HTML, one H2 per scenario, “The Diffr Take” close

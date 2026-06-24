@@ -12,6 +12,42 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'lululemon-lines-explained',
+    title: "Lululemon's Lines, Explained: Which Collection Is for Which Part of Your Life",
+    description: "Lululemon isn't one product — it's a handful of collections, each built for a different scene. Align for everyday, ABC for the commute, Scuba for the weekend, Steady State for the sweat, Tennis & Golf for the court. Here's the map, so you pick your lane and decide once.",
+    date: '2026-06-24',
+    readTime: '6 min read',
+    tags: ['lululemon lines explained', 'lululemon collections', 'align vs abc', 'lululemon align', 'lululemon scuba', 'athleisure', 'one brand rule'],
+    category: 'product',
+    excerpt: "A wall of 200 leggings is a choice-overload trap. But Lululemon is quietly sorted by scene — once you know which collection is for which part of your life, you stop scrolling and pick your lane.",
+    content: `
+<p>Stand in front of the wall at Lululemon and it is the same problem every store gives you now: too much. Hundreds of leggings, dozens of fits, names that mean nothing until you have already owned three. That is not indecision &mdash; it is <a href="/diffr/blog/why-more-choices-makes-you-worse-at-shopping">choice overload</a>, the same effect the famous jam study found on a grocery shelf: show shoppers 24 jams and 3% buy; show them 6 and 30% do. More options, fewer decisions.</p>
+<p>Here is the trick most people miss: Lululemon already sorted the wall for you. It is not one product &mdash; it is a set of <strong>collections, each engineered for a different scene.</strong> Learn the map and the wall collapses into a short list: find the lane that matches your week, and decide once. Here is which line is for which part of your life.</p>
+
+<h2>Align — Everyday</h2>
+<p>The lane: low-impact and all-day &mdash; yoga, the couch, errands, under a dress in fall. The vibe: buttery, weightless, the kind of soft you forget you are wearing. <strong>The one piece:</strong> the Align High-Rise Pant. If your day is movement-light and you want to feel like you are wearing nothing, this is the whole lane.</p>
+
+<h2>ABC — Commute</h2>
+<p>The lane: the in-between days &mdash; the office, travel, dinner, anywhere a legging is too much and jeans are too stiff. ABC stands for &ldquo;anti-ball-crushing,&rdquo; and the trouser reads as real pants while stretching like sweats. <strong>The one piece:</strong> the ABC Pant in Warpstreme. The single most versatile thing Lululemon makes for men.</p>
+
+<h2>Define — Studio to Street</h2>
+<p>The lane: the layer you throw on over everything &mdash; the walk, the errand run, the cool-morning commute. The vibe: a fitted zip jacket with a clean line that does not read &ldquo;gym.&rdquo; <strong>The one piece:</strong> the Define Jacket &mdash; the layering staple people quietly own in four colors.</p>
+
+<h2>Scuba — Weekend</h2>
+<p>The lane: cozy and off-duty &mdash; the post-workout coffee, the Saturday with no plan, the airport. The vibe: oversized fleece, throw-it-on-and-look-pulled-together. <strong>The one piece:</strong> the Scuba Oversized Half-Zip. It is the loungewear that doubles as an outfit.</p>
+
+<h2>Steady State & License to Train — The Sweat</h2>
+<p>The lane: when you are actually working &mdash; the run, the lift, the class that leaves a mark. The vibe: technical fabric engineered to move sweat, not cling to it. <strong>The one piece:</strong> a License to Train top for training, or the Steady State half-zip when the same run ends on the couch. This is the lane Align is <em>not</em> built for.</p>
+
+<h2>Tennis & Golf — Court &amp; Course</h2>
+<p>The lane: the game itself &mdash; built for the swing and the serve, with UPF, pockets, and skirts cut to move. The vibe: sport-specific, not athleisure cosplay. <strong>The one piece:</strong> the pleated tennis skirt, or the Golf ABC for the course. If you play, this lane exists so you stop forcing the everyday line to do a job it was not made for.</p>
+
+<h2>The Diffr Take</h2>
+<p>Notice what Lululemon actually did: it took one overwhelming wall and quietly split it into lanes, one per scene. That is the whole Diffr idea &mdash; <a href="/diffr/blog/the-decide-once-rule">decide once</a>, by scene, and stop re-litigating the same purchase every season. The brand did the sorting; your only job is to match the lane to your life.</p>
+<p>So pick yours: everyday is Align, the commute is ABC, the weekend is Scuba, the sweat is Steady State, the court is Tennis &amp; Golf. One lane, one decision. Want that done for every part of your closet, not just the leggings? <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Download Diffr</a> and lock one pick per scene &mdash; yours.</p>
+`.trim(),
+  },
+  {
     slug: 'aritzia-sub-brands-guide',
     title: "Aritzia's Brands, Decoded: Which Sub-Brand to Wear When (and What to Buy Instead)",
     description: "Aritzia isn't one brand — it's a house of seven, each built for a different part of your week. Babaton for work, Wilfred for date night, TNA for the weekend, Sunday Best for going out, the Super Puff for winter. Here's the full map, plus the independent pick that beats each one.",
