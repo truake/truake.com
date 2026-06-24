@@ -31,6 +31,11 @@ Authoring contract (same as Aritzia):
 - Optional shoppable kit: img adds sub-brand rows + PL + hero images; dev adds 1
   `preset_scenarios` row; map slug in `BLOG_SLUG_TO_PRESET`. (Kit is upside, not a
   launch blocker — editorial ships first.)
+- Share card: any slug in `BLOG_SLUG_TO_PRESET` AUTOMATICALLY gets a layered x.com
+  OG card (slot product tiles over hook cover / branded gradient, `decide once`
+  badge) via `app/diffr/blog/[slug]/og/route.tsx` — no extra work. Kit-less posts
+  keep the static cover/default. So wiring the preset line lights up BOTH the
+  on-page kit AND the layered share card at once.
 
 ## The fan-out (social agent owns; blog is the source)
 Each decode blog auto-spawns: 1 X thread · 1 carousel · 5–6 hot-takes · reply-ammo
