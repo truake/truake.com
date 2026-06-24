@@ -15,6 +15,24 @@ that only helps if the post is native, not a link drop.
 
 ## queued
 
+### Lululemon Lines Explained — READY (blog live 2026-06-24); decide-once voice
+```
+1/ Lululemon's wall is 200 leggings and zero guidance. But it's secretly sorted by scene — each collection is one lane of your life. Learn the map, stop scrolling, decide once. 🧵
+
+2/ Everyday → Align. Buttery, weightless, low-impact. The one: Align High-Rise Pant.
+
+3/ Commute → ABC. The "anti-ball-crushing" trouser reads as real pants, stretches like sweats. The one: ABC Pant.
+
+4/ Weekend → Scuba. Oversized fleece, throw-it-on-and-you're-dressed. The one: Scuba Half-Zip.
+
+5/ The sweat → Steady State / License to Train. Technical, built to move sweat — the job Align was never for.
+
+6/ The court → Tennis & Golf. Sport-specific, so you stop forcing the everyday line to do it.
+
+7/ One lane, one decision. The brand already sorted the wall — you just match it to your week ↓
+https://truake.com/diffr/blog/lululemon-lines-explained
+```
+
 ### Toy Team campaign (TS5 tie-in)  — thread, pin during the film window
 ```
 1/ The best toy box was never all one brand. It was the mixed one — a wooden train, a plush bear, a die-cast car, a blinking handheld, a tub of blocks — all in the same afternoon. 🧸🧱🚗
