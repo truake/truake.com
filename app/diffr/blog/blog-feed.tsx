@@ -17,6 +17,7 @@ const C = {
 }
 
 const CAT_META: Record<string, { label: string; color: string }> = {
+  announcement: { label: 'Announcements', color: '#1A8F4C' },
   product: { label: 'Brand Guides', color: '#F0522C' },
   strategy: { label: 'Strategy', color: '#1d2088' },
   'build-log': { label: 'Build Logs', color: '#1B8BF5' },
@@ -24,12 +25,13 @@ const CAT_META: Record<string, { label: string; color: string }> = {
 
 const FILTERS = [
   { key: 'all', label: 'All' },
+  { key: 'announcement', label: 'Announcements' },
   { key: 'product', label: 'Brand Guides' },
   { key: 'strategy', label: 'Strategy' },
   { key: 'build-log', label: 'Build Logs' },
 ]
 
-const SECTION_ORDER = ['product', 'strategy', 'build-log']
+const SECTION_ORDER = ['announcement', 'product', 'strategy', 'build-log']
 
 const play = "var(--font-display), 'Playfair Display', Georgia, serif"
 const sans = "var(--font-syne), -apple-system, sans-serif"

@@ -134,12 +134,14 @@ const categoryLabel: Record<string, string> = {
   'build-log': 'Build Log',
   'strategy': 'Strategy',
   'product': 'Product',
+  'announcement': 'Announcement',
 }
 
 const categoryColor: Record<string, string> = {
   'build-log': '#1B8BF5',
   'strategy': '#1d2088',
   'product': '#F0522C',
+  'announcement': '#1A8F4C',
 }
 
 export default async function BlogPostPage({ params }: Props) {

@@ -5,7 +5,7 @@ export interface BlogPost {
   date: string
   readTime: string
   tags: string[]
-  category: 'build-log' | 'strategy' | 'product'
+  category: 'build-log' | 'strategy' | 'product' | 'announcement'
   excerpt: string
   content: string
 }
@@ -1422,7 +1422,7 @@ export const posts: BlogPost[] = [
     date: '2026-06-18',
     readTime: '3 min read',
     tags: ['diffr app', 'app launch', 'one brand rule', 'choice overload', 'curated shopping'],
-    category: 'build-log',
+    category: 'announcement',
     excerpt: 'Diffr is out. The thing we’ve been building in public is now a free app on the App Store — one good brand per slot, decided.',
     content: `
 <p class="lead">Diffr is out.</p>
