@@ -361,7 +361,7 @@ export default function DiffrPage() {
         className="diffr-book-float"
         style={{
           position: "fixed", top: 76, right: 24, zIndex: 90,
-          width: 250, alignItems: "center", gap: 12, padding: 10,
+          width: 262, alignItems: "center", gap: 14, padding: "12px 14px",
           borderRadius: 16, background: "rgba(255,255,255,0.96)",
           backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)",
           border: "1px solid rgba(42,38,32,0.12)",
@@ -372,14 +372,14 @@ export default function DiffrPage() {
         <img
           src="/the-default-trap-cover.jpg"
           alt="The Default Trap — book cover"
-          width={52}
-          height={74}
-          style={{ width: 52, height: 74, objectFit: "cover", borderRadius: 4, boxShadow: "0 3px 8px rgba(42,38,32,0.22)", flexShrink: 0 }}
+          width={58}
+          height={83}
+          style={{ width: 58, height: 83, objectFit: "cover", borderRadius: 4, boxShadow: "0 3px 8px rgba(42,38,32,0.22)", flexShrink: 0 }}
         />
-        <div style={{ display: "flex", flexDirection: "column", gap: 3, minWidth: 0 }}>
-          <span style={{ fontFamily: "var(--font-syne), sans-serif", fontSize: 9.5, fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", color: "#1B8BF5" }}>Where We Begin</span>
-          <span style={{ fontFamily: "var(--font-syne), sans-serif", fontSize: 14, fontWeight: 700, color: "rgba(42,38,32,0.92)", lineHeight: 1.15 }}>Original Idea</span>
-          <span style={{ display: "inline-flex", alignItems: "center", gap: 5, marginTop: 2, alignSelf: "flex-start", background: "#FF9900", color: "#1a1a1a", fontFamily: "var(--font-syne), sans-serif", fontSize: 10.5, fontWeight: 800, padding: "3px 9px", borderRadius: 100 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 7, minWidth: 0 }}>
+          <span style={{ fontFamily: "var(--font-syne), sans-serif", fontSize: 10, fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", color: "#1B8BF5", lineHeight: 1.2 }}>Where We Begin</span>
+          <span style={{ fontFamily: "var(--font-syne), sans-serif", fontSize: 15, fontWeight: 700, color: "rgba(42,38,32,0.92)", lineHeight: 1.3 }}>Original Idea</span>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 5, marginTop: 3, alignSelf: "flex-start", background: "#FF9900", color: "#1a1a1a", fontFamily: "var(--font-syne), sans-serif", fontSize: 11, fontWeight: 800, padding: "4px 11px", borderRadius: 100, lineHeight: 1.1 }}>
             <svg width="15" height="9" viewBox="0 0 15 9" fill="none" aria-hidden="true">
               <path d="M1 4.2 C4 6.6, 11 6.6, 14 4.2" stroke="#1a1a1a" strokeWidth="1.4" strokeLinecap="round" fill="none" />
               <path d="M14 4.2 l-2.1 -0.3 M14 4.2 l-0.9 1.8" stroke="#1a1a1a" strokeWidth="1.4" strokeLinecap="round" />
