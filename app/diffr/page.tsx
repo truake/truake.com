@@ -346,6 +346,49 @@ export default function DiffrPage() {
   return (
     <div className="diffr-root" style={{ minHeight: "100vh", background: "var(--d-bg)" }}>
 
+      {/* ── The Default Trap — floating book card (homepage, under the header socials) ── */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        .diffr-book-float { display: none; }
+        @media (min-width: 640px) { .diffr-book-float { display: flex; } }
+        .diffr-book-float { transition: transform .18s ease, box-shadow .18s ease; }
+        .diffr-book-float:hover { transform: translateY(-2px); box-shadow: 0 16px 42px rgba(42,38,32,0.24); }
+      `}} />
+      <a
+        href="https://www.amazon.com/dp/B0GX2YRK3T"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="The Default Trap by Rock Lam — on sale now on Amazon"
+        className="diffr-book-float"
+        style={{
+          position: "fixed", top: 76, right: 24, zIndex: 90,
+          width: 250, alignItems: "center", gap: 12, padding: 10,
+          borderRadius: 16, background: "rgba(255,255,255,0.96)",
+          backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)",
+          border: "1px solid rgba(42,38,32,0.12)",
+          boxShadow: "0 10px 30px rgba(42,38,32,0.16)",
+          textDecoration: "none",
+        }}
+      >
+        <img
+          src="/the-default-trap-cover.jpg"
+          alt="The Default Trap — book cover"
+          width={52}
+          height={74}
+          style={{ width: 52, height: 74, objectFit: "cover", borderRadius: 4, boxShadow: "0 3px 8px rgba(42,38,32,0.22)", flexShrink: 0 }}
+        />
+        <div style={{ display: "flex", flexDirection: "column", gap: 3, minWidth: 0 }}>
+          <span style={{ fontFamily: "var(--font-syne), sans-serif", fontSize: 9.5, fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", color: "#1B8BF5" }}>Where We Begin</span>
+          <span style={{ fontFamily: "var(--font-syne), sans-serif", fontSize: 14, fontWeight: 700, color: "rgba(42,38,32,0.92)", lineHeight: 1.15 }}>Original Idea</span>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 5, marginTop: 2, alignSelf: "flex-start", background: "#FF9900", color: "#1a1a1a", fontFamily: "var(--font-syne), sans-serif", fontSize: 10.5, fontWeight: 800, padding: "3px 9px", borderRadius: 100 }}>
+            <svg width="15" height="9" viewBox="0 0 15 9" fill="none" aria-hidden="true">
+              <path d="M1 4.2 C4 6.6, 11 6.6, 14 4.2" stroke="#1a1a1a" strokeWidth="1.4" strokeLinecap="round" fill="none" />
+              <path d="M14 4.2 l-2.1 -0.3 M14 4.2 l-0.9 1.8" stroke="#1a1a1a" strokeWidth="1.4" strokeLinecap="round" />
+            </svg>
+            On Sale Now
+          </span>
+        </div>
+      </a>
+
       {/* ── Page-scoped animations + styles ── */}
       <style dangerouslySetInnerHTML={{
         __html: `
