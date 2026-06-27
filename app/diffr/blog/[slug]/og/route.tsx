@@ -9,6 +9,7 @@ import sharp from 'sharp'
 import { posts } from '../../posts'
 import { getSceneBrandKit } from '../../../start/lib'
 import { BLOG_SLUG_TO_PRESET } from '../page'
+import { ogBaseUrl } from '../../og-base'
 
 export const runtime = 'nodejs'
 export const size = { width: 1200, height: 630 }
@@ -56,16 +57,16 @@ export async function GET(
   const { slug } = await params
   const post = posts.find((p) => p.slug === slug)
   const presetId = BLOG_SLUG_TO_PRESET[slug]
+  const toyCover = (slug === 'mixed-toy-box' || slug.startsWith('toy-team-'))
+    ? `https://truake.com/toy-covers/${slug}.jpg` : null
+  const coverUrl = ogBaseUrl(slug) ?? toyCover
 
-  // Defensive: if a non-kit slug ever reaches here, send the static default.
-  if (!post || !presetId) {
+  // Render the themed card if there's a kit OR a base image; else fall to default.
+  if (!post || (!presetId && !coverUrl)) {
     return Response.redirect('https://truake.com/diffr-og.png', 302)
   }
 
-  const hasCover = slug === 'mixed-toy-box' || slug.startsWith('toy-team-')
-  const coverUrl = hasCover ? `https://truake.com/toy-covers/${slug}.jpg` : null
-
-  const kit = await getSceneBrandKit(presetId).catch(() => null)
+  const kit = presetId ? await getSceneBrandKit(presetId).catch(() => null) : null
   const ready = (kit?.slots ?? []).filter((s) => s.status === 'ready' && s.imageUrl).slice(0, 4)
   const tiles = await Promise.all(
     ready.map(async (s) => ({ slot: s, png: await toPngDataUrl(s.imageUrl) })),

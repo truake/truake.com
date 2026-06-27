@@ -7,6 +7,7 @@ import { PostNavLinks } from './nav-links'
 import { getSceneBrandKit } from '../../start/lib'
 import SceneBrandKit from '../../start/SceneBrandKit'
 import { BLOG_FAQ, BLOG_TLDR } from '../brand-guide-content'
+import { OG_BASE_SLUGS } from '../og-base'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -101,7 +102,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Posts with a live slot kit get a dynamic, layered share card (slot product
   // tiles over the hook cover / default base) — see ./og/route.tsx. Falls back to
   // the static cover/default for kit-less posts.
-  const hasKit = slug in BLOG_SLUG_TO_PRESET
+  const hasKit = slug in BLOG_SLUG_TO_PRESET || OG_BASE_SLUGS.has(slug)
   const ogImage = hasKit
     ? `https://truake.com/diffr/blog/${slug}/og`
     : hasCover ? `/toy-covers/${slug}.jpg` : '/diffr-og.png'
