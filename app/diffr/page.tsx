@@ -605,6 +605,34 @@ export default function DiffrPage() {
           }),
         }}
       />
+      {/* Brand entity — asserts "Diffr" itself as an Organization + WebSite (brand SERP) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": "https://truake.com/diffr#brand",
+                name: "Diffr",
+                alternateName: "Diffr App",
+                url: "https://truake.com/diffr",
+                logo: "https://truake.com/diffr-logo.png",
+                description: "Diffr gives you one genuinely good brand per slot — curated, beginner-friendly brand guides so you can decide once instead of overbuying.",
+                sameAs: ["https://x.com/Diffr_app", "https://www.facebook.com/diffrapp", "https://www.instagram.com/diffr.app", "https://www.threads.com/@diffr.app", "https://www.tiktok.com/@diffr_app", "https://www.reddit.com/user/Diffr_app/", appStoreUrl],
+              },
+              {
+                "@type": "WebSite",
+                name: "Diffr",
+                alternateName: "Diffr App",
+                url: "https://truake.com/diffr",
+                publisher: { "@id": "https://truake.com/diffr#brand" },
+              },
+            ],
+          }),
+        }}
+      />
 
       {/* ════════════════════════════════════════════
           HERO
