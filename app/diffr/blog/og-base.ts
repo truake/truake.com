@@ -11,6 +11,9 @@
 
 export const OG_BASE_SLUGS = new Set<string>([
   // add a slug here once public/og-base/<slug>.jpg exists
+  'nike-lines-explained',
+  'gardening-starter-kit-brand-guide',
+  'new-puppy-essentials-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {
