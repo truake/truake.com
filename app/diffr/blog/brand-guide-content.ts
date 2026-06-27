@@ -15,6 +15,12 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'nike-lines-explained':
+    "Bottom line: Nike isn't one line, it's a stack of collections, each built for a scene — so match the lane and decide once instead of scrolling endless colorways. Sportswear (the Air Force 1) is everyday; Tech Fleece is travel and lounge; Nike Pro is the training base layer; Pegasus and Dri-FIT are the run; ACG is trail and outdoors; SB is skate; Jordan is court heritage turned everyday icon. Everyday → Sportswear, travel → Tech Fleece, train → Pro, run → Pegasus, trail → ACG, skate → SB, court → Jordan.",
+  'gardening-starter-kit-brand-guide':
+    "Bottom line: a beginner garden needs about a dozen good tools, one per job — not a shed full. Gloves (Foxgloves), a stainless hand trowel (Wilcox All-Pro), lifetime pruners (Felco F-2), a hori-hori soil knife (Nisaku), a watering can (Haws), a kink-free hose (Flexzilla), a watering wand (Dramm), a kneeler (TomCare), loppers (Fiskars PowerGear), organic fertilizer (Espoma), and beginner seeds (Botanical Interests). Buy first: gloves, the trowel, Felco pruners, and a watering can. One brand per slot, no repeats.",
+  'new-puppy-essentials-brand-guide':
+    "Bottom line: a new puppy needs a contained space, the right food, a few durable things, and cleanup gear — one good brand each, not a pet-store haul. Crate (MidWest iCrate, with a divider), pen/gate (Carlson), food (Purina Pro Plan Puppy), stainless bowls (Frisco), collar and leash (Blueberry Pet), a no-choke training harness (Blue-9 Balance), a stuffable chew toy (KONG Puppy), tiny training treats (Zuke's Mini Naturals), poop bags (Earth Rated), an enzymatic accident cleaner (Nature's Miracle), and a washable bed (Furhaven). Buy first: the crate, food, a KONG, poop bags, Nature's Miracle, and the harness. One brand per slot, no repeats.",
   'lululemon-lines-explained':
     "Bottom line: Lululemon isn't one product, it's a set of collections, each built for a different scene — so instead of scrolling 200 leggings, you pick the lane that matches your week and decide once. Align is the everyday, low-impact line (the Align High-Rise Pant). ABC is the commute/smart-casual trouser (the ABC Pant, “anti-ball-crushing,” reads as real pants). Define is the studio-to-street layer (the Define Jacket). Scuba is cozy weekend fleece (the Scuba Oversized Half-Zip). Steady State and License to Train are the serious-sweat run/train lanes. Tennis & Golf is sport-specific for the court and course. Match the lane to your life: everyday → Align, commute → ABC, weekend → Scuba, sweat → Steady State, court → Tennis & Golf.",
   'aritzia-sub-brands-guide':
@@ -105,6 +111,63 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'nike-lines-explained': [
+    {
+      q: 'What are the different Nike lines and collections?',
+      a: "Nike is organized into collections built for different scenes rather than sold as one range. The main ones: Sportswear/NSW (casual heritage, e.g. the Air Force 1), Tech Fleece (travel and lounge), Nike Pro (training base layers and compression), Pegasus and Dri-FIT (running), ACG / All Conditions Gear (trail and outdoors), SB (skateboarding), and Jordan (basketball heritage, its own brand under Nike). Knowing the map lets you skip the wall of colorways and pick the line that matches your activity.",
+    },
+    {
+      q: 'What is Nike Tech Fleece for?',
+      a: "Tech Fleece is Nike's lightweight, warm-without-bulk lounge and travel line — joggers, hoodies, and zip tops in a smooth fleece that reads more 'put-together' than standard sweats. It's built for the commute, the airport, and the couch, not for high-sweat training. For actual workouts, Nike Pro (base layers) or Dri-FIT running gear is the right lane.",
+    },
+    {
+      q: "What's the difference between Nike Pro and Dri-FIT?",
+      a: "Nike Pro is a collection — tight compression base layers (tights, sleeves, fitted tops) built to support muscles and wick sweat under your main kit. Dri-FIT is a fabric technology, not a collection: it's the moisture-wicking material used across many Nike lines, including running and training. So you'd wear a Nike Pro tight (the garment) made with Dri-FIT (the fabric). For running specifically, look at Dri-FIT apparel plus a Pegasus shoe.",
+    },
+    {
+      q: 'Which Nike line is best for everyday wear?',
+      a: "Nike Sportswear (NSW) — the casual, lifestyle side of Nike worn off the field. It's where the timeless icons live, like the Air Force 1 and classic fleece. If you want one Nike line that goes with everything and isn't about performance, start with Sportswear; add Tech Fleece when you want elevated everyday sweats.",
+    },
+  ],
+
+  'gardening-starter-kit-brand-guide': [
+    {
+      q: 'What tools does a beginner gardener need?',
+      a: "About a dozen: gloves, a hand trowel, pruning shears, a soil knife (hori-hori), a watering can, a hose with a watering wand, a kneeler, loppers, fertilizer, and seeds. One good version of each covers nearly everything a new gardener does in the first few seasons. Buy the gloves, trowel, pruners, and watering can first — you'll touch those every single time you're out there.",
+    },
+    {
+      q: 'What is a hori-hori or soil knife?',
+      a: "A hori-hori is a Japanese garden knife with a concave, partly serrated blade and depth markings. It digs, cuts roots, saws through small branches, weeds, and measures planting depth — which is why experienced gardeners reach for it more than any other tool. A stainless one like Nisaku's lasts for years and replaces several single-purpose tools.",
+    },
+    {
+      q: 'Are expensive pruners like Felco worth it?',
+      a: "For most gardeners, yes — Felco secateurs are repairable (you can replace the blade, spring, and parts), hold an edge, and typically last decades, so they're cheaper over time than replacing cheap pruners every season. If you garden regularly, buying the lifetime pair first skips the throwaway ones. If you only prune occasionally, a budget pair from a brand like Fiskars is fine to start.",
+    },
+    {
+      q: 'What should I buy first for gardening?',
+      a: "Start with the four you'll use every time: a good pair of gloves, a sturdy stainless hand trowel, a quality pair of pruning shears, and a watering can. Add a kink-free hose and a soil knife next. That short set handles planting, watering, and pruning — the core of almost everything a beginner garden needs — before you spend on anything specialized.",
+    },
+  ],
+
+  'new-puppy-essentials-brand-guide': [
+    {
+      q: 'What do you need for a new puppy?',
+      a: "A contained space (a crate plus a pen or gate), the right food and stainless bowls, a collar, leash, and a no-choke training harness, a stuffable chew toy, small training treats, poop bags, an enzymatic accident cleaner, and a washable bed. One good brand of each covers the first months. Before the puppy arrives, prioritize the crate, food, a KONG, poop bags, and an enzymatic cleaner.",
+    },
+    {
+      q: 'What size crate should I get for a puppy?',
+      a: "Get a crate sized for your puppy's expected adult size, but use a divider panel to shrink the usable space while they're small — a crate that's too big lets a puppy potty in one corner and sleep in another, which slows house-training. Crates like the MidWest iCrate come with a divider for exactly this, so you buy once instead of upgrading as they grow.",
+    },
+    {
+      q: 'What should I buy first for a new puppy?',
+      a: "Before pickup day: a crate (with divider), puppy food, stainless bowls, a KONG chew toy, poop bags, and an enzymatic cleaner like Nature's Miracle — plus a no-choke harness and leash so training starts on day one. The bed, pen, and extra toys can follow in the first week once you see what your puppy actually needs.",
+    },
+    {
+      q: "What's the best first chew toy for a puppy?",
+      a: "A classic rubber KONG (puppy version) is the standard first toy: you can stuff it with food or treats and freeze it, which soothes teething gums and keeps a bored puppy busy for close to an hour. It's durable, vet-recommended, and doubles as a training and crate-time tool — the one toy worth buying before anything fancier.",
+    },
+  ],
+
   'lululemon-lines-explained': [
     {
       q: 'What are the different Lululemon collections?',

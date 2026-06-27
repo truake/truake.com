@@ -12,6 +12,147 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'nike-lines-explained',
+    title: "Nike's Lines, Explained: Which Collection Is for Which Part of Your Life",
+    description: "Nike isn't one line — it's a stack of collections, each built for a different way you move. Sportswear for everyday, Tech Fleece for travel, Pro for training, Pegasus for the run, ACG for the trail, SB for skate, Jordan for the court. Here's the map, so you pick your lane and decide once.",
+    date: '2026-06-27',
+    readTime: '6 min read',
+    tags: ['nike lines explained', 'nike collections', 'nike tech fleece', 'nike acg', 'nike pro', 'athleisure', 'one brand rule'],
+    category: 'product',
+    excerpt: "The wall of swooshes is choice overload by design. But Nike is quietly sorted by scene — learn which collection is for which part of your life and you stop scrolling colorways.",
+    content: `
+<p>One brand, a dozen worlds. Nike isn&rsquo;t a single product line &mdash; it&rsquo;s a stack of collections, each engineered for a different way you move. The reason the wall of swooshes feels overwhelming is the same <a href="/diffr/blog/why-more-choices-makes-you-worse-at-shopping">choice overload</a> every store now runs on: too many near-identical options and no map. Here&rsquo;s the map &mdash; which Nike line is built for which scene, so you pick your lane and decide once.</p>
+
+<h2>Sportswear (NSW) — Everyday</h2>
+<p>The lane: street, not sport &mdash; the casual, heritage side worn off the field. The vibe: clean, timeless, goes with everything. <strong>The one piece:</strong> the Air Force 1. If you want one Nike thing that isn&rsquo;t about performance, it&rsquo;s this.</p>
+
+<h2>Tech Fleece — Travel &amp; Lounge</h2>
+<p>The lane: the airport, the commute, the couch &mdash; warmth without the bulk. The vibe: elevated sweats that still read &ldquo;put-together.&rdquo; <strong>The one piece:</strong> the Tech Fleece jogger.</p>
+
+<h2>Nike Pro — Train</h2>
+<p>The lane: under everything, when you lift or sweat &mdash; compression base layers built to move moisture and support muscle. <strong>The one piece:</strong> Pro tights or a Pro top. This is the layer the everyday lines were never built to be.</p>
+
+<h2>Pegasus &amp; Dri-FIT — Run</h2>
+<p>The lane: the run itself. Pegasus is the do-everything daily trainer; Dri-FIT is the fabric that keeps you dry. <strong>The one piece:</strong> the Pegasus &mdash; the safest first running shoe Nike makes.</p>
+
+<h2>ACG — Trail &amp; Outdoors</h2>
+<p>The lane: All Conditions Gear &mdash; hiking, trail, weather. The vibe: technical and rugged, built for outside. <strong>The one piece:</strong> an ACG shell or trail shoe, for when the everyday line would quit.</p>
+
+<h2>SB — Skate</h2>
+<p>The lane: skateboarding, and the streetwear orbit around it. Reinforced and cushioned, built to take a beating. <strong>The one piece:</strong> the SB Dunk.</p>
+
+<h2>Jordan — Court Heritage</h2>
+<p>The lane: basketball lineage turned everyday icon &mdash; its own brand under the swoosh, with its own gravity. <strong>The one piece:</strong> the Air Jordan 1.</p>
+
+<h2>The Diffr Take</h2>
+<p>Nike already did the sorting &mdash; it built a different line for each way you move, then buried the map under a thousand colorways. That&rsquo;s the whole Diffr idea: <a href="/diffr/blog/the-decide-once-rule">decide once</a>, by scene, and stop re-evaluating the same purchase every drop. Match the lane to your life: everyday is Sportswear, travel is Tech Fleece, training is Pro, the run is Pegasus, the trail is ACG, skate is SB, the court is Jordan. One lane, one decision. Want that for your whole closet, not just the swoosh? <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Download Diffr</a>.</p>
+`.trim(),
+  },
+  {
+    slug: 'gardening-starter-kit-brand-guide',
+    title: 'The Beginner Gardening Starter Kit: One Brand Per Slot',
+    description: "A beginner garden needs about a dozen good tools, one per job — gloves (Foxgloves), a stainless trowel (Wilcox), lifetime pruners (Felco), a hori-hori (Nisaku), a watering can (Haws) and more. One brand per slot, no repeats, in the order to buy them.",
+    date: '2026-06-27',
+    readTime: '6 min read',
+    tags: ['gardening starter kit', 'beginner gardening tools', 'garden tools for beginners', 'gardening essentials', 'one brand rule'],
+    category: 'product',
+    excerpt: "You don't need a shed full of tools to start a garden — about a dozen good ones, one per job, that last years instead of seasons. One brand per slot, no repeats.",
+    content: `
+<p>You don&rsquo;t need a shed full of tools to start a garden &mdash; you need about a dozen good ones, one per job, that last years instead of seasons. The garden-center wall is the usual <a href="/diffr/blog/the-toothpaste-aisle-tax">choice-overload trap</a>: forty trowels that all look the same. Here is the short version &mdash; one genuinely good brand per slot, no repeats, in the order that matters.</p>
+
+<h2>Gloves — Foxgloves</h2>
+<p>Snug, breathable, and machine-washable &mdash; the pair you&rsquo;ll actually keep reaching for instead of gardening bare-handed.</p>
+
+<h2>Hand Trowel — Wilcox All-Pro</h2>
+<p>One piece of stainless steel with depth markings; it will outlive the garden.</p>
+
+<h2>Pruning Shears — Felco F-2</h2>
+<p>The lifetime secateurs every gardener eventually buys. Start here and skip the three cheap pairs in between.</p>
+
+<h2>Soil Knife — Nisaku Hori-Hori</h2>
+<p>Digs, cuts, weeds, and measures &mdash; the one tool that quietly does five jobs.</p>
+
+<h2>Watering Can — Haws</h2>
+<p>Balanced when full, and the fine rose waters seedlings without flattening them.</p>
+
+<h2>Garden Hose — Flexzilla</h2>
+<p>Kink-free and light. The hose you won&rsquo;t spend half your watering time fighting.</p>
+
+<h2>Watering Wand — Dramm</h2>
+<p>Reaches the back of the bed and the hanging baskets without bending or spraying your shoes.</p>
+
+<h2>Kneeler — TomCare</h2>
+<p>Flip it for a kneeling pad or a seat. Your knees and back decide how long you actually stay out there.</p>
+
+<h2>Loppers — Fiskars PowerGear</h2>
+<p>For the branches the hand pruners can&rsquo;t reach; the geared pivot does the work for you.</p>
+
+<h2>Fertilizer — Espoma</h2>
+<p>Organic and hard to over-apply &mdash; forgiving while you&rsquo;re still learning what your plants want.</p>
+
+<h2>Seeds — Botanical Interests</h2>
+<p>Clearly labelled and beginner-friendly, with real growing instructions printed inside every packet.</p>
+
+<h2>Buy in This Order</h2>
+<p>Start with the four you&rsquo;ll touch every single time: gloves, the trowel, the Felco pruners, and a watering can. Add the hose and the soil knife next; the rest fills in as your beds grow.</p>
+
+<h2>The Diffr Take</h2>
+<p>A garden doesn&rsquo;t reward the biggest tool collection &mdash; it rewards <a href="/diffr/blog/the-one-brand-rule">one good version of each thing</a>, bought once and kept sharp. Decide the slot, skip the aisle. For more starter kits done the same way, see the <a href="/diffr/blog/starter-kits">starter kits index</a>, or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock one pick per slot.</p>
+`.trim(),
+  },
+  {
+    slug: 'new-puppy-essentials-brand-guide',
+    title: 'New Puppy Essentials: The Starter Kit, One Brand Per Slot',
+    description: "Everything a new puppy needs, one good brand each — crate (MidWest), food (Purina Pro Plan), a KONG, training treats (Zuke's), poop bags (Earth Rated), an enzymatic cleaner (Nature's Miracle) and more. One brand per slot, no repeats, in the order to buy them.",
+    date: '2026-06-27',
+    readTime: '6 min read',
+    tags: ['new puppy checklist', 'puppy starter kit', 'puppy essentials', 'first time dog owner', 'one brand rule'],
+    category: 'product',
+    excerpt: "A new puppy needs a contained space, the right food, a few durable things, and cleanup gear — one good brand each, not a pet-store haul. One brand per slot, no repeats.",
+    content: `
+<p>Bringing home a puppy turns a calm apartment into a research spiral overnight. But the actual list is short: a contained space, the right food, a few durable things, and cleanup gear &mdash; one good brand each, not a full pet-store haul. Here is the kit, one brand per slot, no repeats, in the order to buy it.</p>
+
+<h2>Crate — MidWest iCrate</h2>
+<p>A divider panel grows the crate with your puppy, so you buy it once instead of three times.</p>
+
+<h2>Pen &amp; Gate — Carlson</h2>
+<p>Contains the chaos to one safe, puppy-proofed zone while you can&rsquo;t watch every second.</p>
+
+<h2>Food — Purina Pro Plan Puppy</h2>
+<p>Vet-common, widely stocked, and consistent. At this age, a stable formula beats a hyped one &mdash; ask your vet, but you won&rsquo;t go wrong starting here.</p>
+
+<h2>Bowls — Frisco Stainless</h2>
+<p>Dishwasher-safe stainless; no plastic to chew or to harbor bacteria.</p>
+
+<h2>Collar &amp; Leash — Blueberry Pet</h2>
+<p>Sized, affordable, and easy to replace as a fast-growing puppy outgrows its first collar.</p>
+
+<h2>Harness — Blue-9 Balance</h2>
+<p>The trainer-favorite no-choke harness, so leash training starts right instead of as a tug-of-war.</p>
+
+<h2>Chew Toy — KONG Puppy</h2>
+<p>Stuff it, freeze it, and a teething puppy entertains itself for an hour. The one toy worth buying first.</p>
+
+<h2>Training Treats — Zuke's Mini Naturals</h2>
+<p>Tiny and soft, so you can reward fifty times in a session without overfeeding.</p>
+
+<h2>Poop Bags — Earth Rated</h2>
+<p>The default for a reason &mdash; thick, leak-proof, and they fit every holder.</p>
+
+<h2>Accident Cleaner — Nature's Miracle</h2>
+<p>Enzymatic, so it removes the smell that makes a puppy re-mark the same spot &mdash; the difference between one accident and a habit.</p>
+
+<h2>Bed — Furhaven</h2>
+<p>Washable and cheap enough that you won&rsquo;t mourn it when it gets chewed. Upgrade once the chewing phase ends.</p>
+
+<h2>Buy in This Order</h2>
+<p>Before the puppy arrives: the crate, food, a KONG, poop bags, and Nature&rsquo;s Miracle &mdash; plus the harness so leash training starts on day one. The bed and pen can follow that first week.</p>
+
+<h2>The Diffr Take</h2>
+<p>A puppy doesn&rsquo;t need the biggest haul &mdash; it needs <a href="/diffr/blog/the-one-brand-rule">one good version of each thing</a>, chosen once so you can spend the attention on the dog, not the gear. For more starter kits done the same way, see the <a href="/diffr/blog/starter-kits">starter kits index</a>, or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock one pick per slot.</p>
+`.trim(),
+  },
+  {
     slug: 'lululemon-lines-explained',
     title: "Lululemon's Lines, Explained: Which Collection Is for Which Part of Your Life",
     description: "Lululemon isn't one product — it's a handful of collections, each built for a different scene. Align for everyday, ABC for the commute, Scuba for the weekend, Steady State for the sweat, Tennis & Golf for the court. Here's the map, so you pick your lane and decide once.",
