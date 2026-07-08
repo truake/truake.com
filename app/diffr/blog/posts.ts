@@ -12,6 +12,57 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'camping-vs-backpacking-starter-kit',
+    title: 'Car Camping vs Backpacking: Which Starter Kit Do You Need?',
+    description: 'Car camping and backpacking look like the same hobby until you try to pack. Here is how to tell which starter kit you need — shelter, sleep, stove, and carry — plus links to the complete one-brand-per-slot lists for each.',
+    date: '2026-07-08',
+    readTime: '5 min read',
+    tags: ['camping starter kit', 'backpacking starter kit', 'car camping vs backpacking', 'camping gear for beginners', 'what to buy first camping', 'one brand rule'],
+    category: 'product',
+    excerpt: 'Same word, two different jobs. If you drive to the site, you need a car-camping kit. If everything goes on your back, you need a backpacking kit — and mixing them up is the most common beginner mistake.',
+    content: `
+<p>Search for a <strong>camping starter kit</strong> and you get lists that mix a six-pound tent with a one-pound sleeping pad &mdash; gear built for opposite jobs. Car camping and backpacking share a word, but they answer different questions: one is &ldquo;how do I sleep comfortably near my car?&rdquo; and the other is &ldquo;how do I carry everything I need for miles?&rdquo; Pick the wrong kit and you either haul a car-camping tent on your back or shiver on a thin pad beside the parking lot.</p>
+
+<p>Here is the decision in one pass, then the two complete starter kits &mdash; one brand per slot, no repeats &mdash; for each path.</p>
+
+<h2>The 30-Second Decision</h2>
+<ul>
+<li><strong>Car camping</strong> &mdash; you drive to the site, camp within walking distance of the car, and weight does not matter. Prioritize comfort: a tall tent, a wide sleeping bag, a plush pad, a two-burner stove, and a real cooler.</li>
+<li><strong>Backpacking</strong> &mdash; everything goes in a pack on your back for at least one night on the trail. Prioritize weight and packability: a lightweight shelter, a compact sleep system, a single-burner stove, and food you carry in.</li>
+<li><strong>Day hiking</strong> &mdash; no overnight gear at all. See the <a href="/diffr/blog/hiking-gear-brand-guide">hiking starter kit</a> instead.</li>
+</ul>
+
+<h2>Where the Kits Diverge (Slot by Slot)</h2>
+
+<h3>Shelter</h3>
+<p><strong>Car camping:</strong> a roomy tent you can stand up in &mdash; near-vertical walls, space for gear inside, no gram-counting. <strong>Backpacking:</strong> a lightweight tent or tarp that packs small and sets up fast; every ounce counts on your shoulders.</p>
+
+<h3>Sleep</h3>
+<p><strong>Car camping:</strong> a wide sleeping bag (or double bag) and a thick self-inflating pad &mdash; comfort beats packed size. <strong>Backpacking:</strong> a mummy bag rated for the lowest temp you expect and an inflatable pad that rolls to the size of a water bottle.</p>
+
+<h3>Cook</h3>
+<p><strong>Car camping:</strong> a two-burner propane stove and a cooler that holds ice for days. <strong>Backpacking:</strong> a single-burner canister stove and dehydrated meals that rehydrate in the bag.</p>
+
+<h3>Carry</h3>
+<p><strong>Car camping:</strong> a headlamp, camp chairs, and a lantern live in the trunk &mdash; luxuries backpacking leaves behind. <strong>Backpacking:</strong> a fitted pack (40&ndash;65L for overnight), a water filter, and navigation you can use without cell service.</p>
+
+<h2>What to Buy First (Each Path)</h2>
+<p><strong>Car camping, in order:</strong> tent &rarr; sleeping bag &rarr; sleeping pad &rarr; stove &rarr; cooler. Bad sleep is the number one reason beginners quit; shelter and warmth come before the kitchen.</p>
+<p><strong>Backpacking, in order:</strong> pack that fits your torso &rarr; shelter &rarr; sleep system &rarr; stove &rarr; water treatment. Get the pack fitted at a shop if you can; an ill-fitting pack ruins the trip before the trail does.</p>
+
+<h2>The Complete Kits</h2>
+<p>Each link below is a full beginner starter kit &mdash; one good brand per slot, buy-in-this-order priority, no repeats:</p>
+<ul>
+<li><a href="/diffr/blog/camping-gear-brand-guide">The complete car-camping starter kit</a> &mdash; nine slots from tent to first aid, built for two or a small family.</li>
+<li><a href="/diffr/blog/backpacking-gear-brand-guide">The complete backpacking starter kit</a> &mdash; shelter to navigation, for the trail on your back.</li>
+</ul>
+<p>Not sure yet? Start with car camping. It is cheaper to learn, forgives heavy gear, and tells you quickly whether you like sleeping outside before you invest in ultralight.</p>
+
+<h2>The Diffr Take</h2>
+<p>Outdoor stores sell both kinds of gear on the same wall &mdash; that is how you end up with a backpacking pack full of car-camping mistakes. The fix is the same as everywhere else: name the job, assign one good brand per slot, and <a href="/diffr/blog/the-decide-once-rule">decide once</a>. More starter kits: <a href="/diffr/blog/starter-kits">the full index</a>, or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock your picks.</p>
+`.trim(),
+  },
+  {
     slug: 'nike-lines-explained',
     title: "Nike's Lines, Explained: Which Collection Is for Which Part of Your Life",
     description: "Nike isn't one line — it's a stack of collections, each built for a different way you move. Sportswear for everyday, Tech Fleece for travel, Pro for training, Pegasus for the run, ACG for the trail, SB for skate, Jordan for the court. Here's the map, so you pick your lane and decide once.",
@@ -1634,6 +1685,7 @@ export const posts: BlogPost[] = [
 
 <h2>Gear &amp; Outdoors</h2>
 <ul>
+<li><a href="/diffr/blog/camping-vs-backpacking-starter-kit">Car camping vs backpacking</a> &mdash; which starter kit you need, and what to buy first on each path.</li>
 <li><a href="/diffr/blog/camping-gear-brand-guide">Camping starter kit</a> &mdash; a car-camping kit for two or the family, tent to first aid.</li>
 <li><a href="/diffr/blog/backpacking-gear-brand-guide">Backpacking starter kit</a> &mdash; the big three to navigation, for the trail on your back.</li>
 <li><a href="/diffr/blog/hiking-gear-brand-guide">Hiking starter kit</a> &mdash; everything for a first day hike.</li>
@@ -2049,7 +2101,7 @@ export const posts: BlogPost[] = [
     category: 'product',
     excerpt: 'Nine slots. Nine brand answers. A complete car-camping kit for two or the family — assigned and closed. Pitch camp. Stop researching.',
     content: `
-<p>Car camping is supposed to be the easy kind: you drive to the site, nothing goes on your back, and comfort is the whole point. Then you open a gear forum and find forty opinions on tent denier, cooler ice-retention, and sleeping-pad R-value &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> pitched at a campsite. Diffr&rsquo;s answer is the same everywhere: one good brand per slot, file closed. Here is the complete beginner camping starter kit &mdash; built for two people or a small family to camp comfortably, with a buy-in-this-order priority at the end so you can start with the basics.</p>
+<p>Car camping is supposed to be the easy kind: you drive to the site, nothing goes on your back, and comfort is the whole point. (Not sure if you need this kit or a backpacking one? See <a href="/diffr/blog/camping-vs-backpacking-starter-kit">car camping vs backpacking</a>.) Then you open a gear forum and find forty opinions on tent denier, cooler ice-retention, and sleeping-pad R-value &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> pitched at a campsite. Diffr&rsquo;s answer is the same everywhere: one good brand per slot, file closed. Here is the complete beginner camping starter kit &mdash; built for two people or a small family to camp comfortably, with a buy-in-this-order priority at the end so you can start with the basics.</p>
 
 <h2>The Slots</h2>
 
@@ -2292,7 +2344,7 @@ export const posts: BlogPost[] = [
     category: 'product',
     excerpt: 'Eleven slots. Eleven brand answers. The big three to navigation — assigned and closed. Hit the trail. Stop researching.',
     content: `
-<p>Backpacking is car camping with consequences: everything you need to sleep, eat, and stay alive goes on your back, so every gram and every dollar is a decision. The gear forums will happily turn that into a six-month research project &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> measured in ounces. Diffr&rsquo;s approach is the same everywhere: one brand per slot, file closed. Here is the complete beginner backpacking starter kit, with a buy-in-this-order priority at the end &mdash; starting with the &ldquo;big three&rdquo; that dominate your pack weight and your budget.</p>
+<p>Backpacking is car camping with consequences: everything you need to sleep, eat, and stay alive goes on your back, so every gram and every dollar is a decision. (Drive-up camping instead? See <a href="/diffr/blog/camping-vs-backpacking-starter-kit">car camping vs backpacking</a>.) The gear forums will happily turn that into a six-month research project &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> measured in ounces. Diffr&rsquo;s approach is the same everywhere: one brand per slot, file closed. Here is the complete beginner backpacking starter kit, with a buy-in-this-order priority at the end &mdash; starting with the &ldquo;big three&rdquo; that dominate your pack weight and your budget.</p>
 
 <h2>The Slots</h2>
 

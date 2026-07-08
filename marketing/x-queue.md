@@ -15,6 +15,22 @@ that only helps if the post is native, not a link drop.
 
 ## queued
 
+### Car camping vs backpacking — READY (blog live 2026-07-08)
+```
+1/ "Camping starter kit" lists mix a 6 lb tent with a 1 lb pad — gear built for opposite jobs. Car camping = drive to the site, comfort first. Backpacking = everything on your back, weight first. Same word, two kits. 🧵
+
+2/ Car camping: tall tent, wide bag, thick pad, two-burner stove, real cooler. Weight doesn't matter — sleep does.
+
+3/ Backpacking: light shelter, mummy bag, inflatable pad, single-burner stove, fitted pack. Every ounce counts.
+
+4/ Buy first (car): tent → bag → pad. Buy first (trail): pack → shelter → sleep system.
+
+5/ Not sure? Start with car camping — cheaper to learn, tells you fast if you like sleeping outside.
+
+6/ Full one-brand-per-slot lists for each path ↓
+https://truake.com/diffr/blog/camping-vs-backpacking-starter-kit
+```
+
 ### Lululemon Lines Explained — READY (blog live 2026-06-24); decide-once voice
 ```
 1/ Lululemon's wall is 200 leggings and zero guidance. But it's secretly sorted by scene — each collection is one lane of your life. Learn the map, stop scrolling, decide once. 🧵

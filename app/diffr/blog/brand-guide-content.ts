@@ -15,6 +15,8 @@
 // as the BlogPosting `abstract`. Lead with the conclusion + what to buy first so
 // AI engines (ChatGPT, Perplexity, AI Overviews) can extract a clean summary.
 export const BLOG_TLDR: Record<string, string> = {
+  'camping-vs-backpacking-starter-kit':
+    'Bottom line: car camping and backpacking need different starter kits — same word, opposite constraints. If you drive to the site and sleep near the car, you need a roomy tent, a wide sleeping bag, a plush pad, a two-burner stove, and a real cooler (see the car-camping starter kit). If everything goes on your back for miles, you need a lightweight shelter, a compact sleep system, a single-burner stove, and a fitted pack (see the backpacking starter kit). Buy first for car camping: tent, bag, pad. Buy first for backpacking: pack, shelter, sleep system. Not sure? Start with car camping — it is cheaper to learn and tells you fast if you like sleeping outside.',
   'nike-lines-explained':
     "Bottom line: Nike isn't one line, it's a stack of collections, each built for a scene — so match the lane and decide once instead of scrolling endless colorways. Sportswear (the Air Force 1) is everyday; Tech Fleece is travel and lounge; Nike Pro is the training base layer; Pegasus and Dri-FIT are the run; ACG is trail and outdoors; SB is skate; Jordan is court heritage turned everyday icon. Everyday → Sportswear, travel → Tech Fleece, train → Pro, run → Pegasus, trail → ACG, skate → SB, court → Jordan.",
   'gardening-starter-kit-brand-guide':
@@ -111,6 +113,25 @@ export interface FaqItem {
 }
 
 export const BLOG_FAQ: Record<string, FaqItem[]> = {
+  'camping-vs-backpacking-starter-kit': [
+    {
+      q: 'What is the difference between car camping and backpacking gear?',
+      a: 'Car camping gear prioritizes comfort and livable space because you drive to the site and weight does not matter — a tall tent, a wide sleeping bag, a thick pad, a two-burner stove, and a cooler that holds ice for days. Backpacking gear prioritizes weight and packability because everything goes on your back — a lightweight shelter, a compact mummy bag, an inflatable pad, a single-burner stove, and a fitted pack. Mixing them up (a car-camping tent in a backpacking pack) is the most common beginner mistake.',
+    },
+    {
+      q: 'What should I buy first for a camping starter kit?',
+      a: 'For car camping, buy shelter and sleep first: tent, sleeping bag, and sleeping pad — bad sleep is the top reason beginners quit. Then add a two-burner stove and a good cooler. For backpacking, get a pack that fits your torso first, then shelter and your sleep system, then stove and water treatment. If you are not sure which path you want, start with car camping; it is cheaper to learn and forgives heavier gear.',
+    },
+    {
+      q: 'Can I use backpacking gear for car camping?',
+      a: 'Yes — ultralight backpacking gear works fine at a drive-up site, and many people prefer the simplicity. But backpacking gear is usually less comfortable (narrower bags, thinner pads, smaller tents) because it trades comfort for weight. Car-camping gear is miserable on the trail because it is too heavy and bulky to carry. Match the kit to how you actually camp, not to the word "camping" on the label.',
+    },
+    {
+      q: 'Do I need a different starter kit for family camping?',
+      a: 'Family car camping uses the same car-camping kit type — roomy tent, warm sleep system, two-burner stove, big cooler — sized up for headcount (a four-person tent for two adults gives space for gear; a double-wide sleeping bag works for couples). Backpacking with kids is still backpacking: lighter shelter and sleep gear, but you may carry more food and clothes. The family question is usually car camping; see the complete car-camping starter kit for one brand per slot.',
+    },
+  ],
+
   'nike-lines-explained': [
     {
       q: 'What are the different Nike lines and collections?',
