@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import RevealOnScroll from "./components/RevealOnScroll";
-import BlurText from "./components/BlurText";
 import ShinyText from "./components/ShinyText";
 import CountUp from "./components/CountUp";
 import SpotlightCard from "./components/SpotlightCard";
@@ -12,14 +11,18 @@ import ScrollVelocity from "./components/ScrollVelocity";
    SEO
 ───────────────────────────────────────────────────────────── */
 export const metadata: Metadata = {
-  title: "Diffr — What to buy first when you're new to a hobby",
+  title: { absolute: "Diffr — What to buy first when you're new to a hobby" },
   description:
-    "Beginner-friendly brand picks for fishing, coffee, running, photography, investing and 40+ hobbies. 47,000+ brands scored across six axes. Free on iOS.",
+    "Running, camping, dorm room, coffee — curated beginner starter kits with one trusted brand per slot. 47,000+ brands scored across six axes. Free on iOS.",
   alternates: { canonical: "https://truake.com/diffr" },
   keywords: [
     "Diffr",
+    "beginner starter kit",
+    "what to buy first",
     "beginner brands",
     "brand recommendations",
+    "camping starter kit",
+    "backpacking starter kit",
     "shopping app",
     "iOS app",
     "47000 brands",
@@ -30,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Diffr — What to buy first when you're new to a hobby",
     description:
-      "Beginner-friendly brand recommendations for fishing, coffee, running, photography and 40+ other hobbies. 47,000+ brands scored. Free on iOS.",
+      "Running, camping, dorm room, coffee — curated beginner starter kits with one trusted brand per slot. 47,000+ brands scored. Free on iOS.",
     url: "https://truake.com/diffr",
     images: [{ url: "/diffr-og.png", width: 1200, height: 630, alt: "Diffr" }],
   },
@@ -38,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Diffr — What to buy first when you're new to a hobby",
     description:
-      "47,000+ brands scored across six axes. Beginner packs, curated Scenes, and AI Coach. Free on iOS.",
+      "Beginner starter kits for running, camping, dorm room, and 40+ hobbies. One brand per slot. Free on iOS.",
     images: ["/diffr-og.png"],
   },
   other: {
@@ -69,12 +72,59 @@ const proofStatsCounted = [
 ];
 
 const sceneCards = [
-  { title: "Mobile & Casual Gaming", count: "12 brands", from: "#1E1B4B", to: "#4338CA",  icon: "gaming"       },
-  { title: "Home Gym Essentials",    count: "16 brands", from: "#0F172A", to: "#1B8BF5",  icon: "gym"          },
-  { title: "Running Starter Kit",    count: "11 brands", from: "#7C2D12", to: "#F0522C",  icon: "running"      },
-  { title: "Yoga & Mindfulness",     count: "9 brands",  from: "#14532D", to: "#16A34A",  icon: "yoga"         },
-  { title: "Film Photography",       count: "14 brands", from: "#1C1917", to: "#57534E",  icon: "photography"  },
-  { title: "Home Coffee Ritual",     count: "10 brands", from: "#451A03", to: "#92400E",  icon: "coffee"       },
+  { title: "Mobile & Casual Gaming", count: "12 brands", from: "#1E1B4B", to: "#4338CA",  icon: "gaming",       href: "/diffr/start/home-gaming" },
+  { title: "Home Gym Essentials",    count: "16 brands", from: "#0F172A", to: "#1B8BF5",  icon: "gym",          href: "/diffr/start/home-gym-essentials" },
+  { title: "Running Starter Kit",    count: "11 brands", from: "#7C2D12", to: "#F0522C",  icon: "running",      href: "/diffr/start/running-starter-kit" },
+  { title: "Yoga & Mindfulness",     count: "9 brands",  from: "#14532D", to: "#16A34A",  icon: "yoga",         href: "/diffr/start/yoga-mindfulness" },
+  { title: "Film Photography",       count: "14 brands", from: "#1C1917", to: "#57534E",  icon: "photography",  href: "/diffr/blog/film-photography-brand-guide" },
+  { title: "Home Coffee Ritual",     count: "10 brands", from: "#451A03", to: "#92400E",  icon: "coffee",       href: "/diffr/start/home-coffee" },
+];
+
+const popularGuides = [
+  { label: "Backpacking starter kit", href: "/diffr/blog/backpacking-gear-brand-guide" },
+  { label: "Winter layering guide", href: "/diffr/blog/winter-layering-brand-guide" },
+  { label: "Camping essentials list", href: "/diffr/blog/camping-gear-brand-guide" },
+  { label: "Dorm room essentials", href: "/diffr/blog/dorm-room-essentials-brand-guide" },
+  { label: "Car camping vs backpacking", href: "/diffr/blog/camping-vs-backpacking-starter-kit" },
+  { label: "Running gear for beginners", href: "/diffr/blog/running-gear-brand-guide" },
+  { label: "All starter kits (index)", href: "/diffr/blog/starter-kits" },
+  { label: "Interactive beginner guides", href: "/diffr/start" },
+];
+
+const hobbyLinks = [
+  { label: "Film Photography", href: "/diffr/blog/film-photography-brand-guide" },
+  { label: "Cycling Commute", href: "/diffr/start/cycling-commute" },
+  { label: "Home Coffee", href: "/diffr/start/home-coffee" },
+  { label: "Hiking", href: "/diffr/blog/hiking-gear-brand-guide" },
+  { label: "Investing", href: "/diffr/start" },
+  { label: "HYSA", href: "/diffr/start" },
+];
+
+const homepageFaq = [
+  {
+    q: "What is Diffr?",
+    a: "Diffr is a free iOS app that answers what to buy first when you are new to a hobby. Each beginner starter kit assigns one trusted brand per slot — no duplicate brands, no endless comparison lists.",
+  },
+  {
+    q: "Is Diffr free?",
+    a: "Yes. Diffr is free to download on the App Store. Diffr Pro is optional and adds the AI Coach and premium features. You can cancel any time in iOS Settings.",
+  },
+  {
+    q: "How is Diffr different from Wirecutter or Reddit?",
+    a: "Review sites rank the best overall product in a category. Diffr builds complete starter kits — every slot filled once, in buy-this-first order — so you decide once instead of re-opening the same research loop.",
+  },
+  {
+    q: "What hobbies and starter kits does Diffr cover?",
+    a: "Running, camping, backpacking, dorm room essentials, home coffee, film photography, skincare, work wardrobe, winter layering, and dozens more. Browse the full starter kit index on the blog or open a guide in the app.",
+  },
+  {
+    q: "How does the six-axis brand score work?",
+    a: "Every brand is scored on Heritage, Quality, Aesthetic, Innovation, Value, and Cultural impact — surfaced as a hex badge. Scores are calculated independently of affiliate commissions.",
+  },
+  {
+    q: "Does Diffr sell my data?",
+    a: "No. Diffr does not sell personal data, run ad networks, or track you across other apps. Revenue comes from optional Pro subscriptions and affiliate links when you choose to buy through a retailer.",
+  },
 ];
 
 const trustCards = [
@@ -189,8 +239,9 @@ function PhoneFrame({
         alt={alt}
         width={width}
         height={height}
-        quality={85}
+        quality={priority ? 85 : 75}
         priority={priority}
+        loading={priority ? undefined : "lazy"}
         style={{ display: "block" }}
       />
     </div>
@@ -544,6 +595,15 @@ export default function DiffrPage() {
             transform: translateY(-3px);
           }
 
+          .diffr-guide-card {
+            transition: border-color 180ms ease, box-shadow 180ms ease, transform 200ms ease;
+          }
+          .diffr-guide-card:hover {
+            border-color: rgba(27,139,245,0.35) !important;
+            box-shadow: 0 8px 24px rgba(27,139,245,0.10);
+            transform: translateY(-2px);
+          }
+
           /* Nav link hover */
           .diffr-nav-link { transition: color 150ms ease; }
           .diffr-nav-link:hover { color: #1B8BF5 !important; }
@@ -594,7 +654,7 @@ export default function DiffrPage() {
             offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
             downloadUrl: appStoreUrl,
             description:
-              "Beginner-friendly brand recommendations. 47,000+ brands scored across six axes.",
+              "Beginner starter kits with one brand per slot. 47,000+ brands scored across six axes.",
             screenshot: [
               "https://truake.com/diffr-screens/screen-113.jpg",
               "https://truake.com/diffr-screens/screen-115.jpg",
@@ -630,6 +690,20 @@ export default function DiffrPage() {
                 publisher: { "@id": "https://truake.com/diffr#brand" },
               },
             ],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: homepageFaq.map((item) => ({
+              "@type": "Question",
+              name: item.q,
+              acceptedAnswer: { "@type": "Answer", text: item.a },
+            })),
           }),
         }}
       />
@@ -697,7 +771,7 @@ export default function DiffrPage() {
                     color: "#1B8BF5",
                   }}
                 >
-                  Now on iOS · TestFlight Beta
+                  Now on the App Store · Free on iOS
                 </span>
               </div>
 
@@ -715,19 +789,14 @@ export default function DiffrPage() {
                   textWrap: "balance",
                 } as React.CSSProperties}
               >
-                Beginner&#8209;friendly brands.{" "}
+                What to buy first.{" "}
                 <em style={{ fontStyle: "italic" }}>
-                  <ShinyText text="Without the regret." color="#1B8BF5" shineColor="rgba(91,175,255,0.9)" speed={3.5} />
+                  <ShinyText text="One brand per slot." color="#1B8BF5" shineColor="rgba(91,175,255,0.9)" speed={3.5} />
                 </em>
               </h1>
 
-              <BlurText
-                text="Tell us what you want to start — fishing, coffee, running, investing — and we'll show you exactly what to buy first. And what to skip until you're sure."
-                animateBy="words"
-                direction="bottom"
-                delay={80}
-                stepDuration={0.38}
-                threshold={0}
+              <p
+                className="diffr-hero-body"
                 style={{
                   fontSize: 18,
                   lineHeight: 1.65,
@@ -736,7 +805,10 @@ export default function DiffrPage() {
                   maxWidth: 520,
                   fontWeight: 400,
                 }}
-              />
+              >
+                Beginner starter kits for running, camping, dorm room essentials, coffee, and 40+ hobbies —
+                each slot gets one trusted brand. See exactly what to buy first, and what to skip until you&apos;re sure.
+              </p>
 
               {/* CTAs */}
               <div className="diffr-hero-ctas" style={{ display: "flex", flexWrap: "wrap", gap: 14, alignItems: "center" }}>
@@ -878,6 +950,86 @@ export default function DiffrPage() {
       </section>
 
       {/* ════════════════════════════════════════════
+          POPULAR STARTER GUIDES — internal link hub (SEO)
+      ════════════════════════════════════════════ */}
+      <section
+        id="guides"
+        style={{
+          padding: "72px 32px",
+          background: "var(--d-bg)",
+          borderBottom: "1px solid rgba(42,38,32,0.08)",
+        }}
+      >
+        <div style={{ maxWidth: 1200, margin: "0 auto" }}>
+          <RevealOnScroll>
+            <Eyebrow>Starter kits</Eyebrow>
+            <SectionHeading as="h2">Popular beginner guides</SectionHeading>
+            <p style={{ fontSize: 16, lineHeight: 1.75, color: "var(--d-text-50)", maxWidth: 640, marginBottom: 32 }}>
+              Search-ready starter kits with one brand per slot — the same guides climbing in Google right now.
+              Pick a hobby, get the list, decide once.{" "}
+              <a
+                href="https://www.ftc.gov/business-guidance/resources/disclosing-affiliate-connections-consumers"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#1B8BF5", textDecoration: "underline", textUnderlineOffset: 3 }}
+              >
+                Affiliate links are disclosed
+              </a>{" "}
+              on every shoppable page.
+            </p>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+                gap: 12,
+              }}
+            >
+              {popularGuides.map((guide) => (
+                <Link
+                  key={guide.href}
+                  href={guide.href}
+                  className="diffr-guide-card"
+                  style={{
+                    display: "block",
+                    padding: "16px 18px",
+                    borderRadius: 12,
+                    border: "1px solid rgba(42,38,32,0.10)",
+                    background: "rgba(255,255,255,0.55)",
+                    textDecoration: "none",
+                    color: "#2A2620",
+                  }}
+                >
+                  <span
+                    style={{
+                      fontFamily: "var(--font-syne), sans-serif",
+                      fontSize: 13,
+                      fontWeight: 700,
+                      letterSpacing: "0.02em",
+                      lineHeight: 1.4,
+                      color: "#2A2620",
+                    }}
+                  >
+                    {guide.label}
+                  </span>
+                  <span
+                    style={{
+                      display: "block",
+                      marginTop: 6,
+                      fontSize: 12,
+                      fontWeight: 600,
+                      color: "#1B8BF5",
+                    }}
+                  >
+                    Read guide →
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </RevealOnScroll>
+        </div>
+      </section>
+
+      {/* ════════════════════════════════════════════
           FEATURE 1 — DISCOVER
       ════════════════════════════════════════════ */}
       <section
@@ -991,9 +1143,10 @@ export default function DiffrPage() {
             </p>
             {/* Sample hobbies */}
             <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-              {["Film Photography", "Cycling Commute", "Home Coffee", "Hiking", "Investing", "HYSA"].map((h) => (
-                <span
-                  key={h}
+              {hobbyLinks.map((h) => (
+                <Link
+                  key={h.label}
+                  href={h.href}
                   style={{
                     display: "inline-flex",
                     alignItems: "center",
@@ -1006,11 +1159,12 @@ export default function DiffrPage() {
                     border: "1px solid rgba(42,38,32,0.1)",
                     borderRadius: 100,
                     padding: "5px 14px",
+                    textDecoration: "none",
                   }}
                 >
                   <svg width="8" height="8" viewBox="0 0 8 8" fill="#F0522C" aria-hidden="true"><polygon points="4,0 8,4 4,8 0,4"/></svg>
-                  {h}
-                </span>
+                  {h.label}
+                </Link>
               ))}
             </div>
           </RevealOnScroll>
@@ -1079,8 +1233,9 @@ export default function DiffrPage() {
           texts={[
             <span key="row" style={{ display: "inline-flex", gap: 20 }}>
               {sceneCards.map((card, i) => (
-                <div
+                <Link
                   key={i}
+                  href={card.href}
                   className="diffr-scene-card"
                   style={{
                     width: 260,
@@ -1094,6 +1249,7 @@ export default function DiffrPage() {
                     justifyContent: "space-between",
                     boxShadow: "0 4px 16px rgba(0,0,0,0.12)",
                     verticalAlign: "top",
+                    textDecoration: "none",
                   }}
                 >
                   <div
@@ -1138,7 +1294,7 @@ export default function DiffrPage() {
                       {card.count}
                     </div>
                   </div>
-                </div>
+                </Link>
               ))}
             </span>
           ]}
@@ -1544,6 +1700,62 @@ export default function DiffrPage() {
       </section>
 
       {/* ════════════════════════════════════════════
+          FAQ
+      ════════════════════════════════════════════ */}
+      <section
+        id="faq"
+        style={{
+          padding: "128px 32px",
+          background: "var(--d-bg2)",
+        }}
+      >
+        <div style={{ maxWidth: 720, margin: "0 auto" }}>
+          <RevealOnScroll>
+            <div style={{ textAlign: "center", marginBottom: 48 }}>
+              <Eyebrow>FAQ</Eyebrow>
+              <SectionHeading>Common questions</SectionHeading>
+            </div>
+          </RevealOnScroll>
+          <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
+            {homepageFaq.map((item, i) => (
+              <RevealOnScroll key={item.q} delay={i * 60}>
+                <div
+                  style={{
+                    paddingBottom: 28,
+                    borderBottom: i < homepageFaq.length - 1 ? "1px solid rgba(42,38,32,0.08)" : "none",
+                  }}
+                >
+                  <h3
+                    style={{
+                      fontFamily: "var(--font-display), 'Playfair Display', serif",
+                      fontSize: 20,
+                      fontWeight: 700,
+                      color: "#2A2620",
+                      marginBottom: 10,
+                      lineHeight: 1.35,
+                    }}
+                  >
+                    {item.q}
+                  </h3>
+                  <p style={{ fontSize: 15, lineHeight: 1.75, color: "var(--d-text-50)", margin: 0 }}>
+                    {item.a}
+                    {item.q === "How is Diffr different from Wirecutter or Reddit?" && (
+                      <>
+                        {" "}
+                        <Link href="/diffr/blog/diffr-vs-wirecutter" style={{ color: "#1B8BF5", fontWeight: 600 }}>
+                          Read Diffr vs Wirecutter →
+                        </Link>
+                      </>
+                    )}
+                  </p>
+                </div>
+              </RevealOnScroll>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ════════════════════════════════════════════
           FINAL CTA
       ════════════════════════════════════════════ */}
       <section
@@ -1622,6 +1834,8 @@ export default function DiffrPage() {
               }}
             >
               {[
+                { href: "/diffr/start",               label: "Starter Guides" },
+                { href: "/diffr/blog",                label: "Blog" },
                 { href: "/diffr/privacy",               label: "Privacy" },
                 { href: "/diffr/terms",                 label: "Terms" },
                 { href: "/diffr/support",               label: "Support" },

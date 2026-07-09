@@ -14,6 +14,23 @@ export const OG_BASE_SLUGS = new Set<string>([
   'nike-lines-explained',
   'gardening-starter-kit-brand-guide',
   'new-puppy-essentials-brand-guide',
+  // slot-affiliate brand guides (Img_OG batch, 2026-07-08)
+  'bike-commuting-gear-brand-guide',
+  'running-gear-brand-guide',
+  'home-gym-brand-guide',
+  'home-coffee-brand-guide',
+  'home-office-brand-guide',
+  'steak-dinner-brand-guide',
+  'hiking-gear-brand-guide',
+  'yoga-gear-brand-guide',
+  'pc-gaming-gear-brand-guide',
+  'backpacking-gear-brand-guide',
+  'skincare-brand-guide',
+  'makeup-brand-guide',
+  'casual-wardrobe-brand-guide',
+  'work-wardrobe-brand-guide',
+  'winter-layering-brand-guide',
+  'camping-gear-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {

@@ -737,6 +737,12 @@ export default function Home() {
               <Link href="/diffr" className="hover:opacity-100 transition-opacity">
                 Diffr
               </Link>
+              <Link href="/diffr/start" className="hover:opacity-100 transition-opacity">
+                Starter Guides
+              </Link>
+              <Link href="/diffr/blog" className="hover:opacity-100 transition-opacity">
+                Blog
+              </Link>
               <a href="mailto:hello@truake.com" className="hover:opacity-100 transition-opacity">
                 Contact
               </a>
