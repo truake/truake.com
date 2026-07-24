@@ -7,6 +7,7 @@ import { PostNavLinks } from './nav-links'
 import { getSceneBrandKit } from '../../start/lib'
 import SceneBrandKit from '../../start/SceneBrandKit'
 import { BLOG_FAQ, BLOG_TLDR } from '../brand-guide-content'
+import { BEHIND_THE_BUILD_FAQ, BEHIND_THE_BUILD_TLDR } from '../behind-the-build-posts'
 import { OG_BASE_SLUGS } from '../og-base'
 
 interface Props {
@@ -171,8 +172,8 @@ export default async function BlogPostPage({ params }: Props) {
   const presetId = BLOG_SLUG_TO_PRESET[slug]
   const brandKit = presetId ? await getSceneBrandKit(presetId) : null
   const startSlug = BLOG_SLUG_TO_START[slug] ?? null
-  const faq = BLOG_FAQ[slug] ?? null
-  const tldr = BLOG_TLDR[slug] ?? null
+  const faq = BLOG_FAQ[slug] ?? BEHIND_THE_BUILD_FAQ[slug] ?? null
+  const tldr = BLOG_TLDR[slug] ?? BEHIND_THE_BUILD_TLDR[slug] ?? null
 
   const jsonLd = {
     '@context': 'https://schema.org',
