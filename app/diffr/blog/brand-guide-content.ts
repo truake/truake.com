@@ -18,7 +18,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'camping-vs-backpacking-starter-kit':
     'Bottom line: car camping and backpacking need different starter kits — same word, opposite constraints. If you drive to the site and sleep near the car, you need a roomy tent, a wide sleeping bag, a plush pad, a two-burner stove, and a real cooler (see the car-camping starter kit). If everything goes on your back for miles, you need a lightweight shelter, a compact sleep system, a single-burner stove, and a fitted pack (see the backpacking starter kit). Buy first for car camping: tent, bag, pad. Buy first for backpacking: pack, shelter, sleep system. Not sure? Start with car camping — it is cheaper to learn and tells you fast if you like sleeping outside.',
   'nike-lines-explained':
-    "Bottom line: Nike isn't one line, it's a stack of collections, each built for a scene — so match the lane and decide once instead of scrolling endless colorways. Sportswear (the Air Force 1) is everyday; Tech Fleece is travel and lounge; Nike Pro is the training base layer; Pegasus and Dri-FIT are the run; ACG is trail and outdoors; SB is skate; Jordan is court heritage turned everyday icon. Everyday → Sportswear, travel → Tech Fleece, train → Pro, run → Pegasus, trail → ACG, skate → SB, court → Jordan.",
+    "Bottom line: Nike isn't one line — it's a stack of sub-brands and collections, each built for a scene — so match the lane and decide once instead of scrolling endless colorways. Sportswear (the Air Force 1) is everyday; Tech Fleece is travel and lounge; Nike Pro is the training base layer; Pegasus and Dri-FIT are the run; ACG is trail and outdoors; SB is skate; Jordan is court heritage turned everyday icon. Everyday → Sportswear, travel → Tech Fleece, train → Pro, run → Pegasus, trail → ACG, skate → SB, court → Jordan.",
   'gardening-starter-kit-brand-guide':
     "Bottom line: a beginner garden needs about a dozen good tools, one per job — not a shed full. Gloves (Foxgloves), a stainless hand trowel (Wilcox All-Pro), lifetime pruners (Felco F-2), a hori-hori soil knife (Nisaku), a watering can (Haws), a kink-free hose (Flexzilla), a watering wand (Dramm), a kneeler (TomCare), loppers (Fiskars PowerGear), organic fertilizer (Espoma), and beginner seeds (Botanical Interests). Buy first: gloves, the trowel, Felco pruners, and a watering can. One brand per slot, no repeats.",
   'new-puppy-essentials-brand-guide':
@@ -32,7 +32,9 @@ export const BLOG_TLDR: Record<string, string> = {
   'beginner-soccer-gear-brand-guide':
     'Bottom line: a beginner soccer kit is short and mostly lasts seasons — one good brand per slot. Cleats (Nike, fitted and matched to your surface), shin guards (Adidas, mandatory in matches), a ball (Select, sized to age), soccer socks (Puma), a training top (Umbro), goalkeeper gloves only if you play in goal (Uhlsport), a boot bag (Joma), and a water bottle (Owala). Buy first: fitted cleats, shin guards, a ball, and socks — a complete first practice. Below is one brand per slot, no repeats.',
   'international-travel-essentials-brand-guide':
-    'Bottom line: international travel comes down to about ten carry-on essentials, one good brand each — not a 60-item list. The carry system: a carry-on suitcase (Away), a personal-item backpack (Peak Design), packing cubes (Eagle Creek). The in-transit kit: a universal travel adapter (Epicka), a power bank (Anker), noise-canceling headphones (Sony), a neck pillow (Cabeau). On the ground: walking shoes (Hoka), an anti-theft sling (Pacsafe), a water bottle (Owala). Buy first: the carry-on, a universal adapter, and the walking shoes. Heading to a stadium? Pack a clear tote within about 12x6x12 inches. Below is one brand per slot, no repeats.',
+    'Bottom line: international travel comes down to about ten carry-on essentials, one good brand each — not a 60-item list. The carry system: a carry-on suitcase (Away), a personal-item backpack (Peak Design), packing cubes (Eagle Creek). The in-transit kit: a universal travel adapter (Epicka), a power bank (Anker), noise-canceling headphones (Sony), a neck pillow (Cabeau). On the ground: walking shoes (Hoka), an anti-theft sling (Pacsafe), a water bottle (Owala). Buy first: the carry-on, a universal adapter, and the walking shoes. For clothes inside the bag, use the 54321 packing method (5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard). Below is one brand per slot, no repeats.',
+  '54321-packing-method-brand-guide':
+    'Bottom line: the 54321 packing method is a travel capsule formula — 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — enough mix-and-match outfits for a week or more in a carry-on if you laundry mid-trip. Build a neutral palette first (Uniqlo tops, Everlane bottoms), add Patagonia layers for weather, Hoka for walk-all-day shoes plus one cleaner second pair (Veja), and one trip-specific wildcard. Scale down to 3-2-1 for weekends; scale up for month-long trips. Pair with the international travel essentials list for the bag and gear. Below is one good pick per category, no repeats.',
   'gift-ideas-for-her-brand-guide':
     'Bottom line: skip the listicles — one genuinely good gift per budget she will actually use. Under $30: a Laneige lip mask or a Boy Smells candle. $30–75: everyday jewelry (Mejuri), affordable cashmere (Quince), or a Stanley tumbler. $75+: a Kindle for a reader, a Barefoot Dreams cozy throw, or a Cuyana leather tote. If you only get one, the lip mask plus a candle is almost never wrong; for a bigger gesture, the cozy throw is the safest splurge. Below is one pick per slot, no repeats.',
   'gift-ideas-for-him-brand-guide':
@@ -52,7 +54,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'road-trip-essentials-brand-guide':
     'Bottom line: a road trip kit is safety gear first, comfort second — one good item per job, not a stuffed trunk. Don’t-get-stranded: a roadside kit (Lifeline), a jump starter (NOCO), a tire inflator (AstroAI). Navigation and power: a phone mount (iOttie), a car charger (Anker), a dash cam (Nextbase). Comfort: a cooler (Coleman), a travel pillow (Cabeau), a windshield sunshade (EcoNour), a water bottle (Owala), and a car trash can (Drive Auto). Pack first: the jump starter, the tire inflator, and the roadside kit — the three that keep a small problem from stranding you. Below is one brand per slot, no repeats.',
   'newborn-must-haves-brand-guide':
-    'Bottom line: a newborn needs surprisingly little — a safe place to sleep, a way to feed, a diaper system, and a car seat — one good brand each, not a 300-item registry. Sleep: a bassinet (Halo), swaddles (Aden + Anais), a sound machine (Hatch). Feeding: bottles (Dr. Brown’s), a nursing pillow (Boppy), burp cloths (Gerber). Diapering: diapers (Pampers), wipes (WaterWipes), cream (Aquaphor), a changing pad (Keekaroo). Getting around: a car seat (Chicco), a carrier (Ergobaby). Health: pacifiers (Philips Avent Soothie), a grooming kit (Frida Baby). Buy first: the car seat, bassinet + swaddles, diapers/wipes/cream, and a few bottles. Follow current safe-sleep and car-seat-install guidance. Below is one brand per slot, no repeats.',
+    'Bottom line: baby registry must haves are smaller than the store wants you to believe — a safe sleep space, a feeding setup, a diaper system, and a car seat, one good brand each, not a 300-item registry. Sleep: bassinet (Halo), swaddles (Aden + Anais), sound machine (Hatch). Feeding: bottles (Dr. Brown’s), nursing pillow (Boppy), burp cloths (Gerber). Diapering: diapers (Pampers), wipes (WaterWipes), cream (Aquaphor), changing pad (Keekaroo). Getting around: car seat (Chicco), carrier (Ergobaby). Health: pacifiers (Philips Avent Soothie), grooming kit (Frida Baby). Buy first: car seat, bassinet + swaddles, diapers/wipes/cream, and a few bottles. Follow current safe-sleep and car-seat-install guidance. Below is one brand per slot, no repeats.',
   'first-apartment-checklist-brand-guide':
     'Bottom line: a first apartment is a handful of zones, one good brand each — buy by zone, and get five things night one. Sleep: a mattress (Zinus) + protector (SafeRest). Kitchen: a chef’s knife (Victorinox), a small cookware set (Tramontina), a cutting board (OXO), unbreakable dishes (Corelle). Cleaning: a cordless vacuum (Shark) + the ten-item cleaning kit. Bathroom: a curtain + liner (AmazerBath), towels (Utopia), a bath mat (Gorilla Grip). Safety: a surge power strip (Anker), a fire extinguisher (First Alert), a first aid kit. Furniture: buy the mattress new, everything else slowly and secondhand. Buy first: the mattress + protector, a knife + pot + dishes, a shower curtain + towels, and a power strip + first aid kit. Below is one brand per slot, no repeats.',
   'housewarming-gift-ideas-brand-guide':
@@ -134,8 +136,8 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
 
   'nike-lines-explained': [
     {
-      q: 'What are the different Nike lines and collections?',
-      a: "Nike is organized into collections built for different scenes rather than sold as one range. The main ones: Sportswear/NSW (casual heritage, e.g. the Air Force 1), Tech Fleece (travel and lounge), Nike Pro (training base layers and compression), Pegasus and Dri-FIT (running), ACG / All Conditions Gear (trail and outdoors), SB (skateboarding), and Jordan (basketball heritage, its own brand under Nike). Knowing the map lets you skip the wall of colorways and pick the line that matches your activity.",
+      q: 'What are Nike sub-brands and collections?',
+      a: "Nike is organized into sub-brands and collections built for different scenes rather than sold as one range. The main ones: Sportswear/NSW (casual heritage, e.g. the Air Force 1), Tech Fleece (travel and lounge), Nike Pro (training base layers and compression), Pegasus and Dri-FIT (running), ACG / All Conditions Gear (trail and outdoors), SB (skateboarding), and Jordan (basketball heritage, its own brand under Nike). Knowing the map lets you skip the wall of colorways and pick the line that matches your activity.",
     },
     {
       q: 'What is Nike Tech Fleece for?',
@@ -249,7 +251,7 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   'international-travel-essentials-brand-guide': [
     {
       q: 'What are the essentials for international travel?',
-      a: 'About ten carry-on items: a carry-on suitcase, a personal-item backpack, packing cubes, a universal travel adapter, a power bank, noise-canceling headphones, a neck pillow, comfortable walking shoes, an anti-theft sling for valuables, and a reusable water bottle. One good brand of each covers a trip abroad without overpacking; skip the single-use gadgets.',
+      a: 'About ten carry-on items: a carry-on suitcase, a personal-item backpack, packing cubes, a universal travel adapter, a power bank, noise-canceling headphones, a neck pillow, comfortable walking shoes, an anti-theft sling for valuables, and a reusable water bottle. One good brand of each covers a trip abroad without overpacking; skip the single-use gadgets. For clothes, pair with the 54321 packing method.',
     },
     {
       q: 'What should I pack first for a trip abroad?',
@@ -261,7 +263,26 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
     {
       q: 'How do I pack for two weeks in a carry-on?',
-      a: 'Pack by outfit count, not day count: roughly a week of versatile, neutral, mix-and-match clothes you re-wear, plus packing cubes to compress them. Do laundry once mid-trip. Wear your bulkiest items (shoes, jacket) on the plane, keep liquids to the carry-on limit, and leave a little room for one souvenir.',
+      a: 'Pack by outfit count, not day count: roughly a week of versatile, neutral, mix-and-match clothes you re-wear, plus packing cubes to compress them. Do laundry once mid-trip. Wear your bulkiest items (shoes, jacket) on the plane, keep liquids to the carry-on limit, and leave a little room for one souvenir. The 54321 packing method (5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard) is a practical framework for the clothes side.',
+    },
+  ],
+
+  '54321-packing-method-brand-guide': [
+    {
+      q: 'What is the 54321 packing method?',
+      a: 'The 54321 packing method is a travel capsule wardrobe formula: 5 tops, 4 bottoms, 3 layers, 2 pairs of shoes, and 1 wildcard item (such as a swimsuit or scarf). Every piece is chosen to mix and match in a neutral palette, so five tops and four bottoms alone create twenty outfit combinations — enough for a week or more in a carry-on if you do laundry mid-trip.',
+    },
+    {
+      q: 'How many outfits can you make with the 54321 method?',
+      a: 'Five tops and four bottoms give you twenty base combinations before you add layers. With three layers (a shell, a fleece, and a dress or extra warm piece), you can cover a wide temperature range without packing a second wardrobe. The point is compatibility, not counting days — re-wear pieces and laundry once a week on longer trips.',
+    },
+    {
+      q: 'Does the 54321 packing method work for a 2-week trip?',
+      a: 'Yes, if you plan to do laundry once mid-trip and stick to versatile neutrals. Wear your bulkiest shoes and jacket on travel days, pack cubes to compress the formula, and scale up to 6-5-4-3-2-1 for month-long trips or run two separate 54321 kits (warm weather + cool weather) instead of one giant suitcase.',
+    },
+    {
+      q: 'What should I pack first with the 54321 method?',
+      a: 'Build the palette first: five tops and four bottoms in two or three neutral colors where every top pairs with every bottom. Add three layers for weather, lock in two shoes (walk-all-day + dress-up), then pick one wildcard for your specific trip. Underwear and socks scale with trip length; everything else follows the formula.',
     },
   ],
 
@@ -438,8 +459,8 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
 
   'newborn-must-haves-brand-guide': [
     {
-      q: 'What does a newborn actually need?',
-      a: 'Far less than the registry suggests: a safe sleep space (a bassinet and swaddles), a feeding setup (bottles, and a nursing pillow if breastfeeding), a diaper system (diapers, wipes, cream, a changing pad), a car seat, and a few health basics (pacifiers, a grooming kit). About fifteen items, one good brand each. Strollers, high chairs, and most gadgets can wait months.',
+      q: 'What are baby registry must haves?',
+      a: 'The registry must haves are far smaller than store checklists suggest: a safe sleep space (bassinet and swaddles), a feeding setup (bottles, and a nursing pillow if breastfeeding), a diaper system (diapers, wipes, cream, a changing pad), a car seat, and a few health basics (pacifiers, a grooming kit). About fifteen items, one good brand each. Strollers, high chairs, and most gadgets can wait months.',
     },
     {
       q: 'What should I buy first for a newborn?',

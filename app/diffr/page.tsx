@@ -84,9 +84,9 @@ const popularGuides = [
   { label: "Backpacking starter kit", href: "/diffr/blog/backpacking-gear-brand-guide" },
   { label: "Winter layering guide", href: "/diffr/blog/winter-layering-brand-guide" },
   { label: "Camping essentials list", href: "/diffr/blog/camping-gear-brand-guide" },
-  { label: "Dorm room essentials", href: "/diffr/blog/dorm-room-essentials-brand-guide" },
+  { label: "College dorm checklist", href: "/diffr/blog/dorm-room-essentials-brand-guide" },
   { label: "Car camping vs backpacking", href: "/diffr/blog/camping-vs-backpacking-starter-kit" },
-  { label: "Running gear for beginners", href: "/diffr/blog/running-gear-brand-guide" },
+  { label: "Running shoes for beginners", href: "/diffr/blog/running-gear-brand-guide" },
   { label: "All starter kits (index)", href: "/diffr/blog/starter-kits" },
   { label: "Interactive beginner guides", href: "/diffr/start" },
 ];

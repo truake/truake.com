@@ -1,3 +1,5 @@
+import { behindTheBuildPosts } from './behind-the-build-posts'
+
 export interface BlogPost {
   slug: string
   title: string
@@ -11,6 +13,7 @@ export interface BlogPost {
 }
 
 export const posts: BlogPost[] = [
+  ...behindTheBuildPosts,
   {
     slug: 'camping-vs-backpacking-starter-kit',
     title: 'Car Camping vs Backpacking: Which Starter Kit Do You Need?',
@@ -64,11 +67,11 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'nike-lines-explained',
-    title: "Nike's Lines, Explained: Which Collection Is for Which Part of Your Life",
-    description: "Nike isn't one line — it's a stack of collections, each built for a different way you move. Sportswear for everyday, Tech Fleece for travel, Pro for training, Pegasus for the run, ACG for the trail, SB for skate, Jordan for the court. Here's the map, so you pick your lane and decide once.",
+    title: "Nike Sub-Brands, Explained: Which Line Is for Which Part of Your Life",
+    description: "Nike sub-brands and collections — Sportswear for everyday, Tech Fleece for travel, Pro for training, Pegasus for the run, ACG for the trail, SB for skate, Jordan for the court. Here's the map, so you pick your lane and decide once.",
     date: '2026-06-27',
     readTime: '6 min read',
-    tags: ['nike lines explained', 'nike collections', 'nike tech fleece', 'nike acg', 'nike pro', 'athleisure', 'one brand rule'],
+    tags: ['nike sub brands', 'nike lines explained', 'nike collections', 'nike tech fleece', 'nike acg', 'nike pro', 'athleisure', 'one brand rule'],
     category: 'product',
     excerpt: "The wall of swooshes is choice overload by design. But Nike is quietly sorted by scene — learn which collection is for which part of your life and you stop scrolling colorways.",
     content: `
@@ -422,7 +425,59 @@ export const posts: BlogPost[] = [
 <p>If you only buy three things, buy the carry-on, a universal adapter, and the walking shoes. Those three save the most pain on an international trip.</p>
 
 <h2>The Point</h2>
-<p>A good trip is not the fullest suitcase &mdash; it is a carry-on of the right ten things, one solid brand each, that you actually use. That is the Diffr method: one good pick per slot, no repeats, so you pack once and skip the 60-item list. <a href="/diffr/blog/backpacking-gear-brand-guide">Heading off-grid instead?</a> <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or get the one-per-slot picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Pack the bag. Stop researching.</p>
+<p>A good trip is not the fullest suitcase &mdash; it is a carry-on of the right ten things, one solid brand each, that you actually use. That is the Diffr method: one good pick per slot, no repeats, so you pack once and skip the 60-item list. For the clothes inside the bag, see the <a href="/diffr/blog/54321-packing-method-brand-guide">54321 packing method</a> &mdash; a travel capsule formula that fits a week in a carry-on. <a href="/diffr/blog/backpacking-gear-brand-guide">Heading off-grid instead?</a> <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or get the one-per-slot picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Pack the bag. Stop researching.</p>
+`.trim(),
+  },
+  {
+    slug: '54321-packing-method-brand-guide',
+    title: '54321 Packing Method: The Travel Capsule Formula, One Outfit System',
+    description: 'The 54321 packing method explained — 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard for a mix-and-match travel capsule that fits a carry-on. What to pack first, one good pick per category, without a 60-item list.',
+    date: '2026-07-24',
+    readTime: '6 min read',
+    tags: ['brand guide', '54321 packing method', 'travel capsule wardrobe', 'carry on packing list', 'one bag essentials', 'packing list carry on', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Five tops, four bottoms, three layers, two shoes, one wildcard — the travel capsule formula that kills the 60-item packing list. Decide once, mix and match.',
+    content: `
+<p>You do not need fourteen outfits for a fourteen-day trip &mdash; you need a small set of pieces that all go together, packed once, worn on repeat. That is the whole point of the <strong>54321 packing method</strong>: a travel capsule wardrobe formula that turns packing from a spreadsheet into a system. The travel internet answers with 60-item lists and three suitcases; r/onebag and the carry-on crowd answer with a ratio instead: <strong>5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard</strong> &mdash; enough combinations for a week or more in a single carry-on if you do laundry mid-trip.</p>
+
+<p>Diffr&rsquo;s angle is the same as everywhere else: decide the categories once, pick one good version of each type, and stop re-opening the closet debate every flight. Here is how the formula works, what belongs in each slot, and the one brand we would reach for in each category when you are building the kit from scratch. (For the bag itself &mdash; carry-on, cubes, adapter, shoes on the ground &mdash; see the <a href="/diffr/blog/international-travel-essentials-brand-guide">international travel essentials</a> list.)</p>
+
+<h2>The Formula (5-4-3-2-1)</h2>
+<ul>
+<li><strong>5 tops</strong> &mdash; the mix-and-match engine (tees, a button-down, a knit)</li>
+<li><strong>4 bottoms</strong> &mdash; pants, shorts, or a skirt that all pair with every top</li>
+<li><strong>3 layers</strong> &mdash; a light jacket, a cardigan, and a dress-or-extra layer for weather swings</li>
+<li><strong>2 shoes</strong> &mdash; one walk-all-day pair, one dress-up-or-plane pair</li>
+<li><strong>1 wildcard</strong> &mdash; swimsuit, scarf, or the one item your trip actually requires</li>
+</ul>
+<p>Five tops times four bottoms is twenty outfit combinations before you touch the layers. That is the math that makes carry-on-only travel possible &mdash; not packing less for the sake of suffering, but packing <em>right</em> so every piece earns its space.</p>
+
+<h2>5 Tops &mdash; Uniqlo</h2>
+<p>Start with a neutral palette in one reliable maker: two plain tees, one striped or textured tee, one oxford or linen shirt, one light knit or long-sleeve base. Uniqlo is the default here &mdash; consistent sizing, honest fabrics, prices low enough to buy the three colors that matter. Every top should work with every bottom you pack; if it only pairs with one thing, it stays home.</p>
+
+<h2>4 Bottoms &mdash; Everlane</h2>
+<p>One dark jean, one chino or trouser, one short or skirt (weather-dependent), one &ldquo;comfort&rdquo; bottom (joggers or leggings that still read put-together). Everlane&rsquo;s denim and chinos are the capsule workhorses &mdash; straight enough to dress up, relaxed enough for a ten-hour travel day. Same rule: neutral colors, all interchangeable.</p>
+
+<h2>3 Layers &mdash; Patagonia</h2>
+<p>A packable rain shell, a mid-weight fleece or cardigan, and either a dress that doubles as a layer or a third warm piece for cold destinations. Patagonia owns the &ldquo;one jacket that actually works&rdquo; slot &mdash; the shell blocks wind and rain; the fleece handles the plane and the cool evening. Layers are how you cover a 30-degree temperature swing without packing a second wardrobe.</p>
+
+<h2>2 Shoes &mdash; Hoka + Veja</h2>
+<p><strong>Hoka</strong> for the walk-all-day pair &mdash; the shoes you wear through airports, cobblestones, and museum days. <strong>Veja</strong> (or one clean white leather sneaker) for the second slot: dressier than a running shoe, still comfortable enough for dinner. Wear the bulkier pair on the plane; pack the lighter one. Two pairs is the discipline &mdash; the third pair is how carry-ons fail.</p>
+
+<h2>1 Wildcard &mdash; Your Trip, One Item</h2>
+<p>The wildcard is the only category that changes by itinerary: a swimsuit for the beach, a merino base layer for ski season, a light dress for a wedding weekend. Pick exactly one. If you are unsure you need it, you do not.</p>
+
+<h2>Pack in This Order</h2>
+<ol>
+<li><strong>Build the palette first:</strong> five tops and four bottoms in two or three neutrals (navy, black, stone, white). No orphan pieces.</li>
+<li><strong>Add the layers:</strong> the shell and fleece cover most weather; the third layer is trip-specific.</li>
+<li><strong>Lock the two shoes:</strong> walk + dress-up. Wear the heavier pair en route.</li>
+<li><strong>One wildcard, then stop.</strong> Underwear and socks scale with trip length; everything else follows the formula.</li>
+</ol>
+<p>Weekend trip? Scale down to a 3-2-1 mini edit. A month abroad? Run the formula twice (warm kit + cool kit) or bump to 6-5-4-3-2-1 &mdash; same system, more pieces, still one carry-on if you laundry once a week.</p>
+
+<h2>The Point</h2>
+<p>The 54321 packing method is not a deprivation challenge &mdash; it is a decide-once system for the clothes <em>inside</em> the bag. One good pick per category, a neutral palette, and you stop treating every trip like a new wardrobe research project. Pair it with the <a href="/diffr/blog/international-travel-essentials-brand-guide">carry-on essentials list</a> for the gear that carries it all. That is the Diffr method: <a href="/diffr/blog/the-decide-once-rule">decide once</a>, pack the formula, close the file. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Pack light. Stop researching.</p>
 `.trim(),
   },
   {
@@ -912,8 +967,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'dorm-room-essentials-brand-guide',
-    title: 'Dorm Room Essentials: The Complete Checklist, One Brand Per Slot',
-    description: 'The complete dorm room essentials checklist — sleep, shower, desk, laundry, and food, one brand per slot. What to buy first for move-in, and the dorm room must-haves you actually need (skip the 80-item lists).',
+    title: 'College Dorm Checklist: Dorm Room Essentials, One Brand Per Slot',
+    description: 'The complete college dorm checklist — dorm room essentials for sleep, shower, desk, laundry, and food, one brand per slot. What to buy first for move-in and the must-haves you actually need (skip the 80-item lists).',
     date: '2026-06-19',
     readTime: '7 min read',
     tags: ['brand guide', 'dorm room essentials', 'dorm room must haves', 'dorm essentials checklist', 'college dorm checklist', 'non-repetition principle'],
@@ -1083,11 +1138,11 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'newborn-must-haves-brand-guide',
-    title: 'Newborn Must Haves: The Real Checklist, One Brand Per Slot',
-    description: 'The newborn must-haves that actually earn their place — sleep, feeding, diapering, car seat, and health, one brand per slot. What to buy first before the hospital, and the registry gadgets to skip.',
+    title: 'Baby Registry Must Haves: Newborn Essentials, One Brand Per Slot',
+    description: 'Baby registry must haves that actually earn their place — sleep, feeding, diapering, car seat, and health, one brand per slot. The minimalist newborn checklist: what to buy before the hospital, and the registry gadgets to skip.',
     date: '2026-06-19',
     readTime: '7 min read',
-    tags: ['brand guide', 'newborn must haves', 'newborn essentials', 'baby registry essentials', 'new baby checklist', 'non-repetition principle'],
+    tags: ['brand guide', 'baby registry must haves', 'newborn must haves', 'minimalist baby registry', 'newborn essentials', 'new baby checklist', 'non-repetition principle'],
     category: 'product',
     excerpt: 'A newborn needs about fifteen things, not 300. The real must-haves, one brand per slot, and what to buy before the hospital.',
     content: `
@@ -1717,6 +1772,12 @@ export const posts: BlogPost[] = [
 <li><a href="/diffr/blog/film-photography-brand-guide">Film photography starter kit</a> &mdash; camera to first roll.</li>
 </ul>
 
+<h2>Travel</h2>
+<ul>
+<li><a href="/diffr/blog/international-travel-essentials-brand-guide">International travel essentials</a> &mdash; the ten-item carry-on kit, one brand per slot.</li>
+<li><a href="/diffr/blog/54321-packing-method-brand-guide">54321 packing method</a> &mdash; the travel capsule formula (5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard).</li>
+</ul>
+
 <h2>The Pattern</h2>
 <p>Notice what every kit shares: one good brand per slot, no repeats, and a clear order to buy them in. That is the Diffr method &mdash; <a href="/diffr/blog/the-one-brand-rule">one answer per slot</a> so you can <a href="/diffr/blog/the-decide-once-rule">decide once</a> and get on with the hobby instead of researching the gear for it. New kits are added as the brand database grows.</p>
 `,
@@ -2094,7 +2155,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'camping-gear-brand-guide',
     title: 'Camping Essentials List: The Complete Starter Kit, What to Buy First',
-    description: 'The complete camping essentials list — nine car-camping slots from tent to first aid, one brand each, assigned. What to buy first to camp comfortably for two or the whole family, without a gear rabbit hole.',
+    description: 'The complete camping essentials list — car camping essentials from tent to first aid, nine slots, one brand each, assigned. What to buy first to camp comfortably for two or the whole family, without a gear rabbit hole.',
     date: '2026-06-16',
     readTime: '7 min read',
     tags: ['brand guide', 'camping starter kit', 'camping gear for beginners', 'car camping essentials', 'camping starter kit for family', 'what to buy first camping', 'non-repetition principle'],
@@ -4259,11 +4320,11 @@ Diffr ends with: here is what you get.</p>
 
   {
     slug: 'running-gear-brand-guide',
-    title: 'Running Gear for Beginners: Shoes to GPS',
-    description: 'Eleven running gear slots — shoes to training app — assigned and closed. The Diffr brand guide for new runners who want to start without spending six hours reading gear reviews.',
+    title: 'Running Shoes for Beginners: The Complete Running Gear Checklist',
+    description: 'Running shoes for beginners plus the full running gear checklist — eleven slots from shoes to training app, one brand each, assigned. Start running without a six-hour gear research spiral.',
     date: '2026-05-30',
     readTime: '7 min read',
-    tags: ['brand guide', 'running brands for beginners', 'running gear brands', 'beginner running', 'non-repetition principle'],
+    tags: ['brand guide', 'running shoes for beginners', 'running gear for beginners', 'running brands for beginners', 'beginner running', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Eleven slots. Eleven brand answers. Shoes to training app — assigned and closed. Start running. Stop researching.',
     content: `
