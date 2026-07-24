@@ -895,7 +895,7 @@ export const posts: BlogPost[] = [
 <p>If you genuinely cannot decide, bring the candle and a bottle of the olive oil. It is the combination nobody has ever been disappointed to receive.</p>
 
 <h2>The Point</h2>
-<p>A good housewarming gift is not the most original one &mdash; it is the one they will actually use, picked so you do not have to scroll a hundred roundups to find it. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Give the good one. Stop researching.</p>
+<p>A good housewarming gift is not the most original one &mdash; it is the one they will actually use, picked so you do not have to scroll a hundred roundups to find it. That is the Diffr method: one good pick per slot, no repeats. More occasions: <a href="/diffr/blog/thoughtful-gift-ideas-brand-guide">thoughtful gift ideas hub</a>. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Give the good one. Stop researching.</p>
 `.trim(),
   },
   {
@@ -1139,12 +1139,12 @@ export const posts: BlogPost[] = [
   {
     slug: 'newborn-must-haves-brand-guide',
     title: 'Baby Registry Must Haves: Newborn Essentials, One Brand Per Slot',
-    description: 'Baby registry must haves that actually earn their place — sleep, feeding, diapering, car seat, and health, one brand per slot. The minimalist newborn checklist: what to buy before the hospital, and the registry gadgets to skip.',
+    description: 'Baby registry must haves for a minimalist registry — sleep, feeding, diapering, car seat, and health, one brand per slot. What to buy before the hospital, what to skip on the registry, and the gadgets that gather dust.',
     date: '2026-06-19',
-    readTime: '7 min read',
+    readTime: '8 min read',
     tags: ['brand guide', 'baby registry must haves', 'newborn must haves', 'minimalist baby registry', 'newborn essentials', 'new baby checklist', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'A newborn needs about fifteen things, not 300. The real must-haves, one brand per slot, and what to buy before the hospital.',
+    excerpt: 'A minimalist baby registry needs about fifteen things, not 300. The must-haves, what to skip, and one brand per slot.',
     content: `
 <p>Newborn shopping is where well-meaning lists go to spiral: a 300-item registry, half of it gadgets your baby will never use, and the genuinely essential dozen buried in the middle. A newborn needs surprisingly little &mdash; somewhere safe to sleep, a way to feed, a system for diapers, and a car seat to get home &mdash; one good brand each. Here are the newborn must-haves that actually earn their place, with a safety note first: for sleep and car-seat use, follow current AAP safe-sleep guidance and the seat&rsquo;s installation instructions &mdash; the brand is the easy part.</p>
 
@@ -1185,6 +1185,16 @@ export const posts: BlogPost[] = [
 <p>The hospital default, and most babies who take a pacifier take this one. Cheap, single-piece, easy to sterilize. Buy a couple; they vanish.</p>
 <h3>Grooming &amp; Health Kit &mdash; Frida Baby</h3>
 <p>The new-parent rite of passage. The Frida Baby kit &mdash; the NoseFrida, nail file, thermometer, and the rest &mdash; is the cult default for the small jobs nobody warns you about.</p>
+
+<h2>Minimalist Baby Registry: What to Skip</h2>
+<p>A minimalist baby registry is not about buying nothing &mdash; it is about buying the right things once, and skipping the industry&rsquo;s habit of selling you a different gadget for every month of year one. Most registries push hundreds of items; experienced parents report using roughly forty before the rest goes to donation. The filter is simple: <strong>does it grow with the baby, or is it a single-stage gadget you will outgrow in weeks?</strong></p>
+<ul>
+<li><strong>Skip:</strong> wipe warmers, bottle sterilizer machines, newborn shoes, specialty bouncers that only work for six weeks, and a closet of onesies in newborn size (they outgrow it in days).</li>
+<li><strong>Skip for now:</strong> strollers beyond a basic frame, high chairs, activity centers, and most toys &mdash; months away, and taste changes fast.</li>
+<li><strong>Buy once, not three times:</strong> one convertible car seat path, one carrier that grows with the baby (Ergobaby Omni), swaddles that double as burp cloths, and diapers in small packs until you know the size.</li>
+<li><strong>Registry strategy:</strong> register the must-haves above (sleep, feed, diaper, car seat) and one or two splurge items you will use daily &mdash; the sound machine, the carrier. Let friends gift consumables (diapers, wipes) instead of duplicate gadgets.</li>
+</ul>
+<p>The question every registry item should pass: <em>will we still use this at six months?</em> If the answer is no, it does not belong on a minimalist baby registry.</p>
 
 <h2>Buy First (Before the Hospital)</h2>
 <p>You do not need the whole registry on day one. Get these before the baby comes:</p>
@@ -1618,7 +1628,7 @@ export const posts: BlogPost[] = [
 <p>When in doubt, the lip mask plus the candle (under $40 together) is the combination almost no one is disappointed to receive. For a bigger gesture, the cozy throw is the safest splurge there is.</p>
 
 <h2>The Point</h2>
-<p>A good gift is not the most original one &mdash; it is the one she will actually use, picked so you skip the listicle spiral. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/womens-minimalist-wardrobe-brand-guide">Shopping for her wardrobe?</a> <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Give the good one. Stop researching.</p>
+<p>A good gift is not the most original one &mdash; it is the one she will actually use, picked so you skip the listicle spiral. That is the Diffr method: one good pick per slot, no repeats. More gift guides: <a href="/diffr/blog/thoughtful-gift-ideas-brand-guide">thoughtful gift ideas hub</a> · <a href="/diffr/blog/womens-minimalist-wardrobe-brand-guide">her wardrobe</a>. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Give the good one. Stop researching.</p>
 `.trim(),
   },
   {
@@ -1659,7 +1669,55 @@ export const posts: BlogPost[] = [
 <p>The slim wallet is the safest small gift there is &mdash; everyone needs one, almost nobody buys their own. For a bigger gesture, AirPods are the splurge a guy is most likely to actually use.</p>
 
 <h2>The Point</h2>
-<p>A good gift is not the most clever one &mdash; it is the one he will actually use, picked so you skip the gadget-listicle spiral. That is the Diffr method: one good pick per slot, no repeats. <a href="/diffr/blog/casual-wardrobe-brand-guide">Shopping for his wardrobe?</a> <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Give the good one. Stop researching.</p>
+<p>A good gift is not the most clever one &mdash; it is the one he will actually use, picked so you skip the gadget-listicle spiral. That is the Diffr method: one good pick per slot, no repeats. More gift guides: <a href="/diffr/blog/thoughtful-gift-ideas-brand-guide">thoughtful gift ideas hub</a> · <a href="/diffr/blog/casual-wardrobe-brand-guide">his wardrobe</a>. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Give the good one. Stop researching.</p>
+`.trim(),
+  },
+  {
+    slug: 'thoughtful-gift-ideas-brand-guide',
+    title: 'Thoughtful Gift Ideas: One Good Gift, Not a Basket of Small Things',
+    description: 'Thoughtful gift ideas that get kept — one genuinely good pick per person and occasion, not a filler basket. Hub for gifts for her, gifts for him, housewarming, and the one-gift rule that beats listicles.',
+    date: '2026-07-24',
+    readTime: '5 min read',
+    tags: ['brand guide', 'thoughtful gift ideas', 'intentional gifting', 'one good gift', 'gift guide', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'One thoughtful gift beats ten small things. Pick the person, pick the budget, decide once.',
+    content: `
+<p>Thoughtful gifting is not about finding the most original thing on the internet &mdash; it is about giving <strong>one good thing they will actually use</strong>, chosen on purpose instead of assembled from a filler basket. The gift guides online answer with thousand-item listicles and &ldquo;35 under $25&rdquo; roundups that train you to buy more small things instead of one right thing. That is the opposite of thoughtful.</p>
+
+<p>Diffr&rsquo;s rule for gifts is the same as for starter kits: <strong>one good pick per slot, no repeats, decide once.</strong> Pick who you are shopping for, pick your budget, and stop scrolling. Here is the hub &mdash; three curated guides by person and occasion, plus the one-gift defaults when you genuinely cannot decide.</p>
+
+<h2>Gifts for Her</h2>
+<p>One genuinely good pick per budget &mdash; from a Laneige lip mask under $30 to a Barefoot Dreams throw that becomes the most-used object in the house. No scented junk, no guesswork sizes.</p>
+<p><a href="/diffr/blog/gift-ideas-for-her-brand-guide">Gift ideas for her &rarr;</a> &mdash; under $30 · $30&ndash;75 · $75+</p>
+
+<h2>Gifts for Him</h2>
+<p>Useful things a guy keeps &mdash; a Bellroy slim wallet, a Leatherman multitool, AirPods he will use daily. Not another gadget-drawer item.</p>
+<p><a href="/diffr/blog/gift-ideas-for-him-brand-guide">Gift ideas for him &rarr;</a> &mdash; under $30 · $30&ndash;75 · $75+</p>
+
+<h2>Housewarming &amp; New Home</h2>
+<p>Gifts that earn a place in a new kitchen or living room &mdash; a Nest candle, Brightland olive oil, a Le Creuset Dutch oven, Brooklinen towels. One great pick per vibe, grouped by budget.</p>
+<p><a href="/diffr/blog/housewarming-gift-ideas-brand-guide">Housewarming gift ideas &rarr;</a></p>
+
+<h2>The One-Gift Rule (When You Are Stuck)</h2>
+<p>If you only bring one thing, these combinations almost never miss:</p>
+<ul>
+<li><strong>For her:</strong> Laneige lip mask + Boy Smells candle (under $40 together) &mdash; useful, a little indulgent, taste-neutral.</li>
+<li><strong>For him:</strong> Bellroy slim wallet &mdash; everyone needs one; almost nobody buys their own.</li>
+<li><strong>For a new home:</strong> Nest candle + Brightland olive oil &mdash; consumable, handsome, used within the week.</li>
+<li><strong>For new parents:</strong> diapers and wipes in bulk, or a gift card toward the <a href="/diffr/blog/newborn-must-haves-brand-guide">registry must-haves</a> they actually need &mdash; not another single-use gadget.</li>
+</ul>
+<p>One thoughtful gift beats a basket of ten small things they have to find space for. That is intentional gifting: buy the right thing once, not ten almost-right things.</p>
+
+<h2>What Makes a Gift &ldquo;Thoughtful&rdquo; (Without Overthinking It)</h2>
+<ul>
+<li><strong>It gets used within a week</strong> &mdash; not displayed once and forgotten.</li>
+<li><strong>It matches how they live</strong> &mdash; a reader gets a Kindle; a cook gets olive oil or a board; a new parent gets consumables, not clutter.</li>
+<li><strong>It respects their space</strong> &mdash; apartments and dorm rooms do not need more tchotchkes.</li>
+<li><strong>You decided once</strong> &mdash; the research spiral is not the gift; the good pick is.</li>
+</ul>
+
+<h2>The Point</h2>
+<p>Thoughtful gift ideas are not the longest list &mdash; they are the shortest path to one thing they will keep. Pick the guide for your person, choose the budget tier, close the tab. That is the Diffr method. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Give the good one. Stop researching.</p>
 `.trim(),
   },
   {
@@ -1776,6 +1834,14 @@ export const posts: BlogPost[] = [
 <ul>
 <li><a href="/diffr/blog/international-travel-essentials-brand-guide">International travel essentials</a> &mdash; the ten-item carry-on kit, one brand per slot.</li>
 <li><a href="/diffr/blog/54321-packing-method-brand-guide">54321 packing method</a> &mdash; the travel capsule formula (5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard).</li>
+</ul>
+
+<h2>Gifts</h2>
+<ul>
+<li><a href="/diffr/blog/thoughtful-gift-ideas-brand-guide">Thoughtful gift ideas</a> &mdash; one good gift hub (her · him · housewarming).</li>
+<li><a href="/diffr/blog/gift-ideas-for-her-brand-guide">Gift ideas for her</a> &mdash; one pick per budget.</li>
+<li><a href="/diffr/blog/gift-ideas-for-him-brand-guide">Gift ideas for him</a> &mdash; useful things he keeps.</li>
+<li><a href="/diffr/blog/housewarming-gift-ideas-brand-guide">Housewarming gift ideas</a> &mdash; one great pick per vibe.</li>
 </ul>
 
 <h2>The Pattern</h2>

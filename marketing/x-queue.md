@@ -143,6 +143,22 @@ https://truake.com/diffr/blog/nike-lines-explained
 https://truake.com/diffr/blog/newborn-must-haves-brand-guide
 ```
 
+### Thoughtful gift ideas — READY (hub 2026-07-24)
+```
+1/ Thoughtful gifting isn't a bigger basket — it's one good thing they'll actually use. The internet trains you to buy ten small things. One right thing is the gift. 🧵
+
+2/ For her: Laneige lip mask + Boy Smells candle (under $40, almost never wrong). Splurge: Barefoot Dreams throw.
+
+3/ For him: Bellroy slim wallet — everyone needs one, almost nobody buys their own. Splurge: AirPods he'll use daily.
+
+4/ New home: Nest candle + Brightland olive oil — consumable, handsome, used this week. Splurge: Le Creuset Dutch oven.
+
+5/ New parents: diapers and wipes in bulk — not another single-use gadget. Point them at the minimalist registry list.
+
+6/ One gift beats ten almost-right things. Full hub (her · him · housewarming) ↓
+https://truake.com/diffr/blog/thoughtful-gift-ideas-brand-guide
+```
+
 ### Starter kits index — READY
 ```
 1/ Every hobby has the same problem: "what do I actually need to start?" — and the internet answers with forty tabs. Diffr's rule: one good brand per slot, buy in order, close the file. 🧵

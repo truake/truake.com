@@ -36,7 +36,9 @@ export const BLOG_TLDR: Record<string, string> = {
   '54321-packing-method-brand-guide':
     'Bottom line: the 54321 packing method is a travel capsule formula — 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — enough mix-and-match outfits for a week or more in a carry-on if you laundry mid-trip. Build a neutral palette first (Uniqlo tops, Everlane bottoms), add Patagonia layers for weather, Hoka for walk-all-day shoes plus one cleaner second pair (Veja), and one trip-specific wildcard. Scale down to 3-2-1 for weekends; scale up for month-long trips. Pair with the international travel essentials list for the bag and gear. Below is one good pick per category, no repeats.',
   'gift-ideas-for-her-brand-guide':
-    'Bottom line: skip the listicles — one genuinely good gift per budget she will actually use. Under $30: a Laneige lip mask or a Boy Smells candle. $30–75: everyday jewelry (Mejuri), affordable cashmere (Quince), or a Stanley tumbler. $75+: a Kindle for a reader, a Barefoot Dreams cozy throw, or a Cuyana leather tote. If you only get one, the lip mask plus a candle is almost never wrong; for a bigger gesture, the cozy throw is the safest splurge. Below is one pick per slot, no repeats.',
+    'Bottom line: skip the listicles — one genuinely good gift per budget she will actually use. Under $30: a Laneige lip mask or a Boy Smells candle. $30–75: everyday jewelry (Mejuri), affordable cashmere (Quince), or a Stanley tumbler. $75+: a Kindle for a reader, a Barefoot Dreams cozy throw, or a Cuyana leather tote. If you only get one, the lip mask plus a candle is almost never wrong; for a bigger gesture, the cozy throw is the safest splurge. See the thoughtful gift ideas hub for her, him, and housewarming. Below is one pick per slot, no repeats.',
+  'thoughtful-gift-ideas-brand-guide':
+    'Bottom line: thoughtful gift ideas mean one good thing they will actually use — not a basket of small fillers. Pick the person and budget, then decide once: gifts for her (Laneige lip mask under $30 to Barefoot Dreams throw), gifts for him (Bellroy wallet to AirPods), housewarming (Nest candle + Brightland olive oil, or a Le Creuset Dutch oven). The one-gift rule: one useful pick beats ten almost-right things. Hub links to three full guides by person and occasion.',
   'gift-ideas-for-him-brand-guide':
     'Bottom line: skip the gadget drawer — one genuinely good gift per budget he will actually keep. Under $30: a Bellroy slim wallet or a Baxter of California grooming set. $30–75: a Timex watch, a Leatherman multitool, or a Viski bar set. $75+: Apple AirPods, a Fellow electric kettle, or a Carhartt cozy layer. If you only get one, the slim wallet is the safest small gift; for a bigger gesture, AirPods are the splurge he is most likely to use. Below is one pick per slot, no repeats.',
   'pantry-staples-list-brand-guide':
@@ -54,7 +56,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'road-trip-essentials-brand-guide':
     'Bottom line: a road trip kit is safety gear first, comfort second — one good item per job, not a stuffed trunk. Don’t-get-stranded: a roadside kit (Lifeline), a jump starter (NOCO), a tire inflator (AstroAI). Navigation and power: a phone mount (iOttie), a car charger (Anker), a dash cam (Nextbase). Comfort: a cooler (Coleman), a travel pillow (Cabeau), a windshield sunshade (EcoNour), a water bottle (Owala), and a car trash can (Drive Auto). Pack first: the jump starter, the tire inflator, and the roadside kit — the three that keep a small problem from stranding you. Below is one brand per slot, no repeats.',
   'newborn-must-haves-brand-guide':
-    'Bottom line: baby registry must haves are smaller than the store wants you to believe — a safe sleep space, a feeding setup, a diaper system, and a car seat, one good brand each, not a 300-item registry. Sleep: bassinet (Halo), swaddles (Aden + Anais), sound machine (Hatch). Feeding: bottles (Dr. Brown’s), nursing pillow (Boppy), burp cloths (Gerber). Diapering: diapers (Pampers), wipes (WaterWipes), cream (Aquaphor), changing pad (Keekaroo). Getting around: car seat (Chicco), carrier (Ergobaby). Health: pacifiers (Philips Avent Soothie), grooming kit (Frida Baby). Buy first: car seat, bassinet + swaddles, diapers/wipes/cream, and a few bottles. Follow current safe-sleep and car-seat-install guidance. Below is one brand per slot, no repeats.',
+    'Bottom line: a minimalist baby registry needs far less than store checklists — a safe sleep space, feeding setup, diaper system, and car seat, one good brand each. Sleep: bassinet (Halo), swaddles (Aden + Anais), sound machine (Hatch). Feeding: bottles (Dr. Brown’s), nursing pillow (Boppy), burp cloths (Gerber). Diapering: diapers (Pampers), wipes (WaterWipes), cream (Aquaphor), changing pad (Keekaroo). Getting around: car seat (Chicco), carrier (Ergobaby). Skip wipe warmers, newborn shoes, and single-stage gadgets; register must-haves and consumables. Buy first: car seat, bassinet + swaddles, diapers/wipes/cream, and a few bottles. Follow current safe-sleep and car-seat guidance. Below is one brand per slot, no repeats.',
   'first-apartment-checklist-brand-guide':
     'Bottom line: a first apartment is a handful of zones, one good brand each — buy by zone, and get five things night one. Sleep: a mattress (Zinus) + protector (SafeRest). Kitchen: a chef’s knife (Victorinox), a small cookware set (Tramontina), a cutting board (OXO), unbreakable dishes (Corelle). Cleaning: a cordless vacuum (Shark) + the ten-item cleaning kit. Bathroom: a curtain + liner (AmazerBath), towels (Utopia), a bath mat (Gorilla Grip). Safety: a surge power strip (Anker), a fire extinguisher (First Alert), a first aid kit. Furniture: buy the mattress new, everything else slowly and secondhand. Buy first: the mattress + protector, a knife + pot + dishes, a shower curtain + towels, and a power strip + first aid kit. Below is one brand per slot, no repeats.',
   'housewarming-gift-ideas-brand-guide':
@@ -324,6 +326,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
   ],
 
+  'thoughtful-gift-ideas-brand-guide': [
+    {
+      q: 'What are thoughtful gift ideas?',
+      a: 'Thoughtful gifts are one good thing the recipient will actually use — not a basket of small fillers. Pick by person and budget: gifts for her (Laneige lip mask to Barefoot Dreams throw), gifts for him (Bellroy wallet to AirPods), or housewarming (Nest candle, Brightland olive oil, or a Le Creuset Dutch oven). One useful pick beats ten almost-right things.',
+    },
+    {
+      q: 'What is a thoughtful gift when you do not know their taste?',
+      a: 'Choose something useful and taste-neutral: a lip mask and candle for her, a slim wallet for him, or olive oil and a candle for a new home. For new parents, gift diapers and wipes or a gift card toward registry must-haves — consumables, not clutter. Avoid clothing sizes, strong scents, and decorative objects that need shelf space.',
+    },
+    {
+      q: 'Is one gift better than a gift basket?',
+      a: 'Usually yes — one quality item they use weekly beats ten small things they have to store. A Bellroy wallet, a Fellow kettle, or a Brooklinen towel set is thoughtful because it respects their space and daily life. Save baskets for consumables (coffee, olive oil, candles) that get used up.',
+    },
+    {
+      q: 'Where do I find gift ideas by person?',
+      a: 'Use the hub guides: gift ideas for her and gift ideas for him (each grouped by under $30, $30–75, and $75+), plus housewarming gift ideas for new homes. Each guide assigns one good brand per budget tier so you decide once instead of scrolling listicles.',
+    },
+  ],
+
   'pantry-staples-list-brand-guide': [
     {
       q: 'What are pantry staples?',
@@ -467,8 +488,8 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: 'The car seat first — it must be installed and checked before you can leave the hospital. Then a safe sleep space (a bassinet and swaddles), a generous supply of diapers, wipes, and cream, and a few bottles. The carrier, sound machine, and grooming kit can come in the first week; everything else is months away.',
     },
     {
-      q: 'What newborn products are a waste of money?',
-      a: 'Most single-use gadgets and anything sized for an older baby: wipe warmers, special newborn outfits they outgrow in weeks, bottle-sterilizer machines (a pot of water works), shoes, and most toys. Do not stockpile newborn-size diapers or clothes — babies grow out of that size fast. Buy the essentials, then add only what you find you actually reach for.',
+      q: 'What should I skip on a minimalist baby registry?',
+      a: 'Skip wipe warmers, newborn shoes, single-stage bouncers, bottle sterilizer machines, and a closet of newborn-size clothes. Skip for now: strollers beyond basics, high chairs, activity centers, and most toys. Do not stockpile newborn diapers — babies outgrow the size fast. Register sleep, feed, diaper, and car-seat must-haves plus consumables; ask whether you will still use each item at six months.',
     },
     {
       q: 'How many diapers and bottles do I need to start?',

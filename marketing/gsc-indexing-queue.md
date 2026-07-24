@@ -2,9 +2,18 @@
 
 > **Daily limit:** ~10–12 requests per property. Open each link while logged into [Google Search Console](https://search.google.com/search-console), then click **Request indexing**.
 >
-> Property: `sc-domain:truake.com` · Updated: 2026-07-24 (Ahrefs harvest title/meta + new 54321 post)
+> Property: `sc-domain:truake.com` · Updated: 2026-07-24  
+> **Login verified:** `geekrlg@gmail.com` · Use **网址检查** (top search bar) → paste URL → **请求编入索引**
 
-**How to use:** One batch per day. Click each **Open inspect** link → wait for crawl result → **Request indexing** if eligible. Mark done in the checkbox column when finished.
+**How to use:** One batch per day (~10 URLs). Paste each URL into **网址检查** → wait for crawl → **请求编入索引** if eligible. Mark ✓ when done.
+
+## Batch G — Day 7 (3 URLs) · 2026-07-24 content wave · do after deploy
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | newborn (minimalist registry H2) | `https://truake.com/diffr/blog/newborn-must-haves-brand-guide` |
+| | thoughtful gift ideas hub (NEW) | `https://truake.com/diffr/blog/thoughtful-gift-ideas-brand-guide` |
+| | starter kits (gifts section) | `https://truake.com/diffr/blog/starter-kits` |
 
 ## Batch F — Day 6 (10 URLs) · meta harvest 2026-07-24 · priority re-index
 
