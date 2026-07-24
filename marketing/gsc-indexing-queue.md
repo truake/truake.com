@@ -7,28 +7,30 @@
 
 **How to use:** One batch per day (~10 URLs). Paste each URL into **网址检查** → wait for crawl → **请求编入索引** if eligible. Mark ✓ when done.
 
-## Batch G — Day 7 (3 URLs) · 2026-07-24 content wave · do after deploy
+## Batch G — Day 7 (1 URL) · merge into Batch F if quota left
 
 | ✓ | Page | URL to paste in 网址检查 |
 |---|------|--------------------------|
-| | newborn (minimalist registry H2) | `https://truake.com/diffr/blog/newborn-must-haves-brand-guide` |
 | | thoughtful gift ideas hub (NEW) | `https://truake.com/diffr/blog/thoughtful-gift-ideas-brand-guide` |
-| | starter kits (gifts section) | `https://truake.com/diffr/blog/starter-kits` |
+
+> newborn minimalist H2 已并入 Batch F「newborn」行；无需单独请求。
 
 ## Batch F — Day 6 (10 URLs) · meta harvest 2026-07-24 · priority re-index
 
-| ✓ | Page | Inspect in GSC |
-|---|------|----------------|
-| | dorm (college dorm checklist title) | [Open inspect](https://search.google.com/search-console/inspect?resource_id=sc-domain%3Atruake.com&id=https%3A%2F%2Ftruake.com%2Fdiffr%2Fblog%2Fdorm-room-essentials-brand-guide) |
-| | dorm OG | [Open inspect](https://search.google.com/search-console/inspect?resource_id=sc-domain%3Atruake.com&id=https%3A%2F%2Ftruake.com%2Fdiffr%2Fblog%2Fdorm-room-essentials-brand-guide%2Fog) |
-| | running (running shoes for beginners title) | [Open inspect](https://search.google.com/search-console/inspect?resource_id=sc-domain%3Atruake.com&id=https%3A%2F%2Ftruake.com%2Fdiffr%2Fblog%2Frunning-gear-brand-guide) |
-| | running OG | [Open inspect](https://search.google.com/search-console/inspect?resource_id=sc-domain%3Atruake.com&id=https%3A%2F%2Ftruake.com%2Fdiffr%2Fblog%2Frunning-gear-brand-guide%2Fog) |
-| | camping (car camping essentials meta) | [Open inspect](https://search.google.com/search-console/inspect?resource_id=sc-domain%3Atruake.com&id=https%3A%2F%2Ftruake.com%2Fdiffr%2Fblog%2Fcamping-gear-brand-guide) |
-| | newborn (baby registry must haves title) | [Open inspect](https://search.google.com/search-console/inspect?resource_id=sc-domain%3Atruake.com&id=https%3A%2F%2Ftruake.com%2Fdiffr%2Fblog%2Fnewborn-must-haves-brand-guide) |
-| | nike sub-brands (title harvest) | [Open inspect](https://search.google.com/search-console/inspect?resource_id=sc-domain%3Atruake.com&id=https%3A%2F%2Ftruake.com%2Fdiffr%2Fblog%2Fnike-lines-explained) |
-| | 54321 packing method (NEW) | [Open inspect](https://search.google.com/search-console/inspect?resource_id=sc-domain%3Atruake.com&id=https%3A%2F%2Ftruake.com%2Fdiffr%2Fblog%2F54321-packing-method-brand-guide) |
-| | international travel (54321 cross-link) | [Open inspect](https://search.google.com/search-console/inspect?resource_id=sc-domain%3Atruake.com&id=https%3A%2F%2Ftruake.com%2Fdiffr%2Fblog%2Finternational-travel-essentials-brand-guide) |
-| | starter kits (54321 index link) | [Open inspect](https://search.google.com/search-console/inspect?resource_id=sc-domain%3Atruake.com&id=https%3A%2F%2Ftruake.com%2Fdiffr%2Fblog%2Fstarter-kits) |
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| ✓ | dorm (college dorm checklist title) | `https://truake.com/diffr/blog/dorm-room-essentials-brand-guide` |
+| ✓ | running (running shoes for beginners title) | `https://truake.com/diffr/blog/running-gear-brand-guide` |
+| | dorm OG | `https://truake.com/diffr/blog/dorm-room-essentials-brand-guide/og` |
+| | running OG | `https://truake.com/diffr/blog/running-gear-brand-guide/og` |
+| | camping (car camping essentials meta) | `https://truake.com/diffr/blog/camping-gear-brand-guide` |
+| | newborn (baby registry + minimalist H2) | `https://truake.com/diffr/blog/newborn-must-haves-brand-guide` |
+| | nike sub-brands (title harvest) | `https://truake.com/diffr/blog/nike-lines-explained` |
+| | 54321 packing method | `https://truake.com/diffr/blog/54321-packing-method-brand-guide` |
+| | international travel (54321 cross-link) | `https://truake.com/diffr/blog/international-travel-essentials-brand-guide` |
+| | starter kits (gifts section) | `https://truake.com/diffr/blog/starter-kits` |
+
+> **2026-07-24 partial:** dorm + running → 已请求编入索引（GSC 网址检查）。余下 8 条今日可继续（OG 两条可换 content 页优先）。
 
 ## Batch A — Day 1 (10 URLs) · priority
 
