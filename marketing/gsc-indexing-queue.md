@@ -2,10 +2,24 @@
 
 > **Daily limit:** ~10–12 requests per property. Open each link while logged into [Google Search Console](https://search.google.com/search-console), then click **Request indexing**.
 >
-> Property: `sc-domain:truake.com` · Updated: 2026-07-24  
+> Property: `sc-domain:truake.com` · Updated: 2026-07-25  
 > **Login verified:** `geekrlg@gmail.com` · Use **网址检查** (top search bar) → paste URL → **请求编入索引**
 
 **How to use:** One batch per day (~10 URLs). Paste each URL into **网址检查** → wait for crawl → **请求编入索引** if eligible. Mark ✓ when done.
+
+## ⚠️ 「已抓取 - 尚未编入索引」说明（2026-07-25）
+
+GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是 bug，不应请求索引。
+
+| 类型 | 数量 | 处理 |
+|------|------|------|
+| `/og` PNG 端点 | ~16 | **不要** 请求索引；已加 `X-Robots-Tag: noindex` + `robots.txt` disallow（deploy 后验证） |
+| Diffr 哲学/对比文 | ~7 | 低商业意图，Google 常暂不索引；加强内链后 **只请求正文 URL** |
+| Pathoragy 博客 | ~4 | 次要属性；可缓 |
+
+**Never request indexing:** any URL ending in `/og`. Request the **parent blog URL** only.
+
+**Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `cold-weather-layering` (`/diffr/start/`), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
 
 ## Batch G — Day 7 (1 URL) · merge into Batch F if quota left
 
@@ -21,8 +35,6 @@
 |---|------|--------------------------|
 | ✓ | dorm (college dorm checklist title) | `https://truake.com/diffr/blog/dorm-room-essentials-brand-guide` |
 | ✓ | running (running shoes for beginners title) | `https://truake.com/diffr/blog/running-gear-brand-guide` |
-| | dorm OG | `https://truake.com/diffr/blog/dorm-room-essentials-brand-guide/og` |
-| | running OG | `https://truake.com/diffr/blog/running-gear-brand-guide/og` |
 | | camping (car camping essentials meta) | `https://truake.com/diffr/blog/camping-gear-brand-guide` |
 | | newborn (baby registry + minimalist H2) | `https://truake.com/diffr/blog/newborn-must-haves-brand-guide` |
 | | nike sub-brands (title harvest) | `https://truake.com/diffr/blog/nike-lines-explained` |
@@ -30,7 +42,19 @@
 | | international travel (54321 cross-link) | `https://truake.com/diffr/blog/international-travel-essentials-brand-guide` |
 | | starter kits (gifts section) | `https://truake.com/diffr/blog/starter-kits` |
 
-> **2026-07-24 partial:** dorm + running → 已请求编入索引（GSC 网址检查）。余下 8 条今日可继续（OG 两条可换 content 页优先）。
+> **2026-07-24 partial:** dorm + running → 已请求编入索引。余下 Batch F 正文 URL 继续；**勿提交 /og**。
+
+## Batch H — crawled-not-indexed 正文补录（2026-07-25）
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | first apartment checklist | `https://truake.com/diffr/blog/first-apartment-checklist-brand-guide` |
+| | cost per use rule | `https://truake.com/diffr/blog/cost-per-use-rule` |
+| | cold weather layering (start) | `https://truake.com/diffr/start/cold-weather-layering` |
+| | diffr vs wirecutter | `https://truake.com/diffr/blog/diffr-vs-wirecutter` |
+| | toothpaste aisle tax | `https://truake.com/diffr/blog/the-toothpaste-aisle-tax` |
+
+> `building-diffr-scene-problem` · `claude-code-notebooklm-obsidian-workflow` = build-log，优先级低，可暂不请求。
 
 ## Batch A — Day 1 (10 URLs) · priority
 
@@ -109,3 +133,5 @@
 ## Slug registry
 
 All og-base slugs: `app/diffr/blog/og-base.ts` (19 slugs as of 2026-07-10).
+
+**`/diffr/blog/{slug}/og` routes:** share-card PNG only — `noindex` via `next.config.ts` + `robots.txt`. Skip all `/og` rows in Batches A–E when pasting into 网址检查.

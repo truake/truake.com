@@ -5,6 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: ["/diffr/blog/*/og"],
     },
     sitemap: "https://truake.com/sitemap.xml",
   };

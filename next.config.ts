@@ -15,6 +15,11 @@ const nextConfig: NextConfig = {
           { key: "Content-Type", value: "application/json" },
         ],
       },
+      // Dynamic OG share cards — crawled via og:image meta, not indexable content.
+      {
+        source: "/diffr/blog/:slug/og",
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      },
     ];
   },
 };
