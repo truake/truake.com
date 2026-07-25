@@ -49,7 +49,7 @@ function Kicker({ cat }: { cat: string }) {
   )
 }
 
-export function BlogFeed({ posts }: { posts: BlogPost[] }) {
+export function BlogFeed({ posts, behindTheBuildCount = 0 }: { posts: BlogPost[]; behindTheBuildCount?: number }) {
   const [active, setActive] = useState('all')
 
   const counts = useMemo(() => {
@@ -98,13 +98,13 @@ export function BlogFeed({ posts }: { posts: BlogPost[] }) {
       </div>
 
       {active === 'all'
-        ? <FrontPage posts={posts} />
+        ? <FrontPage posts={posts} behindTheBuildCount={behindTheBuildCount} />
         : <SectionList title={CAT_META[active].label} posts={filtered} />}
     </>
   )
 }
 
-function FrontPage({ posts }: { posts: BlogPost[] }) {
+function FrontPage({ posts, behindTheBuildCount }: { posts: BlogPost[]; behindTheBuildCount: number }) {
   const lead = posts[0]
   const latest = posts.slice(1, 5)
   const shown = new Set([lead, ...latest].map(p => p.slug))
@@ -114,6 +114,36 @@ function FrontPage({ posts }: { posts: BlogPost[] }) {
 
   return (
     <>
+      {behindTheBuildCount > 0 && (
+        <Link
+          href="/diffr/blog/behind-the-build"
+          className="blog-link"
+          style={{
+            display: 'block',
+            textDecoration: 'none',
+            color: C.text,
+            marginBottom: 40,
+            padding: '28px 32px',
+            border: `1px solid ${C.rule}`,
+            borderLeft: `4px solid ${C.blue}`,
+            background: 'rgba(255,255,255,0.35)',
+          }}
+        >
+          <span style={{ fontFamily: sans, fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: C.blue }}>
+            Series
+          </span>
+          <h2 style={{ fontFamily: play, fontSize: 'clamp(22px, 2.8vw, 28px)', fontWeight: 700, lineHeight: 1.2, margin: '10px 0 8px' }}>
+            Behind the Build
+          </h2>
+          <p style={{ fontFamily: play, fontSize: 16, lineHeight: 1.55, color: C.muted, margin: '0 0 12px', maxWidth: 620 }}>
+            One name on the marquee. Many B2B brands behind each famous venue — verified supplier maps with sources.
+          </p>
+          <span style={{ fontFamily: sans, fontSize: 12, fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase', color: C.blue }}>
+            {behindTheBuildCount} articles →
+          </span>
+        </Link>
+      )}
+
       {/* Lead + Latest rail */}
       <div className="blog-lead" style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: 0, marginBottom: 48 }}>
         <Link

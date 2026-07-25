@@ -1,4 +1,5 @@
 import { behindTheBuildPosts } from './behind-the-build-posts'
+// Behind the Contract (3 sample posts) — not published yet; keep out of `posts` until launch.
 
 export interface BlogPost {
   slug: string
@@ -4668,4 +4669,11 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
 
 export function getAllPosts(): BlogPost[] {
   return [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+}
+
+/** Main blog index — series posts live on hub pages, not the front-page feed. */
+export function getBlogIndexPosts(): BlogPost[] {
+  return getAllPosts().filter(
+    (p) => !p.slug.startsWith('behind-the-build-') && !p.slug.startsWith('behind-the-contract-'),
+  )
 }

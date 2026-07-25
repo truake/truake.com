@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { getAllPosts } from './posts'
+import { getBlogIndexPosts } from './posts'
+import { behindTheBuildPosts } from './behind-the-build-posts'
 import { BlogFeed } from './blog-feed'
 import { CircleHero } from './circle-hero'
 
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
 }
 
 export default function BlogIndexPage() {
-  const posts = getAllPosts()
+  const posts = getBlogIndexPosts()
 
   return (
     <div style={{ backgroundColor: '#F0EBE3', minHeight: '100vh', color: '#2A2620' }}>
@@ -75,7 +76,7 @@ export default function BlogIndexPage() {
 
       {/* Posts */}
       <main style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 24px 120px' }}>
-        <BlogFeed posts={posts} />
+        <BlogFeed posts={posts} behindTheBuildCount={behindTheBuildPosts.length} />
       </main>
 
       {/* Footer */}
