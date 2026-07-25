@@ -34,11 +34,11 @@ export const BLOG_TLDR: Record<string, string> = {
   'international-travel-essentials-brand-guide':
     'Bottom line: international travel comes down to about ten carry-on essentials, one good brand each — not a 60-item list. The carry system: a carry-on suitcase (Away), a personal-item backpack (Peak Design), packing cubes (Eagle Creek). The in-transit kit: a universal travel adapter (Epicka), a power bank (Anker), noise-canceling headphones (Sony), a neck pillow (Cabeau). On the ground: walking shoes (Hoka), an anti-theft sling (Pacsafe), a water bottle (Owala). Buy first: the carry-on, a universal adapter, and the walking shoes. For clothes inside the bag, use the 54321 packing method (5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard). Below is one brand per slot, no repeats.',
   '54321-packing-method-brand-guide':
-    'Bottom line: the 54321 packing method is a travel capsule formula — 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — enough mix-and-match outfits for a week or more in a carry-on if you laundry mid-trip. Build a neutral palette first (Uniqlo tops, Everlane bottoms), add Patagonia layers for weather, Hoka for walk-all-day shoes plus one cleaner second pair (Veja), and one trip-specific wildcard. Scale down to 3-2-1 for weekends; scale up for month-long trips. Pair with the international travel essentials list for the bag and gear. Below is one good pick per category, no repeats.',
+    'Bottom line: the 54321 packing method is 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule that mixes into 20+ outfits in a carry-on. Build neutrals first (Uniqlo tops, Everlane bottoms), add Patagonia layers, Hoka for walk-all-day shoes plus one cleaner second pair (Veja), and one trip-specific wildcard. Scale down to 3-2-1 for weekends; scale up for month-long trips. Below is one good pick per category, no repeats.',
   'gift-ideas-for-her-brand-guide':
     'Bottom line: skip the listicles — one genuinely good gift per budget she will actually use. Under $30: a Laneige lip mask or a Boy Smells candle. $30–75: everyday jewelry (Mejuri), affordable cashmere (Quince), or a Stanley tumbler. $75+: a Kindle for a reader, a Barefoot Dreams cozy throw, or a Cuyana leather tote. If you only get one, the lip mask plus a candle is almost never wrong; for a bigger gesture, the cozy throw is the safest splurge. See the thoughtful gift ideas hub for her, him, and housewarming. Below is one pick per slot, no repeats.',
   'thoughtful-gift-ideas-brand-guide':
-    'Bottom line: thoughtful gift ideas mean one good thing they will actually use — not a basket of small fillers. Pick the person and budget, then decide once: gifts for her (Laneige lip mask under $30 to Barefoot Dreams throw), gifts for him (Bellroy wallet to AirPods), housewarming (Nest candle + Brightland olive oil, or a Le Creuset Dutch oven). The one-gift rule: one useful pick beats ten almost-right things. Hub links to three full guides by person and occasion.',
+    'Bottom line: pick the person, pick the budget, buy one useful thing — not a basket of fillers. For her: Laneige lip mask to Barefoot Dreams throw. For him: Bellroy wallet to AirPods. For a new home: Nest candle plus Brightland olive oil. The one-gift rule beats gift baskets. Hub links to full guides by person and occasion below.',
   'gift-ideas-for-him-brand-guide':
     'Bottom line: skip the gadget drawer — one genuinely good gift per budget he will actually keep. Under $30: a Bellroy slim wallet or a Baxter of California grooming set. $30–75: a Timex watch, a Leatherman multitool, or a Viski bar set. $75+: Apple AirPods, a Fellow electric kettle, or a Carhartt cozy layer. If you only get one, the slim wallet is the safest small gift; for a bigger gesture, AirPods are the splurge he is most likely to use. Below is one pick per slot, no repeats.',
   'pantry-staples-list-brand-guide':
@@ -60,11 +60,11 @@ export const BLOG_TLDR: Record<string, string> = {
   'first-apartment-checklist-brand-guide':
     'Bottom line: a first apartment is a handful of zones, one good brand each — buy by zone, and get five things night one. Sleep: a mattress (Zinus) + protector (SafeRest). Kitchen: a chef’s knife (Victorinox), a small cookware set (Tramontina), a cutting board (OXO), unbreakable dishes (Corelle). Cleaning: a cordless vacuum (Shark) + the ten-item cleaning kit. Bathroom: a curtain + liner (AmazerBath), towels (Utopia), a bath mat (Gorilla Grip). Safety: a surge power strip (Anker), a fire extinguisher (First Alert), a first aid kit. Furniture: buy the mattress new, everything else slowly and secondhand. Buy first: the mattress + protector, a knife + pot + dishes, a shower curtain + towels, and a power strip + first aid kit. Below is one brand per slot, no repeats.',
   'housewarming-gift-ideas-brand-guide':
-    'Bottom line: a good housewarming gift is one they will actually use, not more clutter — so pick one great gift per vibe and per budget. Under $30: a nice candle (Nest) or good olive oil (Brightland). $30–75: luxe towels (Brooklinen), a wood cutting board (John Boos), bar tools (Viski), or a low-maintenance plant (The Sill). $75+: a Dutch oven (Le Creuset), an electric kettle (Fellow), or a cozy throw (Barefoot Dreams). If you only bring one thing, a candle plus a bottle of olive oil is the combination nobody is disappointed to receive. Below is one pick per slot, no repeats.',
+    'Bottom line: the best housewarming gifts are useful, not decorative clutter — a Nest candle or Brightland olive oil under $30; Brooklinen towels or a John Boos board at $30–75; a Le Creuset Dutch oven or Barefoot Dreams throw above $75. When in doubt, bring a candle plus olive oil. Below is one great pick per vibe and budget, no repeats.',
   'college-packing-list-brand-guide':
     'Bottom line: a college packing list is really three short lists — buy before you go, bring from home, and coordinate with your roommate — not one 100-item haul. Buy before: a laptop (MacBook Air for most majors), noise-canceling headphones (Sony), a portable charger (Anker), a backup drive (Samsung), an Ethernet adapter (Cable Matters), laundry detergent (Tide), and Twin XL bedding. Bring from home: a week of clothes, your insurance card, photo ID, prescriptions, a first aid kit, a backpack (JanSport), and a rain shell (Columbia). Coordinate with your roommate: the mini fridge and microwave (one each per room). The dorm room itself has its own checklist. Below is one brand per slot, no repeats.',
   'dorm-room-essentials-brand-guide':
-    'Bottom line: a dorm room needs about eighteen things, not eighty — in five zones, one good brand each. Sleep: Twin XL sheets (Mellanni), a mattress topper (Lucid), a pillow (Beckham), a comforter (Bedsure). Shower: a caddy (Attmu), shower shoes (Adidas), towels (Utopia), a toiletry bag (BAGSMART). Desk: a lamp (TaoTronics), a surge-protected power strip (Anker), headphones (Sony). Laundry/storage: a hamper (Simple Houseware), under-bed bins (Sterilite), Command hooks (3M). Food/misc: a mini fridge (BLACK+DECKER — coordinate with your roommate), a water bottle (Owala), a fan (Honeywell), a first aid kit. Buy first: Twin XL sheets + topper, shower caddy + shoes, the power strip, and a hamper. Below is one brand per slot, no repeats.',
+    'Bottom line: a college dorm checklist needs about eighteen items, not eighty — five zones (sleep, shower, desk, laundry, food), one good brand each. Buy first for move-in night: Twin XL sheets plus a mattress topper, shower caddy plus shower shoes, a surge-protected power strip, and a laundry hamper. Below is the full dorm room essentials list, no repeats.',
   'cologne-for-beginners-brand-guide':
     'Bottom line: a beginner does not need a fragrance collection — just one versatile, easy-to-wear scent, maybe with a seasonal pick or two. The first fragrance wardrobe: an everyday versatile (Bleu de Chanel), a crowd-pleaser (Dior Sauvage), a date-night (Versace Eros), a summer fresh (Acqua di Gio), a winter warm (Spicebomb), and a budget starter (Nautica Voyage). Buy in this order: the everyday versatile first (the only one most people need), then the summer and winter picks, then the occasion scents. A single good scent worn consistently beats a shelf you rotate at random. Below is one pick per slot, no repeats.',
   'apartment-cleaning-supplies-brand-guide':
@@ -102,7 +102,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'skincare-brand-guide':
     'Bottom line: a beginner skincare starter kit is three steps — cleanse, moisturize, and protect with sunscreen — and sunscreen matters most, by far. On a budget, buy in this order: cleanser, moisturizer, and sunscreen first (a complete routine on their own), then a vitamin C serum; skip toner and eye cream. The whole effective kit costs about $60–100 and is mostly drugstore — expensive rarely means better here. Below is one brand per slot, no repeats.',
   'makeup-brand-guide':
-    'Bottom line: an everyday beginner face is about five products — a natural base, concealer, mascara, blush, and a forgiving lip — plus a couple of brushes and a sponge to apply them. Go mostly drugstore with one or two splurges (concealer, a good sponge); skip contour, eyeshadow, and setting products until later. Start with the items hardest to apply badly. Below is one brand per slot, no repeats.',
+    'Bottom line: a beginner makeup kit for an everyday face needs five products first — tinted base, concealer, mascara, blush, and lip — then add brushes and a sponge. Go mostly drugstore with one or two splurges (concealer, a good sponge); skip contour, eyeshadow, and setting products until later. The full everyday kit is ten slots below — one brand each, no repeats.',
   'casual-wardrobe-brand-guide':
     'Bottom line: a versatile starter wardrobe is a system, not a pile — build it around a few neutral pieces that all pair with each other. Buy in this order: a good plain tee, a mid-wash slim jean, and a clean white sneaker first (a complete outfit on their own), then a casual jacket and a leather belt, then an everyday watch and sunglasses. Keep everything in neutral colors (white, navy, grey, brown) and it all goes with everything. Below is one brand per slot, no repeats.',
   'work-wardrobe-brand-guide':
@@ -283,8 +283,8 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: 'Yes, if you plan to do laundry once mid-trip and stick to versatile neutrals. Wear your bulkiest shoes and jacket on travel days, pack cubes to compress the formula, and scale up to 6-5-4-3-2-1 for month-long trips or run two separate 54321 kits (warm weather + cool weather) instead of one giant suitcase.',
     },
     {
-      q: 'What should I pack first with the 54321 method?',
-      a: 'Build the palette first: five tops and four bottoms in two or three neutral colors where every top pairs with every bottom. Add three layers for weather, lock in two shoes (walk-all-day + dress-up), then pick one wildcard for your specific trip. Underwear and socks scale with trip length; everything else follows the formula.',
+      q: 'How do you pack a carry-on with the 54321 method?',
+      a: 'Step 1: pick a neutral palette so every top pairs with every bottom. Step 2: pack 5 tops and 4 bottoms (20 outfit combinations). Step 3: add 3 layers for weather — a shell, a fleece, and one dress or warm piece. Step 4: wear your bulkiest shoes on travel days; pack one walk-all-day pair plus one dress-up pair. Step 5: one wildcard for the trip (swimsuit, scarf, or formal layer). Use packing cubes; do laundry once mid-trip for two weeks.',
     },
   ],
 
@@ -329,7 +329,7 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   'thoughtful-gift-ideas-brand-guide': [
     {
       q: 'What are thoughtful gift ideas?',
-      a: 'Thoughtful gifts are one good thing the recipient will actually use — not a basket of small fillers. Pick by person and budget: gifts for her (Laneige lip mask to Barefoot Dreams throw), gifts for him (Bellroy wallet to AirPods), or housewarming (Nest candle, Brightland olive oil, or a Le Creuset Dutch oven). One useful pick beats ten almost-right things.',
+      a: 'Thoughtful gift ideas follow three steps: pick the person, pick the budget, buy one useful thing — not a basket of fillers. For her: Laneige lip mask to Barefoot Dreams throw. For him: Bellroy wallet to AirPods. For a new home: Nest candle plus Brightland olive oil. One quality gift they use weekly beats ten small things they have to store.',
     },
     {
       q: 'What is a thoughtful gift when you do not know their taste?',
@@ -518,12 +518,12 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
 
   'housewarming-gift-ideas-brand-guide': [
     {
-      q: 'What is a good housewarming gift?',
-      a: 'Something they will actually use, not decorative clutter. The safe crowd-pleasers are a nice candle (Nest) or good olive oil (Brightland). For more weight: luxe towels (Brooklinen), a wooden cutting board (John Boos), bar tools (Viski), or a low-maintenance plant (The Sill). For an impressive gift: a Le Creuset Dutch oven, a Fellow kettle, or a Barefoot Dreams throw. Pick by your budget and you cannot go wrong.',
+      q: 'What are the best housewarming gifts?',
+      a: 'The best housewarming gifts are things they will use daily, not decorative clutter. Under $30: a Nest candle or Brightland olive oil. $30–75: Brooklinen towels, a John Boos cutting board, Viski bar tools, or a low-maintenance plant from The Sill. $75+: a Le Creuset Dutch oven, a Fellow kettle, or a Barefoot Dreams throw. When in doubt: candle plus olive oil.',
     },
     {
-      q: 'How much should you spend on a housewarming gift?',
-      a: 'For most situations $20–40 is appropriate — a candle, good olive oil, or nice towels all land well in that range. For close friends or family, $75 and up buys something impressive and lasting like a Dutch oven or a cozy throw. The price matters far less than usefulness: a $25 gift they reach for daily beats a $100 one that sits in a closet.',
+      q: 'What is a good housewarming gift under $50?',
+      a: 'Under $50, the safe picks are a nice candle (Nest), good olive oil (Brightland), or a set of luxe hand towels (Brooklinen). All three are taste-neutral, immediately useful, and do not require guessing their décor. Pair a candle and olive oil for a combination almost nobody returns.',
     },
     {
       q: 'What should you not give as a housewarming gift?',
@@ -556,8 +556,8 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
 
   'dorm-room-essentials-brand-guide': [
     {
-      q: 'What are the essential items for a dorm room?',
-      a: 'About eighteen, in five zones: sleep (Twin XL sheets, a mattress topper, a pillow, a comforter), shower (a caddy, shower shoes, towels, a toiletry bag), desk (a lamp, a surge-protected power strip, headphones), laundry and storage (a hamper, under-bed bins, Command hooks), and food and misc (a mini fridge, a water bottle, a fan, a first aid kit). Buy one good brand of each and skip the 80-item haul lists.',
+      q: 'What do you need for a college dorm?',
+      a: 'About eighteen essentials in five zones: sleep (Twin XL sheets, mattress topper, pillow, comforter), shower (caddy, shower shoes, towels), desk (lamp, surge-protected power strip, headphones), laundry and storage (hamper, under-bed bins, Command hooks), and food and misc (mini fridge, water bottle, fan, first aid kit). Buy one good brand of each — not an 80-item haul list.',
     },
     {
       q: 'What should I buy first for a dorm room?',
@@ -941,8 +941,8 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
 
   'makeup-brand-guide': [
     {
-      q: 'What does a beginner actually need for an everyday makeup look?',
-      a: 'A natural everyday face needs about five things: a base (foundation or tinted moisturizer), concealer, mascara, a touch of blush, and a lip. Add the tools to apply them — a few brushes and a sponge — and you are done. Eyeshadow, contour, and setting products are for later or for occasions.',
+      q: 'What makeup should a beginner buy first?',
+      a: 'Buy in this order: (1) a sheer base — tinted moisturizer or light foundation, (2) concealer for spots and under-eyes, (3) mascara, (4) a natural blush, (5) a forgiving lip tint or balm. Add a damp makeup sponge and a small brush set to apply them. That five-product core is a complete everyday face; eyeshadow, contour, and setting spray can wait.',
     },
     {
       q: 'Where should a beginner spend the most on makeup?',
@@ -953,8 +953,8 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: 'No. An affordable starter set from a brand like Real Techniques applies everything in a beginner kit well, and a damp makeup sponge does the blending a beginner needs most. The thirty-piece luxury brush set is for hobbyists, not beginners — soft and clean matters more than the logo.',
     },
     {
-      q: 'What is the most beginner-friendly makeup item?',
-      a: 'A sheer, universal lip tint and a buildable blush — both are nearly impossible to apply badly and instantly make a face look more put-together. Mascara is the other high-impact, low-skill item. Start where mistakes are hardest to make.',
+      q: 'What is a good beginner makeup kit on a budget?',
+      a: 'Go mostly drugstore for foundation, mascara, blush, and lip — excellent options exist under $15 each. Splurge strategically on concealer (where coverage shows) and one good makeup sponge (where blending shows). Skip prestige across the board; a $60–80 drugstore-first kit outperforms a $200 counter haul for beginners.',
     },
   ],
 

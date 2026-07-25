@@ -31,6 +31,12 @@ export const OG_BASE_SLUGS = new Set<string>([
   'work-wardrobe-brand-guide',
   'winter-layering-brand-guide',
   'camping-gear-brand-guide',
+  // Behind the Build — hero venues (2026-07-26)
+  'behind-the-build-burj-khalifa',
+  'behind-the-build-sofi-stadium',
+  'behind-the-build-jewel-changi-airport',
+  'behind-the-build-petronas-twin-towers',
+  'behind-the-build-wembley-stadium',
 ])
 
 export function ogBaseUrl(slug: string): string | null {

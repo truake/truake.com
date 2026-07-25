@@ -2,7 +2,7 @@
 
 > **Daily limit:** ~10–12 requests per property. Open each link while logged into [Google Search Console](https://search.google.com/search-console), then click **Request indexing**.
 >
-> Property: `sc-domain:truake.com` · Updated: 2026-07-25  
+> Property: `sc-domain:truake.com` · Updated: 2026-07-26  
 > **Login verified:** `geekrlg@gmail.com` · Use **网址检查** (top search bar) → paste URL → **请求编入索引**
 
 **How to use:** One batch per day (~10 URLs). Paste each URL into **网址检查** → wait for crawl → **请求编入索引** if eligible. Mark ✓ when done.
@@ -20,6 +20,31 @@ GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是
 **Never request indexing:** any URL ending in `/og`. Request the **parent blog URL** only.
 
 **Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `cold-weather-layering` (`/diffr/start/`), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
+
+## Batch I — Behind the Build launch（2026-07-26）· 优先
+
+27 篇 BtB 已 live；**先提交 hub + 3 篇 sample**（表格/FAQ/TLDR 已验）。**勿提交 `/og`**。
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | BtB series hub | `https://truake.com/diffr/blog/behind-the-build` |
+| | Burj Khalifa (hero OG) | `https://truake.com/diffr/blog/behind-the-build-burj-khalifa` |
+| | SoFi Stadium (hero OG) | `https://truake.com/diffr/blog/behind-the-build-sofi-stadium` |
+| | Incheon Airport (airport cluster) | `https://truake.com/diffr/blog/behind-the-build-incheon-international-airport` |
+
+> **Day 2 续批（quota 允许时）：** Petronas · Jewel Changi · Wembley · Marina Bay Sands · Sydney Opera House · 余下 20 slug（sitemap 已收录，按 hero/交通/医疗场馆分批）。
+
+## Batch J — GEO TL;DR/FAQ/meta 优化（2026-07-26）· 5 篇
+
+Ahrefs AI Search 落地页 + GSC query mirror；**只改 meta/TL;DR/FAQ，正文未动**。
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | makeup (AI Search landing) | `https://truake.com/diffr/blog/makeup-brand-guide` |
+| | housewarming (AI Search landing) | `https://truake.com/diffr/blog/housewarming-gift-ideas-brand-guide` |
+| | thoughtful gifts hub | `https://truake.com/diffr/blog/thoughtful-gift-ideas-brand-guide` |
+| | college dorm checklist | `https://truake.com/diffr/blog/dorm-room-essentials-brand-guide` |
+| | 54321 packing method | `https://truake.com/diffr/blog/54321-packing-method-brand-guide` |
 
 ## Batch G — Day 7 (1 URL) · merge into Batch F if quota left
 
