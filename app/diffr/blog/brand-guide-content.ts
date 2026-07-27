@@ -121,6 +121,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: choice overload is a cognitive tax — too many near-identical options burn attention on decisions that should be automatic. The fix is not "try harder to choose"; it is decide once per category (one toothpaste, one coffee, one brand per slot) and stop reopening the question every checkout.',
   'the-one-brand-rule':
     'Bottom line: the one-brand rule means each brand appears exactly once per scene — one good pick per product slot, no repeats. It prevents curated lists from becoming a single-brand catalogue (DeLonghi in every slot) and forces genuine differentiation so you discover the best specialist for each job, then close the file.',
+  'the-derivative-economy':
+    "Bottom line: Shannon's law applied to branding — every transmission of a signal adds noise. Reboots, reissues, acquisitions, and sequels are copies of copies; the brand name stays but the founding signal degrades. Original Priority means tracing who made the founding decisions, counting transmission steps (ownership changes, manufacturing moves), and checking whether today's product still matches the origin — not the marketing story.",
+  'what-bateson-actually-said':
+    'Bottom line: Gregory Bateson\'s "a difference that makes a difference" is from the 1970 Korzybski lecture, collected in Steps to an Ecology of Mind (1972). He was defining an elementary unit of information inside a systems account of mind — not offering a generic relevance filter. The popular quote drops the energy-transduction clause; what circulates is often a third-hand summary, which is itself a Shannon transmission problem.',
+  'diffr-is-live-on-the-app-store':
+    'Bottom line: Diffr is a free iPhone app on the App Store — pick a scene (home gym, skincare, camping, work wardrobe) and get one good brand per slot, no repeats, already decided. Same method as the blog starter kits, but live in your pocket with product images and save-your-kit. Download once; stop reopening the same research tabs.',
   'luxury-investment-brand-guide':
     'Bottom line: a luxury investment flat lay is eight functions — smartphone, premium headphones, mechanical watch, card holder, two signature fragrances, grooming, and sunglasses — one iconic brand per slot. Apple appears twice (phone + headphones) because the reference image does. Below is the live catalog kit with product images from Diffr\'s database.',
 }
@@ -1194,6 +1200,60 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Why does the national team kit brand matter?',
       a: 'A national team wears one kit brand head to toe — the same one-brand-per-slot logic Diffr uses for starter kits. Knowing the supplier tells you which company won the federation contract for shirts, shorts, and socks as a single assignment.',
+    },
+  ],
+  'the-derivative-economy': [
+    {
+      q: "What is Shannon's law applied to branding?",
+      a: "Claude Shannon showed that every transmission of a signal introduces noise — the longer the chain, the more degradation. Branding works the same way: each acquisition, reboot, or scaled reissue is a transmission step. The name and visual identity may survive, but the founding product decisions that made the brand distinctive often do not.",
+    },
+    {
+      q: "What is the derivative economy?",
+      a: 'The derivative economy is culture and commerce built on copies of copies — sequels of adaptations, brand successors optimized for margin instead of founding philosophy, products that keep the origin story but replace the decision-making system. The surface signal looks familiar; the underlying information has degraded.',
+    },
+    {
+      q: 'How do you tell an original brand from a derivative?',
+      a: 'Ask three questions: who made the founding decisions, how many transmission steps (ownership changes, manufacturing moves) sit between you and that source, and what actually changed in the product — materials, factory, SKU range — not just the marketing language. Founder-operated or continuity brands (Vitamix, Le Creuset) retain more signal than brands sold multiple times.',
+    },
+    {
+      q: 'How does Diffr use Original Priority?',
+      a: 'Diffr weights brand recommendations partly on transmission history — founder-operated brands and documented operational continuity score higher than names three acquisitions removed from their founding philosophy. The app applies the same one-brand-per-slot method described in the blog starter kits.',
+    },
+  ],
+  'what-bateson-actually-said': [
+    {
+      q: 'What book is "a difference that makes a difference" from?',
+      a: 'The phrase appears in Gregory Bateson\'s essay "Form, Substance and Difference," first delivered as the 1970 Korzybski Memorial Lecture and collected in Steps to an Ecology of Mind (University of Chicago Press, 1972).',
+    },
+    {
+      q: 'What did Bateson mean by "a difference that makes a difference"?',
+      a: 'Bateson was defining an elementary unit of information within a systems account of mind: a physical difference becomes information only when it changes another state in the system. The evaluation is system-relative — the same signal can be information in one context and noise in another.',
+    },
+    {
+      q: 'Why is the popular quote often wrong?',
+      a: 'Most citations drop Bateson\'s energy-transduction clause and the ecological frame. What circulates is a slogan about relevance, not his argument about relational meaning. That truncation is itself an example of signal degrading across transmission steps — the same problem Shannon described mathematically.',
+    },
+    {
+      q: 'How does this relate to brand quality?',
+      a: 'A brand\'s "information" — the differences its founding philosophy makes in product decisions — is relational and system-dependent. Change the decision-making system (new owners, new P&L priorities) and the same name can produce different products even when marketing preserves the origin vocabulary.',
+    },
+  ],
+  'diffr-is-live-on-the-app-store': [
+    {
+      q: 'What is Diffr?',
+      a: 'Diffr is a free iPhone app that gives you one good brand per product slot for a chosen scene — home gym, skincare routine, camping kit, work wardrobe, and more. No ranked lists of forty options; each slot gets a single beginner-friendly pick, no brand repeats.',
+    },
+    {
+      q: 'Is Diffr free?',
+      a: 'Yes — Diffr is free on the App Store for iPhone. The blog starter kits at truake.com/diffr/blog use the same one-brand-per-slot method; the app adds live product images and a way to save your kit.',
+    },
+    {
+      q: 'How is Diffr different from a shopping list or review site?',
+      a: 'Review sites optimize for engagement — more options, more tabs, more time on page. Diffr optimizes for decide-once: one answer per slot so you can buy the kit and start the hobby instead of reopening the same research spiral.',
+    },
+    {
+      q: 'Where do I download Diffr?',
+      a: 'Search "Diffr" on the App Store or go to https://apps.apple.com/us/app/diffr/id6772870733. iPhone only at launch.',
     },
   ],
 }

@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "keyword-harvest": "npx tsx scripts/keyword-harvest.ts",
+    "bake-og": "npx tsx scripts/bake-og.ts"
   },
   "dependencies": {
     "marked": "^18.0.5",

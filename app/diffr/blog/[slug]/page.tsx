@@ -10,6 +10,7 @@ import { BLOG_FAQ, BLOG_TLDR } from '../brand-guide-content'
 import { BEHIND_THE_BUILD_FAQ, BEHIND_THE_BUILD_TLDR } from '../behind-the-build-posts'
 import { BEHIND_THE_CONTRACT_FAQ, BEHIND_THE_CONTRACT_TLDR } from '../behind-the-contract-posts'
 import { hasDynamicOgCard } from '../og-base'
+import { bakedOgUrl } from '../static-og'
 import {
   buildSupplierItemListLd,
   parseBehindTheBuildTable,
@@ -112,9 +113,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // tiles over the hook cover / default base) — see ./og/route.tsx. Falls back to
   // the static cover/default for kit-less posts.
   const hasKit = slug in BLOG_SLUG_TO_PRESET || hasDynamicOgCard(slug)
-  const ogImage = hasKit
-    ? `https://truake.com/diffr/blog/${slug}/og`
-    : hasCover ? `/toy-covers/${slug}.jpg` : '/diffr-og.png'
+  const baked = bakedOgUrl(slug)
+  const ogImage = baked
+    ?? (hasKit
+      ? `https://truake.com/diffr/blog/${slug}/og`
+      : hasCover ? `/toy-covers/${slug}.jpg` : '/diffr-og.png')
   const ogAlt = hasKit ? `${post.title} — pick your slot, decide once — Diffr`
     : hasCover ? `${post.title} — Diffr` : 'Diffr — curated beginner brand guides'
   const ogW = hasKit ? 1200 : hasCover ? 1600 : 1200

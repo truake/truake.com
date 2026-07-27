@@ -1775,7 +1775,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'diffr-is-live-on-the-app-store',
     title: 'Diffr Is Live on the App Store',
-    description: 'Diffr is out — the brand-picker that hands you one good brand per slot is now a free iPhone app. Pick a hobby, a wardrobe, or a routine and get the whole kit decided, no research spiral.',
+    description: 'Diffr app — free on iPhone. Pick a scene and get one good brand per slot, no repeats: home gym, skincare, camping, work wardrobe, and more. The decide-once brand picker is live.',
     date: '2026-06-18',
     readTime: '3 min read',
     tags: ['diffr app', 'app launch', 'one brand rule', 'choice overload', 'curated shopping'],
@@ -3056,7 +3056,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'the-derivative-economy',
     title: "Shannon's Law, Branding, and the Derivative Economy",
-    description: "Shannon's law meets branding: a thesis on why every reboot, reissue, and brand successor loses signal — what information theory says gets lost in each copy, and why it matters.",
+    description: "Shannon's law branding thesis: why every reboot, reissue, and brand successor loses signal. Information theory explains what gets lost when culture and commerce copy copies — and how Original Priority helps you buy the origin, not the derivative.",
     date: '2026-04-27',
     readTime: '7 min read',
     tags: ["original priority", "shannon", "brand philosophy", "diff-structism", "signal vs noise"],
@@ -3119,7 +3119,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'what-bateson-actually-said',
     title: '"A Difference That Makes a Difference": What Gregory Bateson Actually Said',
-    description: "Gregory Bateson's phrase \"a difference that makes a difference\" gets quoted everywhere, almost always without its source. Here is where it actually comes from, the 1972 book Steps to an Ecology of Mind, and what the original context reveals about how we consume ideas.",
+    description: 'Gregory Bateson "a difference that makes a difference" — primary source, Steps to an Ecology of Mind (1972), and why the popular quote drops the original argument about information as a relational, system-dependent signal.',
     date: '2026-04-20',
     readTime: '7 min read',
     tags: ["original priority", "bateson", "information theory", "diff-structism", "reading"],

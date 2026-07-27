@@ -66,6 +66,11 @@ for when that brand trends · all internal-linked to the relevant **cornerstone*
 Before the main-page agent mass-produces any A/C item, **validate the head term in
 Ahrefs** (vol + difficulty). Greenlight rule: meaningful US volume + winnable
 difficulty → produce; thin/zero → drop or reshape.
+
+**Weekly harvest:** export GSC + optional Ahrefs CSV → `npm run keyword-harvest`
+→ [`marketing/keyword-harvest-latest.md`](./keyword-harvest-latest.md). Playbook:
+[`keyword-harvest.md`](./keyword-harvest.md).
+
 **Validation queue (run when Ahrefs units reset — currently 0, monthly):**
 `aritzia sub brands` · `wilfred vs babaton` · `which aritzia brand` ·
 `lululemon lines explained` · `lululemon abc vs align` · `nike acg vs tech` ·
