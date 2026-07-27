@@ -30,6 +30,20 @@ async function toPngDataUrl(url: string | null): Promise<string | null> {
   }
 }
 
+/** Embed og-base / toy-cover as data URL — Satori often fails on external JPEG URLs. */
+async function coverDataUrl(url: string | null): Promise<string | null> {
+  if (!url) return null
+  try {
+    const res = await fetch(url)
+    if (!res.ok) return null
+    const buf = Buffer.from(await res.arrayBuffer())
+    const png = await sharp(buf).resize(1200, 630, { fit: 'cover' }).png().toBuffer()
+    return `data:image/png;base64,${png.toString('base64')}`
+  } catch {
+    return null
+  }
+}
+
 // Official Diffr wordmark (public/diffr-logo-white.png) is white-on-transparent.
 // Render it white over dark cover scrims, and a sharp-negated ink version over the
 // light gradient base so it's always legible.
@@ -87,6 +101,7 @@ export async function GET(
   )
   const extra = Math.max(0, (kit?.readyCount ?? ready.length) - ready.length)
   const logo = await logoDataUrl(!coverUrl && !isBtb && !isBtc)
+  const cover = coverUrl ? await coverDataUrl(coverUrl) : null
 
   return new ImageResponse(
     (
@@ -102,7 +117,14 @@ export async function GET(
         }}
       >
         {/* ── Base layer: hook cover, or branded gradient ── */}
-        {coverUrl ? (
+        {cover ? (
+          <img
+            src={cover}
+            width={1200}
+            height={630}
+            style={{ position: 'absolute', top: 0, left: 0, width: 1200, height: 630, objectFit: 'cover' }}
+          />
+        ) : coverUrl ? (
           <img
             src={coverUrl}
             width={1200}
@@ -122,7 +144,7 @@ export async function GET(
           style={{
             position: 'absolute', top: 0, left: 0, width: 1200, height: 630, display: 'flex',
             background: coverUrl
-              ? 'linear-gradient(180deg, rgba(20,18,15,0.55) 0%, rgba(20,18,15,0.20) 40%, rgba(20,18,15,0.70) 100%)'
+              ? 'linear-gradient(180deg, rgba(20,18,15,0.38) 0%, rgba(20,18,15,0.08) 42%, rgba(20,18,15,0.52) 100%)'
               : (isBtb || isBtc)
                 ? 'linear-gradient(180deg, rgba(20,18,15,0.35) 0%, rgba(20,18,15,0.10) 45%, rgba(20,18,15,0.55) 100%)'
                 : 'linear-gradient(180deg, rgba(255,255,255,0.10) 0%, rgba(20,18,15,0.06) 100%)',
