@@ -1,5 +1,11 @@
 import { behindTheBuildPosts } from './behind-the-build-posts'
-// Behind the Contract (3 sample posts) — not published yet; keep out of `posts` until launch.
+import { behindTheContractPosts } from './behind-the-contract-posts'
+import { isPilotContractSlug } from './behind-the-contract-config'
+
+/** Phase-1 launch: top-20 EU health procurement clusters. */
+export const behindTheContractPilotPosts = behindTheContractPosts.filter((p) =>
+  isPilotContractSlug(p.slug),
+)
 
 export interface BlogPost {
   slug: string
@@ -15,6 +21,7 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   ...behindTheBuildPosts,
+  ...behindTheContractPilotPosts,
   {
     slug: 'camping-vs-backpacking-starter-kit',
     title: 'Car Camping vs Backpacking: Which Starter Kit Do You Need?',

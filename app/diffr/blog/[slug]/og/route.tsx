@@ -9,7 +9,7 @@ import sharp from 'sharp'
 import { posts } from '../../posts'
 import { getSceneBrandKit } from '../../../start/lib'
 import { BLOG_SLUG_TO_PRESET } from '../page'
-import { ogBaseUrl } from '../../og-base'
+import { hasDynamicOgCard, ogBaseUrl } from '../../og-base'
 
 export const runtime = 'nodejs'
 export const size = { width: 1200, height: 630 }
@@ -50,6 +50,9 @@ const CREAM = '#F4F1EA'
 const INK = '#2A2620'
 const BLUE = '#1B8BF5'
 
+const ORANGE = '#F0522C'
+const NAVY = '#1d2088'
+
 export async function GET(
   _req: Request,
   { params }: { params: Promise<{ slug: string }> },
@@ -60,11 +63,20 @@ export async function GET(
   const toyCover = (slug === 'mixed-toy-box' || slug.startsWith('toy-team-'))
     ? `https://truake.com/toy-covers/${slug}.jpg` : null
   const coverUrl = ogBaseUrl(slug) ?? toyCover
+  const isBtb = slug.startsWith('behind-the-build-')
+  const isBtc = slug.startsWith('behind-the-contract-')
 
-  // Render the themed card if there's a kit OR a base image; else fall to default.
-  if (!post || (!presetId && !coverUrl)) {
+  if (!post || (!presetId && !coverUrl && !hasDynamicOgCard(slug))) {
     return Response.redirect('https://truake.com/diffr-og.png', 302)
   }
+
+  const seriesGradient = isBtb
+    ? `linear-gradient(135deg, ${ORANGE} 0%, ${INK} 55%, ${BLUE} 100%)`
+    : isBtc
+      ? `linear-gradient(135deg, ${NAVY} 0%, ${INK} 55%, ${BLUE} 100%)`
+      : `linear-gradient(135deg, ${CREAM} 0%, #E7E0D2 55%, #DCD3C0 100%)`
+  const seriesBadge = isBtb ? 'Behind the Build' : isBtc ? 'Behind the Contract' : 'decide once'
+  const seriesBadgeBg = isBtb ? ORANGE : isBtc ? NAVY : BLUE
 
   const kit = presetId ? await getSceneBrandKit(presetId).catch(() => null) : null
   const ready = (kit?.slots ?? []).filter((s) => s.status === 'ready' && s.imageUrl).slice(0, 4)
@@ -72,7 +84,7 @@ export async function GET(
     ready.map(async (s) => ({ slot: s, png: await toPngDataUrl(s.imageUrl) })),
   )
   const extra = Math.max(0, (kit?.readyCount ?? ready.length) - ready.length)
-  const logo = await logoDataUrl(!coverUrl)
+  const logo = await logoDataUrl(!coverUrl && !isBtb && !isBtc)
 
   return new ImageResponse(
     (
@@ -99,7 +111,7 @@ export async function GET(
           <div
             style={{
               position: 'absolute', top: 0, left: 0, width: 1200, height: 630, display: 'flex',
-              background: `linear-gradient(135deg, ${CREAM} 0%, #E7E0D2 55%, #DCD3C0 100%)`,
+              background: seriesGradient,
             }}
           />
         )}
@@ -109,7 +121,9 @@ export async function GET(
             position: 'absolute', top: 0, left: 0, width: 1200, height: 630, display: 'flex',
             background: coverUrl
               ? 'linear-gradient(180deg, rgba(20,18,15,0.55) 0%, rgba(20,18,15,0.20) 40%, rgba(20,18,15,0.70) 100%)'
-              : 'linear-gradient(180deg, rgba(255,255,255,0.10) 0%, rgba(20,18,15,0.06) 100%)',
+              : (isBtb || isBtc)
+                ? 'linear-gradient(180deg, rgba(20,18,15,0.35) 0%, rgba(20,18,15,0.10) 45%, rgba(20,18,15,0.55) 100%)'
+                : 'linear-gradient(180deg, rgba(255,255,255,0.10) 0%, rgba(20,18,15,0.06) 100%)',
           }}
         />
 
@@ -119,23 +133,23 @@ export async function GET(
             {logo ? (
               <img src={logo} height={42} width={89} style={{ height: 42, width: 89, objectFit: 'contain' }} />
             ) : (
-              <div style={{ display: 'flex', fontSize: 30, fontWeight: 800, color: coverUrl ? '#fff' : INK, letterSpacing: -0.5 }}>
+              <div style={{ display: 'flex', fontSize: 30, fontWeight: 800, color: coverUrl || isBtb || isBtc ? '#fff' : INK, letterSpacing: -0.5 }}>
                 Diffr
               </div>
             )}
             <div
               style={{
-                display: 'flex', fontSize: 18, fontWeight: 700, color: '#fff', background: BLUE,
+                display: 'flex', fontSize: 18, fontWeight: 700, color: '#fff', background: seriesBadgeBg,
                 padding: '6px 14px', borderRadius: 999, letterSpacing: 0.3,
               }}
             >
-              decide once
+              {seriesBadge}
             </div>
           </div>
           <div
             style={{
               display: 'flex', marginTop: 22, fontSize: 52, lineHeight: 1.08, fontWeight: 800,
-              color: coverUrl ? '#fff' : INK, maxWidth: 1000, letterSpacing: -1,
+              color: coverUrl || isBtb || isBtc ? '#fff' : INK, maxWidth: 1000, letterSpacing: -1,
             }}
           >
             {post.title.length > 84 ? post.title.slice(0, 81) + '…' : post.title}

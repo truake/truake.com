@@ -49,7 +49,15 @@ function Kicker({ cat }: { cat: string }) {
   )
 }
 
-export function BlogFeed({ posts, behindTheBuildCount = 0 }: { posts: BlogPost[]; behindTheBuildCount?: number }) {
+export function BlogFeed({
+  posts,
+  behindTheBuildCount = 0,
+  behindTheContractCount = 0,
+}: {
+  posts: BlogPost[]
+  behindTheBuildCount?: number
+  behindTheContractCount?: number
+}) {
   const [active, setActive] = useState('all')
 
   const counts = useMemo(() => {
@@ -98,13 +106,21 @@ export function BlogFeed({ posts, behindTheBuildCount = 0 }: { posts: BlogPost[]
       </div>
 
       {active === 'all'
-        ? <FrontPage posts={posts} behindTheBuildCount={behindTheBuildCount} />
+        ? <FrontPage posts={posts} behindTheBuildCount={behindTheBuildCount} behindTheContractCount={behindTheContractCount} />
         : <SectionList title={CAT_META[active].label} posts={filtered} />}
     </>
   )
 }
 
-function FrontPage({ posts, behindTheBuildCount }: { posts: BlogPost[]; behindTheBuildCount: number }) {
+function FrontPage({
+  posts,
+  behindTheBuildCount,
+  behindTheContractCount,
+}: {
+  posts: BlogPost[]
+  behindTheBuildCount: number
+  behindTheContractCount: number
+}) {
   const lead = posts[0]
   const latest = posts.slice(1, 5)
   const shown = new Set([lead, ...latest].map(p => p.slug))
@@ -140,6 +156,36 @@ function FrontPage({ posts, behindTheBuildCount }: { posts: BlogPost[]; behindTh
           </p>
           <span style={{ fontFamily: sans, fontSize: 12, fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase', color: C.blue }}>
             {behindTheBuildCount} articles →
+          </span>
+        </Link>
+      )}
+
+      {behindTheContractCount > 0 && (
+        <Link
+          href="/diffr/blog/behind-the-contract"
+          className="blog-link"
+          style={{
+            display: 'block',
+            textDecoration: 'none',
+            color: C.text,
+            marginBottom: 40,
+            padding: '28px 32px',
+            border: `1px solid ${C.rule}`,
+            borderLeft: `4px solid ${CAT_META.strategy.color}`,
+            background: 'rgba(255,255,255,0.35)',
+          }}
+        >
+          <span style={{ fontFamily: sans, fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: CAT_META.strategy.color }}>
+            Series
+          </span>
+          <h2 style={{ fontFamily: play, fontSize: 'clamp(22px, 2.8vw, 28px)', fontWeight: 700, lineHeight: 1.2, margin: '10px 0 8px' }}>
+            Behind the Contract
+          </h2>
+          <p style={{ fontFamily: play, fontSize: 16, lineHeight: 1.55, color: C.muted, margin: '0 0 12px', maxWidth: 620 }}>
+            One buyer name on letterhead. Many TED contract awards on the record — verified procurement maps with sources.
+          </p>
+          <span style={{ fontFamily: sans, fontSize: 12, fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase', color: CAT_META.strategy.color }}>
+            {behindTheContractCount} pilot articles →
           </span>
         </Link>
       )}

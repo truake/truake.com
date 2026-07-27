@@ -21,6 +21,21 @@ GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是
 
 **Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `cold-weather-layering` (`/diffr/start/`), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
 
+## Batch L — P1 launch（2026-07-27）· Contract pilot + BtB schema + WC FAQ
+
+Behind the Contract pilot (20 posts) + ItemList JSON-LD on BtB/BtC articles + world-cup FAQ。**勿提交 `/og`**。
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | Contract hub | `https://truake.com/diffr/blog/behind-the-contract` |
+| | INGESA (sample) | `https://truake.com/diffr/blog/behind-the-contract-ingesa-1014264` |
+| | UCK Warsaw (sample) | `https://truake.com/diffr/blog/behind-the-contract-uck-warsaw-1014386` |
+| | Incheon Airport BtB (ItemList) | `https://truake.com/diffr/blog/behind-the-build-incheon-international-airport` |
+| | Marina Bay Sands BtB (ItemList) | `https://truake.com/diffr/blog/behind-the-build-marina-bay-sands` |
+| | world cup kit brands | `https://truake.com/diffr/blog/world-cup-2026-kit-brands` |
+
+> Contract 其余 17 篇 pilot 按 hub 列表逐日送检；BtB 全 27 篇 ItemList 已自动注入，优先 re-crawl 无 hero OG 的样本。
+
 ## Batch K — SEO/GEO 包（2026-07-27）· hub + 哲学支柱
 
 canonical + TL;DR/FAQ 新增；**勿提交 `/og`**。

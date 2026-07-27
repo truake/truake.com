@@ -8,7 +8,13 @@ import { getSceneBrandKit } from '../../start/lib'
 import SceneBrandKit from '../../start/SceneBrandKit'
 import { BLOG_FAQ, BLOG_TLDR } from '../brand-guide-content'
 import { BEHIND_THE_BUILD_FAQ, BEHIND_THE_BUILD_TLDR } from '../behind-the-build-posts'
-import { OG_BASE_SLUGS } from '../og-base'
+import { BEHIND_THE_CONTRACT_FAQ, BEHIND_THE_CONTRACT_TLDR } from '../behind-the-contract-posts'
+import { hasDynamicOgCard } from '../og-base'
+import {
+  buildSupplierItemListLd,
+  parseBehindTheBuildTable,
+  parseBehindTheContractTable,
+} from '../b2b-table-schema'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -103,7 +109,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Posts with a live slot kit get a dynamic, layered share card (slot product
   // tiles over the hook cover / default base) — see ./og/route.tsx. Falls back to
   // the static cover/default for kit-less posts.
-  const hasKit = slug in BLOG_SLUG_TO_PRESET || OG_BASE_SLUGS.has(slug)
+  const hasKit = slug in BLOG_SLUG_TO_PRESET || hasDynamicOgCard(slug)
   const ogImage = hasKit
     ? `https://truake.com/diffr/blog/${slug}/og`
     : hasCover ? `/toy-covers/${slug}.jpg` : '/diffr-og.png'
@@ -175,8 +181,14 @@ export default async function BlogPostPage({ params }: Props) {
   const presetId = BLOG_SLUG_TO_PRESET[slug]
   const brandKit = presetId ? await getSceneBrandKit(presetId) : null
   const startSlug = BLOG_SLUG_TO_START[slug] ?? null
-  const faq = BLOG_FAQ[slug] ?? BEHIND_THE_BUILD_FAQ[slug] ?? null
-  const tldr = BLOG_TLDR[slug] ?? BEHIND_THE_BUILD_TLDR[slug] ?? null
+  const faq = BLOG_FAQ[slug] ?? BEHIND_THE_BUILD_FAQ[slug] ?? BEHIND_THE_CONTRACT_FAQ[slug] ?? null
+  const tldr = BLOG_TLDR[slug] ?? BEHIND_THE_BUILD_TLDR[slug] ?? BEHIND_THE_CONTRACT_TLDR[slug] ?? null
+
+  const supplierRows = slug.startsWith('behind-the-build-')
+    ? parseBehindTheBuildTable(post.content)
+    : slug.startsWith('behind-the-contract-')
+      ? parseBehindTheContractTable(post.content)
+      : []
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -215,6 +227,11 @@ export default async function BlogPostPage({ params }: Props) {
         }
       : null
 
+  const supplierItemListLd =
+    !brandKit && supplierRows.length > 0
+      ? buildSupplierItemListLd(`${post.title} — verified suppliers`, supplierRows)
+      : null
+
   const breadcrumbLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -249,6 +266,12 @@ export default async function BlogPostPage({ params }: Props) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }}
+        />
+      )}
+      {supplierItemListLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(supplierItemListLd) }}
         />
       )}
       <script

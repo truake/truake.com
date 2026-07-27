@@ -42,3 +42,12 @@ export const OG_BASE_SLUGS = new Set<string>([
 export function ogBaseUrl(slug: string): string | null {
   return OG_BASE_SLUGS.has(slug) ? `https://truake.com/og-base/${slug}.jpg` : null
 }
+
+/** Dynamic layered share card — preset kit, og-base photo, or B2B series slug. */
+export function hasDynamicOgCard(slug: string): boolean {
+  return (
+    OG_BASE_SLUGS.has(slug)
+    || slug.startsWith('behind-the-build-')
+    || slug.startsWith('behind-the-contract-')
+  )
+}

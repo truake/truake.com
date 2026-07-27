@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getBlogIndexPosts } from './posts'
 import { behindTheBuildPosts } from './behind-the-build-posts'
+import { behindTheContractPilotPosts } from './posts'
 import { BlogFeed } from './blog-feed'
 import { CircleHero } from './circle-hero'
 
@@ -76,7 +77,11 @@ export default function BlogIndexPage() {
 
       {/* Posts */}
       <main style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 24px 120px' }}>
-        <BlogFeed posts={posts} behindTheBuildCount={behindTheBuildPosts.length} />
+        <BlogFeed
+          posts={posts}
+          behindTheBuildCount={behindTheBuildPosts.length}
+          behindTheContractCount={behindTheContractPilotPosts.length}
+        />
       </main>
 
       {/* Footer */}

@@ -1156,4 +1156,23 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: 'Brand loyalty is "buy everything from Nike." The one-brand rule is "buy the best specialist once per slot" — Nike might get the running shoe slot while another brand gets socks, watch, and hydration. No single company owns the whole scene.',
     },
   ],
+
+  'world-cup-2026-kit-brands': [
+    {
+      q: 'Which brand makes the most World Cup 2026 kits?',
+      a: 'Adidas supplies 14 national teams at the 2026 World Cup — the most of any kit manufacturer — including Argentina, Germany, Spain, Mexico, Belgium, and Japan.',
+    },
+    {
+      q: 'Which teams wear Nike kits at World Cup 2026?',
+      a: 'Nike dresses 12 teams, including Brazil, France, England, the Netherlands, the United States, and Croatia. Nike is the second-largest kit supplier at the tournament.',
+    },
+    {
+      q: 'How many teams wear Puma kits at the 2026 World Cup?',
+      a: 'Puma supplies 11 teams — Portugal, Morocco, Senegal, Switzerland, Egypt, and others. The remaining 11 nations split across smaller suppliers such as Kelme, Marathon, Kappa, Umbro, Reebok, Jako, Capelli, Saeta, 7Saber, and Majid.',
+    },
+    {
+      q: 'Why does the national team kit brand matter?',
+      a: 'A national team wears one kit brand head to toe — the same one-brand-per-slot logic Diffr uses for starter kits. Knowing the supplier tells you which company won the federation contract for shirts, shorts, and socks as a single assignment.',
+    },
+  ],
 }

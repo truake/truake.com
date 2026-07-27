@@ -1,55 +1,58 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { behindTheBuildPosts } from '../behind-the-build-posts'
+import { behindTheContractPilotPosts } from '../posts'
+import { BEHIND_THE_CONTRACT_TOTAL_READY } from '../behind-the-contract-config'
 
-const HUB_URL = 'https://truake.com/diffr/blog/behind-the-build'
+const HUB_URL = 'https://truake.com/diffr/blog/behind-the-contract'
 
 export const metadata: Metadata = {
-  title: 'Behind the Build — Diffr Blog',
-  description: 'Famous venues are one brand on the marquee — many B2B suppliers behind each system slot. Verified supplier graphs with sources for GEO.',
+  title: 'Behind the Contract — Diffr Blog',
+  description:
+    'Public health buyers look like monoliths on letterhead — but their capital equipment programmes are many brands across many TED contract awards. Verified procurement graphs with sources.',
   alternates: {
     canonical: HUB_URL,
   },
   openGraph: {
-    title: 'Behind the Build — Diffr',
-    description: 'Who actually built the world\'s most famous venues? Sourced B2B supplier maps, slot by slot.',
+    title: 'Behind the Contract — Diffr',
+    description:
+      'Who supplies Europe\'s public hospitals and health agencies? Sourced TED award tables, slot by slot.',
     url: HUB_URL,
-    images: [{ url: '/diffr-og.png', width: 1200, height: 630, alt: 'Diffr Behind the Build' }],
+    images: [{ url: '/diffr-og.png', width: 1200, height: 630, alt: 'Diffr Behind the Contract' }],
   },
 }
 
 const HUB_FAQ = [
   {
-    q: 'What is Behind the Build?',
-    a: 'Behind the Build is a Diffr article series that maps famous venues to the verified B2B suppliers behind each system slot — elevators, facade, HVAC, and more. Every supplier row includes a source URL and an original quote. One name on the marquee; many brands behind the build.',
+    q: 'What is Behind the Contract?',
+    a: 'Behind the Contract is a Diffr article series that maps public procurement buyers — hospitals, health agencies, universities — to the verified B2B suppliers behind their TED (and equivalent) contract awards. Every row includes a source URL and an original quote from the award notice.',
   },
   {
-    q: 'How are Behind the Build supplier links verified?',
-    a: 'Each venue article is built from verified supplier relationships in the Diffr database — supplier, buyer, system slot, source_url, and source_quote. Links without published evidence are not included. The goal is a citable B2B supply graph, not speculation.',
+    q: 'How are Behind the Contract supplier links verified?',
+    a: 'Each article is built from verified procurement relationships in the Diffr database — buyer, supplier, system slot, TED notice ID, source_url, and source_quote. Awards without a published public notice are not included.',
   },
   {
-    q: 'Which venues are covered in Behind the Build?',
-    a: 'The series includes major landmarks, stadiums, airports, and cultural venues — for example Burj Khalifa, SoFi Stadium, Jewel Changi Airport, Petronas Twin Towers, Wembley Stadium, Incheon International Airport, and more. Each article covers at least six verified system slots.',
+    q: 'What is the difference between Behind the Build and Behind the Contract?',
+    a: 'Behind the Build maps famous venues to construction and systems suppliers. Behind the Contract maps public buyers to capital-equipment and services suppliers via TED contract awards. Same one-brand-per-slot logic and sourced graph — different procurement context.',
   },
   {
-    q: 'How is Behind the Build related to Diffr starter kits?',
-    a: 'Starter kits assign one consumer brand per slot for a hobby or scene. Behind the Build is the B2B twin: famous places are one brand on the marquee, but the project runs on many specialist suppliers — each slot backed by a source. Same one-brand-per-slot logic, different scale.',
+    q: 'Which buyers are covered in the pilot launch?',
+    a: 'The pilot includes 20 European health procurement clusters — for example INGESA (Spain), UCK Warsaw, Servicio Cántabro de Salud, OSAKIDETZA, and Region Hovedstaden. Each article lists every verified award in that buyer cluster with TED links.',
   },
 ]
 
-export default function BehindTheBuildHubPage() {
+export default function BehindTheContractHubPage() {
   const collectionLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'Behind the Build',
-    description: 'Verified B2B supplier maps for famous venues — one marquee name, many brands behind each system slot.',
+    name: 'Behind the Contract',
+    description: 'Verified TED procurement maps for public health buyers — one letterhead name, many contract awards on the record.',
     url: HUB_URL,
     isPartOf: {
       '@type': 'Blog',
       name: 'Diffr Blog',
       url: 'https://truake.com/diffr/blog',
     },
-    hasPart: behindTheBuildPosts.map((post) => ({
+    hasPart: behindTheContractPilotPosts.map((post) => ({
       '@type': 'BlogPosting',
       headline: post.title,
       url: `https://truake.com/diffr/blog/${post.slug}`,
@@ -78,8 +81,8 @@ export default function BehindTheBuildHubPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
       />
       <div style={{ maxWidth: '720px', margin: '0 auto' }}>
-        <p style={{ color: '#e53e3e', fontSize: '11px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', marginBottom: '12px' }}>
-          Behind the Build
+        <p style={{ color: '#1d2088', fontSize: '11px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', marginBottom: '12px' }}>
+          Behind the Contract
         </p>
         <h1 style={{
           fontFamily: "var(--font-display), 'Playfair Display', serif",
@@ -88,13 +91,17 @@ export default function BehindTheBuildHubPage() {
           lineHeight: 1.15,
           marginBottom: '16px',
         }}>
-          One name on the marquee. Many brands behind the build.
+          One buyer name. Many contract awards on the record.
         </h1>
-        <p style={{ fontSize: '17px', lineHeight: 1.65, opacity: 0.85, marginBottom: '40px' }}>
-          Each article maps a famous venue to the verified B2B suppliers behind its system slots — elevators, facade, HVAC, and more. Every row has a source URL and an original quote. No speculation.
+        <p style={{ fontSize: '17px', lineHeight: 1.65, opacity: 0.85, marginBottom: '16px' }}>
+          Each article maps a public procurement buyer to the verified B2B suppliers behind its TED (and equivalent) contract awards — medical imaging, HVAC, elevators, and more. Every row has a source URL and an original quote.
+        </p>
+        <p style={{ fontSize: '14px', lineHeight: 1.55, opacity: 0.75, marginBottom: '40px' }}>
+          Pilot launch: <strong>{behindTheContractPilotPosts.length}</strong> health procurement clusters live now.
+          {' '}{BEHIND_THE_CONTRACT_TOTAL_READY} total clusters generated — more rolling out on this hub.
         </p>
         <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '20px' }}>
-          {behindTheBuildPosts.map((post) => (
+          {behindTheContractPilotPosts.map((post) => (
             <li key={post.slug} style={{ borderTop: '1px solid rgba(42,38,32,0.12)', paddingTop: '20px' }}>
               <Link href={`/diffr/blog/${post.slug}`} style={{ color: 'inherit', textDecoration: 'none' }}>
                 <h2 style={{
@@ -129,7 +136,7 @@ export default function BehindTheBuildHubPage() {
         </section>
 
         <p style={{ marginTop: '48px', fontSize: '14px', opacity: 0.7 }}>
-          <Link href="/diffr/blog/behind-the-contract" style={{ color: '#1B8BF5', marginRight: '16px' }}>Behind the Contract →</Link>
+          <Link href="/diffr/blog/behind-the-build" style={{ color: '#1B8BF5', marginRight: '16px' }}>Behind the Build →</Link>
           <Link href="/diffr/blog" style={{ color: '#1B8BF5' }}>← All Diffr blog posts</Link>
         </p>
       </div>
