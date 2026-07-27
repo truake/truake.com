@@ -9,7 +9,7 @@ import SceneBrandKit from '../../start/SceneBrandKit'
 import { BLOG_FAQ, BLOG_TLDR } from '../brand-guide-content'
 import { BEHIND_THE_BUILD_FAQ, BEHIND_THE_BUILD_TLDR } from '../behind-the-build-posts'
 import { BEHIND_THE_CONTRACT_FAQ, BEHIND_THE_CONTRACT_TLDR } from '../behind-the-contract-posts'
-import { hasDynamicOgCard } from '../og-base'
+import { hasDynamicOgCard, OG_BASE_SLUGS } from '../og-base'
 import { bakedOgUrl } from '../static-og'
 import {
   buildSupplierItemListLd,
@@ -166,10 +166,12 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getPostBySlug(slug)
   if (!post) notFound()
 
-  // Hook cover photo (toy-team campaign posts); rendered as a hero + share image.
+  // Hook cover photo (toy-team campaign, og-base brand guides).
   const coverImage = (slug === 'mixed-toy-box' || slug.startsWith('toy-team-'))
     ? `/toy-covers/${slug}.jpg`
-    : null
+    : OG_BASE_SLUGS.has(slug)
+      ? `/og-base/${slug}.jpg`
+      : null
 
   const allPosts = getAllPosts()
   const currentIndex = allPosts.findIndex((p) => p.slug === post.slug)
