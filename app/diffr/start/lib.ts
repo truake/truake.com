@@ -108,6 +108,7 @@ export const SLUG_TO_PRESET: Record<string, number> = {
   "toy-team-throwback-box": 106,
   "toy-team-bedtime-box": 107,
   "toy-team-birthday-box": 108,
+  "luxury-investment-flat-lay": 110,
 };
 
 // Slugs with no domain_guide editorial shell — rendered lean from preset data.
@@ -130,6 +131,7 @@ export const PRESET_ONLY_SLUGS = new Set<string>([
   "toy-team-backyard-box", "toy-team-learn-and-go-box", "toy-team-quiet-afternoon-box",
   "toy-team-rainy-day-box", "toy-team-throwback-box", "toy-team-bedtime-box",
   "toy-team-birthday-box",
+  "luxury-investment-flat-lay",
 ]);
 
 export async function getPresetMeta(
@@ -176,6 +178,7 @@ interface PresetScenarioRow {
   slot_count: number | null;
   product_types: number[] | null;
   slot_brand_ids: number[] | null;
+  slot_product_line_ids: (number | null)[] | null;
 }
 
 interface PoolRow {
@@ -231,7 +234,7 @@ export async function getSceneBrandKit(
   try {
     const rows = await sbGet<PresetScenarioRow[]>(
       `preset_scenarios?id=eq.${presetId}&is_active=eq.true` +
-        `&select=id,name,description,slot_count,product_types,slot_brand_ids`
+        `&select=id,name,description,slot_count,product_types,slot_brand_ids,slot_product_line_ids`
     );
     scenario = rows[0];
   } catch {
@@ -241,6 +244,7 @@ export async function getSceneBrandKit(
 
   const types = scenario.product_types ?? [];
   const brandIds = scenario.slot_brand_ids ?? [];
+  const pinnedPlIds = scenario.slot_product_line_ids ?? [];
   if (types.length === 0) return null;
 
   // Tolerate length mismatch: a slot may be unbranded (e.g. a [digital] app
@@ -260,6 +264,20 @@ export async function getSceneBrandKit(
   ]);
   const pickMap = new Map(pickRows.map((r) => [`${r.brand_id}:${r.product_type_id}`, r]));
   const typeMap = new Map(typeRows.map((t) => [t.id, t.name]));
+
+  // Pinned product lines (exact pl_id per slot — fixes duplicate-type scenes).
+  const explicitPlIds = [
+    ...new Set(pinnedPlIds.filter((x): x is number => x != null)),
+  ];
+  const pinnedMap = new Map<number, PoolRow>();
+  if (explicitPlIds.length) {
+    const pinnedRows = await sbGet<PoolRow[]>(
+      `v_slot_pool?pl_id=in.(${explicitPlIds.join(",")})&select=${POOL_SELECT}`
+    ).catch(() => []);
+    for (const r of pinnedRows) {
+      if (r.pl_id) pinnedMap.set(r.pl_id, r);
+    }
+  }
 
   // Orphan fallback (dev's intent: orphan slots still render from the pool, not
   // vanish). Only the slots whose curated pick is missing — bounded limit=1 each.
@@ -294,8 +312,11 @@ export async function getSceneBrandKit(
     .map((pt, i): SceneSlot | null => {
       const brandId = brandIds[i];
       if (brandId == null) return null; // unbranded slot (e.g. [digital] app)
-      // Curated pick if valid; otherwise pool-top fallback; else skip (sparse).
-      const row = pickMap.get(`${brandId}:${pt}`) ?? fallbackMap.get(pt);
+      const pinnedPlId = pinnedPlIds[i] ?? null;
+      const row =
+        (pinnedPlId != null ? pinnedMap.get(pinnedPlId) : undefined) ??
+        pickMap.get(`${brandId}:${pt}`) ??
+        fallbackMap.get(pt);
       if (!row) return null;
       const status = row.image_status ?? "pending";
       if (status === "ready") readyCount++;

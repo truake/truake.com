@@ -121,6 +121,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: choice overload is a cognitive tax — too many near-identical options burn attention on decisions that should be automatic. The fix is not "try harder to choose"; it is decide once per category (one toothpaste, one coffee, one brand per slot) and stop reopening the question every checkout.',
   'the-one-brand-rule':
     'Bottom line: the one-brand rule means each brand appears exactly once per scene — one good pick per product slot, no repeats. It prevents curated lists from becoming a single-brand catalogue (DeLonghi in every slot) and forces genuine differentiation so you discover the best specialist for each job, then close the file.',
+  'luxury-investment-brand-guide':
+    'Bottom line: a luxury investment flat lay is eight functions — smartphone, premium headphones, mechanical watch, card holder, two signature fragrances, grooming, and sunglasses — one iconic brand per slot. Apple appears twice (phone + headphones) because the reference image does. Below is the live catalog kit with product images from Diffr\'s database.',
 }
 
 export interface FaqItem {
@@ -1040,6 +1042,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'What should I buy first for my first winter?',
       a: 'Start with the working layers: a thermal base layer, a fleece mid layer, and warm waterproof boots — that trio keeps you genuinely warm. Add an insulated jacket and a parka shell for serious cold. And do not skip the beanie, gloves, and a wool scarf: a large share of your heat escapes through your head and hands, so these cheap items are the highest warmth-per-dollar buy. Buy them before any pricey coat.',
+    },
+  ],
+
+  'luxury-investment-brand-guide': [
+    {
+      q: 'What is the luxury investment flat lay scene?',
+      a: 'It is an eight-slot luxury EDC kit inspired by a viral flat lay: smartphone, premium headphones, mechanical watch, card holder, two signature fragrances, grooming, and sunglasses — each mapped to one canonical product type and one target brand from the reference image.',
+    },
+    {
+      q: 'Why does Apple appear twice in this scene?',
+      a: 'The reference flat lay includes both an iPhone and AirPods Max — two different functions, same manufacturer. Diffr allows that exception here because the source image does; most scenes enforce one brand per slot.',
+    },
+    {
+      q: 'Where do the product images on this blog come from?',
+      a: 'They render live from Diffr\'s catalog via v_slot_pool — real product_line rows with R2-hosted images, not stock mood photos. If a tile shows pending, the typed crawl for that brand and type has not landed yet.',
+    },
+    {
+      q: 'How were missing images filled for this scene?',
+      a: 'Synonym registration unlocked the pool, then LLM web search and eBay sourcing added typed product lines with white-background gates — the same pipeline used for the Monochrome EDC Tray pilot.',
     },
   ],
 

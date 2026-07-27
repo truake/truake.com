@@ -847,6 +847,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'luxury-investment-brand-guide',
+    title: 'Luxury Investment Flat Lay: 8 Iconic Pieces, One Brand Per Slot',
+    description: 'A beginner luxury investment kit from the viral flat lay — AirPods Max, Reverso, Goyard, iPhone, MFK, Diptyque, Chanel Boy, and Ray-Ban. Eight slots, eight brands, live product images from the Diffr catalog.',
+    date: '2026-07-27',
+    readTime: '5 min read',
+    tags: ['brand guide', 'luxury investment', 'EDC luxury', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight iconic luxury investments — tech, time, leather, fragrance, grooming, eyewear — one brand per slot, with live product images.',
+    content: `
+<p>The &ldquo;six investments you need to make&rdquo; flat lay is a useful stress test for Diffr: can we take a reference image, decompose it into functions, map each function to a canonical product type, and surface real catalog images for every slot? This post is that experiment — eight slots from the viral luxury flat lay, one brand each, rendered from the same <code>v_slot_pool</code> data the app reads.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Smartphone</h3>
+<p><strong>Apple iPhone 15 Pro</strong> &mdash; the mobile-compute anchor. White titanium, product shot.</p>
+
+<h3>Slot 2 &mdash; Premium Headphones</h3>
+<p><strong>Apple AirPods Max</strong> &mdash; Space Gray over-ear. Private audio at the luxury tier.</p>
+
+<h3>Slot 3 &mdash; Mechanical Watch</h3>
+<p><strong>Jaeger-LeCoultre Reverso</strong> &mdash; the reversible dress watch. Heirloom time, not smartwatch churn.</p>
+
+<h3>Slot 4 &mdash; Card Holder</h3>
+<p><strong>Goyard Saint Sulpice</strong> &mdash; Goyardine canvas card holder. Small leather goods that hold value.</p>
+
+<h3>Slot 5 &mdash; Signature Fragrance (MFK)</h3>
+<p><strong>Maison Francis Kurkdjian Oud Satin Mood</strong> &mdash; the black-and-gold bottle from the flat lay.</p>
+
+<h3>Slot 6 &mdash; Signature Fragrance (Diptyque)</h3>
+<p><strong>Diptyque Orphéon</strong> &mdash; the rounded black flacon. Second scent slot, different brand.</p>
+
+<h3>Slot 7 &mdash; Grooming</h3>
+<p><strong>Chanel Boy de Chanel</strong> &mdash; the matte black moisturizer/grooming line from the image.</p>
+
+<h3>Slot 8 &mdash; Sunglasses</h3>
+<p><strong>Ray-Ban</strong> &mdash; oval silver-frame sunglasses. Eyewear as the finishing EDC piece.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Most luxury listicles use stock mood photos. Diffr&rsquo;s brand kit below pulls <em>typed product lines</em> with R2-hosted images — the same pipeline we used to close gaps via synonym registration and LLM/eBay sourcing. Scroll the kit to verify every slot has a product image. If a tile shows &ldquo;pending,&rdquo; the crawl did not land yet.</p>
+
+<p>Explore the interactive scene: <a href="/diffr/start/luxury-investment-flat-lay">Luxury Investment Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'housewarming-gift-ideas-brand-guide',
     title: 'Best Housewarming Gifts They\'ll Actually Use (By Budget, One Pick Each)',
     description: 'Best housewarming gifts they will actually use — one great pick per vibe and budget, from a $25 Nest candle to a Le Creuset Dutch oven. No hundred-item roundup, just gifts that earn their place in a new home.',
