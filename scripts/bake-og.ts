@@ -5,7 +5,7 @@ import { join } from 'path'
 import { BLOG_SLUG_TO_PRESET } from '../app/diffr/blog/[slug]/page'
 
 const BASE = 'https://truake.com'
-const OUT = join(process.cwd(), 'public', 'og')
+const OUT = join(process.cwd(), 'public', 'diffr', 'blog', 'share')
 
 async function bake(slug: string): Promise<void> {
   const url = `${BASE}/diffr/blog/${slug}/og`
@@ -18,7 +18,16 @@ async function bake(slug: string): Promise<void> {
   const buf = Buffer.from(await res.arrayBuffer())
   const out = join(OUT, `${slug}.png`)
   writeFileSync(out, buf)
-  console.log(`OK ${buf.length} bytes → public/og/${slug}.png`)
+  console.log(`OK ${buf.length} bytes → public/diffr/blog/share/${slug}.png`)
+  // Also emit JPG — X/LinkedIn fetch JPG more reliably than large PNGs.
+  try {
+    const { default: sharp } = await import('sharp')
+    const jpg = await sharp(buf).jpeg({ quality: 88 }).toBuffer()
+    writeFileSync(join(OUT, `${slug}.jpg`), jpg)
+    console.log(`   + ${jpg.length} bytes → public/diffr/blog/share/${slug}.jpg`)
+  } catch {
+    console.log('   (sharp unavailable — PNG only)')
+  }
 }
 
 async function main() {

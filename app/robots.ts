@@ -16,9 +16,11 @@ const SOCIAL_BOTS = [
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
+      // Social crawlers must fetch HTML *and* og:image assets (/og/, /diffr/blog/share/, etc.).
+      // A narrow Allow: /diffr/blog/ blocks /og/*.png — X Card Validator warns and skips the image.
       ...SOCIAL_BOTS.map((userAgent) => ({
         userAgent,
-        allow: "/diffr/blog/",
+        allow: "/",
       })),
       {
         userAgent: "*",

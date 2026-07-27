@@ -138,7 +138,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: post.title,
       description: post.description,
-      images: [ogImage],
+      images: [{ url: ogImage, width: ogW, height: ogH, alt: ogAlt }],
     },
     alternates: {
       canonical: `https://truake.com/diffr/blog/${post.slug}`,
