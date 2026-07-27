@@ -109,6 +109,18 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: a first work capsule wardrobe is mix-and-match separates, not one suit. The core four are a crisp dress shirt, charcoal or navy trousers, dark-brown leather dress shoes, and a navy blazer; add a matching belt, a clean work bag, and one good necktie. On a first-job budget, buy in this order — shirt, trousers, and shoes first (a complete interview-ready outfit), then the blazer (the highest-impact upgrade), then the rest. Below is one brand per slot, no repeats.',
   'winter-layering-brand-guide':
     'Bottom line: a winter layering starter kit is a system, not one heavy coat — base layer, mid layer, insulation, and a weatherproof shell, plus the three extremities (head, hands, feet) where most heat escapes. Buy in this order: a thermal base layer, a fleece mid layer, and warm boots first, then the insulated jacket and parka — and do not skip the beanie and gloves, the cheapest, highest-impact warmth beginners miss. Add and shed layers to match the cold. Below is one brand per slot, no repeats.',
+  'starter-kits':
+    'Bottom line: Diffr starter kits are complete beginner essentials lists — one good brand per slot, buy-in-this-order priority, no repeats. Pick your scene (camping, home gym, dorm, travel, gifts, wardrobe, skincare, and more), open the matching guide, and close the file. This page indexes every kit by category: Gear & Outdoors, Home & Desk, Wardrobe, Beauty & Hobby, Travel, and Gifts.',
+  'film-photography-brand-guide':
+    'Bottom line: a beginner film photography starter kit is eleven slots — camera body to mail-in lab — one brand each, no repeats. Buy first: a used Pentax K1000 (or similar fully manual 35mm SLR), a 50mm lens if needed, and Kodak Gold 200 for everyday rolls. Add a mail-in lab (Darkroom), a padded bag, and a rocket blower before accumulating more bodies or films. Skip the forum rabbit hole until you have shot ten rolls.',
+  'diffr-vs-wirecutter':
+    'Bottom line: Wirecutter ranks the best options in a category; Diffr assigns one brand per slot for your specific scene and closes the decision. Wirecutter ends with "best overall vs best budget" — you still choose. Diffr ends with one answer per slot so you decide once. Use Wirecutter to compare products; use Diffr when you want a complete starter kit with no repeats.',
+  'cost-per-use-rule':
+    'Bottom line: price is a bad proxy for value — divide purchase price by expected uses to get cost-per-use. A $100 jacket worn 200 times costs $0.50 per use; a $40 jacket worn twice costs $20 per use. Run the number before you buy, and pair it with one brand per slot so you are not re-deciding the same category every year.',
+  'the-toothpaste-aisle-tax':
+    'Bottom line: choice overload is a cognitive tax — too many near-identical options burn attention on decisions that should be automatic. The fix is not "try harder to choose"; it is decide once per category (one toothpaste, one coffee, one brand per slot) and stop reopening the question every checkout.',
+  'the-one-brand-rule':
+    'Bottom line: the one-brand rule means each brand appears exactly once per scene — one good pick per product slot, no repeats. It prevents curated lists from becoming a single-brand catalogue (DeLonghi in every slot) and forces genuine differentiation so you discover the best specialist for each job, then close the file.',
 }
 
 export interface FaqItem {
@@ -1028,6 +1040,120 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'What should I buy first for my first winter?',
       a: 'Start with the working layers: a thermal base layer, a fleece mid layer, and warm waterproof boots — that trio keeps you genuinely warm. Add an insulated jacket and a parka shell for serious cold. And do not skip the beanie, gloves, and a wool scarf: a large share of your heat escapes through your head and hands, so these cheap items are the highest warmth-per-dollar buy. Buy them before any pricey coat.',
+    },
+  ],
+
+  'starter-kits': [
+    {
+      q: 'What is a starter kit?',
+      a: 'A starter kit is the complete list of essentials you need to begin a hobby or scene — one good brand assigned to each slot (tent, bag, stove, etc.), plus a buy-in-this-order priority when you are on a budget. Diffr starter kits are not open-ended shopping lists; they are closed files you decide once.',
+    },
+    {
+      q: 'What starter kits does Diffr cover?',
+      a: 'Diffr indexes beginner kits across Gear & Outdoors (camping, backpacking, hiking, running, yoga, bike commuting), Home & Desk (home gym, office, coffee, gaming, steak dinner), Wardrobe (casual, work, winter layering), Beauty & Hobby (skincare, makeup, film photography), Travel (international carry-on, 54321 packing), and Gifts (thoughtful gifts, her, him, housewarming).',
+    },
+    {
+      q: 'How is a Diffr starter kit different from a best-products list?',
+      a: 'A typical list ranks several options per category and leaves you to choose. A Diffr kit assigns exactly one brand per slot with no repeats — so you get a complete, non-redundant set and a clear buy order instead of another round of comparison shopping.',
+    },
+    {
+      q: 'Which starter kit should I open first?',
+      a: 'Pick the scene you are actually entering — first camping trip, first home gym, college dorm move-in, international trip, etc. — and open that guide. Use this index page to browse by category; each linked guide has the full slot list, TL;DR, and FAQ for that scene.',
+    },
+  ],
+
+  'film-photography-brand-guide': [
+    {
+      q: 'What do you need to start film photography?',
+      a: 'Eleven essentials: a fully manual 35mm SLR (Pentax K1000), a 50mm lens if the body is lensless, everyday film (Kodak Gold 200), occasion film (Portra 400), a padded bag, a comfortable strap, a mail-in lab for develop and scan, film storage, a rocket blower, a backup light meter app, and a print path (Artifact Uprising). One brand per slot below.',
+    },
+    {
+      q: 'What is the best beginner film camera?',
+      a: 'A used Pentax K1000 is the default answer: fully mechanical, widely available ($80–150), and forces you to learn exposure because nothing is automated. Buy from a seller who tested the meter and shutter. A fully manual first camera teaches faster than an auto-everything body you outgrow without understanding why.',
+    },
+    {
+      q: 'What film should a beginner buy first?',
+      a: 'Kodak Gold 200 for everyday learning — warm color, fine grain outdoors, cheap and widely stocked. Add Kodak Portra 400 for portraits and occasions where skin tones and shadow detail matter. Shoot Gold until you understand exposure; use Portra when the photos matter.',
+    },
+    {
+      q: 'Where should I get film developed as a beginner?',
+      a: 'Use a reliable mail-in lab if you do not have a trusted local shop — consistent development and scans matter more than saving a few dollars. The guide assigns Darkroom (thedarkroom.com) as the default US mail-in option: prepaid mailer, predictable turnaround, scans good enough to print.',
+    },
+  ],
+
+  'diffr-vs-wirecutter': [
+    {
+      q: 'What is the difference between Diffr and Wirecutter?',
+      a: 'Wirecutter tests products in a category and ranks best overall, best budget, and runner-up — you still choose between options. Diffr starts from your scene (home office, camping, dorm), assigns one brand per slot with no repeats, and delivers a complete answer you can act on without a final comparison step.',
+    },
+    {
+      q: 'Is Wirecutter bad?',
+      a: 'No. Wirecutter does serious testing and helps you avoid junk products. The structural limit is format: comparative reviews end with options, not decisions. Diffr is for when you want one closed starter kit for a defined scene, not a ranked list to keep debating.',
+    },
+    {
+      q: 'When should I use Wirecutter vs Diffr?',
+      a: 'Use Wirecutter when you want deep product comparisons inside one category (headphones, vacuums) and will enjoy picking among top picks. Use Diffr when you want a full scene kit — every slot filled once — and prefer to decide once instead of optimizing each category separately.',
+    },
+    {
+      q: 'Why does Diffr recommend only one brand per slot?',
+      a: 'One answer per slot closes the decision. Multiple picks per slot recreate the same paralysis Wirecutter readers feel after reading 3,000 words — information without resolution. Diffr applies the no-repeat rule so each slot gets the best specialist for that job, then the file stays closed.',
+    },
+  ],
+
+  'cost-per-use-rule': [
+    {
+      q: 'What is the cost-per-use rule?',
+      a: 'Divide the purchase price by the number of times you expect to use the item over its life. A $100 jacket worn 200 times costs $0.50 per use; a $40 jacket worn twice costs $20 per use. The cheaper tag can be the more expensive purchase if use-density is low.',
+    },
+    {
+      q: 'How do you calculate cost per use?',
+      a: 'Cost per use = price ÷ expected uses. Estimate uses honestly (weekly coffee maker vs once-a-year gadget). Run the math before buying for anything over impulse price, and audit existing clutter backward — the coat rack treadmill often has the worst number in the house.',
+    },
+    {
+      q: 'Does cost-per-use mean always buy expensive?',
+      a: 'No. It means optimize for use-density, not sticker price. An expensive item used daily can be cheap per use; a cheap item never touched is infinitely expensive per use. Quality only pays off when the uses actually happen.',
+    },
+    {
+      q: 'How does cost-per-use relate to the one-brand rule?',
+      a: 'Deciding once per slot stops you from re-paying the research tax every replacement cycle. Pair cost-per-use (is this worth buying?) with one brand per slot (which single answer?) and you buy fewer things, use them more, and stop reopening solved categories.',
+    },
+  ],
+
+  'the-toothpaste-aisle-tax': [
+    {
+      q: 'What is the toothpaste aisle tax?',
+      a: 'The hidden cognitive cost of standing in front of dozens of near-identical products — whitening, sensitive, gel, paste, natural — and performing unpaid decision labor for a low-stakes purchase. Choice overload spikes stress and drains attention better spent elsewhere.',
+    },
+    {
+      q: 'How do you avoid choice overload when shopping?',
+      a: 'Decide once per category: pick one toothpaste, one coffee, one shampoo, one brand per slot — then stop revisiting the question at every checkout. Pre-commitment beats willpower in aisles designed to multiply options.',
+    },
+    {
+      q: 'Is decision fatigue real?',
+      a: 'Yes. Excessive choice measurably increases stress and degrades decision quality — researchers have documented cortisol spikes and reduced cognitive performance in overload conditions. The problem is structural (too many SKUs), not personal weakness.',
+    },
+    {
+      q: 'What is the one-brand rule fix?',
+      a: 'Assign one good brand to each recurring product slot in your life and close the file. You trade infinite micro-choices for automatic repurchase — freeing attention for work, relationships, and hobbies instead of supermarket paralysis.',
+    },
+  ],
+
+  'the-one-brand-rule': [
+    {
+      q: 'What is the one-brand rule?',
+      a: 'In any given scene, each brand appears exactly once — one good pick per product slot, no repeats. If DeLonghi gets the espresso machine slot, they cannot also take the grinder slot; another specialist gets the grinder. The list maps the brand landscape instead of advertising one name.',
+    },
+    {
+      q: 'Why only one brand per slot?',
+      a: 'Repeating the same brand across slots is curation theater — it looks like a list but functions like a catalogue. One brand per slot forces genuine differentiation, helps you discover specialists, and gives you a complete assignment you can act on without a final tie-breaker.',
+    },
+    {
+      q: 'Does the one-brand rule limit my options?',
+      a: 'It limits redundant options, not good ones. You still get the best answer for every slot — you just are not asked to choose among three grinders after already picking the same brand for the machine. The constraint removes duplicate decisions, not quality.',
+    },
+    {
+      q: 'How is the one-brand rule different from brand loyalty?',
+      a: 'Brand loyalty is "buy everything from Nike." The one-brand rule is "buy the best specialist once per slot" — Nike might get the running shoe slot while another brand gets socks, watch, and hydration. No single company owns the whole scene.',
     },
   ],
 }

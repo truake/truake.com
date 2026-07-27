@@ -2,7 +2,7 @@
 
 > **Daily limit:** ~10–12 requests per property. Open each link while logged into [Google Search Console](https://search.google.com/search-console), then click **Request indexing**.
 >
-> Property: `sc-domain:truake.com` · Updated: 2026-07-26  
+> Property: `sc-domain:truake.com` · Updated: 2026-07-27  
 > **Login verified:** `geekrlg@gmail.com` · Use **网址检查** (top search bar) → paste URL → **请求编入索引**
 
 **How to use:** One batch per day (~10 URLs). Paste each URL into **网址检查** → wait for crawl → **请求编入索引** if eligible. Mark ✓ when done.
@@ -20,6 +20,22 @@ GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是
 **Never request indexing:** any URL ending in `/og`. Request the **parent blog URL** only.
 
 **Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `cold-weather-layering` (`/diffr/start/`), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
+
+## Batch K — SEO/GEO 包（2026-07-27）· hub + 哲学支柱
+
+canonical + TL;DR/FAQ 新增；**勿提交 `/og`**。
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | starter kits hub | `https://truake.com/diffr/blog/starter-kits` |
+| | diffr vs wirecutter | `https://truake.com/diffr/blog/diffr-vs-wirecutter` |
+| | film photography kit | `https://truake.com/diffr/blog/film-photography-brand-guide` |
+| | cost per use rule | `https://truake.com/diffr/blog/cost-per-use-rule` |
+| | one brand rule | `https://truake.com/diffr/blog/the-one-brand-rule` |
+| | toothpaste aisle tax | `https://truake.com/diffr/blog/the-toothpaste-aisle-tax` |
+| | BtB hub (re-crawl schema) | `https://truake.com/diffr/blog/behind-the-build` |
+
+> Batch J 五篇若已送检可跳过重复；本批优先 **starter-kits** + **wirecutter** + 哲学三篇。
 
 ## Batch I — Behind the Build launch（2026-07-26）· 优先
 

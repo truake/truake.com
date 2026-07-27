@@ -129,6 +129,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.description,
       images: [ogImage],
     },
+    alternates: {
+      canonical: `https://truake.com/diffr/blog/${post.slug}`,
+    },
   }
 }
 
