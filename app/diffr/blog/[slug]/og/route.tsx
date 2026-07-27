@@ -207,6 +207,11 @@ export async function GET(
         </div>
       </div>
     ),
-    { ...size },
+    {
+      ...size,
+      headers: {
+        'Cache-Control': 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=86400',
+      },
+    },
   )
 }

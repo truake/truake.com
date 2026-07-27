@@ -13,7 +13,7 @@ GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是
 
 | 类型 | 数量 | 处理 |
 |------|------|------|
-| `/og` PNG 端点 | ~16 | **不要** 请求索引；已加 `X-Robots-Tag: noindex` + `robots.txt` disallow（deploy 后验证） |
+| `/og` PNG 端点 | ~16 | **不要** 在 GSC 请求索引；`robots.txt` 对 `*` disallow，但 **Twitterbot 等社交爬虫 allow**；`X-Robots-Tag: noindex` 保留 |
 | Diffr 哲学/对比文 | ~7 | 低商业意图，Google 常暂不索引；加强内链后 **只请求正文 URL** |
 | Pathoragy 博客 | ~4 | 次要属性；可缓 |
 
