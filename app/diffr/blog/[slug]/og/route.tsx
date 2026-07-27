@@ -66,7 +66,9 @@ export async function GET(
   const isBtb = slug.startsWith('behind-the-build-')
   const isBtc = slug.startsWith('behind-the-contract-')
 
-  if (!post || (!presetId && !coverUrl && !hasDynamicOgCard(slug))) {
+  const isBrandGuide = slug.endsWith('-brand-guide')
+
+  if (!post || (!presetId && !coverUrl && !hasDynamicOgCard(slug) && !isBrandGuide)) {
     return Response.redirect('https://truake.com/diffr-og.png', 302)
   }
 

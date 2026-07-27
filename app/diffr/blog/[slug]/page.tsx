@@ -112,7 +112,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Posts with a live slot kit get a dynamic, layered share card (slot product
   // tiles over the hook cover / default base) — see ./og/route.tsx. Falls back to
   // the static cover/default for kit-less posts.
-  const hasKit = slug in BLOG_SLUG_TO_PRESET || hasDynamicOgCard(slug)
+  const isBrandGuide = slug.endsWith('-brand-guide')
+  const hasKit = slug in BLOG_SLUG_TO_PRESET || hasDynamicOgCard(slug) || isBrandGuide
   const baked = bakedOgUrl(slug)
   const ogImage = baked
     ?? (hasKit
