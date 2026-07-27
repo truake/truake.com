@@ -30,6 +30,9 @@ async function bake(slug: string): Promise<void> {
   }
   const buf = Buffer.from(await res.arrayBuffer())
   writeFileSync(join(OUT, `${slug}.png`), buf)
+  const legacyOg = join(process.cwd(), 'public', 'og', `${slug}.png`)
+  mkdirSync(join(process.cwd(), 'public', 'og'), { recursive: true })
+  writeFileSync(legacyOg, buf)
   try {
     const { default: sharp } = await import('sharp')
     const jpg = await sharp(buf).jpeg({ quality: 88 }).toBuffer()

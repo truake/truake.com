@@ -28,6 +28,25 @@ const nextConfig: NextConfig = {
           },
         ],
       },
+      // Baked share cards — social crawlers fetch these via twitter:image / og:image.
+      {
+        source: "/diffr/blog/share/:file*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+      {
+        source: "/og/:file*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
     ];
   },
 };
