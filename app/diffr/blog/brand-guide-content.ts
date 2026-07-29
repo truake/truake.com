@@ -1086,6 +1086,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: 'The og-base cover is an editorial marble-and-linen flat lay generated from the reference slot list — same eight objects, organic overlap, not a copy of the original rug grid. Product tiles below use catalog-accurate white-background shots from Diffr\'s database.',
     },
     {
+      q: 'Why does the card holder show Bellroy if the reference wallet is unbranded?',
+      a: 'The flat lay wallet is too small to read a logo. Bellroy is an editorial stand-in for the slim brown leather card-holder function until a product close-up confirms the brand. The starter kit tile may show a catalog colorway that does not match the reference photo exactly.',
+    },
+    {
       q: 'Where do the product images on this blog come from?',
       a: 'They render live from Diffr\'s catalog via v_slot_pool. If a tile shows pending, the typed crawl for that brand and type has not landed yet.',
     },

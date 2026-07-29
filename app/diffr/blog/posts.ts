@@ -907,7 +907,7 @@ export const posts: BlogPost[] = [
 <h2>The Slots</h2>
 
 <h3>Slot 1 &mdash; Laptop</h3>
-<p><strong>Apple MacBook</strong> &mdash; the closed Space Gray laptop from the flat lay. Mobile compute for work and travel; the anchor object in the upper-left of the reference grid.</p>
+<p><strong>Apple MacBook Pro</strong> &mdash; the closed Space Gray laptop from the flat lay (not all-black). Mobile compute for work and travel; typed product image still pending.</p>
 
 <h3>Slot 2 &mdash; Everyday Sneakers</h3>
 <p><strong>On Running Cloudtilt</strong> &mdash; the white Cloud sneaker with the distinctive hole-punched sole. Clean everyday shoe that still reads athletic &mdash; a hot seed type where model-level matching matters.</p>
@@ -916,10 +916,10 @@ export const posts: BlogPost[] = [
 <p><strong>Cartier Santos</strong> &mdash; the square silver watch from the flat lay. Heirloom dress time, not smartwatch churn.</p>
 
 <h3>Slot 4 &mdash; Card Holder</h3>
-<p><strong>Bellroy Slim Sleeve</strong> &mdash; the slim brown leather card holder. Cards and ID without a bulky wallet.</p>
+<p><strong>Slim brown leather card holder</strong> &mdash; dark brown wallet from the flat lay. Brand is not readable in the reference; Bellroy is the editorial stand-in until a product close-up confirms the maker.</p>
 
 <h3>Slot 5 &mdash; Signature Scent</h3>
-<p><strong>Tom Ford Neroli Portofino</strong> &mdash; the turquoise Private Blend bottle from the grid. Personal fragrance at the luxury tier.</p>
+<p><strong>Tom Ford Private Blend</strong> &mdash; the turquoise square bottle from the grid (Neroli Portofino class). Personal fragrance at the luxury tier.</p>
 
 <h3>Slot 6 &mdash; Phone Case</h3>
 <p><strong>Rimowa</strong> &mdash; the grooved aluminum iPhone case. Hard-shell protection with luggage DNA.</p>

@@ -201,6 +201,50 @@ const POOL_ORDER =
 const POOL_SELECT =
   "brand_id,product_type_id,brand_name,beginner_score,fit_score,is_curated_pick,image_url,image_status,pl_id";
 
+/** R2 CDN path for product_line.image_uuid (matches fetch_slot_pool / v_slot_pool). */
+function plImageUrl(imageUuid: string | null | undefined): string | null {
+  if (!imageUuid) return null;
+  const prefix = imageUuid.slice(0, 2);
+  return `https://images.truake.com/pl/${prefix}/${imageUuid}.webp`;
+}
+
+interface DirectPlRow {
+  id: number;
+  product_line: string | null;
+  brand_id: number;
+  product_type_id: number | null;
+  image_uuid: string | null;
+  brands: { name: string } | null;
+}
+
+/** v_slot_pool REST often times out on pl_id= — resolve pinned rows from product_lines. */
+async function fetchPinnedFromProductLines(
+  plIds: number[]
+): Promise<Map<number, PoolRow>> {
+  const out = new Map<number, PoolRow>();
+  if (!plIds.length) return out;
+  const rows = await sbGet<DirectPlRow[]>(
+    `product_lines?id=in.(${plIds.join(",")})` +
+      `&select=id,product_line,brand_id,product_type_id,image_uuid,brands(name)`
+  ).catch(() => []);
+  for (const pl of rows) {
+    const imageUrl = plImageUrl(pl.image_uuid);
+    if (!imageUrl) continue;
+    out.set(pl.id, {
+      brand_id: pl.brand_id,
+      product_type_id: pl.product_type_id ?? 0,
+      brand_name: pl.brands?.name ?? null,
+      beginner_score: null,
+      fit_score: null,
+      is_curated_pick: true,
+      image_url: imageUrl,
+      image_status: "ready",
+      pl_id: pl.id,
+    });
+  }
+  return out;
+}
+
 // Retry once on transient failure so a momentary network blip during SSG does
 // not silently drop a scene's brand kit (the .catch fallback would otherwise
 // produce an empty kit and hide the whole section).
@@ -279,6 +323,19 @@ export async function getSceneBrandKit(
     for (const r of pinnedRows) {
       if (r.pl_id) pinnedMap.set(r.pl_id, r);
     }
+    const missing = explicitPlIds.filter((id) => !pinnedMap.has(id));
+    if (missing.length) {
+      const direct = await fetchPinnedFromProductLines(missing);
+      for (const [id, row] of direct) pinnedMap.set(id, row);
+    }
+  }
+
+  // Flagship product-line names for pinned ids (direct path may skip pickRows).
+  let pinnedPlNames: { id: number; product_line: string | null }[] = [];
+  if (explicitPlIds.length) {
+    pinnedPlNames = await sbGet<{ id: number; product_line: string | null }[]>(
+      `product_lines?id=in.(${explicitPlIds.join(",")})&select=id,product_line`
+    ).catch(() => []);
   }
 
   // Orphan fallback (dev's intent: orphan slots still render from the pool, not
@@ -298,8 +355,7 @@ export async function getSceneBrandKit(
     })
   );
 
-  // Flagship product-line names (nice-to-have label) via pl_id.
-  const allRows = [...pickRows, ...fallbackMap.values()];
+  const allRows = [...pickRows, ...fallbackMap.values(), ...pinnedMap.values()];
   const plIds = [...new Set(allRows.map((r) => r.pl_id).filter((x): x is number => !!x))];
   let plMap = new Map<number, string>();
   if (plIds.length) {
@@ -307,6 +363,9 @@ export async function getSceneBrandKit(
       `product_lines?id=in.(${plIds.join(",")})&select=id,product_line`
     ).catch(() => []);
     plMap = new Map(plRows.map((p) => [p.id, p.product_line ?? ""]));
+  }
+  for (const p of pinnedPlNames) {
+    if (p.product_line) plMap.set(p.id, p.product_line);
   }
 
   let readyCount = 0;
@@ -322,6 +381,7 @@ export async function getSceneBrandKit(
       if (!row) return null;
       const status = row.image_status ?? "pending";
       if (status === "ready") readyCount++;
+      const plId = pinnedPlId ?? row.pl_id;
       return {
         index: i,
         productTypeId: pt,
@@ -331,7 +391,7 @@ export async function getSceneBrandKit(
         beginnerScore: row.beginner_score ?? null,
         fitScore: row.fit_score ?? null,
         isCuratedPick: row.is_curated_pick ?? false,
-        productLine: row.pl_id ? plMap.get(row.pl_id) || null : null,
+        productLine: plId ? plMap.get(plId) || null : null,
         imageUrl: status === "ready" ? row.image_url ?? null : null,
         logoUrl: null, // filled by the brand-logo batch fetch below
         status,
