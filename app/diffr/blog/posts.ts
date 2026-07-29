@@ -891,6 +891,52 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'quiet-luxury-edc-brand-guide',
+    title: 'Quiet Luxury EDC: 8 Essentials Over 25, One Brand Per Slot',
+    description: 'The viral quiet-luxury flat lay decoded — MacBook, On Cloud, Cartier, Bellroy, Tom Ford, Rimowa, Montblanc, and Good to Great. Eight slots, eight brands, live product images from the Diffr catalog.',
+    date: '2026-07-29',
+    readTime: '5 min read',
+    tags: ['brand guide', 'quiet luxury', 'EDC', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight quiet-luxury everyday essentials — laptop, sneakers, watch, wallet, scent, phone case, pen, and business book — one brand per slot.',
+    content: `
+<p>The &ldquo;if you&rsquo;re over 25&rdquo; flat lay is a useful stress test for Diffr: take a reference grid, strip the meme packaging, decompose what remains into functions, map each function to a canonical product type, and surface one brand per slot from the live catalog. This post is that experiment &mdash; eight quiet-luxury everyday essentials, one brand each, with product tiles rendered from the same <code>v_slot_pool</code> data the app reads.</p>
+
+<p>The yellow banner is social-media chrome, not part of the scene. The objects underneath are what we mapped: MacBook, On Cloud, Cartier Santos, card holder, Tom Ford, Rimowa case, Montblanc pen, and <em>Good to Great</em>. The cover is an editorial marble flat lay re-render (same slot list, organic layout &mdash; not a copy of the reference grid).</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Laptop</h3>
+<p><strong>Apple MacBook</strong> &mdash; the closed Space Gray laptop from the flat lay. Mobile compute for work and travel; the anchor object in the upper-left of the reference grid.</p>
+
+<h3>Slot 2 &mdash; Everyday Sneakers</h3>
+<p><strong>On Running Cloudtilt</strong> &mdash; the white Cloud sneaker with the distinctive hole-punched sole. Clean everyday shoe that still reads athletic &mdash; a hot seed type where model-level matching matters.</p>
+
+<h3>Slot 3 &mdash; Dress Watch</h3>
+<p><strong>Cartier Santos</strong> &mdash; the square silver watch from the flat lay. Heirloom dress time, not smartwatch churn.</p>
+
+<h3>Slot 4 &mdash; Card Holder</h3>
+<p><strong>Bellroy Slim Sleeve</strong> &mdash; the slim brown leather card holder. Cards and ID without a bulky wallet.</p>
+
+<h3>Slot 5 &mdash; Signature Scent</h3>
+<p><strong>Tom Ford Neroli Portofino</strong> &mdash; the turquoise Private Blend bottle from the grid. Personal fragrance at the luxury tier.</p>
+
+<h3>Slot 6 &mdash; Phone Case</h3>
+<p><strong>Rimowa</strong> &mdash; the grooved aluminum iPhone case. Hard-shell protection with luggage DNA.</p>
+
+<h3>Slot 7 &mdash; Fountain Pen</h3>
+<p><strong>Montblanc Meisterst&uuml;ck</strong> &mdash; the pen in its presentation box. Signing and note-taking that outlasts disposable pens.</p>
+
+<h3>Slot 8 &mdash; Business Book</h3>
+<p><strong>HarperCollins</strong> &mdash; <em>Good to Great</em> by Jim Collins. The business-reading slot from the flat lay.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Most EDC listicles use stock mood photos. Diffr&rsquo;s brand kit below pulls <em>typed product lines</em> with R2-hosted images &mdash; the same pipeline we used to close gaps via synonym registration and eBay sourcing. Scroll the kit to verify every slot has a product image. If a tile shows &ldquo;pending,&rdquo; the typed crawl for that brand and type has not landed yet (MacBook is the usual laggard).</p>
+
+<p>Same method as <a href="/diffr/blog/the-one-brand-rule">the one-brand rule</a>: one best pick per type, no repeats. Explore the interactive scene: <a href="/diffr/start/quiet-luxury-edc-flat-lay">Quiet Luxury EDC Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'housewarming-gift-ideas-brand-guide',
     title: 'Best Housewarming Gifts They\'ll Actually Use (By Budget, One Pick Each)',
     description: 'Best housewarming gifts they will actually use — one great pick per vibe and budget, from a $25 Nest candle to a Le Creuset Dutch oven. No hundred-item roundup, just gifts that earn their place in a new home.',

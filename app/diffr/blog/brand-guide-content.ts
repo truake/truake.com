@@ -129,6 +129,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Diffr is a free iPhone app on the App Store — pick a scene (home gym, skincare, camping, work wardrobe) and get one good brand per slot, no repeats, already decided. Same method as the blog starter kits, but live in your pocket with product images and save-your-kit. Download once; stop reopening the same research tabs.',
   'luxury-investment-brand-guide':
     'Bottom line: a luxury investment flat lay is eight functions — smartphone, premium headphones, mechanical watch, card holder, two signature fragrances, grooming, and sunglasses — one iconic brand per slot. Apple appears twice (phone + headphones) because the reference image does. Below is the live catalog kit with product images from Diffr\'s database.',
+  'quiet-luxury-edc-brand-guide':
+    'Bottom line: a quiet luxury EDC flat lay is eight functions — laptop, everyday sneakers, dress watch, card holder, signature scent, phone case, fountain pen, and business book — one brand per slot from the reference grid. Below is the live catalog kit with product images from Diffr\'s database.',
 }
 
 export interface FaqItem {
@@ -1067,6 +1069,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How were missing images filled for this scene?',
       a: 'Synonym registration unlocked the pool, then LLM web search and eBay sourcing added typed product lines with white-background gates — the same pipeline used for the Monochrome EDC Tray pilot.',
+    },
+  ],
+
+  'quiet-luxury-edc-brand-guide': [
+    {
+      q: 'What is the quiet luxury EDC flat lay?',
+      a: 'It is an eight-slot everyday kit inspired by a viral flat lay grid: MacBook, On Cloud sneakers, Cartier watch, card holder, Tom Ford fragrance, Rimowa phone case, Montblanc pen, and a business book — each mapped to one canonical product type and one target brand.',
+    },
+    {
+      q: 'Why ignore the yellow "over 25" text in the reference image?',
+      a: 'The meme overlay is social-media packaging, not part of the product scene. The og-base cover crops below that banner; Diffr maps the physical objects underneath (starting with the black MacBook).',
+    },
+    {
+      q: 'How was the cover image made?',
+      a: 'The og-base cover is an editorial marble-and-linen flat lay generated from the reference slot list — same eight objects, organic overlap, not a copy of the original rug grid. Product tiles below use catalog-accurate white-background shots from Diffr\'s database.',
+    },
+    {
+      q: 'Where do the product images on this blog come from?',
+      a: 'They render live from Diffr\'s catalog via v_slot_pool. If a tile shows pending, the typed crawl for that brand and type has not landed yet.',
     },
   ],
 
