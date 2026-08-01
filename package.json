@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "keyword-harvest": "npx tsx scripts/keyword-harvest.ts",
-    "bake-og": "npx tsx scripts/bake-og.ts"
+    "bake-og": "npx tsx scripts/bake-og.ts",
+    "bake-og:auto": "bash scripts/bake-og-auto.sh"
   },
   "dependencies": {
     "marked": "^18.0.5",

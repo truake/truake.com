@@ -131,6 +131,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: a luxury investment flat lay is eight functions — smartphone, premium headphones, mechanical watch, card holder, two signature fragrances, grooming, and sunglasses — one iconic brand per slot. Apple appears twice (phone + headphones) because the reference image does. Below is the live catalog kit with product images from Diffr\'s database.',
   'quiet-luxury-edc-brand-guide':
     'Bottom line: a quiet luxury EDC flat lay is eight functions — laptop, everyday sneakers, dress watch, card holder, signature scent, phone case, fountain pen, and business book — one brand per slot from the reference grid. Below is the live catalog kit with product images from Diffr\'s database.',
+  'travel-essentials-brand-guide':
+    'Bottom line: the viral "travel essentials" bedsheet flat lay is twelve slots — transit sneakers, UNO, Switch OLED, iPad, iPhone, power bank, AirPods, AirFly, Osmo Pocket, Marvis, grooming, and Ray-Ban — one brand each. Not the carry-on suitcase list; this is the tech-and-comfort kit on the hotel desk. Live catalog tiles below.',
 }
 
 export interface FaqItem {
@@ -1092,6 +1094,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images on this blog come from?',
       a: 'They render live from Diffr\'s catalog via v_slot_pool. If a tile shows pending, the typed crawl for that brand and type has not landed yet.',
+    },
+  ],
+
+  'travel-essentials-brand-guide': [
+    {
+      q: 'What is the travel essentials flat lay?',
+      a: 'It is a twelve-slot kit from a viral bedsheet flat lay: Asics sneakers, Mattel UNO, Nintendo Switch OLED, iPad with keyboard, iPhone, Anker power bank, AirPods Pro, Twelve South AirFly, DJI Osmo Pocket, Marvis toothpaste, grooming tube, and Ray-Ban sunglasses — one brand per slot.',
+    },
+    {
+      q: 'How is this different from international travel essentials?',
+      a: 'The international travel essentials guide covers carry-on luggage — suitcase, backpack, packing cubes, adapter, and walking shoes. This flat lay is the tech-and-comfort kit that sits on a hotel desk: gaming, audio, pocket video, and grooming alongside your phone and tablet.',
+    },
+    {
+      q: 'Why does Apple appear three times?',
+      a: 'The reference image includes an iPad, an iPhone, and AirPods — three distinct product types from one brand. Diffr allows that when the source photo does; each slot still maps to a different canonical type.',
+    },
+    {
+      q: 'Why ignore the "Travel essentials" text overlay?',
+      a: 'The white serif caption is meme chrome on the bedsheet photo, not a product slot. The og-base cover and scene map the physical objects only.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog. Tiles marked pending mean the typed crawl for that brand and type has not landed yet — common for iPad, Anker 737, AirFly, and Switch OLED until the image pipeline closes the gap.',
     },
   ],
 

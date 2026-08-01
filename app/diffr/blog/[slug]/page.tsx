@@ -62,6 +62,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'toy-team-birthday-box': 108,
   'luxury-investment-brand-guide': 110,
   'quiet-luxury-edc-brand-guide': 113,
+  'travel-essentials-brand-guide': 114,
 }
 
 // Each brand-guide post has a live, interactive twin at /diffr/start/<slug>
@@ -96,6 +97,7 @@ const BLOG_SLUG_TO_START: Record<string, string> = {
   'toy-team-birthday-box': 'toy-team-birthday-box',
   'luxury-investment-brand-guide': 'luxury-investment-flat-lay',
   'quiet-luxury-edc-brand-guide': 'quiet-luxury-edc-flat-lay',
+  'travel-essentials-brand-guide': 'travel-essentials-flat-lay',
 }
 
 export async function generateStaticParams() {

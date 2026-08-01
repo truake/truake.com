@@ -39,6 +39,7 @@ export const OG_BASE_SLUGS = new Set<string>([
   'behind-the-build-wembley-stadium',
   'luxury-investment-brand-guide',
   'quiet-luxury-edc-brand-guide',
+  'travel-essentials-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {

@@ -937,6 +937,64 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'travel-essentials-brand-guide',
+    title: 'Travel Essentials Flat Lay: 12 Tech & Comfort Picks, One Brand Per Slot',
+    description: 'The viral "travel essentials" bedsheet flat lay decoded — Asics, UNO, Switch OLED, iPad, iPhone, Anker, AirPods, AirFly, Osmo Pocket, Marvis, grooming, and Ray-Ban. Twelve slots, live catalog images from Diffr.',
+    date: '2026-08-01',
+    readTime: '6 min read',
+    tags: ['brand guide', 'travel essentials', 'flat lay', 'travel tech', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Twelve travel essentials from the viral bedsheet flat lay — sneakers, gaming, tech, grooming, and sunglasses — one brand per slot.',
+    content: `
+<p>The &ldquo;travel essentials&rdquo; bedsheet flat lay is a different problem from a carry-on packing list. The suitcase guide covers luggage, cubes, and adapters. This grid is what lands on a hotel desk: transit sneakers, in-flight entertainment, mobile compute, power, audio, pocket video, and travel grooming. Strip the white serif overlay (meme chrome, not a product slot), map what remains to canonical types, and surface one brand per slot from the live catalog.</p>
+
+<p>Apple appears three times in the reference &mdash; iPad, iPhone, and AirPods &mdash; because those are three distinct product types in one photo. That matches the luxury-investment pilot pattern when the source image demands it.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Transit Sneakers</h3>
+<p><strong>Asics Gel-Kayano</strong> &mdash; the white and silver runner from the flat lay. Walkable shoe for airports and city days.</p>
+
+<h3>Slot 2 &mdash; Card Game</h3>
+<p><strong>Mattel UNO</strong> &mdash; the red zip carry tin. In-flight or hotel-table entertainment; typed Mattel/UNO image pending crawl.</p>
+
+<h3>Slot 3 &mdash; Handheld Gaming</h3>
+<p><strong>Nintendo Switch OLED</strong> &mdash; white Joy-Con on black screen body. Portable gaming slot; catalog image may show a legacy console until Switch OLED crawl lands.</p>
+
+<h3>Slot 4 &mdash; Mobile Compute (Tablet)</h3>
+<p><strong>Apple iPad Pro + Magic Keyboard</strong> &mdash; closed black folio from the flat lay (not a MacBook). Typed iPad product image pending.</p>
+
+<h3>Slot 5 &mdash; Smartphone</h3>
+<p><strong>Apple iPhone 15 Pro</strong> &mdash; midnight blue case, triple-camera bump. Mobile comms hub.</p>
+
+<h3>Slot 6 &mdash; Power Bank</h3>
+<p><strong>Anker 737 PowerCore 24K</strong> &mdash; dark grey brick with display screen. High-capacity charge; typed Anker image on Power Banks pending crawl.</p>
+
+<h3>Slot 7 &mdash; Wireless Earbuds</h3>
+<p><strong>Apple AirPods Pro</strong> &mdash; white charging case from the grid.</p>
+
+<h3>Slot 8 &mdash; In-Flight Bluetooth</h3>
+<p><strong>Twelve South AirFly</strong> &mdash; small white transmitter with 3.5&nbsp;mm jack. Seat-back audio without proprietary airline headphones; crawl pending.</p>
+
+<h3>Slot 9 &mdash; Pocket Camera</h3>
+<p><strong>DJI Osmo Pocket</strong> &mdash; handheld gimbal camera from the flat lay. Pocket video slot; image pending.</p>
+
+<h3>Slot 10 &mdash; Toothpaste</h3>
+<p><strong>Marvis Whitening Mint</strong> &mdash; crumpled silver apothecary tube.</p>
+
+<h3>Slot 11 &mdash; Grooming</h3>
+<p><strong>Barberstation hair cream</strong> &mdash; black squeeze tube with gold accents in the reference. Brand is not fully in the catalog yet; American Crew is the interim tile until Barberstation crawl lands.</p>
+
+<h3>Slot 12 &mdash; Sunglasses</h3>
+<p><strong>Ray-Ban</strong> &mdash; gold-tone frames with brown leather case from the flat lay.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Most travel listicles stop at luggage. This flat lay tests whether Diffr can decode a tech-heavy meme grid into typed product lines with real images &mdash; the same pipeline as quiet-luxury EDC. Scroll the kit below; pending tiles mean the crawl has not closed yet.</p>
+
+<p>Need the carry-on suitcase stack too? See <a href="/diffr/blog/international-travel-essentials-brand-guide">International Travel Essentials</a>. Explore the interactive scene: <a href="/diffr/start/travel-essentials-flat-lay">Travel Essentials Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'housewarming-gift-ideas-brand-guide',
     title: 'Best Housewarming Gifts They\'ll Actually Use (By Budget, One Pick Each)',
     description: 'Best housewarming gifts they will actually use — one great pick per vibe and budget, from a $25 Nest candle to a Le Creuset Dutch oven. No hundred-item roundup, just gifts that earn their place in a new home.',
