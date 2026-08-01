@@ -29,12 +29,13 @@ const nextConfig: NextConfig = {
         ],
       },
       // Baked share cards — social crawlers fetch these via twitter:image / og:image.
+      // No immutable: an early 404 before deploy must not stick for a year.
       {
         source: "/diffr/blog/share/:file*",
         headers: [
           {
             key: "Cache-Control",
-            value: "public, max-age=31536000, immutable",
+            value: "public, max-age=86400, s-maxage=604800, stale-while-revalidate=86400",
           },
         ],
       },
