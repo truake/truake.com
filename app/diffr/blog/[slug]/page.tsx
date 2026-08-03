@@ -63,6 +63,12 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'luxury-investment-brand-guide': 110,
   'quiet-luxury-edc-brand-guide': 113,
   'travel-essentials-brand-guide': 114,
+  // Lines explained — brand-map posts (presets 115–119; kit renders when DB wired)
+  'nike-lines-explained': 115,
+  'lululemon-lines-explained': 116,
+  'adidas-lines-explained': 117,
+  'uniqlo-lines-explained': 118,
+  'apple-ecosystem-lines-explained': 119,
 }
 
 // Each brand-guide post has a live, interactive twin at /diffr/start/<slug>
@@ -98,6 +104,11 @@ const BLOG_SLUG_TO_START: Record<string, string> = {
   'luxury-investment-brand-guide': 'luxury-investment-flat-lay',
   'quiet-luxury-edc-brand-guide': 'quiet-luxury-edc-flat-lay',
   'travel-essentials-brand-guide': 'travel-essentials-flat-lay',
+  'nike-lines-explained': 'nike-lines-flat-lay',
+  'lululemon-lines-explained': 'lululemon-lines-flat-lay',
+  'adidas-lines-explained': 'adidas-lines-flat-lay',
+  'uniqlo-lines-explained': 'uniqlo-lines-flat-lay',
+  'apple-ecosystem-lines-explained': 'apple-ecosystem-flat-lay',
 }
 
 export async function generateStaticParams() {

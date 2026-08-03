@@ -12,6 +12,10 @@
 export const OG_BASE_SLUGS = new Set<string>([
   // add a slug here once public/og-base/<slug>.jpg exists
   'nike-lines-explained',
+  'lululemon-lines-explained',
+  'adidas-lines-explained',
+  'uniqlo-lines-explained',
+  'apple-ecosystem-lines-explained',
   'gardening-starter-kit-brand-guide',
   'new-puppy-essentials-brand-guide',
   // slot-affiliate brand guides (Img_OG batch, 2026-07-08)
