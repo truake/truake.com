@@ -111,6 +111,7 @@ export const SLUG_TO_PRESET: Record<string, number> = {
   "luxury-investment-flat-lay": 110,
   "quiet-luxury-edc-flat-lay": 113,
   "travel-essentials-flat-lay": 114,
+  "poolside-essentials-flat-lay": 120,
   "nike-lines-flat-lay": 115,
   "lululemon-lines-flat-lay": 116,
   "adidas-lines-flat-lay": 117,

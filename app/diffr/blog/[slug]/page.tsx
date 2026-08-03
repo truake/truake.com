@@ -63,6 +63,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'luxury-investment-brand-guide': 110,
   'quiet-luxury-edc-brand-guide': 113,
   'travel-essentials-brand-guide': 114,
+  'poolside-essentials-brand-guide': 120,
   // Lines explained — brand-map posts (presets 115–119; kit renders when DB wired)
   'nike-lines-explained': 115,
   'lululemon-lines-explained': 116,
@@ -104,6 +105,7 @@ const BLOG_SLUG_TO_START: Record<string, string> = {
   'luxury-investment-brand-guide': 'luxury-investment-flat-lay',
   'quiet-luxury-edc-brand-guide': 'quiet-luxury-edc-flat-lay',
   'travel-essentials-brand-guide': 'travel-essentials-flat-lay',
+  'poolside-essentials-brand-guide': 'poolside-essentials-flat-lay',
   'nike-lines-explained': 'nike-lines-flat-lay',
   'lululemon-lines-explained': 'lululemon-lines-flat-lay',
   'adidas-lines-explained': 'adidas-lines-flat-lay',

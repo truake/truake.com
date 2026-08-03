@@ -1088,6 +1088,58 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'poolside-essentials-brand-guide',
+    title: 'Poolside Essentials Flat Lay: 10 Luxury Picks, One Brand Per Slot',
+    description: 'The viral poolside luxury flat lay decoded — Goyard, Saint Laurent, Diptyque, Byredo, Louis Vuitton, Rolex, Chanel, AirPods Pro, and Anker. Ten resort-lounger slots with live catalog images from Diffr.',
+    date: '2026-08-03',
+    readTime: '5 min read',
+    tags: ['brand guide', 'poolside essentials', 'flat lay', 'quiet luxury', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten poolside luxury essentials from the viral flat lay — pouch, cap, fragrances, wallet, watch, skincare, earbuds, and power — one brand per slot.',
+    content: `
+<p>The poolside luxury flat lay is a different problem from a travel packing list or a desk EDC grid. This grid is what lands on a sun lounger beside turquoise water: a zip pouch for small essentials, sun coverage, signature scent, a second travel fragrance, cards and cash, steel on the wrist, lip care, private audio, and on-the-go charge. Strip meme overlay text (not a product slot), map what remains to canonical types, and surface one brand per slot from the live catalog.</p>
+
+<p>Diptyque appears twice because the reference shows two different bottles &mdash; an oval flacon and a taller travel spray &mdash; which are two distinct product lines, not duplicate brand picks.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Zip Pouch</h3>
+<p><strong>Goyard S&eacute;nat MM Pouch</strong> &mdash; black Goyardine chevron zip pouch from the flat lay. Carry small essentials poolside; not a card holder.</p>
+
+<h3>Slot 2 &mdash; Baseball Cap</h3>
+<p><strong>Saint Laurent</strong> &mdash; beige cotton cap with metal YSL logo. Sun and style slot.</p>
+
+<h3>Slot 3 &mdash; Signature Scent</h3>
+<p><strong>Diptyque Eau Moh&eacute;li</strong> &mdash; oval glass flacon from the flat lay.</p>
+
+<h3>Slot 4 &mdash; Travel Fragrance</h3>
+<p><strong>Diptyque Do Son</strong> &mdash; taller travel spray bottle; pinned separately from Moh&eacute;li.</p>
+
+<h3>Slot 5 &mdash; Second Scent</h3>
+<p><strong>Byredo Gypsy Water</strong> &mdash; black domed cap bottle from the grid.</p>
+
+<h3>Slot 6 &mdash; Wallet</h3>
+<p><strong>Louis Vuitton Monogram Clouds Slender Wallet</strong> &mdash; blue cloud watercolor monogram from the flat lay.</p>
+
+<h3>Slot 7 &mdash; Steel Watch</h3>
+<p><strong>Rolex Submariner</strong> &mdash; oyster bracelet, black dial. Tell time slot.</p>
+
+<h3>Slot 8 &mdash; Lip Care</h3>
+<p><strong>Chanel Boy de Chanel Lip Balm</strong> &mdash; black jar from the flat lay.</p>
+
+<h3>Slot 9 &mdash; Wireless Earbuds</h3>
+<p><strong>Apple AirPods Pro</strong> &mdash; open case with buds from the grid.</p>
+
+<h3>Slot 10 &mdash; Power Bank</h3>
+<p><strong>Anker 737 PowerCore 24K</strong> &mdash; metallic grey rectangular brick from the flat lay.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Most luxury listicles use stock mood photos. Diffr&rsquo;s brand kit below pulls <em>typed product lines</em> with R2-hosted images &mdash; the same pipeline used to close gaps via ChatGPT Browse ingest and eBay sourcing. Scroll the kit to verify every slot has a product image.</p>
+
+<p>Same method as <a href="/diffr/blog/quiet-luxury-edc-brand-guide">quiet luxury EDC</a> and <a href="/diffr/blog/travel-essentials-brand-guide">travel essentials</a>: one best pick per type, no repeats (except Diptyque&rsquo;s two distinct bottles). Explore the interactive scene: <a href="/diffr/start/poolside-essentials-flat-lay">Poolside Essentials Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'housewarming-gift-ideas-brand-guide',
     title: 'Best Housewarming Gifts They\'ll Actually Use (By Budget, One Pick Each)',
     description: 'Best housewarming gifts they will actually use — one great pick per vibe and budget, from a $25 Nest candle to a Le Creuset Dutch oven. No hundred-item roundup, just gifts that earn their place in a new home.',

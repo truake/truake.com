@@ -139,6 +139,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: a quiet luxury EDC flat lay is eight functions — laptop, everyday sneakers, dress watch, card holder, signature scent, phone case, fountain pen, and business book — one brand per slot from the reference grid. Below is the live catalog kit with product images from Diffr\'s database.',
   'travel-essentials-brand-guide':
     'Bottom line: the viral "travel essentials" bedsheet flat lay is twelve slots — transit sneakers, UNO, Switch OLED, iPad, iPhone, power bank, AirPods, AirFly, Osmo Pocket, Marvis, grooming, and Ray-Ban — one brand each. Not the carry-on suitcase list; this is the tech-and-comfort kit on the hotel desk. Live catalog tiles below.',
+  'poolside-essentials-brand-guide':
+    'Bottom line: the poolside luxury flat lay is ten slots — Goyard pouch, Saint Laurent cap, Diptyque ×2, Byredo, Louis Vuitton wallet, Rolex, Chanel lip balm, AirPods Pro, and Anker power bank — one brand each. Scent, sun, steel, and charge by the lounger; not a 60-item haul. Live catalog tiles below.',
 }
 
 export interface FaqItem {
@@ -1184,6 +1186,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog. Tiles marked pending mean the typed crawl for that brand and type has not landed yet — common for iPad, Anker 737, AirFly, and Switch OLED until the image pipeline closes the gap.',
+    },
+  ],
+
+  'poolside-essentials-brand-guide': [
+    {
+      q: 'What is the poolside essentials flat lay?',
+      a: 'It is a ten-slot resort kit from a viral poolside flat lay: Goyard zip pouch, Saint Laurent baseball cap, two Diptyque fragrances (Eau Mohéli and Do Son travel spray), Byredo Gypsy Water, Louis Vuitton cloud wallet, Rolex Submariner, Chanel Boy lip balm, AirPods Pro, and Anker 737 power bank — one brand per slot.',
+    },
+    {
+      q: 'Why does Diptyque appear twice?',
+      a: 'The reference image shows two different Diptyque bottles — an oval flacon and a taller travel spray — which map to two distinct product lines. Diffr pins separate product lines so each slot gets its own tile, not a duplicate brand pick.',
+    },
+    {
+      q: 'How is this different from quiet luxury EDC?',
+      a: 'Quiet luxury EDC is a marble-desk carry grid (laptop, sneakers, watch, wallet, scent). Poolside essentials is resort context — sun protection, poolside fragrance, steel watch, and portable charge on a sun lounger beside turquoise water.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 120. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 
