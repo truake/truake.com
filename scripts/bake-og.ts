@@ -1,12 +1,29 @@
 #!/usr/bin/env npx tsx
 /** Fetch dynamic OG PNGs and save to public/diffr/blog/share/ for fast social crawlers. */
-import { existsSync, mkdirSync, writeFileSync } from 'fs'
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { BLOG_SLUG_TO_PRESET } from '../app/diffr/blog/[slug]/page'
 import { getAllPosts } from '../app/diffr/blog/posts'
 
 const BASE = process.env.OG_BASE ?? 'https://truake.com'
 const OUT = join(process.cwd(), 'public', 'diffr', 'blog', 'share')
+const VERSIONS_PATH = join(OUT, 'versions.json')
+
+function bumpVersions(slugs: string[]): void {
+  let versions: Record<string, number> = {}
+  if (existsSync(VERSIONS_PATH)) {
+    try {
+      versions = JSON.parse(readFileSync(VERSIONS_PATH, 'utf8'))
+    } catch {
+      versions = {}
+    }
+  }
+  const now = Math.floor(Date.now() / 1000)
+  for (const slug of slugs) {
+    versions[slug] = now
+  }
+  writeFileSync(VERSIONS_PATH, JSON.stringify(versions, null, 2) + '\n')
+}
 
 function brandGuideSlugs(): string[] {
   return getAllPosts()
@@ -61,6 +78,8 @@ async function main() {
   for (const slug of slugs) {
     await bake(slug)
   }
+  bumpVersions(slugs)
+  console.log(`Updated ${VERSIONS_PATH}`)
 }
 
 main().catch((e) => {
