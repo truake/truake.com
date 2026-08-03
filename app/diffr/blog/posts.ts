@@ -75,15 +75,15 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'nike-lines-explained',
-    title: "Nike Sub-Brands, Explained: Which Line Is for Which Part of Your Life",
-    description: "Nike sub-brands and collections — Sportswear for everyday, Tech Fleece for travel, Pro for training, Pegasus for the run, ACG for the trail, SB for skate, Jordan for the court. Here's the map, so you pick your lane and decide once.",
+    title: "Nike Lines Explained: Sub-Brands, Collections & Which Line Is for Which Scene",
+    description: "Nike lines explained — Sportswear (NSW) for everyday, Tech Fleece for travel, Pro for training, Pegasus for the run, ACG for trail, SB for skate, Jordan for court. The map so you pick your lane and decide once.",
     date: '2026-06-27',
     readTime: '6 min read',
     tags: ['nike sub brands', 'nike lines explained', 'nike collections', 'nike tech fleece', 'nike acg', 'nike pro', 'athleisure', 'one brand rule'],
     category: 'product',
     excerpt: "The wall of swooshes is choice overload by design. But Nike is quietly sorted by scene — learn which collection is for which part of your life and you stop scrolling colorways.",
     content: `
-<p>One brand, a dozen worlds. Nike isn&rsquo;t a single product line &mdash; it&rsquo;s a stack of collections, each engineered for a different way you move. The reason the wall of swooshes feels overwhelming is the same <a href="/diffr/blog/why-more-choices-makes-you-worse-at-shopping">choice overload</a> every store now runs on: too many near-identical options and no map. Here&rsquo;s the map &mdash; which Nike line is built for which scene, so you pick your lane and decide once.</p>
+<p>One brand, a dozen worlds. Nike isn&rsquo;t a single product line &mdash; it&rsquo;s a stack of collections, each engineered for a different way you move. The reason the wall of swooshes feels overwhelming is the same <a href="/diffr/blog/why-more-choices-makes-you-worse-at-shopping">choice overload</a> every store now runs on: too many near-identical options and no map. Here&rsquo;s the map &mdash; which Nike line is built for which scene, so you pick your lane and decide once. Building a <a href="/diffr/blog/running-gear-brand-guide">running starter kit</a> or a <a href="/diffr/blog/casual-wardrobe-brand-guide">casual capsule</a>? Match the Nike collection to the job first, then fill the rest of the slots.</p>
 
 <h2>Sportswear (NSW) — Everyday</h2>
 <p>The lane: street, not sport &mdash; the casual, heritage side worn off the field. The vibe: clean, timeless, goes with everything. <strong>The one piece:</strong> the Air Force 1. If you want one Nike thing that isn&rsquo;t about performance, it&rsquo;s this.</p>
@@ -248,6 +248,99 @@ export const posts: BlogPost[] = [
 <h2>The Diffr Take</h2>
 <p>Notice what Lululemon actually did: it took one overwhelming wall and quietly split it into lanes, one per scene. That is the whole Diffr idea &mdash; <a href="/diffr/blog/the-decide-once-rule">decide once</a>, by scene, and stop re-litigating the same purchase every season. The brand did the sorting; your only job is to match the lane to your life.</p>
 <p>So pick yours: everyday is Align, the commute is ABC, the weekend is Scuba, the sweat is Steady State, the court is Tennis &amp; Golf. One lane, one decision. Want that done for every part of your closet, not just the leggings? <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Download Diffr</a> and lock one pick per scene &mdash; yours.</p>
+`.trim(),
+  },
+  {
+    slug: 'adidas-lines-explained',
+    title: "Adidas Lines Explained: Originals, Performance, Terrex & Which Line Is for Which Scene",
+    description: "Adidas lines explained — Originals for street heritage, Sportswear for everyday, Performance for training and running, Terrex for trail, Y-3 for design. The map so you pick your lane and decide once.",
+    date: '2026-08-03',
+    readTime: '6 min read',
+    tags: ['adidas lines explained', 'adidas sub brands', 'adidas originals', 'adidas performance', 'adidas terrex', 'athleisure', 'one brand rule'],
+    category: 'product',
+    excerpt: "Three stripes, half a dozen worlds. Adidas is sorted by scene — once you know which line is for which part of your life, the wall stops feeling random.",
+    content: `
+<p>Adidas is not one range &mdash; it is a house of lines, each built for a different way you move and dress. The stripes look the same on the tag, but Originals, Sportswear, Performance, and Terrex solve different jobs. That is the same <a href="/diffr/blog/why-more-choices-makes-you-worse-at-shopping">choice overload</a> Nike and Lululemon run, just with a different logo. Here is the map &mdash; which Adidas line is for which scene. Pair it with <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a> if you are cross-shopping, or <a href="/diffr/blog/world-cup-2026-kit-brands">World Cup kit brands</a> if you came here from football.</p>
+
+<h2>Originals — Street Heritage</h2>
+<p>The lane: lifestyle and street, not the gym. The vibe: archive shapes, campus suede, Samba and Gazelle energy. <strong>The one piece:</strong> Samba or Gazelle in a neutral colorway &mdash; the default Adidas icon that goes with everything.</p>
+
+<h2>Sportswear — Everyday Athletic</h2>
+<p>The lane: casual athletic &mdash; joggers, hoodies, tees you wear off the pitch. The vibe: clean three-stripe basics without race-day tech. <strong>The one piece:</strong> a neutral Essentials jogger or crew &mdash; travel, errands, lounge.</p>
+
+<h2>Performance — Train &amp; Run</h2>
+<p>The lane: actual workouts &mdash; training, court, track, gym. The vibe: engineered fabrics, fit for sweat, not for the coffee shop. <strong>The one piece:</strong> Ultraboost or Adizero depending on run vs gym; for most beginners, a daily trainer in the Performance line beats an Originals shoe on a treadmill.</p>
+
+<h2>Terrex — Trail &amp; Outdoors</h2>
+<p>The lane: hiking, trail running, weather. The vibe: grip, Gore-Tex options, gear that expects mud. <strong>The one piece:</strong> a Terrex trail shoe or shell when Sportswear would quit outside.</p>
+
+<h2>Y-3 — Design Collab</h2>
+<p>The lane: fashion-forward, not beginner default. The vibe: Yohji Yamamoto silhouettes at a premium. <strong>Skip unless</strong> you already know you want the design piece &mdash; Originals and Performance cover 95% of real life.</p>
+
+<h2>The Diffr Take</h2>
+<p>Adidas already split the wall into lanes; your job is to match the lane to your week. Everyday street &rarr; Originals; casual athletic &rarr; Sportswear; sweat &rarr; Performance; trail &rarr; Terrex. One lane, one decision. That is <a href="/diffr/blog/the-decide-once-rule">decide once</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock picks across every scene, not just the stripes.</p>
+`.trim(),
+  },
+  {
+    slug: 'uniqlo-lines-explained',
+    title: "Uniqlo Lines Explained: LifeWear, HEATTECH, AIRism & Which Line Is for Which Season",
+    description: "Uniqlo lines explained — LifeWear basics, HEATTECH for cold, AIRism for heat, +J and UT for collabs. The map so you pick the right fabric line and decide once.",
+    date: '2026-08-03',
+    readTime: '6 min read',
+    tags: ['uniqlo lines explained', 'uniqlo heattech', 'uniqlo airism', 'lifewear', 'basics wardrobe', 'one brand rule'],
+    category: 'product',
+    excerpt: "Uniqlo looks like one store of basics — but HEATTECH, AIRism, and LifeWear are different fabric systems for different jobs. Learn the map once.",
+    content: `
+<p>Uniqlo is the default answer for affordable basics &mdash; but the rack is not one product type. LifeWear, HEATTECH, AIRism, Supima cotton, and seasonal collabs (+J, UT) are <strong>different fabric lines for different climates and layers.</strong> Buy the wrong line and you wonder why the tee feels clammy in summer or thin in winter. Here is the map. Building a <a href="/diffr/blog/casual-wardrobe-brand-guide">casual starter wardrobe</a> or a <a href="/diffr/blog/54321-packing-method-brand-guide">travel capsule</a>? Match the Uniqlo line to the job first.</p>
+
+<h2>LifeWear — Everyday Basics</h2>
+<p>The lane: year-round staples &mdash; tees, oxford shirts, chinos, jeans. The vibe: simple, durable, neutral. <strong>The one piece:</strong> Supima cotton crew tee &mdash; the foundation everything else stacks on.</p>
+
+<h2>HEATTECH — Cold Weather Base</h2>
+<p>The lane: winter base layers &mdash; heat retention without bulk. The vibe: thin, warm, worn under everything. <strong>The one piece:</strong> HEATTECH crew or tights as your winter under-layer &mdash; not a standalone outfit.</p>
+
+<h2>AIRism — Hot &amp; Humid</h2>
+<p>The lane: summer, travel, gym under-layer. The vibe: lightweight, quick-dry, cool touch. <strong>The one piece:</strong> AIRism tee or boxer brief when cotton would stay wet.</p>
+
+<h2>Ultra Light Down &amp; BlockTech — Outer Layers</h2>
+<p>The lane: packable warmth and rain. The vibe: commuter-friendly shells and down that stuffs small. <strong>The one piece:</strong> Ultra Light Down jacket for dry cold; BlockTech when you need rain on the commute.</p>
+
+<h2>+J &amp; UT — Collabs (Optional)</h2>
+<p>The lane: limited design drops &mdash; Jil Sander-era minimalism (+J when available) and graphic UT tees. <strong>Skip for your first kit</strong> unless you already love the collab; LifeWear covers the core.</p>
+
+<h2>The Diffr Take</h2>
+<p>Uniqlo wins when you buy by fabric system, not by wandering the floor. Everyday &rarr; LifeWear Supima; cold &rarr; HEATTECH base; heat &rarr; AIRism; outer &rarr; Ultra Light Down or BlockTech. One line per season, <a href="/diffr/blog/the-decide-once-rule">decide once</a>. See every starter kit on the <a href="/diffr/blog/starter-kits">index</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">get Diffr</a> to lock your picks.</p>
+`.trim(),
+  },
+  {
+    slug: 'apple-ecosystem-lines-explained',
+    title: "Apple Ecosystem Explained: iPhone, iPad, Mac, Watch & AirPods — Which Device for Which Job",
+    description: "Apple's ecosystem explained — iPhone for mobile, iPad for portable compute, Mac for deep work, Watch for wrist, AirPods for audio. One lane per job so you stop buying overlap.",
+    date: '2026-08-03',
+    readTime: '6 min read',
+    tags: ['apple ecosystem explained', 'iphone vs ipad', 'macbook vs ipad', 'apple watch', 'airpods', 'one brand rule'],
+    category: 'product',
+    excerpt: "Apple sells a full stack of devices — but each one is a line in a system. Match the device to the job and stop paying for overlap.",
+    content: `
+<p>Apple is one brand with five device lanes &mdash; phone, tablet, laptop, watch, audio &mdash; and the marketing makes every upgrade sound essential. The overlap trap: iPad Pro with keyboard <em>and</em> a MacBook, or AirPods in three cases. Each device is really a <strong>scene line</strong> in the ecosystem. Here is the map. Setting up a <a href="/diffr/blog/home-office-brand-guide">home office</a> or <a href="/diffr/blog/college-packing-list-brand-guide">college packing list</a>? Assign one Apple lane per job first.</p>
+
+<h2>iPhone — Mobile Comms &amp; Pocket Compute</h2>
+<p>The lane: always-on phone, camera, payments, messaging. <strong>The one piece:</strong> the current iPhone Pro if you care about camera and battery; standard iPhone if you do not. This is the hub everything else orbits.</p>
+
+<h2>iPad — Portable Screen &amp; Couch Compute</h2>
+<p>The lane: reading, video, light work, travel, Apple Pencil notes &mdash; not full pro workstation. <strong>The one piece:</strong> iPad Air for most people; Pro only if you edit video or draw professionally on the glass.</p>
+
+<h2>Mac — Deep Work &amp; Creation</h2>
+<p>The lane: coding, writing, photo/video edit, multi-window work. <strong>The one piece:</strong> MacBook Air (M-series) for most users; Pro when sustained GPU/CPU load is your daily job.</p>
+
+<h2>Apple Watch — Wrist &amp; Health</h2>
+<p>The lane: notifications, fitness, health tracking, leave-phone-in-pocket runs. <strong>The one piece:</strong> Apple Watch SE if you want basics; Series/Ultra if GPS, always-on, or outdoor sport is core.</p>
+
+<h2>AirPods — Private Audio</h2>
+<p>The lane: calls, music, focus &mdash; pocket to ear. <strong>The one piece:</strong> AirPods Pro for noise canceling and travel; standard AirPods if you just need reliable audio.</p>
+
+<h2>The Diffr Take</h2>
+<p>Apple already built scene lines &mdash; you do not need every one. Phone for pocket, iPad for portable screen, Mac for desk depth, Watch for wrist, AirPods for ears. Buy the lane you actually use; skip duplicate jobs. That is <a href="/diffr/blog/the-decide-once-rule">decide once</a> across the ecosystem. Compare with <a href="/diffr/blog/nike-lines-explained">Nike lines</a> or <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines</a> &mdash; same pattern, different category. <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Download Diffr</a> to lock one pick per slot everywhere else too.</p>
 `.trim(),
   },
   {
@@ -1986,6 +2079,16 @@ export const posts: BlogPost[] = [
 <li><a href="/diffr/blog/film-photography-brand-guide">Film photography starter kit</a> &mdash; camera to first roll.</li>
 </ul>
 
+<h2>Brand maps (lines explained)</h2>
+<p>When the wall of options is one brand with a dozen sub-lines, start with the map &mdash; then decide once.</p>
+<ul>
+<li><a href="/diffr/blog/nike-lines-explained">Nike lines explained</a> &mdash; Sportswear, Tech Fleece, Pro, Pegasus, ACG, SB, Jordan.</li>
+<li><a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a> &mdash; Align, ABC, Scuba, Steady State, Tennis &amp; Golf.</li>
+<li><a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a> &mdash; Originals, Sportswear, Performance, Terrex, Y-3.</li>
+<li><a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines explained</a> &mdash; LifeWear, HEATTECH, AIRism, +J, UT.</li>
+<li><a href="/diffr/blog/apple-ecosystem-lines-explained">Apple ecosystem lines explained</a> &mdash; iPhone, iPad, Mac, Watch, AirPods by job.</li>
+</ul>
+
 <h2>Travel</h2>
 <ul>
 <li><a href="/diffr/blog/international-travel-essentials-brand-guide">International travel essentials</a> &mdash; the ten-item carry-on kit, one brand per slot.</li>
@@ -2447,7 +2550,7 @@ export const posts: BlogPost[] = [
     category: 'product',
     excerpt: 'Seven slots. Seven brand answers. The everyday-casual capsule where every piece pairs with every other piece. Get dressed. Stop researching.',
     content: `
-<p>A casual wardrobe is not a pile of clothes &mdash; it is a system where every piece pairs with every other piece. Get that right and a tee, a pair of jeans, and a jacket become a dozen outfits. Get it wrong and you own forty things and wear six. The fashion forums turn &ldquo;what should I buy&rdquo; into a year-long rabbit hole &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in denim form. Diffr&rsquo;s answer is the same everywhere: one good version of each piece, one brand per slot, file closed. Here is the complete beginner starter wardrobe &mdash; build it once and everything goes with everything, with a buy-in-this-order priority at the end so you can start with three pieces.</p>
+<p>A casual wardrobe is not a pile of clothes &mdash; it is a system where every piece pairs with every other piece. Get that right and a tee, a pair of jeans, and a jacket become a dozen outfits. Get it wrong and you own forty things and wear six. The fashion forums turn &ldquo;what should I buy&rdquo; into a year-long rabbit hole &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> in denim form. Before you buy sneakers or athleisure from a mega-brand, see the scene maps: <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a>, <a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a>, and <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a>. Diffr&rsquo;s answer is the same everywhere: one good version of each piece, one brand per slot, file closed. Here is the complete beginner starter wardrobe &mdash; build it once and everything goes with everything, with a buy-in-this-order priority at the end so you can start with three pieces.</p>
 
 <h2>The Slots</h2>
 
@@ -4550,7 +4653,7 @@ Diffr ends with: here is what you get.</p>
     category: 'product',
     excerpt: 'Eleven slots. Eleven brand answers. Shoes to training app — assigned and closed. Start running. Stop researching.',
     content: `
-<p>Starting to run has roughly fifteen gear decision points before your first mile, and the running internet has strong, contradictory opinions on every single one. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to athletic footwear. The Diffr approach is the same as it is for every other scenario: decompose into discrete slots, assign exactly one brand to each slot, close the file. What follows is the complete beginner runner guide. No &ldquo;it depends.&rdquo; No &ldquo;top five options.&rdquo; One answer per slot.</p>
+<p>Starting to run has roughly fifteen gear decision points before your first mile, and the running internet has strong, contradictory opinions on every single one. That is <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> applied to athletic footwear. If the confusion starts at Nike&rsquo;s wall of lines &mdash; Sportswear vs Pro vs Pegasus &mdash; read <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a> first, then return here for the full eleven-slot kit. The Diffr approach is the same as it is for every other scenario: decompose into discrete slots, assign exactly one brand to each slot, close the file. What follows is the complete beginner runner guide. No &ldquo;it depends.&rdquo; No &ldquo;top five options.&rdquo; One answer per slot.</p>
 
 <h2>The Slots</h2>
 

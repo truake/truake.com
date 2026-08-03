@@ -2,7 +2,7 @@
 
 > **Daily limit:** ~10–12 requests per property. Open each link while logged into [Google Search Console](https://search.google.com/search-console), then click **Request indexing**.
 >
-> Property: `sc-domain:truake.com` · Updated: 2026-07-27  
+> Property: `sc-domain:truake.com` · Updated: 2026-08-03  
 > **Login verified:** `geekrlg@gmail.com` · Use **网址检查** (top search bar) → paste URL → **请求编入索引**
 
 **How to use:** One batch per day (~10 URLs). Paste each URL into **网址检查** → wait for crawl → **请求编入索引** if eligible. Mark ✓ when done.
@@ -20,6 +20,23 @@ GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是
 **Never request indexing:** any URL ending in `/og`. Request the **parent blog URL** only.
 
 **Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `cold-weather-layering` (`/diffr/start/`), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
+
+## Batch M — Lines explained SERP push（2026-08-03）· GSC harvest + 3 new posts
+
+Nike/Lulu already climbing (GSC Aug 3 export); title/meta/FAQ refresh on Nike + 3 new brand-map posts. **勿提交 `/og`** — request parent blog URLs only.
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | Nike lines (title refresh) | `https://truake.com/diffr/blog/nike-lines-explained` |
+| | Lululemon lines | `https://truake.com/diffr/blog/lululemon-lines-explained` |
+| | Adidas lines (NEW) | `https://truake.com/diffr/blog/adidas-lines-explained` |
+| | Uniqlo lines (NEW) | `https://truake.com/diffr/blog/uniqlo-lines-explained` |
+| | Apple ecosystem (NEW) | `https://truake.com/diffr/blog/apple-ecosystem-lines-explained` |
+| | starter kits hub (brand maps section) | `https://truake.com/diffr/blog/starter-kits` |
+| | casual wardrobe (cross-links) | `https://truake.com/diffr/blog/casual-wardrobe-brand-guide` |
+| | running gear (Nike cross-link) | `https://truake.com/diffr/blog/running-gear-brand-guide` |
+
+> Day 2 if quota tight: world-cup kit brands (Adidas cross-link) · 54321 packing (Uniqlo cross-link).
 
 ## Batch L — P1 launch（2026-07-27）· Contract pilot + BtB schema + WC FAQ
 

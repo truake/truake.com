@@ -25,6 +25,12 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: a new puppy needs a contained space, the right food, a few durable things, and cleanup gear — one good brand each, not a pet-store haul. Crate (MidWest iCrate, with a divider), pen/gate (Carlson), food (Purina Pro Plan Puppy), stainless bowls (Frisco), collar and leash (Blueberry Pet), a no-choke training harness (Blue-9 Balance), a stuffable chew toy (KONG Puppy), tiny training treats (Zuke's Mini Naturals), poop bags (Earth Rated), an enzymatic accident cleaner (Nature's Miracle), and a washable bed (Furhaven). Buy first: the crate, food, a KONG, poop bags, Nature's Miracle, and the harness. One brand per slot, no repeats.",
   'lululemon-lines-explained':
     "Bottom line: Lululemon isn't one product, it's a set of collections, each built for a different scene — so instead of scrolling 200 leggings, you pick the lane that matches your week and decide once. Align is the everyday, low-impact line (the Align High-Rise Pant). ABC is the commute/smart-casual trouser (the ABC Pant, “anti-ball-crushing,” reads as real pants). Define is the studio-to-street layer (the Define Jacket). Scuba is cozy weekend fleece (the Scuba Oversized Half-Zip). Steady State and License to Train are the serious-sweat run/train lanes. Tennis & Golf is sport-specific for the court and course. Match the lane to your life: everyday → Align, commute → ABC, weekend → Scuba, sweat → Steady State, court → Tennis & Golf.",
+  'adidas-lines-explained':
+    "Bottom line: Adidas isn't one range — it's a house of lines, each built for a scene — so match the lane and decide once. Originals (Samba, Gazelle) is street heritage; Sportswear is everyday athletic joggers and hoodies; Performance is training and running (Ultraboost, Adizero); Terrex is trail and outdoors; Y-3 is design-forward and optional. Everyday street → Originals, casual athletic → Sportswear, sweat → Performance, trail → Terrex.",
+  'uniqlo-lines-explained':
+    "Bottom line: Uniqlo isn't one fabric — it's a set of lines built for different climates and layers. LifeWear Supima is everyday basics; HEATTECH is the thin winter base layer; AIRism is summer and humidity; Ultra Light Down and BlockTech are packable warmth and rain shells; +J and UT are collab drops you can skip on a first kit. Everyday → LifeWear, cold → HEATTECH base, heat → AIRism, outer → Ultra Light Down or BlockTech.",
+  'apple-ecosystem-lines-explained':
+    "Bottom line: Apple's ecosystem is five device lanes — phone, tablet, laptop, watch, audio — each with a job, so you stop buying overlap. iPhone is the pocket hub; iPad Air is portable screen and couch compute; MacBook Air is deep work; Apple Watch SE/Series is wrist and health; AirPods Pro is private audio and travel. Buy the lane you actually use — not an iPad Pro keyboard plus a MacBook for the same job.",
   'aritzia-sub-brands-guide':
     "Bottom line: Aritzia isn't one brand — it's a house of seven in-house labels, each built for a different scenario. Babaton for work (the Effortless Pant), The Group by Babaton for the big interview, Wilfred for date night, Wilfred Free for everyday, TNA for the weekend, Sunday Best for going out, and the Super Puff for winter — a one-store way to dress your whole week. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; the Super Puff is the style buy while Patagonia is the keep-forever one. Use Aritzia where it wins on convenience, swap in the independent pick where it wins on quality.",
   'world-cup-2026-kit-brands':
@@ -177,6 +183,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       q: 'Which Nike line is best for everyday wear?',
       a: "Nike Sportswear (NSW) — the casual, lifestyle side of Nike worn off the field. It's where the timeless icons live, like the Air Force 1 and classic fleece. If you want one Nike line that goes with everything and isn't about performance, start with Sportswear; add Tech Fleece when you want elevated everyday sweats.",
     },
+    {
+      q: "What's the difference between Nike Sportswear (NSW) and Nike athletic lines?",
+      a: "Sportswear/NSW is Nike's lifestyle lane — heritage sneakers, casual fleece, and streetwear worn off the field (Air Force 1, Dunk, classic hoodies). Athletic lines like Nike Pro, Dri-FIT running gear, and Pegasus are built for sweat, support, and performance. The mistake is buying Sportswear for the gym or Pro tights for the airport — match the line to whether you're dressing for everyday or actually training.",
+    },
   ],
 
   'gardening-starter-kit-brand-guide': [
@@ -233,6 +243,63 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Is Lululemon worth it?',
       a: "Lululemon is worth it when you buy by scene instead of by hype. The pieces are durable and well-engineered, but the real value comes from matching the line to the job — Align for everyday, ABC for the commute, Scuba for the weekend, Steady State for the sweat — so you buy one right thing per lane instead of a drawer of near-duplicates. Bought that way it pays off; bought as one-of-everything it's just expensive. Decide once, by lane.",
+    },
+  ],
+
+  'adidas-lines-explained': [
+    {
+      q: 'What are Adidas sub-brands and lines?',
+      a: "Adidas is organized into lines built for different scenes: Originals (street heritage — Samba, Gazelle, campus suede), Sportswear (everyday athletic joggers and hoodies), Performance (training and running — Ultraboost, Adizero), Terrex (trail and outdoors), and Y-3 (Yohji Yamamoto design collab). Knowing the map lets you skip the wall of stripes and pick the line that matches your activity.",
+    },
+    {
+      q: "What's the difference between Adidas Originals and Performance?",
+      a: "Originals is lifestyle and street — archive shapes, suede sneakers, and heritage silhouettes worn off the pitch. Performance is engineered for sweat — running shoes, training apparel, and sport-specific gear. Buy Originals Samba or Gazelle for everyday; buy Performance Ultraboost or training tops when you actually work out.",
+    },
+    {
+      q: 'What is Adidas Terrex for?',
+      a: "Terrex is Adidas's outdoor and trail line — hiking shoes, trail runners, Gore-Tex shells, and gear built for mud, rain, and uneven terrain. It's the lane when Sportswear joggers and Originals sneakers would fail outside. For city everyday, Originals or Sportswear; for the trail, Terrex.",
+    },
+    {
+      q: 'Which Adidas line is best for everyday wear?',
+      a: "For street style, Adidas Originals — Samba or Gazelle in a neutral colorway. For casual athletic (joggers, hoodies, commute), Adidas Sportswear Essentials. Originals reads more heritage-icon; Sportswear reads more clean athletic basics. Both are everyday lanes; Performance is for when you actually sweat.",
+    },
+  ],
+
+  'uniqlo-lines-explained': [
+    {
+      q: 'What are Uniqlo fabric lines?',
+      a: "Uniqlo organizes basics by fabric system, not just category: LifeWear (year-round staples like Supima cotton tees), HEATTECH (thin winter base layers), AIRism (lightweight summer and humidity), Ultra Light Down (packable warmth), BlockTech (rain shells), and collab lines like +J and UT. Each line solves a climate or layer job — buy the system that matches your season.",
+    },
+    {
+      q: 'What is Uniqlo HEATTECH for?',
+      a: "HEATTECH is Uniqlo's thin, heat-retaining base layer for cold weather — crew necks, tights, and underwear worn under your main clothes. It's built to trap warmth without bulk, not to be worn alone as an outfit. Pair HEATTECH under LifeWear or a sweater in winter; skip it in summer.",
+    },
+    {
+      q: "What's the difference between Uniqlo AIRism and regular cotton?",
+      a: "AIRism is Uniqlo's quick-dry, cool-touch synthetic line for hot and humid conditions — it wicks moisture and dries fast where cotton stays damp. Regular Supima cotton LifeWear tees are the everyday default for moderate climates. Use AIRism for summer, travel, and gym under-layers; use Supima cotton for year-round basics.",
+    },
+    {
+      q: 'Which Uniqlo line should I buy first?',
+      a: "Start with LifeWear Supima cotton crew tees — the foundation of a casual capsule. Add HEATTECH base layers if you live somewhere cold, or AIRism if summers are hot and humid. Ultra Light Down comes next if you need a packable jacket. Skip +J and UT collabs until the core basics are covered.",
+    },
+  ],
+
+  'apple-ecosystem-lines-explained': [
+    {
+      q: "What is Apple's ecosystem?",
+      a: "Apple's ecosystem is a set of devices designed to work together — iPhone (pocket hub), iPad (portable screen), Mac (deep work), Apple Watch (wrist and health), and AirPods (audio). Each device is a lane with a job; the trap is buying overlap (iPad Pro with keyboard plus MacBook for the same work). Match the device to how you actually use it.",
+    },
+    {
+      q: 'Should I buy an iPad or a MacBook?',
+      a: "Buy a MacBook if your daily work is multi-window, coding, photo/video editing, or heavy typing — that's the deep-work lane. Buy an iPad if you want a portable screen for reading, video, light notes, and travel — not a full workstation. iPad Air covers most people; MacBook Air (M-series) covers most desk work. Pro models only when you hit real limits.",
+    },
+    {
+      q: 'Which Apple Watch should I get?',
+      a: "Apple Watch SE is the right start if you want notifications, basic fitness, and health tracking without paying for always-on display or advanced sensors. Step up to Series or Ultra if GPS accuracy, always-on screen, or outdoor sport (trail, dive) is core to how you train. The Watch is the wrist lane — not a phone replacement.",
+    },
+    {
+      q: 'Do I need AirPods if I have an iPhone?',
+      a: "AirPods (or AirPods Pro) are the private-audio lane — calls, music, focus, and travel without speakerphone. They're optional but solve a distinct job: ears-only audio with fast iPhone pairing. AirPods Pro if you fly or commute in noise; standard AirPods if you just want reliable everyday audio.",
     },
   ],
 
