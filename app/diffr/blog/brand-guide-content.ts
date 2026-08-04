@@ -141,6 +141,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the viral "travel essentials" bedsheet flat lay is twelve slots — transit sneakers, UNO, Switch OLED, iPad, iPhone, power bank, AirPods, AirFly, Osmo Pocket, Marvis, grooming, and Ray-Ban — one brand each. Not the carry-on suitcase list; this is the tech-and-comfort kit on the hotel desk. Live catalog tiles below.',
   'poolside-essentials-brand-guide':
     'Bottom line: the poolside luxury flat lay is ten slots — Goyard pouch, Saint Laurent cap, Diptyque ×2, Byredo, Louis Vuitton wallet, Rolex, Chanel lip balm, AirPods Pro, and Anker power bank — one brand each. Scent, sun, steel, and charge by the lounger; not a 60-item haul. Live catalog tiles below.',
+  'daily-essentials-brand-guide':
+    'Bottom line: the daily essentials flat lay is seven slots — Margiela Replica sneakers, Dior card holder, AirPods Pro, Rolex, Creed Aventus, Rimowa iPhone case, and Mercedes key — one brand each. Quiet-luxury carry on a ribbed rug; ignore the meme text and cash prop. Live catalog tiles below.',
 }
 
 export interface FaqItem {
@@ -1205,6 +1207,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 120. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'daily-essentials-brand-guide': [
+    {
+      q: 'What is the daily essentials flat lay?',
+      a: 'It is a seven-slot quiet-luxury carry kit from a viral rug flat lay: Maison Margiela Replica sneakers, Dior oblique card holder, AirPods Pro, Rolex Datejust-class watch, Creed Aventus, Rimowa grooved iPhone case, and Mercedes-Benz key fob — one brand per slot.',
+    },
+    {
+      q: 'Why ignore the cash and overlay text?',
+      a: 'The bundled $100 stack and the white "daily essentials" caption are meme chrome on the source photo — not typed product slots. The og-base cover and scene map the physical carry objects only.',
+    },
+    {
+      q: 'How is this different from quiet luxury EDC?',
+      a: 'Quiet luxury EDC is an eight-slot marble-desk grid with laptop, pen, and book. Daily essentials is rug-surface carry — sneakers, wallet, scent, phone case, watch, earbuds, and car key — closer to what you leave by the door.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 121. Several slots may show pending until Browse/crawl closes gaps for Margiela sneakers, Dior card holders, Creed Aventus, and Mercedes keys.',
     },
   ],
 

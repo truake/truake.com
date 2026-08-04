@@ -45,6 +45,7 @@ export const OG_BASE_SLUGS = new Set<string>([
   'quiet-luxury-edc-brand-guide',
   'travel-essentials-brand-guide',
   'poolside-essentials-brand-guide',
+  'daily-essentials-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {
