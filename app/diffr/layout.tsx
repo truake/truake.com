@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import { Playfair_Display, IBM_Plex_Mono, Syne } from "next/font/google";
 import { DiffrNav } from "./diffr-nav";
+
+export const metadata: Metadata = {
+  other: {
+    "p:domain_verify": "d558a10299772fe6bb9f812a41e7d8b9",
+  },
+};
 
 // Playfair + Syne are variable fonts on Google Fonts. Omitting `weight` loads
 // the single variable file per style (covering the whole weight axis) instead
