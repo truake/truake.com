@@ -32,7 +32,7 @@ export default function BlogIndexPage() {
   const posts = getBlogIndexPosts()
 
   return (
-    <div style={{ backgroundColor: '#F0EBE3', minHeight: '100vh', color: '#2A2620' }}>
+    <div className="diffr-paper" style={{ backgroundColor: '#F0EBE3', minHeight: '100vh', color: '#2A2620' }}>
 
       {/* Hero — circle grid */}
       <header style={{ position: 'relative', overflow: 'hidden', paddingTop: '64px' }}>
@@ -51,8 +51,15 @@ export default function BlogIndexPage() {
             display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
             textAlign: 'center', padding: '0 24px',
           }}>
-            <p style={{ color: '#e53e3e', fontSize: '11px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', marginBottom: '12px' }}>
+            {/* masthead eyebrow — flanked by hairline rules, like a paper's dateline */}
+            <p style={{
+              display: 'flex', alignItems: 'center', gap: '14px',
+              color: '#e53e3e', fontSize: '11px', fontWeight: 700,
+              letterSpacing: '0.24em', textTransform: 'uppercase', marginBottom: '14px',
+            }}>
+              <span aria-hidden="true" style={{ display: 'inline-block', width: 36, height: 1, background: 'rgba(42,38,32,0.35)' }} />
               The Diffr Blog
+              <span aria-hidden="true" style={{ display: 'inline-block', width: 36, height: 1, background: 'rgba(42,38,32,0.35)' }} />
             </p>
             <h1 style={{
               fontFamily: "var(--font-display), 'Playfair Display', serif",
@@ -63,13 +70,17 @@ export default function BlogIndexPage() {
               color: '#2A2620',
             }}>
               Build logs, product thinking,<br />
-              <span style={{ color: '#1B8BF5' }}>and brand philosophy.</span>
+              <em style={{ color: '#1B8BF5', fontStyle: 'italic' }}>and brand philosophy.</em>
             </h1>
           </div>
         </div>
         {/* subheading below circles */}
         <div style={{ textAlign: 'center', padding: '24px 24px 48px' }}>
-          <p style={{ color: 'rgba(42,38,32,0.55)', fontSize: '17px', maxWidth: '460px', margin: '0 auto' }}>
+          <p style={{
+            fontFamily: "var(--font-display), 'Playfair Display', Georgia, serif",
+            fontStyle: 'italic',
+            color: 'rgba(42,38,32,0.58)', fontSize: '18px', maxWidth: '480px', margin: '0 auto', lineHeight: 1.55,
+          }}>
             From the desk of a solo founder building a brand curation platform from scratch.
           </p>
         </div>

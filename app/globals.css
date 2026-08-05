@@ -46,22 +46,112 @@
   --d-input-border:rgba(42,38,32,0.16);
 }
 
+/* ── Diffr editorial layer ─────────────────────────────────── */
+/* Paper grain + vignette: apply .diffr-paper to any /diffr page wrapper.
+   Pure CSS (SVG feTurbulence data-URI), zero requests, pointer-events off. */
+.diffr-paper { position: relative; }
+.diffr-paper::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+}
+.diffr-paper > * { position: relative; z-index: 1; }
+.diffr-paper ::selection { background: rgba(27,139,245,0.22); color: #2A2620; }
+
+/* Shared nav links: ink→blue with a drawn underline. */
+.diffr-nav-link { position: relative; transition: color 160ms ease; }
+.diffr-nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 100%; bottom: -4px;
+  height: 2px;
+  background: #1B8BF5;
+  transition: right 220ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.diffr-nav-link:hover { color: #1B8BF5 !important; }
+.diffr-nav-link:hover::after { right: 0; }
+.diffr-nav-cta { transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease; }
+.diffr-nav-cta:hover { background: #0F7BE0 !important; transform: translateY(-1px); box-shadow: 0 6px 18px rgba(27,139,245,0.35); }
+
+/* Article enters with a soft rise (transform only — content never gated). */
+@keyframes diffrArticleRise {
+  from { transform: translateY(14px); }
+  to   { transform: translateY(0); }
+}
+.diffr-article-rise { animation: diffrArticleRise 0.5s cubic-bezier(0.22, 1, 0.36, 1); }
+
 /* Blog article prose styles — light bg (Diffr, matches /diffr/start) */
 .blog-prose p { color: rgba(42,38,32,0.82); margin-bottom: 1.4em; }
 .blog-prose p.lead { font-size: 1.15em; color: rgba(42,38,32,0.92); }
-.blog-prose h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5em; font-weight: 700; color: #2A2620; margin: 2em 0 0.75em; letter-spacing: -0.02em; }
-.blog-prose h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.2em; font-weight: 600; color: #2A2620; margin: 1.6em 0 0.6em; }
+.blog-prose h2 {
+  font-family: var(--font-display), 'Playfair Display', Georgia, serif;
+  font-size: 1.65em; font-weight: 700; color: #2A2620;
+  margin: 2.1em 0 0.7em; letter-spacing: -0.015em; line-height: 1.2;
+}
+/* Short ink rule above each h2 — the editorial "section dash". */
+.blog-prose h2::before {
+  content: '';
+  display: block;
+  width: 34px; height: 3px;
+  background: #1B8BF5;
+  margin-bottom: 0.55em;
+}
+.blog-prose h3 {
+  font-family: var(--font-syne), 'Syne', sans-serif;
+  font-size: 1.12em; font-weight: 700; color: #2A2620;
+  margin: 1.7em 0 0.6em; letter-spacing: 0.005em;
+}
 .blog-prose ul, .blog-prose ol { color: rgba(42,38,32,0.78); padding-left: 1.5em; margin-bottom: 1.4em; }
 .blog-prose li { margin-bottom: 0.5em; line-height: 1.75; }
+.blog-prose li::marker { color: #1B8BF5; font-weight: 700; }
 .blog-prose strong { color: #2A2620; font-weight: 600; }
 .blog-prose em { color: rgba(42,38,32,0.88); }
-.blog-prose a { color: #1B8BF5; text-decoration: underline; text-decoration-color: rgba(27,139,245,0.4); }
-.blog-prose a:hover { text-decoration-color: #1B8BF5; }
+.blog-prose a {
+  color: #1B8BF5;
+  text-decoration: underline;
+  text-decoration-color: rgba(27,139,245,0.4);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 140ms ease, background 140ms ease;
+}
+.blog-prose a:hover { text-decoration-color: #1B8BF5; background: rgba(27,139,245,0.07); }
 .blog-prose code { background: rgba(42,38,32,0.06); color: #1B8BF5; padding: 2px 6px; border-radius: 4px; font-size: 0.88em; }
-.blog-prose blockquote { border-left: 3px solid #1B8BF5; padding-left: 1.2em; margin: 1.6em 0; color: rgba(42,38,32,0.65); font-style: italic; }
-.blog-prose table { display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; border-collapse: collapse; margin: 1.6em 0; font-size: 0.92em; }
-.blog-prose th, .blog-prose td { border: 1px solid rgba(42,38,32,0.14); padding: 10px 12px; text-align: left; vertical-align: top; line-height: 1.5; }
-.blog-prose th { font-family: 'Space Grotesk', sans-serif; font-weight: 600; color: #2A2620; background: rgba(42,38,32,0.04); white-space: nowrap; }
+.blog-prose blockquote {
+  position: relative;
+  border-left: none;
+  margin: 2em 0;
+  padding: 0.4em 0 0.4em 2.6em;
+  color: rgba(42,38,32,0.72);
+  font-style: italic;
+  font-size: 1.08em;
+  line-height: 1.65;
+}
+.blog-prose blockquote::before {
+  content: '\201C';
+  position: absolute;
+  left: 0; top: -0.12em;
+  font-family: var(--font-display), 'Playfair Display', Georgia, serif;
+  font-size: 3em;
+  line-height: 1;
+  color: rgba(27,139,245,0.55);
+}
+.blog-prose blockquote p:last-child { margin-bottom: 0; }
+.blog-prose hr { border: none; border-top: 1px solid rgba(42,38,32,0.14); margin: 2.6em auto; width: 120px; }
+/* Tables: ledger style — horizontal rules only, double rule under the header. */
+.blog-prose table { display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; border-collapse: collapse; margin: 1.8em 0; font-size: 0.92em; }
+.blog-prose th, .blog-prose td { border: none; border-bottom: 1px solid rgba(42,38,32,0.12); padding: 11px 14px; text-align: left; vertical-align: top; line-height: 1.5; }
+.blog-prose th {
+  font-family: var(--font-syne), 'Syne', sans-serif;
+  font-weight: 700; font-size: 0.82em;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: rgba(42,38,32,0.65);
+  border-bottom: 2px solid #2A2620;
+  background: transparent; white-space: nowrap;
+}
+.blog-prose tbody tr:nth-child(even) td { background: rgba(42,38,32,0.025); }
+.blog-prose tbody tr:hover td { background: rgba(27,139,245,0.05); }
 
 /* Blog article prose styles — light bg (Pathoragy) */
 .pathoragy-prose p { color: rgba(42,38,32,0.82); margin-bottom: 1.4em; }
@@ -178,6 +268,18 @@ body {
 
 /* Blog editorial front page (lead + Latest rail + ruled section lists). */
 .blog-link:hover .blog-title { color: #1B8BF5; }
+/* Series banner cards: lift + brighten on hover, arrow label slides right. */
+.diffr-series-card { transition: transform 220ms cubic-bezier(0.22,1,0.36,1), box-shadow 220ms ease, background 220ms ease; }
+.diffr-series-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px rgba(42,38,32,0.10);
+  background: rgba(255,255,255,0.62) !important;
+}
+.diffr-series-card .diffr-series-arrow { display: inline-block; transition: transform 220ms cubic-bezier(0.22,1,0.36,1); }
+.diffr-series-card:hover .diffr-series-arrow { transform: translateX(5px); }
+/* Ruled section rows: faint index number inks in on hover. */
+.diffr-row-index { color: rgba(42,38,32,0.28); transition: color 180ms ease; }
+.blog-link:hover .diffr-row-index { color: #1B8BF5; }
 .blog-chip:hover { border-color: rgba(27,139,245,0.5) !important; color: #1B8BF5 !important; }
 .blog-chip[aria-pressed="true"]:hover { color: #fff !important; }
 @media (max-width: 760px) {

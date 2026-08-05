@@ -54,9 +54,9 @@ export function DiffrNav() {
         {/* Links + CTA */}
         <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
           <div className="hidden sm:flex" style={{ alignItems: "center", gap: 24 }}>
-            <Link href="/diffr/start" style={linkStyle}>Guides</Link>
-            <Link href="/diffr/blog" style={linkStyle}>Blog</Link>
-            <Link href="/diffr/support" style={linkStyle}>Support</Link>
+            <Link href="/diffr/start" className="diffr-nav-link" style={linkStyle}>Guides</Link>
+            <Link href="/diffr/blog" className="diffr-nav-link" style={linkStyle}>Blog</Link>
+            <Link href="/diffr/support" className="diffr-nav-link" style={linkStyle}>Support</Link>
           </div>
           {/* Social */}
           <div className="hidden sm:flex" style={{ alignItems: "center", gap: 14 }}>
@@ -75,6 +75,7 @@ export function DiffrNav() {
           </div>
           <a
             href="https://apps.apple.com/us/app/diffr/id6772870733"
+            className="diffr-nav-cta"
             style={{
               background: "#1B8BF5",
               color: "#fff",

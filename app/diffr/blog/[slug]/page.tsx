@@ -284,7 +284,7 @@ export default async function BlogPostPage({ params }: Props) {
     : null
 
   return (
-    <div style={{ backgroundColor: '#F0EBE3', minHeight: '100vh', color: '#2A2620' }}>
+    <div className="diffr-paper" style={{ backgroundColor: '#F0EBE3', minHeight: '100vh', color: '#2A2620' }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -314,7 +314,7 @@ export default async function BlogPostPage({ params }: Props) {
 
 
       {/* Article */}
-      <article style={{ maxWidth: '720px', margin: '0 auto', padding: '100px 24px 80px' }}>
+      <article className="diffr-article-rise" style={{ maxWidth: '720px', margin: '0 auto', padding: '100px 24px 80px' }}>
         {/* Meta */}
         <header style={{ marginBottom: '48px' }}>
           <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginBottom: '24px' }}>
@@ -341,7 +341,11 @@ export default async function BlogPostPage({ params }: Props) {
           }}>
             {post.title}
           </h1>
-          <p style={{ color: 'rgba(42,38,32,0.6)', fontSize: '18px', lineHeight: 1.6 }}>
+          <p style={{
+            fontFamily: "var(--font-display), 'Playfair Display', Georgia, serif",
+            fontStyle: 'italic',
+            color: 'rgba(42,38,32,0.62)', fontSize: '19px', lineHeight: 1.6,
+          }}>
             {post.description}
           </p>
           {coverImage && (
@@ -357,20 +361,22 @@ export default async function BlogPostPage({ params }: Props) {
               />
             </div>
           )}
-          <div style={{ height: '1px', background: 'rgba(42,38,32,0.08)', margin: '32px 0' }} />
+          {/* double hairline rule — the editorial fold between header and body */}
+          <div style={{ borderTop: '2px solid rgba(42,38,32,0.55)', borderBottom: '1px solid rgba(42,38,32,0.18)', height: '4px', margin: '34px 0' }} />
         </header>
 
         {/* TL;DR — answer-first summary (GEO/AEO). Mirrors BlogPosting.abstract. */}
         {tldr && (
           <div style={{
             marginBottom: '40px',
-            background: 'rgba(27,139,245,0.07)',
-            border: '1px solid rgba(27,139,245,0.22)',
-            borderRadius: '12px',
+            background: 'rgba(255,255,255,0.45)',
+            border: '1px solid rgba(42,38,32,0.10)',
+            borderLeft: '4px solid #1B8BF5',
+            borderRadius: '0 12px 12px 0',
             padding: '20px 24px',
           }}>
             <p style={{
-              fontFamily: "'Space Grotesk', sans-serif",
+              fontFamily: "var(--font-syne), 'Syne', sans-serif",
               fontSize: '11px', fontWeight: 700, letterSpacing: '0.15em',
               textTransform: 'uppercase', color: '#1B8BF5', margin: '0 0 10px',
             }}>
@@ -439,8 +445,8 @@ export default async function BlogPostPage({ params }: Props) {
                   borderTop: i === 0 ? 'none' : '1px solid rgba(42,38,32,0.08)',
                 }}>
                   <h3 style={{
-                    fontFamily: "'Space Grotesk', sans-serif",
-                    fontSize: '17px', fontWeight: 600, lineHeight: 1.4,
+                    fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                    fontSize: '17px', fontWeight: 700, lineHeight: 1.4,
                     color: '#2A2620', margin: '0 0 10px',
                   }}>
                     {item.q}
@@ -471,17 +477,17 @@ export default async function BlogPostPage({ params }: Props) {
             </h2>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '12px' }}>
               {relatedGuides.map((g) => (
-                <Link key={g.slug} href={`/diffr/blog/${g.slug}`} style={{
+                <Link key={g.slug} href={`/diffr/blog/${g.slug}`} className="diffr-series-card" style={{
                   display: 'block', textDecoration: 'none',
                   background: '#F8F5F1', border: '1px solid rgba(42,38,32,0.10)',
                   borderRadius: '12px', padding: '16px 18px',
                 }}>
                   <p style={{
-                    fontFamily: "'Space Grotesk', sans-serif",
+                    fontFamily: "var(--font-syne), 'Syne', sans-serif",
                     fontSize: '15px', fontWeight: 600, lineHeight: 1.35,
                     color: '#1B8BF5', margin: 0,
                   }}>
-                    {g.title} →
+                    {g.title} <span className="diffr-series-arrow">→</span>
                   </p>
                 </Link>
               ))}
@@ -507,20 +513,29 @@ export default async function BlogPostPage({ params }: Props) {
         {/* CTA */}
         <div style={{
           marginTop: '48px',
-          background: 'rgba(27,139,245,0.08)',
-          border: '1px solid rgba(27,139,245,0.2)',
-          borderRadius: '16px',
-          padding: '32px',
+          background: 'rgba(255,255,255,0.5)',
+          border: '1px solid rgba(42,38,32,0.10)',
+          borderTop: '3px solid #1B8BF5',
+          borderRadius: '0 0 16px 16px',
+          padding: '36px 32px',
           textAlign: 'center',
         }}>
-          <p style={{ fontSize: '16px', lineHeight: 1.6, marginBottom: '20px', color: 'rgba(42,38,32,0.8)' }}>
-            Diffr is a brand curation app built on the no-repeat principle — one good brand per slot, every slot assigned. It is live on the App Store.
+          <p style={{
+            fontFamily: "var(--font-display), 'Playfair Display', Georgia, serif",
+            fontSize: '22px', fontWeight: 700, letterSpacing: '-0.01em',
+            lineHeight: 1.3, margin: '0 0 10px', color: '#2A2620',
+          }}>
+            One good brand per slot.<br />Every slot assigned.
           </p>
-          <a href="https://apps.apple.com/us/app/diffr/id6772870733" style={{
+          <p style={{ fontSize: '15px', lineHeight: 1.6, margin: '0 auto 22px', color: 'rgba(42,38,32,0.68)', maxWidth: '440px' }}>
+            Diffr is a brand curation app built on the no-repeat principle. It is live on the App Store.
+          </p>
+          <a href="https://apps.apple.com/us/app/diffr/id6772870733" className="diffr-nav-cta" style={{
             display: 'inline-block',
             background: '#1B8BF5', color: '#fff',
-            padding: '14px 32px', borderRadius: '10px',
+            padding: '14px 32px', borderRadius: '100px',
             textDecoration: 'none', fontSize: '15px', fontWeight: 700,
+            fontFamily: "var(--font-syne), 'Syne', sans-serif",
           }}>
             Get Diffr on the App Store
           </a>

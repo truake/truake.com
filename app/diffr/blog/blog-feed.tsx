@@ -133,7 +133,7 @@ function FrontPage({
       {behindTheBuildCount > 0 && (
         <Link
           href="/diffr/blog/behind-the-build"
-          className="blog-link"
+          className="blog-link diffr-series-card"
           style={{
             display: 'block',
             textDecoration: 'none',
@@ -155,7 +155,7 @@ function FrontPage({
             One name on the marquee. Many B2B brands behind each famous venue — verified supplier maps with sources.
           </p>
           <span style={{ fontFamily: sans, fontSize: 12, fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase', color: C.blue }}>
-            {behindTheBuildCount} articles →
+            {behindTheBuildCount} articles <span className="diffr-series-arrow">→</span>
           </span>
         </Link>
       )}
@@ -163,7 +163,7 @@ function FrontPage({
       {behindTheContractCount > 0 && (
         <Link
           href="/diffr/blog/behind-the-contract"
-          className="blog-link"
+          className="blog-link diffr-series-card"
           style={{
             display: 'block',
             textDecoration: 'none',
@@ -185,7 +185,7 @@ function FrontPage({
             One buyer name on letterhead. Many TED contract awards on the record — verified procurement maps with sources.
           </p>
           <span style={{ fontFamily: sans, fontSize: 12, fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase', color: CAT_META.strategy.color }}>
-            {behindTheContractCount} pilot articles →
+            {behindTheContractCount} pilot articles <span className="diffr-series-arrow">→</span>
           </span>
         </Link>
       )}
@@ -249,7 +249,12 @@ function SectionList({ title, posts }: { title: string; posts: BlogPost[] }) {
           className="blog-link"
           style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 24, padding: '17px 0', borderBottom: i < posts.length - 1 ? `1px solid ${C.ruleLight}` : 'none', textDecoration: 'none', color: C.text }}
         >
-          <span className="blog-title" style={{ fontFamily: play, fontSize: 'clamp(19px,2.2vw,22px)', fontWeight: 600, lineHeight: 1.25 }}>{p.title}</span>
+          <span style={{ display: 'flex', alignItems: 'baseline', gap: 16, minWidth: 0 }}>
+            <span className="diffr-row-index" aria-hidden="true" style={{ fontFamily: 'var(--font-mono), monospace', fontSize: 12, fontWeight: 500, flexShrink: 0, width: 22 }}>
+              {String(i + 1).padStart(2, '0')}
+            </span>
+            <span className="blog-title" style={{ fontFamily: play, fontSize: 'clamp(19px,2.2vw,22px)', fontWeight: 600, lineHeight: 1.25 }}>{p.title}</span>
+          </span>
           <span style={{ fontFamily: sans, fontSize: 12, color: C.faint, whiteSpace: 'nowrap', textTransform: 'uppercase', letterSpacing: '0.04em' }}>{fmt(p.date)}</span>
         </Link>
       ))}

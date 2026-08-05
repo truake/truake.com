@@ -71,7 +71,7 @@ export default function BehindTheContractHubPage() {
   }
 
   return (
-    <div style={{ backgroundColor: '#F0EBE3', minHeight: '100vh', color: '#2A2620', padding: '64px 24px 96px' }}>
+    <div className="diffr-paper" style={{ backgroundColor: '#F0EBE3', minHeight: '100vh', color: '#2A2620', padding: '64px 24px 96px' }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }}

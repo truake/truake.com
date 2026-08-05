@@ -31,7 +31,7 @@ export default async function StarterIndexPage() {
   const guides = await getAllGuides();
 
   return (
-    <div style={{ backgroundColor: C.bg, color: C.text, minHeight: "100vh" }}>
+    <div className="diffr-paper" style={{ backgroundColor: C.bg, color: C.text, minHeight: "100vh" }}>
 
 
       {/* Hero */}
