@@ -143,6 +143,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the poolside luxury flat lay is ten slots — Goyard pouch, Saint Laurent cap, Diptyque ×2, Byredo, Louis Vuitton wallet, Rolex, Chanel lip balm, AirPods Pro, and Anker power bank — one brand each. Scent, sun, steel, and charge by the lounger; not a 60-item haul. Live catalog tiles below.',
   'daily-essentials-brand-guide':
     'Bottom line: the daily essentials flat lay is seven slots — Margiela Replica sneakers, Dior card holder, AirPods Pro, Rolex, Creed Aventus, Rimowa iPhone case, and Mercedes key — one brand each. Quiet-luxury carry on a ribbed rug; ignore the meme text and cash prop. Live catalog tiles below.',
+  'creative-desk-edc-brand-guide':
+    'Bottom line: the creative desk EDC flat lay is eight slots — Keychron Q1 Pro keyboard, AirPods Max, Sonos Roam, Olympus Pen F, Dior Saddle, Owala FreeSip, Ray-Ban Wayfarer, and Le Labo Calone 17 — one brand each. Type, listen, shoot, carry, hydrate, shade, and scent on an olive-green bedsheet; ignore Aesop props and jewelry from the reference. Live catalog tiles below.',
 }
 
 export interface FaqItem {
@@ -1226,6 +1228,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 121. Several slots may show pending until Browse/crawl closes gaps for Margiela sneakers, Dior card holders, Creed Aventus, and Mercedes keys.',
+    },
+  ],
+
+  'creative-desk-edc-brand-guide': [
+    {
+      q: 'What is the creative desk EDC flat lay?',
+      a: 'It is an eight-slot desk carry kit from a viral olive-green bedsheet flat lay: Keychron Q1 Pro mechanical keyboard, Apple AirPods Max, Sonos Roam, Olympus Pen F film camera, Dior Saddle bag, Owala FreeSip bottle, Ray-Ban Wayfarer sunglasses, and Le Labo Calone 17 candle — one brand per slot.',
+    },
+    {
+      q: 'Why ignore the Aesop bottles and jewelry in the reference?',
+      a: 'The hand-wash trio, chain bracelet, and ring are mood props on the source photo — not typed product slots. The og-base cover and scene map the eight carry objects only.',
+    },
+    {
+      q: 'How is this different from quiet luxury EDC or daily essentials?',
+      a: 'Quiet luxury EDC is a marble-desk grid with laptop, sneakers, watch, and pen. Daily essentials is rug-surface door-drop carry. Creative desk EDC is a bedsheet flat lay focused on typing, private audio, desk audio, film, bag, hydration, shades, and home scent.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 122. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

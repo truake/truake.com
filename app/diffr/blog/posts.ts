@@ -1181,6 +1181,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'creative-desk-edc-brand-guide',
+    title: 'Creative Desk EDC Flat Lay: 8 Picks for Type, Listen, Shoot & Carry',
+    description: 'The viral olive-green bedsheet flat lay decoded — Keychron Q1 Pro, AirPods Max, Sonos Roam, Olympus Pen F, Dior Saddle, Owala FreeSip, Ray-Ban Wayfarer, and Le Labo Calone 17. Eight slots with live catalog images from Diffr.',
+    date: '2026-08-06',
+    readTime: '4 min read',
+    tags: ['brand guide', 'creative desk', 'flat lay', 'EDC', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight creative-desk essentials from the viral bedsheet flat lay — keyboard, headphones, speaker, film camera, saddle bag, water bottle, sunglasses, and candle — one brand per slot.',
+    content: `
+<p>The olive-green bedsheet flat lay is creative-desk EDC decoded: a white Keychron mechanical keyboard, AirPods Max with Smart Case, a Sonos Roam, an Olympus Pen F film camera, a black Dior Saddle bag, an Owala FreeSip bottle, folded Ray-Ban Wayfarers, and a Le Labo Calone 17 candle. Strip the Aesop hand-wash trio and jewelry props &mdash; neither is a product slot &mdash; map what remains to canonical types, and surface one brand per slot from the live catalog.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Mechanical Keyboard</h3>
+<p><strong>Keychron Q1 Pro</strong> &mdash; compact 65% white/grey shell with white keycaps from the flat lay.</p>
+
+<h3>Slot 2 &mdash; Wireless Headphones</h3>
+<p><strong>Apple AirPods Max</strong> &mdash; silver over-ear cups with matching Smart Case.</p>
+
+<h3>Slot 3 &mdash; Bluetooth Speaker</h3>
+<p><strong>Sonos Roam</strong> &mdash; light grey portable speaker from the grid.</p>
+
+<h3>Slot 4 &mdash; Film Camera</h3>
+<p><strong>Olympus Pen F</strong> &mdash; silver-and-black half-frame rangefinder body; pin the Pen F, not the half-frame Pen FT variant.</p>
+
+<h3>Slot 5 &mdash; Luxury Handbag</h3>
+<p><strong>Dior Saddle</strong> &mdash; black pebbled-leather curved saddle bag with CD-buckle hardware.</p>
+
+<h3>Slot 6 &mdash; Water Bottle</h3>
+<p><strong>Owala FreeSip</strong> &mdash; white stainless bottle with grey flip-spout lid.</p>
+
+<h3>Slot 7 &mdash; Sunglasses</h3>
+<p><strong>Ray-Ban Wayfarer</strong> &mdash; folded black acetate frames from the flat lay.</p>
+
+<h3>Slot 8 &mdash; Scented Candle</h3>
+<p><strong>Le Labo Calone 17</strong> &mdash; clear glass apothecary jar with minimalist label band.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Most EDC listicles repost mood-board photos. Diffr&rsquo;s brand kit below pulls <em>typed product lines</em> with R2-hosted images. Each slot is pinned on preset 122 so the kit matches the reference decode &mdash; keyboard, private audio, desk audio, film, carry, hydration, shades, and scent.</p>
+
+<p>Distinct from <a href="/diffr/blog/quiet-luxury-edc-brand-guide">quiet luxury EDC</a> (marble desk + laptop/pen/book) and <a href="/diffr/blog/daily-essentials-brand-guide">daily essentials</a> (ribbed rug carry). Explore the interactive scene: <a href="/diffr/start/creative-desk-edc-flat-lay">Creative Desk EDC Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'housewarming-gift-ideas-brand-guide',
     title: 'Best Housewarming Gifts They\'ll Actually Use (By Budget, One Pick Each)',
     description: 'Best housewarming gifts they will actually use — one great pick per vibe and budget, from a $25 Nest candle to a Le Creuset Dutch oven. No hundred-item roundup, just gifts that earn their place in a new home.',
