@@ -147,6 +147,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the creative desk EDC flat lay is eight slots — Keychron Q1 Pro keyboard, AirPods Max, Sonos Roam, Olympus Pen F, Dior Saddle, Owala FreeSip, Ray-Ban Wayfarer, and Le Labo Calone 17 — one brand each. Type, listen, shoot, carry, hydrate, shade, and scent on an olive-green bedsheet; ignore Aesop props and jewelry from the reference. Live catalog tiles below.',
   'girl-essentials-brand-guide':
     'Bottom line: the MacBook "girl essentials" flat lay is eight slots — Matin Kim card holder, Jo Malone cologne, Rhode Peptide Lip Tint, Tamburins lip balm, Byredo hand cream, Apple EarPods, Gentle Monster eyewear, and Mejuri hoops — one brand each. Beauty-and-carry on a closed laptop; ignore the meme caption overlay. Live catalog tiles below.',
+  'on-your-feet-all-day-work-brand-guide':
+    'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
 
 export interface FaqItem {
@@ -270,6 +272,14 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Which Adidas line is best for everyday wear?',
       a: "For street style, Adidas Originals — Samba or Gazelle in a neutral colorway. For casual athletic (joggers, hoodies, commute), Adidas Sportswear Essentials. Originals reads more heritage-icon; Sportswear reads more clean athletic basics. Both are everyday lanes; Performance is for when you actually sweat.",
+    },
+    {
+      q: "I'm on my feet all day at work — which Adidas line fits best?",
+      a: "For all-day standing and walking on hard floors, start with Adidas Performance daily trainers (Ultraboost or Adizero comfort lines) — engineered cushioning and stable fit, not campus suede. Originals Samba/Gazelle look great but are lifestyle lasts: fine for short shifts and mixed sit/stand, not ideal as your only 10-hour floor shoe. Terrex is for trail and weather outdoors, not indoor retail or hospital tile. If Adidas is one slot in a wider work kit, pair Performance shoes with compression socks, insoles, and stretch work pants from other specialists — see Diffr's on-your-feet-all-day work guide.",
+    },
+    {
+      q: 'How does Adidas fit vary between collections?',
+      a: "Originals lifestyle shoes (Samba, Gazelle) often run narrow in the toe box with a lower profile last — size up half if you are between widths. Sportswear apparel (Essentials joggers, hoodies) tends toward athletic regular fit with stretch. Performance running and training shoes use sport-specific lasts: snug heel, room for toe splay in running models; try half size up for all-day standing if your job is walk-heavy. Terrex trail shoes fit true to size with room for downhill toe bump. When in doubt, match the line to the job first, then size for the longest shift you work.",
     },
   ],
 
@@ -1268,6 +1278,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 123. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'on-your-feet-all-day-work-brand-guide': [
+    {
+      q: 'What is the on-your-feet-all-day work kit?',
+      a: 'It is an eight-slot shift comfort kit for jobs that keep you standing or walking on hard floors: Hoka cushioned walking shoe, Comrad compression socks, Superfeet support insoles, Lululemon stretch work pants, Uniqlo AIRism moisture tee, O\'Keeffe\'s foot recovery cream, Owala hydration bottle, and Gorilla Grip anti-fatigue mat — one brand per slot.',
+    },
+    {
+      q: 'How is this different from Adidas lines explained?',
+      a: 'Adidas lines explained maps sub-lines within one parent brand (Originals vs Performance vs Terrex) in editorial prose. This kit is a cross-brand Scene: each slot is a different specialist brand for a different function — shoes, socks, insoles, pants, base layer, foot care, hydration, and home recovery mat.',
+    },
+    {
+      q: 'Which Adidas line is best if I stand all day?',
+      a: 'For Adidas specifically, Performance daily trainers (Ultraboost-class cushioning) beat Originals lifestyle lasts for long floor shifts. But a closed kit assigns one brand per function — so Adidas may only appear in the shoe slot if you swap Hoka for Performance; the socks, insoles, and pants come from other specialists. See the Adidas lines guide for fit-by-collection detail.',
+    },
+    {
+      q: 'Why one brand per slot for standing work?',
+      a: 'Repeating the same brand across socks, shoes, and pants reads as a catalogue, not a kit. Diffr assigns the best specialist per function — compression from Comrad, insoles from Superfeet, stretch pants from Lululemon — so you decide once per slot and close the file.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 124. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

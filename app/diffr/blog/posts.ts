@@ -277,6 +277,10 @@ export const posts: BlogPost[] = [
 <h2>Y-3 — Design Collab</h2>
 <p>The lane: fashion-forward, not beginner default. The vibe: Yohji Yamamoto silhouettes at a premium. <strong>Skip unless</strong> you already know you want the design piece &mdash; Originals and Performance cover 95% of real life.</p>
 
+<h2>On Your Feet All Day — Fit by Line</h2>
+<p>If you stand or walk for most of a shift, <strong>line choice matters more than colorway.</strong> Originals lifestyle lasts (Samba, Gazelle) are narrow heritage shapes &mdash; fine for mixed sit/stand, painful as a sole 10-hour floor shoe. <strong>Performance</strong> daily trainers (Ultraboost-class cushioning) are the Adidas lane for walk-heavy work. <strong>Terrex</strong> is for trail and weather, not hospital tile or retail concrete. Sportswear joggers and tees stretch for commute and lounge; they are not a substitute for compression socks or insoles when you are on concrete all day.</p>
+<p>Adidas is one brand in a closed kit, not the whole wall. For a <strong>cross-brand standing-at-work kit</strong> (shoes, socks, insoles, pants, hydration &mdash; one specialist per slot), see <a href="/diffr/blog/on-your-feet-all-day-work-brand-guide">On Your Feet All Day at Work</a>.</p>
+
 <h2>The Diffr Take</h2>
 <p>Adidas already split the wall into lanes; your job is to match the lane to your week. Everyday street &rarr; Originals; casual athletic &rarr; Sportswear; sweat &rarr; Performance; trail &rarr; Terrex. One lane, one decision. That is <a href="/diffr/blog/the-decide-once-rule">decide once</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock picks across every scene, not just the stripes.</p>
 `.trim(),
@@ -1266,6 +1270,53 @@ export const posts: BlogPost[] = [
 <p>Beauty flat lays circulate faster than shopping lists. Diffr&rsquo;s brand kit below pulls <em>typed product lines</em> with R2-hosted images. All eight slots are pinned on preset 123 so tiles match the decode, not a generic pool pick.</p>
 
 <p>Distinct from <a href="/diffr/blog/creative-desk-edc-brand-guide">creative desk EDC</a> (bedsheet desk kit) and <a href="/diffr/blog/daily-essentials-brand-guide">daily essentials</a> (rug carry). Explore the interactive scene: <a href="/diffr/start/girl-essentials-macbook-flat-lay">Girl Essentials MacBook Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'on-your-feet-all-day-work-brand-guide',
+    title: 'On Your Feet All Day at Work: 8 Comfort Picks, One Brand Per Slot',
+    description: 'Standing or walking all day at work — Hoka, Comrad, Superfeet, Lululemon, Uniqlo, O\'Keeffe\'s, Owala, and Gorilla Grip. Eight slots, one specialist brand each, not a single-brand wall.',
+    date: '2026-08-07',
+    readTime: '5 min read',
+    tags: ['brand guide', 'standing all day', 'work comfort', 'compression socks', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Shift work on hard floors — shoes, socks, insoles, pants, base layer, foot care, hydration, and recovery mat. One brand per slot.',
+    content: `
+<p>If you are on your feet all day, the wrong shoe and the wrong pants compound by hour six. Search engines send people to &ldquo;how does Adidas fit vary between collections&rdquo; because the real question is <strong>which lane matches your shift</strong> &mdash; not which logo to collect. Diffr&rsquo;s answer is a closed eight-slot kit: one specialist brand per function, no repeats. This is not an Adidas catalogue; Adidas may be one line in your head, but the kit spans shoes, circulation, insoles, stretch, base layer, foot repair, hydration, and recovery.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Cushioned Walking Shoe</h3>
+<p><strong>Hoka Clifton / Bondi class</strong> &mdash; max-cushion daily trainer for concrete, tile, and long walk-heavy shifts. Engineered foam and stable heel, not a narrow lifestyle last.</p>
+
+<h3>Slot 2 &mdash; Compression Socks</h3>
+<p><strong>Comrad</strong> &mdash; knee-high or crew compression for swelling and fatigue on 8&ndash;12 hour floors.</p>
+
+<h3>Slot 3 &mdash; Support Insoles</h3>
+<p><strong>Superfeet Green</strong> &mdash; high-arch support insole when stock factory insoles flatten by mid-shift.</p>
+
+<h3>Slot 4 &mdash; Stretch Work Pants</h3>
+<p><strong>Lululemon ABC Pant</strong> &mdash; tapered stretch work pant that moves with sit-stand and long walks (not stiff chino cotton).</p>
+
+<h3>Slot 5 &mdash; Moisture Base Tee</h3>
+<p><strong>Uniqlo AIRism</strong> &mdash; thin moisture-wicking crew under uniform or polo; stays cooler than cotton by hour four.</p>
+
+<h3>Slot 6 &mdash; Foot Recovery</h3>
+<p><strong>O&rsquo;Keeffe&rsquo;s for Healthy Feet</strong> &mdash; end-of-shift foot cream for cracked heels and dry skin from sealed work shoes.</p>
+
+<h3>Slot 7 &mdash; Hydration</h3>
+<p><strong>Owala FreeSip</strong> &mdash; shift-long water bottle you actually drink from between floor walks.</p>
+
+<h3>Slot 8 &mdash; Anti-Fatigue Mat</h3>
+<p><strong>Gorilla Grip</strong> &mdash; textured mat for home kitchen / WFH stand breaks so off-shift standing is not bare tile.</p>
+
+<h2>Where Adidas Fits (One Line, Not the Whole Kit)</h2>
+<p>If Adidas is your shoe brand, <strong>Performance</strong> daily trainers beat <strong>Originals</strong> Samba/Gazelle for all-day floor work &mdash; see <a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a> for fit-by-collection detail. In this Scene, Hoka owns the cushioned shoe slot; swap only if you have already decided Performance is your lane. Socks, insoles, and pants still come from other specialists.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Standing-work listicles repeat the same athleisure brand six times. Diffr&rsquo;s kit below pulls <em>typed product lines</em> with R2-hosted images — all eight slots pinned on preset 124. Buy order: shoes and socks first, insoles second, pants and tee third, foot care and hydration anytime.</p>
+
+<p>Distinct from <a href="/diffr/blog/running-gear-brand-guide">running gear</a> (sport training) and <a href="/diffr/blog/home-office-brand-guide">home office</a> (seated desk). Explore the interactive scene: <a href="/diffr/start/standing-all-day-work-kit">Standing All Day Work Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
   {

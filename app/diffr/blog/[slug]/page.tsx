@@ -67,6 +67,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'daily-essentials-brand-guide': 121,
   'creative-desk-edc-brand-guide': 122,
   'girl-essentials-brand-guide': 123,
+  'on-your-feet-all-day-work-brand-guide': 124,
   // Lines explained — brand-map posts (presets 115–119; kit renders when DB wired)
   'nike-lines-explained': 115,
   'lululemon-lines-explained': 116,
@@ -112,6 +113,7 @@ const BLOG_SLUG_TO_START: Record<string, string> = {
   'daily-essentials-brand-guide': 'daily-essentials-flat-lay',
   'creative-desk-edc-brand-guide': 'creative-desk-edc-flat-lay',
   'girl-essentials-brand-guide': 'girl-essentials-macbook-flat-lay',
+  'on-your-feet-all-day-work-brand-guide': 'standing-all-day-work-kit',
   'nike-lines-explained': 'nike-lines-flat-lay',
   'lululemon-lines-explained': 'lululemon-lines-flat-lay',
   'adidas-lines-explained': 'adidas-lines-flat-lay',
