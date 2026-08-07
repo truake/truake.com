@@ -1227,7 +1227,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'girl-essentials-brand-guide',
     title: 'Girl Essentials Flat Lay: 8 MacBook Beauty Picks, One Brand Per Slot',
-    description: 'The viral MacBook "girl essentials" flat lay decoded — Matin Kim, Jo Malone, Rhode, Tamburins, Byredo, Apple, Gentle Monster, and Mejuri. Eight slots with live catalog tiles where crawled.',
+    description: 'The viral MacBook "girl essentials" flat lay decoded — Matin Kim, Jo Malone, Rhode, Tamburins, Byredo, Apple EarPods, Gentle Monster, and Mejuri. Eight slots with live catalog images from Diffr.',
     date: '2026-08-07',
     readTime: '4 min read',
     tags: ['brand guide', 'girl essentials', 'flat lay', 'beauty EDC', 'one brand per slot', 'non-repetition principle'],
@@ -1245,7 +1245,7 @@ export const posts: BlogPost[] = [
 <p><strong>Jo Malone London English Pear &amp; Freesia</strong> &mdash; slim rectangular cologne bottle from the grid.</p>
 
 <h3>Slot 3 &mdash; Lip Color &amp; Care</h3>
-<p><strong>Rhode Peptide Glazing Fluid</strong> &mdash; the live catalog pin for Rhode on preset 123 (reference shows Peptide Lip Tint; crawl will tighten the match).</p>
+<p><strong>Rhode Peptide Lip Tint</strong> &mdash; the live catalog pin for Rhode on preset 123.</p>
 
 <h3>Slot 4 &mdash; Lip Balm</h3>
 <p><strong>Tamburins Lip Balm</strong> &mdash; white egg-shaped speckled balm from the reference.</p>
@@ -1254,16 +1254,16 @@ export const posts: BlogPost[] = [
 <p><strong>Byredo Gypsy Water Hand Cream</strong> &mdash; squeezed metal tube from the flat lay.</p>
 
 <h3>Slot 6 &mdash; Earphones</h3>
-<p><strong>Apple AirPods Pro (2nd generation)</strong> &mdash; live catalog pin for private audio (reference shows wired EarPods; same brand slot).</p>
+<p><strong>Apple EarPods with Lightning Connector</strong> &mdash; wired white EarPods from the flat lay.</p>
 
 <h3>Slot 7 &mdash; Eyewear</h3>
 <p><strong>Gentle Monster Matiny 01</strong> &mdash; round tortoiseshell frames from the catalog pin.</p>
 
 <h3>Slot 8 &mdash; Earrings</h3>
-<p><strong>Mejuri</strong> &mdash; chunky gold hoop earrings and band ring from the reference (catalog crawl pending).</p>
+<p><strong>Mejuri Bold Huggie Hoops</strong> &mdash; chunky gold hoop earrings from the reference.</p>
 
 <h2>Why This Post Exists</h2>
-<p>Beauty flat lays circulate faster than shopping lists. Diffr&rsquo;s brand kit below pulls <em>typed product lines</em> where crawled &mdash; three slots live on preset 123 today, five editorial targets queued for Browse. Each imaged slot is pinned so tiles match the decode, not a generic pool pick.</p>
+<p>Beauty flat lays circulate faster than shopping lists. Diffr&rsquo;s brand kit below pulls <em>typed product lines</em> with R2-hosted images. All eight slots are pinned on preset 123 so tiles match the decode, not a generic pool pick.</p>
 
 <p>Distinct from <a href="/diffr/blog/creative-desk-edc-brand-guide">creative desk EDC</a> (bedsheet desk kit) and <a href="/diffr/blog/daily-essentials-brand-guide">daily essentials</a> (rug carry). Explore the interactive scene: <a href="/diffr/start/girl-essentials-macbook-flat-lay">Girl Essentials MacBook Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),

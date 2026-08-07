@@ -146,7 +146,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'creative-desk-edc-brand-guide':
     'Bottom line: the creative desk EDC flat lay is eight slots — Keychron Q1 Pro keyboard, AirPods Max, Sonos Roam, Olympus Pen F, Dior Saddle, Owala FreeSip, Ray-Ban Wayfarer, and Le Labo Calone 17 — one brand each. Type, listen, shoot, carry, hydrate, shade, and scent on an olive-green bedsheet; ignore Aesop props and jewelry from the reference. Live catalog tiles below.',
   'girl-essentials-brand-guide':
-    'Bottom line: the MacBook "girl essentials" flat lay is eight slots — Matin Kim card holder, Jo Malone cologne, Rhode lip care, Tamburins lip balm, Byredo hand cream, Apple EarPods, Gentle Monster eyewear, and Mejuri hoops — one brand each. Beauty-and-carry on a closed laptop; ignore the meme caption overlay. Three slots have live catalog images today; five are pinned for crawl.',
+    'Bottom line: the MacBook "girl essentials" flat lay is eight slots — Matin Kim card holder, Jo Malone cologne, Rhode Peptide Lip Tint, Tamburins lip balm, Byredo hand cream, Apple EarPods, Gentle Monster eyewear, and Mejuri hoops — one brand each. Beauty-and-carry on a closed laptop; ignore the meme caption overlay. Live catalog tiles below.',
 }
 
 export interface FaqItem {
@@ -1255,7 +1255,7 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   'girl-essentials-brand-guide': [
     {
       q: 'What is the girl essentials MacBook flat lay?',
-      a: 'It is an eight-slot beauty-and-carry kit staged on a closed MacBook: Matin Kim card holder, Jo Malone English Pear & Freesia cologne, Rhode lip care, Tamburins egg lip balm, Byredo Gypsy Water hand cream, Apple EarPods, Gentle Monster eyewear, and Mejuri gold hoops — one brand per slot.',
+      a: 'It is an eight-slot beauty-and-carry kit staged on a closed MacBook: Matin Kim card holder, Jo Malone English Pear & Freesia cologne, Rhode Peptide Lip Tint, Tamburins egg lip balm, Byredo Gypsy Water hand cream, Apple EarPods with Lightning, Gentle Monster eyewear, and Mejuri Bold Huggie Hoops — one brand per slot.',
     },
     {
       q: 'Why ignore the "girl essentials" caption on the reference photo?',
@@ -1266,8 +1266,8 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: 'Pink aesthetic tray is a blush vanity grid (Dyson, Hydro Flask, Touchland). Daily essentials is quiet-luxury rug carry (Margiela, Rolex, Creed). Girl essentials is K-beauty-meets-minimal EDC on a laptop surface — wallet, scent, lip, hand care, audio, glasses, and jewelry.',
     },
     {
-      q: 'Why do only some slots show product images?',
-      a: 'Preset 123 pins three live catalog lines today (Rhode Peptide Glazing Fluid, Apple AirPods Pro, Gentle Monster Matiny 01). Matin Kim, Tamburins, Jo Malone cologne, Byredo hand cream, and Mejuri hoops are editorial targets until Browse/crawl closes the gaps.',
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 123. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 
