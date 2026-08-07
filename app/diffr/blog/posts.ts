@@ -1225,6 +1225,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'girl-essentials-brand-guide',
+    title: 'Girl Essentials Flat Lay: 8 MacBook Beauty Picks, One Brand Per Slot',
+    description: 'The viral MacBook "girl essentials" flat lay decoded — Matin Kim, Jo Malone, Rhode, Tamburins, Byredo, Apple, Gentle Monster, and Mejuri. Eight slots with live catalog tiles where crawled.',
+    date: '2026-08-07',
+    readTime: '4 min read',
+    tags: ['brand guide', 'girl essentials', 'flat lay', 'beauty EDC', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight girl-essentials on a MacBook — wallet, cologne, lip care, hand cream, EarPods, glasses, and hoops — one brand per slot.',
+    content: `
+<p>The MacBook &ldquo;girl essentials&rdquo; flat lay is a compact beauty-and-carry kit: a cream Matin Kim card holder, Jo Malone English Pear &amp; Freesia cologne, Rhode lip care, a speckled Tamburins egg lip balm, Byredo Gypsy Water hand cream, wired Apple EarPods, tortoiseshell Gentle Monster-style eyewear, and gold Mejuri hoops. Strip the white &ldquo;girl essentials&rdquo; caption overlay &mdash; meme chrome, not a product slot &mdash; map what remains to canonical types, and surface one brand per slot from the live catalog.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Card Holder</h3>
+<p><strong>Matin Kim</strong> &mdash; pebbled cream card holder with brushed metal logo plate from the flat lay.</p>
+
+<h3>Slot 2 &mdash; Cologne</h3>
+<p><strong>Jo Malone London English Pear &amp; Freesia</strong> &mdash; slim rectangular cologne bottle from the grid.</p>
+
+<h3>Slot 3 &mdash; Lip Color &amp; Care</h3>
+<p><strong>Rhode Peptide Glazing Fluid</strong> &mdash; the live catalog pin for Rhode on preset 123 (reference shows Peptide Lip Tint; crawl will tighten the match).</p>
+
+<h3>Slot 4 &mdash; Lip Balm</h3>
+<p><strong>Tamburins Lip Balm</strong> &mdash; white egg-shaped speckled balm from the reference.</p>
+
+<h3>Slot 5 &mdash; Hand Cream</h3>
+<p><strong>Byredo Gypsy Water Hand Cream</strong> &mdash; squeezed metal tube from the flat lay.</p>
+
+<h3>Slot 6 &mdash; Earphones</h3>
+<p><strong>Apple AirPods Pro (2nd generation)</strong> &mdash; live catalog pin for private audio (reference shows wired EarPods; same brand slot).</p>
+
+<h3>Slot 7 &mdash; Eyewear</h3>
+<p><strong>Gentle Monster Matiny 01</strong> &mdash; round tortoiseshell frames from the catalog pin.</p>
+
+<h3>Slot 8 &mdash; Earrings</h3>
+<p><strong>Mejuri</strong> &mdash; chunky gold hoop earrings and band ring from the reference (catalog crawl pending).</p>
+
+<h2>Why This Post Exists</h2>
+<p>Beauty flat lays circulate faster than shopping lists. Diffr&rsquo;s brand kit below pulls <em>typed product lines</em> where crawled &mdash; three slots live on preset 123 today, five editorial targets queued for Browse. Each imaged slot is pinned so tiles match the decode, not a generic pool pick.</p>
+
+<p>Distinct from <a href="/diffr/blog/creative-desk-edc-brand-guide">creative desk EDC</a> (bedsheet desk kit) and <a href="/diffr/blog/daily-essentials-brand-guide">daily essentials</a> (rug carry). Explore the interactive scene: <a href="/diffr/start/girl-essentials-macbook-flat-lay">Girl Essentials MacBook Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'housewarming-gift-ideas-brand-guide',
     title: 'Best Housewarming Gifts They\'ll Actually Use (By Budget, One Pick Each)',
     description: 'Best housewarming gifts they will actually use — one great pick per vibe and budget, from a $25 Nest candle to a Le Creuset Dutch oven. No hundred-item roundup, just gifts that earn their place in a new home.',
