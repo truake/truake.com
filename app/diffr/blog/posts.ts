@@ -2884,13 +2884,13 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'winter-layering-brand-guide',
-    title: 'Winter Essentials: The Layering System, Base, Mid, and Shell',
-    description: 'The winter essentials that actually keep you warm — eight cold-weather slots from base layer to winter boots, one brand each. How to layer for winter, what to buy first, and what to wear by temperature: base, mid, shell, and the extremities.',
+    title: 'Winter Layering Starter Kit: 8 Pieces, Base to Shell',
+    description: 'How to layer for winter — base, fleece, insulation, parka, plus beanie, gloves, scarf, and boots. One brand per slot with buy-order priority and a temperature cheat sheet.',
     date: '2026-06-12',
     readTime: '7 min read',
     tags: ['brand guide', 'winter layering for beginners', 'winter layering starter kit', 'how to layer for winter', 'first time in winter', 'cold weather clothing', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Eight slots. Eight brand answers. A real layering system — base, mid, insulation, shell, extremities. Stay warm. Stop researching.',
+    excerpt: 'Eight slots. Eight brands. Base to shell plus extremities — with buy-order priority and a temperature cheat sheet. Stay warm. Stop researching.',
     content: `
 <p>Staying warm is not about one heavy coat &mdash; it is a system. Base layer moves sweat off your skin, mid layer traps heat, insulation adds warmth, the shell blocks wind and snow, and the extremities (head, hands, feet) are where most of your warmth actually escapes. Get the system right and you are comfortable from a cold commute to a snow day; get it wrong and the most expensive parka still leaves you cold. The gear forums turn it into a physics seminar &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> measured in degrees. Diffr&rsquo;s rule holds: one brand per slot, file closed. Here is the complete beginner winter layering starter kit, layer by layer &mdash; with a buy-in-this-order priority and a by-temperature cheat sheet, so a first real winter does not catch you cold.</p>
 
@@ -2954,13 +2954,13 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'backpacking-gear-brand-guide',
-    title: 'Backpacking Checklist: The Big Three to Navigation, One Brand Per Slot',
-    description: 'The complete backpacking checklist — eleven slots from the big three to navigation, one brand each, assigned. What to buy first for your first backpacking trip, without a six-month research project.',
+    title: 'Backpacking Starter Kit: 11 Essentials, One Brand Per Slot',
+    description: 'Complete backpacking gear list for beginners — pack, tent, sleep system, stove, filter, and navigation, one specialist brand per slot. Big-three buy order included.',
     date: '2026-06-04',
     readTime: '8 min read',
     tags: ['brand guide', 'backpacking gear for beginners', 'backpacking starter kit', 'complete backpacking kit', 'backpacking gear list for beginners', 'backpacking brands', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Eleven slots. Eleven brand answers. The big three to navigation — assigned and closed. Hit the trail. Stop researching.',
+    excerpt: 'Eleven slots. Eleven brands. Pack to navigation — big-three buy order first. Hit the trail. Stop researching.',
     content: `
 <p>Backpacking is car camping with consequences: everything you need to sleep, eat, and stay alive goes on your back, so every gram and every dollar is a decision. (Drive-up camping instead? See <a href="/diffr/blog/camping-vs-backpacking-starter-kit">car camping vs backpacking</a>.) The gear forums will happily turn that into a six-month research project &mdash; <a href="/diffr/blog/the-toothpaste-aisle-tax">The Toothpaste Aisle Tax</a> measured in ounces. Diffr&rsquo;s approach is the same everywhere: one brand per slot, file closed. Here is the complete beginner backpacking starter kit, with a buy-in-this-order priority at the end &mdash; starting with the &ldquo;big three&rdquo; that dominate your pack weight and your budget.</p>
 

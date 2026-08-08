@@ -3,13 +3,16 @@ import { getAllPosts as getDiffrPosts } from "./diffr/blog/posts";
 import { getAllPosts as getPathoraGyPosts } from "./pathoragy/blog/posts";
 import { getAllGuides, toUrlSlug } from "./diffr/start/lib";
 import { START_SLUGS_WITH_BLOG_TWIN } from "./diffr/blog-slug-maps";
+import { SITEMAP_EXCLUDE_SLUGS } from "./seo-config";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const diffrBlogPosts = getDiffrPosts().map((post) => ({
+  const diffrBlogPosts = getDiffrPosts()
+    .filter((post) => !SITEMAP_EXCLUDE_SLUGS.has(post.slug))
+    .map((post) => ({
     url: `https://truake.com/diffr/blog/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: "monthly" as const,
-    priority: 0.7,
+    priority: post.slug.endsWith("-brand-guide") ? 0.85 : 0.7,
   }));
 
   const pathBlogPosts = getPathoraGyPosts().map((post) => ({
