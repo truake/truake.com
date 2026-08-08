@@ -1,5 +1,7 @@
 # Diffr — X (Twitter) Post Queue
 
+> **2026-08-06:** Blog 自动队列已取消（940 行 → `rejected`）。X 主策略 = Build in Public（`Diffr/social/x/build_in_public_plan.md`）。本文件仅作历史存档。
+
 Native-thread format. X suppresses reach on posts with external links and rewards
 self-contained value (lists people can read/save without clicking out). So each
 entry is a **thread**: deliver the whole kit in the tweets, put the link only in
@@ -13,7 +15,60 @@ that only helps if the post is native, not a link drop.
 
 ---
 
+## approved schedule · Ahrefs Jul 2026 harvest (confirmed 2026-07-25)
+
+**Time:** 10:00 AM ET daily · **Account:** @Diffr_app · **Format:** native thread, link last.
+
+| Date | Thread (x-queue heading) | Status |
+|------|--------------------------|--------|
+| Mon **2026-07-28** | 54321 packing method — READY | ⏳ scheduled |
+| Tue **2026-07-29** | Thoughtful gift ideas — READY | ⏳ scheduled |
+| Wed **2026-07-30** | College dorm checklist — READY | ⏳ scheduled |
+| Thu **2026-07-31** | Running shoes for beginners — READY | ⏳ scheduled |
+| Fri **2026-08-01** | Nike sub-brands — READY | ⏳ scheduled |
+| Sat **2026-08-02** | Baby registry must haves — READY | ⏳ scheduled |
+
+### Lines explained batch (2026-08-03) · 10:00 AM ET · `thread_queue_2026-08-03-lines-batch.json`
+
+| Date | Thread | Supabase | Status |
+|------|--------|----------|--------|
+| Sun **2026-08-03** | Lululemon lines explained | #1151 | ⏳ scheduled |
+| Mon **2026-08-04** | Nike lines explained | #1153 | ⏳ scheduled |
+| Tue **2026-08-05** | Adidas lines explained | #1154 | ⏳ scheduled |
+| Wed **2026-08-06** | Uniqlo lines explained | #1155 | ⏳ scheduled |
+| Thu **2026-08-07** | Apple ecosystem lines | #1156 | ⏳ scheduled |
+
+After each publish: move entry to `## posted` below + log URL in `Diffr/social/x/posted_log.md`.
+
+**Auto-publish (2026-07-25):** 6 native threads queued via `social/x/thread_queue_2026-07-28.json` → `sku-image-crawler/x_pipeline/queue_native_threads.py` → Supabase `approved` → launchd `com.diffr.xpublish` posts reply chains at 10:00 ET.
+
+---
+
 ## queued
+
+### What's In My Bag — luxury beauty flat lay — READY (blog wired 2026-08-08); time to a weekend
+```
+1/ The luxury "what's in my bag" flat lay is eight objects — not one brand dump. One specialist per slot. 🧵
+
+2/ Bag → Miu Miu matelassé shoulder. The black quilted crossbody from the grid.
+
+3/ Shades → Gentle Monster Matiny 01. Tortoiseshell square frames.
+
+4/ Skin → Typology A43 serum. Minimal bottle, lifting concentrate.
+
+5/ Scent → Chanel N°5 parfum. The square flacon everyone recognizes.
+
+6/ Lip color → Saint Laurent Rouge Pur Couture. Black-and-gold tube.
+
+7/ Lip care → Rhode Peptide Lip Tint. Tint + peptide in one.
+
+8/ Cheek → Saie Dew Blush. Liquid flush from the flat lay.
+
+9/ Jewelry → Mejuri Bold Huggie Hoops. Chunky gold hoops.
+
+10/ Eight slots, eight brands — catalog images pinned on preset 112 ↓
+https://truake.com/diffr/blog/whats-in-my-bag-brand-guide
+```
 
 ### Batch A — og-base priority (GSC climbing, blog live; og refresh 2026-07-08)
 **Social:** post one per day, Mon–Fri suggested order below. Link only in last tweet. OG card = `/diffr/blog/{slug}/og`.
