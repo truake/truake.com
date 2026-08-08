@@ -148,7 +148,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'girl-essentials-brand-guide':
     'Bottom line: the MacBook "girl essentials" flat lay is eight slots — Matin Kim card holder, Jo Malone cologne, Rhode Peptide Lip Tint, Tamburins lip balm, Byredo hand cream, Apple EarPods, Gentle Monster eyewear, and Mejuri hoops — one brand each. Beauty-and-carry on a closed laptop; ignore the meme caption overlay. Live catalog tiles below.',
   'whats-in-my-bag-brand-guide':
-    'Bottom line: the luxury "what\'s in my bag" flat lay is eight slots — Miu Miu matelassé shoulder bag, Gentle Monster sunglasses, Typology serum, Chanel N°5, Saint Laurent lipstick, Rhode Peptide Lip Tint, Saie Dew Blush, and Mejuri hoops — one brand each. Beauty carry kit from the reference grid; live catalog tiles below.',
+    'Bottom line: the luxury "what\'s in my bag" flat lay is eight slots — Miu Miu black matelassé bag, Gentle Monster Cinnamon T8 tortoise oval shades, Typology L64 anti-mark serum, Chanel N°5 parfum, Saint Laurent Rouge Pur Couture lipstick, Rhode pill lip care, Saie Glowy Super Gel, and Mejuri hoops — one brand each. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1286,11 +1286,11 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   'whats-in-my-bag-brand-guide': [
     {
       q: 'What is the luxury what\'s in my bag flat lay?',
-      a: 'It is an eight-slot beauty carry kit from the reference grid: Miu Miu matelassé shoulder bag, Gentle Monster Matiny 01 sunglasses, Typology A43 serum, Chanel N°5 parfum, Saint Laurent Rouge Pur Couture lipstick, Rhode Peptide Lip Tint, Saie Dew Blush, and Mejuri Bold Huggie Hoops — one brand per slot.',
+      a: 'It is an eight-slot beauty carry kit: Miu Miu black matelassé shoulder bag, Gentle Monster Cinnamon T8 tortoise oval sunglasses, Typology L64 anti-mark serum, Chanel N°5 parfum, Saint Laurent Rouge Pur Couture lipstick, Rhode pill lip care capsule, Saie Glowy Super Gel, and Mejuri Bold Huggie Hoops — one brand per slot.',
     },
     {
       q: 'How is this different from girl essentials or makeup starter kit?',
-      a: 'Girl essentials is K-beauty EDC staged on a closed MacBook (wallet, scent, lip, audio). Makeup starter kit is an everyday face grid (base, eyes, lips). What\'s in my bag is a luxury crossbody dump — bag, shades, serum, scent, lip color, lip care, blush, and jewelry.',
+      a: 'Girl essentials is K-beauty EDC staged on a closed MacBook (wallet, scent, lip, audio). Makeup starter kit is an everyday face grid (base, eyes, lips). What\'s in my bag is a luxury crossbody dump — bag, shades, serum, scent, lip color, lip care, face glow, and jewelry.',
     },
     {
       q: 'Why Miu Miu for the bag slot?',
