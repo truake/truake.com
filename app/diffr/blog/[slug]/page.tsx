@@ -68,6 +68,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'daily-essentials-brand-guide': 121,
   'creative-desk-edc-brand-guide': 122,
   'girl-essentials-brand-guide': 123,
+  'whats-in-my-bag-brand-guide': 112,
   'on-your-feet-all-day-work-brand-guide': 124,
   // Lines explained — brand-map posts (presets 115–119; kit renders when DB wired)
   'nike-lines-explained': 115,

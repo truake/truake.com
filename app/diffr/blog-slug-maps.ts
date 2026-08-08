@@ -32,6 +32,7 @@ export const BLOG_SLUG_TO_START: Record<string, string> = {
   'daily-essentials-brand-guide': 'daily-essentials-flat-lay',
   'creative-desk-edc-brand-guide': 'creative-desk-edc-flat-lay',
   'girl-essentials-brand-guide': 'girl-essentials-macbook-flat-lay',
+  'whats-in-my-bag-brand-guide': 'whats-in-my-bag-flat-lay',
   'on-your-feet-all-day-work-brand-guide': 'standing-all-day-work-kit',
   'nike-lines-explained': 'nike-lines-flat-lay',
   'lululemon-lines-explained': 'lululemon-lines-flat-lay',

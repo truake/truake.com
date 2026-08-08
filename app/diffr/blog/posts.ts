@@ -1273,6 +1273,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'whats-in-my-bag-brand-guide',
+    title: 'What\'s In My Bag: 8 Luxury Beauty Essentials, One Brand Per Slot',
+    description: 'The viral luxury beauty bag flat lay decoded — Miu Miu, Gentle Monster, Typology, Chanel, Saint Laurent, Rhode, Saie, and Mejuri. Eight slots with live catalog images from Diffr.',
+    date: '2026-08-08',
+    readTime: '4 min read',
+    tags: ['brand guide', 'whats in my bag', 'bag essentials', 'beauty flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight luxury bag essentials — handbag, shades, serum, scent, lip color, lip care, blush, and hoops — one brand per slot.',
+    content: `
+<p>The luxury &ldquo;what&rsquo;s in my bag&rdquo; flat lay is a compact beauty kit: a black Miu Miu matelass&eacute; shoulder bag, tortoiseshell Gentle Monster sunglasses, Typology serum, Chanel N&deg;5, YSL Rouge Pur Couture lipstick, Rhode Peptide Lip Tint, Saie Dew Blush, and Mejuri gold hoops. Diffr maps each object to one canonical product type and one specialist brand &mdash; no repeats, no single-brand wall.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Shoulder Bag</h3>
+<p><strong>Miu Miu Matelass&eacute; Shoulder Bag</strong> &mdash; black leather quilted crossbody from the reference grid.</p>
+
+<h3>Slot 2 &mdash; Sunglasses</h3>
+<p><strong>Gentle Monster Matiny 01</strong> &mdash; tortoiseshell square frames from the flat lay.</p>
+
+<h3>Slot 3 &mdash; Face Serum</h3>
+<p><strong>Typology A43 Local Lifting Concentrate</strong> &mdash; minimalist serum bottle from the grid.</p>
+
+<h3>Slot 4 &mdash; Signature Scent</h3>
+<p><strong>Chanel N&deg;5 Parfum</strong> &mdash; the iconic square flacon from the reference.</p>
+
+<h3>Slot 5 &mdash; Lipstick</h3>
+<p><strong>Saint Laurent Rouge Pur Couture The Bold</strong> &mdash; black-and-gold lipstick tube from the flat lay.</p>
+
+<h3>Slot 6 &mdash; Lip Care</h3>
+<p><strong>Rhode Peptide Lip Tint</strong> &mdash; the live catalog pin for Rhode on preset 112.</p>
+
+<h3>Slot 7 &mdash; Blush</h3>
+<p><strong>Saie Dew Blush</strong> &mdash; liquid cheek flush from the reference grid.</p>
+
+<h3>Slot 8 &mdash; Earrings</h3>
+<p><strong>Mejuri Bold Huggie Hoops</strong> &mdash; chunky gold hoops from the flat lay.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Bag-dump flat lays circulate faster than shopping lists. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All eight slots are pinned on preset 112 so tiles match the decode.</p>
+
+<p>Distinct from <a href="/diffr/blog/girl-essentials-brand-guide">girl essentials</a> (MacBook beauty kit) and <a href="/diffr/blog/makeup-brand-guide">makeup starter kit</a> (everyday face). Explore the interactive scene: <a href="/diffr/start/whats-in-my-bag-flat-lay">What&rsquo;s In My Bag Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'on-your-feet-all-day-work-brand-guide',
     title: 'On Your Feet All Day at Work: 8 Comfort Picks, One Brand Per Slot',
     description: 'Standing or walking all day at work — Hoka, Comrad, Superfeet, Lululemon, Uniqlo, O\'Keeffe\'s, Owala, and Gorilla Grip. Eight slots, one specialist brand each, not a single-brand wall.',
