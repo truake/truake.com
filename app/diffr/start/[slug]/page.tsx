@@ -16,6 +16,7 @@ import {
 } from "../lib";
 import SceneBrandKit from "../SceneBrandKit";
 import PresetScenePage from "../PresetScenePage";
+import { blogCanonicalUrl, START_SLUG_TO_BLOG } from "../../blog-slug-maps";
 
 // ── Static generation ─────────────────────────────────────────
 export async function generateStaticParams() {
@@ -32,6 +33,10 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { slug } = await params;
   const guide = await getGuideBySlug(slug);
+  const blogTwin = START_SLUG_TO_BLOG[slug];
+  const canonical = blogTwin
+    ? blogCanonicalUrl(blogTwin)
+    : `https://truake.com/diffr/start/${slug}`;
 
   // Preset-only scene (no domain_guide): metadata from the preset row.
   if (!guide) {
@@ -45,8 +50,8 @@ export async function generateMetadata(
     return {
       title,
       description,
-      openGraph: { title, description, url: `https://truake.com/diffr/start/${slug}` },
-      alternates: { canonical: `https://truake.com/diffr/start/${slug}` },
+      openGraph: { title, description, url: canonical },
+      alternates: { canonical },
     };
   }
 
@@ -59,10 +64,10 @@ export async function generateMetadata(
     openGraph: {
       title,
       description,
-      url: `https://truake.com/diffr/start/${slug}`,
+      url: canonical,
     },
     alternates: {
-      canonical: `https://truake.com/diffr/start/${slug}`,
+      canonical,
     },
   };
 }
@@ -215,26 +220,6 @@ const priorityColors: Record<string, string> = {
   required: "#1B8BF5",
   recommended: "#F0522C",
   optional: "rgba(42,38,32,0.45)",
-};
-
-// Scenes that have a long-form editorial twin at /diffr/blog/<slug>.
-// Reciprocal of BLOG_SLUG_TO_START — closes the blog ↔ scene topic cluster.
-const START_SLUG_TO_BLOG: Record<string, string> = {
-  "cycling-commute": "bike-commuting-gear-brand-guide",
-  "running-starter-kit": "running-gear-brand-guide",
-  "home-gym-essentials": "home-gym-brand-guide",
-  "home-coffee": "home-coffee-brand-guide",
-  "home-office": "home-office-brand-guide",
-  "cooking-basics": "steak-dinner-brand-guide",
-  "hiking": "hiking-gear-brand-guide",
-  "yoga-mindfulness": "yoga-gear-brand-guide",
-  "home-gaming": "pc-gaming-gear-brand-guide",
-  "backpacking-basecamp": "backpacking-gear-brand-guide",
-  "skincare": "skincare-brand-guide",
-  "make-up-starter-kit": "makeup-brand-guide",
-  "everyday-casual-look": "casual-wardrobe-brand-guide",
-  "workwear-essentials": "work-wardrobe-brand-guide",
-  "cold-weather-layering": "winter-layering-brand-guide",
 };
 
 // ── Page ──────────────────────────────────────────────────────

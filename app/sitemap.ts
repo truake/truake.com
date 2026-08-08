@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllPosts as getDiffrPosts } from "./diffr/blog/posts";
 import { getAllPosts as getPathoraGyPosts } from "./pathoragy/blog/posts";
 import { getAllGuides, toUrlSlug } from "./diffr/start/lib";
+import { START_SLUGS_WITH_BLOG_TWIN } from "./diffr/blog-slug-maps";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const diffrBlogPosts = getDiffrPosts().map((post) => ({
@@ -22,7 +23,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   let starterGuidePages: MetadataRoute.Sitemap = [];
   try {
     const guides = await getAllGuides();
-    starterGuidePages = guides.map((guide) => ({
+    starterGuidePages = guides
+      .filter((guide) => !START_SLUGS_WITH_BLOG_TWIN.has(toUrlSlug(guide.domain_slug)))
+      .map((guide) => ({
       url: `https://truake.com/diffr/start/${toUrlSlug(guide.domain_slug)}`,
       lastModified: new Date(guide.generated_at),
       changeFrequency: "weekly" as const,
