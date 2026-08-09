@@ -1317,6 +1317,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'just-bring-the-essentials-brand-guide',
+    title: 'Just Bring the Essentials: 8 Timeless Travel Picks, One Brand Per Slot',
+    description: 'The viral "just bring the essentials" flat lay decoded — Dior, Apple, Marvis, Ray-Ban, La Mer, Cartier, Byredo, and Chanel. Eight slots with live catalog images from Diffr.',
+    date: '2026-08-09',
+    readTime: '4 min read',
+    tags: ['brand guide', 'travel essentials', 'flat lay', 'quiet luxury', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight travel-vanity essentials on white linen — pouch, AirPods Pro, toothpaste, shades, serum, watch, scent, and lip balm — one brand per slot.',
+    content: `
+<p>The &ldquo;just bring the essentials&rdquo; flat lay is a minimal travel-vanity kit on white linen: a black Dior velvet cosmetic pouch, Apple AirPods Pro case, Marvis Whitening Mint toothpaste, Ray-Ban Wayfarer sunglasses, La Mer The Concentrate serum, Cartier Tank Fran&ccedil;aise watch, Byredo Bal d&rsquo;Afrique parfum, and Chanel Hydra Beauty lip care. Diffr maps each object to one canonical product type and one specialist brand &mdash; no repeats, no single-brand wall. Classic names that outlast trends; one pick per slot when you pack light.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Toiletry Pouch</h3>
+<p><strong>Dior Black Velvet Half-Moon Cosmetic Pouch</strong> &mdash; black velvet semicircle case from the flat lay anchor.</p>
+
+<h3>Slot 2 &mdash; Private Audio</h3>
+<p><strong>Apple AirPods Pro 2 MagSafe Charging Case</strong> &mdash; white closed case from the reference grid.</p>
+
+<h3>Slot 3 &mdash; Oral Care</h3>
+<p><strong>Marvis Whitening Mint Toothpaste</strong> &mdash; metallic silver tube from the flat lay.</p>
+
+<h3>Slot 4 &mdash; Sunglasses</h3>
+<p><strong>Ray-Ban Wayfarer</strong> &mdash; black acetate frames with dark lenses from the reference.</p>
+
+<h3>Slot 5 &mdash; Face Serum</h3>
+<p><strong>La Mer The Concentrate Serum 30ml</strong> &mdash; dark green dropper bottle from the flat lay.</p>
+
+<h3>Slot 6 &mdash; Dress Watch</h3>
+<p><strong>Cartier Tank Fran&ccedil;aise Medium Steel Watch WSTA0074</strong> &mdash; rectangular steel bracelet watch from the reference.</p>
+
+<h3>Slot 7 &mdash; Signature Scent</h3>
+<p><strong>Byredo Bal d&rsquo;Afrique Eau de Parfum 50ml</strong> &mdash; clear bottle with black cap from the flat lay.</p>
+
+<h3>Slot 8 &mdash; Lip Balm</h3>
+<p><strong>Chanel Hydra Beauty Nutrition Lip Care 10g</strong> &mdash; black round jar from the reference.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Travel-vanity flat lays circulate faster than packing lists. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All eight slots are pinned on preset 125 so tiles match the decode.</p>
+
+<p>Distinct from <a href="/diffr/blog/daily-essentials-brand-guide">daily essentials</a> (rug carry) and <a href="/diffr/blog/whats-in-my-bag-brand-guide">what&rsquo;s in my bag</a> (luxury beauty dump). Explore the interactive scene: <a href="/diffr/start/just-bring-the-essentials-flat-lay">Just Bring the Essentials Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'on-your-feet-all-day-work-brand-guide',
     title: 'On Your Feet All Day at Work: 8 Comfort Picks, One Brand Per Slot',
     description: 'Standing or walking all day at work — Hoka, Comrad, Superfeet, Lululemon, Uniqlo, O\'Keeffe\'s, Owala, and Gorilla Grip. Eight slots, one specialist brand each, not a single-brand wall.',

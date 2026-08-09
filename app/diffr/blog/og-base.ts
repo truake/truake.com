@@ -50,6 +50,7 @@ export const OG_BASE_SLUGS = new Set<string>([
   'girl-essentials-brand-guide',
   'whats-in-my-bag-brand-guide',
   'on-your-feet-all-day-work-brand-guide',
+  'just-bring-the-essentials-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {

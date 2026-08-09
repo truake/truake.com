@@ -149,6 +149,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the MacBook "girl essentials" flat lay is eight slots — Matin Kim card holder, Jo Malone cologne, Rhode Peptide Lip Tint, Tamburins lip balm, Byredo hand cream, Apple EarPods, Gentle Monster eyewear, and Mejuri hoops — one brand each. Beauty-and-carry on a closed laptop; ignore the meme caption overlay. Live catalog tiles below.',
   'whats-in-my-bag-brand-guide':
     'Bottom line: the luxury "what\'s in my bag" flat lay is eight slots — Miu Miu black matelassé bag, Gentle Monster Cinnamon T8 tortoise oval shades, Typology L64 anti-mark serum, Chanel N°5 parfum, Saint Laurent Rouge Pur Couture lipstick, Rhode pill lip care, Saie Glowy Super Gel, and Mejuri hoops — one brand each. Live catalog tiles below.',
+  'just-bring-the-essentials-brand-guide':
+    'Bottom line: the "just bring the essentials" travel-vanity flat lay is eight slots — Dior velvet pouch, Apple AirPods Pro, Marvis Whitening Mint, Ray-Ban Wayfarer, La Mer The Concentrate, Cartier Tank Française, Byredo Bal d\'Afrique, and Chanel lip care — one brand each. Classic picks on white linen; ignore meme overlay text. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1299,6 +1301,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 112. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'just-bring-the-essentials-brand-guide': [
+    {
+      q: 'What is the just bring the essentials flat lay?',
+      a: 'It is an eight-slot travel-vanity kit on white linen: Dior black velvet half-moon cosmetic pouch, Apple AirPods Pro 2 case, Marvis Whitening Mint toothpaste, Ray-Ban Wayfarer sunglasses, La Mer The Concentrate serum, Cartier Tank Française steel watch, Byredo Bal d\'Afrique EDP, and Chanel Hydra Beauty lip care — one brand per slot.',
+    },
+    {
+      q: 'Why ignore the "just bring the essentials" caption on the reference photo?',
+      a: 'The white overlay text is meme chrome on the source TikTok image — not a product slot. The og-base cover is an original GPT editorial flat lay; the scene maps the physical objects only.',
+    },
+    {
+      q: 'How is this different from daily essentials or what\'s in my bag?',
+      a: 'Daily essentials is quiet-luxury rug carry (Margiela, Rolex, Creed). What\'s in my bag is a luxury beauty crossbody dump (Miu Miu, Typology, Rhode). Just bring the essentials is a minimal hotel-nightstand travel kit — pouch, oral care, shades, serum, watch, scent, and lip balm on white linen.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 125. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 
