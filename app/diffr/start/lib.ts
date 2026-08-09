@@ -124,6 +124,7 @@ export const SLUG_TO_PRESET: Record<string, number> = {
   "adidas-lines-flat-lay": 117,
   "uniqlo-lines-flat-lay": 118,
   "apple-ecosystem-flat-lay": 119,
+  "patagonia-lines-flat-lay": 126,
 };
 
 // Slugs with no domain_guide editorial shell — rendered lean from preset data.
@@ -159,6 +160,7 @@ export const PRESET_ONLY_SLUGS = new Set<string>([
   "adidas-lines-flat-lay",
   "uniqlo-lines-flat-lay",
   "apple-ecosystem-flat-lay",
+  "patagonia-lines-flat-lay",
 ]);
 
 export async function getPresetMeta(
