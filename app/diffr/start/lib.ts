@@ -1,4 +1,5 @@
 // Shared Supabase fetch helpers for /diffr/start pages
+import { unstable_noStore as noStore } from "next/cache";
 
 export interface RequiredCategory {
   category: string;
@@ -225,11 +226,25 @@ const POOL_ORDER =
 const POOL_SELECT =
   "brand_id,product_type_id,brand_name,beginner_score,fit_score,is_curated_pick,image_url,image_status,pl_id";
 
-/** R2 CDN path for product_line.image_uuid (matches fetch_slot_pool / v_slot_pool). */
+/** R2 CDN path — legacy uuid layout (pl/xx/uuid.webp). Prefer image_r2_key when set. */
 function plImageUrl(imageUuid: string | null | undefined): string | null {
   if (!imageUuid) return null;
   const prefix = imageUuid.slice(0, 2);
   return `https://images.truake.com/pl/${prefix}/${imageUuid}.webp`;
+}
+
+/** Match v_slot_pool image_url construction (image_r2_key → Cloudinary fallback). */
+function productLineImageUrl(pl: {
+  image_r2_key?: string | null;
+  image_cloudinary_id?: string | null;
+  image_uuid?: string | null;
+}): string | null {
+  if (pl.image_r2_key) return `https://images.truake.com/${pl.image_r2_key}`;
+  const cid = pl.image_cloudinary_id;
+  if (cid && !cid.startsWith("local:")) {
+    return `https://res.cloudinary.com/dbglvaci5/image/upload/${cid}`;
+  }
+  return plImageUrl(pl.image_uuid);
 }
 
 interface DirectPlRow {
@@ -238,6 +253,8 @@ interface DirectPlRow {
   brand_id: number;
   product_type_id: number | null;
   image_uuid: string | null;
+  image_r2_key: string | null;
+  image_cloudinary_id: string | null;
   brands: { name: string } | null;
 }
 
@@ -249,10 +266,11 @@ async function fetchPinnedFromProductLines(
   if (!plIds.length) return out;
   const rows = await sbGet<DirectPlRow[]>(
     `product_lines?id=in.(${plIds.join(",")})` +
-      `&select=id,product_line,brand_id,product_type_id,image_uuid,brands(name)`
+      `&select=id,product_line,brand_id,product_type_id,image_uuid,image_r2_key,image_cloudinary_id,brands(name)`,
+    { noStore: true }
   ).catch(() => []);
   for (const pl of rows) {
-    const imageUrl = plImageUrl(pl.image_uuid);
+    const imageUrl = productLineImageUrl(pl);
     if (!imageUrl) continue;
     out.set(pl.id, {
       brand_id: pl.brand_id,
@@ -269,16 +287,20 @@ async function fetchPinnedFromProductLines(
   return out;
 }
 
+function slotImageReady(row: PoolRow): boolean {
+  return Boolean(row.image_url) && (row.image_status === "ready" || row.image_status === "crawled");
+}
+
 // Retry once on transient failure so a momentary network blip during SSG does
 // not silently drop a scene's brand kit (the .catch fallback would otherwise
 // produce an empty kit and hide the whole section).
-async function sbGet<T>(path: string): Promise<T> {
+async function sbGet<T>(path: string, opts?: { noStore?: boolean }): Promise<T> {
   let lastErr: unknown;
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
       const res = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
         headers,
-        next: { revalidate: 3600 },
+        ...(opts?.noStore ? { cache: "no-store" as const } : { next: { revalidate: 3600 } }),
       });
       if (!res.ok) throw new Error(`Supabase ${path} → ${res.status}`);
       return res.json();
@@ -300,9 +322,11 @@ async function sbGet<T>(path: string): Promise<T> {
 export async function getSceneBrandKit(
   presetId: number
 ): Promise<SceneBrandKit | null> {
+  noStore();
+  const kitGet = <T>(path: string) => sbGet<T>(path, { noStore: true });
   let scenario: PresetScenarioRow | undefined;
   try {
-    const rows = await sbGet<PresetScenarioRow[]>(
+    const rows = await kitGet<PresetScenarioRow[]>(
       `preset_scenarios?id=eq.${presetId}&is_active=eq.true` +
         `&select=id,name,description,slot_count,product_types,slot_brand_ids,slot_product_line_ids`
     );
@@ -325,10 +349,10 @@ export async function getSceneBrandKit(
 
   // Bounded query: resolve each slot's curated pick directly (small, reliable).
   const [pickRows, typeRows] = await Promise.all([
-    sbGet<PoolRow[]>(
+    kitGet<PoolRow[]>(
       `v_slot_pool?brand_id=in.(${uniqBrands.join(",")})&product_type_id=in.(${uniqTypes.join(",")})&select=${POOL_SELECT}`
     ).catch(() => []),
-    sbGet<{ id: number; name: string }[]>(
+    kitGet<{ id: number; name: string }[]>(
       `product_types?id=in.(${uniqTypes.join(",")})&select=id,name`
     ).catch(() => []),
   ]);
@@ -341,23 +365,24 @@ export async function getSceneBrandKit(
   ];
   const pinnedMap = new Map<number, PoolRow>();
   if (explicitPlIds.length) {
-    const pinnedRows = await sbGet<PoolRow[]>(
-      `v_slot_pool?pl_id=in.(${explicitPlIds.join(",")})&select=${POOL_SELECT}`
-    ).catch(() => []);
-    for (const r of pinnedRows) {
-      if (r.pl_id) pinnedMap.set(r.pl_id, r);
-    }
-    const missing = explicitPlIds.filter((id) => !pinnedMap.has(id));
-    if (missing.length) {
-      const direct = await fetchPinnedFromProductLines(missing);
-      for (const [id, row] of direct) pinnedMap.set(id, row);
+    // Direct product_lines read is authoritative for pinned slots; v_slot_pool pl_id=
+    // often times out and can return stale image_status for freshly crawled PLs.
+    const direct = await fetchPinnedFromProductLines(explicitPlIds);
+    for (const [id, row] of direct) pinnedMap.set(id, row);
+    if (direct.size < explicitPlIds.length) {
+      const pinnedRows = await kitGet<PoolRow[]>(
+        `v_slot_pool?pl_id=in.(${explicitPlIds.join(",")})&select=${POOL_SELECT}`
+      ).catch(() => []);
+      for (const r of pinnedRows) {
+        if (r.pl_id && !pinnedMap.has(r.pl_id)) pinnedMap.set(r.pl_id, r);
+      }
     }
   }
 
   // Flagship product-line names for pinned ids (direct path may skip pickRows).
   let pinnedPlNames: { id: number; product_line: string | null }[] = [];
   if (explicitPlIds.length) {
-    pinnedPlNames = await sbGet<{ id: number; product_line: string | null }[]>(
+    pinnedPlNames = await kitGet<{ id: number; product_line: string | null }[]>(
       `product_lines?id=in.(${explicitPlIds.join(",")})&select=id,product_line`
     ).catch(() => []);
   }
@@ -372,7 +397,7 @@ export async function getSceneBrandKit(
   const fallbackMap = new Map<number, PoolRow>();
   await Promise.all(
     orphanTypes.map(async (pt) => {
-      const top = await sbGet<PoolRow[]>(
+      const top = await kitGet<PoolRow[]>(
         `v_slot_pool?product_type_id=eq.${pt}&order=${POOL_ORDER}&limit=1&select=${POOL_SELECT}`
       ).catch(() => []);
       if (top[0]) fallbackMap.set(pt, top[0]);
@@ -383,7 +408,7 @@ export async function getSceneBrandKit(
   const plIds = [...new Set(allRows.map((r) => r.pl_id).filter((x): x is number => !!x))];
   let plMap = new Map<number, string>();
   if (plIds.length) {
-    const plRows = await sbGet<{ id: number; product_line: string | null }[]>(
+    const plRows = await kitGet<{ id: number; product_line: string | null }[]>(
       `product_lines?id=in.(${plIds.join(",")})&select=id,product_line`
     ).catch(() => []);
     plMap = new Map(plRows.map((p) => [p.id, p.product_line ?? ""]));
@@ -403,8 +428,9 @@ export async function getSceneBrandKit(
         pickMap.get(`${brandId}:${pt}`) ??
         fallbackMap.get(pt);
       if (!row) return null;
-      const status = row.image_status ?? "pending";
-      if (status === "ready") readyCount++;
+      const ready = slotImageReady(row);
+      const status = ready ? "ready" : (row.image_status ?? "pending");
+      if (ready) readyCount++;
       const plId = pinnedPlId ?? row.pl_id;
       return {
         index: i,
@@ -416,7 +442,7 @@ export async function getSceneBrandKit(
         fitScore: row.fit_score ?? null,
         isCuratedPick: row.is_curated_pick ?? false,
         productLine: plId ? plMap.get(plId) || null : null,
-        imageUrl: status === "ready" ? row.image_url ?? null : null,
+        imageUrl: ready ? row.image_url ?? null : null,
         logoUrl: null, // filled by the brand-logo batch fetch below
         status,
       };
@@ -429,7 +455,7 @@ export async function getSceneBrandKit(
   try {
     const bids = [...new Set(slots.map((s) => s.brandId))].filter(Boolean);
     if (bids.length) {
-      const logos = await sbGet<
+      const logos = await kitGet<
         { id: number; supabase_logo_url: string | null; logo_status: string | null }[]
       >(`brands?id=in.(${bids.join(",")})&select=id,supabase_logo_url,logo_status`);
       const badStatus = new Set(["blank_image", "corrupt_image"]);
