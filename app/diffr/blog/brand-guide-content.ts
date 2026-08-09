@@ -31,6 +31,8 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Uniqlo isn't one fabric — it's a set of lines built for different climates and layers. LifeWear Supima is everyday basics; HEATTECH is the thin winter base layer; AIRism is summer and humidity; Ultra Light Down and BlockTech are packable warmth and rain shells; +J and UT are collab drops you can skip on a first kit. Everyday → LifeWear, cold → HEATTECH base, heat → AIRism, outer → Ultra Light Down or BlockTech.",
   'apple-ecosystem-lines-explained':
     "Bottom line: Apple's ecosystem is five device lanes — phone, tablet, laptop, watch, audio — each with a job, so you stop buying overlap. iPhone is the pocket hub; iPad Air is portable screen and couch compute; MacBook Air is deep work; Apple Watch SE/Series is wrist and health; AirPods Pro is private audio and travel. Buy the lane you actually use — not an iPad Pro keyboard plus a MacBook for the same job.",
+  'patagonia-lines-explained':
+    "Bottom line: Patagonia isn't one jacket — it's a set of fabric lines, each built for a layer or carry job. Better Sweater is the mid-layer fleece icon; Capilene is the base layer (Cool for most seasons, Thermal for winter); Down Sweater is packable warmth; Houdini is the wind shell; Torrentshell is real rain; Black Hole is the duffel that lasts. Mid-layer → Better Sweater, base → Capilene, puffy → Down Sweater, wind → Houdini, rain → Torrentshell, bag → Black Hole. For a full outdoor kit across brands, still one specialist per slot — see the winter layering and hiking guides.",
   'aritzia-sub-brands-guide':
     "Bottom line: Aritzia isn't one brand — it's a house of seven in-house labels, each built for a different scenario. Babaton for work (the Effortless Pant), The Group by Babaton for the big interview, Wilfred for date night, Wilfred Free for everyday, TNA for the weekend, Sunday Best for going out, and the Super Puff for winter — a one-store way to dress your whole week. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; the Super Puff is the style buy while Patagonia is the keep-forever one. Use Aritzia where it wins on convenience, swap in the independent pick where it wins on quality.",
   'world-cup-2026-kit-brands':
@@ -322,6 +324,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Do I need AirPods if I have an iPhone?',
       a: "AirPods (or AirPods Pro) are the private-audio lane — calls, music, focus, and travel without speakerphone. They're optional but solve a distinct job: ears-only audio with fast iPhone pairing. AirPods Pro if you fly or commute in noise; standard AirPods if you just want reliable everyday audio.",
+    },
+  ],
+
+  'patagonia-lines-explained': [
+    {
+      q: 'What are Patagonia product lines?',
+      a: "Patagonia organizes gear by fabric system and job: Better Sweater (mid-layer fleece), Capilene (base layers — Cool, Thermal, Air), Down Sweater and Nano Puff (insulated warmth), Houdini (ultralight wind shell), Torrentshell (waterproof rain shell), and Black Hole (duffels and travel bags). Each line solves a different layer or carry job — not interchangeable 'Patagonia jackets.'",
+    },
+    {
+      q: 'Better Sweater vs Down Sweater — which Patagonia should I buy first?',
+      a: "Buy Better Sweater first if you want an everyday mid-layer fleece for office, travel, and mild outdoor use — it wears alone or under a shell. Buy Down Sweater when you need packable warmth for cold trips, belays, or winter commutes. Most beginners want Better Sweater before a puffy; add Down Sweater when temps regularly drop below fleece comfort.",
+    },
+    {
+      q: 'What is Patagonia Capilene for?',
+      a: "Capilene is Patagonia's base-layer line worn next to skin — wicking sweat in cold or high-output activity. Capilene Cool is the lightweight three-season default; Capilene Thermal is for winter base layers. Wear Capilene under Better Sweater or a shell — it is not meant as your only visible outfit.",
+    },
+    {
+      q: 'Houdini vs Torrentshell — which Patagonia shell do I need?',
+      a: "Houdini is an ultralight wind shell for breezes, light drizzle, and packable emergency coverage — running, cycling, summit pushes. Torrentshell is the waterproof hard shell for sustained rain and wet hiking. If you only buy one shell for city and trail, Torrentshell covers more weather; add Houdini when you want minimal weight for fast days.",
+    },
+    {
+      q: 'Is one Patagonia fleece enough for a whole kit?',
+      a: "One Patagonia line per layer job is enough inside the brand — e.g. Capilene base plus Better Sweater mid plus Torrentshell outer. For a complete hiking or winter scene kit, Diffr still recommends one brand per slot across specialists: Patagonia might own fleece, but boots, socks, stove, and other layers can each come from a different brand that wins that slot. See the winter layering and hiking starter guides for cross-brand kits.",
     },
   ],
 

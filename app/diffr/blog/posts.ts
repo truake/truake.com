@@ -348,6 +348,42 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'patagonia-lines-explained',
+    title: "Patagonia Lines Explained: Better Sweater, Capilene, Down Sweater & Which Line Is for Which Job",
+    description: "Patagonia lines explained — Better Sweater for mid-layer fleece, Capilene for base, Down Sweater for warmth, Houdini for wind, Torrentshell for rain, Black Hole for carry. The classic map so you buy one icon per lane and decide once.",
+    date: '2026-08-09',
+    readTime: '6 min read',
+    tags: ['patagonia lines explained', 'patagonia better sweater', 'patagonia capilene', 'patagonia down sweater', 'patagonia houdini', 'outdoor layers', 'one brand rule'],
+    category: 'product',
+    excerpt: "Patagonia looks like one outdoor brand — but Better Sweater, Capilene, and Down Sweater are different fabric systems for different jobs. Learn the classics once.",
+    content: `
+<p>Patagonia is the default answer when someone says &ldquo;buy it once&rdquo; &mdash; but the rack is not one product type. Better Sweater, Capilene, Down Sweater, Houdini, Torrentshell, and Black Hole are <strong>different lines built for different layers and jobs.</strong> Buy the wrong one and you wonder why your &ldquo;Patagonia jacket&rdquo; feels too warm indoors or too thin in rain. Here is the map of the classics worth owning &mdash; one icon per line. Building a <a href="/diffr/blog/winter-layering-brand-guide">winter layering kit</a>, a <a href="/diffr/blog/hiking-gear-brand-guide">hiking starter kit</a>, or a <a href="/diffr/blog/54321-packing-method-brand-guide">travel capsule</a>? Match the Patagonia line to the layer first.</p>
+
+<h2>Better Sweater — Mid-Layer Fleece</h2>
+<p>The lane: everyday warmth between base and shell &mdash; office, trail lunch stop, couch, camp. The vibe: soft polyester fleece that wears alone or zips under a jacket. <strong>The one piece:</strong> the Better Sweater full-zip or quarter-zip in a neutral (black, navy, pelican). This is the Patagonia icon most people should own first.</p>
+
+<h2>Capilene — Base Layer</h2>
+<p>The lane: next-to-skin &mdash; moving sweat off your body in cold or high output. The vibe: thin synthetic that dries fast; Cool for mild/humid, Thermal for real cold. <strong>The one piece:</strong> Capilene Cool Lightweight crew for three-season use; step to Capilene Thermal weight when winter base layers matter.</p>
+
+<h2>Down Sweater — Packable Warmth</h2>
+<p>The lane: insulated mid-layer or standalone puffy when temps drop. The vibe: 800-fill down you can stuff in a pack, warmer than fleece for the weight. <strong>The one piece:</strong> Down Sweater hoody in a dark neutral &mdash; the travel and belay-layer default. (Nano Puff synthetic is the wet-climate sibling; pick one warmth lane, not both on day one.)</p>
+
+<h2>Houdini — Wind Shell</h2>
+<p>The lane: wind and light drizzle &mdash; not full storm rain. The vibe: ultralight ripstop you stuff in a pocket for runs, rides, and summit pushes. <strong>The one piece:</strong> Houdini jacket in a bright or neutral you will actually pack. Skips bulk when a hard shell is overkill.</p>
+
+<h2>Torrentshell — Rain Shell</h2>
+<p>The lane: real rain and wet commutes &mdash; the waterproof hard shell. The vibe: 3-layer H2No-style protection with hood and pit zips when available. <strong>The one piece:</strong> Torrentshell 3L in black or a visibility color for hiking and travel. Pair with Capilene base and Better Sweater mid; this is the outer gate.</p>
+
+<h2>Black Hole — Carry &amp; Travel</h2>
+<p>The lane: bags that survive abuse &mdash; gym, weekend, carry-on overflow. The vibe: burly recycled ripstop duffels and packs with simple organization. <strong>The one piece:</strong> Black Hole Duffel 55L or 40L for the one bag that eats soft goods and boots. Not a layer &mdash; but the Patagonia line everyone keeps for years.</p>
+
+<h2>The Diffr Take</h2>
+<p>Inside Patagonia, <strong>decide once per line:</strong> mid-layer &rarr; Better Sweater, base &rarr; Capilene, puffy &rarr; Down Sweater, wind &rarr; Houdini, rain &rarr; Torrentshell, carry &rarr; Black Hole. That is how you stop rebuying three fleeces that do the same job.</p>
+<p>When you build a <em>full scene kit</em> &mdash; hiking, winter commute, international travel &mdash; Diffr still recommends <strong><a href="/diffr/blog/the-one-brand-rule">one brand per slot, no repeats</a>:</strong> Patagonia might own your fleece mid-layer, but your boots, socks, stove, and shell can each come from the specialist that wins that slot. See the cross-brand <a href="/diffr/blog/winter-layering-brand-guide">winter layering guide</a> and <a href="/diffr/blog/camping-gear-brand-guide">car-camping kit</a> for kits where every slot is a different brand. Patagonia is excellent at fabric lines; your whole closet is still a system of slots.</p>
+<p>Compare with <a href="/diffr/blog/nike-lines-explained">Nike lines</a>, <a href="/diffr/blog/adidas-lines-explained">Adidas lines</a>, or <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo fabric lines</a> &mdash; same map-the-lanes pattern. <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get Diffr</a> to lock one pick per slot everywhere else too.</p>
+`.trim(),
+  },
+  {
     slug: 'aritzia-sub-brands-guide',
     title: "Aritzia's Brands, Decoded: Which Sub-Brand to Wear When (and What to Buy Instead)",
     description: "Aritzia isn't one brand — it's a house of seven, each built for a different part of your week. Babaton for work, Wilfred for date night, TNA for the weekend, Sunday Best for going out, the Super Puff for winter. Here's the full map, plus the independent pick that beats each one.",
@@ -2407,6 +2443,7 @@ export const posts: BlogPost[] = [
 <li><a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a> &mdash; Originals, Sportswear, Performance, Terrex, Y-3.</li>
 <li><a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines explained</a> &mdash; LifeWear, HEATTECH, AIRism, +J, UT.</li>
 <li><a href="/diffr/blog/apple-ecosystem-lines-explained">Apple ecosystem lines explained</a> &mdash; iPhone, iPad, Mac, Watch, AirPods by job.</li>
+<li><a href="/diffr/blog/patagonia-lines-explained">Patagonia lines explained</a> &mdash; Better Sweater, Capilene, Down Sweater, Houdini, Torrentshell, Black Hole.</li>
 </ul>
 
 <h2>Travel</h2>
