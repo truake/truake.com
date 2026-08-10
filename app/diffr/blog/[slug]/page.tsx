@@ -78,6 +78,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'uniqlo-lines-explained': 118,
   'apple-ecosystem-lines-explained': 119,
   'patagonia-lines-explained': 126,
+  'some-mens-essentials-brand-guide': 127,
 }
 
 export async function generateStaticParams() {

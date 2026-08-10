@@ -153,6 +153,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the luxury "what\'s in my bag" flat lay is eight slots — Miu Miu black matelassé bag, Gentle Monster Cinnamon T8 tortoise oval shades, Typology L64 anti-mark serum, Chanel N°5 parfum, Saint Laurent Rouge Pur Couture lipstick, Rhode pill lip care, Saie Glowy Super Gel, and Mejuri hoops — one brand each. Live catalog tiles below.',
   'just-bring-the-essentials-brand-guide':
     'Bottom line: the "just bring the essentials" travel-vanity flat lay is eight slots — Dior velvet pouch, Apple AirPods Pro, Marvis Whitening Mint, Ray-Ban Wayfarer, La Mer The Concentrate, Cartier Tank Française, Byredo Bal d\'Afrique, and Chanel lip care — one brand each. Classic picks on white linen; ignore meme overlay text. Live catalog tiles below.',
+  'some-mens-essentials-brand-guide':
+    'Bottom line: the "some men\'s essentials" pocket-dump flat lay is eight slots — Calvin Klein straight jeans, Apple iPhone, Daniel Wellington rose-gold watch, Ray-Ban clear acetate Wayfarer, Paco Rabanne Invictus, Aesop Resurrection Hand Wash, BASED Skin Revival Spray, and Miansai rope bracelet — one brand each. Accessible mens EDC on denim; ignore meme script overlay. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1345,6 +1347,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 125. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'some-mens-essentials-brand-guide': [
+    {
+      q: 'What is the some men\'s essentials flat lay?',
+      a: 'It is an eight-slot accessible mens pocket-dump on dark denim: Calvin Klein straight jeans, Apple iPhone Pro, Daniel Wellington Petite Durham rose-gold watch, Ray-Ban Mega Wayfarer clear acetate sunglasses, Paco Rabanne Invictus EDT, Aesop Resurrection Hand Wash 500ml, BASED Skin Revival Spray, and a Miansai Hook on Rope bracelet — one brand per slot.',
+    },
+    {
+      q: 'Why ignore the "some men\'s essentials" script on the reference photo?',
+      a: 'The white cursive overlay is meme chrome from the source image — not a product slot. The og-base cover is an original GPT editorial flat lay; the scene maps physical objects only.',
+    },
+    {
+      q: 'How is this different from daily essentials or just bring the essentials?',
+      a: 'Daily essentials is quiet-luxury rug carry (Margiela, Rolex, Creed). Just bring the essentials is a white-linen travel-vanity kit (Dior pouch, La Mer, Cartier). Some men\'s essentials is accessible mens EDC staged on jeans — CK denim, Invictus, Aesop hand wash, and a DW watch stack.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 127. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

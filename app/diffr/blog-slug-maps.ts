@@ -41,6 +41,7 @@ export const BLOG_SLUG_TO_START: Record<string, string> = {
   'uniqlo-lines-explained': 'uniqlo-lines-flat-lay',
   'apple-ecosystem-lines-explained': 'apple-ecosystem-flat-lay',
   'patagonia-lines-explained': 'patagonia-lines-flat-lay',
+  'some-mens-essentials-brand-guide': 'some-mens-essentials-flat-lay',
 }
 
 /** Inverse map: start funnel slug → SEO-canonical blog post slug. */

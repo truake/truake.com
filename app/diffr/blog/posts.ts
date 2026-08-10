@@ -1397,6 +1397,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'some-mens-essentials-brand-guide',
+    title: 'Some Men\'s Essentials: 8 Pocket-Dump Picks, One Brand Per Slot',
+    description: 'The viral "some men\'s essentials" denim flat lay decoded — Calvin Klein, Apple, Daniel Wellington, Ray-Ban, Paco Rabanne, Aesop, BASED, and Miansai. Eight slots with live catalog images from Diffr.',
+    date: '2026-08-10',
+    readTime: '4 min read',
+    tags: ['brand guide', 'mens essentials', 'flat lay', 'EDC', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight accessible mens pocket-dump picks on dark denim — jeans, iPhone, watch, shades, scent, hand wash, face spray, and bracelet stack — one brand per slot.',
+    content: `
+<p>The &ldquo;some men&rsquo;s essentials&rdquo; flat lay is an accessible mens pocket-dump on dark denim: Calvin Klein straight jeans, an Apple iPhone Pro in the back pocket, a Daniel Wellington rose-gold watch on a brown leather strap, Ray-Ban clear acetate Wayfarer sunglasses, Paco Rabanne Invictus trophy bottle, Aesop Resurrection Hand Wash, BASED Skin Revival Spray, and a Miansai rope bracelet stack. Diffr maps each object to one canonical product type and one specialist brand &mdash; no repeats, no single-brand wall. GQ-tier classics at an accessible price point; one pick per slot when you pack pockets light.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Everyday Denim</h3>
+<p><strong>Calvin Klein Standard Straight Fit Jeans &mdash; Boston Blue Black</strong> &mdash; dark indigo straight leg with CK waist patch from the reference grid.</p>
+
+<h3>Slot 2 &mdash; Pocket Phone</h3>
+<p><strong>Apple iPhone 16 Pro &mdash; Black and Natural Titanium</strong> &mdash; current-gen Pro silhouette peeking from the back pocket.</p>
+
+<h3>Slot 3 &mdash; Dress Watch</h3>
+<p><strong>Daniel Wellington Petite Durham Rose Gold 32mm</strong> &mdash; rose-gold case and brown leather strap from the flat lay.</p>
+
+<h3>Slot 4 &mdash; Sunglasses</h3>
+<p><strong>Ray-Ban Mega Wayfarer RB0840S &mdash; Transparent Light Brown</strong> &mdash; champagne translucent acetate frames from the reference.</p>
+
+<h3>Slot 5 &mdash; Signature Scent</h3>
+<p><strong>Paco Rabanne Invictus Eau de Toilette 100ml</strong> &mdash; silver trophy bottle from the flat lay.</p>
+
+<h3>Slot 6 &mdash; Hand Care</h3>
+<p><strong>Aesop Resurrection Aromatique Hand Wash 500mL</strong> &mdash; amber pump bottle from the reference grid.</p>
+
+<h3>Slot 7 &mdash; Face Refresh</h3>
+<p><strong>BASED Skin Revival Spray 4 fl oz / 118ml</strong> &mdash; matte black face mist from the flat lay.</p>
+
+<h3>Slot 8 &mdash; Wrist Stack</h3>
+<p><strong>Miansai Hook on Rope Bracelet Silver &mdash; Indigo</strong> &mdash; woven rope bracelet with silver hook clasp from the reference.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Pocket-dump flat lays circulate faster than shopping lists. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All eight slots are pinned on preset 127 so tiles match the decode.</p>
+
+<p>Distinct from <a href="/diffr/blog/daily-essentials-brand-guide">daily essentials</a> (quiet-luxury rug carry) and <a href="/diffr/blog/just-bring-the-essentials-brand-guide">just bring the essentials</a> (white-linen travel vanity). Explore the interactive scene: <a href="/diffr/start/some-mens-essentials-flat-lay">Some Men&rsquo;s Essentials Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'on-your-feet-all-day-work-brand-guide',
     title: 'On Your Feet All Day at Work: 8 Comfort Picks, One Brand Per Slot',
     description: 'Standing or walking all day at work — Hoka, Comrad, Superfeet, Lululemon, Uniqlo, O\'Keeffe\'s, Owala, and Gorilla Grip. Eight slots, one specialist brand each, not a single-brand wall.',
