@@ -155,6 +155,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the "just bring the essentials" travel-vanity flat lay is eight slots — Dior velvet pouch, Apple AirPods Pro, Marvis Whitening Mint, Ray-Ban Wayfarer, La Mer The Concentrate, Cartier Tank Française, Byredo Bal d\'Afrique, and Chanel lip care — one brand each. Classic picks on white linen; ignore meme overlay text. Live catalog tiles below.',
   'some-mens-essentials-brand-guide':
     'Bottom line: the "some men\'s essentials" pocket-dump flat lay is eight slots — Calvin Klein straight jeans, Apple iPhone, Daniel Wellington rose-gold watch, Ray-Ban clear acetate Wayfarer, Paco Rabanne Invictus, Aesop Resurrection Hand Wash, BASED Skin Revival Spray, and Miansai rope bracelet — one brand each. Accessible mens EDC on denim; ignore meme script overlay. Live catalog tiles below.',
+  'mens-travel-essentials-brand-guide':
+    'Bottom line: the men\'s travel essentials carry-on flat lay is eight slots — SK-II Men Facial Treatment Essence, Globe-Trotter passport sleeve, Apple iPhone 16 Pro, Creed Silver Mountain Water, Cartier Santos, Oliver Peoples Gregory Peck sunglasses, Goyard Saint-Sulpice card wallet, and Rimowa Original Cabin — one brand each. Quiet-luxury mens travel on silver aluminum; ignore meme overlay text. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1347,6 +1349,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 125. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'mens-travel-essentials-brand-guide': [
+    {
+      q: 'What is the men\'s travel essentials flat lay?',
+      a: 'It is an eight-slot quiet-luxury mens carry-on kit staged on a silver Rimowa-style cabin suitcase: SK-II Men Facial Treatment Essence, Globe-Trotter Centenary leather passport sleeve, Apple iPhone 16 Pro, Creed Silver Mountain Water EDP, Cartier Santos de Cartier WSSA0029, Oliver Peoples Gregory Peck sunglasses, Goyard Saint-Sulpice card wallet, and Rimowa Original Cabin aluminum — one brand per slot.',
+    },
+    {
+      q: 'Why ignore the "Men\'s travel essentials" text on the reference photo?',
+      a: 'The white serif overlay is meme chrome from the source image — not a product slot. The og-base cover is an original GPT editorial flat lay; the scene maps physical objects only.',
+    },
+    {
+      q: 'How is this different from travel essentials or some men\'s essentials?',
+      a: 'Travel essentials (preset 114) is a twelve-slot tech-and-comfort bedsheet kit — Switch, iPad, Anker, AirFly. Some men\'s essentials (127) is accessible pocket-dump EDC on denim. Men\'s travel essentials is quiet-luxury carry-on flat lay — SK-II, Creed SMW, Cartier Santos, Goyard, and Rimowa on silver aluminum.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 128. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

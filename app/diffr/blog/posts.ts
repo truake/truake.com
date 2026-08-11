@@ -1441,6 +1441,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'mens-travel-essentials-brand-guide',
+    title: 'Men\'s Travel Essentials: 8 Quiet-Luxury Carry-On Picks, One Brand Per Slot',
+    description: 'The viral men\'s travel essentials flat lay decoded — SK-II, Globe-Trotter, Apple iPhone, Creed Silver Mountain Water, Cartier Santos, Oliver Peoples, Goyard, and Rimowa. Eight slots with live catalog images from Diffr.',
+    date: '2026-08-11',
+    readTime: '4 min read',
+    tags: ['brand guide', 'mens travel', 'flat lay', 'quiet luxury', 'carry-on', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight quiet-luxury mens travel picks on a silver carry-on flat lay — skin prep, passport sleeve, iPhone, scent, Santos watch, sunglasses, Goyard card wallet, and Rimowa cabin — one brand per slot.',
+    content: `
+<p>The men&rsquo;s travel essentials flat lay is quiet-luxury carry-on decoded: SK-II Men Facial Treatment Essence, a Globe-Trotter Centenary leather passport sleeve, an Apple iPhone 16 Pro, Creed Silver Mountain Water, a Cartier Santos de Cartier steel watch, Oliver Peoples Gregory Peck sunglasses, a green Goyard Saint-Sulpice card wallet, and a silver Rimowa Original Cabin suitcase as the hero surface. Strip the white serif overlay &mdash; meme chrome, not a product slot &mdash; map what remains to canonical types, and surface one brand per slot from the live catalog.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Men&rsquo;s Skin Prep</h3>
+<p><strong>SK-II Men Facial Treatment Essence 230ml</strong> &mdash; purple-and-silver bottle from the flat lay.</p>
+
+<h3>Slot 2 &mdash; Passport Sleeve</h3>
+<p><strong>Globe-Trotter Centenary Leather Passport Sleeve Navy</strong> &mdash; navy leather sleeve with boat embroidery from the reference.</p>
+
+<h3>Slot 3 &mdash; Mobile Phone</h3>
+<p><strong>Apple iPhone 16 Pro</strong> &mdash; current-gen Pro in a clear case from the grid.</p>
+
+<h3>Slot 4 &mdash; Signature Scent</h3>
+<p><strong>Creed Silver Mountain Water Eau de Parfum 100ml</strong> &mdash; white-label bottle from the flat lay.</p>
+
+<h3>Slot 5 &mdash; Dress Watch</h3>
+<p><strong>Cartier Santos de Cartier Medium WSSA0029</strong> &mdash; steel square case with silver dial from the reference.</p>
+
+<h3>Slot 6 &mdash; Sunglasses</h3>
+<p><strong>Oliver Peoples Gregory Peck Sun OV5217S 1031P2</strong> &mdash; black rectangular acetate frames from the flat lay.</p>
+
+<h3>Slot 7 &mdash; Card Wallet</h3>
+<p><strong>Goyard Saint-Sulpice Card Wallet Green</strong> &mdash; green Goyardine chevron card holder from the reference.</p>
+
+<h3>Slot 8 &mdash; Carry-On Luggage</h3>
+<p><strong>Rimowa Original Cabin Silver Aluminium</strong> &mdash; grooved silver aluminum cabin suitcase that doubles as the flat-lay surface.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Travel flat lays circulate faster than packing lists. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All eight slots are pinned on preset 128 so tiles match the decode.</p>
+
+<p>Distinct from <a href="/diffr/blog/travel-essentials-brand-guide">travel essentials</a> (bedsheet tech kit) and <a href="/diffr/blog/some-mens-essentials-brand-guide">some men&rsquo;s essentials</a> (accessible denim pocket-dump). Explore the interactive scene: <a href="/diffr/start/mens-travel-essentials-flat-lay">Men&rsquo;s Travel Essentials Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'on-your-feet-all-day-work-brand-guide',
     title: 'On Your Feet All Day at Work: 8 Comfort Picks, One Brand Per Slot',
     description: 'Standing or walking all day at work — Hoka, Comrad, Superfeet, Lululemon, Uniqlo, O\'Keeffe\'s, Owala, and Gorilla Grip. Eight slots, one specialist brand each, not a single-brand wall.',
