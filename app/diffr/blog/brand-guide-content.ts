@@ -157,6 +157,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the "some men\'s essentials" pocket-dump flat lay is eight slots — Calvin Klein straight jeans, Apple iPhone, Daniel Wellington rose-gold watch, Ray-Ban clear acetate Wayfarer, Paco Rabanne Invictus, Aesop Resurrection Hand Wash, BASED Skin Revival Spray, and Miansai rope bracelet — one brand each. Accessible mens EDC on denim; ignore meme script overlay. Live catalog tiles below.',
   'mens-travel-essentials-brand-guide':
     'Bottom line: the men\'s travel essentials carry-on flat lay is eight slots — SK-II Men Facial Treatment Essence, Globe-Trotter passport sleeve, Apple iPhone 16 Pro, Creed Silver Mountain Water, Cartier Santos, Oliver Peoples Gregory Peck sunglasses, Goyard Saint-Sulpice card wallet, and Rimowa Original Cabin — one brand each. Quiet-luxury mens travel on silver aluminum; ignore meme overlay text. Live catalog tiles below.',
+  'never-overpack-again-brand-guide':
+    'Bottom line: the "never overpack again" packing flat lay is eight slots — Lululemon cap, Adidas Tokyo sneakers, Apple AirPods Max, Bottega Veneta Andiamo tote, DJI Osmo Pocket, MacBook Air, Away carry-on, and Patagonia Better Sweater — one brand each. Capsule packing in an open suitcase; ignore meme overlay text. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1349,6 +1351,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 125. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'never-overpack-again-brand-guide': [
+    {
+      q: 'What is the never overpack again packing flat lay?',
+      a: 'It is an eight-slot capsule travel packing kit from a viral open-suitcase flat lay: Lululemon Structured Ball Cap *98, Adidas Tokyo sneakers, Apple AirPods Max Silver, Bottega Veneta Large Andiamo green intrecciato tote, DJI Osmo Pocket 3, MacBook Air M3 Silver, Away Bigger Carry-On Flex Cloud Gray, and Patagonia Better Sweater — one brand per slot.',
+    },
+    {
+      q: 'Why ignore the "never overpack again" text on the reference photo?',
+      a: 'The white sans-serif overlay is meme chrome from the source image — not a product slot. The og-base cover is an original GPT editorial flat lay; the scene maps physical objects only.',
+    },
+    {
+      q: 'How is this different from travel essentials or men\'s travel essentials?',
+      a: 'Travel essentials (114) is a twelve-slot tech-and-comfort bedsheet kit. Men\'s travel essentials (128) is quiet-luxury carry-on on silver Rimowa. Never overpack again is athleisure capsule packing — Lululemon, Adidas Tokyo, one Bottega tote, MacBook + Osmo, Away suitcase, one Patagonia knit.',
+    },
+    {
+      q: 'Why does Apple appear twice?',
+      a: 'The reference includes AirPods Max and a MacBook in the tote — two distinct product types from one brand. Diffr allows that when the source photo does; each slot maps to a different canonical type.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 129. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

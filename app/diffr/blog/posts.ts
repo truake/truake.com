@@ -1485,6 +1485,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'never-overpack-again-brand-guide',
+    title: 'Never Overpack Again: 8 Capsule Packing Picks, One Brand Per Slot',
+    description: 'The viral "never overpack again" suitcase flat lay decoded — Lululemon, Adidas Tokyo, Apple AirPods Max, Bottega Veneta, DJI, MacBook, Away, and Patagonia. Eight slots with live catalog images from Diffr.',
+    date: '2026-08-12',
+    readTime: '4 min read',
+    tags: ['brand guide', 'packing', 'flat lay', 'travel capsule', 'carry-on', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight capsule packing picks in an open carry-on flat lay — Lululemon cap, Adidas Tokyo, AirPods Max, Bottega tote, Osmo Pocket, MacBook, Away suitcase, and Patagonia Better Sweater — one brand per slot.',
+    content: `
+<p>The &ldquo;never overpack again&rdquo; flat lay is capsule packing decoded: a Lululemon Structured Ball Cap *98, blue Adidas Tokyo sneakers, silver Apple AirPods Max, a green Bottega Veneta Large Andiamo intrecciato tote with MacBook inside, a DJI Osmo Pocket 3 on the tote, an Away Bigger Carry-On Flex as the open suitcase surface, and a folded Patagonia Better Sweater. Strip the white sans-serif overlay &mdash; meme chrome, not a product slot &mdash; map what remains to canonical types, and surface one brand per slot from the live catalog.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Airport Cap</h3>
+<p><strong>Lululemon Structured Classic Ball Cap *98 True Navy/Gold</strong> &mdash; navy cap with yellow LULULEMON 98 embroidery from the flat lay.</p>
+
+<h3>Slot 2 &mdash; Walk-Around Sneakers</h3>
+<p><strong>Adidas Tokyo Shoes KJ7524 Royal Blue/Warm Vanilla/Gum</strong> &mdash; blue suede low-top with white stripes and gum sole from the reference.</p>
+
+<h3>Slot 3 &mdash; In-Flight Audio</h3>
+<p><strong>Apple AirPods Max Silver</strong> &mdash; silver over-ear headphones from the grid.</p>
+
+<h3>Slot 4 &mdash; Personal-Item Tote</h3>
+<p><strong>Bottega Veneta Large Andiamo Emerald Green Intrecciato</strong> &mdash; emerald green woven leather tote from the flat lay.</p>
+
+<h3>Slot 5 &mdash; Pocket Video</h3>
+<p><strong>DJI Osmo Pocket 3 Handheld Camera</strong> &mdash; compact gimbal camera resting on the tote.</p>
+
+<h3>Slot 6 &mdash; Travel Laptop</h3>
+<p><strong>Apple MacBook Air 15-inch M3 Silver</strong> &mdash; silver laptop peeking from the Bottega tote.</p>
+
+<h3>Slot 7 &mdash; Carry-On Suitcase</h3>
+<p><strong>Away The Bigger Carry-On Flex Cloud Gray</strong> &mdash; grey soft-sided open suitcase as the hero packing surface.</p>
+
+<h3>Slot 8 &mdash; One Mid-Layer Knit</h3>
+<p><strong>Patagonia Better Sweater</strong> &mdash; folded red crewneck from the right compartment.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Packing flat lays circulate faster than checklists. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All eight slots are pinned on preset 129 so tiles match the decode.</p>
+
+<p>Distinct from <a href="/diffr/blog/travel-essentials-brand-guide">travel essentials</a> (bedsheet tech kit) and <a href="/diffr/blog/mens-travel-essentials-brand-guide">men&rsquo;s travel essentials</a> (quiet-luxury Rimowa flat lay). Explore the interactive scene: <a href="/diffr/start/never-overpack-again-flat-lay">Never Overpack Again Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'on-your-feet-all-day-work-brand-guide',
     title: 'On Your Feet All Day at Work: 8 Comfort Picks, One Brand Per Slot',
     description: 'Standing or walking all day at work — Hoka, Comrad, Superfeet, Lululemon, Uniqlo, O\'Keeffe\'s, Owala, and Gorilla Grip. Eight slots, one specialist brand each, not a single-brand wall.',
