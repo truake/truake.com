@@ -159,6 +159,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the men\'s travel essentials carry-on flat lay is eight slots — SK-II Men Facial Treatment Essence, Globe-Trotter passport sleeve, Apple iPhone 16 Pro, Creed Silver Mountain Water, Cartier Santos, Oliver Peoples Gregory Peck sunglasses, Goyard Saint-Sulpice card wallet, and Rimowa Original Cabin — one brand each. Quiet-luxury mens travel on silver aluminum; ignore meme overlay text. Live catalog tiles below.',
   'never-overpack-again-brand-guide':
     'Bottom line: the "never overpack again" packing flat lay is eight slots — Lululemon cap, Adidas Tokyo sneakers, Apple AirPods Max, Bottega Veneta Andiamo tote, DJI Osmo Pocket, MacBook Air, Away carry-on, and Patagonia Better Sweater — one brand each. Capsule packing in an open suitcase; ignore meme overlay text. Live catalog tiles below.',
+  'tech-travel-edc-brand-guide':
+    'Bottom line: the tech travel EDC flat lay is eight slots — Insta360 GO 3S, Bottega Veneta black intrecciato duffel, Rolex Cosmograph Daytona, Fujifilm X100VI, Logitech MX Master 3S, Goyard Saint-Sulpice orange, 24Bottles Clima Bottle black, and iPhone 17 Pro — one brand each. Luxury tech desk kit on light wood; sole Apple slot is the phone. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1374,6 +1376,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 129. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'tech-travel-edc-brand-guide': [
+    {
+      q: 'What is the tech travel EDC flat lay?',
+      a: 'It is an eight-slot luxury tech travel desk kit: Insta360 Go 3S pocket camera, Bottega Veneta black intrecciato duffel, Rolex Cosmograph Daytona oystersteel, Fujifilm X100VI silver, Logitech MX Master 3S, Goyard Saint-Sulpice orange card holder, 24Bottles Clima Bottle Black Radiance, and Apple iPhone 17 Pro — eight distinct brands, one Apple slot.',
+    },
+    {
+      q: 'Why is there no MacBook or Apple Watch in the kit?',
+      a: 'The reference photo included multiple Apple products (MacBook, Watch Ultra, AirPods Max, iPhone). Diffr\'s one-brand-per-slot rule allows only one Apple pick per scene — this kit pins iPhone 17 Pro as the sole Apple slot. MacBook and Watch were dropped in favor of Insta360, Rolex, and 24Bottles.',
+    },
+    {
+      q: 'What replaced the Snapdragon water bottle in the reference?',
+      a: 'The black promo bottle maps to a 24Bottles Clima Bottle Black Radiance — same matte-black insulated silhouette without third-party promo branding.',
+    },
+    {
+      q: 'How is this different from creative desk EDC or travel essentials?',
+      a: 'Creative desk EDC (122) is an olive bedsheet keyboard-and-audio kit. Travel essentials (114) is a twelve-slot bedsheet tech kit. Tech travel EDC is a light-wood luxury desk flat lay — Bottega weekender, Rolex Daytona, Fujifilm X100VI, and iPhone 17 Pro.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 130. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

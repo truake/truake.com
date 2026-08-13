@@ -55,6 +55,7 @@ export const OG_BASE_SLUGS = new Set<string>([
   'some-mens-essentials-brand-guide',
   'mens-travel-essentials-brand-guide',
   'never-overpack-again-brand-guide',
+  'tech-travel-edc-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {

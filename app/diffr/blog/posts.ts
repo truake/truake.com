@@ -1529,6 +1529,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'tech-travel-edc-brand-guide',
+    title: 'Tech Travel EDC: 8 Desk-to-Trip Picks, One Brand Per Slot',
+    description: 'Luxury tech travel EDC flat lay decoded — Insta360 GO 3S, Bottega Veneta black intrecciato duffel, Rolex Cosmograph Daytona, Fujifilm X100VI, Logitech MX Master 3S, Goyard Saint-Sulpice orange, 24Bottles Clima Bottle, and iPhone 17 Pro. Eight brands, live catalog images.',
+    date: '2026-08-13',
+    readTime: '4 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'tech travel', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight luxury tech travel picks on a light wood desk — Insta360 pocket cam, Bottega weekender, Rolex Daytona, Fujifilm X100VI, Logitech mouse, Goyard card holder, 24Bottles bottle, and iPhone 17 Pro — one brand per slot.',
+    content: `
+<p>The tech travel EDC flat lay is a work-trip kit staged on light oak: an Insta360 Go 3S pocket camera, a black Bottega Veneta intrecciato duffel, a Rolex Cosmograph Daytona on oystersteel, a silver Fujifilm X100VI compact, a Logitech MX Master 3S mouse, an orange Goyard Saint-Sulpice card holder, a matte black 24Bottles Clima Bottle, and an iPhone 17 Pro. Map each object to a canonical type, assign one brand per slot, and pull live catalog tiles below.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Pocket Video</h3>
+<p><strong>Insta360 Go 3S Action Camera Midnight Black</strong> &mdash; tiny black pocket action camera from the lower-left of the reference desk.</p>
+
+<h3>Slot 2 &mdash; Weekender Carry</h3>
+<p><strong>Bottega Veneta Intrecciato Duffle Black</strong> &mdash; large black woven-leather weekender from the flat lay.</p>
+
+<h3>Slot 3 &mdash; Tell Time</h3>
+<p><strong>Rolex Cosmograph Daytona Oystersteel White Dial</strong> &mdash; steel chronograph with tachymeter bezel from the desk.</p>
+
+<h3>Slot 4 &mdash; Pocket Stills</h3>
+<p><strong>Fujifilm X100VI Digital Camera Silver</strong> &mdash; silver compact mirrorless hero from the reference.</p>
+
+<h3>Slot 5 &mdash; Travel Mouse</h3>
+<p><strong>Logitech MX Master 3S Wireless Mouse</strong> &mdash; matte black ergonomic mouse from the desk setup.</p>
+
+<h3>Slot 6 &mdash; Cards &amp; Cash</h3>
+<p><strong>Goyard Saint-Sulpice Orange Front</strong> &mdash; orange Goyardine card holder from the flat lay.</p>
+
+<h3>Slot 7 &mdash; Hydration</h3>
+<p><strong>24Bottles Clima Bottle Black Radiance</strong> &mdash; matte black insulated bottle (standing in for the reference Snapdragon promo bottle).</p>
+
+<h3>Slot 8 &mdash; Mobile Comms</h3>
+<p><strong>Apple iPhone 17 Pro Silver</strong> &mdash; sole Apple slot in this kit; triple-camera back from the reference phone.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Tech travel flat lays mix laptops, watches, and carry gear faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All eight slots are pinned on preset 130 with eight distinct brands &mdash; no repeated logos in the grid.</p>
+
+<p>Distinct from <a href="/diffr/blog/creative-desk-edc-brand-guide">creative desk EDC</a> (olive bedsheet keyboard kit), <a href="/diffr/blog/travel-essentials-brand-guide">travel essentials</a> (bedsheet tech), and <a href="/diffr/blog/never-overpack-again-brand-guide">never overpack again</a> (open suitcase capsule). Explore the interactive scene: <a href="/diffr/start/tech-travel-edc-flat-lay">Tech Travel EDC Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'on-your-feet-all-day-work-brand-guide',
     title: 'On Your Feet All Day at Work: 8 Comfort Picks, One Brand Per Slot',
     description: 'Standing or walking all day at work — Hoka, Comrad, Superfeet, Lululemon, Uniqlo, O\'Keeffe\'s, Owala, and Gorilla Grip. Eight slots, one specialist brand each, not a single-brand wall.',
