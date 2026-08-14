@@ -161,6 +161,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the "never overpack again" packing flat lay is eight slots — Lululemon cap, Adidas Tokyo sneakers, Apple AirPods Max, Bottega Veneta Andiamo tote, DJI Osmo Pocket, MacBook Air, Away carry-on, and Patagonia Better Sweater — one brand each. Capsule packing in an open suitcase; ignore meme overlay text. Live catalog tiles below.',
   'tech-travel-edc-brand-guide':
     'Bottom line: the tech travel EDC flat lay is eight slots — Insta360 GO 3S, Bottega Veneta black intrecciato duffel, Rolex Cosmograph Daytona, Fujifilm X100VI, Logitech MX Master 3S, Goyard Saint-Sulpice orange, 24Bottles Clima Bottle black, and iPhone 17 Pro — one brand each. Luxury tech desk kit on light wood; sole Apple slot is the phone. Live catalog tiles below.',
+  'luxury-travel-tech-desk-brand-guide':
+    'Bottom line: the luxury travel tech desk flat lay is eight slots — Prada black leather duffel, Microsoft Surface Pro with Type Cover, Sony WH-1000XM5, Tom Ford Oud Wood, Nintendo Switch OLED, Oliver Peoples Gregory Peck sunglasses, Samsung Galaxy Z Fold6, and Globe-Trotter passport sleeve — one brand each. White-desk work-trip kit; distinct from yesterday\'s tech travel EDC. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1399,6 +1401,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 130. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'luxury-travel-tech-desk-brand-guide': [
+    {
+      q: 'What is the luxury travel tech desk flat lay?',
+      a: 'It is an eight-slot work-trip desk kit on white laminate: Prada black natural-grain leather duffel, Microsoft Surface Pro with Type Cover, Sony WH-1000XM5 headphones, Tom Ford Oud Wood EDP, Nintendo Switch OLED white Joy-Con, Oliver Peoples Gregory Peck round sunglasses, Samsung Galaxy Z Fold6 Silver Shadow, and Globe-Trotter Centenary passport sleeve — eight distinct brands.',
+    },
+    {
+      q: 'How is this different from yesterday\'s tech travel EDC?',
+      a: 'Tech travel EDC (preset 130) is a light-wood kit with Bottega weekender, Rolex Daytona, Fujifilm X100VI, Insta360, and iPhone 17 Pro. Luxury travel tech desk swaps in Prada duffel, Surface Pro (replacing MacBook), Tom Ford Oud Wood, Switch OLED, Samsung Z Fold, and Globe-Trotter — no Rolex, Fujifilm, Bottega, or Apple overlap.',
+    },
+    {
+      q: 'Why Surface Pro instead of MacBook?',
+      a: 'The reference photo showed a MacBook Pro on the desk. Diffr deduped against yesterday\'s iPhone slot and mapped travel compute to Microsoft Surface Pro with Type Cover — a distinct brand and canonical tablet type.',
+    },
+    {
+      q: 'Why Samsung Galaxy Z Fold instead of OnePlus Open?',
+      a: 'The reference gold foldable phone maps to Samsung Galaxy Z Fold6 Silver Shadow — a promoted foldable in Diffr\'s catalog. OnePlus is deprioritized in the database and not used for new scene slots.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 131. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

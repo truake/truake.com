@@ -45,6 +45,7 @@ export const BLOG_SLUG_TO_START: Record<string, string> = {
   'mens-travel-essentials-brand-guide': 'mens-travel-essentials-flat-lay',
   'never-overpack-again-brand-guide': 'never-overpack-again-flat-lay',
   'tech-travel-edc-brand-guide': 'tech-travel-edc-flat-lay',
+  'luxury-travel-tech-desk-brand-guide': 'luxury-travel-tech-desk-flat-lay',
 }
 
 /** Inverse map: start funnel slug → SEO-canonical blog post slug. */

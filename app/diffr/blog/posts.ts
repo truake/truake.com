@@ -1573,6 +1573,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'luxury-travel-tech-desk-brand-guide',
+    title: 'Luxury Travel Tech Desk: 8 Work-Trip Picks, One Brand Per Slot',
+    description: 'Luxury travel tech desk flat lay decoded — Prada black leather duffel, Microsoft Surface Pro, Sony WH-1000XM5, Tom Ford Oud Wood, Nintendo Switch OLED, Oliver Peoples Gregory Peck, Samsung Galaxy Z Fold6, and Globe-Trotter passport sleeve. Eight brands, live catalog images.',
+    date: '2026-08-14',
+    readTime: '4 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'luxury travel', 'tech desk', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight luxury work-trip picks on a white desk — Prada weekender, Surface Pro, Sony headphones, Tom Ford Oud Wood, Switch OLED, Oliver Peoples shades, Samsung Z Fold6, and Globe-Trotter passport sleeve — one brand per slot.',
+    content: `
+<p>The luxury travel tech desk flat lay is a work-trip kit staged on white laminate: a Prada black natural-grain leather duffel, a Microsoft Surface Pro with Type Cover, white Sony WH-1000XM5 headphones, a Tom Ford Oud Wood fragrance bottle, a Nintendo Switch OLED with white Joy-Con, Oliver Peoples Gregory Peck round sunglasses, a Samsung Galaxy Z Fold6 Silver Shadow foldable, and a Globe-Trotter Centenary leather passport sleeve. Map each object to a canonical type, assign one brand per slot, and pull live catalog tiles below.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Weekender Carry</h3>
+<p><strong>Prada Black Natural-Grain Leather Duffel</strong> &mdash; large black pebbled leather weekender from the flat lay.</p>
+
+<h3>Slot 2 &mdash; Travel Compute</h3>
+<p><strong>Microsoft Surface Pro with Type Cover</strong> &mdash; platinum Surface Pro tablet with keyboard (replacing the reference MacBook).</p>
+
+<h3>Slot 3 &mdash; Travel Audio</h3>
+<p><strong>Sony WH-1000XM5 Wireless Headphones White</strong> &mdash; white over-ear noise-cancelling headphones from the desk.</p>
+
+<h3>Slot 4 &mdash; Scent</h3>
+<p><strong>Tom Ford Oud Wood Eau de Parfum</strong> &mdash; black square fragrance bottle from the flat lay.</p>
+
+<h3>Slot 5 &mdash; In-Flight Gaming</h3>
+<p><strong>Nintendo Switch OLED Model White Joy-Con</strong> &mdash; handheld console from the desk setup.</p>
+
+<h3>Slot 6 &mdash; Sun Eye</h3>
+<p><strong>Oliver Peoples Gregory Peck Sun Matte Black</strong> &mdash; round black acetate sunglasses from the reference.</p>
+
+<h3>Slot 7 &mdash; Mobile Comms</h3>
+<p><strong>Samsung Galaxy Z Fold6 Silver Shadow</strong> &mdash; foldable smartphone with triple-camera module (replacing OnePlus Open archetype).</p>
+
+<h3>Slot 8 &mdash; Travel Docs</h3>
+<p><strong>Globe-Trotter Centenary Leather Passport Sleeve Navy</strong> &mdash; leather passport holder from the desk.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Luxury travel tech desk flat lays mix weekender carry, compute, and foldables faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All eight slots are pinned on preset 131 with eight distinct brands &mdash; deduped against yesterday&rsquo;s tech travel EDC (Rolex, Fujifilm, Bottega, Insta360, iPhone).</p>
+
+<p>Distinct from <a href="/diffr/blog/tech-travel-edc-brand-guide">tech travel EDC</a> (yesterday&rsquo;s light-wood Bottega/Rolex kit), <a href="/diffr/blog/creative-desk-edc-brand-guide">creative desk EDC</a> (olive bedsheet keyboard kit), and <a href="/diffr/blog/mens-travel-essentials-brand-guide">men&rsquo;s travel essentials</a> (Rimowa carry-on vanity). Explore the interactive scene: <a href="/diffr/start/luxury-travel-tech-desk-flat-lay">Luxury Travel Tech Desk Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'on-your-feet-all-day-work-brand-guide',
     title: 'On Your Feet All Day at Work: 8 Comfort Picks, One Brand Per Slot',
     description: 'Standing or walking all day at work — Hoka, Comrad, Superfeet, Lululemon, Uniqlo, O\'Keeffe\'s, Owala, and Gorilla Grip. Eight slots, one specialist brand each, not a single-brand wall.',
