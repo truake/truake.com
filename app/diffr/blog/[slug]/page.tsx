@@ -83,6 +83,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'never-overpack-again-brand-guide': 129,
   'tech-travel-edc-brand-guide': 130,
   'luxury-travel-tech-desk-brand-guide': 131,
+  'pack-my-hermes-backpack-brand-guide': 132,
 }
 
 export async function generateStaticParams() {

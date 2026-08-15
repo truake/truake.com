@@ -163,6 +163,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the tech travel EDC flat lay is eight slots — Insta360 GO 3S, Bottega Veneta black intrecciato duffel, Rolex Cosmograph Daytona, Fujifilm X100VI, Logitech MX Master 3S, Goyard Saint-Sulpice orange, 24Bottles Clima Bottle black, and iPhone 17 Pro — one brand each. Luxury tech desk kit on light wood; sole Apple slot is the phone. Live catalog tiles below.',
   'luxury-travel-tech-desk-brand-guide':
     'Bottom line: the luxury travel tech desk flat lay is eight slots — Prada black leather duffel, Microsoft Surface Pro with Type Cover, Sony WH-1000XM5, Tom Ford Oud Wood, Nintendo Switch OLED, Oliver Peoples Gregory Peck sunglasses, Samsung Galaxy Z Fold6, and Globe-Trotter passport sleeve — one brand each. White-desk work-trip kit; distinct from yesterday\'s tech travel EDC. Live catalog tiles below.',
+  'pack-my-hermes-backpack-brand-guide':
+    'Bottom line: the pack my Hermès backpack flat lay is eight slots — Apple iPhone 17 Pro Cosmic Orange, Loewe 001 Woman EDP, Goyard Saint-Sulpice black card wallet, Simply Gum Peppermint, Agent Nateur Holi (mag) Complex, SkinCeuticals Future Mineral SPF 50, Touchland Power Mist, and Noshinku Eucalyptus sanitizing hand wipes — one brand each. Dark marble pocket dump; Apple slot is the bare orange phone, not a leather case. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1424,6 +1426,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 131. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'pack-my-hermes-backpack-brand-guide': [
+    {
+      q: 'What is the pack my Hermès backpack flat lay?',
+      a: 'It is an eight-slot pocket dump on dark veined marble: Apple iPhone 17 Pro Cosmic Orange bare back, Loewe 001 Woman EDP, Goyard Saint-Sulpice black card wallet, Simply Gum Peppermint gum box, Agent Nateur Holi (mag) Complex sachet, SkinCeuticals Future Mineral SPF 50 pump, Touchland Power Mist hand sanitizer, and Noshinku Eucalyptus sanitizing hand wipes — eight distinct brands.',
+    },
+    {
+      q: 'Why ignore the "PACK MY HERMÈS BACKPACK" text on the reference photo?',
+      a: 'The white serif overlay is meme chrome from the source image — not a product slot. The og-base cover is an original GPT editorial flat lay; the scene maps physical objects only.',
+    },
+    {
+      q: 'Why iPhone 17 Pro bare back instead of a Hermès leather case?',
+      a: 'The reference orange rectangle is the iPhone 17 Pro Cosmic Orange finish — not a Hermès leather wrap. Diffr maps the sole Apple slot to the bare phone back with triple-camera module.',
+    },
+    {
+      q: 'How is this different from tech travel EDC or luxury travel tech desk?',
+      a: 'Tech travel EDC (preset 130) is a light-wood kit with Bottega, Rolex, and Insta360. Luxury travel tech desk (131) is a white-desk work-trip setup with Prada and Surface Pro. Pack my Hermès backpack is a marble pocket dump focused on scent, hygiene, gum, and card carry — no weekender bag or laptop slots.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 132. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

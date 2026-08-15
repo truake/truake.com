@@ -1617,6 +1617,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'pack-my-hermes-backpack-brand-guide',
+    title: 'Pack My Hermès Backpack: 8 Pocket-Dump Picks, One Brand Per Slot',
+    description: 'Hermès backpack pocket dump decoded — iPhone 17 Pro Cosmic Orange, Loewe 001 Woman EDP, Goyard Saint-Sulpice black card wallet, Simply Gum Peppermint, Agent Nateur Holi (mag) Complex, SkinCeuticals Future Mineral SPF 50, Touchland Power Mist, and Noshinku Eucalyptus sanitizing hand wipes. Eight brands, live catalog images.',
+    date: '2026-08-15',
+    readTime: '4 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'luxury travel', 'pocket dump', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight pocket-dump picks on dark marble — iPhone 17 Pro orange, Loewe 001, Goyard card wallet, Simply Gum, Agent Nateur Holi Mag, SkinCeuticals Future Mineral, Touchland sanitizer, and Noshinku wipes — one brand per slot.',
+    content: `
+<p>The pack my Hermès backpack flat lay is a pocket dump staged on dark veined marble: an Apple iPhone 17 Pro in Cosmic Orange bare back, a Loewe 001 Woman Eau de Parfum bottle with wooden cap, a Goyard Saint-Sulpice black Goyardine card wallet, a Simply Gum Peppermint white box, an Agent Nateur Holi (mag) Complex mint sachet, a SkinCeuticals Future Mineral SPF 50 pump bottle, a Touchland Power Mist hand sanitizer, and a Noshinku Eucalyptus Nourishing Sanitizing Hand Wipes pack. Map each object to a canonical type, assign one brand per slot, and pull live catalog tiles below.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Mobile Comms</h3>
+<p><strong>Apple iPhone 17 Pro Cosmic Orange</strong> &mdash; bare orange back with triple-camera module (not a Hermès leather case).</p>
+
+<h3>Slot 2 &mdash; Scent</h3>
+<p><strong>Loewe 001 Woman Eau de Parfum 100 ml</strong> &mdash; clear rectangular bottle with pale wood cap from the flat lay.</p>
+
+<h3>Slot 3 &mdash; Cards &amp; Cash</h3>
+<p><strong>Goyard Saint-Sulpice Card Wallet Black</strong> &mdash; black and grey Goyardine chevron card holder from the reference.</p>
+
+<h3>Slot 4 &mdash; Fresh Breath</h3>
+<p><strong>Simply Gum Peppermint 15-piece box</strong> &mdash; white square gum box with green mint leaf illustration.</p>
+
+<h3>Slot 5 &mdash; Beauty Supplement</h3>
+<p><strong>Agent Nateur Holi (mag) Complex 3 Sachet Pack</strong> &mdash; mint-green single-use magnesium sachet from the pocket dump.</p>
+
+<h3>Slot 6 &mdash; Sun Care</h3>
+<p><strong>SkinCeuticals Future Mineral UV Defense SPF 50 50 ml</strong> &mdash; black matte pump sunscreen bottle from the flat lay.</p>
+
+<h3>Slot 7 &mdash; Hand Hygiene</h3>
+<p><strong>Touchland Power Mist Hand Sanitizer</strong> &mdash; white rectangular frame sanitizer with clear liquid window.</p>
+
+<h3>Slot 8 &mdash; Hand Wipes</h3>
+<p><strong>Noshinku Eucalyptus Nourishing Sanitizing Hand Wipes 15 Count</strong> &mdash; navy soft pack with white circular logo.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Hermès backpack pocket dumps mix scent, hygiene, and card carry faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All eight slots are pinned on preset 132 with eight distinct brands &mdash; the sole Apple slot is the bare Cosmic Orange phone, not a leather wrap.</p>
+
+<p>Distinct from <a href="/diffr/blog/tech-travel-edc-brand-guide">tech travel EDC</a> (light-wood Bottega/Rolex kit), <a href="/diffr/blog/luxury-travel-tech-desk-brand-guide">luxury travel tech desk</a> (white-desk Prada/Surface Pro kit), and <a href="/diffr/blog/mens-travel-essentials-brand-guide">men&rsquo;s travel essentials</a> (Rimowa carry-on vanity). Explore the interactive scene: <a href="/diffr/start/pack-my-hermes-backpack-flat-lay">Pack My Hermès Backpack Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'on-your-feet-all-day-work-brand-guide',
     title: 'On Your Feet All Day at Work: 8 Comfort Picks, One Brand Per Slot',
     description: 'Standing or walking all day at work — Hoka, Comrad, Superfeet, Lululemon, Uniqlo, O\'Keeffe\'s, Owala, and Gorilla Grip. Eight slots, one specialist brand each, not a single-brand wall.',
