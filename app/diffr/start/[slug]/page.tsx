@@ -17,6 +17,14 @@ import {
 import SceneBrandKit from "../SceneBrandKit";
 import PresetScenePage from "../PresetScenePage";
 import { blogCanonicalUrl, START_SLUG_TO_BLOG } from "../../blog-slug-maps";
+import { bakedOgUrl } from "../../blog/static-og";
+
+function shareImagesForBlogTwin(blogSlug: string | undefined, alt: string) {
+  if (!blogSlug) return undefined;
+  const url = bakedOgUrl(blogSlug);
+  if (!url) return undefined;
+  return [{ url, width: 1200, height: 630, alt }];
+}
 
 // ── Static generation ─────────────────────────────────────────
 export async function generateStaticParams() {
@@ -47,10 +55,17 @@ export async function generateMetadata(
     const description =
       meta.description ??
       `Diffr's beginner brand picks for ${meta.name}. One brand per slot, no repeats.`;
+    const images = shareImagesForBlogTwin(blogTwin, title);
     return {
       title,
       description,
-      openGraph: { title, description, url: canonical },
+      openGraph: { title, description, url: canonical, images },
+      twitter: {
+        card: "summary_large_image",
+        title,
+        description,
+        images,
+      },
       alternates: { canonical },
     };
   }
