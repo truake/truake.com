@@ -165,6 +165,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the luxury travel tech desk flat lay is eight slots — Prada black leather duffel, Microsoft Surface Pro with Type Cover, Sony WH-1000XM5, Tom Ford Oud Wood, Nintendo Switch OLED, Oliver Peoples Gregory Peck sunglasses, Samsung Galaxy Z Fold6, and Globe-Trotter passport sleeve — one brand each. White-desk work-trip kit; distinct from yesterday\'s tech travel EDC. Live catalog tiles below.',
   'pack-my-hermes-backpack-brand-guide':
     'Bottom line: the pack my Hermès backpack flat lay is eight slots — Apple iPhone 17 Pro Cosmic Orange, Loewe 001 Woman EDP, Goyard Saint-Sulpice black card wallet, Simply Gum Peppermint, Agent Nateur Holi (mag) Complex, SkinCeuticals Future Mineral SPF 50, Touchland Power Mist, and Noshinku Eucalyptus sanitizing hand wipes — one brand each. Dark marble pocket dump; Apple slot is the bare orange phone, not a leather case. Live catalog tiles below.',
+  'do-not-disturb-brand-guide':
+    'Bottom line: the do not disturb flat lay is eight slots — Apple iPod Nano 3rd generation, Sony PSP Ceramic White, Nintendo Zelda Ocarina of Time 3D 3DS cartridge, Fujifilm X100VI Silver, We Are Rewind WE-001 KURT Blue, Timex Weekender striped NATO, Twelve South AirFly Pro White, and Dunlop Tortex Flex 0.88 pick — one brand each. Tech-lofi baby-blue kit; no iPhone (Apple slot is the Nano). Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1449,6 +1451,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 132. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'do-not-disturb-brand-guide': [
+    {
+      q: 'What is the do not disturb flat lay?',
+      a: 'It is an eight-slot tech-lofi kit on baby blue: Apple iPod Nano 3rd generation, white Sony PSP, Nintendo Zelda Ocarina of Time 3D 3DS cartridge, Fujifilm X100VI Silver, We Are Rewind WE-001 KURT Blue cassette player, Timex Weekender with striped NATO strap, Twelve South AirFly Pro White, and Dunlop Tortex Flex 0.88 guitar pick — eight distinct brands.',
+    },
+    {
+      q: 'Why ignore the "do not disturb." text on the reference photo?',
+      a: 'The dark green serif overlay is meme chrome from the source image — not a product slot. The og-base cover is an original GPT editorial flat lay; the scene maps physical objects only.',
+    },
+    {
+      q: 'Why iPod Nano instead of iPhone?',
+      a: 'The reference includes a phone, but iPhone already appeared in recent Scenes (tech travel EDC, pack my Hermès backpack). Diffr maps the sole Apple slot to the black iPod Nano 3rd generation from the flat lay — nostalgic portable media, not a smartphone.',
+    },
+    {
+      q: 'Why We Are Rewind instead of the blue DAP in the photo?',
+      a: 'The reference DAP silhouette matches a compact cassette-style player. Diffr maps it to We Are Rewind WE-001 KURT Blue — a promoted non-Chinese brand in catalog — rather than Chinese DAP alternatives.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 133. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

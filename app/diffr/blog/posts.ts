@@ -1661,6 +1661,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'do-not-disturb-brand-guide',
+    title: 'Do Not Disturb: 8 Tech-Lofi Picks, One Brand Per Slot',
+    description: 'Do not disturb flat lay decoded — iPod Nano 3rd gen, Sony PSP Ceramic White, Zelda Ocarina of Time 3D 3DS, Fujifilm X100VI Silver, We Are Rewind WE-001 KURT Blue, Timex Weekender NATO, Twelve South AirFly Pro, and Dunlop Tortex Flex pick. Eight brands, no iPhone.',
+    date: '2026-08-16',
+    readTime: '4 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'tech lofi', 'nostalgia', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight tech-lofi picks on baby blue — iPod Nano 3rd gen, white PSP, Zelda 3DS cart, X100VI, We Are Rewind WE-001, Timex Weekender, AirFly Pro, and Dunlop pick — one brand per slot, no iPhone.',
+    content: `
+<p>The do not disturb flat lay is a tech-lofi kit staged on solid baby blue: a black Apple iPod Nano 3rd generation, a white Sony PlayStation Portable, a Nintendo 3DS cartridge for The Legend of Zelda: Ocarina of Time 3D, a silver Fujifilm X100VI compact camera, a blue We Are Rewind WE-001 KURT cassette player, a Timex Weekender with white dial and striped NATO strap, a white Twelve South AirFly Pro Bluetooth transmitter, and a white Dunlop Tortex Flex 0.88 guitar pick. Map each object to a canonical type, assign one brand per slot, and pull live catalog tiles below.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Portable Media</h3>
+<p><strong>Apple iPod Nano 3rd Generation Black</strong> &mdash; short wide Nano body with color screen and click wheel (not iPhone, not iPod Classic).</p>
+
+<h3>Slot 2 &mdash; Handheld Gaming</h3>
+<p><strong>Sony PlayStation Portable Ceramic White</strong> &mdash; white PSP handheld from the flat lay.</p>
+
+<h3>Slot 3 &mdash; Portable Gaming</h3>
+<p><strong>Nintendo The Legend of Zelda: Ocarina of Time 3D 3DS Cartridge</strong> &mdash; rectangular 3DS game cart from the reference.</p>
+
+<h3>Slot 4 &mdash; Premium Compact Camera</h3>
+<p><strong>Fujifilm X100VI Silver</strong> &mdash; silver rangefinder-style compact from the right edge of the flat lay.</p>
+
+<h3>Slot 5 &mdash; Portable Audio</h3>
+<p><strong>We Are Rewind WE-001 KURT Blue</strong> &mdash; blue retro cassette-style portable player (reference DAP silhouette; non-Chinese catalog pick).</p>
+
+<h3>Slot 6 &mdash; Casual Watch</h3>
+<p><strong>Timex Weekender White Dial Striped NATO</strong> &mdash; silver case, white dial, black and beige striped fabric strap.</p>
+
+<h3>Slot 7 &mdash; Bluetooth Audio</h3>
+<p><strong>Twelve South AirFly Pro White</strong> &mdash; white oval Bluetooth audio transmitter puck.</p>
+
+<h3>Slot 8 &mdash; Guitar Pick</h3>
+<p><strong>Dunlop Tortex Flex Standard 0.88 mm White</strong> &mdash; white teardrop pick with green .88 print.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Tech-lofi flat lays mix nostalgia handhelds, compact cameras, and quiet analog gear faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All eight slots are pinned on preset 133 with eight distinct brands &mdash; the sole Apple slot is the iPod Nano 3rd gen, not iPhone.</p>
+
+<p>Distinct from <a href="/diffr/blog/tech-travel-edc-brand-guide">tech travel EDC</a> (iPhone + Bottega weekender), <a href="/diffr/blog/pack-my-hermes-backpack-brand-guide">pack my Hermès backpack</a> (marble pocket dump), and <a href="/diffr/blog/creative-desk-edc-brand-guide">creative desk EDC</a> (olive bedsheet keyboard kit). Explore the interactive scene: <a href="/diffr/start/do-not-disturb-flat-lay">Do Not Disturb Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'on-your-feet-all-day-work-brand-guide',
     title: 'On Your Feet All Day at Work: 8 Comfort Picks, One Brand Per Slot',
     description: 'Standing or walking all day at work — Hoka, Comrad, Superfeet, Lululemon, Uniqlo, O\'Keeffe\'s, Owala, and Gorilla Grip. Eight slots, one specialist brand each, not a single-brand wall.',
