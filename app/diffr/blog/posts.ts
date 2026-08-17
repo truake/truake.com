@@ -248,12 +248,13 @@ export const posts: BlogPost[] = [
 <h2>The Diffr Take</h2>
 <p>Notice what Lululemon actually did: it took one overwhelming wall and quietly split it into lanes, one per scene. That is the whole Diffr idea &mdash; <a href="/diffr/blog/the-decide-once-rule">decide once</a>, by scene, and stop re-litigating the same purchase every season. The brand did the sorting; your only job is to match the lane to your life.</p>
 <p>So pick yours: everyday is Align, the commute is ABC, the weekend is Scuba, the sweat is Steady State, the court is Tennis &amp; Golf. One lane, one decision. Want that done for every part of your closet, not just the leggings? <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Download Diffr</a> and lock one pick per scene &mdash; yours.</p>
+<p>Cross-shopping athleisure? See <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a> and <a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a> &mdash; same map-the-lanes pattern, different logo. Building a dorm or travel capsule? Start with <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo fabric lines</a> for basics, then add <a href="/diffr/blog/patagonia-lines-explained">Patagonia layers</a> if you need outerwear depth.</p>
 `.trim(),
   },
   {
     slug: 'adidas-lines-explained',
-    title: "Adidas Lines Explained: Originals, Performance, Terrex & Which Line Is for Which Scene",
-    description: "Adidas lines explained — Originals for street heritage, Sportswear for everyday, Performance for training and running, Terrex for trail, Y-3 for design. The map so you pick your lane and decide once.",
+    title: "Adidas Lines Explained: Sub-Brands, Originals vs Performance & Which Line Fits Your Scene",
+    description: "Adidas lines explained — what's the difference between Originals and Performance? Originals for street (Samba, Gazelle), Sportswear for everyday joggers, Performance for training and running, Terrex for trail. Pick your lane and decide once.",
     date: '2026-08-03',
     readTime: '6 min read',
     tags: ['adidas lines explained', 'adidas sub brands', 'adidas originals', 'adidas performance', 'adidas terrex', 'athleisure', 'one brand rule'],
@@ -287,8 +288,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'uniqlo-lines-explained',
-    title: "Uniqlo Lines Explained: LifeWear, HEATTECH, AIRism & Which Line Is for Which Season",
-    description: "Uniqlo lines explained — LifeWear basics, HEATTECH for cold, AIRism for heat, +J and UT for collabs. The map so you pick the right fabric line and decide once.",
+    title: "Uniqlo Lines Explained: HEATTECH vs AIRism, LifeWear & Which Line for Which Season",
+    description: "Uniqlo HEATTECH vs AIRism — what's the difference? HEATTECH is the thin winter base layer; AIRism is summer and humidity; LifeWear Supima is everyday basics. The full fabric-line map so you pick once.",
     date: '2026-08-03',
     readTime: '6 min read',
     tags: ['uniqlo lines explained', 'uniqlo heattech', 'uniqlo airism', 'lifewear', 'basics wardrobe', 'one brand rule'],
@@ -385,8 +386,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'aritzia-sub-brands-guide',
-    title: "Aritzia's Brands, Decoded: Which Sub-Brand to Wear When (and What to Buy Instead)",
-    description: "Aritzia isn't one brand — it's a house of seven, each built for a different part of your week. Babaton for work, Wilfred for date night, TNA for the weekend, Sunday Best for going out, the Super Puff for winter. Here's the full map, plus the independent pick that beats each one.",
+    title: "Aritzia In-House Brands Explained: Babaton, Wilfred, TNA & What to Buy Instead",
+    description: "What brands does Aritzia own? Seven in-house labels — Babaton for work, Wilfred for date night, TNA for the weekend, Sunday Best for going out, the Super Puff for winter. Full sub-brand map plus the independent pick that beats each one.",
     date: '2026-06-24',
     readTime: '6 min read',
     tags: ['aritzia brands', 'aritzia sub brands', 'babaton', 'aritzia super puff', 'is aritzia worth it', 'womens fashion', 'one brand rule'],
@@ -571,8 +572,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: '54321-packing-method-brand-guide',
-    title: '54321 Packing Method: What It Is & How to Pack a Carry-On Capsule',
-    description: 'What is the 54321 packing method? 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule that fits a week in a carry-on. What to pack first, one good pick per category, without a 60-item list.',
+    title: '54321 Packing Method & Rule: How to Pack a Carry-On Capsule (5-4-3-2-1)',
+    description: 'What is the 54321 packing method? The 54321 packing rule is 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule for a week in a carry-on. Which Uniqlo and Patagonia lines to pick for each slot.',
     date: '2026-07-24',
     readTime: '6 min read',
     tags: ['brand guide', '54321 packing method', 'travel capsule wardrobe', 'carry on packing list', 'one bag essentials', 'packing list carry on', 'non-repetition principle'],
@@ -594,13 +595,13 @@ export const posts: BlogPost[] = [
 <p>Five tops times four bottoms is twenty outfit combinations before you touch the layers. That is the math that makes carry-on-only travel possible &mdash; not packing less for the sake of suffering, but packing <em>right</em> so every piece earns its space.</p>
 
 <h2>5 Tops &mdash; Uniqlo</h2>
-<p>Start with a neutral palette in one reliable maker: two plain tees, one striped or textured tee, one oxford or linen shirt, one light knit or long-sleeve base. Uniqlo is the default here &mdash; consistent sizing, honest fabrics, prices low enough to buy the three colors that matter. Every top should work with every bottom you pack; if it only pairs with one thing, it stays home.</p>
+<p>Start with a neutral palette in one reliable maker: two plain tees, one striped or textured tee, one oxford or linen shirt, one light knit or long-sleeve base. Uniqlo is the default here &mdash; consistent sizing, honest fabrics, prices low enough to buy the three colors that matter. Every top should work with every bottom you pack; if it only pairs with one thing, it stays home. For which fabric line to buy &mdash; LifeWear Supima for everyday, AIRism for hot trips, HEATTECH as a thin base on cold routes &mdash; see <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines explained</a>.</p>
 
 <h2>4 Bottoms &mdash; Everlane</h2>
 <p>One dark jean, one chino or trouser, one short or skirt (weather-dependent), one &ldquo;comfort&rdquo; bottom (joggers or leggings that still read put-together). Everlane&rsquo;s denim and chinos are the capsule workhorses &mdash; straight enough to dress up, relaxed enough for a ten-hour travel day. Same rule: neutral colors, all interchangeable.</p>
 
 <h2>3 Layers &mdash; Patagonia</h2>
-<p>A packable rain shell, a mid-weight fleece or cardigan, and either a dress that doubles as a layer or a third warm piece for cold destinations. Patagonia owns the &ldquo;one jacket that actually works&rdquo; slot &mdash; the shell blocks wind and rain; the fleece handles the plane and the cool evening. Layers are how you cover a 30-degree temperature swing without packing a second wardrobe.</p>
+<p>A packable rain shell, a mid-weight fleece or cardigan, and either a dress that doubles as a layer or a third warm piece for cold destinations. Patagonia owns the &ldquo;one jacket that actually works&rdquo; slot &mdash; the shell blocks wind and rain; the fleece handles the plane and the cool evening. Layers are how you cover a 30-degree temperature swing without packing a second wardrobe. Match the line to the job first: Houdini for wind, Torrentshell for rain, Better Sweater for mid-layer warmth &mdash; see <a href="/diffr/blog/patagonia-lines-explained">Patagonia lines explained</a>.</p>
 
 <h2>2 Shoes &mdash; Hoka + Veja</h2>
 <p><strong>Hoka</strong> for the walk-all-day pair &mdash; the shoes you wear through airports, cobblestones, and museum days. <strong>Veja</strong> (or one clean white leather sneaker) for the second slot: dressier than a running shoe, still comfortable enough for dinner. Wear the bulkier pair on the plane; pack the lighter one. Two pairs is the discipline &mdash; the third pair is how carry-ons fail.</p>
@@ -618,7 +619,7 @@ export const posts: BlogPost[] = [
 <p>Weekend trip? Scale down to a 3-2-1 mini edit. A month abroad? Run the formula twice (warm kit + cool kit) or bump to 6-5-4-3-2-1 &mdash; same system, more pieces, still one carry-on if you laundry once a week.</p>
 
 <h2>The Point</h2>
-<p>The 54321 packing method is not a deprivation challenge &mdash; it is a decide-once system for the clothes <em>inside</em> the bag. One good pick per category, a neutral palette, and you stop treating every trip like a new wardrobe research project. Pair it with the <a href="/diffr/blog/international-travel-essentials-brand-guide">carry-on essentials list</a> for the gear that carries it all. That is the Diffr method: <a href="/diffr/blog/the-decide-once-rule">decide once</a>, pack the formula, close the file. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Pack light. Stop researching.</p>
+<p>The 54321 packing method is not a deprivation challenge &mdash; it is a decide-once system for the clothes <em>inside</em> the bag. One good pick per category, a neutral palette, and you stop treating every trip like a new wardrobe research project. Pair it with the <a href="/diffr/blog/international-travel-essentials-brand-guide">carry-on essentials list</a> for the gear that carries it all. For the clothing brands behind the formula, go deep on one house at a time: <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines</a>, <a href="/diffr/blog/patagonia-lines-explained">Patagonia lines</a>, <a href="/diffr/blog/nike-lines-explained">Nike lines</a>. That is the Diffr method: <a href="/diffr/blog/the-decide-once-rule">decide once</a>, pack the formula, close the file. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Pack light. Stop researching.</p>
 `.trim(),
   },
   {
@@ -1880,8 +1881,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'dorm-room-essentials-brand-guide',
-    title: 'College Dorm Checklist: 18 Dorm Room Essentials (One Brand Per Slot)',
-    description: 'College dorm checklist — dorm room essentials for sleep, shower, desk, laundry, and food, one brand per slot. What to buy first for move-in night and the must-haves you actually need (skip the 80-item lists).',
+    title: 'What Do You Need for a Dorm Room? 18 Essentials + Buy-First List',
+    description: 'What do you need for a dorm room? Twin XL bedding, shower caddy, power strip, laundry hamper, and fourteen more dorm room essentials — one brand per slot. What to buy first for move-in night (skip the 80-item lists).',
     date: '2026-06-19',
     readTime: '7 min read',
     tags: ['brand guide', 'dorm room essentials', 'dorm room must haves', 'dorm essentials checklist', 'college dorm checklist', 'non-repetition principle'],
@@ -1968,6 +1969,16 @@ export const posts: BlogPost[] = [
 <li><strong>The laundry hamper</strong> &mdash; because the pile starts immediately.</li>
 </ol>
 <p>Everything else &mdash; desk, storage, fridge, fan &mdash; you can add over the first week once you see the room.</p>
+
+<h2>Clothing &amp; Campus Wear (Pick One Brand, Learn Its Lines)</h2>
+<p>The room checklist above is gear, not outfits. For clothes you will actually wear to class, the gym, and the couch, do not buy random athleisure &mdash; pick one mega-brand and learn its lines, then decide once:</p>
+<ul>
+<li><a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines explained</a> &mdash; LifeWear basics plus HEATTECH if your dorm runs cold</li>
+<li><a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a> &mdash; Align for everyday, Scuba for lounge, Steady State for the rec center</li>
+<li><a href="/diffr/blog/nike-lines-explained">Nike lines explained</a> &mdash; Sportswear for campus, Pro and Pegasus when you actually train</li>
+<li><a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a> &mdash; Originals for street, Performance for gym (your shower slides are already Adidas)</li>
+</ul>
+<p>Each link is a single-brand map &mdash; not a mixed flat lay. One house, one lane per part of your week.</p>
 
 <h2>The Point</h2>
 <p>A good dorm is not the longest packing list &mdash; it is the right eighteen things, one solid brand each, organized so you actually use them. That is the Diffr method: one good pick per slot, no repeats, so you pack once and skip the 80-item haul. Packing for more than the room? The <a href="/diffr/blog/college-packing-list-brand-guide">college packing list</a> covers the tech, documents, and laundry. <a href="/diffr/blog/apartment-cleaning-supplies-brand-guide">Cleaning supplies</a> come next; <a href="/diffr/blog/starter-kits">see every Diffr starter kit &rarr;</a> or get the picks in your pocket &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Move in. Stop researching.</p>
@@ -2743,15 +2754,22 @@ export const posts: BlogPost[] = [
 <li><a href="/diffr/blog/film-photography-brand-guide">Film photography starter kit</a> &mdash; camera to first roll.</li>
 </ul>
 
+<h2>College &amp; Dorm</h2>
+<ul>
+<li><a href="/diffr/blog/dorm-room-essentials-brand-guide">Dorm room essentials</a> &mdash; what you need for a dorm room, buy-first list.</li>
+<li><a href="/diffr/blog/college-packing-list-brand-guide">College packing list</a> &mdash; tech, documents, and what to coordinate with your roommate.</li>
+</ul>
+
 <h2>Brand maps (lines explained)</h2>
-<p>When the wall of options is one brand with a dozen sub-lines, start with the map &mdash; then decide once.</p>
+<p>When the wall of options is one brand with a dozen sub-lines, start with the map &mdash; one brand per page, decide once. (Not mixed flat-lay scenes.)</p>
 <ul>
 <li><a href="/diffr/blog/nike-lines-explained">Nike lines explained</a> &mdash; Sportswear, Tech Fleece, Pro, Pegasus, ACG, SB, Jordan.</li>
 <li><a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a> &mdash; Align, ABC, Scuba, Steady State, Tennis &amp; Golf.</li>
 <li><a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a> &mdash; Originals, Sportswear, Performance, Terrex, Y-3.</li>
-<li><a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines explained</a> &mdash; LifeWear, HEATTECH, AIRism, +J, UT.</li>
+<li><a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines explained</a> &mdash; HEATTECH vs AIRism, LifeWear, Ultra Light Down.</li>
+<li><a href="/diffr/blog/patagonia-lines-explained">Patagonia lines explained</a> &mdash; Better Sweater, Capilene, Down Sweater, Houdini, Torrentshell.</li>
+<li><a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia in-house brands</a> &mdash; Babaton, Wilfred, TNA, Super Puff.</li>
 <li><a href="/diffr/blog/apple-ecosystem-lines-explained">Apple ecosystem lines explained</a> &mdash; iPhone, iPad, Mac, Watch, AirPods by job.</li>
-<li><a href="/diffr/blog/patagonia-lines-explained">Patagonia lines explained</a> &mdash; Better Sweater, Capilene, Down Sweater, Houdini, Torrentshell, Black Hole.</li>
 </ul>
 
 <h2>Travel</h2>
@@ -3928,7 +3946,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'the-derivative-economy',
     title: "Shannon's Law, Branding, and the Derivative Economy",
-    description: "Shannon's law branding thesis: why every reboot, reissue, and brand successor loses signal. Information theory explains what gets lost when culture and commerce copy copies — and how Original Priority helps you buy the origin, not the derivative.",
+    description: "Shannon's law in branding: every reboot, acquisition, and reissue adds noise — the name survives but the founding signal degrades. Coursework? Short answer below. Choosing products? See how Original Priority maps to Nike, Adidas, and Lululemon lines.",
     date: '2026-04-27',
     readTime: '7 min read',
     tags: ["original priority", "shannon", "brand philosophy", "diff-structism", "signal vs noise"],
@@ -3940,6 +3958,12 @@ export const posts: BlogPost[] = [
 
 
 <p>We live in a derivative economy. The question is not whether you are consuming derivatives — you almost certainly are, constantly — but whether you have the tools to identify them and make choices accordingly.</p>
+
+<div style="background:rgba(19,174,103,0.06);border:1px solid rgba(19,174,103,0.2);border-radius:12px;padding:20px 24px;margin:2rem 0">
+  <p style="margin:0 0 0.75rem 0;font-weight:600">Two readers, two exits</p>
+  <p style="margin:0 0 0.75rem 0"><strong>Coursework / thesis:</strong> Shannon&rsquo;s law applied to branding is below &mdash; reboots, acquisitions, and visual-identity transmission as signal degradation. FAQ answers the common thesis questions.</p>
+  <p style="margin:0"><strong>Shopping / brand choice:</strong> Original Priority is how you buy the origin, not the derivative. Start with the lines maps: <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a>, <a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a>, <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a>, or the <a href="/diffr/blog/starter-kits">starter kits hub</a>.</p>
+</div>
 
 <h2>Shannon's Law Applied to Culture</h2>
 
@@ -3985,7 +4009,7 @@ export const posts: BlogPost[] = [
 
 <p>Shannon’s law is not a counsel of despair about derivative culture. It is a measurement tool. Use it to calibrate what you are actually receiving when you encounter a brand, an adaptation, or an idea. Then decide accordingly.</p>
 
-<p>The full framework for evaluating signal quality in products and ideas is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. To see Original Priority applied to brand curation, <a href="/diffr">get Diffr on the App Store</a>.</p>
+<p>The full framework for evaluating signal quality in products and ideas is in <a href="https://diffr.gumroad.com/l/thedefaulttrap"><em>The Default Trap</em></a>. To see Original Priority applied to brand curation, <a href="/diffr">get Diffr on the App Store</a> &mdash; or jump straight to the shopping layer: <a href="/diffr/blog/nike-lines-explained">Nike lines</a>, <a href="/diffr/blog/adidas-lines-explained">Adidas lines</a>, <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines</a>, <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines</a>.</p>
     `.trim(),
   },
   {

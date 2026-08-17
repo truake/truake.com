@@ -2,7 +2,7 @@
 
 > **Daily limit:** ~10–12 requests per property. Open each link while logged into [Google Search Console](https://search.google.com/search-console), then click **Request indexing**.
 >
-> Property: `sc-domain:truake.com` · Updated: 2026-08-03  
+> Property: `sc-domain:truake.com` · Updated: 2026-08-17  
 > **Login verified:** `geekrlg@gmail.com` · Use **网址检查** (top search bar) → paste URL → **请求编入索引**
 
 **How to use:** One batch per day (~10 URLs). Paste each URL into **网址检查** → wait for crawl → **请求编入索引** if eligible. Mark ✓ when done.
@@ -20,6 +20,36 @@ GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是
 **Never request indexing:** any URL ending in `/og`. Request the **parent blog URL** only.
 
 **Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `cold-weather-layering` (`/diffr/start/`), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
+
+## Batch N — GSC Aug 16 harvest + flat lay series（2026-08-17）· P0/P1 SEO refresh
+
+Derivative / Adidas / Aritzia meta·TL;DR·FAQ refresh + 3 new flat lay posts. **勿提交 `/og`** — request parent blog URLs only.
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | Derivative economy (Path B CTR) | `https://truake.com/diffr/blog/the-derivative-economy` |
+| | Adidas lines (title refresh) | `https://truake.com/diffr/blog/adidas-lines-explained` |
+| | Aritzia sub-brands (title refresh) | `https://truake.com/diffr/blog/aritzia-sub-brands-guide` |
+| | Lululemon lines (brand lines cross-links) | `https://truake.com/diffr/blog/lululemon-lines-explained` |
+| | Luxury travel tech desk (NEW) | `https://truake.com/diffr/blog/luxury-travel-tech-desk-brand-guide` |
+| | Pack my Hermès backpack (NEW) | `https://truake.com/diffr/blog/pack-my-hermes-backpack-brand-guide` |
+| | Do not disturb (NEW) | `https://truake.com/diffr/blog/do-not-disturb-brand-guide` |
+| | starter kits hub (brand maps hub) | `https://truake.com/diffr/blog/starter-kits` |
+
+> Day 2 if quota tight: nike-lines-explained · uniqlo-lines-explained · cost-per-use-rule.
+
+## Batch O — Dorm + 54321 + Uniqlo lines（2026-08-17）· brand-homepage push
+
+Dorm and 54321 meta·FAQ refresh; internal links to lines explained (not flat-lay scenes). Uniqlo HEATTECH vs AIRism title refresh. **勿提交 `/og`**。
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | Dorm room essentials (title refresh) | `https://truake.com/diffr/blog/dorm-room-essentials-brand-guide` |
+| | 54321 packing method (title refresh) | `https://truake.com/diffr/blog/54321-packing-method-brand-guide` |
+| | Uniqlo lines (HEATTECH vs AIRism) | `https://truake.com/diffr/blog/uniqlo-lines-explained` |
+| | Patagonia lines (54321 layer anchor) | `https://truake.com/diffr/blog/patagonia-lines-explained` |
+| | starter kits hub (brand maps refresh) | `https://truake.com/diffr/blog/starter-kits` |
+| | college packing list | `https://truake.com/diffr/blog/college-packing-list-brand-guide` |
 
 ## Batch M — Lines explained SERP push（2026-08-03）· GSC harvest + 3 new posts
 

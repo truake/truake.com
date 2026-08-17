@@ -26,15 +26,15 @@ export const BLOG_TLDR: Record<string, string> = {
   'lululemon-lines-explained':
     "Bottom line: Lululemon isn't one product, it's a set of collections, each built for a different scene — so instead of scrolling 200 leggings, you pick the lane that matches your week and decide once. Align is the everyday, low-impact line (the Align High-Rise Pant). ABC is the commute/smart-casual trouser (the ABC Pant, “anti-ball-crushing,” reads as real pants). Define is the studio-to-street layer (the Define Jacket). Scuba is cozy weekend fleece (the Scuba Oversized Half-Zip). Steady State and License to Train are the serious-sweat run/train lanes. Tennis & Golf is sport-specific for the court and course. Match the lane to your life: everyday → Align, commute → ABC, weekend → Scuba, sweat → Steady State, court → Tennis & Golf.",
   'adidas-lines-explained':
-    "Bottom line: Adidas isn't one range — it's a house of lines, each built for a scene — so match the lane and decide once. Originals (Samba, Gazelle) is street heritage; Sportswear is everyday athletic joggers and hoodies; Performance is training and running (Ultraboost, Adizero); Terrex is trail and outdoors; Y-3 is design-forward and optional. Everyday street → Originals, casual athletic → Sportswear, sweat → Performance, trail → Terrex.",
+    "Bottom line: Adidas isn't one range — it's a house of lines, each built for a scene — so match the lane and decide once. Originals (Samba, Gazelle) is street heritage; Sportswear is everyday athletic joggers and hoodies; Performance is training and running (Ultraboost, Adizero); Terrex is trail and outdoors; Y-3 is design-forward and optional. Originals vs Performance: street vs sweat. Everyday street → Originals, casual athletic → Sportswear, sweat → Performance, trail → Terrex.",
   'uniqlo-lines-explained':
-    "Bottom line: Uniqlo isn't one fabric — it's a set of lines built for different climates and layers. LifeWear Supima is everyday basics; HEATTECH is the thin winter base layer; AIRism is summer and humidity; Ultra Light Down and BlockTech are packable warmth and rain shells; +J and UT are collab drops you can skip on a first kit. Everyday → LifeWear, cold → HEATTECH base, heat → AIRism, outer → Ultra Light Down or BlockTech.",
+    "Bottom line: Uniqlo isn't one fabric — it's a set of lines built for different climates and layers. HEATTECH vs AIRism: HEATTECH is the thin winter base layer worn under everything; AIRism is quick-dry summer and humidity. LifeWear Supima is everyday basics; Ultra Light Down and BlockTech are packable warmth and rain shells; +J and UT are collab drops you can skip on a first kit. Everyday → LifeWear, cold → HEATTECH base, heat → AIRism, outer → Ultra Light Down or BlockTech.",
   'apple-ecosystem-lines-explained':
     "Bottom line: Apple's ecosystem is five device lanes — phone, tablet, laptop, watch, audio — each with a job, so you stop buying overlap. iPhone is the pocket hub; iPad Air is portable screen and couch compute; MacBook Air is deep work; Apple Watch SE/Series is wrist and health; AirPods Pro is private audio and travel. Buy the lane you actually use — not an iPad Pro keyboard plus a MacBook for the same job.",
   'patagonia-lines-explained':
     "Bottom line: Patagonia isn't one jacket — it's a set of fabric lines, each built for a layer or carry job. Better Sweater is the mid-layer fleece icon; Capilene is the base layer (Cool for most seasons, Thermal for winter); Down Sweater is packable warmth; Houdini is the wind shell; Torrentshell is real rain; Black Hole is the duffel that lasts. Mid-layer → Better Sweater, base → Capilene, puffy → Down Sweater, wind → Houdini, rain → Torrentshell, bag → Black Hole. For a full outdoor kit across brands, still one specialist per slot — see the winter layering and hiking guides.",
   'aritzia-sub-brands-guide':
-    "Bottom line: Aritzia isn't one brand — it's a house of seven in-house labels, each built for a different scenario. Babaton for work (the Effortless Pant), The Group by Babaton for the big interview, Wilfred for date night, Wilfred Free for everyday, TNA for the weekend, Sunday Best for going out, and the Super Puff for winter — a one-store way to dress your whole week. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; the Super Puff is the style buy while Patagonia is the keep-forever one. Use Aritzia where it wins on convenience, swap in the independent pick where it wins on quality.",
+    "Bottom line: Aritzia isn't one brand — it's a house of seven in-house labels, each built for a different scenario. Babaton for work (the Effortless Pant), The Group by Babaton for the big interview, Wilfred for date night, Wilfred Free for everyday, TNA for the weekend, Sunday Best for going out, and the Super Puff for winter. What brands does Aritzia own? All seven are sold only at Aritzia stores. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; the Super Puff is the style buy while Patagonia is the keep-forever one.",
   'world-cup-2026-kit-brands':
     'Bottom line: a national-team kit is one brand head to toe — and at the 2026 World Cup, Adidas dresses the most (14 teams, including Argentina, Germany, Spain, Mexico, Belgium and Japan), Nike 12 (Brazil, France, England, Netherlands, the United States, Croatia and more), and Puma 11 (Portugal, Morocco, Senegal, Switzerland, Egypt and others). The remaining 11 teams split across Kelme (Bosnia, Jordan), Marathon (Ecuador), Kappa (Tunisia), Umbro (DR Congo), Reebok (Panama), Jako (Iraq), Capelli (Cape Verde), Saeta (Haiti), 7Saber (Uzbekistan) and Majid (Iran). Full team-by-team list below.',
   'beginner-soccer-gear-brand-guide':
@@ -42,7 +42,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'international-travel-essentials-brand-guide':
     'Bottom line: international travel comes down to about ten carry-on essentials, one good brand each — not a 60-item list. The carry system: a carry-on suitcase (Away), a personal-item backpack (Peak Design), packing cubes (Eagle Creek). The in-transit kit: a universal travel adapter (Epicka), a power bank (Anker), noise-canceling headphones (Sony), a neck pillow (Cabeau). On the ground: walking shoes (Hoka), an anti-theft sling (Pacsafe), a water bottle (Owala). Buy first: the carry-on, a universal adapter, and the walking shoes. For clothes inside the bag, use the 54321 packing method (5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard). Below is one brand per slot, no repeats.',
   '54321-packing-method-brand-guide':
-    'Bottom line: the 54321 packing method is 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule that mixes into 20+ outfits in a carry-on. Build neutrals first (Uniqlo tops, Everlane bottoms), add Patagonia layers, Hoka for walk-all-day shoes plus one cleaner second pair (Veja), and one trip-specific wildcard. Scale down to 3-2-1 for weekends; scale up for month-long trips. Below is one good pick per category, no repeats.',
+    'Bottom line: the 54321 packing method (54321 packing rule) is 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule that mixes into 20+ outfits in a carry-on. Build neutrals first (Uniqlo LifeWear or AIRism tops — see Uniqlo lines explained), Everlane bottoms, Patagonia layers (Houdini, Torrentshell, Better Sweater — see Patagonia lines explained), Hoka for walk-all-day shoes plus one cleaner second pair (Veja). Scale down to 3-2-1 for weekends; scale up for month-long trips.',
   'gift-ideas-for-her-brand-guide':
     'Bottom line: skip the listicles — one genuinely good gift per budget she will actually use. Under $30: a Laneige lip mask or a Boy Smells candle. $30–75: everyday jewelry (Mejuri), affordable cashmere (Quince), or a Stanley tumbler. $75+: a Kindle for a reader, a Barefoot Dreams cozy throw, or a Cuyana leather tote. If you only get one, the lip mask plus a candle is almost never wrong; for a bigger gesture, the cozy throw is the safest splurge. See the thoughtful gift ideas hub for her, him, and housewarming. Below is one pick per slot, no repeats.',
   'thoughtful-gift-ideas-brand-guide':
@@ -72,7 +72,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'college-packing-list-brand-guide':
     'Bottom line: a college packing list is really three short lists — buy before you go, bring from home, and coordinate with your roommate — not one 100-item haul. Buy before: a laptop (MacBook Air for most majors), noise-canceling headphones (Sony), a portable charger (Anker), a backup drive (Samsung), an Ethernet adapter (Cable Matters), laundry detergent (Tide), and Twin XL bedding. Bring from home: a week of clothes, your insurance card, photo ID, prescriptions, a first aid kit, a backpack (JanSport), and a rain shell (Columbia). Coordinate with your roommate: the mini fridge and microwave (one each per room). The dorm room itself has its own checklist. Below is one brand per slot, no repeats.',
   'dorm-room-essentials-brand-guide':
-    'Bottom line: a college dorm checklist needs about eighteen items, not eighty — five zones (sleep, shower, desk, laundry, food), one good brand each. Buy first for move-in night: Twin XL sheets plus a mattress topper, shower caddy plus shower shoes, a surge-protected power strip, and a laundry hamper. Below is the full dorm room essentials list, no repeats.',
+    'Bottom line: what do you need for a dorm room? About eighteen items, not eighty — five zones (sleep, shower, desk, laundry, food), one good brand each. Buy first for move-in night: Twin XL sheets plus mattress topper, shower caddy plus shower shoes, surge-protected power strip, and laundry hamper. For campus clothes, pick one mega-brand and learn its lines — Uniqlo, Lululemon, Nike, or Adidas lines explained — not a random athleisure haul.',
   'cologne-for-beginners-brand-guide':
     'Bottom line: a beginner does not need a fragrance collection — just one versatile, easy-to-wear scent, maybe with a seasonal pick or two. The first fragrance wardrobe: an everyday versatile (Bleu de Chanel), a crowd-pleaser (Dior Sauvage), a date-night (Versace Eros), a summer fresh (Acqua di Gio), a winter warm (Spicebomb), and a budget starter (Nautica Voyage). Buy in this order: the everyday versatile first (the only one most people need), then the summer and winter picks, then the occasion scents. A single good scent worn consistently beats a shelf you rotate at random. Below is one pick per slot, no repeats.',
   'apartment-cleaning-supplies-brand-guide':
@@ -130,7 +130,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'the-one-brand-rule':
     'Bottom line: the one-brand rule means each brand appears exactly once per scene — one good pick per product slot, no repeats. It prevents curated lists from becoming a single-brand catalogue (DeLonghi in every slot) and forces genuine differentiation so you discover the best specialist for each job, then close the file.',
   'the-derivative-economy':
-    "Bottom line: Shannon's law applied to branding — every transmission of a signal adds noise. Reboots, reissues, acquisitions, and sequels are copies of copies; the brand name stays but the founding signal degrades. Original Priority means tracing who made the founding decisions, counting transmission steps (ownership changes, manufacturing moves), and checking whether today's product still matches the origin — not the marketing story.",
+    "Bottom line: Shannon's law in branding — every transmission adds noise; reboots, acquisitions, and reissues are copies of copies. Coursework / thesis: short answer and FAQ below. Shopping / brand choice: Original Priority means buying the origin, not the derivative — start with Nike lines, Adidas lines, or Lululemon lines (one founding signal per slot).",
   'what-bateson-actually-said':
     'Bottom line: Gregory Bateson\'s "a difference that makes a difference" is from the 1970 Korzybski lecture, collected in Steps to an Ecology of Mind (1972). He was defining an elementary unit of information inside a systems account of mind — not offering a generic relevance filter. The popular quote drops the energy-transduction clause; what circulates is often a third-hand summary, which is itself a Shannon transmission problem.',
   'diffr-is-live-on-the-app-store':
@@ -278,6 +278,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
 
   'adidas-lines-explained': [
     {
+      q: 'What are Adidas lines?',
+      a: "Adidas is organized into lines built for different scenes: Originals (street heritage — Samba, Gazelle, campus suede), Sportswear (everyday athletic joggers and hoodies), Performance (training and running — Ultraboost, Adizero), Terrex (trail and outdoors), and Y-3 (Yohji Yamamoto design collab). Knowing the map lets you skip the wall of stripes and pick the line that matches your activity.",
+    },
+    {
       q: 'What are Adidas sub-brands and lines?',
       a: "Adidas is organized into lines built for different scenes: Originals (street heritage — Samba, Gazelle, campus suede), Sportswear (everyday athletic joggers and hoodies), Performance (training and running — Ultraboost, Adizero), Terrex (trail and outdoors), and Y-3 (Yohji Yamamoto design collab). Knowing the map lets you skip the wall of stripes and pick the line that matches your activity.",
     },
@@ -304,6 +308,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   ],
 
   'uniqlo-lines-explained': [
+    {
+      q: 'What is the difference between Uniqlo HEATTECH and AIRism?',
+      a: "HEATTECH is Uniqlo's thin, heat-retaining base layer for cold weather — worn under your main clothes to trap warmth without bulk. AIRism is Uniqlo's quick-dry, cool-touch line for hot and humid conditions — it wicks moisture where cotton stays damp. Use HEATTECH in winter and cold travel; use AIRism in summer, humidity, and as a gym under-layer. LifeWear Supima cotton is the everyday default when neither extreme applies.",
+    },
     {
       q: 'What are Uniqlo fabric lines?',
       a: "Uniqlo organizes basics by fabric system, not just category: LifeWear (year-round staples like Supima cotton tees), HEATTECH (thin winter base layers), AIRism (lightweight summer and humidity), Ultra Light Down (packable warmth), BlockTech (rain shells), and collab lines like +J and UT. Each line solves a climate or layer job — buy the system that matches your season.",
@@ -366,6 +374,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
 
   'aritzia-sub-brands-guide': [
     {
+      q: 'What brands does Aritzia own?',
+      a: "Aritzia owns seven in-house brands sold only at Aritzia: Babaton (work tailoring), The Group by Babaton (elevated suiting), Wilfred (romantic dresses), Wilfred Free (everyday basics), TNA (cozy athleisure), Sunday Best (going-out pieces), and the Super Puff (signature puffer). They are not separate companies — each is a label within the Aritzia house, built for a different part of your week.",
+    },
+    {
       q: 'What are the brands that Aritzia owns?',
       a: "Aritzia is a house of in-house brands rather than a single label. The main ones are Babaton (polished workwear and tailoring), The Group by Babaton (elevated investment suiting), Wilfred (soft, romantic dresses), Wilfred Free (relaxed everyday basics), TNA (cozy athleisure), and Sunday Best (youthful going-out pieces). The Super Puff is its signature puffer. Each label targets a different occasion, which is why one store can dress you for work, a date, the gym and a night out.",
     },
@@ -425,6 +437,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'What is the 54321 packing method?',
       a: 'The 54321 packing method is a travel capsule wardrobe formula: 5 tops, 4 bottoms, 3 layers, 2 pairs of shoes, and 1 wildcard item (such as a swimsuit or scarf). Every piece is chosen to mix and match in a neutral palette, so five tops and four bottoms alone create twenty outfit combinations — enough for a week or more in a carry-on if you do laundry mid-trip.',
+    },
+    {
+      q: 'What is the 54321 packing rule?',
+      a: 'The 54321 packing rule is the same as the 54321 packing method: 5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard. The numbers are a ratio, not a deprivation challenge — pick one neutral palette, one good brand per category, and every piece must pair with every other piece. For tops and layers, see Uniqlo lines explained and Patagonia lines explained to match fabric lines to your trip climate.',
     },
     {
       q: 'How many outfits can you make with the 54321 method?',
@@ -707,6 +723,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   ],
 
   'dorm-room-essentials-brand-guide': [
+    {
+      q: 'What do you need for a dorm room?',
+      a: 'About eighteen essentials in five zones: sleep (Twin XL sheets, mattress topper, pillow, comforter), shower (caddy, shower shoes, towels), desk (lamp, surge-protected power strip, headphones), laundry and storage (hamper, under-bed bins, Command hooks), and food and misc (mini fridge, water bottle, fan, first aid kit). Buy one good brand of each — not an 80-item haul list. For campus clothes, pick one mega-brand and learn its lines (Uniqlo, Lululemon, Nike, or Adidas lines explained).',
+    },
     {
       q: 'What do you need for a college dorm?',
       a: 'About eighteen essentials in five zones: sleep (Twin XL sheets, mattress topper, pillow, comforter), shower (caddy, shower shoes, towels), desk (lamp, surge-protected power strip, headphones), laundry and storage (hamper, under-bed bins, Command hooks), and food and misc (mini fridge, water bottle, fan, first aid kit). Buy one good brand of each — not an 80-item haul list.',
@@ -1682,6 +1702,14 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do you tell an original brand from a derivative?',
       a: 'Ask three questions: who made the founding decisions, how many transmission steps (ownership changes, manufacturing moves) sit between you and that source, and what actually changed in the product — materials, factory, SKU range — not just the marketing language. Founder-operated or continuity brands (Vitamix, Le Creuset) retain more signal than brands sold multiple times.',
+    },
+    {
+      q: "I'm writing a branding thesis — is this the right page?",
+      a: "Yes — this page explains Shannon's law applied to branding and visual identity transmission: why reboots, acquisitions, and reissues degrade the founding signal. The essay and FAQ above cover the theory. For how the same idea applies when you actually choose products, see the lines maps: Nike lines explained, Adidas lines explained, and Lululemon lines explained.",
+    },
+    {
+      q: 'I want to choose between Nike and Adidas — where do I go?',
+      a: "This page is the philosophy layer (why decide once / Original Priority). For shopping, go straight to the lines maps: Nike lines explained and Adidas lines explained — each maps sub-brands to scenes so you pick one lane and stop scrolling. The starter kits hub links every lines guide in one place.",
     },
     {
       q: 'How does Diffr use Original Priority?',
