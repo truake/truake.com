@@ -85,6 +85,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'luxury-travel-tech-desk-brand-guide': 131,
   'pack-my-hermes-backpack-brand-guide': 132,
   'do-not-disturb-brand-guide': 133,
+  'gray-edc-knoll-brand-guide': 134,
 }
 
 export async function generateStaticParams() {

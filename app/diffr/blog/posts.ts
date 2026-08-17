@@ -1663,62 +1663,54 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'gray-edc-knoll-brand-guide',
-    title: 'Gray EDC Knoll Decoded: 12 Objects, Open Each Brand in Diffr',
-    description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock watch, Bellroy wallet and pouch, Leica M camera, Ledlenser P5 flashlight, Spyderco knife, and more. One brand homepage per object from Diffr\'s database — not a mixed-brand scene kit.',
+    title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
+    description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',
     date: '2026-08-17',
-    readTime: '5 min read',
-    tags: ['brand guide', 'EDC', 'flat lay', 'everyday carry', 'knolling', 'brand encyclopedia'],
+    readTime: '4 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'everyday carry', 'knolling', 'one brand per slot', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Twelve gray EDC objects on a knoll — each maps to one brand in Diffr\'s database. Open the brand homepage to see the full catalog, not a mixed-brand flat-lay scene.',
+    excerpt: 'Ten gray EDC picks on cool concrete — Purist, G-Shock, Master & Dynamic, Tactile Turn, Leica, Ledlenser, Bellroy tech pouch, James Brand, Spyderco, and Pelican — one brand per slot. No wallet duplicate, no USB dongle.',
     content: `
-<p>The gray EDC knoll is a tactical-minimal pocket dump on cool concrete: a matte Purist Mover 18oz bottle, a black resin digital watch, silver over-ear headphones, a bolt-action pen, a USB-C adapter, a brown slim leather wallet, a black Leica-style rangefinder, a compact flashlight, a gray grid zip tech pouch, a silver carabiner, a folding knife, and a black ridged hard case. Ignore the <strong>HICONSUMPTION</strong> watermark &mdash; that is social chrome, not a product slot.</p>
+<p>The gray EDC knoll is a tactical-minimal pocket dump on cool concrete: a matte Purist Mover 18oz bottle, a black resin G-Shock digital watch, silver Master &amp; Dynamic MH40 over-ear headphones, a dark gray Tactile Turn bolt-action pen, a black Leica M rangefinder, a compact Ledlenser P5 flashlight, a gray Bellroy grid zip tech pouch, a silver The James Brand Madison keychain carabiner, a Spyderco Delica folding knife, and a black Pelican 1010 micro case. Ignore the <strong>HICONSUMPTION</strong> watermark &mdash; that is social chrome, not a product slot. The reference also shows a small USB-C dongle; that generic adapter is skipped until a typed line is ingested.</p>
 
-<p>This post uses Diffr&rsquo;s <strong>brand-homepage model</strong>: each object maps to one brand in the App database. Open that brand&rsquo;s encyclopedia page to browse typed product lines with catalog images &mdash; not a mixed-brand flat-lay Scene with twelve different logos on one kit card. That mixed layout violates Diffr&rsquo;s <a href="/diffr/blog/the-one-brand-rule">one-brand-per-slot rule</a> for Scenes; multi-brand knolls belong in editorial decode posts like this one.</p>
+<p>One Bellroy slot only: the reference includes both a wallet and a tech pouch, but Diffr&rsquo;s <a href="/diffr/blog/the-one-brand-rule">one-brand-per-slot rule</a> keeps the grid zip tech pouch and drops the wallet. Map each object to a canonical type, assign one brand per slot, and pull live catalog tiles below.</p>
 
-<h2>The Objects</h2>
+<h2>The Slots</h2>
 
-<h3>Water Bottle &mdash; Purist Mover 18oz</h3>
-<p>Matte-black glass-lined Purist Mover 18oz (Union) &mdash; not a Stanley tumbler. Now in Diffr&rsquo;s catalog with an imaged product line. <a href="https://diffr.truake.com/brand/1016797" target="_blank" rel="noopener noreferrer">Open Purist in Diffr &rarr;</a></p>
+<h3>Slot 1 &mdash; Hydration</h3>
+<p><strong>Purist Mover 18oz Bottle (Union)</strong> &mdash; matte-black glass-lined bottle (not a Stanley tumbler).</p>
 
-<h3>Digital Watch &mdash; G-Shock</h3>
-<p>Square resin case, LCD display, tool-watch durability. G-Shock is a separate brand from Casio in the database (DW-5600 and GA-2100 classes are imaged). <a href="https://diffr.truake.com/brand/37211" target="_blank" rel="noopener noreferrer">Open G-Shock in Diffr &rarr;</a></p>
+<h3>Slot 2 &mdash; Wrist Time</h3>
+<p><strong>G-Shock DW-5600E-class Resin Digital</strong> &mdash; square resin case, LCD display, tool-watch durability.</p>
 
-<h3>Over-Ear Headphones &mdash; Master &amp; Dynamic</h3>
-<p>Silver metal cups with black pads &mdash; MH40 Wireless class. Now in Diffr&rsquo;s catalog. <a href="https://diffr.truake.com/brand/1016798" target="_blank" rel="noopener noreferrer">Open Master &amp; Dynamic in Diffr &rarr;</a></p>
+<h3>Slot 3 &mdash; Private Audio</h3>
+<p><strong>Master &amp; Dynamic MH40 Wireless</strong> &mdash; silver metal cups with black pads from the knoll.</p>
 
-<h3>Bolt-Action Pen &mdash; Tactile Turn</h3>
-<p>Dark gray stonewashed titanium bolt-action barrel. Tactile Turn is now in the catalog with an imaged pen line. <a href="https://diffr.truake.com/brand/1016799" target="_blank" rel="noopener noreferrer">Open Tactile Turn in Diffr &rarr;</a></p>
+<h3>Slot 4 &mdash; Write / Sign</h3>
+<p><strong>Tactile Turn Stonewashed Titanium Bolt-Action Pen</strong> &mdash; dark gray bolt-action barrel.</p>
 
-<h3>USB-C Adapter</h3>
-<p>Small dongle slot &mdash; generic accessory; skip until a typed adapter line is ingested.</p>
+<h3>Slot 5 &mdash; Photography</h3>
+<p><strong>Leica M3 DS Double Stroke Rangefinder</strong> &mdash; black M-body with collapsible lens (M3/M6/M11 class).</p>
 
-<h3>Leather Wallet &mdash; Bellroy</h3>
-<p>Brown bi-fold with owl logo &mdash; Note Sleeve or Slim Sleeve class. Bellroy also appears again as the grid zip tech pouch below; in a Scene kit you would pick one Bellroy slot, not two. <a href="https://diffr.truake.com/brand/15864" target="_blank" rel="noopener noreferrer">Open Bellroy in Diffr &rarr;</a></p>
+<h3>Slot 6 &mdash; EDC Light</h3>
+<p><strong>Ledlenser P5 Flashlight</strong> &mdash; compact cylindrical torch (Olight excluded as a CN brand).</p>
 
-<h3>Rangefinder Camera &mdash; Leica</h3>
-<p>Black M-body with collapsible lens &mdash; film M3/M6 or digital M11 class. Leica carries imaged M-series and compact lines. <a href="https://diffr.truake.com/brand/12399" target="_blank" rel="noopener noreferrer">Open Leica in Diffr &rarr;</a></p>
+<h3>Slot 7 &mdash; Tech Organize</h3>
+<p><strong>Bellroy Lite Ready Pack / Grid Tech Pouch class</strong> &mdash; gray zip organizer; sole Bellroy slot (wallet omitted).</p>
 
-<h3>EDC Flashlight &mdash; Ledlenser P5</h3>
-<p>Compact cylindrical EDC torch &mdash; editorial maps to Ledlenser P5 (German; Olight excluded as a CN brand). Ledlenser is in the database; P5 hero image is a crawl gap. <a href="https://diffr.truake.com/brand/592" target="_blank" rel="noopener noreferrer">Open Ledlenser in Diffr &rarr;</a></p>
+<h3>Slot 8 &mdash; Clip / Carry</h3>
+<p><strong>The James Brand Madison Keychain Carabiner</strong> &mdash; silver angular carabiner (not Nite Ize S-Biner).</p>
 
-<h3>Grid Tech Pouch &mdash; Bellroy</h3>
-<p>Gray zip organizer with internal grid &mdash; Lite Ready Pack or Transit class. Same brand as the wallet; browse all Bellroy lanes on the homepage above rather than duplicating slots in a Scene. <a href="https://diffr.truake.com/brand/15864" target="_blank" rel="noopener noreferrer">Open Bellroy in Diffr &rarr;</a></p>
+<h3>Slot 9 &mdash; EDC Blade</h3>
+<p><strong>Spyderco Delica 4 Lightweight</strong> &mdash; black-handled folding knife from the knoll.</p>
 
-<h3>Carabiner &mdash; The James Brand</h3>
-<p>Silver angular keychain carabiner &mdash; <strong>The Madison Keychain Carabiner</strong> from The James Brand (not Nite Ize S-Biner). Now in Diffr&rsquo;s catalog with a local hero image. <a href="https://diffr.truake.com/brand/1016800" target="_blank" rel="noopener noreferrer">Open The James Brand in Diffr &rarr;</a></p>
+<h3>Slot 10 &mdash; Protect / Store</h3>
+<p><strong>Pelican 1010 Watertight Hard Micro Case</strong> &mdash; black ridged micro case with mini carabiner.</p>
 
-<h3>Folding Knife &mdash; Spyderco</h3>
-<p>Black-handled Delica 4 Lightweight &mdash; now imaged in the catalog. <a href="https://diffr.truake.com/brand/606" target="_blank" rel="noopener noreferrer">Open Spyderco in Diffr &rarr;</a></p>
+<h2>Why This Post Exists</h2>
+<p>Gray EDC knolls mix hydration, light, carry, and camera gear faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All ten slots are pinned on preset 134 with ten distinct brands &mdash; one Bellroy lane (tech pouch), no USB adapter slot.</p>
 
-<h3>Hard Case &mdash; Pelican</h3>
-<p>Black ridged Pelican 1010 micro case. Now imaged in the catalog. <a href="https://diffr.truake.com/brand/544" target="_blank" rel="noopener noreferrer">Open Pelican in Diffr &rarr;</a></p>
-
-<h2>Why Brand Homepages, Not a Mixed Scene</h2>
-<p>Prior EDC flat lays on this blog wired eight different brands into one interactive Scene preset &mdash; one logo per slot, which works for curated starter kits. A twelve-brand knoll is a <em>decode</em>, not a closed kit: readers want to know which specialist owns each object, then dive deep on that house alone. That is what the App brand encyclopedia is for &mdash; full product-line taxonomy, images, and beginner scores pulled from the same PostgreSQL catalog the App reads.</p>
-
-<p>Building your own EDC? Start with one brand you already trust (Bellroy for carry, Ledlenser for light, G-Shock for the watch) and open its homepage before you collect twelve logos. For gift context, see <a href="/diffr/blog/gift-ideas-for-him-brand-guide">gift ideas for him</a> (Bellroy wallet slot). For quieter luxury carry, compare <a href="/diffr/blog/quiet-luxury-edc-brand-guide">quiet luxury EDC</a> and <a href="/diffr/blog/creative-desk-edc-brand-guide">creative desk EDC</a> &mdash; those posts still use one-brand-per-slot Scenes where the reference image supports it.</p>
-
-<p><a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Download Diffr</a> to open any brand homepage above on iPhone, or browse the <a href="/diffr/blog/starter-kits">starter kits hub</a> for closed one-brand-per-slot guides.</p>
+<p>Distinct from <a href="/diffr/blog/tech-travel-edc-brand-guide">tech travel EDC</a> (light-wood luxury desk kit), <a href="/diffr/blog/quiet-luxury-edc-brand-guide">quiet luxury EDC</a> (marble desk carry), and <a href="/diffr/blog/do-not-disturb-brand-guide">do not disturb</a> (tech-lofi baby-blue kit). Explore the interactive scene: <a href="/diffr/start/gray-edc-knoll-flat-lay">Gray EDC Knoll Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
   {
