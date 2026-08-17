@@ -51,6 +51,16 @@ Dorm and 54321 meta·FAQ refresh; internal links to lines explained (not flat-la
 | | starter kits hub (brand maps refresh) | `https://truake.com/diffr/blog/starter-kits` |
 | | college packing list | `https://truake.com/diffr/blog/college-packing-list-brand-guide` |
 
+## Batch P — Gray EDC knoll brand-homepage decode（2026-08-17）
+
+Brand-homepage model — no mixed-brand preset. **Deploy first**, then **勿提交 `/og`** — request parent blog URL only.
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | Gray EDC knoll (NEW) | `https://truake.com/diffr/blog/gray-edc-knoll-brand-guide` |
+| | gift ideas for him (Bellroy cross-link) | `https://truake.com/diffr/blog/gift-ideas-for-him-brand-guide` |
+| | quiet luxury EDC (compare) | `https://truake.com/diffr/blog/quiet-luxury-edc-brand-guide` |
+
 ## Batch M — Lines explained SERP push（2026-08-03）· GSC harvest + 3 new posts
 
 Nike/Lulu already climbing (GSC Aug 3 export); title/meta/FAQ refresh on Nike + 3 new brand-map posts. **勿提交 `/og`** — request parent blog URLs only.

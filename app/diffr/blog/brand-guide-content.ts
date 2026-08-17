@@ -167,6 +167,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the pack my Hermès backpack flat lay is eight slots — Apple iPhone 17 Pro Cosmic Orange, Loewe 001 Woman EDP, Goyard Saint-Sulpice black card wallet, Simply Gum Peppermint, Agent Nateur Holi (mag) Complex, SkinCeuticals Future Mineral SPF 50, Touchland Power Mist, and Noshinku Eucalyptus sanitizing hand wipes — one brand each. Dark marble pocket dump; Apple slot is the bare orange phone, not a leather case. Live catalog tiles below.',
   'do-not-disturb-brand-guide':
     'Bottom line: the do not disturb flat lay is eight slots — Apple iPod Nano 3rd generation, Sony PSP Ceramic White, Nintendo Zelda Ocarina of Time 3D 3DS cartridge, Fujifilm X100VI Silver, We Are Rewind WE-001 KURT Blue, Timex Weekender striped NATO, Twelve South AirFly Pro White, and Dunlop Tortex Flex 0.88 pick — one brand each. Tech-lofi baby-blue kit; no iPhone (Apple slot is the Nano). Live catalog tiles below.',
+  'gray-edc-knoll-brand-guide':
+    'Bottom line: the gray EDC knoll is twelve objects on cool concrete — Purist Mover 18oz bottle, G-Shock watch, Bellroy wallet and pouch, Leica M camera, Ledlenser P5 flashlight, The James Brand Madison carabiner, Spyderco Delica, and more. Open each brand homepage in Diffr — not a mixed-brand Scene kit. Olight excluded (CN brand).',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1494,6 +1496,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 133. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'gray-edc-knoll-brand-guide': [
+    {
+      q: 'What is the gray EDC knoll flat lay?',
+      a: 'It is a twelve-object tactical-minimal pocket dump on cool gray concrete: Purist Mover 18oz bottle, digital watch, over-ear headphones, pen, USB adapter, leather wallet, rangefinder camera, flashlight, grid zip pouch, carabiner, folding knife, and hard case. Ignore the HICONSUMPTION watermark — that is social chrome, not a product slot.',
+    },
+    {
+      q: 'Why is there no interactive Scene kit for this post?',
+      a: 'A twelve-brand knoll would violate Diffr\'s one-brand-per-slot rule for Scenes — mixed-brand flat lays are editorial decodes, not closed starter kits. Instead, each object links to that brand\'s homepage in the App (diffr.truake.com/brand/{id}) so you browse one house at a time from the same database the iOS app reads.',
+    },
+    {
+      q: 'Why does Bellroy appear twice in the reference?',
+      a: 'The knoll includes both a wallet and a tech pouch from the same brand. In a Scene kit you would pick one Bellroy slot; in a decode post you note both objects and send readers to the single Bellroy homepage to see all carry lanes.',
+    },
+    {
+      q: 'Which brands are missing from Diffr\'s database?',
+      a: 'Purist, Master & Dynamic, Tactile Turn, Ledlenser P5, The James Brand Madison carabiner, Pelican 1010, and Spyderco Delica are catalog-backed with imaged product lines. Leica M11 ingest failed on thumbnail size — M3/M-series heroes remain in catalog. Olight is deliberately excluded (CN brand); editorial maps the torch slot to Ledlenser P5.',
+    },
+    {
+      q: 'How is this different from quiet luxury EDC or creative desk EDC?',
+      a: 'Quiet luxury EDC (marble desk + laptop/pen/book) and creative desk EDC (olive bedsheet keyboard kit) use eight-slot Scene presets with one brand each. Gray EDC knoll is monochrome tactical carry with twelve objects — brand-homepage links instead of a mixed preset.',
     },
   ],
 
