@@ -27,29 +27,33 @@ export default function PresetScenePage({
 }) {
   const year = new Date().getFullYear();
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "ItemList",
-        name: `${kit.name} — Beginner Brand Picks`,
-        description: kit.description ?? undefined,
-        numberOfItems: kit.slots.length,
-        itemListElement: kit.slots.map((s, i) => ({
-          "@type": "ListItem",
-          position: i + 1,
-          name: `${s.productTypeName}: ${s.brandName}`,
-        })),
-      },
-    ],
-  };
+  const jsonLd = blogSlug
+    ? null
+    : {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ItemList",
+            name: `${kit.name} — Beginner Brand Picks`,
+            description: kit.description ?? undefined,
+            numberOfItems: kit.slots.length,
+            itemListElement: kit.slots.map((s, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              name: `${s.productTypeName}: ${s.brandName}`,
+            })),
+          },
+        ],
+      };
 
   return (
     <div className="diffr-paper" style={{ backgroundColor: C.bg, color: C.text, minHeight: "100vh" }}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      )}
 
 
       <article style={{ maxWidth: "760px", margin: "0 auto", padding: "100px 40px 120px" }}>

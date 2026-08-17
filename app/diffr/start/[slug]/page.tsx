@@ -26,6 +26,9 @@ function shareImagesForBlogTwin(blogSlug: string | undefined, alt: string) {
   return [{ url, width: 1200, height: 630, alt }];
 }
 
+/** Blog twin scenes share kit HTML with /diffr/blog/* — noindex the funnel URL. */
+const BLOG_TWIN_ROBOTS: Metadata["robots"] = { index: false, follow: true };
+
 // ── Static generation ─────────────────────────────────────────
 export async function generateStaticParams() {
   const guides = await getAllGuides();
@@ -67,6 +70,7 @@ export async function generateMetadata(
         images,
       },
       alternates: { canonical },
+      ...(blogTwin ? { robots: BLOG_TWIN_ROBOTS } : {}),
     };
   }
 
@@ -84,6 +88,7 @@ export async function generateMetadata(
     alternates: {
       canonical,
     },
+    ...(blogTwin ? { robots: BLOG_TWIN_ROBOTS } : {}),
   };
 }
 
@@ -261,6 +266,9 @@ export default async function StarterGuidePage(
   const emoji = symbolToEmoji(guide.icon_symbol);
   const { basic, standard, pro } = guide.budget_tiers ?? {};
   const year = new Date().getFullYear();
+  const schemaUrl = blogSlug
+    ? blogCanonicalUrl(blogSlug)
+    : `https://truake.com/diffr/start/${slug}`;
 
   // JSON-LD structured data
   const jsonLd = {
@@ -268,8 +276,8 @@ export default async function StarterGuidePage(
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": `https://truake.com/diffr/start/${slug}`,
-        url: `https://truake.com/diffr/start/${slug}`,
+        "@id": schemaUrl,
+        url: schemaUrl,
         name: `How to Start ${guide.domain_name} in ${year} — Beginner's Gear Guide`,
         description: guide.short_pitch,
         breadcrumb: {
@@ -277,7 +285,7 @@ export default async function StarterGuidePage(
           itemListElement: [
             { "@type": "ListItem", position: 1, name: "Diffr", item: "https://truake.com/diffr" },
             { "@type": "ListItem", position: 2, name: "Starter Guides", item: "https://truake.com/diffr/start" },
-            { "@type": "ListItem", position: 3, name: guide.domain_name, item: `https://truake.com/diffr/start/${slug}` },
+            { "@type": "ListItem", position: 3, name: guide.domain_name, item: schemaUrl },
           ],
         },
         author: {

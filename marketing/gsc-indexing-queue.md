@@ -19,7 +19,7 @@ GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是
 
 **Never request indexing:** any URL ending in `/og`. Request the **parent blog URL** only.
 
-**Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `cold-weather-layering` (`/diffr/start/`), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
+**Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `winter-layering-brand-guide` (not `/diffr/start/cold-weather-layering` — start twin is noindex), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
 
 ## Batch N — GSC Aug 16 harvest + flat lay series（2026-08-17）· P0/P1 SEO refresh
 
@@ -163,7 +163,7 @@ Ahrefs AI Search 落地页 + GSC query mirror；**只改 meta/TL;DR/FAQ，正文
 |---|------|--------------------------|
 | | first apartment checklist | `https://truake.com/diffr/blog/first-apartment-checklist-brand-guide` |
 | | cost per use rule | `https://truake.com/diffr/blog/cost-per-use-rule` |
-| | cold weather layering (start) | `https://truake.com/diffr/start/cold-weather-layering` |
+| | winter layering brand guide (blog canonical) | `https://truake.com/diffr/blog/winter-layering-brand-guide` |
 | | diffr vs wirecutter | `https://truake.com/diffr/blog/diffr-vs-wirecutter` |
 | | toothpaste aisle tax | `https://truake.com/diffr/blog/the-toothpaste-aisle-tax` |
 
