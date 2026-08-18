@@ -58,6 +58,7 @@ Brand-homepage model — no mixed-brand preset. **Deploy first**, then **勿提�
 | ✓ | Page | URL to paste in 网址检查 |
 |---|------|--------------------------|
 | | Gray EDC knoll (NEW) | `https://truake.com/diffr/blog/gray-edc-knoll-brand-guide` |
+| | Oak floor travel kit (NEW) | `https://truake.com/diffr/blog/oak-floor-travel-kit-brand-guide` |
 | | gift ideas for him (Bellroy cross-link) | `https://truake.com/diffr/blog/gift-ideas-for-him-brand-guide` |
 | | quiet luxury EDC (compare) | `https://truake.com/diffr/blog/quiet-luxury-edc-brand-guide` |
 

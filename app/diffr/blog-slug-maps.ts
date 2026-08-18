@@ -49,6 +49,7 @@ export const BLOG_SLUG_TO_START: Record<string, string> = {
   'pack-my-hermes-backpack-brand-guide': 'pack-my-hermes-backpack-flat-lay',
   'do-not-disturb-brand-guide': 'do-not-disturb-flat-lay',
   'gray-edc-knoll-brand-guide': 'gray-edc-knoll-flat-lay',
+  'oak-floor-travel-kit-brand-guide': 'oak-floor-travel-kit-flat-lay',
 }
 
 /** Inverse map: start funnel slug → SEO-canonical blog post slug. */

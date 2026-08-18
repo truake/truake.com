@@ -1662,6 +1662,55 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'oak-floor-travel-kit-brand-guide',
+    title: 'Oak Floor Travel Kit: 9 Luxury Picks, One Brand Per Slot',
+    description: 'Oak floor travel kit flat lay decoded — LEVEL8 Gibraltar aluminum 20" carry-on, Apple iPad Pro M4, Samsung Galaxy S24 Ultra, MCM Visetos studded backpack, Memobottle Slim, Mophie powerstation XL, Louis Vuitton 8 Watch Case, Rolex Submariner, and Spigen OneTap In-flight Mount. Nine brands on warm oak.',
+    date: '2026-08-18',
+    readTime: '5 min read',
+    tags: ['brand guide', 'travel', 'flat lay', 'EDC', 'luxury travel', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine luxury travel picks on pale oak — LEVEL8 carry-on, iPad Pro, Galaxy S24 Ultra, MCM Visetos backpack, Memobottle, Mophie XL, LV watch roll, Rolex Sub, and Spigen in-flight mount — one brand per slot.',
+    content: `
+<p>The oak floor travel kit is a luxury work-trip loadout staged on warm horizontal oak planks: a silver LEVEL8 Gibraltar aluminum 20-inch carry-on, an Apple iPad Pro M4 tablet, a Samsung Galaxy S24 Ultra in Titanium Orange (face-down, camera module visible), an MCM Stark Side Studs backpack in Visetos print, a flat black Memobottle Slim stainless bottle, a grey Mophie powerstation XL 10,000 mAh battery, a Louis Vuitton monogram canvas 8 Watch Case, a steel Rolex Submariner Date diver, and a Spigen OneTap In-flight Phone Mount (MagFit) for tray-table viewing. The reference photo shows a person&rsquo;s hand on the iPad and legs in frame &mdash; editorial og-base uses product-only layout; do not copy limbs verbatim. GRAMS28 151 Stealth in the source image maps to the MCM Visetos studded backpack (GRAMS28 hidden).</p>
+
+<p>One Apple slot only: Magic Keyboard and Apple Pencil in the reference belong to the iPad Pro lane. One Louis Vuitton slot only: the LV Catwalk book and passport are props, not slotted. Map each object to a canonical type, assign one brand per slot, and pull live catalog tiles below.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Carry-On</h3>
+<p><strong>LEVEL8 Gibraltar Aluminum Carry-On 20"</strong> &mdash; silver grooved aluminum cabin suitcase (not Rimowa).</p>
+
+<h3>Slot 2 &mdash; Travel Compute</h3>
+<p><strong>Apple 11-inch iPad Pro M4 Wi-Fi 256GB OLED</strong> &mdash; space black tablet hero; sole Apple slot.</p>
+
+<h3>Slot 3 &mdash; Mobile Comms</h3>
+<p><strong>Samsung Galaxy S24 Ultra</strong> &mdash; Titanium Orange back with triple-camera module (face-down hero OK).</p>
+
+<h3>Slot 4 &mdash; Daypack</h3>
+<p><strong>MCM Stark Side Studs Backpack in Visetos</strong> &mdash; black studded Visetos-print backpack (reference GRAMS28 stand-in).</p>
+
+<h3>Slot 5 &mdash; Hydration</h3>
+<p><strong>Memobottle Slim Stainless Steel Black</strong> &mdash; flat A5-profile bottle from the floor kit.</p>
+
+<h3>Slot 6 &mdash; Portable Power</h3>
+<p><strong>Mophie powerstation XL 10,000 mAh</strong> &mdash; grey/black brick (not Anker 737).</p>
+
+<h3>Slot 7 &mdash; Watch Storage</h3>
+<p><strong>Louis Vuitton 8 Watch Case Monogram Canvas</strong> &mdash; green-trim watch roll (not wallet).</p>
+
+<h3>Slot 8 &mdash; Dress / Tool Watch</h3>
+<p><strong>Rolex Submariner Date Oyster 41 mm Oystersteel</strong> &mdash; steel diver on the oak floor.</p>
+
+<h3>Slot 9 &mdash; In-Flight Mount</h3>
+<p><strong>Spigen OneTap In-flight Phone Mount (MagFit)</strong> &mdash; editorial add-on for tray-table MagSafe viewing (not in reference photo).</p>
+
+<h2>Why This Post Exists</h2>
+<p>Oak-floor travel kits mix carry, compute, power, and watch storage faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All nine slots are pinned on preset 135 with nine distinct brands &mdash; one Apple lane (iPad Pro), one LV lane (watch roll), MCM over hidden GRAMS28.</p>
+
+<p>Distinct from <a href="/diffr/blog/mens-travel-essentials-brand-guide">men&rsquo;s travel essentials</a> (Rimowa vanity kit), <a href="/diffr/blog/tech-travel-edc-brand-guide">tech travel EDC</a> (light-wood Bottega/Rolex Daytona desk), <a href="/diffr/blog/luxury-travel-tech-desk-brand-guide">luxury travel tech desk</a> (white-desk Prada/Surface Pro), and <a href="/diffr/blog/never-overpack-again-brand-guide">never overpack again</a> (open suitcase capsule). Explore the interactive scene: <a href="/diffr/start/oak-floor-travel-kit-flat-lay">Oak Floor Travel Kit Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',

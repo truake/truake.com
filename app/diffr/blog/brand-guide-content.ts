@@ -169,6 +169,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the do not disturb flat lay is eight slots — Apple iPod Nano 3rd generation, Sony PSP Ceramic White, Nintendo Zelda Ocarina of Time 3D 3DS cartridge, Fujifilm X100VI Silver, We Are Rewind WE-001 KURT Blue, Timex Weekender striped NATO, Twelve South AirFly Pro White, and Dunlop Tortex Flex 0.88 pick — one brand each. Tech-lofi baby-blue kit; no iPhone (Apple slot is the Nano). Live catalog tiles below.',
   'gray-edc-knoll-brand-guide':
     'Bottom line: the gray EDC knoll is ten slots on cool concrete — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy grid tech pouch (one Bellroy slot only), The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. No USB adapter; Olight excluded. Live catalog tiles below.',
+  'oak-floor-travel-kit-brand-guide':
+    'Bottom line: the oak floor travel kit is nine slots on warm pale oak — LEVEL8 Gibraltar aluminum 20" carry-on, Apple iPad Pro M4, Samsung Galaxy S24 Ultra, MCM Visetos studded backpack, Memobottle Slim, Mophie powerstation XL, Louis Vuitton 8 Watch Case, Rolex Submariner, and Spigen OneTap In-flight Mount. One Apple lane (iPad), one LV lane (watch roll); GRAMS28 hidden. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1496,6 +1498,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 133. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'oak-floor-travel-kit-brand-guide': [
+    {
+      q: 'What is the oak floor travel kit flat lay?',
+      a: 'It is a nine-slot luxury work-trip loadout on warm horizontal oak floorboards: LEVEL8 Gibraltar aluminum 20" carry-on, Apple iPad Pro M4, Samsung Galaxy S24 Ultra Titanium Orange, MCM Stark Side Studs Visetos backpack, Memobottle Slim stainless bottle, Mophie powerstation XL, Louis Vuitton 8 Watch Case, Rolex Submariner Date, and Spigen OneTap In-flight Phone Mount (MagFit). The reference shows hands and legs — editorial cover is product-only.',
+    },
+    {
+      q: 'Why MCM instead of GRAMS28 for the backpack?',
+      a: 'The reference photo shows a black studded backpack decoded as GRAMS28 151 Stealth. Editorial stand-in is MCM Stark Side Studs in Visetos — GRAMS28 stays hidden; one brand per slot.',
+    },
+    {
+      q: 'Why is Spigen in the kit if it is not in the reference photo?',
+      a: 'Spigen OneTap In-flight Mount is an editorial add-on for tray-table MagSafe viewing — a practical ninth slot that completes the travel kit without duplicating any brand already in the scene.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 135. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+    {
+      q: 'How is this different from tech travel EDC or men\'s travel essentials?',
+      a: 'Men\'s travel essentials is a Rimowa vanity kit; tech travel EDC is a light-wood Bottega/Rolex Daytona desk kit. Oak floor travel kit is warm-plank luxury carry with LEVEL8 aluminum, MCM backpack, and LV watch roll — nine slots, preset 135.',
     },
   ],
 
