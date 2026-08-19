@@ -14,6 +14,7 @@ export const OG_BASE_SLUGS = new Set<string>([
   'nike-lines-explained',
   'lululemon-lines-explained',
   'adidas-lines-explained',
+  'gap-inc-lines-explained',
   'uniqlo-lines-explained',
   'apple-ecosystem-lines-explained',
   'patagonia-lines-explained',
@@ -61,6 +62,7 @@ export const OG_BASE_SLUGS = new Set<string>([
   'do-not-disturb-brand-guide',
   'gray-edc-knoll-brand-guide',
   'oak-floor-travel-kit-brand-guide',
+  '54321-packing-method-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {
