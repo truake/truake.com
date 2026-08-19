@@ -134,6 +134,7 @@ export const SLUG_TO_PRESET: Record<string, number> = {
   "do-not-disturb-flat-lay": 133,
   "gray-edc-knoll-flat-lay": 134,
   "oak-floor-travel-kit-flat-lay": 135,
+  "tiny-essentials-altoids-flat-lay": 136,
 };
 
 // Slugs with no domain_guide editorial shell — rendered lean from preset data.
@@ -179,6 +180,7 @@ export const PRESET_ONLY_SLUGS = new Set<string>([
   "do-not-disturb-flat-lay",
   "gray-edc-knoll-flat-lay",
   "oak-floor-travel-kit-flat-lay",
+  "tiny-essentials-altoids-flat-lay",
 ]);
 
 export async function getPresetMeta(

@@ -1753,6 +1753,55 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'tiny-essentials-brand-guide',
+    title: 'Tiny Essentials: 9 Altoids-Tin Micro-EDC Picks, One Brand Per Slot',
+    description: 'Tiny essentials Altoids-tin flat lay decoded — Altoids peppermint tin, GUM Soft-Picks Advanced, Nexcare waterproof bandages, Advil ibuprofen, Coghlans camp towel, Mukama ChargeKey, Nitecore key light, Purell Singles, and Shout Wipe & Go. Nine pocket brands on dark slate.',
+    date: '2026-08-19',
+    readTime: '4 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'everyday carry', 'travel', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine pocket micro-EDC picks around a red Altoids tin — dental, first aid, charge, light, sanitizer, stain wipe — one brand per slot on dark charcoal slate.',
+    content: `
+<p>The tiny essentials flat lay is a pocket-sized Altoids-tin micro-EDC kit on dark textured charcoal gray slate: a red Altoids Curiously Strong Peppermint tin as anchor, a GUM Soft-Picks Advanced travel case, a Nexcare waterproof bandage strip, two orange Advil ibuprofen tablets, Coghlans ultra-compact camp towel, a copper Mukama ChargeKey USB-C cable, a slim white Nitecore key light, Purell Advanced hand-sanitizer single-use packets, and a Shout Wipe &amp; Go stain wipe. The reference video adds yellow <strong>tiny essentials</strong> title text and a pointing hand &mdash; editorial og-base uses product-only layout; do not copy meme typography or hands verbatim.</p>
+
+<p>One charge lane only: the reference shows a short black USB cable, but Anker is hidden in Diffr editorial Scenes. The cable slot maps to <strong>Mukama ChargeKey</strong> (Stellar Orange USB-C to USB-C keychain cable). Map each object to a canonical type, assign one brand per slot, and pull live catalog tiles below.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Tin Anchor / Breath</h3>
+<p><strong>ALTOIDS Classic Peppermint Breath Mints 1.76 oz Tin</strong> &mdash; red and white metal tin, center hero.</p>
+
+<h3>Slot 2 &mdash; Dental / Interdental</h3>
+<p><strong>GUM Soft-Picks Advanced</strong> &mdash; clear travel case with mint-green interdental picks.</p>
+
+<h3>Slot 3 &mdash; Wound Care</h3>
+<p><strong>Nexcare Waterproof Bandages</strong> &mdash; blue and white assorted strip packaging from the flat lay.</p>
+
+<h3>Slot 4 &mdash; Pain Relief</h3>
+<p><strong>Advil 200 mg Ibuprofen Tablets</strong> &mdash; two orange oblong tablets beside Advil-branded packaging.</p>
+
+<h3>Slot 5 &mdash; Hygiene / Dry Towel</h3>
+<p><strong>Coghlans Microfiber Towel Medium Blue</strong> &mdash; ultra-compact camp towel (reference shows compressed towel tablets; official Coghlans catalog maps to microfiber towel class).</p>
+
+<h3>Slot 6 &mdash; Pocket Charge</h3>
+<p><strong>Mukama ChargeKey USB-C to USB-C Stellar Orange</strong> &mdash; keychain charging cable (Anker hidden; not the reference black cable brand).</p>
+
+<h3>Slot 7 &mdash; Micro Flashlight</h3>
+<p><strong>Nitecore Tube V2.0</strong> &mdash; slim white rectangular USB rechargeable key-light from the kit.</p>
+
+<h3>Slot 8 &mdash; Hand Sanitizer</h3>
+<p><strong>PURELL SINGLES Advanced Hand Sanitizer Gel 125 Count</strong> &mdash; single-use foil packets from the flat lay.</p>
+
+<h3>Slot 9 &mdash; Stain Rescue</h3>
+<p><strong>Shout Wipe &amp; Go Instant Stain Remover</strong> &mdash; single-use wipe packet with Shout rainbow logo.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Altoids-tin kits mix dental, first aid, charge, and hygiene faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All nine slots are pinned on preset 136 with nine distinct brands &mdash; Mukama over hidden Anker for the cable lane.</p>
+
+<p>Distinct from <a href="/diffr/blog/just-bring-the-essentials-brand-guide">just bring the essentials</a> (white-linen travel vanity), <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a> (tactical concrete knoll), and <a href="/diffr/blog/daily-essentials-brand-guide">daily essentials</a> (ribbed rug carry). Explore the interactive scene: <a href="/diffr/start/tiny-essentials-altoids-flat-lay">Tiny Essentials Altoids Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',

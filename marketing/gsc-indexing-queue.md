@@ -34,6 +34,7 @@ GSC dashboard (Aug 19): 12 clicks (+1100%), 1908 impressions (+184%). Top pages 
 | | Quiet luxury EDC (#5 clicks) | `https://truake.com/diffr/blog/quiet-luxury-edc-brand-guide` |
 | | Gap Inc. lines (NEW) | `https://truake.com/diffr/blog/gap-inc-lines-explained` |
 | | Oak floor travel kit | `https://truake.com/diffr/blog/oak-floor-travel-kit-brand-guide` |
+| | Tiny essentials Altoids tin (NEW) | `https://truake.com/diffr/blog/tiny-essentials-brand-guide` |
 | | starter kits hub (brand maps + travel) | `https://truake.com/diffr/blog/starter-kits` |
 
 > Day 2 if quota tight: uniqlo-lines-explained · patagonia-lines-explained · international-travel-essentials · gray-edc-knoll.

@@ -173,6 +173,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the gray EDC knoll is ten slots on cool concrete — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy grid tech pouch (one Bellroy slot only), The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. No USB adapter; Olight excluded. Live catalog tiles below.',
   'oak-floor-travel-kit-brand-guide':
     'Bottom line: the oak floor travel kit is nine slots on warm pale oak — LEVEL8 Gibraltar aluminum 20" carry-on, Apple iPad Pro M4, Samsung Galaxy S24 Ultra, MCM Visetos studded backpack, Memobottle Slim, Mophie powerstation XL, Louis Vuitton 8 Watch Case, Rolex Submariner, and Spigen OneTap In-flight Mount. One Apple lane (iPad), one LV lane (watch roll); GRAMS28 hidden. Live catalog tiles below.',
+  'tiny-essentials-brand-guide':
+    'Bottom line: the tiny essentials Altoids-tin micro-EDC flat lay is nine slots on dark charcoal slate — Altoids peppermint tin, GUM Soft-Picks Advanced, Nexcare waterproof bandages, Advil ibuprofen, Coghlans camp towel, Mukama ChargeKey, Nitecore key light, Purell Singles packets, and Shout Wipe & Go — one brand each. Ignore yellow title text and pointing hand from the reference; Anker stays hidden. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1550,6 +1552,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How is this different from tech travel EDC or men\'s travel essentials?',
       a: 'Men\'s travel essentials is a Rimowa vanity kit; tech travel EDC is a light-wood Bottega/Rolex Daytona desk kit. Oak floor travel kit is warm-plank luxury carry with LEVEL8 aluminum, MCM backpack, and LV watch roll — nine slots, preset 135.',
+    },
+  ],
+
+  'tiny-essentials-brand-guide': [
+    {
+      q: 'What is the tiny essentials Altoids-tin flat lay?',
+      a: 'It is a nine-slot pocket micro-EDC kit staged around a red Altoids peppermint tin on dark charcoal slate: Altoids breath mints, GUM Soft-Picks Advanced, Nexcare waterproof bandages, Advil ibuprofen, Coghlans camp towel, Mukama ChargeKey USB-C cable, Nitecore key light, Purell Advanced Singles packets, and Shout Wipe & Go stain wipe — nine distinct brands.',
+    },
+    {
+      q: 'Why Mukama ChargeKey instead of Anker for the cable slot?',
+      a: 'The reference shows a short black USB cable, but Anker is a hidden CN brand in Diffr editorial Scenes. The charge lane maps to Mukama ChargeKey — a keychain USB-C cable sold via Mukama — keeping one brand per slot without repeating hidden brands.',
+    },
+    {
+      q: 'Why ignore the yellow "tiny essentials" text on the reference?',
+      a: 'The yellow title overlay and pointing hand are meme chrome from the source video — not product slots. The og-base cover is an original GPT editorial flat lay on slate; only physical kit objects are slotted.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 136. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+    {
+      q: 'How is this different from just bring the essentials or gray EDC knoll?',
+      a: 'Just bring the essentials is a white-linen travel vanity kit (preset 125). Gray EDC knoll is tactical-minimal carry on concrete (preset 134). Tiny essentials is Altoids-tin pocket survival — dental, first aid, charge, light, sanitizer — nine slots on dark slate, preset 136.',
     },
   ],
 
