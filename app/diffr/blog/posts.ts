@@ -248,7 +248,7 @@ export const posts: BlogPost[] = [
 <h2>The Diffr Take</h2>
 <p>Notice what Lululemon actually did: it took one overwhelming wall and quietly split it into lanes, one per scene. That is the whole Diffr idea &mdash; <a href="/diffr/blog/the-decide-once-rule">decide once</a>, by scene, and stop re-litigating the same purchase every season. The brand did the sorting; your only job is to match the lane to your life.</p>
 <p>So pick yours: everyday is Align, the commute is ABC, the weekend is Scuba, the sweat is Steady State, the court is Tennis &amp; Golf. One lane, one decision. Want that done for every part of your closet, not just the leggings? <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Download Diffr</a> and lock one pick per scene &mdash; yours.</p>
-<p>Cross-shopping athleisure? See <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a> and <a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a> &mdash; same map-the-lanes pattern, different logo. Building a dorm or travel capsule? Start with <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo fabric lines</a> for basics, then add <a href="/diffr/blog/patagonia-lines-explained">Patagonia layers</a> if you need outerwear depth.</p>
+<p>Cross-shopping athleisure? See <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a>, <a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a>, and <a href="/diffr/blog/gap-inc-lines-explained">Gap Inc. lines explained</a> (Athleta vs Lululemon) &mdash; same map-the-lanes pattern, different logo. Building a dorm or travel capsule? Start with <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo fabric lines</a> for basics, then add <a href="/diffr/blog/patagonia-lines-explained">Patagonia layers</a> if you need outerwear depth.</p>
 `.trim(),
   },
   {
@@ -284,6 +284,37 @@ export const posts: BlogPost[] = [
 
 <h2>The Diffr Take</h2>
 <p>Adidas already split the wall into lanes; your job is to match the lane to your week. Everyday street &rarr; Originals; casual athletic &rarr; Sportswear; sweat &rarr; Performance; trail &rarr; Terrex. One lane, one decision. That is <a href="/diffr/blog/the-decide-once-rule">decide once</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock picks across every scene, not just the stripes.</p>
+`.trim(),
+  },
+  {
+    slug: 'gap-inc-lines-explained',
+    title: "Gap Inc. Lines Explained: Gap, Banana Republic, Old Navy & Athleta — Which Brand for Which Scene",
+    description: "Gap Inc. lines explained — what's the difference between Gap, Banana Republic, Old Navy, and Athleta? Athleta for active and yoga, Banana Republic for work, Gap for everyday denim and basics, Old Navy for budget family casual. Pick your lane and decide once.",
+    date: '2026-08-19',
+    readTime: '6 min read',
+    tags: ['gap inc lines explained', 'gap brands explained', 'athleta vs lululemon', 'banana republic vs gap', 'old navy vs gap', 'athleta', 'one brand rule'],
+    category: 'product',
+    excerpt: "One parent company, four storefronts — each built for a different budget and scene. Learn the map once and stop treating Gap Inc. like a single brand.",
+    content: `
+<p>Walk past a mall and you see four doors that feel related but solve different problems: <strong>Gap</strong>, <strong>Banana Republic</strong>, <strong>Old Navy</strong>, and <strong>Athleta</strong>. Same parent (Gap Inc.), different lanes &mdash; work vs weekend vs sweat vs family budget. That is the same <a href="/diffr/blog/why-more-choices-makes-you-worse-at-shopping">choice overload</a> Lululemon and Nike run, except here the logos sit side by side on the same block. Here is which Gap Inc. line is for which part of your life. Cross-shopping athleisure? Pair this with <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a>, <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a>, and <a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a>.</p>
+
+<h2>Athleta — Active &amp; Yoga</h2>
+<p>The lane: studio, run, yoga, and travel-active &mdash; when you want performance fabric without the Lululemon price ceiling. The vibe: polished athleisure, PowerSoft and Elation leggings, pieces that read gym-to-coffee. <strong>The one piece:</strong> the Elation Ultra High Rise Legging &mdash; Athleta&rsquo;s answer to the everyday performance tight. If your week includes classes, long walks, or airport athleisure, this is the Athleta lane.</p>
+
+<h2>Banana Republic — Work &amp; Smart Casual</h2>
+<p>The lane: the office, client dinners, and the commute that needs to look pulled together. The vibe: tailored chinos, merino layers, structured blazers without full suiting. <strong>The one piece:</strong> the Aiden chino or a Core Temp merino crew &mdash; the smart-casual workhorse that bridges desk and dinner. When Gap feels too casual and Athleta too sporty, Banana Republic is the middle.</p>
+
+<h2>Gap — Everyday Denim &amp; Basics</h2>
+<p>The lane: weekend, campus, and the American-basics closet &mdash; jeans, tees, hoodies, easy layers. The vibe: straight-leg denim, soft knits, nothing fashion-forward, nothing disposable. <strong>The one piece:</strong> the '90s straight jean or a heavyweight pocket tee &mdash; the default Gap icon that pairs with everything else in the formula. Gap is the core lane when you want honest basics without outlet chaos.</p>
+
+<h2>Old Navy — Budget &amp; Family Casual</h2>
+<p>The lane: kids&rsquo; back-to-school, growing-out-of-everything seasons, and the pieces you are not afraid to stain. The vibe: lowest price per wear in the portfolio, frequent sales, sizes for the whole household. <strong>The one piece:</strong> PowerSoft leggings or a uniform-grade tee multipack &mdash; the lane where volume and price beat perfection. Old Navy is not &ldquo;worse Gap&rdquo; &mdash; it is the budget-and-family lane, full stop.</p>
+
+<h2>Which Gap Inc. Brand vs Lululemon?</h2>
+<p><strong>Athleta</strong> is the direct cross-shop: similar studio-to-street intent, often lower ticket on sale. Align-level buttery feel? Lululemon still wins the fabric story; Athleta wins when you want one performance tight and a sensible receipt. For commute trousers and office layers, skip both and go <strong>Banana Republic</strong>. For travel capsules on a budget, <strong>Gap</strong> denim plus <strong>Old Navy</strong> tees can fill the 54321 formula &mdash; see the <a href="/diffr/blog/54321-packing-method-brand-guide">54321 packing method</a>.</p>
+
+<h2>The Diffr Take</h2>
+<p>Gap Inc. already split the customer by scene; your job is to walk into the right door. Sweat &rarr; Athleta; work &rarr; Banana Republic; everyday denim &rarr; Gap; budget and family &rarr; Old Navy. One lane, one decision. That is <a href="/diffr/blog/the-decide-once-rule">decide once</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock one pick per slot across every closet, not just the mall strip.</p>
 `.trim(),
   },
   {
@@ -573,7 +604,7 @@ export const posts: BlogPost[] = [
   {
     slug: '54321-packing-method-brand-guide',
     title: '54321 Packing Method & Rule: How to Pack a Carry-On Capsule (5-4-3-2-1)',
-    description: 'What is the 54321 packing method? The 54321 packing rule is 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule for a week in a carry-on. Which Uniqlo and Patagonia lines to pick for each slot.',
+    description: 'What is the 54321 packing method? The 54321 packing rule is 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule for a week in a carry-on. 54321 packing method for 10 days: same formula, laundry once mid-trip. Which Uniqlo and Patagonia lines to pick for each slot.',
     date: '2026-07-24',
     readTime: '6 min read',
     tags: ['brand guide', '54321 packing method', 'travel capsule wardrobe', 'carry on packing list', 'one bag essentials', 'packing list carry on', 'non-repetition principle'],
@@ -617,6 +648,17 @@ export const posts: BlogPost[] = [
 <li><strong>One wildcard, then stop.</strong> Underwear and socks scale with trip length; everything else follows the formula.</li>
 </ol>
 <p>Weekend trip? Scale down to a 3-2-1 mini edit. A month abroad? Run the formula twice (warm kit + cool kit) or bump to 6-5-4-3-2-1 &mdash; same system, more pieces, still one carry-on if you laundry once a week.</p>
+
+<h2>54321 Packing Method for 10 Days (Carry-On Only)</h2>
+<p>Ten days sounds like a second suitcase until you treat it as <strong>two five-day cycles in one bag</strong>. The 54321 packing method for 10 days is the same ratio &mdash; 5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard &mdash; with one non-negotiable: <strong>laundry once between days 4 and 6</strong>. Hotels, Airbnb washers, or a laundromat mid-trip; hand-wash in the sink if you must. You are not packing twenty outfits; you are packing twenty <em>combinations</em> and re-wearing pieces across two weeks.</p>
+<p>What changes for 10 days vs a week:</p>
+<ul>
+<li><strong>Tops and bottoms:</strong> keep the full 5-4 set; add one fast-dry tee if you sweat heavily (Uniqlo AIRism on hot routes).</li>
+<li><strong>Layers:</strong> wear the bulkiest shell and fleece on travel days; the third layer stays the trip-specific wildcard.</li>
+<li><strong>Shoes:</strong> still only two pairs &mdash; walk-all-day (Hoka) plus dress-up (Veja). The third pair is how carry-ons fail on day eight.</li>
+<li><strong>Underwear and socks:</strong> pack 7&ndash;8, wash the rest mid-trip; everything else follows the formula.</li>
+</ul>
+<p>Neutral palette matters more on a 10-day run: navy, black, stone, and white so every top pairs with every bottom after laundry. For the carry-on itself &mdash; suitcase, cubes, adapter &mdash; see <a href="/diffr/blog/international-travel-essentials-brand-guide">international travel essentials</a>. For a luxury tech flat-lay version of the same one-brand-per-slot idea, see the <a href="/diffr/blog/oak-floor-travel-kit-brand-guide">oak floor travel kit</a>.</p>
 
 <h2>The Point</h2>
 <p>The 54321 packing method is not a deprivation challenge &mdash; it is a decide-once system for the clothes <em>inside</em> the bag. One good pick per category, a neutral palette, and you stop treating every trip like a new wardrobe research project. Pair it with the <a href="/diffr/blog/international-travel-essentials-brand-guide">carry-on essentials list</a> for the gear that carries it all. For the clothing brands behind the formula, go deep on one house at a time: <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines</a>, <a href="/diffr/blog/patagonia-lines-explained">Patagonia lines</a>, <a href="/diffr/blog/nike-lines-explained">Nike lines</a>. That is the Diffr method: <a href="/diffr/blog/the-decide-once-rule">decide once</a>, pack the formula, close the file. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Pack light. Stop researching.</p>
@@ -2867,6 +2909,7 @@ export const posts: BlogPost[] = [
 <li><a href="/diffr/blog/nike-lines-explained">Nike lines explained</a> &mdash; Sportswear, Tech Fleece, Pro, Pegasus, ACG, SB, Jordan.</li>
 <li><a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a> &mdash; Align, ABC, Scuba, Steady State, Tennis &amp; Golf.</li>
 <li><a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a> &mdash; Originals, Sportswear, Performance, Terrex, Y-3.</li>
+<li><a href="/diffr/blog/gap-inc-lines-explained">Gap Inc. lines explained</a> &mdash; Athleta, Banana Republic, Gap, Old Navy by scene.</li>
 <li><a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines explained</a> &mdash; HEATTECH vs AIRism, LifeWear, Ultra Light Down.</li>
 <li><a href="/diffr/blog/patagonia-lines-explained">Patagonia lines explained</a> &mdash; Better Sweater, Capilene, Down Sweater, Houdini, Torrentshell.</li>
 <li><a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia in-house brands</a> &mdash; Babaton, Wilfred, TNA, Super Puff.</li>
@@ -2877,6 +2920,8 @@ export const posts: BlogPost[] = [
 <ul>
 <li><a href="/diffr/blog/international-travel-essentials-brand-guide">International travel essentials</a> &mdash; the ten-item carry-on kit, one brand per slot.</li>
 <li><a href="/diffr/blog/54321-packing-method-brand-guide">54321 packing method</a> &mdash; the travel capsule formula (5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard).</li>
+<li><a href="/diffr/blog/oak-floor-travel-kit-brand-guide">Oak floor travel kit</a> &mdash; luxury carry-on flat lay, one brand per slot.</li>
+<li><a href="/diffr/blog/quiet-luxury-edc-brand-guide">Quiet luxury EDC</a> &mdash; desk essentials, one brand per slot.</li>
 </ul>
 
 <h2>Gifts</h2>

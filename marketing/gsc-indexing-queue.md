@@ -2,7 +2,7 @@
 
 > **Daily limit:** ~10–12 requests per property. Open each link while logged into [Google Search Console](https://search.google.com/search-console), then click **Request indexing**.
 >
-> Property: `sc-domain:truake.com` · Updated: 2026-08-17  
+> Property: `sc-domain:truake.com` · Updated: 2026-08-19  
 > **Login verified:** `geekrlg@gmail.com` · Use **网址检查** (top search bar) → paste URL → **请求编入索引**
 
 **How to use:** One batch per day (~10 URLs). Paste each URL into **网址检查** → wait for crawl → **请求编入索引** if eligible. Mark ✓ when done.
@@ -20,6 +20,23 @@ GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是
 **Never request indexing:** any URL ending in `/og`. Request the **parent blog URL** only.
 
 **Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `winter-layering-brand-guide` (not `/diffr/start/cold-weather-layering` — start twin is noindex), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
+
+## Batch Q — GSC Aug 19 winners + Gap Inc. lines（2026-08-19）· P0 SERP push
+
+GSC dashboard (Aug 19): 12 clicks (+1100%), 1908 impressions (+184%). Top pages = Lines Explained + 54321 + Quiet Luxury EDC. **New:** Gap Inc. lines explained. **54321** refreshed with 10-day carry-on H2 + FAQ. **勿提交 `/og`** — request parent blog URLs only.
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | Lululemon lines (#1 clicks) | `https://truake.com/diffr/blog/lululemon-lines-explained` |
+| | Adidas lines (#2 clicks) | `https://truake.com/diffr/blog/adidas-lines-explained` |
+| | Nike lines (#3 clicks) | `https://truake.com/diffr/blog/nike-lines-explained` |
+| | 54321 packing (10-day FAQ refresh) | `https://truake.com/diffr/blog/54321-packing-method-brand-guide` |
+| | Quiet luxury EDC (#5 clicks) | `https://truake.com/diffr/blog/quiet-luxury-edc-brand-guide` |
+| | Gap Inc. lines (NEW) | `https://truake.com/diffr/blog/gap-inc-lines-explained` |
+| | Oak floor travel kit | `https://truake.com/diffr/blog/oak-floor-travel-kit-brand-guide` |
+| | starter kits hub (brand maps + travel) | `https://truake.com/diffr/blog/starter-kits` |
+
+> Day 2 if quota tight: uniqlo-lines-explained · patagonia-lines-explained · international-travel-essentials · gray-edc-knoll.
 
 ## Batch N — GSC Aug 16 harvest + flat lay series（2026-08-17）· P0/P1 SEO refresh
 

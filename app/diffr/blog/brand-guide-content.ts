@@ -27,6 +27,8 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Lululemon isn't one product, it's a set of collections, each built for a different scene — so instead of scrolling 200 leggings, you pick the lane that matches your week and decide once. Align is the everyday, low-impact line (the Align High-Rise Pant). ABC is the commute/smart-casual trouser (the ABC Pant, “anti-ball-crushing,” reads as real pants). Define is the studio-to-street layer (the Define Jacket). Scuba is cozy weekend fleece (the Scuba Oversized Half-Zip). Steady State and License to Train are the serious-sweat run/train lanes. Tennis & Golf is sport-specific for the court and course. Match the lane to your life: everyday → Align, commute → ABC, weekend → Scuba, sweat → Steady State, court → Tennis & Golf.",
   'adidas-lines-explained':
     "Bottom line: Adidas isn't one range — it's a house of lines, each built for a scene — so match the lane and decide once. Originals (Samba, Gazelle) is street heritage; Sportswear is everyday athletic joggers and hoodies; Performance is training and running (Ultraboost, Adizero); Terrex is trail and outdoors; Y-3 is design-forward and optional. Originals vs Performance: street vs sweat. Everyday street → Originals, casual athletic → Sportswear, sweat → Performance, trail → Terrex.",
+  'gap-inc-lines-explained':
+    "Bottom line: Gap Inc. isn't one brand — it's four storefronts, each built for a different scene and budget. Athleta is active and yoga (Elation leggings — cross-shop vs Lululemon Align). Banana Republic is work and smart casual (Aiden chino, merino layers). Gap is everyday denim and American basics ('90s straight jean, heavyweight tees). Old Navy is budget and family casual (PowerSoft, multipacks). Sweat → Athleta, office → Banana Republic, weekend denim → Gap, kids and budget → Old Navy.",
   'uniqlo-lines-explained':
     "Bottom line: Uniqlo isn't one fabric — it's a set of lines built for different climates and layers. HEATTECH vs AIRism: HEATTECH is the thin winter base layer worn under everything; AIRism is quick-dry summer and humidity. LifeWear Supima is everyday basics; Ultra Light Down and BlockTech are packable warmth and rain shells; +J and UT are collab drops you can skip on a first kit. Everyday → LifeWear, cold → HEATTECH base, heat → AIRism, outer → Ultra Light Down or BlockTech.",
   'apple-ecosystem-lines-explained':
@@ -42,7 +44,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'international-travel-essentials-brand-guide':
     'Bottom line: international travel comes down to about ten carry-on essentials, one good brand each — not a 60-item list. The carry system: a carry-on suitcase (Away), a personal-item backpack (Peak Design), packing cubes (Eagle Creek). The in-transit kit: a universal travel adapter (Epicka), a power bank (Anker), noise-canceling headphones (Sony), a neck pillow (Cabeau). On the ground: walking shoes (Hoka), an anti-theft sling (Pacsafe), a water bottle (Owala). Buy first: the carry-on, a universal adapter, and the walking shoes. For clothes inside the bag, use the 54321 packing method (5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard). Below is one brand per slot, no repeats.',
   '54321-packing-method-brand-guide':
-    'Bottom line: the 54321 packing method (54321 packing rule) is 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule that mixes into 20+ outfits in a carry-on. Build neutrals first (Uniqlo LifeWear or AIRism tops — see Uniqlo lines explained), Everlane bottoms, Patagonia layers (Houdini, Torrentshell, Better Sweater — see Patagonia lines explained), Hoka for walk-all-day shoes plus one cleaner second pair (Veja). Scale down to 3-2-1 for weekends; scale up for month-long trips.',
+    'Bottom line: the 54321 packing method (54321 packing rule) is 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule that mixes into 20+ outfits in a carry-on. 54321 packing method for 10 days: same formula, laundry once between days 4–6, still one carry-on. Build neutrals first (Uniqlo LifeWear or AIRism tops — see Uniqlo lines explained), Everlane bottoms, Patagonia layers (Houdini, Torrentshell, Better Sweater — see Patagonia lines explained), Hoka for walk-all-day shoes plus one cleaner second pair (Veja). Scale down to 3-2-1 for weekends; scale up for month-long trips.',
   'gift-ideas-for-her-brand-guide':
     'Bottom line: skip the listicles — one genuinely good gift per budget she will actually use. Under $30: a Laneige lip mask or a Boy Smells candle. $30–75: everyday jewelry (Mejuri), affordable cashmere (Quince), or a Stanley tumbler. $75+: a Kindle for a reader, a Barefoot Dreams cozy throw, or a Cuyana leather tote. If you only get one, the lip mask plus a candle is almost never wrong; for a bigger gesture, the cozy throw is the safest splurge. See the thoughtful gift ideas hub for her, him, and housewarming. Below is one pick per slot, no repeats.',
   'thoughtful-gift-ideas-brand-guide':
@@ -311,6 +313,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
   ],
 
+  'gap-inc-lines-explained': [
+    {
+      q: 'What are Gap Inc. brands and lines?',
+      a: "Gap Inc. owns four main retail lines shoppers see in malls and online: Athleta (active and yoga — PowerSoft and Elation leggings), Banana Republic (work and smart casual — chinos, merino, blazers), Gap (everyday denim and American basics — jeans, tees, hoodies), and Old Navy (budget and family casual — lowest price per wear, kids and multipacks). Each line is built for a different scene and budget, not one undifferentiated brand.",
+    },
+    {
+      q: 'Athleta vs Lululemon — which is better?',
+      a: "Athleta and Lululemon both target studio-to-street activewear. Lululemon Align is the reference for buttery everyday leggings; Athleta Elation is the direct cross-shop, often lower on sale. Lululemon wins on fabric story and community; Athleta wins when you want performance tights and a sensible receipt. For office layers, skip both and shop Banana Republic; for budget travel basics, Gap and Old Navy fill the 54321 capsule slots.",
+    },
+    {
+      q: "What's the difference between Gap and Old Navy?",
+      a: "Gap is the core everyday lane — straighter denim, heavier tees, adult-focused basics at mid-tier pricing. Old Navy is the budget-and-family lane — frequent sales, kids sizes, and pieces you replace without guilt. Old Navy is not 'cheap Gap'; it is the volume and household lane. Gap for your own weekend closet; Old Navy when you are outfitting kids or optimizing price per wear.",
+    },
+    {
+      q: 'What is Banana Republic for?',
+      a: "Banana Republic is Gap Inc.'s work and smart-casual lane — tailored chinos, merino layers, structured blazers, and pieces that read office-appropriate without full suiting. When Gap feels too casual and Athleta too sporty, Banana Republic is the commute-and-client-dinner middle. The Aiden chino and Core Temp merino crew are the default icons.",
+    },
+    {
+      q: 'Which Gap Inc. brand should I shop first?',
+      a: "Match the storefront to your week: Athleta if you live in leggings and classes; Banana Republic if you dress for an office; Gap if you need honest denim and weekend basics; Old Navy if budget or family volume is the job. Cross-shopping Lululemon or Nike? Read those lines maps first, then use Athleta or Gap only for the lane they actually win.",
+    },
+  ],
+
   'uniqlo-lines-explained': [
     {
       q: 'What is the difference between Uniqlo HEATTECH and AIRism?',
@@ -438,6 +463,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   ],
 
   '54321-packing-method-brand-guide': [
+    {
+      q: 'What is the 54321 packing method for 10 days?',
+      a: 'The 54321 packing method for 10 days uses the same 5-4-3-2-1 ratio — 5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard — in a single carry-on. Plan to do laundry once between days 4 and 6 (hotel, Airbnb, or laundromat). You pack twenty outfit combinations, not twenty separate outfits: re-wear pieces across two five-day cycles. Wear bulkiest shoes and layers on travel days; pack 7–8 underwear/socks and wash the rest mid-trip.',
+    },
     {
       q: 'What is the 54321 packing method?',
       a: 'The 54321 packing method is a travel capsule wardrobe formula: 5 tops, 4 bottoms, 3 layers, 2 pairs of shoes, and 1 wildcard item (such as a swimsuit or scarf). Every piece is chosen to mix and match in a neutral palette, so five tops and four bottoms alone create twenty outfit combinations — enough for a week or more in a carry-on if you do laundry mid-trip.',

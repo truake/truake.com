@@ -48,7 +48,7 @@ for when that brand trends · all internal-linked to the relevant **cornerstone*
 | 1 | Aritzia | Babaton/work · Wilfred/date · TNA/weekend · Sunday Best/night · Super Puff/winter | ✅ LIVE |
 | 2 | Lululemon | Align/everyday · ABC/commute · Define/studio · Scuba/weekend · Steady State/sweat · Tennis & Golf/court | ✅ LIVE 2026-06-24 (decide-once voice; collections within 1 brand, no new rows) |
 | 3 | Nike sub-lines | ACG · Tech · Pro · SB · Jordan · Running | queued · validate |
-| 4 | Gap Inc. | Athleta/active · Banana Republic/work · Old Navy/budget | queued · validate |
+| 4 | Gap Inc. | Athleta/active · Banana Republic/work · Old Navy/budget · Gap/everyday | ✅ LIVE 2026-08-19 |
 | 5 | Uniqlo | U · +J collab · Heattech as “the one piece” | queued · validate |
 | 6 | Abercrombie revival | rebuilt by fit/occasion | queued · validate |
 | 7 | extend to beauty / home | parent × sub-line | backlog |
