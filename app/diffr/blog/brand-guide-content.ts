@@ -175,6 +175,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the oak floor travel kit is nine slots on warm pale oak — LEVEL8 Gibraltar aluminum 20" carry-on, Apple iPad Pro M4, Samsung Galaxy S24 Ultra, MCM Visetos studded backpack, Memobottle Slim, Mophie powerstation XL, Louis Vuitton 8 Watch Case, Rolex Submariner, and Spigen OneTap In-flight Mount. One Apple lane (iPad), one LV lane (watch roll); GRAMS28 hidden. Live catalog tiles below.',
   'tiny-essentials-brand-guide':
     'Bottom line: the tiny essentials Altoids-tin micro-EDC flat lay is nine slots on dark charcoal slate — Altoids peppermint tin, GUM Soft-Picks Advanced, Nexcare waterproof bandages, Advil ibuprofen, Coghlans camp towel, Mukama ChargeKey, Nitecore key light, Purell Singles packets, and Shout Wipe & Go — one brand each. Ignore yellow title text and pointing hand from the reference; Anker stays hidden. Live catalog tiles below.',
+  'xpac-monochrome-sling-edc-brand-guide':
+    'Bottom line: the X-PAC monochrome sling EDC flat lay is eleven slots on clean white seamless — Peak Design Everyday Sling 3L Black, Leatherman Micra, Sepoy Peach Lemonade, Field Notes Is a River Alive?, CeraVe moisturising cream sachet, Fisher Bullet Space Pen, Zippo brushed chrome, Luminox Atacama Field, Squeaky Clean soap-tablet tin, Wellbeing Melts throat relief, and Listerine Pocketmist Cool Mint — one brand each. Ignore Reddit banner and watermark; no AirPods or iPhone; Zeiss lens wipe dropped (visually similar to CeraVe sachet). Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1575,6 +1577,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How is this different from just bring the essentials or gray EDC knoll?',
       a: 'Just bring the essentials is a white-linen travel vanity kit (preset 125). Gray EDC knoll is tactical-minimal carry on concrete (preset 134). Tiny essentials is Altoids-tin pocket survival — dental, first aid, charge, light, sanitizer — nine slots on dark slate, preset 136.',
+    },
+  ],
+
+  'xpac-monochrome-sling-edc-brand-guide': [
+    {
+      q: 'What is the X-PAC monochrome sling EDC flat lay?',
+      a: 'It is an eleven-slot urban EDC kit on clean white seamless: a black Peak Design Everyday Sling 3L as hero, Leatherman Micra keychain multi-tool, Sepoy & Co. Peach Lemonade glass bottle, Field Notes Is a River Alive? pocket memo book, CeraVe moisturising cream single-use sachet, Fisher Space Pen Bullet matte black, Zippo Classic brushed chrome lighter, Luminox Atacama Field 43 mm watch, Squeaky Clean 30 soap-tablet tin, Wellbeing Nutrition Melts throat-relief oral strips, and Listerine Pocketmist Cool Mint spray — eleven distinct brands.',
+    },
+    {
+      q: 'Why no Zeiss lens wipe in the kit?',
+      a: 'The reference Reddit flat lay includes a Zeiss lens-wipe foil packet, but it is visually indistinguishable from the CeraVe moisturising sachet at flat-lay scale. Editorial drops Zeiss and adds hygiene slots with clearer silhouettes — Squeaky Clean soap tablets, Wellbeing Melts, and Listerine Pocketmist.',
+    },
+    {
+      q: 'Why ignore the Reddit banner and watermark?',
+      a: 'The EverydayCarry_India community banner and Reddit watermark are social chrome from the source photo — not product slots. The og-base cover is an original GPT editorial flat lay on white seamless; only physical kit objects are slotted.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 137. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads. Sepoy and Squeaky Clean flavor variants are also in catalog for blog prose.',
+    },
+    {
+      q: 'How is this different from gray EDC knoll or tiny essentials?',
+      a: 'Gray EDC knoll (preset 134) is tactical-minimal carry on cool concrete with G-Shock and Leica. Tiny essentials (preset 136) is Altoids-tin pocket survival on dark slate. X-PAC monochrome sling EDC is a black technical sling-centered urban kit on white seamless — eleven slots, preset 137.',
     },
   ],
 

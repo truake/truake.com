@@ -88,6 +88,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'gray-edc-knoll-brand-guide': 134,
   'oak-floor-travel-kit-brand-guide': 135,
   'tiny-essentials-brand-guide': 136,
+  'xpac-monochrome-sling-edc-brand-guide': 137,
 }
 
 export async function generateStaticParams() {

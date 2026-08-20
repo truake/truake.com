@@ -63,6 +63,7 @@ export const OG_BASE_SLUGS = new Set<string>([
   'gray-edc-knoll-brand-guide',
   'oak-floor-travel-kit-brand-guide',
   'tiny-essentials-brand-guide',
+  'xpac-monochrome-sling-edc-brand-guide',
   '54321-packing-method-brand-guide',
 ])
 

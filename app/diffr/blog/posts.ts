@@ -1802,6 +1802,61 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'xpac-monochrome-sling-edc-brand-guide',
+    title: 'X-PAC Monochrome Sling EDC: 11 Urban Pocket Picks, One Brand Per Slot',
+    description: 'X-PAC monochrome sling EDC flat lay decoded — Peak Design Everyday Sling 3L Black, Leatherman Micra, Sepoy Peach Lemonade, Field Notes, CeraVe sachet, Fisher Bullet pen, Zippo, Luminox Atacama Field, Squeaky Clean soap tablets, Wellbeing Melts, and Listerine Pocketmist. Eleven brands on white seamless.',
+    date: '2026-08-20',
+    readTime: '5 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'everyday carry', 'sling bag', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eleven monochrome urban EDC picks around a black Peak Design sling — tool, beverage, notes, skincare, pen, lighter, watch, soap tin, throat melts, and breath spray — one brand per slot on white seamless.',
+    content: `
+<p>The X-PAC monochrome sling EDC flat lay is an urban pocket dump on clean white seamless: a black Peak Design Everyday Sling 3L with diamond-grid X-PAC texture as hero, a closed black Leatherman Micra keychain multi-tool, a Sepoy &amp; Co. Peach Lemonade glass bottle, a Field Notes Is a River Alive? pocket memo book, a CeraVe Moisturising Cream single-use sachet, a matte-black Fisher Space Pen Bullet, a brushed-chrome Zippo Classic lighter, a Luminox Atacama Field 43&nbsp;mm tactical watch, a Squeaky Clean 30 soap-tablet tin, Wellbeing Nutrition Melts Instant Throat Relief oral strips, and a Listerine Pocketmist Cool Mint oral care mist. Ignore the <strong>From EverydayCarry_India community on Reddit</strong> banner and Reddit watermark &mdash; that is social chrome, not a product slot. The reference also shows white AirPods, a silver iPhone, a G-Shock-class watch, and a Zeiss lens-wipe packet; AirPods and iPhone are skipped (Apple overload in recent Scenes), G-Shock is reserved for preset 134, and Zeiss is dropped because its foil packet reads too similar to the CeraVe sachet at flat-lay scale.</p>
+
+<p>One sling hero only: Peak Design Capture Clip appeared in <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a>; this kit uses the Everyday Sling as the anchor bag. Map each object to a canonical type, assign one brand per slot, and pull live catalog tiles below.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Day Carry / Sling</h3>
+<p><strong>Peak Design Everyday Sling 3L Black</strong> &mdash; black technical sling with compression straps and X-PAC diamond-grid texture, center hero.</p>
+
+<h3>Slot 2 &mdash; Pocket Tool</h3>
+<p><strong>Leatherman Micra Multi-tool Jet Black</strong> &mdash; closed keychain multi-tool with scissors side visible.</p>
+
+<h3>Slot 3 &mdash; Hydration / Beverage</h3>
+<p><strong>Sepoy &amp; Co. Peach Lemonade Glass Bottle</strong> &mdash; clear glass bottle with silver and peach label from the flat lay.</p>
+
+<h3>Slot 4 &mdash; Notes / Capture</h3>
+<p><strong>Field Notes Is a River Alive? 3-Pack</strong> &mdash; pocket memo book edition (reference shows gray topographic cover class).</p>
+
+<h3>Slot 5 &mdash; Skincare / Travel</h3>
+<p><strong>CeraVe Moisturising Cream Sample 7ml</strong> &mdash; single-use white foil sachet/packet.</p>
+
+<h3>Slot 6 &mdash; Write</h3>
+<p><strong>Fisher Space Pen Bullet Matte Black</strong> &mdash; cap-on bullet pen from the kit.</p>
+
+<h3>Slot 7 &mdash; Fire / Ritual</h3>
+<p><strong>Zippo Classic Brushed Chrome</strong> &mdash; windproof pocket lighter with chrome finish.</p>
+
+<h3>Slot 8 &mdash; Wrist Time</h3>
+<p><strong>Luminox Atacama Field 43 mm Urban Adventure</strong> &mdash; black tactical field watch (not G-Shock; distinct from preset 134).</p>
+
+<h3>Slot 9 &mdash; Hand Hygiene / Travel</h3>
+<p><strong>Squeaky Clean Hand Made 30 Soap Tablets &mdash; Lemon Chamomile Tin</strong> &mdash; compact metal soap-tablet tin from the reference.</p>
+
+<h3>Slot 10 &mdash; Throat / Wellness</h3>
+<p><strong>Wellbeing Nutrition Melts Instant Throat Relief Oral Strips</strong> &mdash; small oral-strip tin/pack from the flat lay.</p>
+
+<h3>Slot 11 &mdash; Fresh Breath / Oral</h3>
+<p><strong>Listerine Pocketmist Cool Mint Fresh Breath Spray</strong> &mdash; slim oral care mist spray bottle.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Monochrome sling kits mix carry, tool, beverage, and hygiene faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All eleven slots are pinned on preset 137 with eleven distinct brands &mdash; Peak Design sling hero, no hidden CN brands, no Zeiss/CeraVe foil collision.</p>
+
+<p>Distinct from <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a> (concrete knoll · G-Shock · Leica) · <a href="/diffr/blog/tiny-essentials-brand-guide">tiny essentials</a> (Altoids micro-tin) · <a href="/diffr/blog/tech-travel-edc-brand-guide">tech travel EDC</a> (light-wood luxury desk). Explore the interactive scene: <a href="/diffr/start/xpac-monochrome-sling-edc-flat-lay">X-PAC Monochrome Sling EDC Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',
