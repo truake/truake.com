@@ -21,6 +21,19 @@ GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是
 
 **Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `winter-layering-brand-guide` (not `/diffr/start/cold-weather-layering` — start twin is noindex), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
 
+## Batch R — Aritzia GSC defend（2026-08-21）· first click pos ~6
+
+First measurable clicks on `aritzia brands explained` + `aritzia sub brands` → landing `aritzia-sub-brands-guide`. Inbound links added from Lululemon, Gap Inc., womens capsule/work guides; FAQ + meta refreshed. **勿提交 `/og`** — request parent blog URL only.
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | Aritzia sub-brands (defend) | `https://truake.com/diffr/blog/aritzia-sub-brands-guide` |
+| | Lululemon lines (feeds Aritzia inbound) | `https://truake.com/diffr/blog/lululemon-lines-explained` |
+| | Gap Inc. lines (feeds Aritzia inbound) | `https://truake.com/diffr/blog/gap-inc-lines-explained` |
+| | Womens capsule (Effortless Pant slot) | `https://truake.com/diffr/blog/womens-capsule-wardrobe-brand-guide` |
+| | Womens work capsule | `https://truake.com/diffr/blog/womens-work-capsule-brand-guide` |
+| | starter kits hub | `https://truake.com/diffr/blog/starter-kits` |
+
 ## Batch Q — GSC Aug 19 winners + Gap Inc. lines（2026-08-19）· P0 SERP push
 
 GSC dashboard (Aug 19): 12 clicks (+1100%), 1908 impressions (+184%). Top pages = Lines Explained + 54321 + Quiet Luxury EDC. **New:** Gap Inc. lines explained. **54321** refreshed with 10-day carry-on H2 + FAQ. **勿提交 `/og`** — request parent blog URLs only.

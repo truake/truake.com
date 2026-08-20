@@ -248,7 +248,7 @@ export const posts: BlogPost[] = [
 <h2>The Diffr Take</h2>
 <p>Notice what Lululemon actually did: it took one overwhelming wall and quietly split it into lanes, one per scene. That is the whole Diffr idea &mdash; <a href="/diffr/blog/the-decide-once-rule">decide once</a>, by scene, and stop re-litigating the same purchase every season. The brand did the sorting; your only job is to match the lane to your life.</p>
 <p>So pick yours: everyday is Align, the commute is ABC, the weekend is Scuba, the sweat is Steady State, the court is Tennis &amp; Golf. One lane, one decision. Want that done for every part of your closet, not just the leggings? <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Download Diffr</a> and lock one pick per scene &mdash; yours.</p>
-<p>Cross-shopping athleisure? See <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a>, <a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a>, and <a href="/diffr/blog/gap-inc-lines-explained">Gap Inc. lines explained</a> (Athleta vs Lululemon) &mdash; same map-the-lanes pattern, different logo. Building a dorm or travel capsule? Start with <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo fabric lines</a> for basics, then add <a href="/diffr/blog/patagonia-lines-explained">Patagonia layers</a> if you need outerwear depth.</p>
+<p>Cross-shopping athleisure? See <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a>, <a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a>, and <a href="/diffr/blog/gap-inc-lines-explained">Gap Inc. lines explained</a> (Athleta vs Lululemon) &mdash; same map-the-lanes pattern, different logo. Building a women&rsquo;s wardrobe from one store? See <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia sub-brands explained</a> (Babaton for work, Wilfred for date night, TNA for the weekend). Building a dorm or travel capsule? Start with <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo fabric lines</a> for basics, then add <a href="/diffr/blog/patagonia-lines-explained">Patagonia layers</a> if you need outerwear depth.</p>
 `.trim(),
   },
   {
@@ -311,7 +311,7 @@ export const posts: BlogPost[] = [
 <p>The lane: kids&rsquo; back-to-school, growing-out-of-everything seasons, and the pieces you are not afraid to stain. The vibe: lowest price per wear in the portfolio, frequent sales, sizes for the whole household. <strong>The one piece:</strong> PowerSoft leggings or a uniform-grade tee multipack &mdash; the lane where volume and price beat perfection. Old Navy is not &ldquo;worse Gap&rdquo; &mdash; it is the budget-and-family lane, full stop.</p>
 
 <h2>Which Gap Inc. Brand vs Lululemon?</h2>
-<p><strong>Athleta</strong> is the direct cross-shop: similar studio-to-street intent, often lower ticket on sale. Align-level buttery feel? Lululemon still wins the fabric story; Athleta wins when you want one performance tight and a sensible receipt. For commute trousers and office layers, skip both and go <strong>Banana Republic</strong>. For travel capsules on a budget, <strong>Gap</strong> denim plus <strong>Old Navy</strong> tees can fill the 54321 formula &mdash; see the <a href="/diffr/blog/54321-packing-method-brand-guide">54321 packing method</a>.</p>
+<p><strong>Athleta</strong> is the direct cross-shop: similar studio-to-street intent, often lower ticket on sale. Align-level buttery feel? Lululemon still wins the fabric story; Athleta wins when you want one performance tight and a sensible receipt. For commute trousers and office layers, skip both and go <strong>Banana Republic</strong> &mdash; or see <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia sub-brands explained</a> (Babaton / Effortless Pant for work). For travel capsules on a budget, <strong>Gap</strong> denim plus <strong>Old Navy</strong> tees can fill the 54321 formula &mdash; see the <a href="/diffr/blog/54321-packing-method-brand-guide">54321 packing method</a>.</p>
 
 <h2>The Diffr Take</h2>
 <p>Gap Inc. already split the customer by scene; your job is to walk into the right door. Sweat &rarr; Athleta; work &rarr; Banana Republic; everyday denim &rarr; Gap; budget and family &rarr; Old Navy. One lane, one decision. That is <a href="/diffr/blog/the-decide-once-rule">decide once</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock one pick per slot across every closet, not just the mall strip.</p>
@@ -418,14 +418,14 @@ export const posts: BlogPost[] = [
   {
     slug: 'aritzia-sub-brands-guide',
     title: "Aritzia In-House Brands Explained: Babaton, Wilfred, TNA & What to Buy Instead",
-    description: "What brands does Aritzia own? Seven in-house labels — Babaton for work, Wilfred for date night, TNA for the weekend, Sunday Best for going out, the Super Puff for winter. Full sub-brand map plus the independent pick that beats each one.",
+    description: "Aritzia brands explained — what brands does Aritzia own? Seven in-house sub-brands: Babaton for work, Wilfred for date night, TNA for the weekend, Sunday Best for going out, the Super Puff for winter. Full sub-brand map plus the independent pick that beats each one.",
     date: '2026-06-24',
     readTime: '6 min read',
-    tags: ['aritzia brands', 'aritzia sub brands', 'babaton', 'aritzia super puff', 'is aritzia worth it', 'womens fashion', 'one brand rule'],
+    tags: ['aritzia brands explained', 'aritzia brands', 'aritzia sub brands', 'babaton', 'aritzia super puff', 'is aritzia worth it', 'womens fashion', 'one brand rule'],
     category: 'product',
     excerpt: "Aritzia is secretly seven brands in one store. Here's which sub-brand to wear for work, date night, the weekend and beyond — and where an independent label still wins.",
     content: `
-<p>Walk into Aritzia and it feels like one store. It is really seven. The company runs a stable of in-house labels &mdash; Babaton, Wilfred, TNA, Sunday Best and more &mdash; each built for a different part of your life. That is why the same store can dress you for a board meeting and a music festival: you are not shopping one brand, you are shopping a <strong>house of brands</strong>, each one a different slot in your week.</p>
+<p>Walk into Aritzia and it feels like one store. It is really seven. The company runs a stable of in-house labels &mdash; Babaton, Wilfred, TNA, Sunday Best and more &mdash; each built for a different part of your life. That is the same <strong>house-of-brands</strong> pattern as <a href="/diffr/blog/lululemon-lines-explained">Lululemon&rsquo;s collections</a> and <a href="/diffr/blog/gap-inc-lines-explained">Gap Inc.&rsquo;s four storefronts</a> &mdash; one company, different lanes for work, weekend, and going out.</p>
 <p>Which is exactly how Diffr thinks about a wardrobe: <strong>one good pick per slot, no slot wasted.</strong> So here is the full map &mdash; every Aritzia sub-brand, the scenario it owns, and the one piece worth knowing it for. And because we are an independent guide (we are not affiliated with Aritzia), each slot also gets the honest verdict: <em>the label we would reach for instead, and why.</em></p>
 
 <h2>Babaton — Work</h2>
@@ -3068,7 +3068,7 @@ export const posts: BlogPost[] = [
 
 <h3>Slot 4 &mdash; Tailored Trousers</h3>
 <p><strong>Aritzia (The Effortless Pant)</strong></p>
-<p>The piece that takes the capsule from weekend to work. A fluid, tailored trouser in black or stone dresses up with flats and the blazer, down with the tee and sneakers. Aritzia&rsquo;s Effortless Pant is the internet&rsquo;s default for a reason &mdash; the drape and fit punch far above the price.</p>
+<p>The piece that takes the capsule from weekend to work. A fluid, tailored trouser in black or stone dresses up with flats and the blazer, down with the tee and sneakers. Aritzia&rsquo;s Effortless Pant is the internet&rsquo;s default for a reason &mdash; the drape and fit punch far above the price. New to the house of brands? Read <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia sub-brands explained</a> (Babaton vs Wilfred vs TNA) before you buy the wrong lane.</p>
 
 <h3>Slot 5 &mdash; Knit Sweater</h3>
 <p><strong>Quince (Mongolian Cashmere Crew)</strong></p>
@@ -3249,7 +3249,7 @@ export const posts: BlogPost[] = [
 
 <h3>Slot 2 &mdash; Tailored Trousers</h3>
 <p><strong>Aritzia (The Effortless Pant)</strong></p>
-<p>The backbone of the week. A fluid, tailored trouser in black or stone pairs with the blazer, the shirt, and the knit in any combination. Aritzia&rsquo;s Effortless Pant is the internet&rsquo;s default &mdash; the drape and fit punch far above the price.</p>
+<p>The backbone of the week. A fluid, tailored trouser in black or stone pairs with the blazer, the shirt, and the knit in any combination. Aritzia&rsquo;s Effortless Pant is the internet&rsquo;s default &mdash; the drape and fit punch far above the price. It lives under the <strong>Babaton</strong> sub-brand; see the full map in <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia brands explained</a>.</p>
 
 <h3>Slot 3 &mdash; White Button-Down</h3>
 <p><strong>Everlane</strong></p>

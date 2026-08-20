@@ -1,6 +1,7 @@
 # Campaign: 我的 Aritzia (“My Aritzia”) — house-of-brands, hybrid framing
 
-**Status:** 🟢 BLOG LIVE 2026-06-24 → https://truake.com/diffr/blog/aritzia-sub-brands-guide
+**Status:** 🟢 BLOG LIVE 2026-06-24 → https://truake.com/diffr/blog/aritzia-sub-brands-guide  
+**GSC (2026-08-21):** first click on `aritzia brands explained` + `aritzia sub brands`, avg pos ~6 → **Defend Batch R** (FAQ, meta, inbound links from Lulu/Gap/capsule guides).
 · social cleared to GO (X thread un-HOLD in x-queue) · img sub-brand rows+PL+hero images
 in DB · OUTSTANDING: (1) dev — add 1 `preset_scenarios` row to light up the inline
 shoppable kit (ids below); (2) img — sub-brand logos still missing (null-graceful).

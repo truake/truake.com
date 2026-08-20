@@ -49,7 +49,8 @@ Requires `.env.local` with `NEXT_PUBLIC_SUPABASE_URL` + `NEXT_PUBLIC_SUPABASE_AN
 
 | Query | Impr | Pos | Matched slug | Action | Batch |
 |-------|------|-----|--------------|--------|-------|
-| _(auto-filled in latest.md)_ | | | | | |
+| aritzia brands explained | — | ~6 | `aritzia-sub-brands-guide` | **Defend** — FAQ + meta + inbound links (2026-08-21) | R |
+| aritzia sub brands | — | ~6 | `aritzia-sub-brands-guide` | **Defend** — same page; re-request index | R |
 
 ### Ahrefs — validation queue (seed terms)
 
@@ -57,7 +58,7 @@ Run in Keywords Explorer when units reset; export CSV to `imports/`.
 
 | Seed | US vol | KD | Decision | Notes |
 |------|--------|-----|----------|-------|
-| aritzia sub brands | | | ✅ LIVE | |
+| aritzia sub brands | — | ~6 | ✅ LIVE | **First GSC click 2026-08-21** · Defend Batch R |
 | lululemon lines explained | | | ✅ LIVE | |
 | nike sub brands explained | | | queued | decode A-series |
 | nike acg vs tech | | | queued | comparison C-series |

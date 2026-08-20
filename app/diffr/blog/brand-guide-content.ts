@@ -407,6 +407,14 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
 
   'aritzia-sub-brands-guide': [
     {
+      q: 'Aritzia brands explained — what are they?',
+      a: "Aritzia brands explained in one sentence: Aritzia is a Canadian retailer that runs seven in-house labels — not separate companies — each built for a different part of your week. Babaton is work tailoring (Effortless Pant), Wilfred is date-night dresses, TNA is weekend athleisure, Sunday Best is going-out pieces, and the Super Puff is the signature puffer. The full scenario map and independent verdict per slot are in the guide above.",
+    },
+    {
+      q: 'What are Aritzia sub brands?',
+      a: "Aritzia sub brands are Babaton, The Group by Babaton, Wilfred, Wilfred Free, TNA, Sunday Best, and the Super Puff line — all sold only at Aritzia stores and online. Each sub-brand targets a different occasion (work, date night, weekend lounge, night out, winter outerwear) so one store can dress your whole week without feeling like one generic label.",
+    },
+    {
       q: 'What brands does Aritzia own?',
       a: "Aritzia owns seven in-house brands sold only at Aritzia: Babaton (work tailoring), The Group by Babaton (elevated suiting), Wilfred (romantic dresses), Wilfred Free (everyday basics), TNA (cozy athleisure), Sunday Best (going-out pieces), and the Super Puff (signature puffer). They are not separate companies — each is a label within the Aritzia house, built for a different part of your week.",
     },
