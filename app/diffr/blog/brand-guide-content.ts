@@ -28,7 +28,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'adidas-lines-explained':
     "Bottom line: Adidas isn't one range — it's a house of lines, each built for a scene — so match the lane and decide once. Originals (Samba, Gazelle) is street heritage; Sportswear is everyday athletic joggers and hoodies; Performance is training and running (Ultraboost, Adizero); Terrex is trail and outdoors; Y-3 is design-forward and optional. Originals vs Performance: street vs sweat. Everyday street → Originals, casual athletic → Sportswear, sweat → Performance, trail → Terrex.",
   'gap-inc-lines-explained':
-    "Bottom line: Gap Inc. isn't one brand — it's four storefronts, each built for a different scene and budget. Athleta is active and yoga (Elation leggings — cross-shop vs Lululemon Align). Banana Republic is work and smart casual (Aiden chino, merino layers). Gap is everyday denim and American basics ('90s straight jean, heavyweight tees). Old Navy is budget and family casual (PowerSoft, multipacks). Sweat → Athleta, office → Banana Republic, weekend denim → Gap, kids and budget → Old Navy.",
+    "Bottom line: Athleta vs Lululemon — Athleta Elation is the direct cross-shop for Align-level leggings, often lower on sale; Lululemon wins on fabric story. Gap Inc. is four storefronts: Athleta (active/yoga), Banana Republic (work), Gap (everyday denim), Old Navy (budget/family). Sweat → Athleta, office → Banana Republic, weekend denim → Gap, kids and budget → Old Navy.",
   'uniqlo-lines-explained':
     "Bottom line: Uniqlo isn't one fabric — it's a set of lines built for different climates and layers. HEATTECH vs AIRism: HEATTECH is the thin winter base layer worn under everything; AIRism is quick-dry summer and humidity. LifeWear Supima is everyday basics; Ultra Light Down and BlockTech are packable warmth and rain shells; +J and UT are collab drops you can skip on a first kit. Everyday → LifeWear, cold → HEATTECH base, heat → AIRism, outer → Ultra Light Down or BlockTech.",
   'apple-ecosystem-lines-explained':
@@ -112,7 +112,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'skincare-brand-guide':
     'Bottom line: a beginner skincare starter kit is three steps — cleanse, moisturize, and protect with sunscreen — and sunscreen matters most, by far. On a budget, buy in this order: cleanser, moisturizer, and sunscreen first (a complete routine on their own), then a vitamin C serum; skip toner and eye cream. The whole effective kit costs about $60–100 and is mostly drugstore — expensive rarely means better here. Below is one brand per slot, no repeats.',
   'makeup-brand-guide':
-    'Bottom line: a beginner makeup kit for an everyday face needs five products first — tinted base, concealer, mascara, blush, and lip — then add brushes and a sponge. Go mostly drugstore with one or two splurges (concealer, a good sponge); skip contour, eyeshadow, and setting products until later. The full everyday kit is ten slots below — one brand each, no repeats.',
+    'Bottom line: a makeup essentials list for beginners starts with five products — tinted base, concealer, mascara, blush, and lip — then add brushes and a sponge. Go mostly drugstore with one or two splurges (concealer, a good sponge); skip contour, eyeshadow, and setting products until later. The full everyday kit is ten slots below — one brand each, no repeats.',
   'casual-wardrobe-brand-guide':
     'Bottom line: a versatile starter wardrobe is a system, not a pile — build it around a few neutral pieces that all pair with each other. Buy in this order: a good plain tee, a mid-wash slim jean, and a clean white sneaker first (a complete outfit on their own), then a casual jacket and a leather belt, then an everyday watch and sunglasses. Keep everything in neutral colors (white, navy, grey, brown) and it all goes with everything. Below is one brand per slot, no repeats.',
   'work-wardrobe-brand-guide':
@@ -140,7 +140,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'luxury-investment-brand-guide':
     'Bottom line: a luxury investment flat lay is eight functions — smartphone, premium headphones, mechanical watch, card holder, two signature fragrances, grooming, and sunglasses — one iconic brand per slot. Apple appears twice (phone + headphones) because the reference image does. Below is the live catalog kit with product images from Diffr\'s database.',
   'quiet-luxury-edc-brand-guide':
-    'Bottom line: a quiet luxury EDC flat lay is eight functions — laptop, everyday sneakers, dress watch, card holder, signature scent, phone case, fountain pen, and business book — one brand per slot from the reference grid. Below is the live catalog kit with product images from Diffr\'s database.',
+    'Bottom line: everyday carry essentials in a quiet-luxury flat lay — eight slots: laptop, everyday sneakers, dress watch, card holder, signature scent, phone case, fountain pen, and business book — one brand per slot from the reference grid. Below is the live catalog kit with product images from Diffr\'s database.',
   'travel-essentials-brand-guide':
     'Bottom line: the viral "travel essentials" bedsheet flat lay is twelve slots — transit sneakers, UNO, Switch OLED, iPad, iPhone, power bank, AirPods, AirFly, Osmo Pocket, Marvis, grooming, and Ray-Ban — one brand each. Not the carry-on suitcase list; this is the tech-and-comfort kit on the hotel desk. Live catalog tiles below.',
   'poolside-essentials-brand-guide':
@@ -178,7 +178,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'xpac-monochrome-sling-edc-brand-guide':
     'Bottom line: the X-PAC monochrome sling EDC flat lay is eleven slots on clean white seamless — Peak Design Everyday Sling 3L Black, Leatherman Micra, Sepoy Peach Lemonade, Field Notes Is a River Alive?, CeraVe moisturising cream sachet, Fisher Bullet Space Pen, Zippo brushed chrome, Luminox Atacama Field, Squeaky Clean soap-tablet tin, Wellbeing Melts throat relief, and Listerine Pocketmist Cool Mint — one brand each. Ignore Reddit banner and watermark; no AirPods or iPhone; Zeiss lens wipe dropped (visually similar to CeraVe sachet). Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
-    'Bottom line: the on-your-feet-all-day work kit is eight slots — Hoka cushioned shoe, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand each. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
+    'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
 
 export interface FaqItem {
@@ -431,6 +431,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: 'It depends on the slot. Aritzia wins on convenience — you can build a whole week’s wardrobe from one store, and pieces like the Effortless Pant and the Super Puff genuinely deliver. But for items you want to last years, an independent specialist often beats it: Theory for tailoring, Reformation for slip dresses, Vuori or Lululemon for real workout gear, and Patagonia for a puffer you can repair. The smart move is to use Aritzia where convenience matters and swap in the specialist where longevity does.',
     },
     {
+      q: 'Wilfred vs Babaton — which Aritzia brand should I buy?',
+      a: 'Wilfred is date-night and romantic — slip dresses, fluid midis, soft drape. Babaton is work and tailoring — Effortless Pant, blazers, polished separates. They are different lanes in the same store, not competitors. Buy Babaton for the office and Wilfred for dinner; for a slip dress specifically, Reformation often wins on silhouette range.',
+    },
+    {
       q: 'Is the Aritzia Super Puff worth it?',
       a: 'The Super Puff is warm, well-cut and genuinely iconic, so for style it earns its place. If your priority is maximum warmth-to-weight and a jacket you can repair and keep for a decade, Patagonia is the stronger buy, and Uniqlo’s seamless down is the budget alternative. Buy the Super Puff for the look; buy Patagonia for the long haul.',
     },
@@ -456,6 +460,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   ],
 
   'international-travel-essentials-brand-guide': [
+    {
+      q: 'What is an international travel essentials list?',
+      a: 'A practical international travel essentials list is about ten carry-on items — suitcase, personal-item backpack, packing cubes, universal adapter, power bank, headphones, neck pillow, walking shoes, anti-theft sling, and water bottle — one good brand each. Skip the 60-item haul; buy the carry system and in-transit kit first, then use the 54321 packing method for clothes inside the bag.',
+    },
     {
       q: 'What are the essentials for international travel?',
       a: 'About ten carry-on items: a carry-on suitcase, a personal-item backpack, packing cubes, a universal travel adapter, a power bank, noise-canceling headphones, a neck pillow, comfortable walking shoes, an anti-theft sling for valuables, and a reusable water bottle. One good brand of each covers a trip abroad without overpacking; skip the single-use gadgets. For clothes, pair with the 54321 packing method.',
@@ -1158,6 +1166,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
 
   'makeup-brand-guide': [
     {
+      q: 'What is a good makeup essentials list for beginners?',
+      a: 'Start with five: tinted moisturizer or light foundation, concealer, mascara, blush, and lip tint or balm. Add a damp makeup sponge and a small brush set. That is a complete everyday face — eyeshadow, contour, and setting spray can wait. The full ten-slot kit below assigns one brand per product so you close the file instead of comparing forty aisles.',
+    },
+    {
       q: 'What makeup should a beginner buy first?',
       a: 'Buy in this order: (1) a sheer base — tinted moisturizer or light foundation, (2) concealer for spots and under-eyes, (3) mascara, (4) a natural blush, (5) a forgiving lip tint or balm. Add a damp makeup sponge and a small brush set to apply them. That five-product core is a complete everyday face; eyeshadow, contour, and setting spray can wait.',
     },
@@ -1268,6 +1280,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   ],
 
   'quiet-luxury-edc-brand-guide': [
+    {
+      q: 'What are everyday carry essentials?',
+      a: 'Everyday carry essentials are the small set of objects you leave the house with daily — phone, wallet, keys, watch, headphones, pen, and often a bag or case. This quiet-luxury flat lay maps eight of those functions (laptop, sneakers, watch, card holder, scent, phone case, pen, book) to one brand per slot so you decide once instead of upgrading the same category every season.',
+    },
     {
       q: 'What is the quiet luxury EDC flat lay?',
       a: 'It is an eight-slot everyday kit inspired by a viral flat lay grid: MacBook, On Cloud sneakers, Cartier watch, card holder, Tom Ford fragrance, Rimowa phone case, Montblanc pen, and a business book — each mapped to one canonical product type and one target brand.',
@@ -1673,6 +1689,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   ],
 
   'on-your-feet-all-day-work-brand-guide': [
+    {
+      q: 'What are the best on your feet all day shoes?',
+      a: 'For standing or walking on hard floors all shift, cushioned walking shoes beat narrow lifestyle sneakers — Hoka is the default in this kit for all-day pavement and tile. Pair them with compression socks (Comrad), support insoles (Superfeet), and stretch work pants (Lululemon) so the whole system works, not just the shoe. Adidas Performance trainers are the in-brand alternative if you must stay on three stripes — see the Adidas lines guide for fit-by-collection detail.',
+    },
     {
       q: 'What is the on-your-feet-all-day work kit?',
       a: 'It is an eight-slot shift comfort kit for jobs that keep you standing or walking on hard floors: Hoka cushioned walking shoe, Comrad compression socks, Superfeet support insoles, Lululemon stretch work pants, Uniqlo AIRism moisture tee, O\'Keeffe\'s foot recovery cream, Owala hydration bottle, and Gorilla Grip anti-fatigue mat — one brand per slot.',

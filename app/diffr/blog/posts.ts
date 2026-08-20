@@ -248,7 +248,7 @@ export const posts: BlogPost[] = [
 <h2>The Diffr Take</h2>
 <p>Notice what Lululemon actually did: it took one overwhelming wall and quietly split it into lanes, one per scene. That is the whole Diffr idea &mdash; <a href="/diffr/blog/the-decide-once-rule">decide once</a>, by scene, and stop re-litigating the same purchase every season. The brand did the sorting; your only job is to match the lane to your life.</p>
 <p>So pick yours: everyday is Align, the commute is ABC, the weekend is Scuba, the sweat is Steady State, the court is Tennis &amp; Golf. One lane, one decision. Want that done for every part of your closet, not just the leggings? <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Download Diffr</a> and lock one pick per scene &mdash; yours.</p>
-<p>Cross-shopping athleisure? See <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a>, <a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a>, and <a href="/diffr/blog/gap-inc-lines-explained">Gap Inc. lines explained</a> (Athleta vs Lululemon) &mdash; same map-the-lanes pattern, different logo. Building a women&rsquo;s wardrobe from one store? See <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia sub-brands explained</a> (Babaton for work, Wilfred for date night, TNA for the weekend). Building a dorm or travel capsule? Start with <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo fabric lines</a> for basics, then add <a href="/diffr/blog/patagonia-lines-explained">Patagonia layers</a> if you need outerwear depth.</p>
+<p>Cross-shopping athleisure? See <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a>, <a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a>, and <a href="/diffr/blog/gap-inc-lines-explained">Athleta vs Lululemon</a> (Gap Inc. lines explained — Elation vs Align) &mdash; same map-the-lanes pattern, different logo. Building a women&rsquo;s wardrobe from one store? See <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia sub-brands explained</a> (Babaton for work, Wilfred for date night, TNA for the weekend). Building a dorm or travel capsule? Start with <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo fabric lines</a> for basics, then add <a href="/diffr/blog/patagonia-lines-explained">Patagonia layers</a> if you need outerwear depth.</p>
 `.trim(),
   },
   {
@@ -280,7 +280,7 @@ export const posts: BlogPost[] = [
 
 <h2>On Your Feet All Day — Fit by Line</h2>
 <p>If you stand or walk for most of a shift, <strong>line choice matters more than colorway.</strong> Originals lifestyle lasts (Samba, Gazelle) are narrow heritage shapes &mdash; fine for mixed sit/stand, painful as a sole 10-hour floor shoe. <strong>Performance</strong> daily trainers (Ultraboost-class cushioning) are the Adidas lane for walk-heavy work. <strong>Terrex</strong> is for trail and weather, not hospital tile or retail concrete. Sportswear joggers and tees stretch for commute and lounge; they are not a substitute for compression socks or insoles when you are on concrete all day.</p>
-<p>Adidas is one brand in a closed kit, not the whole wall. For a <strong>cross-brand standing-at-work kit</strong> (shoes, socks, insoles, pants, hydration &mdash; one specialist per slot), see <a href="/diffr/blog/on-your-feet-all-day-work-brand-guide">On Your Feet All Day at Work</a>.</p>
+<p>Adidas is one brand in a closed kit, not the whole wall. For a <strong>cross-brand standing-at-work kit</strong> (on your feet all day shoes, socks, insoles, pants, hydration &mdash; one specialist per slot), see <a href="/diffr/blog/on-your-feet-all-day-work-brand-guide">On Your Feet All Day Shoes &amp; Work Kit</a>.</p>
 
 <h2>The Diffr Take</h2>
 <p>Adidas already split the wall into lanes; your job is to match the lane to your week. Everyday street &rarr; Originals; casual athletic &rarr; Sportswear; sweat &rarr; Performance; trail &rarr; Terrex. One lane, one decision. That is <a href="/diffr/blog/the-decide-once-rule">decide once</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock picks across every scene, not just the stripes.</p>
@@ -288,8 +288,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'gap-inc-lines-explained',
-    title: "Gap Inc. Lines Explained: Gap, Banana Republic, Old Navy & Athleta — Which Brand for Which Scene",
-    description: "Gap Inc. lines explained — what's the difference between Gap, Banana Republic, Old Navy, and Athleta? Athleta for active and yoga, Banana Republic for work, Gap for everyday denim and basics, Old Navy for budget family casual. Pick your lane and decide once.",
+    title: "Athleta vs Lululemon & Gap Inc. Lines Explained: Gap, Banana Republic, Old Navy",
+    description: "Athleta vs Lululemon — which is better? Gap Inc. lines explained: Athleta for active and yoga (Elation vs Align), Banana Republic for work, Gap for everyday denim, Old Navy for budget family casual. Gap brands explained in one map — pick your lane and decide once.",
     date: '2026-08-19',
     readTime: '6 min read',
     tags: ['gap inc lines explained', 'gap brands explained', 'athleta vs lululemon', 'banana republic vs gap', 'old navy vs gap', 'athleta', 'one brand rule'],
@@ -310,7 +310,7 @@ export const posts: BlogPost[] = [
 <h2>Old Navy — Budget &amp; Family Casual</h2>
 <p>The lane: kids&rsquo; back-to-school, growing-out-of-everything seasons, and the pieces you are not afraid to stain. The vibe: lowest price per wear in the portfolio, frequent sales, sizes for the whole household. <strong>The one piece:</strong> PowerSoft leggings or a uniform-grade tee multipack &mdash; the lane where volume and price beat perfection. Old Navy is not &ldquo;worse Gap&rdquo; &mdash; it is the budget-and-family lane, full stop.</p>
 
-<h2>Which Gap Inc. Brand vs Lululemon?</h2>
+<h2>Which Gap Inc. Brand vs Lululemon? (Athleta vs Lululemon)</h2>
 <p><strong>Athleta</strong> is the direct cross-shop: similar studio-to-street intent, often lower ticket on sale. Align-level buttery feel? Lululemon still wins the fabric story; Athleta wins when you want one performance tight and a sensible receipt. For commute trousers and office layers, skip both and go <strong>Banana Republic</strong> &mdash; or see <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia sub-brands explained</a> (Babaton / Effortless Pant for work). For travel capsules on a budget, <strong>Gap</strong> denim plus <strong>Old Navy</strong> tees can fill the 54321 formula &mdash; see the <a href="/diffr/blog/54321-packing-method-brand-guide">54321 packing method</a>.</p>
 
 <h2>The Diffr Take</h2>
@@ -549,11 +549,11 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'international-travel-essentials-brand-guide',
-    title: 'International Travel Essentials: The Carry-On Packing List, One Brand Per Slot',
-    description: 'The international travel essentials that actually matter — a ten-item carry-on packing list, one good brand per slot, from the suitcase to the anti-theft sling. What to pack first for a trip abroad, without the 60-item rabbit hole.',
+    title: 'International Travel Essentials List: Carry-On Packing, One Brand Per Slot',
+    description: 'International travel essentials list — the ten-item carry-on packing list that actually matters, one good brand per slot, from the suitcase to the anti-theft sling. What to pack first for a trip abroad, without the 60-item rabbit hole.',
     date: '2026-06-23',
     readTime: '6 min read',
-    tags: ['brand guide', 'international travel essentials', 'carry on packing list', 'travel must haves', 'what to pack for a trip abroad', 'non-repetition principle'],
+    tags: ['brand guide', 'international travel essentials list', 'international travel essentials', 'carry on packing list', 'travel must haves', 'what to pack for a trip abroad', 'non-repetition principle'],
     category: 'product',
     excerpt: 'A ten-item carry-on packing list, one brand per slot. The international travel essentials that earn their space — skip the 60-item list.',
     content: `
@@ -1068,11 +1068,11 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'quiet-luxury-edc-brand-guide',
-    title: 'Quiet Luxury EDC: 8 Essentials Over 25, One Brand Per Slot',
-    description: 'The viral quiet-luxury flat lay decoded — MacBook, On Cloud, Cartier, Bellroy, Tom Ford, Rimowa, Montblanc, and Good to Great. Eight slots, eight brands, live product images from the Diffr catalog.',
+    title: 'Everyday Carry Essentials — Quiet Luxury EDC: 8 Picks, One Brand Per Slot',
+    description: 'Everyday carry essentials decoded — the viral quiet-luxury flat lay: MacBook, On Cloud, Cartier, Bellroy, Tom Ford, Rimowa, Montblanc, and Good to Great. Eight EDC slots, eight brands, live product images from the Diffr catalog.',
     date: '2026-07-29',
     readTime: '5 min read',
-    tags: ['brand guide', 'quiet luxury', 'EDC', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    tags: ['brand guide', 'everyday carry essentials', 'quiet luxury', 'EDC', 'flat lay', 'one brand per slot', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Eight quiet-luxury everyday essentials — laptop, sneakers, watch, wallet, scent, phone case, pen, and business book — one brand per slot.',
     content: `
@@ -1954,11 +1954,11 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'on-your-feet-all-day-work-brand-guide',
-    title: 'On Your Feet All Day at Work: 8 Comfort Picks, One Brand Per Slot',
-    description: 'Standing or walking all day at work — Hoka, Comrad, Superfeet, Lululemon, Uniqlo, O\'Keeffe\'s, Owala, and Gorilla Grip. Eight slots, one specialist brand each, not a single-brand wall.',
+    title: 'On Your Feet All Day Shoes & Work Kit: 8 Comfort Picks, One Brand Per Slot',
+    description: 'On your feet all day shoes and shift comfort — Hoka walking shoes, Comrad compression socks, Superfeet insoles, Lululemon stretch pants, and five more slots. One specialist brand each for standing work on hard floors, not a single-brand wall.',
     date: '2026-08-07',
     readTime: '5 min read',
-    tags: ['brand guide', 'standing all day', 'work comfort', 'compression socks', 'one brand per slot', 'non-repetition principle'],
+    tags: ['brand guide', 'on your feet all day shoes', 'standing all day', 'work comfort', 'compression socks', 'one brand per slot', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Shift work on hard floors — shoes, socks, insoles, pants, base layer, foot care, hydration, and recovery mat. One brand per slot.',
     content: `
@@ -2997,7 +2997,7 @@ export const posts: BlogPost[] = [
 <h2>Beauty &amp; Hobby</h2>
 <ul>
 <li><a href="/diffr/blog/skincare-brand-guide">Skincare starter kit</a> &mdash; the three steps that matter, the three you can skip.</li>
-<li><a href="/diffr/blog/makeup-brand-guide">Makeup starter kit</a> &mdash; the everyday-face beginner essentials.</li>
+<li><a href="/diffr/blog/makeup-brand-guide">Makeup essentials list</a> &mdash; beginner everyday-face kit, one brand per slot.</li>
 <li><a href="/diffr/blog/film-photography-brand-guide">Film photography starter kit</a> &mdash; camera to first roll.</li>
 </ul>
 
@@ -3013,7 +3013,7 @@ export const posts: BlogPost[] = [
 <li><a href="/diffr/blog/nike-lines-explained">Nike lines explained</a> &mdash; Sportswear, Tech Fleece, Pro, Pegasus, ACG, SB, Jordan.</li>
 <li><a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a> &mdash; Align, ABC, Scuba, Steady State, Tennis &amp; Golf.</li>
 <li><a href="/diffr/blog/adidas-lines-explained">Adidas lines explained</a> &mdash; Originals, Sportswear, Performance, Terrex, Y-3.</li>
-<li><a href="/diffr/blog/gap-inc-lines-explained">Gap Inc. lines explained</a> &mdash; Athleta, Banana Republic, Gap, Old Navy by scene.</li>
+<li><a href="/diffr/blog/gap-inc-lines-explained">Gap Inc. lines explained</a> &mdash; Athleta vs Lululemon, Banana Republic, Gap, Old Navy by scene.</li>
 <li><a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines explained</a> &mdash; HEATTECH vs AIRism, LifeWear, Ultra Light Down.</li>
 <li><a href="/diffr/blog/patagonia-lines-explained">Patagonia lines explained</a> &mdash; Better Sweater, Capilene, Down Sweater, Houdini, Torrentshell.</li>
 <li><a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia in-house brands</a> &mdash; Babaton, Wilfred, TNA, Super Puff.</li>
@@ -3022,10 +3022,11 @@ export const posts: BlogPost[] = [
 
 <h2>Travel</h2>
 <ul>
-<li><a href="/diffr/blog/international-travel-essentials-brand-guide">International travel essentials</a> &mdash; the ten-item carry-on kit, one brand per slot.</li>
+<li><a href="/diffr/blog/international-travel-essentials-brand-guide">International travel essentials list</a> &mdash; ten-item carry-on kit, one brand per slot.</li>
 <li><a href="/diffr/blog/54321-packing-method-brand-guide">54321 packing method</a> &mdash; the travel capsule formula (5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard).</li>
 <li><a href="/diffr/blog/oak-floor-travel-kit-brand-guide">Oak floor travel kit</a> &mdash; luxury carry-on flat lay, one brand per slot.</li>
-<li><a href="/diffr/blog/quiet-luxury-edc-brand-guide">Quiet luxury EDC</a> &mdash; desk essentials, one brand per slot.</li>
+<li><a href="/diffr/blog/quiet-luxury-edc-brand-guide">Everyday carry essentials (quiet luxury EDC)</a> &mdash; eight-slot flat lay, one brand per slot.</li>
+<li><a href="/diffr/blog/on-your-feet-all-day-work-brand-guide">On your feet all day shoes &amp; work kit</a> &mdash; shift comfort, one brand per slot.</li>
 </ul>
 
 <h2>Gifts</h2>
@@ -3777,11 +3778,11 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'makeup-brand-guide',
-    title: 'Beginner Makeup Kit: What to Buy First (Everyday Face, One Brand Per Slot)',
-    description: 'Makeup for beginners — the everyday makeup starter kit with five essentials to buy first, then ten slots total, one brand each. What to buy first for a natural everyday face, without the forty-product aisle.',
+    title: 'Makeup Essentials List: Beginner Kit & What to Buy First (One Brand Per Slot)',
+    description: 'Makeup essentials list for beginners — the everyday makeup starter kit with five products to buy first, then ten slots total, one brand each. What to buy first for a natural everyday face, without the forty-product aisle.',
     date: '2026-06-04',
     readTime: '6 min read',
-    tags: ['brand guide', 'makeup for beginners', 'makeup brands', 'beginner makeup kit', 'non-repetition principle'],
+    tags: ['brand guide', 'makeup essentials list', 'makeup for beginners', 'makeup brands', 'beginner makeup kit', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Ten slots. Ten brand answers. Foundation to primer — assigned and closed. Do your face. Stop comparing.',
     content: `

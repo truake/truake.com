@@ -59,6 +59,16 @@ Run in Keywords Explorer when units reset; export CSV to `imports/`.
 | Seed | US vol | KD | Decision | Notes |
 |------|--------|-----|----------|-------|
 | aritzia sub brands | — | ~6 | ✅ LIVE | **First GSC click 2026-08-21** · Defend Batch R |
+| athleta vs lululemon | 600 | 1 | ✅ LIVE | **Ahrefs Aug 21** · title refresh Batch S |
+| everyday carry essentials | 250 | 7 | ✅ LIVE | quiet-luxury-edc · Batch S |
+| makeup essentials list | 250 | 1 | ✅ LIVE | makeup-brand-guide · Batch S |
+| on your feet all day shoes | 50 | 9 | ✅ LIVE | TP 13K · Batch S |
+| 54321 packing method for 10 days | 90 | — | ✅ LIVE | FAQ已有 · monitor |
+| is aritzia worth it | 80 | 0 | ✅ LIVE | FAQ已有 |
+| international travel essentials list | 20 | 2 | ✅ LIVE | TP 2.1K · Batch S |
+| wilfred vs babaton | 10 | — | ✅ LIVE | FAQ added Batch S |
+| gap brands explained | — | — | ✅ LIVE | not indexed · gap-inc page |
+| adidas lines explained | — | — | ✅ LIVE | not indexed · page live |
 | lululemon lines explained | | | ✅ LIVE | |
 | nike sub brands explained | | | queued | decode A-series |
 | nike acg vs tech | | | queued | comparison C-series |
@@ -110,4 +120,5 @@ Run in Keywords Explorer when units reset; export CSV to `imports/`.
 
 | Date | Note |
 |------|------|
+| 2026-08-21 | Ahrefs Aug batch A/B/C (~30 kw) → P0/P1 meta on gap-inc, on-your-feet, makeup, quiet-luxury-edc, intl-travel; Batch S GSC queue |
 | 2026-07-27 | Initial harvest template + `scripts/keyword-harvest.ts` |

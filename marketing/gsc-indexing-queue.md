@@ -21,6 +21,20 @@ GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是
 
 **Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `winter-layering-brand-guide` (not `/diffr/start/cold-weather-layering` — start twin is noindex), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
 
+## Batch S — Ahrefs Aug 21 meta refresh（2026-08-21）· P0/P1 optimize
+
+Ahrefs Starter batch A/B/C validated SV/KD → title·meta·FAQ pass. **勿提交 `/og`** — parent blog URLs only.
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | Gap Inc. / Athleta vs Lululemon (P0) | `https://truake.com/diffr/blog/gap-inc-lines-explained` |
+| | On your feet all day shoes (P0) | `https://truake.com/diffr/blog/on-your-feet-all-day-work-brand-guide` |
+| | Makeup essentials list (P0) | `https://truake.com/diffr/blog/makeup-brand-guide` |
+| | Everyday carry essentials / quiet luxury EDC (P1) | `https://truake.com/diffr/blog/quiet-luxury-edc-brand-guide` |
+| | International travel essentials list (P1) | `https://truake.com/diffr/blog/international-travel-essentials-brand-guide` |
+| | Lululemon lines (inbound Athleta vs LL) | `https://truake.com/diffr/blog/lululemon-lines-explained` |
+| | starter kits hub | `https://truake.com/diffr/blog/starter-kits` |
+
 ## Batch R — Aritzia GSC defend（2026-08-21）· first click pos ~6
 
 First measurable clicks on `aritzia brands explained` + `aritzia sub brands` → landing `aritzia-sub-brands-guide`. Inbound links added from Lululemon, Gap Inc., womens capsule/work guides; FAQ + meta refreshed. **勿提交 `/og`** — request parent blog URL only.
