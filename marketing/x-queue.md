@@ -15,6 +15,52 @@ that only helps if the post is native, not a link drop.
 
 ---
 
+## READY · Dark valet tray EDC — video + blog（2026-08-21）
+
+**Copy file:** `Diffr/social/x/dark-valet-tray-edc_publish_copy_20260821.md`  
+**OG:** ✅ share JPG baked · preset **138** · blog + start twin  
+**Suggested order:** 1) **Blog tweet** (OG share card · link in tweet) → 2) **Video reel** when stylization ready (transformation hook · link pinned)  
+**GSC:** Batch T — `https://truake.com/diffr/blog/dark-valet-tray-edc-brand-guide`
+
+### Blog · X（主推 ⭐ · 单帖 + share card）
+
+Paste § **Blog · 主推文案** from publish copy file. **New tweet** — do not edit an old post (card cache).
+
+### Video · X / Reels / TikTok（when reel ready）
+
+Hook: *Nine nightstand objects. One valet tray. Still here — as artifacts.*  
+Caption + 中文 → publish copy file § Video.
+
+---
+
+## READY · Oak floor travel kit — video + blog（2026-08-18）
+
+**Copy file:** `Diffr/social/x/oak-floor-travel-kit_publish_copy_20260818.md`  
+**OG:** ✅ share JPG `?v=1787038882` · blog 200  
+**Suggested order:** 1) **Video reel** (transformation hook · link last or pinned) → 2) **Blog thread** (5-post native · link tweet 5)  
+**GSC:** Batch P — `https://truake.com/diffr/blog/oak-floor-travel-kit-brand-guide`
+
+### Video · X / Reels / TikTok（主推 ⭐）
+
+Hook: *Nine travel objects. Excavated on oak — still here.*  
+Caption + 中文 + 首评 → see publish copy file § Video.
+
+### Blog · X thread（主推 ⭐ · link last）
+
+```
+1/ Nine objects on warm oak — a luxury work-trip floor kit. Each one is a different brand. Preset 135 pins one catalog line per slot.
+
+2/ LEVEL8 Gibraltar aluminum 20" (not Rimowa). Apple iPad Pro M4 — sole Apple slot. Samsung Galaxy S24 Ultra Titanium Orange. MCM Visetos studded backpack.
+
+3/ Memobottle Slim · Mophie powerstation XL · Louis Vuitton 8 Watch Case · Rolex Submariner · Spigen OneTap In-flight Mount — ninth slot for tray-table viewing.
+
+4/ Interactive Scene: https://truake.com/diffr/start/oak-floor-travel-kit-flat-lay — nine brands, one per slot.
+
+5/ Full decode + brand homepage links: https://truake.com/diffr/blog/oak-floor-travel-kit-brand-guide
+```
+
+---
+
 ## approved schedule · Ahrefs Jul 2026 harvest (confirmed 2026-07-25)
 
 **Time:** 10:00 AM ET daily · **Account:** @Diffr_app · **Format:** native thread, link last.

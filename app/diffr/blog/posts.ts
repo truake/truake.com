@@ -1857,6 +1857,55 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'dark-valet-tray-edc-brand-guide',
+    title: 'Dark Valet Tray EDC: 9 Nightstand Picks, One Brand Per Slot',
+    description: 'Dark wood valet-tray EDC flat lay decoded — Tissot PRX, Mercedes-Benz key fob, Tactile Turn pen, Izuki Studios Moonstone Koi card holder, Candy Design & Works Hopper Double Clip, AirPods Pro, Bburago W13 Hamilton 1:43, Zara Seoul EDT, and Pentax Spotmatic film SLR. Nine brands on espresso walnut.',
+    date: '2026-08-21',
+    readTime: '4 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'everyday carry', 'valet tray', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine nightstand EDC picks in a dark wood valet tray — Tissot, Mercedes, Tactile Turn, Izuki Studios, Candy Design & Works, Apple, Bburago, Zara, and Pentax — one brand per slot. No prop money, no tray-as-slot.',
+    content: `
+<p>The dark valet-tray EDC flat lay is a masculine nightstand dump on espresso walnut: a Tissot PRX integrated-bracelet watch on a brown suede cushion inside a compartmented tray, a Mercedes-Benz star key fob, a stonewashed titanium Tactile Turn bolt-action pen, an Izuki Studios Moonstone Koi embossed metal card holder, a Candy Design &amp; Works Hopper Double Clip carabiner, Apple AirPods Pro with USB-C charging case (one earbud out in the reference), a Bburago 1:43 Mercedes-AMG W13 #44 Lewis Hamilton 2022 diecast, a Zara Seoul EDT bottle on its side, and a Pentax Spotmatic 35&nbsp;mm SLR film camera at the frame edge. Ignore the TikTok <strong>@izukistudios</strong> watermark &mdash; social chrome from the source photo, not a product slot (the creator brand decode is the Moonstone Koi card). Skip the miniature prop-money stack and the wooden tray itself &mdash; meme cash and surface prop, not catalog slots.</p>
+
+<p>Mercedes appears twice in the reference (key + F1 livery) but only once as a slotted brand: the key fob is Mercedes-Benz; the scale model is <strong>Bburago</strong> licensed diecast. Map each object to a canonical type, assign one brand per slot, and pull live catalog tiles below.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Wrist Time</h3>
+<p><strong>Tissot PRX Men&rsquo;s Quartz 40mm Black Dial Date Steel Bracelet</strong> &mdash; integrated-bracelet dress watch on suede cushion in the tray.</p>
+
+<h3>Slot 2 &mdash; Car Key</h3>
+<p><strong>Mercedes-Benz C-Class OEM Four-Button Key Fob Remote</strong> &mdash; star-logo key from the valet tray.</p>
+
+<h3>Slot 3 &mdash; Write / Sign</h3>
+<p><strong>Stonewashed Titanium Bolt Action Pen</strong> &mdash; silver bolt-action barrel in the long tray compartment.</p>
+
+<h3>Slot 4 &mdash; Card Carry</h3>
+<p><strong>Moonstone Koi Card Holder</strong> &mdash; Izuki Studios embossed metal card case (koi / moonstone relief).</p>
+
+<h3>Slot 5 &mdash; Clip / Carry</h3>
+<p><strong>CANDY DESIGN &amp; WORKS Hopper Double Clip</strong> &mdash; metal double carabiner for keys or bag carry.</p>
+
+<h3>Slot 6 &mdash; Private Audio</h3>
+<p><strong>Apple AirPods Pro 2nd Generation with USB-C Charging Case</strong> &mdash; reference shows one loose earbud; kit pins the Pro case.</p>
+
+<h3>Slot 7 &mdash; Desk Collectible</h3>
+<p><strong>Lewis Hamilton Mercedes-AMG W13 n&deg; 44 2022 F1 Grand Prix Championship 1/43 Bburago 38066H</strong> &mdash; silver/teal Petronas livery scale model at the tray edge.</p>
+
+<h3>Slot 8 &mdash; Signature Scent</h3>
+<p><strong>SEOUL 532-8 SINSA DONG GANGNAM-GU EDT 100ML (3.04 FL. OZ)</strong> &mdash; clear Zara Seoul bottle in the foreground.</p>
+
+<h3>Slot 9 &mdash; Film Photography</h3>
+<p><strong>Pentax Spotmatic 35mm SLR Film Camera with 50 mm lens Kit</strong> &mdash; vintage silver-and-black SLR silhouette (partial in reference).</p>
+
+<h2>Why This Post Exists</h2>
+<p>Valet-tray nightstand kits mix watch, key, pen, card, clip, audio, cologne, and hobby objects faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All nine slots are pinned on preset 138 with nine distinct brands &mdash; Izuki Studios creator card, Bburago diecast (not a second Mercedes slot), no prop money.</p>
+
+<p>Distinct from <a href="/diffr/blog/daily-essentials-brand-guide">daily essentials</a> (ribbed rug carry) · <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a> (concrete tactical) · <a href="/diffr/blog/quiet-luxury-edc-brand-guide">quiet luxury EDC</a> (marble desk). Explore the interactive scene: <a href="/diffr/start/dark-valet-tray-edc-flat-lay">Dark Valet Tray EDC Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',

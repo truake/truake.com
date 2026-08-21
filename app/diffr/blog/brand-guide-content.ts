@@ -177,6 +177,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the tiny essentials Altoids-tin micro-EDC flat lay is nine slots on dark charcoal slate — Altoids peppermint tin, GUM Soft-Picks Advanced, Nexcare waterproof bandages, Advil ibuprofen, Coghlans camp towel, Mukama ChargeKey, Nitecore key light, Purell Singles packets, and Shout Wipe & Go — one brand each. Ignore yellow title text and pointing hand from the reference; Anker stays hidden. Live catalog tiles below.',
   'xpac-monochrome-sling-edc-brand-guide':
     'Bottom line: the X-PAC monochrome sling EDC flat lay is eleven slots on clean white seamless — Peak Design Everyday Sling 3L Black, Leatherman Micra, Sepoy Peach Lemonade, Field Notes Is a River Alive?, CeraVe moisturising cream sachet, Fisher Bullet Space Pen, Zippo brushed chrome, Luminox Atacama Field, Squeaky Clean soap-tablet tin, Wellbeing Melts throat relief, and Listerine Pocketmist Cool Mint — one brand each. Ignore Reddit banner and watermark; no AirPods or iPhone; Zeiss lens wipe dropped (visually similar to CeraVe sachet). Live catalog tiles below.',
+  'dark-valet-tray-edc-brand-guide':
+    'Bottom line: the dark valet-tray nightstand EDC flat lay is nine slots on espresso walnut — Tissot PRX, Mercedes-Benz key fob, Tactile Turn bolt-action pen, Izuki Studios Moonstone Koi card holder, Candy Design & Works Hopper Double Clip, AirPods Pro USB-C case, Bburago 1:43 W13 Hamilton #44, Zara Seoul EDT, and Pentax Spotmatic film SLR — one brand each. Ignore TikTok watermark and prop money; tray surface is not a slot; F1 is Bburago not Mercedes. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1624,6 +1626,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How is this different from gray EDC knoll or tiny essentials?',
       a: 'Gray EDC knoll (preset 134) is tactical-minimal carry on cool concrete with G-Shock and Leica. Tiny essentials (preset 136) is Altoids-tin pocket survival on dark slate. X-PAC monochrome sling EDC is a black technical sling-centered urban kit on white seamless — eleven slots, preset 137.',
+    },
+  ],
+
+  'dark-valet-tray-edc-brand-guide': [
+    {
+      q: 'What is the dark valet tray EDC flat lay?',
+      a: 'It is a nine-slot nightstand EDC kit on dark wood: Tissot PRX watch on a suede cushion, Mercedes-Benz key fob, Tactile Turn bolt-action pen, Izuki Studios Moonstone Koi card holder, Candy Design & Works Hopper Double Clip, Apple AirPods Pro case, Bburago 1:43 Mercedes-AMG W13 #44 Lewis Hamilton diecast, Zara Seoul EDT, and Pentax Spotmatic 35 mm SLR — nine distinct brands.',
+    },
+    {
+      q: 'Why is the F1 model Bburago and not Mercedes-Benz?',
+      a: 'Diffr\'s one-brand-per-slot rule: the reference shows both a Mercedes key and an AMG Petronas livery model. The key is Mercedes-Benz; the scale model is a Bburago licensed diecast product line — a separate brand slot.',
+    },
+    {
+      q: 'Why ignore the TikTok @izukistudios watermark?',
+      a: 'The watermark is social chrome from the third-party reference photo. The creator decode is the Izuki Studios Moonstone Koi card holder in slot 4 — not the watermark text itself.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 138. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

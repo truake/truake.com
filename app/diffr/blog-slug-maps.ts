@@ -52,6 +52,7 @@ export const BLOG_SLUG_TO_START: Record<string, string> = {
   'oak-floor-travel-kit-brand-guide': 'oak-floor-travel-kit-flat-lay',
   'tiny-essentials-brand-guide': 'tiny-essentials-altoids-flat-lay',
   'xpac-monochrome-sling-edc-brand-guide': 'xpac-monochrome-sling-edc-flat-lay',
+  'dark-valet-tray-edc-brand-guide': 'dark-valet-tray-edc-flat-lay',
 }
 
 /** Inverse map: start funnel slug → SEO-canonical blog post slug. */

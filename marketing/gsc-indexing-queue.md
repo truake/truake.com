@@ -21,6 +21,17 @@ GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是
 
 **Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `winter-layering-brand-guide` (not `/diffr/start/cold-weather-layering` — start twin is noindex), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
 
+## Batch T — Dark valet tray EDC flat lay（2026-08-21）· preset 138 NEW
+
+Nine-slot nightstand EDC brand guide · targets `everyday carry essentials` cluster. **勿提交 `/og`** — parent blog URL only.
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | Dark valet tray EDC (NEW) | `https://truake.com/diffr/blog/dark-valet-tray-edc-brand-guide` |
+| | Quiet luxury EDC (compare / EDC cluster) | `https://truake.com/diffr/blog/quiet-luxury-edc-brand-guide` |
+| | Gray EDC knoll (compare) | `https://truake.com/diffr/blog/gray-edc-knoll-brand-guide` |
+| | Daily essentials (compare) | `https://truake.com/diffr/blog/daily-essentials-brand-guide` |
+
 ## Batch S — Ahrefs Aug 21 meta refresh（2026-08-21）· P0/P1 optimize
 
 Ahrefs Starter batch A/B/C validated SV/KD → title·meta·FAQ pass. **勿提交 `/og`** — parent blog URLs only.
