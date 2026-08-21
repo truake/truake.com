@@ -47,6 +47,23 @@ wait_for_server() {
   return 1
 }
 
+# /diffr/blog answering does not mean the /og route is compiled. Next dev builds
+# routes on demand and answers 404 for one that is still compiling, which fails a
+# whole batch in seconds. Warm the route on the first slug before baking anything.
+warm_og_route() {
+  local slug="$1" i code
+  for i in $(seq 1 40); do
+    code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 90 "$BASE/diffr/blog/$slug/og" 2>/dev/null)
+    if [[ "$code" != "404" && -n "$code" && "$code" != "000" ]]; then
+      echo "OG route warm (HTTP $code)"
+      return 0
+    fi
+    sleep 2
+  done
+  echo "OG route still 404 after warm-up — check /tmp/truake-dev-${PORT}.log"
+  return 1
+}
+
 start_dev() {
   echo "Starting dev server on port $PORT …"
   (cd "$ROOT" && npm run dev -- -p "$PORT") >/tmp/truake-dev-"$PORT".log 2>&1 &
@@ -87,6 +104,12 @@ else
     knows_all_slugs || { echo "Server still does not resolve these slugs — is the post in posts.ts?"; exit 1; }
   fi
 fi
+
+first_slug=""
+for s in "${SLUGS[@]}"; do
+  [[ "$s" == --* ]] || { first_slug="$s"; break; }
+done
+[[ -n "$first_slug" ]] && warm_og_route "$first_slug"
 
 # No curl fallback here on purpose: it wrote whatever came back with no
 # validation, which is the silent-corruption path this script exists to close.
