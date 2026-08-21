@@ -4,12 +4,13 @@
 // white cards, giving the share image depth instead of one flat photo.
 // generateMetadata in ../page.tsx points slot posts at this route; kit-less posts
 // keep the static cover/default and never hit this handler.
+import { readFile } from 'fs/promises'
 import { ImageResponse } from 'next/og'
 import sharp from 'sharp'
 import { posts } from '../../posts'
 import { getSceneBrandKit } from '../../../start/lib'
 import { BLOG_SLUG_TO_PRESET } from '../page'
-import { hasDynamicOgCard, ogBaseUrl } from '../../og-base'
+import { hasDynamicOgCard, ogBaseLocalPath, ogBaseUrl } from '../../og-base'
 
 export const runtime = 'nodejs'
 export const size = { width: 1200, height: 630 }
@@ -30,18 +31,39 @@ async function toPngDataUrl(url: string | null): Promise<string | null> {
   }
 }
 
-/** Embed og-base / toy-cover as data URL — Satori often fails on external JPEG URLs. */
-async function coverDataUrl(url: string | null): Promise<string | null> {
-  if (!url) return null
-  try {
-    const res = await fetch(url)
-    if (!res.ok) return null
-    const buf = Buffer.from(await res.arrayBuffer())
-    const png = await sharp(buf).resize(1200, 630, { fit: 'cover' }).png().toBuffer()
-    return `data:image/png;base64,${png.toString('base64')}`
-  } catch {
-    return null
+/**
+ * Embed og-base / toy-cover as data URL — Satori often fails on external JPEG URLs.
+ *
+ * Disk first: a new post's base photo is not deployed yet, so the HTTP path 404s
+ * against production and the card bakes with an empty background. Returns the
+ * source used so the response can declare it and the bake step can assert on it.
+ */
+async function coverDataUrl(
+  localPath: string | null,
+  url: string | null,
+): Promise<{ png: string | null; source: 'local' | 'remote' | 'none' }> {
+  if (localPath) {
+    try {
+      const buf = await readFile(localPath)
+      const png = await sharp(buf).resize(1200, 630, { fit: 'cover' }).png().toBuffer()
+      return { png: `data:image/png;base64,${png.toString('base64')}`, source: 'local' }
+    } catch {
+      /* fall through to HTTP */
+    }
   }
+  if (url) {
+    try {
+      const res = await fetch(url)
+      if (res.ok) {
+        const buf = Buffer.from(await res.arrayBuffer())
+        const png = await sharp(buf).resize(1200, 630, { fit: 'cover' }).png().toBuffer()
+        return { png: `data:image/png;base64,${png.toString('base64')}`, source: 'remote' }
+      }
+    } catch {
+      /* fall through */
+    }
+  }
+  return { png: null, source: 'none' }
 }
 
 // Official Diffr wordmark (public/diffr-logo-white.png) is white-on-transparent.
@@ -77,6 +99,7 @@ export async function GET(
   const toyCover = (slug === 'mixed-toy-box' || slug.startsWith('toy-team-'))
     ? `https://truake.com/toy-covers/${slug}.jpg` : null
   const coverUrl = ogBaseUrl(slug) ?? toyCover
+  const coverLocal = ogBaseLocalPath(slug)
   const isBtb = slug.startsWith('behind-the-build-')
   const isBtc = slug.startsWith('behind-the-contract-')
 
@@ -100,8 +123,11 @@ export async function GET(
     ready.map(async (s) => ({ slot: s, png: await toPngDataUrl(s.imageUrl) })),
   )
   const extra = Math.max(0, (kit?.readyCount ?? ready.length) - ready.length)
-  const logo = await logoDataUrl(!coverUrl && !isBtb && !isBtc)
-  const cover = coverUrl ? await coverDataUrl(coverUrl) : null
+  const { png: cover, source: coverSource } = await coverDataUrl(coverLocal, coverUrl)
+  // Key off the cover that actually rendered, not the one we hoped for: a failed
+  // fetch must degrade to the legible ink-on-cream card, never white-on-cream.
+  const onDark = Boolean(cover) || isBtb || isBtc
+  const logo = await logoDataUrl(!onDark)
 
   return new ImageResponse(
     (
@@ -124,13 +150,6 @@ export async function GET(
             height={630}
             style={{ position: 'absolute', top: 0, left: 0, width: 1200, height: 630, objectFit: 'cover' }}
           />
-        ) : coverUrl ? (
-          <img
-            src={coverUrl}
-            width={1200}
-            height={630}
-            style={{ position: 'absolute', top: 0, left: 0, width: 1200, height: 630, objectFit: 'cover' }}
-          />
         ) : (
           <div
             style={{
@@ -143,7 +162,7 @@ export async function GET(
         <div
           style={{
             position: 'absolute', top: 0, left: 0, width: 1200, height: 630, display: 'flex',
-            background: coverUrl
+            background: cover
               ? 'linear-gradient(180deg, rgba(20,18,15,0.38) 0%, rgba(20,18,15,0.08) 42%, rgba(20,18,15,0.52) 100%)'
               : (isBtb || isBtc)
                 ? 'linear-gradient(180deg, rgba(20,18,15,0.35) 0%, rgba(20,18,15,0.10) 45%, rgba(20,18,15,0.55) 100%)'
@@ -157,7 +176,7 @@ export async function GET(
             {logo ? (
               <img src={logo} height={42} width={89} style={{ height: 42, width: 89, objectFit: 'contain' }} />
             ) : (
-              <div style={{ display: 'flex', fontSize: 30, fontWeight: 800, color: coverUrl || isBtb || isBtc ? '#fff' : INK, letterSpacing: -0.5 }}>
+              <div style={{ display: 'flex', fontSize: 30, fontWeight: 800, color: onDark ? '#fff' : INK, letterSpacing: -0.5 }}>
                 Diffr
               </div>
             )}
@@ -173,7 +192,7 @@ export async function GET(
           <div
             style={{
               display: 'flex', marginTop: 22, fontSize: 52, lineHeight: 1.08, fontWeight: 800,
-              color: coverUrl || isBtb || isBtc ? '#fff' : INK, maxWidth: 1000, letterSpacing: -1,
+              color: onDark ? '#fff' : INK, maxWidth: 1000, letterSpacing: -1,
             }}
           >
             {post.title.length > 84 ? post.title.slice(0, 81) + '…' : post.title}
@@ -235,6 +254,18 @@ export async function GET(
       ...size,
       headers: {
         'Cache-Control': 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=86400',
+        // Self-report so bake-og can assert on what was composited instead of
+        // inspecting pixels. A card that lost its cover or its tiles is still a
+        // valid PNG, so status + content-type alone can never catch it.
+        'x-og-slug': slug,
+        'x-og-cover': coverUrl ? coverSource : 'n/a',
+        'x-og-tiles': String(tiles.filter((t) => t.png).length),
+        'x-og-preset': presetId ? String(presetId) : 'none',
+        // A pinned product line the website's DB cannot resolve makes
+        // getSceneBrandKit fall back to a pool pick, silently swapping the
+        // curated brand for another one in the same product type. The card still
+        // renders four clean tiles, so only the names give it away — surface them.
+        'x-og-brands': ready.map((s) => s.brandName).join(' | ') || 'none',
       },
     },
   )

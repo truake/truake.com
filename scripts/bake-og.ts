@@ -31,33 +31,80 @@ function brandGuideSlugs(): string[] {
     .filter((s) => s.endsWith('-brand-guide'))
 }
 
-async function bake(slug: string): Promise<void> {
+/**
+ * Fetch one card, refusing anything that is not demonstrably this post's card.
+ *
+ * `res.ok && content-type: image` is not enough, and shipped three broken cards
+ * before this check existed. The route 302s to the site-wide diffr-og.png
+ * whenever it cannot resolve the post (a stale dev server is enough to trigger
+ * it), and `redirect: 'follow'` turned that into a perfectly valid 200 image/png
+ * that got committed as the post's card. So: never follow redirects, and make
+ * the route declare what it composited via x-og-* headers.
+ */
+async function bake(slug: string): Promise<boolean> {
   const url = `${BASE}/diffr/blog/${slug}/og`
   process.stdout.write(`Fetching ${url} … `)
   const t0 = Date.now()
-  const res = await fetch(url, { redirect: 'follow' })
+  const res = await fetch(url, { redirect: 'manual' })
+
+  if (res.status >= 300 && res.status < 400) {
+    console.log(
+      `FAIL ${res.status} → ${res.headers.get('location')}\n` +
+        `      The route could not resolve "${slug}". Usually a stale dev server:\n` +
+        `      restart it so posts.ts is recompiled, then re-bake.`,
+    )
+    return false
+  }
   if (!res.ok) {
     console.log(`FAIL ${res.status}`)
-    return
+    return false
   }
   const ct = res.headers.get('content-type') ?? ''
   if (!ct.includes('image')) {
     console.log(`FAIL not an image (${ct})`)
-    return
+    return false
   }
+
+  const cover = res.headers.get('x-og-cover') ?? 'unknown'
+  const tiles = Number(res.headers.get('x-og-tiles') ?? '0')
+  const preset = res.headers.get('x-og-preset') ?? 'none'
+
+  if (cover === 'none') {
+    console.log(
+      `FAIL cover not composited\n` +
+        `      public/og-base/${slug}.jpg is listed in OG_BASE_SLUGS but could not be\n` +
+        `      read. Add the photo before baking — the card would ship with no image.`,
+    )
+    return false
+  }
+  if (preset !== 'none' && tiles === 0) {
+    console.log(
+      `FAIL no slot tiles for preset ${preset}\n` +
+        `      getSceneBrandKit returned nothing renderable. Check the preset's pinned\n` +
+        `      product lines are crawled before baking.`,
+    )
+    return false
+  }
+
   const buf = Buffer.from(await res.arrayBuffer())
   writeFileSync(join(OUT, `${slug}.png`), buf)
   const legacyOg = join(process.cwd(), 'public', 'og', `${slug}.png`)
   mkdirSync(join(process.cwd(), 'public', 'og'), { recursive: true })
   writeFileSync(legacyOg, buf)
+  // Printed, not asserted: only the scene spec knows which brands are correct, so
+  // this is the operator's chance to spot a pool fallback before the card ships.
+  const brands = res.headers.get('x-og-brands') ?? '?'
+  const detail = `cover=${cover} tiles=${tiles}`
   try {
     const { default: sharp } = await import('sharp')
     const jpg = await sharp(buf).jpeg({ quality: 88 }).toBuffer()
     writeFileSync(join(OUT, `${slug}.jpg`), jpg)
-    console.log(`OK ${((Date.now() - t0) / 1000).toFixed(1)}s → ${slug}.jpg (${jpg.length} bytes)`)
+    console.log(`OK ${((Date.now() - t0) / 1000).toFixed(1)}s → ${slug}.jpg (${jpg.length} bytes, ${detail})`)
   } catch {
-    console.log(`OK ${((Date.now() - t0) / 1000).toFixed(1)}s → ${slug}.png only (${buf.length} bytes)`)
+    console.log(`OK ${((Date.now() - t0) / 1000).toFixed(1)}s → ${slug}.png only (${buf.length} bytes, ${detail})`)
   }
+  if (preset !== 'none') console.log(`      brands: ${brands}   ← must match the scene spec`)
+  return true
 }
 
 async function main() {
@@ -75,11 +122,23 @@ async function main() {
   }
 
   console.log(`Baking ${slugs.length} OG card(s) from ${BASE} …`)
+  const baked: string[] = []
+  const failed: string[] = []
   for (const slug of slugs) {
-    await bake(slug)
+    if (await bake(slug)) baked.push(slug)
+    else failed.push(slug)
   }
-  bumpVersions(slugs)
-  console.log(`Updated ${VERSIONS_PATH}`)
+
+  // Only bump what actually baked: a version bump on a failed slug tells the CDN
+  // and X to re-fetch a card we know is wrong.
+  if (baked.length) {
+    bumpVersions(baked)
+    console.log(`Updated ${VERSIONS_PATH} for ${baked.length} slug(s)`)
+  }
+  if (failed.length) {
+    console.log(`\n${failed.length} card(s) FAILED and were not written: ${failed.join(', ')}`)
+    process.exit(1)
+  }
 }
 
 main().catch((e) => {

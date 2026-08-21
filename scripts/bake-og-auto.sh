@@ -47,33 +47,57 @@ wait_for_server() {
   return 1
 }
 
-if ! curl -s -o /dev/null -w "%{http_code}" "$BASE/diffr/blog" 2>/dev/null | grep -qE '200|301|302|308'; then
+start_dev() {
   echo "Starting dev server on port $PORT …"
   (cd "$ROOT" && npm run dev -- -p "$PORT") >/tmp/truake-dev-"$PORT".log 2>&1 &
   dev_pid=$!
   started_dev=1
   wait_for_server
   echo "Dev server ready (pid $dev_pid, log /tmp/truake-dev-${PORT}.log)"
+}
+
+# A dev server that predates the new post still compiles the old posts.ts, so
+# posts.find() misses and /og 302s to the site-wide fallback — which is exactly
+# how a generic card got baked and shipped. Never trust a server we did not
+# start: make it prove it knows every slug we are about to bake.
+knows_all_slugs() {
+  local slug code
+  for slug in "${SLUGS[@]}"; do
+    [[ "$slug" == --* ]] && continue
+    code=$(curl -s -o /dev/null -w "%{http_code}" "$BASE/diffr/blog/$slug" 2>/dev/null)
+    if [[ "$code" != "200" ]]; then
+      echo "  stale: $BASE/diffr/blog/$slug → HTTP $code"
+      return 1
+    fi
+  done
+  return 0
+}
+
+if ! curl -s -o /dev/null -w "%{http_code}" "$BASE/diffr/blog" 2>/dev/null | grep -qE '200|301|302|308'; then
+  start_dev
 else
-  echo "Dev server already responding on $BASE"
+  echo "Dev server already responding on $BASE — checking it knows these slugs …"
+  if knows_all_slugs; then
+    echo "Dev server is current."
+  else
+    echo "Restarting it so posts.ts is recompiled …"
+    lsof -ti tcp:"$PORT" | xargs kill 2>/dev/null || true
+    sleep 2
+    start_dev
+    knows_all_slugs || { echo "Server still does not resolve these slugs — is the post in posts.ts?"; exit 1; }
+  fi
 fi
 
-  if ! command -v npx >/dev/null 2>&1 || ! OG_BASE="$BASE" npm run bake-og -- "${SLUGS[@]}" 2>/tmp/bake-og-err.log; then
-    echo "npm bake-og failed ($(head -1 /tmp/bake-og-err.log)); falling back to curl …"
-    mkdir -p "$ROOT/public/diffr/blog/share" "$ROOT/public/og"
-    for slug in "${SLUGS[@]}"; do
-      [[ "$slug" == --* ]] && continue
-      url="$BASE/diffr/blog/$slug/og"
-      out="$ROOT/public/diffr/blog/share/$slug.png"
-      echo "Fetching $url"
-      curl -sS "$url" -o "$out"
-      cp "$out" "$ROOT/public/og/$slug.png"
-      python3 -c "from PIL import Image; p='$out'; Image.open(p).convert('RGB').save(p.replace('.png','.jpg'), quality=88)"
-    done
-  fi
+# No curl fallback here on purpose: it wrote whatever came back with no
+# validation, which is the silent-corruption path this script exists to close.
+OG_BASE="$BASE" npm run bake-og -- "${SLUGS[@]}"
+
+echo ""
+echo "Verifying baked cards …"
+npx tsx "$ROOT/scripts/verify-og-cards.ts" "${SLUGS[@]}"
 
 echo ""
 echo "Done. Next:"
-echo "  git add public/diffr/blog/share/ public/og/ public/og-base/"
+echo "  git add public/diffr/blog/share/ public/og/ public/og-base/ public/diffr/blog/share/versions.json"
 echo "  git commit && git push origin main"
-echo "  curl -s -o /dev/null -w '%{http_code}\\n' https://truake.com/diffr/blog/${SLUGS[0]}"
+echo "  ./scripts/verify-blog-og.sh ${SLUGS[0]}   # after deploy"

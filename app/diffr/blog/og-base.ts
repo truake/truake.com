@@ -9,6 +9,9 @@
 // A slug with a base image gets a themed share card even if it has NO preset
 // kit (e.g. the brand-decode posts) — base photo + title + badge, no tiles.
 
+import { existsSync } from 'fs'
+import { join } from 'path'
+
 export const OG_BASE_SLUGS = new Set<string>([
   // add a slug here once public/og-base/<slug>.jpg exists
   'nike-lines-explained',
@@ -72,6 +75,23 @@ export function ogBaseUrl(slug: string): string | null {
   if (!OG_BASE_SLUGS.has(slug)) return null
   const host = (process.env.OG_BASE_HOST ?? 'https://truake.com').replace(/\/$/, '')
   return `${host}/og-base/${slug}.jpg`
+}
+
+/**
+ * Disk path for the base photo, or null.
+ *
+ * The OG route must prefer this over ogBaseUrl(): a brand-new post's photo only
+ * exists locally, so resolving it over HTTP against production 404s and the card
+ * bakes with an empty background. Baking always runs against a local dev server,
+ * where public/ is on disk, so this path is authoritative there.
+ */
+export function ogBaseLocalPath(slug: string): string | null {
+  if (!OG_BASE_SLUGS.has(slug)) return null
+  for (const ext of ['jpg', 'png'] as const) {
+    const p = join(process.cwd(), 'public', 'og-base', `${slug}.${ext}`)
+    if (existsSync(p)) return p
+  }
+  return null
 }
 
 /** Dynamic layered share card — preset kit, og-base photo, or B2B series slug. */
