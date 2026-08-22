@@ -179,6 +179,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the X-PAC monochrome sling EDC flat lay is eleven slots on clean white seamless — Peak Design Everyday Sling 3L Black, Leatherman Micra, Sepoy Peach Lemonade, Field Notes Is a River Alive?, CeraVe moisturising cream sachet, Fisher Bullet Space Pen, Zippo brushed chrome, Luminox Atacama Field, Squeaky Clean soap-tablet tin, Wellbeing Melts throat relief, and Listerine Pocketmist Cool Mint — one brand each. Ignore Reddit banner and watermark; no AirPods or iPhone; Zeiss lens wipe dropped (visually similar to CeraVe sachet). Live catalog tiles below.',
   'dark-valet-tray-edc-brand-guide':
     'Bottom line: the dark valet-tray nightstand EDC flat lay is nine slots on espresso walnut — Tissot PRX, Mercedes-Benz key fob, Tactile Turn bolt-action pen, Izuki Studios Moonstone Koi card holder, Candy Design & Works Hopper Double Clip, AirPods Pro USB-C case, Bburago 1:43 W13 Hamilton #44, Zara Seoul EDT, and Pentax Spotmatic film SLR — one brand each. Ignore TikTok watermark and prop money; tray surface is not a slot; F1 is Bburago not Mercedes. Live catalog tiles below.',
+  'mini-but-mighty-edc-brand-guide':
+    'Bottom line: the mini but mighty EDC flat lay is nine pocket-gear slots on dark charcoal gray — Gerber Splice 9-in-1 multi-tool, VONMÄHLEN High Six cable case, Belkin Dual USB-C Car Charger 36W, The James Brand Elko, MetMo Edge Stainless Steel, Kuko EDC Scotch-Brite Titanium Fatty L V4 fidget slider, MAXPEDITION Micro Pocket Organizer, Bellroy Tech Kit Arcade Grey, and Tile Mate (2024) — one brand each. Nextool, INIU, and Ugreen stay hidden; ignore YouTube title text and presenter portrait. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1645,6 +1647,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 138. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'mini-but-mighty-edc-brand-guide': [
+    {
+      q: 'What is the mini but mighty EDC flat lay?',
+      a: 'It is a nine-slot pocket micro-gear kit on dark charcoal gray: Gerber Splice 9-in-1 multi-tool, VONMÄHLEN High Six cable case, Belkin Dual USB-C Car Charger 36W, The James Brand Elko keychain knife, MetMo Edge Stainless Steel pocket tool, Kuko EDC Scotch-Brite Titanium Fatty L V4 fidget slider, MAXPEDITION Micro Pocket Organizer, Bellroy Tech Kit Arcade Grey, and Tile Mate (2024) Bluetooth tracker — nine distinct brands.',
+    },
+    {
+      q: 'Why Gerber Splice instead of Nextool in the reference?',
+      a: 'The YouTube thumbnail shows a Nextool F12 multi-tool — a mainland-China brand excluded from editorial scenes. Diffr substitutes Gerber Splice, a comparable 9-in-1 keychain multi-tool with scissors and bottle opener.',
+    },
+    {
+      q: 'Why no Benchmade Bugout in the kit?',
+      a: 'The reference green folding knife and The James Brand Elko would share the same pocket-knife function. Diffr keeps Elko for the keychain knife slot and swaps the blade lane for Kuko EDC\'s titanium Fatty L V4 fidget slider — a distinct desk-carry function.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 139. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+    {
+      q: 'How is this different from tiny essentials or X-PAC sling EDC?',
+      a: 'Tiny essentials (preset 136) is an Altoids-tin health micro-kit on dark slate. X-PAC monochrome sling EDC (preset 137) is an eleven-slot black sling-centered urban kit on white seamless. Mini but mighty EDC is a tech-EDC pocket dump on charcoal gray — nine slots, preset 139.',
     },
   ],
 

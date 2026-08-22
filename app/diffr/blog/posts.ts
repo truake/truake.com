@@ -1906,6 +1906,55 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'mini-but-mighty-edc-brand-guide',
+    title: 'Mini But Mighty EDC: 9 Pocket-Gear Picks, One Brand Per Slot',
+    description: 'Mini but mighty EDC flat lay decoded — Gerber Splice 9-in-1 multi-tool, VONMÄHLEN High Six, Belkin Dual USB-C Car Charger, The James Brand Elko, MetMo Edge Stainless Steel, Kuko EDC Fatty L V4 fidget slider, MAXPEDITION Micro Pocket Organizer, Bellroy Tech Kit, and Tile Mate (2024). Nine brands on charcoal gray.',
+    date: '2026-08-22',
+    readTime: '4 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'everyday carry', 'micro EDC', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine pocket micro-gear picks on dark charcoal gray — Gerber, VONMÄHLEN, Belkin, James Brand, MetMo, Kuko EDC, MAXPEDITION, Bellroy, and Tile — one brand per slot. No Nextool, no YouTube title overlay.',
+    content: `
+<p>The mini but mighty EDC flat lay is a pocket micro-gear grid on dark charcoal gray: a folded Gerber Splice 9-in-1 keychain multi-tool, a black VONMÄHLEN High Six pill-shaped cable case with carabiner clip, a Belkin Dual USB-C Car Charger 36W, The James Brand Elko keychain knife with brass accent hardware, a MetMo Edge Stainless Steel machined pocket tool, a Kuko EDC Scotch-Brite Titanium Fatty L V4 fidget slider, a tan MAXPEDITION Micro Pocket Organizer with front patch area, a gray Bellroy Tech Kit Arcade Grey zip pouch, and a black Tile Mate (2024) Bluetooth item tracker. Ignore the YouTube <strong>MINI BUT MIGHTY</strong> title text and the reviewer portrait at frame right &mdash; meme typography and presenter chrome, not product slots. The reference also shows Nextool, INIU, and Ugreen gear; those mainland-China brands are editorially excluded and substituted per Diffr&rsquo;s hidden-CN policy (Gerber, Belkin, Tile).</p>
+
+<p>James Brand Elko and a green folding knife would duplicate the same pocket-knife function, so Diffr keeps Elko and swaps the blade lane for Kuko EDC&rsquo;s titanium fidget slider &mdash; a distinct desk-carry slot. Map each object to a canonical type, assign one brand per slot, and pull live catalog tiles below.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Pocket Multi-Tool</h3>
+<p><strong>Splice EDC Multitool Pocket Knife with Scissors, Bottle Opener, Black 9-in-1</strong> &mdash; folded keychain multi-tool (substitute for Nextool F12 in the reference).</p>
+
+<h3>Slot 2 &mdash; Cable Carry</h3>
+<p><strong>High Six</strong> &mdash; VONMÄHLEN black pill-shaped case with integrated USB-C cable and carabiner clip.</p>
+
+<h3>Slot 3 &mdash; Car Charge</h3>
+<p><strong>Dual USB-C Car Charger 36W</strong> &mdash; compact black Belkin vehicle charger (substitute for INIU in the reference).</p>
+
+<h3>Slot 4 &mdash; Keychain Knife</h3>
+<p><strong>The Elko</strong> &mdash; slim James Brand keychain knife with brass accent screw.</p>
+
+<h3>Slot 5 &mdash; Pocket Pry / Edge</h3>
+<p><strong>Edge Stainless Steel</strong> &mdash; MetMo machined stainless pocket tool (correct decode for the slotted disc class in the reference).</p>
+
+<h3>Slot 6 &mdash; Desk Fidget</h3>
+<p><strong>Scotch-Brite Titanium Fatty L V4 Fidget Slider</strong> &mdash; brushed titanium nested-rectangle slider from Kuko EDC.</p>
+
+<h3>Slot 7 &mdash; Micro Organizer</h3>
+<p><strong>Micro Pocket Organizer</strong> &mdash; tan/coyote MAXPEDITION EDC pouch with front patch area.</p>
+
+<h3>Slot 8 &mdash; Zip Carry</h3>
+<p><strong>Bellroy Tech Kit - Arcade Grey</strong> &mdash; gray zip tech pouch with lowercase bellroy wordmark.</p>
+
+<h3>Slot 9 &mdash; Item Tracker</h3>
+<p><strong>Tile Mate (2024) Bluetooth Item Tracker - Black</strong> &mdash; square black tracker (substitute for Ugreen in the reference).</p>
+
+<h2>Why This Post Exists</h2>
+<p>Pocket micro-EDC grids mix tools, charge, carry, and track faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All nine slots are pinned on preset 139 with nine distinct brands &mdash; Gerber not Nextool, Belkin not INIU, Tile not Ugreen, Elko plus Kuko fidget instead of duplicating pocket-knife lanes.</p>
+
+<p>Distinct from <a href="/diffr/blog/tiny-essentials-brand-guide">tiny essentials</a> (Altoids tin health micro-kit) · <a href="/diffr/blog/xpac-monochrome-sling-edc-brand-guide">X-PAC monochrome sling EDC</a> (black sling on white seamless) · <a href="/diffr/blog/tech-travel-edc-brand-guide">tech travel EDC</a> (light-wood luxury desk). Explore the interactive scene: <a href="/diffr/start/mini-but-mighty-edc-flat-lay">Mini But Mighty EDC Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',
