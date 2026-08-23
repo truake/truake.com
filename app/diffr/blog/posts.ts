@@ -1955,6 +1955,55 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'tech-grooming-tray-brand-guide',
+    title: 'Tech & Grooming Tray EDC: 9 Creative-Carry Picks, One Brand Per Slot',
+    description: 'Tech and grooming tray flat lay decoded — Fujifilm X100VI, Hawkers DEALER GINGERBREAD BLUE sunglasses, Le Labo Hand Pomade (Hinoki), Beats Solo Buds Red, Apple iPod Classic 160GB, reMarkable Paper Pro Move, Samsung Galaxy Z Fold8 Lavender, Bellroy Note Sleeve, and Aesop Resurrection Rinse-Free Hand Mist. Nine brands in a grey organizer tray.',
+    date: '2026-08-23',
+    readTime: '4 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'everyday carry', 'tech carry', 'grooming', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine tech-and-grooming picks in a light-grey tray on blue fabric — Fujifilm, Hawkers, Le Labo, Beats, Apple, reMarkable, Samsung, Bellroy, and Aesop — one brand per slot. iPhone and AirPods substituted; no payment-card props.',
+    content: `
+<p>The tech and grooming tray flat lay is a creative-carry kit staged inside a light-grey plastic organizer on deep blue fabric: a black Fujifilm X100VI compact camera with red soft shutter and rope strap, Hawkers DEALER GINGERBREAD BLUE amber acetate sunglasses, a Le Labo Hand Pomade (Hinoki) cream tube, red Beats Solo Buds true-wireless earbuds, a silver Apple iPod Classic 160GB with click wheel, a reMarkable Paper Pro Move e-ink tablet, a lavender Samsung Galaxy Z Fold8 foldable smartphone, a black Bellroy Note Sleeve slim leather wallet, and an Aesop Resurrection Rinse-Free Hand Mist 50mL amber spray bottle. Ignore the American Express Centurion and Apple Card payment props, the grey tray surface itself, the reMarkable marker accessory, and the black pen at frame left &mdash; composition chrome or minor props, not product slots. The reference shows a white iPhone and AirPods Pro case; Diffr substitutes Samsung Galaxy Z Fold8 Lavender and Beats Solo Buds Red per editorial decode. Apple Watch is omitted to avoid a second Apple slot alongside the iPod Classic.</p>
+
+<p>Hand cream and sunglasses were re-decoded from the reference photo: Le Labo Hand Pomade (Hinoki) replaces an initial Buly misread; Hawkers DEALER GINGERBREAD BLUE replaces Persol. Map each object to a canonical type, assign one brand per slot, and pull live catalog tiles below.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Compact Camera</h3>
+<p><strong>FUJIFILM X100VI</strong> &mdash; black fixed-lens compact with red soft shutter button and rope neck strap.</p>
+
+<h3>Slot 2 &mdash; Sunglasses</h3>
+<p><strong>DEALER - GINGERBREAD BLUE</strong> &mdash; Hawkers amber/orange translucent acetate frames with blue lens tint.</p>
+
+<h3>Slot 3 &mdash; Hand Care</h3>
+<p><strong>Hand Pomade (Hinoki)</strong> &mdash; Le Labo minimalist cream tube from the tray cluster.</p>
+
+<h3>Slot 4 &mdash; Wireless Earbuds</h3>
+<p><strong>Beats Solo Buds Red</strong> &mdash; red open-ear true-wireless buds (substitute for AirPods in the reference).</p>
+
+<h3>Slot 5 &mdash; Pocket Music</h3>
+<p><strong>Apple iPod Classic, 160GB, Silver</strong> &mdash; seventh-generation click-wheel body with music UI on screen.</p>
+
+<h3>Slot 6 &mdash; E-Ink Tablet</h3>
+<p><strong>reMarkable Paper Pro Move</strong> &mdash; compact gray e-ink paper tablet from the tray.</p>
+
+<h3>Slot 7 &mdash; Foldable Phone</h3>
+<p><strong>Galaxy Z Fold8 Lavender</strong> &mdash; purple Samsung foldable (substitute for iPhone in the reference).</p>
+
+<h3>Slot 8 &mdash; Slim Wallet</h3>
+<p><strong>Bellroy Note Sleeve Slim Bifold Leather Wallet Billfold Black RFID</strong> &mdash; black leather bifold with owl logo emboss.</p>
+
+<h3>Slot 9 &mdash; Hand Mist</h3>
+<p><strong>Resurrection Rinse-Free Hand Mist</strong> &mdash; Aesop 50mL amber glass spray bottle with black pump.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Tray-style creative EDC mixes camera, audio, foldable phone, e-ink, and grooming faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All nine slots are pinned on preset 140 with nine distinct brands &mdash; Samsung and Beats instead of iPhone and AirPods, Le Labo and Hawkers instead of initial Buly/Persol misreads, one Apple lane (iPod only).</p>
+
+<p>Distinct from <a href="/diffr/blog/mini-but-mighty-edc-brand-guide">mini but mighty EDC</a> (charcoal pocket micro-gear) · <a href="/diffr/blog/dark-valet-tray-edc-brand-guide">dark valet tray EDC</a> (nightstand luxury dump) · <a href="/diffr/blog/tech-travel-edc-brand-guide">tech travel EDC</a> (light-wood luxury desk). Explore the interactive scene: <a href="/diffr/start/tech-grooming-tray-flat-lay">Tech &amp; Grooming Tray Flat Lay &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',

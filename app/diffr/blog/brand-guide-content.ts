@@ -181,6 +181,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the dark valet-tray nightstand EDC flat lay is nine slots on espresso walnut — Tissot PRX, Mercedes-Benz key fob, Tactile Turn bolt-action pen, Izuki Studios Moonstone Koi card holder, Candy Design & Works Hopper Double Clip, AirPods Pro USB-C case, Bburago 1:43 W13 Hamilton #44, Zara Seoul EDT, and Pentax Spotmatic film SLR — one brand each. Ignore TikTok watermark and prop money; tray surface is not a slot; F1 is Bburago not Mercedes. Live catalog tiles below.',
   'mini-but-mighty-edc-brand-guide':
     'Bottom line: the mini but mighty EDC flat lay is nine pocket-gear slots on dark charcoal gray — Gerber Splice 9-in-1 multi-tool, VONMÄHLEN High Six cable case, Belkin Dual USB-C Car Charger 36W, The James Brand Elko, MetMo Edge Stainless Steel, Kuko EDC Scotch-Brite Titanium Fatty L V4 fidget slider, MAXPEDITION Micro Pocket Organizer, Bellroy Tech Kit Arcade Grey, and Tile Mate (2024) — one brand each. Nextool, INIU, and Ugreen stay hidden; ignore YouTube title text and presenter portrait. Live catalog tiles below.',
+  'tech-grooming-tray-brand-guide':
+    'Bottom line: the tech and grooming tray flat lay is nine creative-carry slots in a light-grey organizer on blue fabric — Fujifilm X100VI, Hawkers DEALER GINGERBREAD BLUE sunglasses, Le Labo Hand Pomade (Hinoki), Beats Solo Buds Red, Apple iPod Classic 160GB, reMarkable Paper Pro Move, Samsung Galaxy Z Fold8 Lavender, Bellroy Note Sleeve, and Aesop Resurrection Rinse-Free Hand Mist — one brand each. iPhone and AirPods substituted; Le Labo and Hawkers correct initial Buly/Persol misreads. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1670,6 +1672,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How is this different from tiny essentials or X-PAC sling EDC?',
       a: 'Tiny essentials (preset 136) is an Altoids-tin health micro-kit on dark slate. X-PAC monochrome sling EDC (preset 137) is an eleven-slot black sling-centered urban kit on white seamless. Mini but mighty EDC is a tech-EDC pocket dump on charcoal gray — nine slots, preset 139.',
+    },
+  ],
+
+  'tech-grooming-tray-brand-guide': [
+    {
+      q: 'What is the tech and grooming tray flat lay?',
+      a: 'It is a nine-slot creative-carry kit in a light-grey organizer tray on blue fabric: Fujifilm X100VI compact camera, Hawkers DEALER GINGERBREAD BLUE sunglasses, Le Labo Hand Pomade (Hinoki), Beats Solo Buds Red, Apple iPod Classic 160GB, reMarkable Paper Pro Move e-ink tablet, Samsung Galaxy Z Fold8 Lavender, Bellroy Note Sleeve wallet, and Aesop Resurrection Rinse-Free Hand Mist — nine distinct brands.',
+    },
+    {
+      q: 'Why Samsung and Beats instead of iPhone and AirPods in the reference?',
+      a: 'The YouTube thumbnail shows a white iPhone and AirPods Pro case. Diffr\'s editorial decode substitutes Samsung Galaxy Z Fold8 Lavender and Beats Solo Buds Red per scene curation — same object classes, distinct slotted products.',
+    },
+    {
+      q: 'Why Le Labo and Hawkers instead of Buly and Persol?',
+      a: 'User review corrected two misreads from the reference photo: the cream tube is Le Labo Hand Pomade (Hinoki), not Officine Universelle Buly Pommade Concrète; the amber acetate sunglasses are Hawkers DEALER GINGERBREAD BLUE, not Persol 649.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 140. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+    {
+      q: 'How is this different from mini but mighty or dark valet tray EDC?',
+      a: 'Mini but mighty EDC (preset 139) is pocket micro-gear on charcoal gray. Dark valet tray EDC (preset 138) is a nightstand luxury dump on espresso walnut. Tech and grooming tray EDC is camera-forward creative carry with Le Labo and Aesop grooming — preset 140.',
     },
   ],
 

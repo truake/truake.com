@@ -91,6 +91,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'xpac-monochrome-sling-edc-brand-guide': 137,
   'dark-valet-tray-edc-brand-guide': 138,
   'mini-but-mighty-edc-brand-guide': 139,
+  'tech-grooming-tray-brand-guide': 140,
 }
 
 export async function generateStaticParams() {
