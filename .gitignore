@@ -4,4 +4,9 @@ node_modules/
 *.local
 .DS_Store
 .vercel
-marketing/imports/*.csv
+tsconfig.tsbuildinfo
+
+# Raw GSC/Ahrefs exports. Keep the folder, ignore the data — keyword-harvest
+# reads these locally and the merged result lives in keyword-harvest-latest.md.
+marketing/imports/*
+!marketing/imports/.gitkeep
