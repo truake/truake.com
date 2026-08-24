@@ -36,6 +36,27 @@ Requires `.env.local` with `NEXT_PUBLIC_SUPABASE_URL` + `NEXT_PUBLIC_SUPABASE_AN
 | 已有 `/diffr/blog/{slug}`，GSC 排名 **5–20**，展示 ≥ 20 | **Optimize** — TL;DR / FAQ / meta only (Batch J/K 模式) |
 | 已有页面，排名 **1–4** | **Defend** — 内链 + 监控，不改正文 |
 | 无页面，Ahrefs US vol ≥ 200 且 KD ≤ 40 | **New post** — Essentials 或 decode 系列 |
+| 查询带**引号或 `site:` 类运算符** | **Ignore** — 脚本已自动隔离到「Operator queries」段，见下 |
+
+### ⚠️ 运算符查询 = 机器，不是读者（2026-08-25 起脚本自动隔离）
+
+带引号短语或 `site:` / `-site:` 运算符的查询是爬虫、查重工具或 LLM 在核实某个说法，
+**不是会点击的人**。2026-08-24 那份导出里它们占 **379/914 次曝光（41.5%）、0 点击**：
+
+- `"#adidas" -site:reddit.com -site:twitter.com -site:x.com …` —— 91 次，第 7.6 位
+- `"shannon's law" branding` 及 11 个变体 —— 279 次，平均第 2 位
+
+**关键教训**：`the-derivative-economy` 那页曾按「补直答」的思路优化过，成功排到**第 1.9 位**，
+点击仍然是 **0**。排到第一并不能改变对面没有人这个事实。
+
+所以：
+1. **不要**因为这类查询 CTR 低就判定页面有问题；
+2. **不要**为它们写新文章（脚本曾把 SERP 抓取词误判为 new-post 候选）；
+3. 算全站 CTR 时**剔除**它们 —— 8/24 那周真实 CTR 是 **0.56%**（3/535），不是报告的 0.33%。
+
+脚本函数：`isOperatorQuery()`（`scripts/keyword-harvest.ts`）。噪音清掉后才浮出真实机会，
+例如 `rule of thumb pricing`（26 次，第 52.5 位）与 `the rule of thumb for pricing`（27 次，第 78.5 位），
+两者都无对应页面。
 | BtB/BtC：venue/buyer 名 + suppliers/contract/TED | **B2B series** — 数据管线已有则生成文 |
 | Reddit score ≥ 50 + beginner/starter/vs 标题 | **Social + scene** — x-queue 或新 starter kit |
 

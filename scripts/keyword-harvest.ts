@@ -146,6 +146,25 @@ function parseGscCsv(path: string): GscRow[] {
   })).filter((r) => r.query.length > 0)
 }
 
+/**
+ * Queries carrying search operators are machines, not people.
+ *
+ * GSC 2026-08-24: `"shannon's law" branding`, `"shannon's law" "visual identity" thesis`
+ * and eleven near-identical variants accounted for 279 impressions — 30.5% of every
+ * impression the site received that week — at an average position of 2 with zero clicks.
+ * Nobody types a quoted phrase pair to read a blog post; that shape is a scraper, a
+ * citation checker, or an LLM verifying a claim. The page had already been optimised for
+ * those queries and reached position 2, which is the proof: ranking first changes nothing
+ * when there is no human on the other end.
+ *
+ * Left unfiltered these dominate the priority table every week (high impressions at a low
+ * position scores well) and surface as new-post candidates. They are reported separately
+ * instead, so the signal is kept and the click-through baseline is not distorted by it.
+ */
+export function isOperatorQuery(query: string): boolean {
+  return /["“”]/.test(query) || /\b(?:site|intitle|inurl|filetype|related|cache):/i.test(query)
+}
+
 type GscAction = 'optimize' | 'defend' | 'new_post' | 'monitor'
 
 function classifyGsc(row: GscRow, hasPage: boolean): GscAction {
@@ -331,11 +350,28 @@ function buildReport(opts: {
   index: BlogIndexEntry[]
 }): string {
   const now = new Date().toISOString().slice(0, 10)
-  const gscRanked = [...opts.gsc]
+  const human = opts.gsc.filter((r) => !isOperatorQuery(r.query))
+  const operator = opts.gsc.filter((r) => isOperatorQuery(r.query))
+  const sumImpr = (rows: GscRow[]) => rows.reduce((n, r) => n + r.impressions, 0)
+  const totalImpr = sumImpr(opts.gsc)
+  const operatorImpr = sumImpr(operator)
+  const operatorClicks = operator.reduce((n, r) => n + r.clicks, 0)
+
+  const gscRanked = [...human]
     .map((r) => ({ ...r, match: matchBlog(r.query, opts.index), score: gscOpportunityScore(r) }))
     .filter((r) => r.score > 0 || r.impressions >= 20)
     .sort((a, b) => b.score - a.score)
     .slice(0, 40)
+
+  const operatorRows = [...operator]
+    .sort((a, b) => b.impressions - a.impressions)
+    .slice(0, 10)
+    .map((r) => [
+      r.query.slice(0, 60),
+      String(Math.round(r.impressions)),
+      String(Math.round(r.clicks)),
+      r.position.toFixed(1),
+    ])
 
   const gscRows = gscRanked.map((r) => {
     const slug = r.match?.slug ?? '—'
@@ -397,6 +433,14 @@ ${gscRows.length ? mdTable(['Query', 'Impr', 'Pos', 'Matched slug', 'Action'], g
 ### GSC new-topic candidates (no slug match)
 
 ${newTopics.length ? newTopics.join('\n') : '_None above threshold._'}
+
+### Operator queries — excluded from the tables above
+
+${operator.length
+    ? `Quoted phrases and \`site:\`-style operators are automated traffic, not readers — scrapers, citation checkers, or an LLM verifying a claim. **${operatorImpr} of ${totalImpr} impressions (${((operatorImpr / Math.max(totalImpr, 1)) * 100).toFixed(1)}%) and ${operatorClicks} clicks.** Ranking first for these changes nothing, so do not treat a low CTR here as a page problem, and do not write a post for them.
+
+${mdTable(['Query', 'Impr', 'Clicks', 'Pos'], operatorRows)}`
+    : '_None this run._'}
 
 ---
 
