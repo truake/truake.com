@@ -46,6 +46,50 @@ GSC 2026-08-24 显示 `aritzia in house brands`（35 impr）/ `aritzia house bra
 | ✅ | Aritzia in-house brands（正文大改 · 必须重新抓取） | `https://truake.com/diffr/blog/aritzia-sub-brands-guide` | aritzia in house brands / house brands / sister company |
 | | Uniqlo lines（P1 · 正文 410→943 词） | `https://truake.com/diffr/blog/uniqlo-lines-explained` | heattech vs airism / airism base layers / what is airism |
 | | Adidas lines（P1 · 正文 594→1225 词） | `https://truake.com/diffr/blog/adidas-lines-explained` | adidas lines / three main adidas brands / terrex range explained |
+| | **Burj Khalifa（P2 BtB 模板 · 优先提交这条）** | `https://truake.com/diffr/blog/behind-the-build-burj-khalifa` | who built / who owns burj khalifa |
+| | Petronas Twin Towers | `https://truake.com/diffr/blog/behind-the-build-petronas-twin-towers` | companies in petronas twin towers |
+| | Incheon（BtB 最好名次 · 第 10.19 位） | `https://truake.com/diffr/blog/behind-the-build-incheon-international-airport` | who built incheon airport |
+| | Marina Bay Sands | `https://truake.com/diffr/blog/behind-the-build-marina-bay-sands` | who built marina bay sands |
+| | SoFi Stadium | `https://truake.com/diffr/blog/behind-the-build-sofi-stadium` | sofi stadium etfe roof |
+
+> 其余 21 篇 BtB 同批改动，正文与 FAQ 均已更新，但曝光量低 —— 按 10/天 quota 排在上面 5 条之后，
+> 不必单独催抓；hub 页 `/diffr/blog/behind-the-build` 提交一次即可带动。
+
+### P2 补充 — Behind the Build 模板直答（2026-08-25）
+
+**问题**：`behind-the-build-burj-khalifa` 单页 66 次曝光、平均第 45.21 位 —— 全站曝光最高的 BtB 页，
+点击 0。查询几乎全是两个意图：**谁建的**（`who built burj khalifa` / `burj khalifa made by` /
+`burj khalifa builders` / `which construction company built burj khalifa` 等 ~14 次）和
+**谁拥有**（`who owns burj khalifa` / `owner of burj khalifa tower` 等 ~8 次）。
+
+页面排得进但答不上来 —— 原文开篇直接进表格，**而 FAQ 里那条 `Who built X?` 的答案是在拒绝回答**：
+「Multiple verified B2B suppliers across N system slots — not a single contractor. See the sourced table.」
+「谁拥有」则完全没有对应条目。
+
+**改动（改生成器 `generate_btb_posts.py`，27 篇一次性重建）：**
+- 正文表格前新增直答 H2 `Who Built X? Who Owns It?`，第一句直接点名总包与业主。
+- 从 `role_description` 推导施工方，并**按证据强度分三档措辞**：
+  「The main contractor was…」（明确 main/general contractor·12 篇）/
+  「The construction names on record are…」/「No single main contractor is on record…」。
+  证据只到工程师或建筑师时，绝不写成总包。
+- FAQ：`Who built X?` 改为点名回答；新增 `Who owns X?` 与 `What companies worked on X?`（4→5 条）。
+- TL;DR 同步补「Who built it / Who owns and operates it」。
+
+**踩到并修掉的坑**（都会产出「听起来很确定但是错的」答案）：
+1. 评分原本用 `slot + role`，而 slot 是分类桶 —— 「General Contracting」桶里的**建筑师也拿满分**，
+   David Geffen Hall 一度把 Diamond Schmitt（设计建筑师）写成总包。改为只用 `role_description` 评分。
+2. `principal design` 命中 "design architect"/"lead design consultant" → 收紧为 `principal design & construction`。
+3. `Architectural & Show Lighting` 命中 `architect` → 改用 `\barchitects?\b` 词边界（大都会博物馆照明商曾被当成建筑师）。
+4. `design & build` 把 Bellagio 的音乐喷泉商 WET 写成建楼的 → 整条移除。
+5. **业主自指**：Apple Park→Apple、Tesla Gigafactory→Tesla、Tokyo DisneySea→Oriental Land 被列为施工方 → 排除 buyer。
+6. 只并列**同一证据档**的供应商 —— 原本「Ssangyong E&C **and** Arup (structural engineer)」读起来像 Arup 也是总包。
+
+代价：Petronas、SoFi、Hamad、Heathrow 等降级为更弱但诚实的措辞。对一个主打「每行都有出处」的系列，这个取舍是对的。
+
+**同时发现**：库里有 **47 个** venue 已达发布门槛（≥6 条 verified link），但只有 27 篇上线 ——
+**20 篇已验证页面从未发布**（Apple Park、Madison Square Garden、Heathrow T5、Istanbul Airport、
+Tesla Gigafactory Texas、Walt Disney World、MetLife Stadium、Bellagio…）。
+本次用新增的 `--only-existing` 开关按住不发，**留作单独一次部署**，以便在 GSC 上干净归因模板改动的效果。
 
 ### P1 补充（2026-08-25）
 
