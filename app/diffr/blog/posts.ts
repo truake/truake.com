@@ -692,10 +692,10 @@ export const posts: BlogPost[] = [
   {
     slug: '54321-packing-method-brand-guide',
     title: '54321 Packing Method & Rule: How to Pack a Carry-On Capsule (5-4-3-2-1)',
-    description: 'What is the 54321 packing method? The 54321 packing rule is 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule for a week in a carry-on. 54321 packing method for 10 days: same formula, laundry once mid-trip. Which Uniqlo and Patagonia lines to pick for each slot.',
+    description: 'What is the 54321 packing method? The 54321 packing rule is 5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard — a travel capsule for a week in a carry-on. Two versions circulate: this one, and a widely shared variant with 3 pairs of shoes and 2 layers. Here is which to use, plus the formula for 7 days, 10 days, 2 and 3 weeks, by season, and for men and women.',
     date: '2026-07-24',
-    readTime: '6 min read',
-    tags: ['brand guide', '54321 packing method', 'travel capsule wardrobe', 'carry on packing list', 'one bag essentials', 'packing list carry on', 'non-repetition principle'],
+    readTime: '11 min read',
+    tags: ['brand guide', '54321 packing method', '54321 packing rule', 'travel capsule wardrobe', 'carry on packing list', 'one bag essentials', 'packing list carry on', 'non-repetition principle'],
     category: 'product',
     excerpt: 'Five tops, four bottoms, three layers, two shoes, one wildcard — the travel capsule formula that kills the 60-item packing list. Decide once, mix and match.',
     content: `
@@ -712,6 +712,36 @@ export const posts: BlogPost[] = [
 <li><strong>1 wildcard</strong> &mdash; swimsuit, scarf, or the one item your trip actually requires</li>
 </ul>
 <p>Five tops times four bottoms is twenty outfit combinations before you touch the layers. That is the math that makes carry-on-only travel possible &mdash; not packing less for the sake of suffering, but packing <em>right</em> so every piece earns its space.</p>
+
+<h2>Two Versions of the 54321 Rule &mdash; Which One Should You Use?</h2>
+<p>If you have met this formula elsewhere &mdash; written as <strong>54321</strong>, <strong>5-4-3-2-1</strong> or <strong>5 4 3 2 1</strong> &mdash; the numbers in the middle may not have matched. Two versions circulate, and they disagree on exactly two slots:</p>
+<table>
+<thead><tr><th>Slot</th><th>Carry-on version (this guide)</th><th>The widely shared version</th></tr></thead>
+<tbody>
+<tr><td><strong>5</strong></td><td>Tops</td><td>Tops</td></tr>
+<tr><td><strong>4</strong></td><td>Bottoms</td><td>Bottoms</td></tr>
+<tr><td><strong>3</strong></td><td>Layers</td><td>Pairs of shoes</td></tr>
+<tr><td><strong>2</strong></td><td>Pairs of shoes</td><td>Layers</td></tr>
+<tr><td><strong>1</strong></td><td>Wildcard</td><td>Accessory set</td></tr>
+</tbody>
+</table>
+<p><strong>Both are real, and the choice is not about style &mdash; it is about your bag.</strong> Shoes are the heaviest, least compressible thing you pack; a third pair is usually the exact item that forces a carry-on into the checked line. Layers compress, and layers are what actually cover a thirty-degree temperature swing. So when the constraint is <em>one carry-on</em>, spend the three on layers and hold shoes at two.</p>
+<p>Flip it when the constraint is something else. If you are checking a bag anyway, or the trip has a stable climate but shifting dress codes &mdash; a wedding, a conference, a city break with one nice dinner &mdash; a third pair of shoes buys more than a third layer does. Same ratio, different slot.</p>
+<p>The rest of this guide uses the carry-on version. Everything below still works if you swap the two.</p>
+
+<h2>Related Ratios: 3-3-3, 4-3-2-1 and 6-5-4-3-2-1</h2>
+<p>The 54321 packing rule is one point on a scale, and the neighbouring ratios are worth knowing because they are what you actually want for shorter and longer trips:</p>
+<table>
+<thead><tr><th>Ratio</th><th>What it means</th><th>Best for</th></tr></thead>
+<tbody>
+<tr><td><strong>3-3-3</strong></td><td>3 tops, 3 bottoms, 3 pairs of shoes</td><td>A weekend, if you want shoe options more than outfit math</td></tr>
+<tr><td><strong>3-2-1</strong></td><td>3 tops, 2 bottoms, 1 layer</td><td>Two or three nights &mdash; the full formula is overkill</td></tr>
+<tr><td><strong>4-3-2-1</strong></td><td>4 tops, 3 bottoms, 2 layers (mid-layer + shell), 1 accessory set</td><td>Four to five days in a personal item or small carry-on</td></tr>
+<tr><td><strong>5-4-3-2-1</strong></td><td>5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard</td><td>One to two weeks, one carry-on, laundry once</td></tr>
+<tr><td><strong>6-5-4-3-2-1</strong></td><td>Add a sixth top, fifth bottom and a second accessory</td><td>Three weeks or more, or two climates in one trip</td></tr>
+</tbody>
+</table>
+<p>They are the same idea at different sizes: count by how often you actually wear a category. You wear tops more than bottoms, bottoms more than layers, layers more than the one special thing. The numbers are just that hierarchy written down.</p>
 
 <h2>5 Tops &mdash; Uniqlo</h2>
 <p>Start with a neutral palette in one reliable maker: two plain tees, one striped or textured tee, one oxford or linen shirt, one light knit or long-sleeve base. Uniqlo is the default here &mdash; consistent sizing, honest fabrics, prices low enough to buy the three colors that matter. Every top should work with every bottom you pack; if it only pairs with one thing, it stays home. For which fabric line to buy &mdash; LifeWear Supima for everyday, AIRism for hot trips, HEATTECH as a thin base on cold routes &mdash; see <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines explained</a>.</p>
@@ -737,6 +767,11 @@ export const posts: BlogPost[] = [
 </ol>
 <p>Weekend trip? Scale down to a 3-2-1 mini edit. A month abroad? Run the formula twice (warm kit + cool kit) or bump to 6-5-4-3-2-1 &mdash; same system, more pieces, still one carry-on if you laundry once a week.</p>
 
+<h2>54321 Packing Method for 7 Days (One Week, No Laundry)</h2>
+<p>Seven days is the length the formula was built for, and it is the only common trip length where <strong>you do not have to plan laundry at all</strong>. Pack the full 5-4-3-2-1 plus seven pairs of underwear and socks, and you are done &mdash; twenty top-and-bottom combinations across seven days means you never repeat an outfit even once.</p>
+<p>What that looks like in practice: two plain tees, one textured or striped tee, one button-down, one light knit; a dark jean, a chino, a short or skirt, and one comfort bottom; a rain shell, a fleece or cardigan, and one trip-specific third layer; walking shoes worn on the plane and a cleaner second pair packed flat; one wildcard. Fifteen pieces.</p>
+<p><strong>The mistake at seven days is packing for eight.</strong> A week is short enough that the fear of running out is loudest and least justified &mdash; you have three spare combinations you will never reach. If you want insurance, make it a fast-dry tee rather than a sixth piece: it turns any sink into a laundry and buys you an extra day without buying an extra slot.</p>
+
 <h2>54321 Packing Method for 10 Days (Carry-On Only)</h2>
 <p>Ten days sounds like a second suitcase until you treat it as <strong>two five-day cycles in one bag</strong>. The 54321 packing method for 10 days is the same ratio &mdash; 5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard &mdash; with one non-negotiable: <strong>laundry once between days 4 and 6</strong>. Hotels, Airbnb washers, or a laundromat mid-trip; hand-wash in the sink if you must. You are not packing twenty outfits; you are packing twenty <em>combinations</em> and re-wearing pieces across two weeks.</p>
 <p>What changes for 10 days vs a week:</p>
@@ -747,6 +782,63 @@ export const posts: BlogPost[] = [
 <li><strong>Underwear and socks:</strong> pack 7&ndash;8, wash the rest mid-trip; everything else follows the formula.</li>
 </ul>
 <p>Neutral palette matters more on a 10-day run: navy, black, stone, and white so every top pairs with every bottom after laundry. For the carry-on itself &mdash; suitcase, cubes, adapter &mdash; see <a href="/diffr/blog/international-travel-essentials-brand-guide">international travel essentials</a>. For a luxury tech flat-lay version of the same one-brand-per-slot idea, see the <a href="/diffr/blog/oak-floor-travel-kit-brand-guide">oak floor travel kit</a>.</p>
+
+<h2>54321 Packing for 2 Weeks and 3 Weeks</h2>
+<p>Here is the part that surprises people: <strong>the packing list barely changes between one week and three.</strong> What changes is the number of laundry cycles, and laundry is a two-hour errand, not a suitcase.</p>
+<table>
+<thead><tr><th>Trip length</th><th>Formula</th><th>Laundry</th><th>What actually changes</th></tr></thead>
+<tbody>
+<tr><td><strong>7 days</strong></td><td>5-4-3-2-1</td><td>None</td><td>Nothing &mdash; this is the baseline</td></tr>
+<tr><td><strong>10 days</strong></td><td>5-4-3-2-1</td><td>Once, days 4&ndash;6</td><td>7&ndash;8 pairs of socks and underwear</td></tr>
+<tr><td><strong>2 weeks</strong></td><td>5-4-3-2-1</td><td>Once, around day 7</td><td>Add one fast-dry tee; nothing else</td></tr>
+<tr><td><strong>3 weeks</strong></td><td>6-5-4-3-2-1</td><td>Weekly</td><td>One extra top and bottom for rotation depth</td></tr>
+</tbody>
+</table>
+<p><strong>For 2 weeks, do not scale up.</strong> The same fifteen pieces cover fourteen days with one wash around day seven, and a second week of the same twenty combinations is genuinely unnoticeable to everyone except you. Adding pieces here is the most common way a working carry-on turns into a checked bag.</p>
+<p><strong>For 3 weeks, scale the ratio, not the bag.</strong> Move to 6-5-4-3-2-1 &mdash; one more top and one more bottom &mdash; so the rotation has enough depth that nothing wears out or gets stained into uselessness before the trip ends. Still two pairs of shoes.</p>
+<p>The exception to all of this is a trip that <em>crosses climates</em>: a week in the tropics followed by a week somewhere cold is not a three-week trip, it is two separate kits. Run the formula twice with a shared set of bottoms and swap the tops and layers, or accept the checked bag &mdash; those are the honest options.</p>
+
+<h2>54321 Packing Method by Season &mdash; Summer, Spring, Winter</h2>
+<p>The ratio never changes. What changes is what goes in each slot, and the season decides how much of your kit you <strong>wear</strong> versus <strong>pack</strong> &mdash; which is the whole game in winter.</p>
+<table>
+<thead><tr><th>Slot</th><th>Summer</th><th>Spring / autumn</th><th>Winter</th></tr></thead>
+<tbody>
+<tr><td><strong>5 tops</strong></td><td>Breathable tees and one linen shirt; a mesh or quick-dry base if you sweat</td><td>Mixed sleeve lengths &mdash; two short, two long, one shirt</td><td>Long sleeves over a thin thermal base; the base counts as part of the top, not a layer</td></tr>
+<tr><td><strong>4 bottoms</strong></td><td>Two shorts, one light trouser, one skirt or comfort bottom</td><td>One short, one jean, one chino, one comfort bottom</td><td>All full length; one that takes a thermal underneath</td></tr>
+<tr><td><strong>3 layers</strong></td><td>One is often just a sun shirt or a light overshirt for air conditioning</td><td>Rain shell, fleece, one extra &mdash; the season this formula fits best</td><td>Insulated jacket, mid fleece, shell &mdash; and you wear two of the three in transit</td></tr>
+<tr><td><strong>2 shoes</strong></td><td>Walking shoe plus a sandal</td><td>Walking shoe plus a clean sneaker</td><td>Waterproof boot worn on the plane, plus one indoor-and-dinner pair packed</td></tr>
+<tr><td><strong>1 wildcard</strong></td><td>Swimsuit</td><td>Whatever the itinerary demands</td><td>Hat, gloves and a scarf count as one wildcard, not three</td></tr>
+</tbody>
+</table>
+<p><strong>Winter is the season people say the formula breaks. It does not &mdash; it just moves onto your body.</strong> Wear the heaviest boot, the insulated jacket and one mid layer through the airport, and the bag you are packing is only slightly larger than a summer one. The thin thermal base is the piece that makes it work: it lets the same five tops cover far colder weather without becoming five sweaters. For which base layer to buy, see <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines explained</a> &mdash; HEATTECH for cold routes, AIRism for hot ones &mdash; and <a href="/diffr/blog/winter-layering-brand-guide">winter layering</a> for the full cold-weather stack.</p>
+<p><strong>Summer is the one that quietly needs more, not less.</strong> Heat means you finish a top in a day rather than stretching it over two, so the five tops go faster than the arithmetic suggests. This is the season to make one of them fast-dry and plan on a sink wash.</p>
+
+<h2>54321 Packing Method for Men</h2>
+<p>The formula is not gendered, but the slots fill differently, and one of them is where most men overpack.</p>
+<ul>
+<li><strong>5 tops:</strong> two plain tees, one polo or textured tee, one oxford or flannel depending on season, one light knit or crewneck. The oxford is the piece doing double duty &mdash; open over a tee by day, buttoned for dinner.</li>
+<li><strong>4 bottoms:</strong> one dark jean, one chino, one short or second chino, one comfort bottom for travel days and the hotel. Dark denim is the single most useful thing here because it hides a full week.</li>
+<li><strong>3 layers:</strong> a rain shell, a fleece or overshirt, and one that raises the register &mdash; an unstructured blazer or a clean bomber. That third layer is what lets one kit cover both a hike and a restaurant.</li>
+<li><strong>2 shoes:</strong> this is the slot. A walk-all-day pair worn in transit and one cleaner pair packed. <strong>The third pair is almost always the mistake</strong> &mdash; men's shoes are the heaviest single item in the bag and a leather sneaker covers most of what a third pair was for.</li>
+<li><strong>1 wildcard:</strong> swim shorts, a tie, or a merino base layer &mdash; whichever the itinerary genuinely requires.</li>
+</ul>
+<p>The palette rule matters more than the pieces: navy, grey, olive and white, so all five tops go with all four bottoms. If a shirt only works with one pair of trousers, it is not a capsule piece, it is a souvenir of a specific outfit.</p>
+
+<h2>54321 Packing Method for Women</h2>
+<p>The women's version has one structural advantage worth using deliberately: <strong>a dress collapses two slots into one.</strong></p>
+<ul>
+<li><strong>5 tops:</strong> two tees, one shell or tank, one button-down or blouse, one knit. Choose necklines that layer under the same jacket.</li>
+<li><strong>4 bottoms:</strong> one jean, one trouser, one skirt or short, one elevated legging or comfort bottom. Skirts earn their place here because they read differently with the same top.</li>
+<li><strong>3 layers:</strong> a rain shell, a cardigan or soft blazer, and a wrap or third piece. A wrap is genuinely three things &mdash; a plane blanket, an evening layer and a scarf &mdash; which is the cheapest volume in the whole bag.</li>
+<li><strong>2 shoes:</strong> a walk-all-day pair worn in transit plus a flat or low sandal that handles dinner.</li>
+<li><strong>1 wildcard:</strong> most often the dress. One dress that works with the flats and under the blazer counts as an outfit, a layer over leggings, and a formal option &mdash; three jobs, one slot.</li>
+</ul>
+<p>That is why the widely shared version of the formula sometimes lists dresses in the "2" slot instead of shoes: if two dresses genuinely replace four separate outfits for your trip, that trade is worth making. Run whichever version does more work for the itinerary you actually have.</p>
+
+<h2>The 54321 Capsule Wardrobe (Beyond Travel)</h2>
+<p>The formula started as a packing rule, but it is really a <strong>capsule wardrobe</strong> in miniature, and it transfers home almost unchanged. A travel capsule and a home capsule differ in exactly one way: <em>duration of repetition</em>. Fifteen pieces feel effortless for two weeks in a city where nobody sees you twice, and monotonous by week six in an office where everybody does.</p>
+<p>So scale it, but keep the hierarchy. A seasonal 54321 capsule wardrobe usually runs closer to 10-8-5-3-2 &mdash; the same proportions, roughly doubled &mdash; built on the same two neutrals and one accent. What carries over is the discipline, not the count: <strong>every top pairs with every bottom, or it does not go in.</strong></p>
+<p>The test is the same in both cases. Lay the whole set out and try to find a combination that does not work. If you find one, that is the piece to cut &mdash; not the piece to build an outfit around. That is <a href="/diffr/blog/the-decide-once-rule">deciding once</a> applied to a closet instead of a suitcase.</p>
 
 <h2>The Point</h2>
 <p>The 54321 packing method is not a deprivation challenge &mdash; it is a decide-once system for the clothes <em>inside</em> the bag. One good pick per category, a neutral palette, and you stop treating every trip like a new wardrobe research project. Pair it with the <a href="/diffr/blog/international-travel-essentials-brand-guide">carry-on essentials list</a> for the gear that carries it all. For the clothing brands behind the formula, go deep on one house at a time: <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo lines</a>, <a href="/diffr/blog/patagonia-lines-explained">Patagonia lines</a>, <a href="/diffr/blog/nike-lines-explained">Nike lines</a>. That is the Diffr method: <a href="/diffr/blog/the-decide-once-rule">decide once</a>, pack the formula, close the file. <a href="/diffr/blog/starter-kits">See every Diffr starter kit &rarr;</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a>. Pack light. Stop researching.</p>

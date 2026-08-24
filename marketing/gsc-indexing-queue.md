@@ -46,6 +46,7 @@ GSC 2026-08-24 显示 `aritzia in house brands`（35 impr）/ `aritzia house bra
 | ✅ | Aritzia in-house brands（正文大改 · 必须重新抓取） | `https://truake.com/diffr/blog/aritzia-sub-brands-guide` | aritzia in house brands / house brands / sister company |
 | | Uniqlo lines（P1 · 正文 410→943 词） | `https://truake.com/diffr/blog/uniqlo-lines-explained` | heattech vs airism / airism base layers / what is airism |
 | | Adidas lines（P1 · 正文 594→1225 词） | `https://truake.com/diffr/blog/adidas-lines-explained` | adidas lines / three main adidas brands / terrex range explained |
+| | **54321 打包法（P2 · 正文 1,088→2,947 词 · 事实订正，优先提交）** | `https://truake.com/diffr/blog/54321-packing-method-brand-guide` | 54321 packing method / rule / for men / winter / 7 days |
 | | **Burj Khalifa（P2 BtB 模板 · 优先提交这条）** | `https://truake.com/diffr/blog/behind-the-build-burj-khalifa` | who built / who owns burj khalifa |
 | | Petronas Twin Towers | `https://truake.com/diffr/blog/behind-the-build-petronas-twin-towers` | companies in petronas twin towers |
 | | Incheon（BtB 最好名次 · 第 10.19 位） | `https://truake.com/diffr/blog/behind-the-build-incheon-international-airport` | who built incheon airport |
@@ -91,6 +92,41 @@ GSC 2026-08-24 显示 `aritzia in house brands`（35 impr）/ `aritzia house bra
 Tesla Gigafactory Texas、Walt Disney World、MetLife Stadium、Bellagio…）。
 本次用新增的 `--only-existing` 开关按住不发，**留作单独一次部署**，以便在 GSC 上干净归因模板改动的效果。
 → 已于同日单独部署，见下节 **Batch W**。
+
+### P2 补充 — 54321 打包法（2026-08-25）
+
+**这页是除 Aritzia 外表现最好的**：109 次曝光、2 次点击、平均第 21.2 位。
+但查询分布显示三段完全不同的病因，其中一段是**事实问题**。
+
+**① 事实订正 —— 网上存在两个互相矛盾的 54321 定义**
+
+多数来源（Good Housekeeping、Encircled、Carl Friedrik、Arktana）写的是
+5 上衣 / 4 下装 / **3 双鞋 / 2 件外层** / 1 套配饰；
+本页写的是 5 / 4 / **3 件外层 / 2 双鞋** / 1 wildcard —— **第 3、2 两位是对调的**。
+
+原文从未承认另一个版本的存在，等于在无解释地与主流定义冲突。这很可能压着
+`54321 packing method`（5 次，第 15.2 位）与 `5 4 3 2 1 packing method`（5 次，第 43.6 位）。
+**处理方式不是改成跟随主流，而是把两个版本都摆出来并解释取舍**：
+鞋是行李里最重且最不可压缩的东西，第三双正是把随身行李逼成托运的那一件；
+外层可压缩，且外层才是覆盖 30 度温差的东西 —— 所以**约束是随身行李时用 3 外层 / 2 鞋**，
+托运或气候稳定但着装场合多变时用 3 鞋 / 2 外层。新增对比表 + `Related Ratios`
+（3-3-3 / 3-2-1 / **4-3-2-1** / 5-4-3-2-1 / 6-5-4-3-2-1），顺带吃掉 `4321 packing method`（第 60 位）。
+
+**② 已进前 10、只差直答的**：`what is the 54321 packing method` 第 2 位、
+`54321 packing method for 7 days` 第 3 位、`54321 packing method for women` 第 6 位、
+`54321 capsule wardrobe` 第 6.67 位。→ 新增 7 天专节（唯一不需要洗衣的长度）、
+女士专节（连衣裙一件顶两格）、capsule wardrobe 专节（旅行胶囊 vs 家用胶囊只差「重复周期」）。
+
+**③ 完全没有内容、埋在深处的**：
+- **men** 共 5 次曝光，第 38 / 53 / 59 / 77.5 位 —— 全站单主题最深的缺口，原文一字未提。
+- **季节** 共 7 次：spring 第 45、winter 第 52 / 48、summer 第 66。
+- **2 周 / 3 周**：第 40 / 27 位，原文只有一句「a month abroad」带过。
+
+→ 新增男士专节、季节 slot 替换表（夏 / 春秋 / 冬）、2–3 周专节。
+关键判断：**2 周不要加件**（同样 15 件 + 第 7 天洗一次即可，加件正是随身变托运的主因），
+3 周才升到 6-5-4-3-2-1；冬天不是公式失效，而是**公式穿在身上** —— 靴子、羽绒、一件中层在转机时穿着走。
+
+正文 **1,088 → 2,947 词**，H2 9 → 17，新增 4 张表；FAQ 6 → 12 条，TL;DR / meta / readTime（6→11 min）同步。
 
 ## Batch W — Behind the Build 新增 20 篇（2026-08-25）· P2 后续
 

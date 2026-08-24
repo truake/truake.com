@@ -44,7 +44,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'international-travel-essentials-brand-guide':
     'Bottom line: international travel comes down to about ten carry-on essentials, one good brand each — not a 60-item list. The carry system: a carry-on suitcase (Away), a personal-item backpack (Peak Design), packing cubes (Eagle Creek). The in-transit kit: a universal travel adapter (Epicka), a power bank (Anker), noise-canceling headphones (Sony), a neck pillow (Cabeau). On the ground: walking shoes (Hoka), an anti-theft sling (Pacsafe), a water bottle (Owala). Buy first: the carry-on, a universal adapter, and the walking shoes. For clothes inside the bag, use the 54321 packing method (5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard). Below is one brand per slot, no repeats.',
   '54321-packing-method-brand-guide':
-    'Bottom line: the 54321 packing method (54321 packing rule) is 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule that mixes into 20+ outfits in a carry-on. 54321 packing method for 10 days: same formula, laundry once between days 4–6, still one carry-on. Build neutrals first (Uniqlo LifeWear or AIRism tops — see Uniqlo lines explained), Everlane bottoms, Patagonia layers (Houdini, Torrentshell, Better Sweater — see Patagonia lines explained), Hoka for walk-all-day shoes plus one cleaner second pair (Veja). Scale down to 3-2-1 for weekends; scale up for month-long trips.',
+    'Bottom line: the 54321 packing method (54321 packing rule) is 5 tops, 4 bottoms, 3 layers, 2 shoes, and 1 wildcard — a neutral travel capsule that mixes into 20+ outfits in a carry-on. Note that two versions circulate: this one, and a widely shared variant that swaps slots 3 and 2 to give you 3 pairs of shoes and 2 layers. Use 3 layers / 2 shoes when the constraint is one carry-on, because a third pair of shoes is what forces a checked bag; use 3 shoes / 2 layers when you are checking a bag or the climate is stable but dress codes shift. Trip length barely changes the list: 7 days needs no laundry, 10 days and 2 weeks need one wash, 3 weeks scales to 6-5-4-3-2-1. Seasons change the slots, not the ratio — in winter you wear the boot, jacket and one mid layer in transit and add a thin thermal base. Build neutrals first (Uniqlo LifeWear or AIRism tops — see Uniqlo lines explained), Everlane bottoms, Patagonia layers (Houdini, Torrentshell, Better Sweater — see Patagonia lines explained), Hoka for walk-all-day shoes plus one cleaner second pair (Veja). Scale down to 4-3-2-1 or 3-2-1 for short trips.',
   'gift-ideas-for-her-brand-guide':
     'Bottom line: skip the listicles — one genuinely good gift per budget she will actually use. Under $30: a Laneige lip mask or a Boy Smells candle. $30–75: everyday jewelry (Mejuri), affordable cashmere (Quince), or a Stanley tumbler. $75+: a Kindle for a reader, a Barefoot Dreams cozy throw, or a Cuyana leather tote. If you only get one, the lip mask plus a candle is almost never wrong; for a bigger gesture, the cozy throw is the safest splurge. See the thoughtful gift ideas hub for her, him, and housewarming. Below is one pick per slot, no repeats.',
   'thoughtful-gift-ideas-brand-guide':
@@ -556,12 +556,36 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: 'The 54321 packing rule is the same as the 54321 packing method: 5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard. The numbers are a ratio, not a deprivation challenge — pick one neutral palette, one good brand per category, and every piece must pair with every other piece. For tops and layers, see Uniqlo lines explained and Patagonia lines explained to match fabric lines to your trip climate.',
     },
     {
+      q: 'Is the 54321 method 3 layers and 2 shoes, or 3 shoes and 2 layers?',
+      a: 'Both versions circulate and they disagree on exactly those two slots. Use 3 layers and 2 pairs of shoes when the constraint is a single carry-on: shoes are the heaviest, least compressible thing you pack, and the third pair is usually the item that forces a checked bag, while layers compress and are what cover a temperature swing. Use 3 pairs of shoes and 2 layers when you are checking a bag anyway, or the climate is stable but the dress codes shift — a wedding, a conference, a city break with one nice dinner. Same ratio, different slot.',
+    },
+    {
+      q: 'What is the 54321 packing method for 7 days?',
+      a: 'Seven days is the length the formula was built for, and the only common trip length that needs no laundry at all. Pack the full 5-4-3-2-1 plus seven pairs of underwear and socks — twenty top-and-bottom combinations across seven days means you never repeat an outfit. The mistake at seven days is packing for eight; if you want insurance, make one top a fast-dry tee rather than adding a sixth piece.',
+    },
+    {
+      q: 'What is the 54321 packing method for men?',
+      a: 'Same ratio, different slots: two plain tees, one polo or textured tee, one oxford or flannel, one light knit; one dark jean, one chino, one short or second chino, one comfort bottom; a rain shell, a fleece or overshirt, and one layer that raises the register such as an unstructured blazer; a walk-all-day pair worn in transit plus one cleaner pair packed. The third pair of shoes is almost always the mistake — men\'s shoes are the heaviest single item in the bag. Keep the palette to navy, grey, olive and white so all five tops work with all four bottoms.',
+    },
+    {
+      q: 'What is the 54321 packing method for women?',
+      a: 'The women\'s version has one structural advantage: a dress collapses two slots into one. Two tees, one shell or tank, one blouse or button-down, one knit; one jean, one trouser, one skirt or short, one elevated legging; a rain shell, a cardigan or soft blazer, and a wrap — a wrap is a plane blanket, an evening layer and a scarf in one piece. Two shoes: a walk-all-day pair worn in transit plus a flat that handles dinner. The wildcard is most often the dress, which counts as an outfit, a layer over leggings, and a formal option.',
+    },
+    {
+      q: 'How do you use the 54321 packing method in winter?',
+      a: 'The ratio does not change — it moves onto your body. Wear the heaviest boot, the insulated jacket and one mid layer through the airport, and the bag you pack is only slightly larger than a summer one. The piece that makes it work is a thin thermal base under each top, which lets the same five tops cover far colder weather without becoming five sweaters. Hat, gloves and scarf together count as one wildcard, not three. Summer is the season that quietly needs more, not less: heat means you finish a top in a day, so make one of the five fast-dry.',
+    },
+    {
+      q: 'What is the 4-3-2-1 packing method?',
+      a: 'The 4-3-2-1 method is the smaller sibling: 4 tops, 3 bottoms, 2 layers (one mid-layer and one shell), and 1 accessory set — right for four to five days in a personal item or small carry-on. The related ratios all follow the same idea at different sizes: 3-2-1 for two or three nights, 3-3-3 for a weekend when you want shoe options, 5-4-3-2-1 for one to two weeks, and 6-5-4-3-2-1 for three weeks or two climates. Count by how often you actually wear a category.',
+    },
+    {
       q: 'How many outfits can you make with the 54321 method?',
       a: 'Five tops and four bottoms give you twenty base combinations before you add layers. With three layers (a shell, a fleece, and a dress or extra warm piece), you can cover a wide temperature range without packing a second wardrobe. The point is compatibility, not counting days — re-wear pieces and laundry once a week on longer trips.',
     },
     {
       q: 'Does the 54321 packing method work for a 2-week trip?',
-      a: 'Yes, if you plan to do laundry once mid-trip and stick to versatile neutrals. Wear your bulkiest shoes and jacket on travel days, pack cubes to compress the formula, and scale up to 6-5-4-3-2-1 for month-long trips or run two separate 54321 kits (warm weather + cool weather) instead of one giant suitcase.',
+      a: 'Yes — and you should not scale it up. The same fifteen pieces cover fourteen days with one wash around day seven, and a second week of the same twenty combinations is unnoticeable to everyone except you. Adding pieces here is the most common way a working carry-on becomes a checked bag; if you want insurance, add one fast-dry tee. Move to 6-5-4-3-2-1 only at three weeks or more. The real exception is a trip that crosses climates — a week in the tropics then a week somewhere cold is not one long trip, it is two kits sharing a set of bottoms.',
     },
     {
       q: 'How do you pack a carry-on with the 54321 method?',
