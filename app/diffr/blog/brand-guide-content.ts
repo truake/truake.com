@@ -36,7 +36,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'patagonia-lines-explained':
     "Bottom line: Patagonia isn't one jacket — it's a set of fabric lines, each built for a layer or carry job. Better Sweater is the mid-layer fleece icon; Capilene is the base layer (Cool for most seasons, Thermal for winter); Down Sweater is packable warmth; Houdini is the wind shell; Torrentshell is real rain; Black Hole is the duffel that lasts. Mid-layer → Better Sweater, base → Capilene, puffy → Down Sweater, wind → Houdini, rain → Torrentshell, bag → Black Hole. For a full outdoor kit across brands, still one specialist per slot — see the winter layering and hiking guides.",
   'aritzia-sub-brands-guide':
-    "Bottom line: Aritzia isn't one brand — it's a house of seven in-house labels, each built for a different scenario. Babaton for work (the Effortless Pant), The Group by Babaton for the big interview, Wilfred for date night, Wilfred Free for everyday, TNA for the weekend, Sunday Best for going out, and the Super Puff for winter. What brands does Aritzia own? All seven are sold only at Aritzia stores. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; the Super Puff is the style buy while Patagonia is the keep-forever one.",
+    "Bottom line: Aritzia isn't one brand — it's a house of eleven exclusive in-house labels that together make up roughly 97% of the company's revenue. What brands does Aritzia own? Babaton (work, the Effortless Pant), The Group by Babaton (elevated tailoring), Ten by Babaton (evening), Wilfred (romantic), Wilfred Free (everyday basics), Tna (weekend athleisure), Golden (activewear), Denim Forum (in-house premium denim), Sunday Best (going out), Little Moon, and the Super Puff. All are sold only at Aritzia stores. Aritzia has no parent company — it is independent and publicly traded (TSX: ATZ), founded in Vancouver in 1984, and it wholly owns Reigning Champ. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; Denim Forum is solid but AGOLDE and Citizens of Humanity are the denim specialists; the Super Puff is the style buy while Patagonia is the keep-forever one.",
   'world-cup-2026-kit-brands':
     'Bottom line: a national-team kit is one brand head to toe — and at the 2026 World Cup, Adidas dresses the most (14 teams, including Argentina, Germany, Spain, Mexico, Belgium and Japan), Nike 12 (Brazil, France, England, Netherlands, the United States, Croatia and more), and Puma 11 (Portugal, Morocco, Senegal, Switzerland, Egypt and others). The remaining 11 teams split across Kelme (Bosnia, Jordan), Marathon (Ecuador), Kappa (Tunisia), Umbro (DR Congo), Reebok (Panama), Jako (Iraq), Capelli (Cape Verde), Saeta (Haiti), 7Saber (Uzbekistan) and Majid (Iran). Full team-by-team list below.',
   'beginner-soccer-gear-brand-guide':
@@ -416,19 +416,39 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   'aritzia-sub-brands-guide': [
     {
       q: 'Aritzia brands explained — what are they?',
-      a: "Aritzia brands explained in one sentence: Aritzia is a Canadian retailer that runs seven in-house labels — not separate companies — each built for a different part of your week. Babaton is work tailoring (Effortless Pant), Wilfred is date-night dresses, TNA is weekend athleisure, Sunday Best is going-out pieces, and the Super Puff is the signature puffer. The full scenario map and independent verdict per slot are in the guide above.",
+      a: "Aritzia brands explained in one sentence: Aritzia is a Canadian retailer that runs eleven in-house labels — not separate companies — each built for a different part of your week. Babaton is work tailoring (Effortless Pant), Wilfred is date-night dresses, TNA is weekend athleisure, Denim Forum is the in-house denim, Sunday Best is going-out pieces, and the Super Puff is the signature puffer. The full scenario map and independent verdict per slot are in the guide above.",
     },
     {
       q: 'What are Aritzia sub brands?',
-      a: "Aritzia sub brands are Babaton, The Group by Babaton, Wilfred, Wilfred Free, TNA, Sunday Best, and the Super Puff line — all sold only at Aritzia stores and online. Each sub-brand targets a different occasion (work, date night, weekend lounge, night out, winter outerwear) so one store can dress your whole week without feeling like one generic label.",
+      a: "Aritzia sub brands are Babaton, The Group by Babaton, Ten by Babaton, Wilfred, Wilfred Free, Tna, Golden, Denim Forum, Sunday Best, Little Moon, and the Super Puff line — all sold only at Aritzia stores and online. Each sub-brand targets a different occasion (work, evening, date night, weekend lounge, training, denim, winter outerwear) so one store can dress your whole week without feeling like one generic label.",
     },
     {
       q: 'What brands does Aritzia own?',
-      a: "Aritzia owns seven in-house brands sold only at Aritzia: Babaton (work tailoring), The Group by Babaton (elevated suiting), Wilfred (romantic dresses), Wilfred Free (everyday basics), TNA (cozy athleisure), Sunday Best (going-out pieces), and the Super Puff (signature puffer). They are not separate companies — each is a label within the Aritzia house, built for a different part of your week.",
+      a: "Aritzia owns eleven in-house brands sold only at Aritzia: Babaton (work tailoring), The Group by Babaton (elevated tailoring), Ten by Babaton (evening), Wilfred (romantic pieces), Wilfred Free (everyday basics), Tna (cozy athleisure), Golden (activewear), Denim Forum (premium denim), Sunday Best (going-out pieces), Little Moon, and the Super Puff (signature puffer). Together these exclusive brands make up roughly 97% of Aritzia's revenue. They are not separate companies — each is a label within the Aritzia house, built for a different part of your week. Aritzia also wholly owns the menswear brand Reigning Champ.",
     },
     {
       q: 'What are the brands that Aritzia owns?',
-      a: "Aritzia is a house of in-house brands rather than a single label. The main ones are Babaton (polished workwear and tailoring), The Group by Babaton (elevated investment suiting), Wilfred (soft, romantic dresses), Wilfred Free (relaxed everyday basics), TNA (cozy athleisure), and Sunday Best (youthful going-out pieces). The Super Puff is its signature puffer. Each label targets a different occasion, which is why one store can dress you for work, a date, the gym and a night out.",
+      a: "Aritzia is a house of in-house brands rather than a single label. The main ones are Babaton (polished workwear and tailoring), The Group by Babaton (elevated tailoring), Ten by Babaton (evening), Wilfred (soft, romantic pieces), Wilfred Free (relaxed everyday basics), Tna (cozy athleisure), Golden (activewear), Denim Forum (premium denim), and Sunday Best (youthful going-out pieces), plus Little Moon and the Super Puff. Each label targets a different occasion, which is why one store can dress you for work, a date, the gym and a night out.",
+    },
+    {
+      q: 'How many Aritzia in house brands are there?',
+      a: "Eleven. Aritzia's in-house (or 'exclusive') brands are Babaton, The Group by Babaton, Ten by Babaton, Wilfred, Wilfred Free, Tna, Golden, Denim Forum, Sunday Best, Little Moon, and the Super Puff. Aritzia reports that these exclusive brands make up about 97% of its net revenue — the remaining few percent are curated third-party labels like AGOLDE, Citizens of Humanity, Levi's Premium, New Balance and adidas. Every in-house label is sold only at Aritzia boutiques and aritzia.com.",
+    },
+    {
+      q: 'Does Aritzia have a sister company?',
+      a: "Not in the usual sense — Aritzia Inc. is independent and publicly traded (TSX: ATZ), founded in Vancouver in 1984, with no parent conglomerate above it. The closest thing to an Aritzia sister brand is Reigning Champ: Aritzia acquired 75% of its parent CYC Design Corporation in June 2021 and the remaining 25% in May 2023, so Reigning Champ is now wholly owned by Aritzia and is how the company sells menswear. Fred Segal is also an Aritzia-held trademark. Aritzia is not related to Lululemon — both were founded in Vancouver, but they are separate public companies.",
+    },
+    {
+      q: 'Is Babaton a good brand?',
+      a: "For the money, yes — Babaton is the strongest label in the Aritzia house, and the Effortless Pant is the piece that built its reputation. It is an Aritzia in-house brand, not a separate company, so you can only buy it at Aritzia. The honest limit is fabric: Babaton is designed to look sharp now rather than survive a decade of dry cleaning. If you want trousers that hold their line for years, Theory is the upgrade.",
+    },
+    {
+      q: 'Theory vs Aritzia — which should I buy?',
+      a: "Theory wins on wool quality, shoulder construction, and how a trouser still hangs after a year of wear. Aritzia (specifically Babaton and The Group) wins on price, availability, and being able to try six sizes in one store on a Saturday. The practical rule: buy Babaton for your first serious work trousers or blazer, and buy Theory once you know your size and want the pair that outlasts the job.",
+    },
+    {
+      q: 'What jean brands does Aritzia carry?',
+      a: "Denim Forum is Aritzia's own in-house premium denim label and the default house pick. Alongside it, Aritzia carries a short curated list of third-party denim: AGOLDE, Citizens of Humanity, Levi's Premium, RE/DONE and EB Denim. Denim Forum is the easiest one-stop, but AGOLDE and Citizens of Humanity are the silhouette specialists — and since Aritzia stocks both, you can compare them in the same fitting room.",
     },
     {
       q: 'Is Babaton the same as Aritzia?',

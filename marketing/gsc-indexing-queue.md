@@ -26,6 +26,25 @@
 
 **Action:** → **Batch U** below（42 正文 URL · ~5 天 · 10/天 quota）
 
+## Batch V — Aritzia in-house brands refresh（2026-08-24）· P0 · 提交这一条
+
+GSC 2026-08-24 显示 `aritzia in house brands`（35 impr）/ `aritzia house brands` / `aritzia different brands`
+全部卡在第 8 位，而 `aritzia brands explained`（pos ~5.9）已有点击 —— 门槛线在第 6–8 位之间。
+
+**已做的修正（本次 commit）：**
+- 正文新增三个直答 H2：`Aritzia In-House Brands: The Full List`（完整 11 个自有品牌）、
+  `Who Owns Aritzia? Sister Companies, and the Lululemon Mix-Up`、`Denim Forum — Jeans`，
+  外加决策块 `Wilfred vs Babaton vs TNA`（吃 `wilfred vs babaton` / `theory vs aritzia` / `is babaton a good brand`）。
+- **事实订正**：原文说「seven in-house labels」已过时。按 aritzia.com/Brands + FY2026 Annual Report，
+  现为 **11 个**：Babaton、The Group by Babaton、Ten by Babaton、Wilfred、Wilfred Free、Tna、
+  Golden、Denim Forum、Sunday Best、Little Moon、The Super Puff（占净收入约 97%）。
+- 新增 5 条 FAQ + TL;DR/meta/excerpt 同步。Reigning Champ（CYC Design，2021 收 75% / 2023 收满）
+  写进 sister-company 直答。
+
+| ✓ | Page | URL to paste in 网址检查 | 目标 query |
+|---|------|--------------------------|-----------|
+| | Aritzia in-house brands（正文大改 · 必须重新抓取） | `https://truake.com/diffr/blog/aritzia-sub-brands-guide` | aritzia in house brands / house brands / sister company |
+
 ## Batch U — GSC Coverage Drilldown（2026-08-24）· brand guides + BtB + BtC
 
 GSC 导出 2026-08-24：15 brand guides（含 tech-grooming-tray NEW）+ 16 BtB + 10 BtC + 1 lines explained。  

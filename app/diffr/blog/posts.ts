@@ -418,15 +418,37 @@ export const posts: BlogPost[] = [
   {
     slug: 'aritzia-sub-brands-guide',
     title: "Aritzia In-House Brands Explained: Babaton, Wilfred, TNA & What to Buy Instead",
-    description: "Aritzia brands explained — what brands does Aritzia own? Seven in-house sub-brands: Babaton for work, Wilfred for date night, TNA for the weekend, Sunday Best for going out, the Super Puff for winter. Full sub-brand map plus the independent pick that beats each one.",
+    description: "Aritzia brands explained — what brands does Aritzia own? All eleven in-house sub-brands: Babaton for work, Wilfred for date night, TNA for the weekend, Denim Forum for jeans, the Super Puff for winter. Full house-brand list plus the independent pick that beats each one.",
     date: '2026-06-24',
-    readTime: '6 min read',
-    tags: ['aritzia brands explained', 'aritzia brands', 'aritzia sub brands', 'babaton', 'aritzia super puff', 'is aritzia worth it', 'womens fashion', 'one brand rule'],
+    readTime: '8 min read',
+    tags: ['aritzia brands explained', 'aritzia brands', 'aritzia sub brands', 'aritzia in house brands', 'aritzia sister company', 'babaton', 'denim forum', 'aritzia super puff', 'is aritzia worth it', 'womens fashion', 'one brand rule'],
     category: 'product',
-    excerpt: "Aritzia is secretly seven brands in one store. Here's which sub-brand to wear for work, date night, the weekend and beyond — and where an independent label still wins.",
+    excerpt: "Aritzia is secretly eleven brands in one store. Here's which sub-brand to wear for work, date night, the weekend and beyond — and where an independent label still wins.",
     content: `
-<p>Walk into Aritzia and it feels like one store. It is really seven. The company runs a stable of in-house labels &mdash; Babaton, Wilfred, TNA, Sunday Best and more &mdash; each built for a different part of your life. That is the same <strong>house-of-brands</strong> pattern as <a href="/diffr/blog/lululemon-lines-explained">Lululemon&rsquo;s collections</a> and <a href="/diffr/blog/gap-inc-lines-explained">Gap Inc.&rsquo;s four storefronts</a> &mdash; one company, different lanes for work, weekend, and going out.</p>
+<p>Walk into Aritzia and it feels like one store. It is really eleven. The company runs a stable of in-house labels &mdash; Babaton, Wilfred, TNA, Denim Forum, Sunday Best and more &mdash; each built for a different part of your life. That is the same <strong>house-of-brands</strong> pattern as <a href="/diffr/blog/lululemon-lines-explained">Lululemon&rsquo;s collections</a> and <a href="/diffr/blog/gap-inc-lines-explained">Gap Inc.&rsquo;s four storefronts</a> &mdash; one company, different lanes for work, weekend, and going out.</p>
 <p>Which is exactly how Diffr thinks about a wardrobe: <strong>one good pick per slot, no slot wasted.</strong> So here is the full map &mdash; every Aritzia sub-brand, the scenario it owns, and the one piece worth knowing it for. And because we are an independent guide (we are not affiliated with Aritzia), each slot also gets the honest verdict: <em>the label we would reach for instead, and why.</em></p>
+
+<h2>Aritzia In-House Brands: The Full List</h2>
+<p><strong>What brands does Aritzia own?</strong> Aritzia designs and sells eleven exclusive in-house labels, and those exclusive brands account for roughly <strong>97% of the company&rsquo;s net revenue</strong>. This is the complete list of Aritzia house brands:</p>
+<ul>
+<li><strong>Babaton</strong> &mdash; atelier-inspired tailoring and workwear (home of the Effortless Pant)</li>
+<li><strong>The Group by Babaton</strong> &mdash; Babaton&rsquo;s elevated tier: heavier fabric, more structure</li>
+<li><strong>Ten (Ten by Babaton)</strong> &mdash; the evening line: sleek silhouettes for going out</li>
+<li><strong>Wilfred</strong> &mdash; romantic pieces built on unique textiles and hand-done prints</li>
+<li><strong>Wilfred Free</strong> &mdash; Wilfred&rsquo;s casual side: knits, bodysuits, everyday basics</li>
+<li><strong>Tna</strong> &mdash; cozy athleisure and time-perfected casual fits</li>
+<li><strong>Golden</strong> &mdash; luxuriously crafted activewear, the sportier end of the house</li>
+<li><strong>Denim Forum</strong> &mdash; Aritzia&rsquo;s in-house premium denim label</li>
+<li><strong>Sunday Best</strong> &mdash; playful silhouettes and mood-driven prints</li>
+<li><strong>Little Moon</strong> &mdash; the softest, most relaxed label in the lineup</li>
+<li><strong>The Super Puff</strong> &mdash; the cult-status puffer and all its iterations</li>
+</ul>
+<p>None of these are separate companies you can shop elsewhere &mdash; every one is exclusive to Aritzia boutiques and aritzia.com. That is the whole trick: <strong>Aritzia is not one brand, it is a house of labels</strong>, each aimed at a different part of your week. The rest of this guide takes the main ones in turn, maps each to the scenario it owns, and names the independent brand we would buy instead.</p>
+
+<h2>Who Owns Aritzia? Sister Companies, and the Lululemon Mix-Up</h2>
+<p><strong>Does Aritzia have a sister company?</strong> Aritzia Inc. is not a division of anyone. It is an independent, publicly traded Canadian company (TSX: ATZ), founded in Vancouver in 1984 and still headquartered there. There is no parent conglomerate above it.</p>
+<p>It does own one brand beyond its own labels. In June 2021 Aritzia acquired 75% of <strong>CYC Design Corporation</strong>, the company behind premium athletic-wear brand <strong>Reigning Champ</strong>, then bought the remaining 25% in May 2023 &mdash; so Reigning Champ is now wholly owned by Aritzia and is the closest thing to a true Aritzia sister brand. It is also how the company sells menswear. <strong>Fred Segal</strong> is likewise an Aritzia-held trademark.</p>
+<p>One mix-up worth clearing up: <strong>Aritzia and Lululemon are not related.</strong> Both were founded in Vancouver, both run a house-of-lanes strategy, and both sell leggings &mdash; but they are separate public companies with no shared ownership. Cross-shopping the two? See <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a>.</p>
 
 <h2>Babaton — Work</h2>
 <p>Babaton is the polished, tailored core: trousers, blazers, the clean separates that read &ldquo;office&rdquo; without trying. The piece it is famous for is the <strong>Effortless Pant</strong> &mdash; a dress trouser that has become a genuine workwear staple.</p>
@@ -448,6 +470,11 @@ export const posts: BlogPost[] = [
 <p>TNA is the cozy, sporty, athleisure label: leggings, sweats, the soft stuff for the gym, errands and a Saturday that has no plan. It runs younger and more relaxed than the rest of the house.</p>
 <p><strong>The verdict:</strong> great for lounge and low-intensity days. The moment you are actually training, performance brands pull ahead &mdash; <strong>Vuori</strong>, <strong>Alo</strong> and <strong>Lululemon</strong> last longer and move better when you sweat in them.</p>
 
+<h2>Denim Forum — Jeans</h2>
+<p>Denim is the one category where Aritzia deliberately mixes its own label with outside names. The in-house pick is <strong>Denim Forum</strong>, Aritzia&rsquo;s premium denim brand and the default if you want the house fit at the house price.</p>
+<p>Alongside it, Aritzia stocks a short, curated list of third-party denim labels &mdash; <strong>AGOLDE</strong>, <strong>Citizens of Humanity</strong>, <strong>Levi&rsquo;s Premium</strong>, <strong>RE/DONE</strong> and <strong>EB Denim</strong> &mdash; plus <strong>New Balance</strong>, <strong>Salomon</strong>, <strong>ASICS</strong>, <strong>adidas</strong> and <strong>New Era</strong> in shoes and accessories. Those are essentially the only brands on the floor that Aritzia does not own.</p>
+<p><strong>The verdict:</strong> Denim Forum is a genuinely good house denim and the easiest one-stop. But for a jean silhouette that defines a season, <strong>AGOLDE</strong> and <strong>Citizens of Humanity</strong> are the specialists &mdash; and Aritzia already carries both, so you can compare them in the same fitting room.</p>
+
 <h2>Sunday Best — Night Out</h2>
 <p>Sunday Best is the going-out label: bold, youthful, a little loud &mdash; the top or dress for a night that wants a little drama.</p>
 <p><strong>The verdict:</strong> on-trend and fun for the price, which is exactly what a fast-moving night-out wardrobe should be. For a piece that survives past one season, <strong>Reformation</strong> trades some flash for staying power.</p>
@@ -455,6 +482,18 @@ export const posts: BlogPost[] = [
 <h2>The Super Puff — Winter</h2>
 <p>Not a sub-brand so much as a phenomenon: the <strong>Super Puff</strong> is Aritzia&rsquo;s genuinely iconic puffer, the one people line up for when the temperature drops.</p>
 <p><strong>The verdict:</strong> it looks the part and it is warm. Pound-for-pound, though, <strong>Patagonia</strong> wins on warmth-to-weight and repairability (a jacket you can fix is a jacket you keep), and <strong>Uniqlo</strong>&rsquo;s seamless down is the budget answer. The Super Puff is the style buy; Patagonia is the keep-forever buy.</p>
+
+<h2>Wilfred vs Babaton vs TNA — Which Aritzia Brand Should You Buy?</h2>
+<p>If you only remember one thing, remember the occasion each label was built for:</p>
+<ul>
+<li><strong>Babaton</strong> &mdash; the office, the meeting, anything that needs a clean line. Start here for trousers and blazers.</li>
+<li><strong>Wilfred</strong> &mdash; dinner, the wedding, the date. Start here for dresses and anything that drapes.</li>
+<li><strong>Wilfred Free</strong> &mdash; the in-between days. Knits and bodysuits that work with both of the above.</li>
+<li><strong>Tna</strong> &mdash; the weekend, the couch, the errand run. Cozy over technical.</li>
+<li><strong>Golden</strong> &mdash; when you are actually training. TNA&rsquo;s performance-minded sibling.</li>
+</ul>
+<p><strong>Is Babaton a good brand?</strong> For the money, yes &mdash; it is the strongest label in the house, and the Effortless Pant is the piece that built its reputation. The honest limit is fabric: Babaton is designed to look sharp now, not to survive a decade of dry cleaning.</p>
+<p><strong>Theory vs Aritzia</strong> is the upgrade decision underneath all of this. Theory costs more and wins on wool quality, shoulder construction, and how a trouser still hangs after a year of wear. Babaton wins on price, availability, and the fact that you can try six sizes in one store on a Saturday. Buy Babaton for your first serious work trousers; buy <strong>Theory</strong> once you know your size and want the pair that outlasts the job.</p>
 
 <h2>The Diffr Take</h2>
 <p>Here is the genuinely useful thing about Aritzia: it proves you <em>can</em> dress your whole week from one store, because it quietly built a different brand for each slot. That is the <a href="/diffr/blog/the-one-brand-rule">One-Brand Rule</a> turned inside out &mdash; one company, seven specialists.</p>
