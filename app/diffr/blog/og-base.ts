@@ -70,6 +70,7 @@ export const OG_BASE_SLUGS = new Set<string>([
   'dark-valet-tray-edc-brand-guide',
   'mini-but-mighty-edc-brand-guide',
   'tech-grooming-tray-brand-guide',
+  'mini-edc-sling-brand-guide',
   '54321-packing-method-brand-guide',
 ])
 

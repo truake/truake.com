@@ -2,24 +2,105 @@
 
 > **Daily limit:** ~10–12 requests per property. Open each link while logged into [Google Search Console](https://search.google.com/search-console), then click **Request indexing**.
 >
-> Property: `sc-domain:truake.com` · Updated: 2026-08-19  
+> Property: `sc-domain:truake.com` · Updated: 2026-08-24  
 > **Login verified:** `geekrlg@gmail.com` · Use **网址检查** (top search bar) → paste URL → **请求编入索引**
 
 **How to use:** One batch per day (~10 URLs). Paste each URL into **网址检查** → wait for crawl → **请求编入索引** if eligible. Mark ✓ when done.
 
-## ⚠️ 「已抓取 - 尚未编入索引」说明（2026-07-25）
+## ⚠️ Coverage Drilldown 说明（2026-08-24）
 
-GSC 报告 ~26 条，**多数是 `/diffr/blog/*/og` 动态分享图** — 不是 bug，不应请求索引。
+三份 GSC 导出共 **85 条**；**多数不是 bug**，勿对 start twin / `/og` 请求索引。
 
-| 类型 | 数量 | 处理 |
-|------|------|------|
-| `/og` PNG 端点 | ~16 | **不要** 在 GSC 请求索引；`robots.txt` 对 `*` disallow，但 **Twitterbot 等社交爬虫 allow**；`X-Robots-Tag: noindex` 保留 |
-| Diffr 哲学/对比文 | ~7 | 低商业意图，Google 常暂不索引；加强内链后 **只请求正文 URL** |
-| Pathoragy 博客 | ~4 | 次要属性；可缓 |
+| GSC 状态 | 数量 | 处理 |
+|----------|------|------|
+| 已抓取 - 尚未编入索引 | 26 | 15× `/og` PNG **忽略**；3× brand guide **请求索引**；3× 旧 `diffr.truake.com` BtB → apex **请求索引**；4× Pathoragy **可缓** |
+| 已发现 - 尚未编入索引 | 47 | 11× brand guide + 1× lines + 23× BtB/BtC → **Batch U 分批请求** |
+| 已被 robots.txt 屏蔽 | 12 | 全部 `/og` — **预期，忽略** |
 
-**Never request indexing:** any URL ending in `/og`. Request the **parent blog URL** only.
+**Never request indexing:**
+- any URL ending in `/og`
+- any `/diffr/start/*` twin (e.g. `running-starter-kit` — **noindex by design**, canonical → blog)
+- `/diffr/blog/share/*` · `/og-base/*`
 
-**Real pages worth indexing from the report:** `first-apartment-checklist-brand-guide`, `cost-per-use-rule`, `winter-layering-brand-guide` (not `/diffr/start/cold-weather-layering` — start twin is noindex), `diffr-vs-wirecutter`, `the-toothpaste-aisle-tax`.
+**Request the parent blog URL only.** SEO target for running gear = `running-gear-brand-guide`, **not** `running-starter-kit`.
+
+**Action:** → **Batch U** below（42 正文 URL · ~5 天 · 10/天 quota）
+
+## Batch U — GSC Coverage Drilldown（2026-08-24）· brand guides + BtB + BtC
+
+GSC 导出 2026-08-24：15 brand guides（含 tech-grooming-tray NEW）+ 16 BtB + 10 BtC + 1 lines explained。  
+**勿提交 `/og`** — parent blog URL only。  
+**勿提交 `/diffr/start/*`** — start twin 故意 noindex。
+
+### U-1 — Day 1（10 URLs）· 已抓取优先 + 新 flat lay + series hubs
+
+| ✓ | Page | URL to paste in 网址检查 | GSC 状态 |
+|---|------|--------------------------|----------|
+| | Running gear (SEO target; **not** start twin) | `https://truake.com/diffr/blog/running-gear-brand-guide` | 已抓取 |
+| | First apartment checklist | `https://truake.com/diffr/blog/first-apartment-checklist-brand-guide` | 已抓取 |
+| | Home bar essentials | `https://truake.com/diffr/blog/home-bar-essentials-brand-guide` | 已抓取 |
+| | Tech & grooming tray EDC (NEW · preset 140) | `https://truake.com/diffr/blog/tech-grooming-tray-brand-guide` | NEW |
+| | BtB Hamad International Airport | `https://truake.com/diffr/blog/behind-the-build-hamad-international-airport` | 已抓取 |
+| | BtB Dubai International Airport | `https://truake.com/diffr/blog/behind-the-build-dubai-international-airport` | 已抓取 |
+| | BtB Charité Campus Mitte | `https://truake.com/diffr/blog/behind-the-build-charit-campus-mitte` | 已抓取 |
+| | Behind the Build hub | `https://truake.com/diffr/blog/behind-the-build` | re-crawl |
+| | Behind the Contract hub | `https://truake.com/diffr/blog/behind-the-contract` | re-crawl |
+| | starter kits hub | `https://truake.com/diffr/blog/starter-kits` | re-crawl |
+
+### U-2 — Day 2（10 URLs）· brand guides 已发现
+
+| ✓ | Page | URL to paste in 网址检查 | GSC 状态 |
+|---|------|--------------------------|----------|
+| | Apartment cleaning supplies | `https://truake.com/diffr/blog/apartment-cleaning-supplies-brand-guide` | 已发现 |
+| | Baking essentials | `https://truake.com/diffr/blog/baking-essentials-brand-guide` | 已发现 |
+| | Beginner soccer gear | `https://truake.com/diffr/blog/beginner-soccer-gear-brand-guide` | 已发现 |
+| | Gift ideas for him | `https://truake.com/diffr/blog/gift-ideas-for-him-brand-guide` | 已发现 |
+| | Gym bag essentials | `https://truake.com/diffr/blog/gym-bag-essentials-brand-guide` | 已发现 |
+| | Luxury investment | `https://truake.com/diffr/blog/luxury-investment-brand-guide` | 已发现 |
+| | New home essentials | `https://truake.com/diffr/blog/new-home-essentials-brand-guide` | 已发现 |
+| | Pantry staples list | `https://truake.com/diffr/blog/pantry-staples-list-brand-guide` | 已发现 |
+| | Toddler essentials | `https://truake.com/diffr/blog/toddler-essentials-brand-guide` | 已发现 |
+| | Travel essentials | `https://truake.com/diffr/blog/travel-essentials-brand-guide` | 已发现 |
+
+### U-3 — Day 3（10 URLs）· womens work + lines + BtB 已发现（机场/场馆）
+
+| ✓ | Page | URL to paste in 网址检查 | GSC 状态 |
+|---|------|--------------------------|----------|
+| | Womens work capsule | `https://truake.com/diffr/blog/womens-work-capsule-brand-guide` | 已发现 |
+| | Apple ecosystem lines explained | `https://truake.com/diffr/blog/apple-ecosystem-lines-explained` | 已发现 |
+| | BtB AMC Loews Lincoln Square 13 | `https://truake.com/diffr/blog/behind-the-build-amc-loews-lincoln-square-13` | 已发现 |
+| | BtB Atlantis The Palm | `https://truake.com/diffr/blog/behind-the-build-atlantis-the-palm` | 已发现 |
+| | BtB Cleveland Clinic Neurological Institute | `https://truake.com/diffr/blog/behind-the-build-cleveland-clinic-neurological-institute` | 已发现 |
+| | BtB Jewel Changi Airport | `https://truake.com/diffr/blog/behind-the-build-jewel-changi-airport` | 已发现 |
+| | BtB Los Angeles International Airport | `https://truake.com/diffr/blog/behind-the-build-los-angeles-international-airport` | 已发现 |
+| | BtB Maya Cinemas North Las Vegas | `https://truake.com/diffr/blog/behind-the-build-maya-cinemas-north-las-vegas` | 已发现 |
+| | BtB Mercedes-Benz Stadium | `https://truake.com/diffr/blog/behind-the-build-mercedes-benz-stadium` | 已发现 |
+| | BtB Metropolitan Museum of Art | `https://truake.com/diffr/blog/behind-the-build-metropolitan-museum-of-art` | 已发现 |
+
+### U-4 — Day 4（10 URLs）· BtB 续 + BtC 医疗合同（1/2）
+
+| ✓ | Page | URL to paste in 网址检查 | GSC 状态 |
+|---|------|--------------------------|----------|
+| | BtB Sphere Las Vegas | `https://truake.com/diffr/blog/behind-the-build-sphere-las-vegas` | 已发现 |
+| | BtB Sydney Opera House | `https://truake.com/diffr/blog/behind-the-build-sydney-opera-house` | 已发现 |
+| | BtB Wynn Las Vegas | `https://truake.com/diffr/blog/behind-the-build-wynn-las-vegas` | 已发现 |
+| | BtC N. Landesgesundheitsagentur | `https://truake.com/diffr/blog/behind-the-contract-n-landesgesundheitsagentur-1014837` | 已发现 |
+| | BtC Osakidetza (Basque Health Service) | `https://truake.com/diffr/blog/behind-the-contract-osakidetza-servicio-vasco-de-salud-organizac-1014182` | 已发现 |
+| | BtC Samodzielny Publiczny Szpital (PL) | `https://truake.com/diffr/blog/behind-the-contract-samodzielny-publiczny-specjalistyczny-szpital-za-1014351` | 已发现 |
+| | BtC Stadt Wien Wiener Gesundheitsverbund | `https://truake.com/diffr/blog/behind-the-contract-stadt-wien-wiener-gesundheitsverbund-1014338` | 已发现 |
+| | BtC Steiermärkische Krankenanstalten (AT) | `https://truake.com/diffr/blog/behind-the-contract-steierm-rkische-krankenanstaltengesellschaft-m-b-1014289` | 已发现 |
+| | BtC Universitätsklinikum Freiburg | `https://truake.com/diffr/blog/behind-the-contract-universit-tsklinikum-freiburg-1014309` | 已发现 |
+| | BtC Uniwersyteckie Centrum Kliniczne (PL) | `https://truake.com/diffr/blog/behind-the-contract-uniwersyteckie-centrum-kliniczne-1014746` | 已发现 |
+
+### U-5 — Day 5（3 URLs）· BtC 医疗合同（2/2）
+
+| ✓ | Page | URL to paste in 网址检查 | GSC 状态 |
+|---|------|--------------------------|----------|
+| | BtC Prospitalia GmbH Ulm | `https://truake.com/diffr/blog/behind-the-contract-vertragseinrichtungen-der-prospitalia-gmbh-ulm-1014191` | 已发现 |
+| | BtC Wiener Gesundheitsverbund Vorstandsressort | `https://truake.com/diffr/blog/behind-the-contract-wiener-gesundheitsverbund-vorstandsressort-ein-1015268` | 已发现 |
+| | BtC Wojewódzkie Centrum Onkologii (PL) | `https://truake.com/diffr/blog/behind-the-contract-wojew-dzkie-wielospecjalistyczne-centrum-onkolog-1014560` | 已发现 |
+
+> **U-5 完成后：** 其余 BtB/BtC 已在 Batch I/L 送检或 sitemap 待自然爬取；若 GSC 仍显示「已发现」可续开 **U-6** 从 hub 列表补漏。
 
 ## Batch T — Dark valet tray EDC flat lay（2026-08-21）· preset 138 NEW
 
@@ -299,7 +380,8 @@ Ahrefs AI Search 落地页 + GSC query mirror；**只改 meta/TL;DR/FAQ，正文
 ## Already indexed / skip unless re-crawl needed
 
 - Toy Team posts use `/toy-covers/` — no og-base batch
-- `/diffr/start/*` preset pages — index via internal links + sitemap; request only if GSC shows "Discovered – not indexed"
+- **`/diffr/start/*` preset pages — intentionally `noindex`** (canonical → blog twin). Example: `running-starter-kit` → request `running-gear-brand-guide` instead. **Never request start URLs.**
+- `/diffr/blog/*/og` · `/og-base/*` · `/diffr/blog/share/*` — social assets, robots.txt blocked
 
 ## Slug registry
 

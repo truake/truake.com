@@ -183,6 +183,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the mini but mighty EDC flat lay is nine pocket-gear slots on dark charcoal gray — Gerber Splice 9-in-1 multi-tool, VONMÄHLEN High Six cable case, Belkin Dual USB-C Car Charger 36W, The James Brand Elko, MetMo Edge Stainless Steel, Kuko EDC Scotch-Brite Titanium Fatty L V4 fidget slider, MAXPEDITION Micro Pocket Organizer, Bellroy Tech Kit Arcade Grey, and Tile Mate (2024) — one brand each. Nextool, INIU, and Ugreen stay hidden; ignore YouTube title text and presenter portrait. Live catalog tiles below.',
   'tech-grooming-tray-brand-guide':
     'Bottom line: the tech and grooming tray flat lay is nine creative-carry slots in a light-grey organizer on blue fabric — Fujifilm X100VI, Hawkers DEALER GINGERBREAD BLUE sunglasses, Le Labo Hand Pomade (Hinoki), Beats Solo Buds Red, Apple iPod Classic 160GB, reMarkable Paper Pro Move, Samsung Galaxy Z Fold8 Lavender, Bellroy Note Sleeve, and Aesop Resurrection Rinse-Free Hand Mist — one brand each. iPhone and AirPods substituted; Le Labo and Hawkers correct initial Buly/Persol misreads. Live catalog tiles below.',
+  'mini-edc-sling-brand-guide':
+    'Bottom line: the mini EDC sling kit is nine compact crossbody slots on light oak — Bellroy Classic Sling 3L, Analogue Pocket White, Apple iPhone 16 Pro with PopSockets MagSafe PopGrip on the back, Matador Mini Pocket Blanket, Gerber GDC Zip Blade, Rivery Manufacturing Zero Black Knurled Pattern, Memobottle A7 Black Ink, and Gear Aid HEROCLIP Stealth Black — one brand each. PopSockets mounts on the phone in the cover. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1695,6 +1697,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How is this different from mini but mighty or dark valet tray EDC?',
       a: 'Mini but mighty EDC (preset 139) is pocket micro-gear on charcoal gray. Dark valet tray EDC (preset 138) is a nightstand luxury dump on espresso walnut. Tech and grooming tray EDC is camera-forward creative carry with Le Labo and Aesop grooming — preset 140.',
+    },
+  ],
+
+  'mini-edc-sling-brand-guide': [
+    {
+      q: 'What is the mini EDC sling kit flat lay?',
+      a: 'It is a nine-slot compact crossbody carry kit on light oak: Bellroy Classic Sling 3L, Analogue Pocket White, Apple iPhone 16 Pro, PopSockets MagSafe PopGrip, Matador Mini Pocket Blanket, Gerber GDC Zip Blade, Rivery Manufacturing Zero Black Knurled Pattern utility blade, Memobottle A7 Black Ink, and Gear Aid HEROCLIP Stealth Black — nine distinct brands.',
+    },
+    {
+      q: 'Why are PopSockets and iPhone separate slots but shown together on the cover?',
+      a: 'Diffr keeps one brand per catalog slot (Apple for the phone, PopSockets for the grip), but the OG cover renders them as one paired unit — two black PopGrips mounted vertically on the iPhone back, matching the YouTube reference.',
+    },
+    {
+      q: 'What user corrections were applied to the reference decode?',
+      a: 'Gerber GDC Zip Blade (not CRKT); Memobottle A7 Black Ink (not Dior); Matador Mini Pocket Blanket (not FlatPak); Rivery Zero Black Knurled Pattern (not Mophie power bank); Gear Aid HEROCLIP (not Black Diamond RockLock).',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 141. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+    {
+      q: 'How is this different from mini but mighty or X-PAC sling EDC?',
+      a: 'Mini but mighty EDC (preset 139) is pocket micro-gear on charcoal gray. X-PAC monochrome sling EDC (preset 137) is an eleven-slot black sling tech kit on white seamless. Mini EDC sling is a nine-slot crossbody kit with Analogue Pocket gaming, iPhone×PopSockets grip stack, and Memobottle flat hydration — preset 141.',
     },
   ],
 

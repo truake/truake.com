@@ -2004,6 +2004,55 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'mini-edc-sling-brand-guide',
+    title: 'Mini EDC Sling Kit: 9 Compact-Carry Picks, One Brand Per Slot',
+    description: 'Mini EDC sling flat lay decoded — Bellroy Classic Sling 3L, Analogue Pocket White, Apple iPhone 16 Pro with PopSockets MagSafe PopGrip, Matador Mini Pocket Blanket, Gerber GDC Zip Blade, Rivery Zero Black Knurled, Memobottle A7 Black Ink, and Gear Aid HEROCLIP. Nine brands on light oak.',
+    date: '2026-08-24',
+    readTime: '4 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'everyday carry', 'sling bag', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine mini EDC sling picks on light oak — Bellroy Classic Sling 3L, Analogue Pocket, iPhone 16 Pro with PopSockets, Matador Mini Pocket Blanket, Gerber GDC Zip Blade, Rivery Zero Knurled, Memobottle A7 Black Ink, and Gear Aid HEROCLIP — one brand per slot.',
+    content: `
+<p>The mini EDC sling kit flat lay is a compact crossbody carry spread on warm light-oak wood: a black Bellroy Classic Sling 3L crossbody bag as the hero anchor, a white Analogue Pocket handheld console with purple action buttons, an Apple iPhone 16 Pro in black titanium, a black PopSockets MagSafe PopGrip (shown mounted on the phone back in the reference), a gray Matador Mini Pocket Blanket packable travel blanket with red accent trim, a Gerber GDC Zip Blade compact utility knife, a Rivery Manufacturing Zero Black Knurled Pattern flat utility blade with pyramid knurl texture, a Memobottle A7 Black Ink flat reusable bottle, and a Gear Aid HEROCLIP Small Stealth Black carabiner with hook gate. Ignore the <strong>MINI EDC</strong> and <strong>EP. 12</strong> overlay typography &mdash; mood chrome, not product slots. Small brass fidget props, loose S-biners, and the silver pen at frame edge are composition filler, not slotted products.</p>
+
+<p>User corrections from the reference decode: gray folding knife = <strong>Gerber GDC Zip Blade</strong> (not CRKT); flat black bottle = <strong>Memobottle A7 Black Ink</strong> (not Dior); gray/red packable = <strong>Matador Mini Pocket Blanket</strong> (not FlatPak); black knurled slab = <strong>Rivery Zero Black Knurled</strong> (not Mophie power bank); carabiner = <strong>Gear Aid HEROCLIP</strong> (not Black Diamond RockLock). PopSockets and iPhone remain separate catalog slots but render as one paired unit on the OG cover.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Crossbody Sling</h3>
+<p><strong>Bellroy Classic Sling 3L</strong> &mdash; black nylon compact crossbody sling bag from the reference center hero.</p>
+
+<h3>Slot 2 &mdash; Pocket Gaming</h3>
+<p><strong>Analogue Pocket - White</strong> &mdash; white handheld console with purple action buttons and black screen.</p>
+
+<h3>Slot 3 &mdash; Daily Comms</h3>
+<p><strong>Apple iPhone 16 Pro Max &mdash; Black and Natural Titanium</strong> &mdash; black smartphone in slim case (PopSockets grip is slot 4).</p>
+
+<h3>Slot 4 &mdash; Phone Grip</h3>
+<p><strong>Black &mdash; MagSafe PopGrip</strong> &mdash; black circular phone grip mounted on the iPhone back in the reference.</p>
+
+<h3>Slot 5 &mdash; Packable Blanket</h3>
+<p><strong>Matador Mini Pocket Blanket</strong> &mdash; compact gray packable travel blanket with red accent trim (not FlatPak toiletry case).</p>
+
+<h3>Slot 6 &mdash; Pocket Blade</h3>
+<p><strong>Gerber GDC Zip Knife Zipper Blade Mini Small Concealed Utility</strong> &mdash; compact gray folding utility knife with circular pivot.</p>
+
+<h3>Slot 7 &mdash; Knurled Utility Blade</h3>
+<p><strong>Zero Black Knurled Pattern</strong> &mdash; Rivery Manufacturing flat black pyramid-knurl utility/craft blade (not a power bank).</p>
+
+<h3>Slot 8 &mdash; Flat Hydration</h3>
+<p><strong>A7 memobottle (Bundle) - Black Ink</strong> &mdash; flat rectangular reusable bottle.</p>
+
+<h3>Slot 9 &mdash; Clip / Attach</h3>
+<p><strong>HEROCLIP Carabiner Clip and Hook Small &mdash; Stealth Black</strong> &mdash; Gear Aid carabiner with integrated hook (not Black Diamond RockLock).</p>
+
+<h2>Why This Post Exists</h2>
+<p>Sling-first mini EDC mixes crossbody carry, pocket gaming, phone grip stack, two distinct blade lanes, flat hydration, and clip hardware faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All nine slots are pinned on preset 141 with nine distinct brands.</p>
+
+<p>Distinct from <a href="/diffr/blog/mini-but-mighty-edc-brand-guide">mini but mighty EDC</a> (charcoal pocket micro-gear) · <a href="/diffr/blog/xpac-monochrome-sling-edc-brand-guide">X-PAC monochrome sling EDC</a> (black sling on white seamless) · <a href="/diffr/blog/tech-grooming-tray-brand-guide">tech and grooming tray EDC</a> (creative tray on blue fabric). Explore the interactive scene: <a href="/diffr/start/mini-edc-sling-kit">Mini EDC Sling Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',
