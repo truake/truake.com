@@ -90,6 +90,33 @@ GSC 2026-08-24 显示 `aritzia in house brands`（35 impr）/ `aritzia house bra
 **20 篇已验证页面从未发布**（Apple Park、Madison Square Garden、Heathrow T5、Istanbul Airport、
 Tesla Gigafactory Texas、Walt Disney World、MetLife Stadium、Bellagio…）。
 本次用新增的 `--only-existing` 开关按住不发，**留作单独一次部署**，以便在 GSC 上干净归因模板改动的效果。
+→ 已于同日单独部署，见下节 **Batch W**。
+
+## Batch W — Behind the Build 新增 20 篇（2026-08-25）· P2 后续
+
+模板改动（Batch V）部署并核验后，单独发布库里 20 个已达门槛但从未上线的 venue。
+27 → **47 篇**。无需手工接线：自动进 `posts.ts` / sitemap（已验证 47 条）/ hub 页（已验证 47 链接）。
+BtB 系列本就不烘焙 share card（现有 27 篇里仅 6 篇有 og-base 条目），故不涉及 OG 流程。
+
+**优先提交这 5 条**（GSC 已有同名实体查询或知名度最高）：
+
+| ✓ | Page | URL to paste in 网址检查 |
+|---|------|--------------------------|
+| | Apple Park | `https://truake.com/diffr/blog/behind-the-build-apple-park` |
+| | Madison Square Garden | `https://truake.com/diffr/blog/behind-the-build-madison-square-garden` |
+| | Heathrow Terminal 5 | `https://truake.com/diffr/blog/behind-the-build-heathrow-terminal-5` |
+| | Walt Disney World | `https://truake.com/diffr/blog/behind-the-build-walt-disney-world` |
+| | Tesla Gigafactory Texas | `https://truake.com/diffr/blog/behind-the-build-tesla-gigafactory-texas` |
+
+**其余 15 篇**（按 10/天 quota 顺延，或依赖 sitemap 自然发现）：
+Allegiant Stadium、Amazon BFI4 Kent、Amsterdam Airport Schiphol、Apple Store Fifth Avenue、
+Bellagio、Cedar Point、Hong Kong International Airport、IKEA Covina、IKEA Giheung、
+IMAX Laser Theatres、Istanbul Airport、Mandarin Oriental Hyde Park London、MetLife Stadium、
+Tokyo DisneySea、Universal Studios Hollywood。
+
+> 新页的「谁建的」声明已逐条核验：Mortenson（Allegiant）、Rudolph and Sletten（Apple Park）、
+> Turner Construction（MSG）、Skanska（MetLife）为明确总包；其余 14 篇证据不足总包档，
+> 按分档规则回退为诚实措辞，**无一条错误声明**。
 
 ### P1 补充（2026-08-25）
 
