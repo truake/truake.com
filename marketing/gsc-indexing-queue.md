@@ -43,7 +43,29 @@ GSC 2026-08-24 显示 `aritzia in house brands`（35 impr）/ `aritzia house bra
 
 | ✓ | Page | URL to paste in 网址检查 | 目标 query |
 |---|------|--------------------------|-----------|
-| | Aritzia in-house brands（正文大改 · 必须重新抓取） | `https://truake.com/diffr/blog/aritzia-sub-brands-guide` | aritzia in house brands / house brands / sister company |
+| ✅ | Aritzia in-house brands（正文大改 · 必须重新抓取） | `https://truake.com/diffr/blog/aritzia-sub-brands-guide` | aritzia in house brands / house brands / sister company |
+| | Uniqlo lines（P1 · 正文 410→943 词） | `https://truake.com/diffr/blog/uniqlo-lines-explained` | heattech vs airism / airism base layers / what is airism |
+| | Adidas lines（P1 · 正文 594→1225 词） | `https://truake.com/diffr/blog/adidas-lines-explained` | adidas lines / three main adidas brands / terrex range explained |
+
+### P1 补充（2026-08-25）
+
+**Uniqlo** —— 目标簇：`airism base layers`（10 次，第 6.3 位，全站单条最大）、
+`heattech vs airism` 系列 4 个变体合计 16 次全部卡在第 9–10 位、`what is airism`（第 22 位）。
+新增 `HEATTECH vs AIRism — The One-Line Answer` 直答 H2 + 对比表（置于正文最前），
+HEATTECH 三档温区表（标准 5–20°C / Extra Warm 1.5× −5–15°C / Ultra Warm 2.25× −20–10°C，
+数据取自 Uniqlo 官方 FAQ），AIRism 补「是不是 base layer」直答 + Mesh/Cotton 版本区分。
+新增 4 条 FAQ，TL;DR 与 meta 同步。
+
+**Adidas** —— 目标簇：`adidas lines`（28 次，第 9.29 位）、`adidas 4 lines`（5 次，第 7.2 位）、
+`adidas terrex range explained`（第 6 位）、`which are the three main adidas brands`（第 7 位）、
+`which one is original adidas`（第 6 位）。另有约 25 次 LLM 探针查询
+（`evaluate ... adidas - XX on outdoor sports`，第 2–10 位）集中指向 outdoor → 强化 Terrex 是对的。
+新增三个直答 H2：三条主线表（Performance/Originals/Sportswear × 3-Bar/Trefoil 徽标对照）、
+`Originals vs Performance 怎么分`（徽标判别法 + Trefoil 1971 设计 /1972 慕尼黑发布 /1997 让位 3-Bar 的沿革）、
+`哪个才是 original adidas + 四条杠是什么`（**歧义拆解**：问子品牌 → Originals；
+问真伪数条纹 → adidas 是三条杠品牌，**不存在四条杠产品线**）。
+Terrex 扩成完整 range 表：Free Hiker（徒步）/ Agravic（越野跑）/ Five Ten（攀岩 MTB，2011 收购）。
+新增 4 条 FAQ，TL;DR 与 meta 同步。事实源：adidas FY2025 年报。
 
 ## Batch U — GSC Coverage Drilldown（2026-08-24）· brand guides + BtB + BtC
 

@@ -254,14 +254,34 @@ export const posts: BlogPost[] = [
   {
     slug: 'adidas-lines-explained',
     title: "Adidas Lines Explained: Sub-Brands, Originals vs Performance & Which Line Fits Your Scene",
-    description: "Adidas lines explained — what's the difference between Originals and Performance? Originals for street (Samba, Gazelle), Sportswear for everyday joggers, Performance for training and running, Terrex for trail. Pick your lane and decide once.",
+    description: "Adidas lines explained — Originals vs Performance is a logo test: Trefoil means archive and street, 3-Bar means built for sport. Plus Sportswear for everyday, the full Terrex outdoor range (Free Hiker, Agravic, Five Ten), and why there is no four-stripe adidas.",
     date: '2026-08-03',
-    readTime: '6 min read',
-    tags: ['adidas lines explained', 'adidas sub brands', 'adidas originals', 'adidas performance', 'adidas terrex', 'athleisure', 'one brand rule'],
+    readTime: '8 min read',
+    tags: ['adidas lines explained', 'adidas sub brands', 'adidas originals', 'adidas performance', 'adidas terrex', 'terrex range explained', 'original adidas', 'athleisure', 'one brand rule'],
     category: 'product',
     excerpt: "Three stripes, half a dozen worlds. Adidas is sorted by scene — once you know which line is for which part of your life, the wall stops feeling random.",
     content: `
 <p>Adidas is not one range &mdash; it is a house of lines, each built for a different way you move and dress. The stripes look the same on the tag, but Originals, Sportswear, Performance, and Terrex solve different jobs. That is the same <a href="/diffr/blog/why-more-choices-makes-you-worse-at-shopping">choice overload</a> Nike and Lululemon run, just with a different logo. Here is the map &mdash; which Adidas line is for which scene. Pair it with <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a> if you are cross-shopping, or <a href="/diffr/blog/world-cup-2026-kit-brands">World Cup kit brands</a> if you came here from football.</p>
+
+<h2>What Are the Three Main Adidas Lines?</h2>
+<p>Adidas officially sorts its whole catalog into just <strong>two categories &mdash; Performance and Lifestyle</strong>. In the store you meet them as three lines, and the fastest way to tell them apart is the logo on the chest:</p>
+<table><thead><tr><th>Line</th><th>Logo</th><th>Built for</th><th>Icons</th></tr></thead><tbody>
+<tr><td><strong>Performance</strong></td><td>3-Bar &ldquo;Badge of Sport&rdquo;</td><td>Built from sport, worn for sport &mdash; football, running, training, basketball, outdoor</td><td>Predator, F50, Adizero, Supernova, Dropset</td></tr>
+<tr><td><strong>Originals</strong></td><td>Trefoil</td><td>Lifestyle. The archive, worn on the street</td><td>Samba, Gazelle, Superstar, Stan Smith, Handball Spezial</td></tr>
+<tr><td><strong>Sportswear</strong></td><td>3-Bar</td><td>Also Lifestyle, but everyday &mdash; born from sport, worn for style</td><td>Essentials joggers, hoodies, crews</td></tr>
+</tbody></table>
+<p>Two more sit at the edges: <strong>Terrex</strong> is the outdoor division inside Performance, and <strong>Y-3</strong> is the Yohji Yamamoto design collaboration. Everything below breaks each lane down by scene.</p>
+
+<h2>Adidas Originals vs Performance — How to Tell Them Apart</h2>
+<p>This is the one people actually get wrong in the store, and there is a reliable shortcut: <strong>look at the logo, not the shoe.</strong></p>
+<p><strong>Trefoil means Originals.</strong> The three-leaf mark was designed in 1971 and launched for the 1972 Munich Olympics, and it was the adidas corporate logo right up until 1997. When the 3-Bar took over as the company emblem, the Trefoil was handed to the heritage line &mdash; so today it is a deliberate signal that a piece comes from the archive and is meant for the street.</p>
+<p><strong>3-Bar means built for sport.</strong> The angled three bars (the &ldquo;Badge of Sport&rdquo;) started life on the Equipment range and now marks Performance product &mdash; engineered fabrics, real cushioning, fit designed around sweat.</p>
+<p>The practical consequence: a Samba is a beautiful shoe with a flat gum sole and almost no cushioning, because it was never meant for a treadmill. If you are running or standing all day, you want Performance, no matter how good the Originals pair looks.</p>
+
+<h2>Which Adidas Is the &ldquo;Original&rdquo; One — and What About Four Stripes?</h2>
+<p>This question gets asked two different ways, so here are both answers.</p>
+<p><strong>If you mean which line is the original:</strong> that is <strong>adidas Originals</strong>, the heritage division carrying the Trefoil. It is not older than the company &mdash; it is the line that reissues the company&rsquo;s own archive.</p>
+<p><strong>If you are counting stripes to check whether a pair is genuine:</strong> adidas is <em>the</em> three-stripe brand &mdash; three is the mark it actually uses and defends in court. <strong>There is no four-stripe adidas line.</strong> Stripe count alone is not a complete authenticity test, but if you are looking at four stripes, you are not looking at an adidas line you can go and buy by name.</p>
 
 <h2>Originals — Street Heritage</h2>
 <p>The lane: lifestyle and street, not the gym. The vibe: archive shapes, campus suede, Samba and Gazelle energy. <strong>The one piece:</strong> Samba or Gazelle in a neutral colorway &mdash; the default Adidas icon that goes with everything.</p>
@@ -274,6 +294,14 @@ export const posts: BlogPost[] = [
 
 <h2>Terrex — Trail &amp; Outdoors</h2>
 <p>The lane: hiking, trail running, weather. The vibe: grip, Gore-Tex options, gear that expects mud. <strong>The one piece:</strong> a Terrex trail shoe or shell when Sportswear would quit outside.</p>
+<p><strong>The Terrex range, explained.</strong> Terrex is not a side project &mdash; it is the Outdoor category inside adidas Performance, and it splits along one line: are you hiking or are you running on trail?</p>
+<table><thead><tr><th>Franchise</th><th>Job</th><th>Pick it when</th></tr></thead><tbody>
+<tr><td><strong>Free Hiker</strong></td><td>Hiking</td><td>You want a cushioned, boot-height hiker that walks like a running shoe. The Terrex piece most people should start with</td></tr>
+<tr><td><strong>Agravic</strong></td><td>Trail running</td><td>You are actually running off-road &mdash; lighter, lower, tuned for pace over protection</td></tr>
+<tr><td><strong>Five Ten</strong></td><td>Climbing &amp; mountain biking</td><td>Grip is the entire point. Adidas acquired Five Ten in 2011; its Stealth rubber is the reason climbers and MTB riders buy it</td></tr>
+</tbody></table>
+<p>Add <strong>Gore-Tex</strong> only if you genuinely walk in wet weather &mdash; it costs more and breathes less, which is the wrong trade on dry trails. Terrex apparel follows the same logic as the footwear: shells and midlayers built to be rained on, not gym clothes with a mountain logo.</p>
+<p>Cross-shopping the outdoor lane? See <a href="/diffr/blog/patagonia-lines-explained">Patagonia lines explained</a> for the layering side &mdash; Adidas wins on footwear grip, Patagonia on repairable layers.</p>
 
 <h2>Y-3 — Design Collab</h2>
 <p>The lane: fashion-forward, not beginner default. The vibe: Yohji Yamamoto silhouettes at a premium. <strong>Skip unless</strong> you already know you want the design piece &mdash; Originals and Performance cover 95% of real life.</p>
@@ -320,23 +348,44 @@ export const posts: BlogPost[] = [
   {
     slug: 'uniqlo-lines-explained',
     title: "Uniqlo Lines Explained: HEATTECH vs AIRism, LifeWear & Which Line for Which Season",
-    description: "Uniqlo HEATTECH vs AIRism — what's the difference? HEATTECH is the thin winter base layer; AIRism is summer and humidity; LifeWear Supima is everyday basics. The full fabric-line map so you pick once.",
+    description: "Uniqlo HEATTECH vs AIRism — what's the difference? HEATTECH keeps heat in, AIRism lets it out. Full comparison table, all three HEATTECH warmth tiers with temperature ranges, AIRism mesh vs cotton, and where LifeWear Supima fits. Pick the right line once.",
     date: '2026-08-03',
-    readTime: '6 min read',
-    tags: ['uniqlo lines explained', 'uniqlo heattech', 'uniqlo airism', 'lifewear', 'basics wardrobe', 'one brand rule'],
+    readTime: '7 min read',
+    tags: ['uniqlo lines explained', 'heattech vs airism', 'uniqlo heattech', 'uniqlo airism', 'airism base layers', 'lifewear', 'basics wardrobe', 'one brand rule'],
     category: 'product',
     excerpt: "Uniqlo looks like one store of basics — but HEATTECH, AIRism, and LifeWear are different fabric systems for different jobs. Learn the map once.",
     content: `
 <p>Uniqlo is the default answer for affordable basics &mdash; but the rack is not one product type. LifeWear, HEATTECH, AIRism, Supima cotton, and seasonal collabs (+J, UT) are <strong>different fabric lines for different climates and layers.</strong> Buy the wrong line and you wonder why the tee feels clammy in summer or thin in winter. Here is the map. Building a <a href="/diffr/blog/casual-wardrobe-brand-guide">casual starter wardrobe</a> or a <a href="/diffr/blog/54321-packing-method-brand-guide">travel capsule</a>? Match the Uniqlo line to the job first.</p>
+
+<h2>HEATTECH vs AIRism — The One-Line Answer</h2>
+<p><strong>HEATTECH keeps heat in; AIRism lets heat out.</strong> They are both thin base layers built by Uniqlo with the Japanese fibre company Toray, they look almost identical on the hanger, and they do opposite jobs. HEATTECH is winter. AIRism is summer. That is the whole distinction.</p>
+<table><thead><tr><th></th><th>HEATTECH</th><th>AIRism</th></tr></thead><tbody>
+<tr><td><strong>The job</strong></td><td>Trap body heat without bulk</td><td>Move sweat off skin and dry fast</td></tr>
+<tr><td><strong>How it works</strong></td><td>Fibres absorb the water vapour your body gives off and convert it to heat; air pockets in the yarn hold that warmth in</td><td>Ultra-fine synthetic fibres wick moisture outward and spread it to evaporate, with a cool-touch finish</td></tr>
+<tr><td><strong>Season</strong></td><td>Cold and dry</td><td>Hot, humid, or any time you will sweat</td></tr>
+<tr><td><strong>Wear it</strong></td><td>Under a shirt, sweater or coat all winter</td><td>Under a shirt in summer, on a flight, or as a gym layer</td></tr>
+<tr><td><strong>The mistake</strong></td><td>Wearing it indoors or in a heated office &mdash; you will overheat</td><td>Expecting warmth from it &mdash; it is designed to shed heat</td></tr>
+</tbody></table>
+<p><strong>The rule:</strong> if you would otherwise be cold, HEATTECH. If you would otherwise be damp, AIRism. If you are packing for a trip that crosses both, bring one of each rather than two of either &mdash; see the <a href="/diffr/blog/54321-packing-method-brand-guide">54321 packing method</a>.</p>
 
 <h2>LifeWear — Everyday Basics</h2>
 <p>The lane: year-round staples &mdash; tees, oxford shirts, chinos, jeans. The vibe: simple, durable, neutral. <strong>The one piece:</strong> Supima cotton crew tee &mdash; the foundation everything else stacks on.</p>
 
 <h2>HEATTECH — Cold Weather Base</h2>
 <p>The lane: winter base layers &mdash; heat retention without bulk. The vibe: thin, warm, worn under everything. <strong>The one piece:</strong> HEATTECH crew or tights as your winter under-layer &mdash; not a standalone outfit.</p>
+<p>HEATTECH is not one product &mdash; it comes in three warmth tiers, and picking the wrong one is the most common Uniqlo mistake. These are Uniqlo&rsquo;s own temperature guidelines:</p>
+<table><thead><tr><th>Tier</th><th>Warmth</th><th>Suggested range</th><th>Buy it for</th></tr></thead><tbody>
+<tr><td><strong>HEATTECH</strong></td><td>Baseline</td><td>5&deg;C to 20&deg;C</td><td>A normal winter commute; thin enough to disappear under a shirt</td></tr>
+<tr><td><strong>Extra Warm</strong></td><td>1.5&times;</td><td>&minus;5&deg;C to 15&deg;C</td><td>Real cold. Brushed cotton-faced inside, noticeably softer on skin</td></tr>
+<tr><td><strong>Ultra Warm</strong></td><td>2.25&times;</td><td>&minus;20&deg;C to 10&deg;C</td><td>Sub-zero and winter sports. Waffle-knit and opaque enough to wear on its own</td></tr>
+</tbody></table>
+<p><strong>Most people should buy standard HEATTECH,</strong> not Extra Warm. The tiers are built for outdoor exposure, and a heated office in an Extra Warm crew is genuinely uncomfortable. Size it close &mdash; a loose base layer leaves air gaps and defeats the point.</p>
 
 <h2>AIRism — Hot &amp; Humid</h2>
 <p>The lane: summer, travel, gym under-layer. The vibe: lightweight, quick-dry, cool touch. <strong>The one piece:</strong> AIRism tee or boxer brief when cotton would stay wet.</p>
+<p><strong>What is AIRism?</strong> It is Uniqlo&rsquo;s hot-weather fabric line &mdash; ultra-fine synthetic fibres engineered with Toray to pull moisture off the skin, spread it across the fabric so it evaporates quickly, and feel cool on contact. Most of the range is also treated to resist odour and cut stretch-out.</p>
+<p><strong>Is AIRism a base layer?</strong> Yes &mdash; that is precisely what it is designed to be, just for the opposite season from a thermal one. Worn under a dress shirt it keeps sweat off the outer fabric; worn under a jersey it is a summer training layer. It works as a standalone tee too, but the engineering is aimed at the layer against your skin.</p>
+<p>Three versions worth knowing: <strong>standard AIRism</strong> is the default; <strong>AIRism Mesh</strong> is the most breathable and the right pick for genuine heat; <strong>AIRism Cotton</strong> puts cotton on the outside and the technical fabric against your skin, so it reads as a normal tee. If you are buying one thing, buy the mesh &mdash; the difference in humidity is the whole reason to own it.</p>
 
 <h2>Ultra Light Down &amp; BlockTech — Outer Layers</h2>
 <p>The lane: packable warmth and rain. The vibe: commuter-friendly shells and down that stuffs small. <strong>The one piece:</strong> Ultra Light Down jacket for dry cold; BlockTech when you need rain on the commute.</p>

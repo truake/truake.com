@@ -26,11 +26,11 @@ export const BLOG_TLDR: Record<string, string> = {
   'lululemon-lines-explained':
     "Bottom line: Lululemon isn't one product, it's a set of collections, each built for a different scene — so instead of scrolling 200 leggings, you pick the lane that matches your week and decide once. Align is the everyday, low-impact line (the Align High-Rise Pant). ABC is the commute/smart-casual trouser (the ABC Pant, “anti-ball-crushing,” reads as real pants). Define is the studio-to-street layer (the Define Jacket). Scuba is cozy weekend fleece (the Scuba Oversized Half-Zip). Steady State and License to Train are the serious-sweat run/train lanes. Tennis & Golf is sport-specific for the court and course. Match the lane to your life: everyday → Align, commute → ABC, weekend → Scuba, sweat → Steady State, court → Tennis & Golf.",
   'adidas-lines-explained':
-    "Bottom line: Adidas isn't one range — it's a house of lines, each built for a scene — so match the lane and decide once. Originals (Samba, Gazelle) is street heritage; Sportswear is everyday athletic joggers and hoodies; Performance is training and running (Ultraboost, Adizero); Terrex is trail and outdoors; Y-3 is design-forward and optional. Originals vs Performance: street vs sweat. Everyday street → Originals, casual athletic → Sportswear, sweat → Performance, trail → Terrex.",
+    "Bottom line: Adidas isn't one range — it's a house of lines, each built for a scene — so match the lane and decide once. Adidas officially splits everything into two categories, Performance and Lifestyle, and the fastest way to tell them apart is the logo: Trefoil means Originals (the archive, worn on the street — Samba, Gazelle, Superstar, Stan Smith), 3-Bar 'Badge of Sport' means built for sport (Predator, F50, Adizero, Supernova). Sportswear is the everyday Lifestyle line — joggers, hoodies, crews. Terrex is the Outdoor division inside Performance: Free Hiker for hiking, Agravic for trail running, Five Ten for climbing and MTB grip. Y-3 is the Yohji Yamamoto collab and optional. There is no four-stripe adidas line — adidas is the three-stripe brand. Everyday street → Originals, casual athletic → Sportswear, sweat → Performance, trail → Terrex.",
   'gap-inc-lines-explained':
     "Bottom line: Athleta vs Lululemon — Athleta Elation is the direct cross-shop for Align-level leggings, often lower on sale; Lululemon wins on fabric story. Gap Inc. is four storefronts: Athleta (active/yoga), Banana Republic (work), Gap (everyday denim), Old Navy (budget/family). Sweat → Athleta, office → Banana Republic, weekend denim → Gap, kids and budget → Old Navy.",
   'uniqlo-lines-explained':
-    "Bottom line: Uniqlo isn't one fabric — it's a set of lines built for different climates and layers. HEATTECH vs AIRism: HEATTECH is the thin winter base layer worn under everything; AIRism is quick-dry summer and humidity. LifeWear Supima is everyday basics; Ultra Light Down and BlockTech are packable warmth and rain shells; +J and UT are collab drops you can skip on a first kit. Everyday → LifeWear, cold → HEATTECH base, heat → AIRism, outer → Ultra Light Down or BlockTech.",
+    "Bottom line: Uniqlo isn't one fabric — it's a set of lines built for different climates and layers. HEATTECH vs AIRism in one line: HEATTECH keeps heat in, AIRism lets heat out. Both are thin base layers built with Toray; HEATTECH converts body moisture into warmth, AIRism wicks it away and dries fast. HEATTECH comes in three tiers — standard (5°C to 20°C), Extra Warm (1.5× warmer, −5°C to 15°C), Ultra Warm (2.25× warmer, −20°C to 10°C) — and most people should buy standard. AIRism comes in standard, Mesh (most breathable) and Cotton, and yes, it is a base layer by design. LifeWear Supima is everyday basics; Ultra Light Down and BlockTech are packable warmth and rain shells; +J and UT are collab drops you can skip on a first kit. Everyday → LifeWear, cold → HEATTECH base, heat → AIRism, outer → Ultra Light Down or BlockTech.",
   'apple-ecosystem-lines-explained':
     "Bottom line: Apple's ecosystem is five device lanes — phone, tablet, laptop, watch, audio — each with a job, so you stop buying overlap. iPhone is the pocket hub; iPad Air is portable screen and couch compute; MacBook Air is deep work; Apple Watch SE/Series is wrist and health; AirPods Pro is private audio and travel. Buy the lane you actually use — not an iPad Pro keyboard plus a MacBook for the same job.",
   'patagonia-lines-explained':
@@ -312,6 +312,22 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: "Terrex is Adidas's outdoor and trail line — hiking shoes, trail runners, Gore-Tex shells, and gear built for mud, rain, and uneven terrain. It's the lane when Sportswear joggers and Originals sneakers would fail outside. For city everyday, Originals or Sportswear; for the trail, Terrex.",
     },
     {
+      q: 'What are the three main Adidas brands?',
+      a: "Adidas officially splits its catalog into two categories, Performance and Lifestyle, which you meet in stores as three lines. Performance carries the 3-Bar 'Badge of Sport' logo and is built from sport and worn for sport — football, running, training, basketball and outdoor. Originals carries the Trefoil and is the archive worn on the street (Samba, Gazelle, Superstar, Stan Smith). Sportswear also sits under Lifestyle but covers everyday joggers, hoodies and crews. Terrex is the outdoor division inside Performance, and Y-3 is the Yohji Yamamoto design collaboration.",
+    },
+    {
+      q: 'Which Adidas is the original one?',
+      a: "If you mean which line is the original, that is adidas Originals — the heritage division marked by the Trefoil logo. The Trefoil was designed in 1971 and launched for the 1972 Munich Olympics, and it served as the adidas corporate logo until 1997, when the 3-Bar 'Badge of Sport' took over. The Trefoil then became the signifier for the archive line, so today it marks product meant for the street rather than for sport.",
+    },
+    {
+      q: 'Does Adidas have a four-stripe line?',
+      a: "No. Adidas is the three-stripe brand — three stripes is the mark it actually uses and defends in court, and there is no four-stripe adidas line you can buy by name. If you are counting stripes to judge whether a pair is genuine, stripe count alone is not a complete authenticity test, but four stripes is not an adidas product line.",
+    },
+    {
+      q: 'What is in the Adidas Terrex range?',
+      a: "Terrex is the Outdoor category inside adidas Performance, and it splits by what you are actually doing. Free Hiker is the cushioned boot-height hiker and the best starting point for most people. Agravic is the trail-running franchise — lighter and lower, tuned for pace over protection. Five Ten, which adidas acquired in 2011, covers climbing and mountain biking, where its Stealth rubber grip is the whole reason to buy it. Add Gore-Tex only if you genuinely walk in wet weather; it costs more and breathes less, which is the wrong trade on dry trails.",
+    },
+    {
       q: 'Which Adidas line is best for everyday wear?',
       a: "For street style, Adidas Originals — Samba or Gazelle in a neutral colorway. For casual athletic (joggers, hoodies, commute), Adidas Sportswear Essentials. Originals reads more heritage-icon; Sportswear reads more clean athletic basics. Both are everyday lanes; Performance is for when you actually sweat.",
     },
@@ -368,6 +384,22 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Which Uniqlo line should I buy first?',
       a: "Start with LifeWear Supima cotton crew tees — the foundation of a casual capsule. Add HEATTECH base layers if you live somewhere cold, or AIRism if summers are hot and humid. Ultra Light Down comes next if you need a packable jacket. Skip +J and UT collabs until the core basics are covered.",
+    },
+    {
+      q: 'Is AIRism a base layer?',
+      a: "Yes — AIRism is designed specifically as a base layer, just for the opposite season from a thermal one. Worn under a dress shirt it keeps sweat off the outer fabric; worn under a jersey it works as a summer training layer. The ultra-fine fibres pull moisture off your skin and spread it so it evaporates fast, with a cool-touch finish. It works as a standalone tee too, but the engineering is aimed at the layer against your skin.",
+    },
+    {
+      q: 'What is AIRism?',
+      a: "AIRism is Uniqlo's hot-weather fabric line, engineered with the Japanese fibre company Toray. Ultra-fine synthetic fibres wick moisture off the skin, spread it across the fabric to evaporate quickly, and feel cool on contact; most of the range is also treated to resist odour. It comes in three versions: standard AIRism, AIRism Mesh (the most breathable, and the right pick for real heat), and AIRism Cotton (cotton on the outside, technical fabric against the skin, so it reads as a normal tee).",
+    },
+    {
+      q: "What's the difference between HEATTECH, Extra Warm and Ultra Warm?",
+      a: "They are three warmth tiers of the same base layer. Standard HEATTECH is the baseline, suggested for roughly 5°C to 20°C. Extra Warm is 1.5× warmer with a brushed cotton-faced inside, suggested for −5°C to 15°C. Ultra Warm is 2.25× warmer with a waffle knit thick enough to wear on its own, suggested for −20°C to 10°C. Those are Uniqlo's own guidelines. Most people should buy standard HEATTECH — the higher tiers are built for outdoor exposure and get uncomfortable in a heated office.",
+    },
+    {
+      q: 'Which AIRism should I buy — standard, mesh, or cotton?',
+      a: "Buy AIRism Mesh if you are dealing with genuine heat or humidity; the extra breathability is the whole reason to own the line. Standard AIRism is the everyday default under work shirts. AIRism Cotton is the one to pick if you want it to look and feel like a normal tee, since the cotton faces outward and the technical fabric sits against your skin. Size all of them close — a loose base layer leaves air gaps and works less well.",
     },
   ],
 
