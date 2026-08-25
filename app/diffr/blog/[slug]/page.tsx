@@ -93,6 +93,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'mini-but-mighty-edc-brand-guide': 139,
   'tech-grooming-tray-brand-guide': 140,
   'mini-edc-sling-brand-guide': 141,
+  'charcoal-travel-tech-edc-brand-guide': 142,
 }
 
 export async function generateStaticParams() {

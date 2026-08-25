@@ -185,6 +185,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the tech and grooming tray flat lay is nine creative-carry slots in a light-grey organizer on blue fabric — Fujifilm X100VI, Hawkers DEALER GINGERBREAD BLUE sunglasses, Le Labo Hand Pomade (Hinoki), Beats Solo Buds Red, Apple iPod Classic 160GB, reMarkable Paper Pro Move, Samsung Galaxy Z Fold8 Lavender, Bellroy Note Sleeve, and Aesop Resurrection Rinse-Free Hand Mist — one brand each. iPhone and AirPods substituted; Le Labo and Hawkers correct initial Buly/Persol misreads. Live catalog tiles below.',
   'mini-edc-sling-brand-guide':
     'Bottom line: the mini EDC sling kit is nine compact crossbody slots on light oak — Bellroy Classic Sling 3L, Analogue Pocket White, Apple iPhone 16 Pro with PopSockets MagSafe PopGrip on the back, Matador Mini Pocket Blanket, Gerber GDC Zip Blade, Rivery Manufacturing Zero Black Knurled Pattern, Memobottle A7 Black Ink, and Gear Aid HEROCLIP Stealth Black — one brand each. PopSockets mounts on the phone in the cover. Live catalog tiles below.',
+  'charcoal-travel-tech-edc-brand-guide':
+    'Bottom line: the charcoal travel-tech EDC flat lay is nine slots on dark charcoal — Manhattan Portage Europa (MD), Apple iPad Pro M4, Vertu Metavertu 2, Ricoh GR IIIx, MiiR x Carryology 20oz bottle, Freitag F242 STU laptop sleeve, Wpc. IZA ZA003 umbrella, Orbitkey Foldable Tote Bag, and Nimble SHAREPOWER — one brand each. SUBDECODE Lynx decode → Manhattan Portage; Zendure hidden. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1796,6 +1798,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How is this different from mini but mighty or X-PAC sling EDC?',
       a: 'Mini but mighty EDC (preset 139) is pocket micro-gear on charcoal gray. X-PAC monochrome sling EDC (preset 137) is an eleven-slot black sling tech kit on white seamless. Mini EDC sling is a nine-slot crossbody kit with Analogue Pocket gaming, iPhone×PopSockets grip stack, and Memobottle flat hydration — preset 141.',
+    },
+  ],
+
+  'charcoal-travel-tech-edc-brand-guide': [
+    {
+      q: 'What is the charcoal travel-tech EDC flat lay?',
+      a: 'It is a nine-slot travel-tech kit on dark charcoal: Manhattan Portage Europa (MD) messenger, Apple iPad Pro M4, Vertu Metavertu 2, Ricoh GR IIIx, MiiR x Carryology 20oz bottle, Freitag F242 STU laptop sleeve, Wpc. IZA Compact ZA003 umbrella, Orbitkey Foldable Tote Bag, and Nimble SHAREPOWER — nine distinct brands.',
+    },
+    {
+      q: 'Why Manhattan Portage instead of the sling in the reference photo?',
+      a: 'The reference decode was SUBDECODE Lynx Sling Bag — a SlashMode channel-locked SKU. Editorial substitute is Manhattan Portage Europa (MD) With Back Zipper and Compartments in black Cordura.',
+    },
+    {
+      q: 'Why Vertu and not iPhone? Why Nimble instead of Zendure?',
+      a: 'iPhone has appeared in too many recent flat lays — slot 3 is Vertu Metavertu 2. The silver power brick decode was Zendure (hidden CN brand); editorial substitute is Nimble SHAREPOWER Portable Charger.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 142. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+    {
+      q: 'How is this different from mini EDC sling or tech grooming tray?',
+      a: 'Mini EDC sling (preset 141) is light-oak crossbody with Bellroy + iPhone + Memobottle. Tech grooming tray (preset 140) is a creative tray on blue fabric with Fujifilm X100VI. Charcoal travel-tech EDC is messenger + tablet + luxury phone + GR IIIx on dark charcoal — preset 142.',
     },
   ],
 

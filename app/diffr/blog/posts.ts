@@ -2233,6 +2233,55 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'charcoal-travel-tech-edc-brand-guide',
+    title: 'Charcoal Travel Tech EDC: 9 Cross-Brand Picks, One Brand Per Slot',
+    description: 'Charcoal travel-tech EDC flat lay decoded — Manhattan Portage Europa (MD), Apple iPad Pro M4, Vertu Metavertu 2, Ricoh GR IIIx, MiiR x Carryology 20oz, Freitag F242 STU, Wpc. IZA ZA003, Orbitkey Foldable Tote, Nimble SHAREPOWER. Nine brands on dark charcoal.',
+    date: '2026-08-25',
+    readTime: '4 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'everyday carry', 'travel tech', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine charcoal travel-tech EDC picks — Manhattan Portage Europa MD messenger, iPad Pro M4, Vertu Metavertu 2, Ricoh GR IIIx, MiiR Carryology bottle, Freitag F242 STU sleeve, Wpc. ZA003 umbrella, Orbitkey Foldable Tote, Nimble SHAREPOWER — one brand per slot.',
+    content: `
+<p>The charcoal travel-tech EDC flat lay is a dark-surface travel kit: a black <strong>Manhattan Portage Europa (MD)</strong> Cordura messenger with front horizontal zip and red NYC logo patch (editorial substitute for a SUBDECODE Lynx Sling decode tied to SlashMode), a silver <strong>Apple iPad Pro M4</strong> tablet back, a gold <strong>Vertu Metavertu 2</strong> luxury smartphone (replacing the reference iPhone), a matte black <strong>Ricoh GR IIIx</strong> compact street camera, an orange-and-black geometric <strong>MiiR x Carryology Wide Mouth Bottle</strong> (not yesterday&rsquo;s Memobottle), a white/red recycled-tarp <strong>Freitag F242 STU</strong> laptop sleeve, a grey-sleeved <strong>Wpc. IZA Compact ZA003</strong> folding umbrella, a burnt-orange stowed <strong>Orbitkey Foldable Tote Bag</strong> roll, and a matte black <strong>Nimble SHAREPOWER</strong> portable charger (Zendure stays hidden). Ignore the Thailand passport, yellow pen, and Starbucks tin &mdash; travel mood props, not catalog slots.</p>
+
+<p>User corrections from the reference decode: crossbody bag = SUBDECODE Lynx &rarr; <strong>Manhattan Portage Europa (MD)</strong>; smartphone = <strong>Vertu Metavertu 2</strong> (not iPhone); flat bottle skipped (Memobottle on preset 141); white/red tarp item = <strong>Freitag F242 STU</strong> laptop sleeve (not F553 Josh pouch); orange roll = <strong>Orbitkey Foldable Tote</strong> (not key organiser); power brick = <strong>Nimble SHAREPOWER</strong> (not Zendure).</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Day Carry / Messenger</h3>
+<p><strong>Europa (MD) With Back Zipper and Compartments - Black</strong> &mdash; Manhattan Portage black Cordura messenger with red NYC skyline logo patch.</p>
+
+<h3>Slot 2 &mdash; Travel Tablet</h3>
+<p><strong>Apple - 11-inch iPad Pro M4 chip Built for Apple Intelligence Wi-Fi 256GB with OLED - Space Black</strong> &mdash; tablet back facing up from the reference.</p>
+
+<h3>Slot 3 &mdash; Luxury Mobile</h3>
+<p><strong>METAVERTU 2 The Fortune Serpent Edition - Golden</strong> &mdash; Vertu luxury smartphone replacing the reference iPhone.</p>
+
+<h3>Slot 4 &mdash; Street Compact Camera</h3>
+<p><strong>RICOH GR IIIx</strong> &mdash; matte black compact with GR thumb dial.</p>
+
+<h3>Slot 5 &mdash; Insulated Hydration</h3>
+<p><strong>MiiR x Carryology Wide Mouth Bottle - Orange Auxikko / 20oz</strong> &mdash; orange/black geometric pattern bottle with black handle lid.</p>
+
+<h3>Slot 6 &mdash; Laptop Sleeve</h3>
+<p><strong>F242 STU Medium Journal</strong> &mdash; Freitag recycled truck-tarp laptop sleeve in white/red colorway.</p>
+
+<h3>Slot 7 &mdash; Packable Rain</h3>
+<p><strong>Wpc. IZA Type: COMPACT Folding Umbrella ZA003</strong> &mdash; grey compact umbrella in technical fabric sleeve.</p>
+
+<h3>Slot 8 &mdash; Packable Tote</h3>
+<p><strong>Foldable Tote Bag - Tangerine Limited Edition</strong> &mdash; Orbitkey burnt-orange ripstop stowed roll with strap branding.</p>
+
+<h3>Slot 9 &mdash; Slim Power Bank</h3>
+<p><strong>SHAREPOWER Portable Charger</strong> &mdash; Nimble matte black brick with integrated USB-C flap and braided lanyard.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Travel-tech EDC mixes messenger carry, tablet compute, luxury phone, compact camera, patterned hydration, recycled tarp sleeve, packable rain, foldable tote, and slim charge faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All nine slots are pinned on preset 142 with nine distinct brands.</p>
+
+<p>Distinct from <a href="/diffr/blog/mini-edc-sling-brand-guide">mini EDC sling</a> (light oak Bellroy + iPhone + Memobottle, preset 141) · <a href="/diffr/blog/tech-grooming-tray-brand-guide">tech and grooming tray EDC</a> (Fujifilm X100VI tray on blue fabric, preset 140) · <a href="/diffr/blog/oak-floor-travel-kit-brand-guide">oak floor travel kit</a> (LEVEL8 + Memobottle). Explore the interactive scene: <a href="/diffr/start/charcoal-travel-tech-edc-kit">Charcoal Travel Tech EDC Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',

@@ -56,6 +56,7 @@ export const BLOG_SLUG_TO_START: Record<string, string> = {
   'mini-but-mighty-edc-brand-guide': 'mini-but-mighty-edc-flat-lay',
   'tech-grooming-tray-brand-guide': 'tech-grooming-tray-flat-lay',
   'mini-edc-sling-brand-guide': 'mini-edc-sling-kit',
+  'charcoal-travel-tech-edc-brand-guide': 'charcoal-travel-tech-edc-kit',
 }
 
 /** Inverse map: start funnel slug → SEO-canonical blog post slug. */
