@@ -2282,6 +2282,58 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'evergreen-edc-brand-guide',
+    title: 'Evergreen EDC: 10 Green-Toned Picks, One Brand Per Slot',
+    description: 'Evergreen EDC flat lay decoded — Nomos Tangente forest green, Bellroy Apex Everglade, Leatherman Micra Spruce, Bose QuietComfort Cypress Green, The James Brand Madison Grove, Streamlight Sidewinder Military, Orbitkey Pro Evergreen, Nikon Z f Moss Green, Benchmade Bugout Taiga Green, Pioneer Savant Pack Forest. Ten brands on sage felt.',
+    date: '2026-08-28',
+    readTime: '5 min read',
+    tags: ['brand guide', 'EDC', 'flat lay', 'everyday carry', 'evergreen', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten green-toned EDC picks — Nomos Tangente, Bellroy Apex Everglade, Leatherman Micra Spruce, Bose QC Cypress Green, James Brand Madison Grove, Streamlight Sidewinder Military, Orbitkey Pro Evergreen, Nikon Z f Moss Green, Benchmade Bugout Taiga, Pioneer Savant Forest — one brand per slot.',
+    content: `
+<p>The evergreen EDC flat lay is a color-coordinated green loadout on matte sage felt: a <strong>Nomos Glash&uuml;tte Tangente neomatik 38 update forest green</strong> dress watch, a <strong>Bellroy Apex Slim Sleeve Everglade</strong> wallet, a <strong>Leatherman Micra Spruce</strong> Cerakote multi-tool, <strong>Bose QuietComfort Cypress Green</strong> over-ear ANC headphones, a <strong>The James Brand Madison Grove</strong> carabiner, a <strong>Streamlight Sidewinder Military</strong> 55-lumen hands-free flashlight (editorial substitute for a hidden-CN flat torch decode), an <strong>Orbitkey Key Organiser Pro Evergreen</strong> leather key stack, a <strong>Nikon Z f Moss Green</strong> retro mirrorless body, a <strong>Benchmade Bugout Taiga Green</strong> folder, and a forest-green <strong>Pioneer Carry Savant Pack</strong> 18L backpack. Ten slots, ten brands, one green palette.</p>
+
+<p>Source decode: HICONSUMPTION &ldquo;10 Must-Have Evergreen EDC Essentials&rdquo; via NotebookLM slot extract. Video flat-flashlight decode maps to Streamlight Sidewinder Military &mdash; not a hidden-CN brand slot.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Dress / Everyday Watch</h3>
+<p><strong>Nomos Tangente Neomatik Automatic Blue Dial Watch 190</strong> &mdash; Nomos Glash&uuml;tte Tangente neomatik class on black leather (forest-green Ref. 148 is the editorial colorway target).</p>
+
+<h3>Slot 2 &mdash; Minimalist Wallet</h3>
+<p><strong>Apex Slim Sleeve - Everglade</strong> &mdash; Bellroy laser-bonded slim sleeve in Everglade sage-green leather.</p>
+
+<h3>Slot 3 &mdash; Keychain Multi-tool</h3>
+<p><strong>Micra&reg; - Spruce</strong> &mdash; Leatherman Micra scissors-first multi-tool in Spruce Cerakote.</p>
+
+<h3>Slot 4 &mdash; Over-ear ANC Headphones</h3>
+<p><strong>QuietComfort Wireless Noise Cancelling Over-the-Ear Bluetooth Headphones - Cypress Green</strong> &mdash; Bose QC monochrome cypress-green limited colorway.</p>
+
+<h3>Slot 5 &mdash; Key Carabiner</h3>
+<p><strong>The Madison - Grove</strong> &mdash; The James Brand slim Grove-anodized aluminum carabiner.</p>
+
+<h3>Slot 6 &mdash; Hands-free EDC Flashlight</h3>
+<p><strong>Sidewinder Military 55-Lumen Hands-Free Flashlight</strong> &mdash; Streamlight olive-drab swivel-head military light with hands-free clip (hidden-CN torch decode substitute).</p>
+
+<h3>Slot 7 &mdash; Key Organiser</h3>
+<p><strong>Key Organiser Pro - Leather - Evergreen</strong> &mdash; Orbitkey Pro leather key stack in British racing green.</p>
+
+<h3>Slot 8 &mdash; Retro Mirrorless Camera</h3>
+<p><strong>Z f - Moss Green</strong> &mdash; Nikon Z f moss-green leather edition mirrorless body.</p>
+
+<h3>Slot 9 &mdash; Everyday Folder</h3>
+<p><strong>Bugout&reg; 535TN-2601 - Taiga Green</strong> &mdash; Benchmade Bugout Taiga Green LE with Elmax blade.</p>
+
+<h3>Slot 10 &mdash; EDC Backpack</h3>
+<p><strong>Savant Pack - Forest</strong> &mdash; Pioneer Carry Savant Pack in Forest green 840D nylon.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Green-toned EDC kits mix watch, wallet, audio, light, keys, camera, blade, and pack carry faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All ten slots are pinned on preset 143 with ten distinct brands.</p>
+
+<p>Distinct from <a href="/diffr/blog/charcoal-travel-tech-edc-brand-guide">charcoal travel-tech EDC</a> (dark messenger + tablet kit, preset 142) · <a href="/diffr/blog/mini-edc-sling-brand-guide">mini EDC sling</a> (light oak crossbody, preset 141) · <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a> (tactical-minimal concrete dump, preset 134). Explore the interactive scene: <a href="/diffr/start/evergreen-edc-kit">Evergreen EDC Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',

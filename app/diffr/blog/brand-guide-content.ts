@@ -187,6 +187,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the mini EDC sling kit is nine compact crossbody slots on light oak — Bellroy Classic Sling 3L, Analogue Pocket White, Apple iPhone 16 Pro with PopSockets MagSafe PopGrip on the back, Matador Mini Pocket Blanket, Gerber GDC Zip Blade, Rivery Manufacturing Zero Black Knurled Pattern, Memobottle A7 Black Ink, and Gear Aid HEROCLIP Stealth Black — one brand each. PopSockets mounts on the phone in the cover. Live catalog tiles below.',
   'charcoal-travel-tech-edc-brand-guide':
     'Bottom line: the charcoal travel-tech EDC flat lay is nine slots on dark charcoal — Manhattan Portage Europa (MD), Apple iPad Pro M4, Vertu Metavertu 2, Ricoh GR IIIx, MiiR x Carryology 20oz bottle, Freitag F242 STU laptop sleeve, Wpc. IZA ZA003 umbrella, Orbitkey Foldable Tote Bag, and Nimble SHAREPOWER — one brand each. SUBDECODE Lynx decode → Manhattan Portage; Zendure hidden. Live catalog tiles below.',
+  'evergreen-edc-brand-guide':
+    'Bottom line: the evergreen EDC flat lay is ten green-toned slots on sage felt — Nomos Tangente forest-green class, Bellroy Apex Everglade, Leatherman Micra Spruce, Bose QuietComfort Cypress Green, The James Brand Madison Grove, Streamlight Sidewinder Military, Orbitkey Pro Evergreen, Nikon Z f Moss Green, Benchmade Bugout Taiga Green, and Pioneer Savant Pack Forest — one brand each. Hidden-CN flat torch decode → Streamlight Sidewinder. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1821,6 +1823,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How is this different from mini EDC sling or tech grooming tray?',
       a: 'Mini EDC sling (preset 141) is light-oak crossbody with Bellroy + iPhone + Memobottle. Tech grooming tray (preset 140) is a creative tray on blue fabric with Fujifilm X100VI. Charcoal travel-tech EDC is messenger + tablet + luxury phone + GR IIIx on dark charcoal — preset 142.',
+    },
+  ],
+
+  'evergreen-edc-brand-guide': [
+    {
+      q: 'What is the evergreen EDC flat lay?',
+      a: 'It is a ten-slot green-toned everyday-carry kit: Nomos Tangente forest-green class watch, Bellroy Apex Everglade wallet, Leatherman Micra Spruce, Bose QuietComfort Cypress Green headphones, The James Brand Madison Grove carabiner, Streamlight Sidewinder Military hands-free flashlight, Orbitkey Pro Evergreen key organiser, Nikon Z f Moss Green, Benchmade Bugout Taiga Green, and Pioneer Savant Pack Forest — ten distinct brands on preset 143.',
+    },
+    {
+      q: 'Why Streamlight instead of the torch in the video decode?',
+      a: 'The HICONSUMPTION evergreen list included a hidden-CN flat flashlight brand. Diffr editorial slots Streamlight Sidewinder Military — a US-made hands-free military EDC light — instead.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 143. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+    {
+      q: 'How is this different from charcoal travel-tech EDC or gray EDC knoll?',
+      a: 'Charcoal travel-tech EDC (preset 142) is a dark messenger + tablet travel kit. Gray EDC knoll (preset 134) is tactical-minimal on concrete. Evergreen EDC is a coordinated green palette across watch, wallet, audio, light, keys, camera, blade, and pack — preset 143.',
     },
   ],
 
