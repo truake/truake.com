@@ -190,7 +190,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'evergreen-edc-brand-guide':
     'Bottom line: the evergreen EDC flat lay is ten green-toned slots on sage felt — Nomos Tangente forest-green class, Bellroy Apex Everglade, Leatherman Micra Spruce, Bose QuietComfort Cypress Green, The James Brand Madison Grove, Streamlight Sidewinder Military, Orbitkey Pro Evergreen, Nikon Z f Moss Green, Benchmade Bugout Taiga Green, and Pioneer Savant Pack Forest — one brand each. Hidden-CN flat torch decode → Streamlight Sidewinder. Live catalog tiles below.',
   'wimb-munchi-brand-guide':
-    'Bottom line: the Munchi WIMB creative carry spill is ten slots on warm linen — Cladio Parici vintage tote, Traveler\'s Company Kyoto TN, MUJI gel pen, Canon G7X Mark II, Apple iPod Classic 7th Gen, Loop Quiet 2, Clinique Black Honey, MAC Lip Pencil Plum, Carmex Classic, and Maybelline Lifter Liner 07 Big Lift — one brand each. Apple slot is iPod only; distinct from preset 112 luxury beauty WIMB. Live catalog tiles below.',
+    'Bottom line: the Munchi WIMB creative carry spill is ten slots on warm linen — Lemaire belted shoulder bag in leather (brown), Traveler\'s Company Kyoto TN, MUJI gel pen, Canon G7X Mark II, Apple iPod Classic 7th Gen, Loop Quiet 2, Clinique Black Honey, MAC Lip Pencil Plum, Carmex Classic, and Maybelline Lifter Liner 07 Big Lift — one brand each. Slot 1 corrected from resale misread to Lemaire. Apple slot is iPod only; distinct from preset 112 luxury beauty WIMB. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1850,7 +1850,11 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   'wimb-munchi-brand-guide': [
     {
       q: 'What is the Munchi what\'s in my bag creative carry?',
-      a: 'It is a ten-slot authentic daily tote spill: Cladio Parici vintage slouchy leather tote, Traveler\'s Company Kyoto leather TN, MUJI 0.5mm gel pen, Canon PowerShot G7X Mark II, Apple iPod Classic 7th Gen silver, Loop Quiet 2 earplugs, Clinique Almost Lipstick Black Honey, MAC Lip Pencil Plum, Carmex Classic tube, and Maybelline Lifter Liner 07 Big Lift — ten distinct brands on preset 144.',
+      a: 'It is a ten-slot authentic daily tote spill: Lemaire belted shoulder bag in leather (brown), Traveler\'s Company Kyoto leather TN, MUJI 0.5mm gel pen, Canon PowerShot G7X Mark II, Apple iPod Classic 7th Gen silver, Loop Quiet 2 earplugs, Clinique Almost Lipstick Black Honey, MAC Lip Pencil Plum, Carmex Classic tube, and Maybelline Lifter Liner 07 Big Lift — ten distinct brands on preset 144.',
+    },
+    {
+      q: 'Why Lemaire instead of Cladio Parici for slot 1?',
+      a: 'The video/resale decode misread a thrift listing label as "Cladio Parici." Editorial correction pins slot 1 to Lemaire belted shoulder bag in leather (brown) — a real brand with a catalog hero image on preset 144.',
     },
     {
       q: 'Why iPod Classic instead of iPhone for the Apple slot?',
@@ -1858,7 +1862,7 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
     {
       q: 'How is this different from the luxury beauty WIMB post (preset 112)?',
-      a: 'Preset 112 is a quiet-luxury beauty vanity — Miu Miu matelassé, Chanel N°5, YSL lipstick, Mejuri hoops on off-white. Munchi WIMB is thrift creative carry — vintage leather tote spill with journal, vlog camera, iPod, and four distinct lip lanes on warm linen — preset 144.',
+      a: 'Preset 112 is a quiet-luxury beauty vanity — Miu Miu matelassé, Chanel N°5, YSL lipstick, Mejuri hoops on off-white. Munchi WIMB is creative carry — Lemaire belted shoulder bag spill with journal, vlog camera, iPod, and four distinct lip lanes on warm linen — preset 144.',
     },
     {
       q: 'Why two lip liner slots?',

@@ -2336,21 +2336,21 @@ export const posts: BlogPost[] = [
   {
     slug: 'wimb-munchi-brand-guide',
     title: 'What\'s In My Bag: 10 Creative Carry Picks, One Brand Per Slot',
-    description: 'WIMB Munchi creative carry decoded — Cladio Parici vintage tote, Traveler\'s Company Kyoto notebook, MUJI gel pen, Canon G7X Mark II, Apple iPod Classic, Loop Quiet 2, Clinique Black Honey, MAC Lip Pencil Plum, Carmex Classic, Maybelline Lifter Liner 07 Big Lift. Ten brands on warm linen.',
+    description: 'WIMB Munchi creative carry decoded — Lemaire belted shoulder bag, Traveler\'s Company Kyoto notebook, MUJI gel pen, Canon G7X Mark II, Apple iPod Classic, Loop Quiet 2, Clinique Black Honey, MAC Lip Pencil Plum, Carmex Classic, Maybelline Lifter Liner 07 Big Lift. Ten brands on warm linen.',
     date: '2026-08-29',
     readTime: '5 min read',
     tags: ['brand guide', 'whats in my bag', 'WIMB', 'creative carry', 'flat lay', 'one brand per slot', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Ten daily-carry picks from Munchi\'s thrift tote — Cladio Parici slouch bag, Traveler\'s Company Kyoto TN, MUJI pen, Canon G7X Mark II, iPod Classic, Loop Quiet, Clinique Black Honey, MAC Plum liner, Carmex, Maybelline Lifter Liner — one brand per slot.',
+    excerpt: 'Ten daily-carry picks from Munchi\'s tote spill — Lemaire belted shoulder bag, Traveler\'s Company Kyoto TN, MUJI pen, Canon G7X Mark II, iPod Classic, Loop Quiet, Clinique Black Honey, MAC Plum liner, Carmex, Maybelline Lifter Liner — one brand per slot.',
     content: `
-<p>The Munchi &ldquo;what&rsquo;s in my bag&rdquo; spill is an authentic creative-carry decode on warm linen: a thrifted <strong>Cladio Parici</strong> olive slouchy leather tote, a <strong>Traveler&rsquo;s Company</strong> Kyoto leather Traveler&rsquo;s Notebook, a <strong>MUJI</strong> 0.5mm gel pen, a <strong>Canon</strong> PowerShot G7X Mark II vlog camera, a silver <strong>Apple iPod Classic</strong> 7th Gen (not iPhone), <strong>Loop Quiet 2</strong> earplugs, <strong>Clinique Almost Lipstick Black Honey</strong>, <strong>MAC Lip Pencil Plum</strong>, <strong>Carmex Classic</strong> squeeze tube, and <strong>Maybelline Lifter Liner 07 Big Lift</strong>. Ten slots, ten brands &mdash; thrift journal energy, not a luxury beauty vanity grid.</p>
+<p>The Munchi &ldquo;what&rsquo;s in my bag&rdquo; spill is an authentic creative-carry decode on warm linen: a <strong>Lemaire</strong> brown leather belted shoulder bag, a <strong>Traveler&rsquo;s Company</strong> Kyoto leather Traveler&rsquo;s Notebook, a <strong>MUJI</strong> 0.5mm gel pen, a <strong>Canon</strong> PowerShot G7X Mark II vlog camera, a silver <strong>Apple iPod Classic</strong> 7th Gen (not iPhone), <strong>Loop Quiet 2</strong> earplugs, <strong>Clinique Almost Lipstick Black Honey</strong>, <strong>MAC Lip Pencil Plum</strong>, <strong>Carmex Classic</strong> squeeze tube, and <strong>Maybelline Lifter Liner 07 Big Lift</strong>. Ten slots, ten brands &mdash; journal-and-vlog carry energy, not a luxury beauty vanity grid.</p>
 
-<p>Source decode: creator Munchi daily tote tour via NotebookLM. Apple slot = iPod Classic only; daily iPhone excluded so Apple appears once. Slots 8 and 10 are both lip liners but pinned to distinct catalog lines on preset 144.</p>
+<p>Source decode: creator Munchi daily tote tour via NotebookLM. Slot 1 editorial correction: resale-listing misread &ldquo;Cladio Parici&rdquo; &rarr; <strong>Lemaire belted shoulder bag in leather (brown)</strong>. Apple slot = iPod Classic only; daily iPhone excluded so Apple appears once. Slots 8 and 10 are both lip liners but pinned to distinct catalog lines on preset 144.</p>
 
 <h2>The Slots</h2>
 
-<h3>Slot 1 &mdash; Slouchy Shoulder Bag</h3>
-<p><strong>Italian Claudio Ferrici GENUINE LEATHER SHOULDER Tote HANDBAG Hobo Slouch BAG</strong> &mdash; Cladio Parici vintage olive slouchy leather tote (thrift aesthetic).</p>
+<h3>Slot 1 &mdash; Belted Shoulder Bag</h3>
+<p><strong>belted shoulder bag in leather (brown)</strong> &mdash; Lemaire brown leather belted shoulder bag from the tote spill.</p>
 
 <h3>Slot 2 &mdash; Refillable Planner</h3>
 <p><strong>トラベラーズノート KYOTO EDITION</strong> &mdash; Traveler&rsquo;s Company Kyoto leather TN with elastic band.</p>
