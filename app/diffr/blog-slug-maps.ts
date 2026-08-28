@@ -58,6 +58,7 @@ export const BLOG_SLUG_TO_START: Record<string, string> = {
   'mini-edc-sling-brand-guide': 'mini-edc-sling-kit',
   'charcoal-travel-tech-edc-brand-guide': 'charcoal-travel-tech-edc-kit',
   'evergreen-edc-brand-guide': 'evergreen-edc-kit',
+  'wimb-munchi-brand-guide': 'wimb-munchi-kit',
 }
 
 /** Inverse map: start funnel slug → SEO-canonical blog post slug. */

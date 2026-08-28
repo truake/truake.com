@@ -145,6 +145,8 @@ export const SLUG_TO_PRESET: Record<string, number> = {
   "charcoal-travel-tech-edc-kit": 142,
   "evergreen-edc-flat-lay": 143,
   "evergreen-edc-kit": 143,
+  "wimb-munchi-creative-carry-flat-lay": 144,
+  "wimb-munchi-kit": 144,
 };
 
 // Slugs with no domain_guide editorial shell — rendered lean from preset data.
@@ -201,6 +203,8 @@ export const PRESET_ONLY_SLUGS = new Set<string>([
   "charcoal-travel-tech-edc-kit",
   "evergreen-edc-flat-lay",
   "evergreen-edc-kit",
+  "wimb-munchi-creative-carry-flat-lay",
+  "wimb-munchi-kit",
 ]);
 
 export async function getPresetMeta(

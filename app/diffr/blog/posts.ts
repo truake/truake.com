@@ -2334,6 +2334,58 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'wimb-munchi-brand-guide',
+    title: 'What\'s In My Bag: 10 Creative Carry Picks, One Brand Per Slot',
+    description: 'WIMB Munchi creative carry decoded — Cladio Parici vintage tote, Traveler\'s Company Kyoto notebook, MUJI gel pen, Canon G7X Mark II, Apple iPod Classic, Loop Quiet 2, Clinique Black Honey, MAC Lip Pencil Plum, Carmex Classic, Maybelline Lifter Liner 07 Big Lift. Ten brands on warm linen.',
+    date: '2026-08-29',
+    readTime: '5 min read',
+    tags: ['brand guide', 'whats in my bag', 'WIMB', 'creative carry', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten daily-carry picks from Munchi\'s thrift tote — Cladio Parici slouch bag, Traveler\'s Company Kyoto TN, MUJI pen, Canon G7X Mark II, iPod Classic, Loop Quiet, Clinique Black Honey, MAC Plum liner, Carmex, Maybelline Lifter Liner — one brand per slot.',
+    content: `
+<p>The Munchi &ldquo;what&rsquo;s in my bag&rdquo; spill is an authentic creative-carry decode on warm linen: a thrifted <strong>Cladio Parici</strong> olive slouchy leather tote, a <strong>Traveler&rsquo;s Company</strong> Kyoto leather Traveler&rsquo;s Notebook, a <strong>MUJI</strong> 0.5mm gel pen, a <strong>Canon</strong> PowerShot G7X Mark II vlog camera, a silver <strong>Apple iPod Classic</strong> 7th Gen (not iPhone), <strong>Loop Quiet 2</strong> earplugs, <strong>Clinique Almost Lipstick Black Honey</strong>, <strong>MAC Lip Pencil Plum</strong>, <strong>Carmex Classic</strong> squeeze tube, and <strong>Maybelline Lifter Liner 07 Big Lift</strong>. Ten slots, ten brands &mdash; thrift journal energy, not a luxury beauty vanity grid.</p>
+
+<p>Source decode: creator Munchi daily tote tour via NotebookLM. Apple slot = iPod Classic only; daily iPhone excluded so Apple appears once. Slots 8 and 10 are both lip liners but pinned to distinct catalog lines on preset 144.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Slouchy Shoulder Bag</h3>
+<p><strong>Italian Claudio Ferrici GENUINE LEATHER SHOULDER Tote HANDBAG Hobo Slouch BAG</strong> &mdash; Cladio Parici vintage olive slouchy leather tote (thrift aesthetic).</p>
+
+<h3>Slot 2 &mdash; Refillable Planner</h3>
+<p><strong>トラベラーズノート KYOTO EDITION</strong> &mdash; Traveler&rsquo;s Company Kyoto leather TN with elastic band.</p>
+
+<h3>Slot 3 &mdash; Everyday Pen</h3>
+<p><strong>GEL INK BALLPOINT PEN CAP TYPE 0.5 BLACK</strong> &mdash; MUJI cap-type gel pen slipped through the notebook elastic.</p>
+
+<h3>Slot 4 &mdash; Compact Vlog Camera</h3>
+<p><strong>Canon PowerShot G7 X Mark II Camera</strong> &mdash; black G7X Mark II with flip LCD from the bag spill.</p>
+
+<h3>Slot 5 &mdash; Distraction-Free Audio</h3>
+<p><strong>Apple iPod Classic 7th Generation~160 GB A1238 Silver MC293LL/A</strong> &mdash; silver click-wheel iPod Classic (Apple slot; iPhone not duplicated).</p>
+
+<h3>Slot 6 &mdash; Acoustic Filter</h3>
+<p><strong>Loop Quiet 2 &ndash; Black</strong> &mdash; Loop Quiet earplugs in black carry case.</p>
+
+<h3>Slot 7 &mdash; Cult Sheer Lip</h3>
+<p><strong>Almost Lipstick in Black Honey, Pink Honey and Nude Honey &ndash; Black Honey</strong> &mdash; Clinique Black Honey sheer lip color tube.</p>
+
+<h3>Slot 8 &mdash; Lip Contour</h3>
+<p><strong>Lip Pencil &ndash; Plum</strong> &mdash; MAC Cosmetics Lip Pencil in Plum.</p>
+
+<h3>Slot 9 &mdash; Daily Lip Balm</h3>
+<p><strong>Classic Lip Balm &ndash; Classic Original Tube</strong> &mdash; Carmex Classic yellow/red squeeze tube.</p>
+
+<h3>Slot 10 &mdash; Budget Lip Liner</h3>
+<p><strong>LIFTER LINER Lip Liner Makeup with Hyaluronic Acid &ndash; 07 Big Lift</strong> &mdash; Maybelline Lifter Liner neutral contour (distinct from MAC Plum on slot 8).</p>
+
+<h2>Why This Post Exists</h2>
+<p>Real bag dumps mix thrift finds, analog tools, vlog gear, and four distinct lip lanes faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All ten slots are pinned on preset 144 with ten distinct brands.</p>
+
+<p>Distinct from <a href="/diffr/blog/whats-in-my-bag-brand-guide">what&rsquo;s in my bag luxury beauty</a> (Miu Miu / Chanel / YSL vanity grid, preset 112) · <a href="/diffr/blog/girl-essentials-brand-guide">girl essentials</a> (MacBook beauty kit) · <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a> (green tech loadout, preset 143). Explore the interactive scene: <a href="/diffr/start/wimb-munchi-kit">WIMB Munchi Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',

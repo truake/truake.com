@@ -189,6 +189,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the charcoal travel-tech EDC flat lay is nine slots on dark charcoal — Manhattan Portage Europa (MD), Apple iPad Pro M4, Vertu Metavertu 2, Ricoh GR IIIx, MiiR x Carryology 20oz bottle, Freitag F242 STU laptop sleeve, Wpc. IZA ZA003 umbrella, Orbitkey Foldable Tote Bag, and Nimble SHAREPOWER — one brand each. SUBDECODE Lynx decode → Manhattan Portage; Zendure hidden. Live catalog tiles below.',
   'evergreen-edc-brand-guide':
     'Bottom line: the evergreen EDC flat lay is ten green-toned slots on sage felt — Nomos Tangente forest-green class, Bellroy Apex Everglade, Leatherman Micra Spruce, Bose QuietComfort Cypress Green, The James Brand Madison Grove, Streamlight Sidewinder Military, Orbitkey Pro Evergreen, Nikon Z f Moss Green, Benchmade Bugout Taiga Green, and Pioneer Savant Pack Forest — one brand each. Hidden-CN flat torch decode → Streamlight Sidewinder. Live catalog tiles below.',
+  'wimb-munchi-brand-guide':
+    'Bottom line: the Munchi WIMB creative carry spill is ten slots on warm linen — Cladio Parici vintage tote, Traveler\'s Company Kyoto TN, MUJI gel pen, Canon G7X Mark II, Apple iPod Classic 7th Gen, Loop Quiet 2, Clinique Black Honey, MAC Lip Pencil Plum, Carmex Classic, and Maybelline Lifter Liner 07 Big Lift — one brand each. Apple slot is iPod only; distinct from preset 112 luxury beauty WIMB. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1842,6 +1844,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How is this different from charcoal travel-tech EDC or gray EDC knoll?',
       a: 'Charcoal travel-tech EDC (preset 142) is a dark messenger + tablet travel kit. Gray EDC knoll (preset 134) is tactical-minimal on concrete. Evergreen EDC is a coordinated green palette across watch, wallet, audio, light, keys, camera, blade, and pack — preset 143.',
+    },
+  ],
+
+  'wimb-munchi-brand-guide': [
+    {
+      q: 'What is the Munchi what\'s in my bag creative carry?',
+      a: 'It is a ten-slot authentic daily tote spill: Cladio Parici vintage slouchy leather tote, Traveler\'s Company Kyoto leather TN, MUJI 0.5mm gel pen, Canon PowerShot G7X Mark II, Apple iPod Classic 7th Gen silver, Loop Quiet 2 earplugs, Clinique Almost Lipstick Black Honey, MAC Lip Pencil Plum, Carmex Classic tube, and Maybelline Lifter Liner 07 Big Lift — ten distinct brands on preset 144.',
+    },
+    {
+      q: 'Why iPod Classic instead of iPhone for the Apple slot?',
+      a: 'Diffr\'s one-brand-per-slot rule keeps Apple on the distraction-free iPod Classic 7th Gen. Munchi\'s daily iPhone is excluded from formal slots so Apple appears once — celebrating analog media over smartphone duplication.',
+    },
+    {
+      q: 'How is this different from the luxury beauty WIMB post (preset 112)?',
+      a: 'Preset 112 is a quiet-luxury beauty vanity — Miu Miu matelassé, Chanel N°5, YSL lipstick, Mejuri hoops on off-white. Munchi WIMB is thrift creative carry — vintage leather tote spill with journal, vlog camera, iPod, and four distinct lip lanes on warm linen — preset 144.',
+    },
+    {
+      q: 'Why two lip liner slots?',
+      a: 'Slots 8 and 10 share the lip-liner product type but are pinned to different brands and SKUs: MAC Lip Pencil Plum (high-contrast contour) and Maybelline Lifter Liner 07 Big Lift (softer neutral line) — matching Munchi\'s four-lip routine without brand repetition.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 144. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 
