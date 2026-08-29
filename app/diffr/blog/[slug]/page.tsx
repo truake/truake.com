@@ -96,6 +96,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'charcoal-travel-tech-edc-brand-guide': 142,
   'evergreen-edc-brand-guide': 143,
   'wimb-munchi-brand-guide': 144,
+  'styling-summer-linen-brand-guide': 145,
 }
 
 export async function generateStaticParams() {

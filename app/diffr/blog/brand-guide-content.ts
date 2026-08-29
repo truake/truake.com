@@ -191,6 +191,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the evergreen EDC flat lay is ten green-toned slots on sage felt — Nomos Tangente forest-green class, Bellroy Apex Everglade, Leatherman Micra Spruce, Bose QuietComfort Cypress Green, The James Brand Madison Grove, Streamlight Sidewinder Military, Orbitkey Pro Evergreen, Nikon Z f Moss Green, Benchmade Bugout Taiga Green, and Pioneer Savant Pack Forest — one brand each. Hidden-CN flat torch decode → Streamlight Sidewinder. Live catalog tiles below.',
   'wimb-munchi-brand-guide':
     'Bottom line: the Munchi WIMB creative carry spill is ten slots on warm linen — Lemaire belted shoulder bag in leather (brown), Traveler\'s Company Kyoto TN, MUJI gel pen, Canon G7X Mark II, Apple iPod Classic 7th Gen, Loop Quiet 2, Clinique Black Honey, MAC Lip Pencil Plum, Carmex Classic, and Maybelline Lifter Liner 07 Big Lift — one brand each. Slot 1 corrected from resale misread to Lemaire. Apple slot is iPod only; distinct from preset 112 luxury beauty WIMB. Live catalog tiles below.',
+  'styling-summer-linen-brand-guide':
+    'Bottom line: Daniel Simmons summer linen OOTD is eight wardrobe slots on warm stone — Banana Republic Archive Reissue pleated linen trousers, Daniel Simmons Drape Shirt V2 Ivory, G.H. Bass Larson Weejuns, Seiko 5 vintage square tank, Tom Wood Cushion Satin ring, Diptyque Philosykos EDT, A.P.C. Rebound bag Noir, and Chimi 04 Core sunglasses — one brand each. BR trousers only; namesake overshirt breaks the matching suit. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1871,6 +1873,25 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 144. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'styling-summer-linen-brand-guide': [
+    {
+      q: 'What is the Daniel Simmons summer linen OOTD breakdown?',
+      a: 'It is an eight-slot wardrobe kit inspired by creator Daniel Simmons\' relaxed summer linen look: Banana Republic Archive Reissue pleated linen trousers, Daniel Simmons Drape Shirt V2 Ivory, G.H. Bass Larson Weejuns, Seiko 5 6319-5020 square automatic tank, Tom Wood Cushion Satin ring, Diptyque Philosykos EDT, A.P.C. sac shopping rebound Noir, and Chimi 04 Core sunglasses — eight distinct brands on preset 145.',
+    },
+    {
+      q: 'Why two brands for the linen suit instead of one matching set?',
+      a: 'Diffr\'s one-brand-per-slot rule keeps Banana Republic on the pleated trousers anchor only. The top half swaps to Daniel Simmons\' namesake Drape Shirt V2 so the editorial layout avoids a flat single-brand matching suit.',
+    },
+    {
+      q: 'Is this an on-body outfit photo?',
+      a: 'No — the blog cover and kit use Path B editorial wardrobe flat lay on warm stone. The decode comes from Daniel Simmons\' styling video via NotebookLM; catalog tiles below are live product lines with R2-hosted packshots.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 145. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

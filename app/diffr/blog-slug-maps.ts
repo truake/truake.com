@@ -59,6 +59,7 @@ export const BLOG_SLUG_TO_START: Record<string, string> = {
   'charcoal-travel-tech-edc-brand-guide': 'charcoal-travel-tech-edc-kit',
   'evergreen-edc-brand-guide': 'evergreen-edc-kit',
   'wimb-munchi-brand-guide': 'wimb-munchi-kit',
+  'styling-summer-linen-brand-guide': 'daniel-simmons-linen-ootd-kit',
 }
 
 /** Inverse map: start funnel slug → SEO-canonical blog post slug. */

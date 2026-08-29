@@ -2386,6 +2386,52 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'styling-summer-linen-brand-guide',
+    title: 'Styling Summer Linen: 8 Minimalist Picks, One Brand Per Slot',
+    description: 'Daniel Simmons summer linen OOTD decoded — Banana Republic pleated linen trousers, Daniel Simmons Drape Shirt V2, G.H. Bass Larson Weejuns, Seiko 5 vintage tank, Tom Wood Cushion Satin ring, Diptyque Philosykos, A.P.C. Rebound bag, Chimi 04 Core. Eight brands, broken suit set.',
+    date: '2026-08-29',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'outfit of the day', 'summer linen', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight summer linen OOTD picks — Banana Republic pleated trousers, Daniel Simmons overshirt, G.H. Bass Weejuns, Seiko tank, Tom Wood ring, Diptyque Philosykos, A.P.C. Rebound, Chimi 04 — one brand per slot on warm stone.',
+    content: `
+<p>Daniel Simmons&rsquo; summer linen look decodes into eight editorial wardrobe slots on sun-bleached stone: <strong>Banana Republic</strong> pleated linen trousers as the anchor, a <strong>Daniel Simmons</strong> Drape Shirt V2 in ivory (breaking the matching BR suit), polished black <strong>G.H. Bass</strong> Larson Weejuns, a vintage square <strong>Seiko 5</strong> tank, a <strong>Tom Wood</strong> Cushion Satin signet ring, <strong>Diptyque Philosykos</strong> EDT, a matte black <strong>A.P.C.</strong> Rebound shoulder bag, and <strong>Chimi 04 Core</strong> square sunglasses. Eight brands, zero repeats &mdash; breathable tailoring without a single-brand catalog grid.</p>
+
+<p>Source decode: Daniel Simmons vertical styling guide via NotebookLM. Editorial rule: keep Banana Republic trousers only; top half swaps to Daniel Simmons namesake label so BR appears once. Path B wardrobe flat lay &mdash; not an on-body crop.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Pleated Linen Trousers</h3>
+<p><strong>Archive Reissue Pleated Italian Linen-Cotton Pant</strong> &mdash; Banana Republic sand/off-white double-pleat anchor trouser.</p>
+
+<h3>Slot 2 &mdash; Relaxed Shirt Jacket</h3>
+<p><strong>Drape Shirt V2 - Ivory</strong> &mdash; Daniel Simmons camp-collar linen overshirt (namesake label; not matching BR top).</p>
+
+<h3>Slot 3 &mdash; Classic Leather Loafers</h3>
+<p><strong>Men&rsquo;s Larson Weejuns&reg; Penny Loafer</strong> &mdash; G.H. Bass polished black penny loafers.</p>
+
+<h3>Slot 4 &mdash; Understated Timepiece</h3>
+<p><strong>Seiko 5 6319-5020 &mdash; Men&rsquo;s Square Automatic &mdash; 1977</strong> &mdash; vintage rectangular Seiko 5 tank on black strap.</p>
+
+<h3>Slot 5 &mdash; Statement Silver Ring</h3>
+<p><strong>Cushion Satin</strong> &mdash; Tom Wood 925 sterling silver Cushion Satin signet ring.</p>
+
+<h3>Slot 6 &mdash; Summer Fragrance</h3>
+<p><strong>Philosykos Eau de toilette</strong> &mdash; Diptyque green fig summer EDT.</p>
+
+<h3>Slot 7 &mdash; Minimalist Shoulder Bag</h3>
+<p><strong>sac shopping rebound - Noir</strong> &mdash; A.P.C. matte black Rebound leather shoulder bag.</p>
+
+<h3>Slot 8 &mdash; Acetate Sunglasses</h3>
+<p><strong>04 Core</strong> &mdash; Chimi classic square glossy black acetate sunglasses.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Summer OOTD breakdowns shouldn&rsquo;t read like a walking single-brand catalog. Diffr maps Daniel Simmons&rsquo; relaxed linen uniform into eight specialist slots &mdash; each pinned on preset 145 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-munchi-brand-guide">WIMB Munchi creative carry</a> (tote spill, preset 144) · <a href="/diffr/blog/womens-capsule-wardrobe-brand-guide">women&rsquo;s capsule wardrobe</a> · <a href="/diffr/blog/womens-work-capsule-brand-guide">women&rsquo;s work capsule</a>. Explore the interactive scene: <a href="/diffr/start/daniel-simmons-linen-ootd-kit">Daniel Simmons Linen OOTD Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',
