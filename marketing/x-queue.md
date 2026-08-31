@@ -15,6 +15,26 @@ that only helps if the post is native, not a link drop.
 
 ---
 
+## READY · NotebookLM batch 146–148 — video + blog（2026-08-31）
+
+**Deploy:** `truake-website` `a98b73d` · blog HTTP 200 · share JPG `?v=1788135351`
+
+| Preset | Blog slug | Publish copy |
+|--------|-----------|--------------|
+| **146** | `japanese-craft-edc-brand-guide` | `Diffr/social/x/japanese-craft-edc_publish_copy_20260831.md` |
+| **147** | `wimb-chubby-bag-brand-guide` | `Diffr/social/x/wimb-chubby-bag_publish_copy_20260831.md` |
+| **148** | `styling-navy-trousers-brand-guide` | `Diffr/social/x/styling-navy-trousers_publish_copy_20260831.md` |
+
+**Suggested order:** 1) **Blog tweet** per post (OG share card · link in tweet) → 2) **Video reel** when stylization ready (transformation hook · no URL in caption)
+
+**GSC:** Request index all three blog slugs.
+
+### Blog · X（主推 ⭐ · 单帖 + share card）
+
+Paste § **Blog 主推** from each publish copy file. **New tweet** — do not edit old posts.
+
+---
+
 ## READY · Dark valet tray EDC — video + blog（2026-08-21）
 
 **Copy file:** `Diffr/social/x/dark-valet-tray-edc_publish_copy_20260821.md`  
