@@ -193,6 +193,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: the Munchi WIMB creative carry spill is ten slots on warm linen — Lemaire belted shoulder bag in leather (brown), Traveler\'s Company Kyoto TN, MUJI gel pen, Canon G7X Mark II, Apple iPod Classic 7th Gen, Loop Quiet 2, Clinique Black Honey, MAC Lip Pencil Plum, Carmex Classic, and Maybelline Lifter Liner 07 Big Lift — one brand each. Slot 1 corrected from resale misread to Lemaire. Apple slot is iPod only; distinct from preset 112 luxury beauty WIMB. Live catalog tiles below.',
   'styling-summer-linen-brand-guide':
     'Bottom line: Daniel Simmons summer linen OOTD is eight wardrobe slots on warm stone — Banana Republic Archive Reissue pleated linen trousers, Daniel Simmons Drape Shirt V2 Ivory, G.H. Bass Larson Weejuns, Seiko 5 vintage square tank, Tom Wood Cushion Satin ring, Diptyque Philosykos EDT, A.P.C. Rebound bag Noir, and Chimi 04 Core sunglasses — one brand each. BR trousers only; namesake overshirt breaks the matching suit. Live catalog tiles below.',
+  'japanese-craft-edc-brand-guide':
+    'Bottom line: Japanese Monozukuri craft EDC is ten slots on warm oak — Nagao Higonokami 75mm brass, Moto Bayashi Prince Dolphin burgundy, Candy Gordon key ring, Kuoe Old Smith bronze, TRUSCO T-190 OD toolbox, Fujifilm X-E5+XF23mm kit silver, Tsuchiya Diario KBR27 wallet, Tetzbo Chibien Z pen, Penco coil notepad, Porter Tanker hip bag — one brand each. TRUSCO/Tetzbo/Gordon editorial corrections from NotebookLM decode. Live catalog tiles below.',
+  'wimb-chubby-bag-brand-guide':
+    'Bottom line: Stand Oil Chubby Bag WIMB is ten travel-ready slots on warm linen — Stand Oil Chubby bag black, Leica Q Typ 116 silver limited (Insta360 hidden-CN sub), Smythson Panama Nile card holder, Celine Triomphe sunglasses, Cheero Danboard 10000mAh PD PPS, Chloé flap wallet, Vaseline Lip Therapy, Peripera Ink Glasting clear, Miffy bread bun keychain, Advil Liquid-Gels — one brand each. Distinct from preset 144 Munchi tote. Live catalog tiles below.',
+  'styling-navy-trousers-brand-guide':
+    'Bottom line: Daniel Simmons navy-trousers GRWM is nine transitional menswear slots — Nautica True Khaki deck pants, Buck Mason oxford shirt, Our Legacy cord trucker jacket, Lemaire Chelsea boots, Ralph Lauren equestrian belt, New Era Yankees cap, Adsum canvas tote, Cartier Tank Must, Aesop Ouranon EDP — one brand each. Nautica catalog anchor (not host-owned Daniel Simmons label in Scene). Distinct from preset 145 summer linen. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1892,6 +1898,71 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 145. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'japanese-craft-edc-brand-guide': [
+    {
+      q: 'What is the Japanese craft EDC flat lay?',
+      a: 'It is a ten-slot Monozukuri everyday-carry kit: Nagao Kanekoma Higonokami 75mm brass, Moto Bayashi Prince Dolphin lighter burgundy, Candy Design & Works Gordon key ring, Kuoe Kyoto Old Smith bronze watch, TRUSCO T-190 OD toolbox, Fujifilm X-E5+XF23mm kit silver, Tsuchiya Kaban Diario KBR27 wallet, Tetzbo Chibien Z pen, Penco coil notepad, and Porter Tanker hip bag — ten distinct Japanese brands on preset 146.',
+    },
+    {
+      q: 'Why TRUSCO instead of Toyo Steel for the toolbox slot?',
+      a: 'The NotebookLM decode named Toyo Steel T190 class. Editorial pins TRUSCO T-190 OD Trunk Tool Box — same seamless Japanese steel toolbox lane with a catalog hero on preset 146.',
+    },
+    {
+      q: 'Why Tetzbo instead of Tesso for the pen slot?',
+      a: 'The hand-forged brass mini-pen decode maps to Tetzbo Chibien Z Ballpoint Pen KOHEZI — a Kakimori-adjacent Japanese brass pen with a live R2 packshot. Tesso is the decode name; Tetzbo is the catalog pin.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 146. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+    {
+      q: 'How is this different from evergreen EDC or gray EDC knoll?',
+      a: 'Evergreen EDC (preset 143) is a green-toned Western tech kit on sage felt. Gray EDC knoll (preset 134) is tactical-minimal on concrete. Japanese craft EDC celebrates ten Japanese shokunin specialists on warm oak — preset 146.',
+    },
+  ],
+
+  'wimb-chubby-bag-brand-guide': [
+    {
+      q: 'What is the Stand Oil Chubby Bag WIMB decode?',
+      a: 'It is a ten-slot realistic daily travel spill: Stand Oil Chubby bag black, Leica Q Typ 116 silver anodized limited, Smythson Panama 773 Nile Blue card holder, Celine Triomphe oval sunglasses, Cheero Danboard 10000mAh PD PPS power bank, Chloé flap wallet, Vaseline Lip Therapy Original, Peripera Ink Glasting Lip Gloss 01 Clear, Miffy bread bun plush keychain, and Advil Liqui-Gel Minis — ten distinct brands on preset 147.',
+    },
+    {
+      q: 'Why Leica Q instead of Insta360 for the camera slot?',
+      a: 'Insta360 is a hidden mainland-China brand excluded from editorial Scenes. The Sam and Victor vlog-camera decode substitutes Leica Q Typ 116 Silver Anodized Limited — distinct from preset 144 Canon G7X Mark II.',
+    },
+    {
+      q: 'Why Cheero and not a separate Danboard brand for the power bank?',
+      a: 'Danboard is the product-line name (Cheero Danboard 10000mAh PD PPS). The brand slot stays Cheero — the Japanese accessory maker behind the Danboard character power bank.',
+    },
+    {
+      q: 'How is this different from Munchi WIMB (preset 144)?',
+      a: 'Preset 144 is Munchi\'s Lemaire tote creative carry on warm linen. Chubby Bag WIMB is Sam\'s Stand Oil bowling bag with luxury card lanes, Korean beauty tint, and travel pain relief — preset 147.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 147. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+  ],
+
+  'styling-navy-trousers-brand-guide': [
+    {
+      q: 'What is the Daniel Simmons navy trousers OOTD breakdown?',
+      a: 'It is a nine-slot transitional menswear kit: Nautica True Khaki deck pants, Buck Mason oxford shirt, Our Legacy cord trucker jacket, Lemaire Chelsea boots, Ralph Lauren equestrian belt, New Era Yankees 59FIFTY, Adsum Core Logo tote, Cartier Tank Must watch, and Aesop Ouranon EDP — nine distinct brands on preset 148.',
+    },
+    {
+      q: 'Why Nautica instead of Daniel Simmons for the trouser slot?',
+      a: 'Daniel Simmons is the styling host — Diffr Scenes avoid host-owned labels in catalog slots. Editorial pins Nautica True Khaki Classic Fit deck pants as the navy fatigue-trouser anchor with a live packshot.',
+    },
+    {
+      q: 'How is this different from summer linen OOTD (preset 145)?',
+      a: 'Preset 145 is Daniel Simmons\' relaxed summer linen on warm stone — pleated BR trousers, namesake overshirt, Weejuns, Seiko tank. Navy trousers GRWM is richer navy-and-brown layering with cord jacket, Chelsea boots, and Yankees cap — preset 148.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 148. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
   ],
 

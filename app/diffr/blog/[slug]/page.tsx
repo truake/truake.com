@@ -97,6 +97,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'evergreen-edc-brand-guide': 143,
   'wimb-munchi-brand-guide': 144,
   'styling-summer-linen-brand-guide': 145,
+  'japanese-craft-edc-brand-guide': 146,
+  'wimb-chubby-bag-brand-guide': 147,
+  'styling-navy-trousers-brand-guide': 148,
 }
 
 export async function generateStaticParams() {

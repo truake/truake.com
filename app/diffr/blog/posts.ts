@@ -2432,6 +2432,159 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'japanese-craft-edc-brand-guide',
+    title: 'Japanese Craft EDC: 10 Monozukuri Picks, One Brand Per Slot',
+    description: 'Japanese craft EDC decoded — Nagao Higonokami 75mm brass, Moto Bayashi Prince Dolphin burgundy, Candy Gordon key ring, Kuoe Old Smith bronze, TRUSCO T-190 OD toolbox, Fujifilm X-E5+XF23mm kit silver, Tsuchiya Diario KBR27, Tetzbo Chibien Z pen, Penco coil notepad, Porter Tanker hip bag. Ten Japanese brands on warm oak.',
+    date: '2026-08-31',
+    readTime: '5 min read',
+    tags: ['brand guide', 'EDC', 'Japanese craft', 'flat lay', 'everyday carry', 'monozukuri', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten Japanese craft EDC picks — Higonokami, Prince Dolphin, Gordon key ring, Kuoe Old Smith, TRUSCO T-190, Fujifilm X-E5 kit, Tsuchiya Diario, Tetzbo Chibien Z, Penco notepad, Porter Tanker — one brand per slot.',
+    content: `
+<p>The Japanese craft EDC flat lay celebrates <em>Monozukuri</em> on warm oak: a <strong>Nagao Kanekoma</strong> Higonokami 75mm brass friction folder, a burgundy <strong>Moto Bayashi</strong> Prince Dolphin lighter, a <strong>Candy Design &amp; Works</strong> Gordon key ring, a bronze <strong>Kuoe Kyoto</strong> Old Smith 90-002 field watch, an olive-drab <strong>TRUSCO</strong> T-190 trunk toolbox, a silver <strong>Fujifilm</strong> X-E5 + XF23mm kit, a <strong>Tsuchiya Kaban</strong> Diario L Zip KBR27 wallet, a <strong>Tetzbo</strong> Chibien Z KOHEZI brass pen, a <strong>Penco</strong> coil notepad, and a matte-black <strong>Porter</strong> Tanker hip bag. Ten slots, ten Japanese specialists, zero brand repeats.</p>
+
+<p>Source decode: NotebookLM Japanese craftsmanship EDC extract. Editorial corrections: Toyo Steel toolbox decode &rarr; TRUSCO T-190 OD; Tesso pen decode &rarr; Tetzbo Chibien Z; Candy Kendrick decode &rarr; Gordon key ring; Higonokami pinned at 75mm brass catalog line.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Heritage Pocket Knife</h3>
+<p><strong>Higonokami Handmade Pocket Knife 75mm Brass Handle</strong> &mdash; Nagao Kanekoma authentic Higonokami with raw brass handle and blue-paper steel blade.</p>
+
+<h3>Slot 2 &mdash; Mid-Century Gas Lighter</h3>
+<p><strong>PRINCE Dolphin Lighter Burgundy</strong> &mdash; Moto Bayashi Showa-era Prince Dolphin flip lighter in burgundy chrome.</p>
+
+<h3>Slot 3 &mdash; Spring-Snap Key Hook</h3>
+<p><strong>Gordon Key Ring</strong> &mdash; Candy Design &amp; Works brass spring-gate key ring with knurled sleeve.</p>
+
+<h3>Slot 4 &mdash; Neo-Vintage Field Watch</h3>
+<p><strong>OLD SMITH 90-002 35mm Version Bronze Case Bronze</strong> &mdash; Kuoe Kyoto CUSN8 bronze trench watch on grain-brown dial.</p>
+
+<h3>Slot 5 &mdash; Seamless Pocket Toolbox</h3>
+<p><strong>T-190 OD Trunk Tool Box Matte Olive Drab</strong> &mdash; TRUSCO deep-drawn steel toolbox in matte olive drab.</p>
+
+<h3>Slot 6 &mdash; Rangefinder-Style Camera</h3>
+<p><strong>X-E5 + XF23mm F2 R WR Kit Silver</strong> &mdash; Fujifilm X-E5 silver body with XF 23mm f/2 pancake lens kit.</p>
+
+<h3>Slot 7 &mdash; Minimalist L-Zip Wallet</h3>
+<p><strong>Diario L Zip Long Wallet KBR27</strong> &mdash; Tsuchiya Kaban oil-mellow steerhide L-zip wallet.</p>
+
+<h3>Slot 8 &mdash; Hand-Turned Mini Pen</h3>
+<p><strong>Chibien Z Ballpoint Pen - KOHEZI</strong> &mdash; Tetzbo hexagonal brass mini pen with Jetstream refill.</p>
+
+<h3>Slot 9 &mdash; Copper Spiral Notepad</h3>
+<p><strong>COIL NOTE PAD S</strong> &mdash; Penco (High Tide) small copper-spiral craft notepad.</p>
+
+<h3>Slot 10 &mdash; Tactical Waist Bag</h3>
+<p><strong>TANKER HIP BAG</strong> &mdash; Porter Yoshida &amp; Co. Tanker hip bag with fluorescent orange lining.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Japanese EDC flat lays mix knife, lighter, watch, camera, and carry faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All ten slots are pinned on preset 146 with ten distinct brands.</p>
+
+<p>Distinct from <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a> (green Western kit, preset 143) · <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a> (tactical-minimal concrete, preset 134) · <a href="/diffr/blog/charcoal-travel-tech-edc-brand-guide">charcoal travel-tech EDC</a> (preset 142). Explore the interactive scene: <a href="/diffr/start/japanese-craft-edc-kit">Japanese Craft EDC Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-chubby-bag-brand-guide',
+    title: 'Stand Oil Chubby Bag WIMB: 10 Travel-Ready Picks, One Brand Per Slot',
+    description: 'Stand Oil Chubby Bag WIMB decoded — Leica Q Typ 116 silver limited, Smythson Panama Nile card holder, Celine Triomphe sunglasses, Cheero Danboard 10000mAh PD PPS, Chloé flap wallet, Vaseline Lip Therapy, Peripera Ink Glasting, Miffy bread bun keychain, Advil Liquid-Gels. Ten brands on warm linen.',
+    date: '2026-08-31',
+    readTime: '5 min read',
+    tags: ['brand guide', 'whats in my bag', 'WIMB', 'Stand Oil', 'creative carry', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten Chubby Bag WIMB picks — Stand Oil Chubby bag, Leica Q Typ 116, Smythson Nile card holder, Celine Triomphe, Cheero Danboard power bank, Chloé wallet, Vaseline, Peripera gloss, Miffy keychain, Advil — one brand per slot.',
+    content: `
+<p>Sam&rsquo;s Stand Oil Chubby Bag spill is a realistic travel WIMB on warm linen: a black <strong>Stand Oil</strong> Chubby bag, a silver-anodized <strong>Leica</strong> Q Typ 116 limited edition, a Nile Blue <strong>Smythson</strong> Panama card holder, <strong>Celine</strong> Triomphe oval tortoiseshell sunglasses, a <strong>Cheero</strong> Danboard 10000mAh PD PPS power bank, a black <strong>Chloé</strong> flap wallet, <strong>Vaseline</strong> Lip Therapy Original, <strong>Peripera</strong> Ink Glasting Lip Gloss 01 Clear, a <strong>Miffy</strong> baked-bread bun plush keychain, and <strong>Advil</strong> Liqui-Gel Minis. Ten slots, ten brands &mdash; Jane Birkin-fy energy without brand monopolies.</p>
+
+<p>Source decode: Sam and Victor Chubby Bag WIMB via NotebookLM. Slot 2 editorial correction: Insta360 GO 3S (hidden CN) &rarr; <strong>Leica Q Typ 116 Silver Anodized Limited</strong>. Power bank brand stays Cheero; Danboard is the product-line name only.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; The Daily Bag</h3>
+<p><strong>Chubby bag &middot; 츄비백 / 블랙</strong> &mdash; Stand Oil glossy faux-patent bowling bag in matte black.</p>
+
+<h3>Slot 2 &mdash; Compact Camera</h3>
+<p><strong>Leica Q Typ 116 Silver Anodized Limited Edition</strong> &mdash; Leica full-frame compact with silver anodized finish (Insta360 editorial substitute).</p>
+
+<h3>Slot 3 &mdash; Pop-of-Color Card Holder</h3>
+<p><strong>Panama 773 Cardholder Nile Blue</strong> &mdash; Smythson cross-grain Panama leather flat card holder.</p>
+
+<h3>Slot 4 &mdash; Statement Sunglasses</h3>
+<p><strong>Triomphe Oval Sunglasses</strong> &mdash; Celine acetate oval frames with Triomphe temple emblem.</p>
+
+<h3>Slot 5 &mdash; Fast Portable Power</h3>
+<p><strong>Danboard 10000mAh PD PPS Power Bank</strong> &mdash; Cheero USB-C PD PPS Danboard-character battery pack.</p>
+
+<h3>Slot 6 &mdash; Sentimental Card Wallet</h3>
+<p><strong>Chloé Flap Wallet, Black</strong> &mdash; Chloé grained-calfskin envelope-flap wallet.</p>
+
+<h3>Slot 7 &mdash; Hydrating Lip Care</h3>
+<p><strong>Vaseline Lip Therapy Original</strong> &mdash; Vaseline triple-purified petroleum jelly lip tube.</p>
+
+<h3>Slot 8 &mdash; Glass-Like Lip Tint</h3>
+<p><strong>Ink Glasting Lip Gloss 01 Clear</strong> &mdash; Peripera non-sticky clear-pink glass gloss.</p>
+
+<h3>Slot 9 &mdash; Kitsch Coin Purse</h3>
+<p><strong>Miffy Face Baked Bread Bun Plush Keychain</strong> &mdash; Miffy Bakery toast-shaped plush coin pouch.</p>
+
+<h3>Slot 10 &mdash; Emergency Pain Relief</h3>
+<p><strong>Advil Liqui-Gel Minis Ibuprofen Pain Reliever</strong> &mdash; Advil travel-size liquid-gel ibuprofen capsules.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Real bag dumps mix luxury card lanes, K-beauty tint, and travel pain relief faster than any checklist. Diffr&rsquo;s brand kit below pulls typed product lines with catalog images. All ten slots are pinned on preset 147 with ten distinct brands.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-munchi-brand-guide">WIMB Munchi creative carry</a> (Lemaire tote spill, preset 144) · <a href="/diffr/blog/whats-in-my-bag-brand-guide">luxury beauty WIMB</a> (preset 112) · <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a> (preset 143). Explore the interactive scene: <a href="/diffr/start/wimb-chubby-bag-kit">WIMB Chubby Bag Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-navy-trousers-brand-guide',
+    title: 'Styling Navy Trousers: 9 Transitional Picks, One Brand Per Slot',
+    description: 'Daniel Simmons navy trousers GRWM decoded — Nautica True Khaki deck pants, Buck Mason oxford, Our Legacy cord jacket, Lemaire Chelsea boots, Ralph Lauren equestrian belt, New Era Yankees cap, Adsum canvas tote, Cartier Tank Must, Aesop Ouranon. Nine brands on warm stone.',
+    date: '2026-08-31',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'outfit of the day', 'menswear', 'navy trousers', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine navy-trousers OOTD picks — Nautica deck pants, Buck Mason oxford, Our Legacy cord jacket, Lemaire Chelsea boots, Ralph Lauren belt, New Era Yankees cap, Adsum tote, Cartier Tank, Aesop Ouranon — one brand per slot.',
+    content: `
+<p>Daniel Simmons&rsquo; navy-trousers GRWM decodes into nine transitional menswear slots on warm stone: <strong>Nautica</strong> True Khaki deck pants as the anchor, a <strong>Buck Mason</strong> perfect oxford button-down, an <strong>Our Legacy</strong> brown cord trucker jacket, sleek black <strong>Lemaire</strong> Chelsea ankle boots, a polo-brown <strong>Ralph Lauren</strong> equestrian-buckle belt, a navy <strong>New Era</strong> Yankees 59FIFTY fitted, an <strong>Adsum</strong> Core Logo canvas tote, a <strong>Cartier</strong> Tank Must watch, and <strong>Aesop</strong> Ouranon EDP. Nine brands, zero repeats &mdash; rich navy-and-brown layering without a host-owned label in the Scene grid.</p>
+
+<p>Source decode: Daniel Simmons &ldquo;Styling Navy Trousers&rdquo; GRWM via NotebookLM. Slot 1 editorial correction: host-owned Daniel Simmons fatigue trousers &rarr; <strong>Nautica True Khaki Classic Fit deck pants</strong> (catalog anchor with live packshot). Path B wardrobe flat lay &mdash; not an on-body crop.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Core Bottoms</h3>
+<p><strong>Men&rsquo;s TRUE KHAKI Classic Fit Stretch Performance Deck Pant</strong> &mdash; Nautica garment-washed navy-khaki deck pants with relaxed drape.</p>
+
+<h3>Slot 2 &mdash; Mid-Layer Shirt</h3>
+<p><strong>Perfect Oxford Button-Down Shirt</strong> &mdash; Buck Mason deep-navy oxford cotton shirt.</p>
+
+<h3>Slot 3 &mdash; Corduroy Outerwear</h3>
+<p><strong>Bank Jacket Dark Brown Twill Cord</strong> &mdash; Our Legacy thick-wale chocolate-brown cord trucker jacket.</p>
+
+<h3>Slot 4 &mdash; Chelsea Boots</h3>
+<p><strong>Chelsea Ankle Boots in Shiny Vegetable-Tanned Leather</strong> &mdash; Lemaire sleek black calfskin Chelsea boots.</p>
+
+<h3>Slot 5 &mdash; Leather Belt</h3>
+<p><strong>Equestrian-Buckle Leather Belt Polo Brown</strong> &mdash; Ralph Lauren dark espresso harness-leather belt.</p>
+
+<h3>Slot 6 &mdash; Heritage Cap</h3>
+<p><strong>New York Yankees Wool 59FIFTY Fitted</strong> &mdash; New Era structured navy Yankees fitted cap.</p>
+
+<h3>Slot 7 &mdash; Daily Tote</h3>
+<p><strong>Core Logo Tote</strong> &mdash; Adsum heavyweight canvas utility tote.</p>
+
+<h3>Slot 8 &mdash; Horology</h3>
+<p><strong>Tank Must de Cartier Watch</strong> &mdash; Cartier Tank Must rectangular steel dress watch.</p>
+
+<h3>Slot 9 &mdash; Signature Scent</h3>
+<p><strong>Ouranon Eau de Parfum</strong> &mdash; Aesop resinous frankincense-and-hay EDP.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Transitional OOTD breakdowns shouldn&rsquo;t read like a walking single-brand catalog. Diffr maps Daniel Simmons&rsquo; navy-trouser uniform into nine specialist slots &mdash; each pinned on preset 148 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-summer-linen-brand-guide">styling summer linen</a> (preset 145) · <a href="/diffr/blog/wimb-munchi-brand-guide">WIMB Munchi creative carry</a> (preset 144) · <a href="/diffr/blog/womens-capsule-wardrobe-brand-guide">women&rsquo;s capsule wardrobe</a>. Explore the interactive scene: <a href="/diffr/start/ootd-navy-trousers-kit">OOTD Navy Trousers Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',
