@@ -2495,7 +2495,7 @@ export const posts: BlogPost[] = [
     content: `
 <p>Sam&rsquo;s Stand Oil Chubby Bag spill is a realistic travel WIMB on warm linen: a black <strong>Stand Oil</strong> Chubby bag, a silver-anodized <strong>Leica</strong> Q Typ 116 limited edition, a Nile Blue <strong>Smythson</strong> Panama card holder, <strong>Celine</strong> Triomphe oval tortoiseshell sunglasses, a <strong>Cheero</strong> Danboard 10000mAh PD PPS power bank, a black <strong>Chloé</strong> flap wallet, <strong>Vaseline</strong> Lip Therapy Original, <strong>Peripera</strong> Ink Glasting Lip Gloss 01 Clear, a <strong>Miffy</strong> baked-bread bun plush keychain, and <strong>Advil</strong> Liqui-Gel Minis. Ten slots, ten brands &mdash; Jane Birkin-fy energy without brand monopolies.</p>
 
-<p>Source decode: Sam and Victor Chubby Bag WIMB via NotebookLM. Slot 2 editorial correction: Insta360 GO 3S (hidden CN) &rarr; <strong>Leica Q Typ 116 Silver Anodized Limited</strong>. Power bank brand stays Cheero; Danboard is the product-line name only.</p>
+<p>Source decode: Sam and Victor Chubby Bag WIMB via NotebookLM. Two-month Japan travel carry &mdash; luxury card lanes, compact camera, K-beauty lip stack, gachapon charm customization, and travel pain relief in one realistic spill.</p>
 
 <h2>The Slots</h2>
 
@@ -2503,7 +2503,7 @@ export const posts: BlogPost[] = [
 <p><strong>Chubby bag &middot; 츄비백 / 블랙</strong> &mdash; Stand Oil glossy faux-patent bowling bag in matte black.</p>
 
 <h3>Slot 2 &mdash; Compact Camera</h3>
-<p><strong>Leica Q Typ 116 Silver Anodized Limited Edition</strong> &mdash; Leica full-frame compact with silver anodized finish (Insta360 editorial substitute).</p>
+<p><strong>Leica Q Typ 116 Silver Anodized Limited Edition</strong> &mdash; Leica full-frame compact with silver anodized finish for travel B-roll and street frames.</p>
 
 <h3>Slot 3 &mdash; Pop-of-Color Card Holder</h3>
 <p><strong>Panama 773 Cardholder Nile Blue</strong> &mdash; Smythson cross-grain Panama leather flat card holder.</p>

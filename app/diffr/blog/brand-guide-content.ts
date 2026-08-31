@@ -196,7 +196,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'japanese-craft-edc-brand-guide':
     'Bottom line: Japanese Monozukuri craft EDC is ten slots on warm oak — Nagao Higonokami 75mm brass, Moto Bayashi Prince Dolphin burgundy, Candy Gordon key ring, Kuoe Old Smith bronze, TRUSCO T-190 OD toolbox, Fujifilm X-E5+XF23mm kit silver, Tsuchiya Diario KBR27 wallet, Tetzbo Chibien Z pen, Penco coil notepad, Porter Tanker hip bag — one brand each. TRUSCO/Tetzbo/Gordon editorial corrections from NotebookLM decode. Live catalog tiles below.',
   'wimb-chubby-bag-brand-guide':
-    'Bottom line: Stand Oil Chubby Bag WIMB is ten travel-ready slots on warm linen — Stand Oil Chubby bag black, Leica Q Typ 116 silver limited (Insta360 hidden-CN sub), Smythson Panama Nile card holder, Celine Triomphe sunglasses, Cheero Danboard 10000mAh PD PPS, Chloé flap wallet, Vaseline Lip Therapy, Peripera Ink Glasting clear, Miffy bread bun keychain, Advil Liquid-Gels — one brand each. Distinct from preset 144 Munchi tote. Live catalog tiles below.',
+    'Bottom line: Stand Oil Chubby Bag WIMB is ten travel-ready slots on warm linen — Stand Oil Chubby bag black, Leica Q Typ 116 silver limited, Smythson Panama Nile card holder, Celine Triomphe sunglasses, Cheero Danboard 10000mAh PD PPS, Chloé flap wallet, Vaseline Lip Therapy, Peripera Ink Glasting clear, Miffy bread bun keychain, Advil Liquid-Gels — one brand each. Distinct from preset 144 Munchi tote. Live catalog tiles below.',
   'styling-navy-trousers-brand-guide':
     'Bottom line: Daniel Simmons navy-trousers GRWM is nine transitional menswear slots — Nautica True Khaki deck pants, Buck Mason oxford shirt, Our Legacy cord trucker jacket, Lemaire Chelsea boots, Ralph Lauren equestrian belt, New Era Yankees cap, Adsum canvas tote, Cartier Tank Must, Aesop Ouranon EDP — one brand each. Nautica catalog anchor (not host-owned Daniel Simmons label in Scene). Distinct from preset 145 summer linen. Live catalog tiles below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -1930,8 +1930,8 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: 'It is a ten-slot realistic daily travel spill: Stand Oil Chubby bag black, Leica Q Typ 116 silver anodized limited, Smythson Panama 773 Nile Blue card holder, Celine Triomphe oval sunglasses, Cheero Danboard 10000mAh PD PPS power bank, Chloé flap wallet, Vaseline Lip Therapy Original, Peripera Ink Glasting Lip Gloss 01 Clear, Miffy bread bun plush keychain, and Advil Liqui-Gel Minis — ten distinct brands on preset 147.',
     },
     {
-      q: 'Why Leica Q instead of Insta360 for the camera slot?',
-      a: 'Insta360 is a hidden mainland-China brand excluded from editorial Scenes. The Sam and Victor vlog-camera decode substitutes Leica Q Typ 116 Silver Anodized Limited — distinct from preset 144 Canon G7X Mark II.',
+      q: 'What is the Leica Q slot in the Chubby Bag WIMB?',
+      a: 'Slot 2 is the Leica Q Typ 116 Silver Anodized Limited Edition — a full-frame compact camera for travel B-roll and street frames. It sits alongside Smythson card carry and Celine Triomphe sunglasses on preset 147, distinct from preset 144\'s Canon G7X Mark II in the Munchi tote decode.',
     },
     {
       q: 'Why Cheero and not a separate Danboard brand for the power bank?',
