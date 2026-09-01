@@ -23,6 +23,63 @@ export const posts: BlogPost[] = [
   ...behindTheBuildPosts,
   ...behindTheContractPilotPosts,
   {
+    slug: 'scene-series',
+    title: 'Scene Series: EDC, WIMB & OOTD Brand Guides',
+    description: 'Every Diffr Scene Series flat-lay brand guide — EDC pocket dumps, WIMB bag spills, and OOTD outfit kits. One brand per slot, live catalog tiles, matching presets in the Diffr iPhone app.',
+    date: '2026-09-01',
+    readTime: '4 min read',
+    tags: ['scene series', 'brand guide', 'EDC', 'WIMB', 'OOTD', 'flat lay', 'one brand per slot'],
+    category: 'product',
+    excerpt: 'Editorial flat-lay brand guides in three lanes — EDC, WIMB, and OOTD. One specialist brand per slot, live catalog tiles, app presets.',
+    content: `
+<p>Diffr <strong>Scene Series</strong> posts decode editorial flat lays into closed starter kits &mdash; one specialist brand per slot, zero repeats. Unlike open-ended &ldquo;best products&rdquo; lists, each Scene is a pinned preset with live catalog tiles and a matching interactive kit on the web and in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a>.</p>
+
+<p>Three editorial lanes organize every Scene:</p>
+<ul>
+<li><strong><a href="#edc">EDC Scenes</a></strong> &mdash; everyday carry pocket dumps on felt, oak, or stone.</li>
+<li><strong><a href="#wimb">WIMB Scenes</a></strong> &mdash; what&rsquo;s-in-my-bag spills with travel-ready essentials.</li>
+<li><strong><a href="#ootd">OOTD Scenes</a></strong> &mdash; outfit flat lays with one brand per wardrobe layer.</li>
+</ul>
+
+<h2 id="edc">EDC Scenes</h2>
+<p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
+<ul>
+<li><a href="/diffr/blog/japanese-craft-edc-brand-guide">Japanese Craft EDC</a> (preset 146)</li>
+<li><a href="/diffr/blog/evergreen-edc-brand-guide">Evergreen EDC</a> (preset 143)</li>
+<li><a href="/diffr/blog/gray-edc-knoll-brand-guide">Gray EDC Knoll</a> (preset 134)</li>
+<li><a href="/diffr/blog/charcoal-travel-tech-edc-brand-guide">Charcoal Travel-Tech EDC</a> (preset 142)</li>
+<li><a href="/diffr/blog/mini-edc-sling-brand-guide">Mini EDC Sling</a> (preset 141)</li>
+<li><a href="/diffr/blog/tech-grooming-tray-brand-guide">Tech &amp; Grooming Tray EDC</a> (preset 140)</li>
+<li><a href="/diffr/blog/mini-but-mighty-edc-brand-guide">Mini But Mighty EDC</a> (preset 139)</li>
+<li><a href="/diffr/blog/dark-valet-tray-edc-brand-guide">Dark Valet Tray EDC</a> (preset 138)</li>
+<li><a href="/diffr/blog/xpac-monochrome-sling-edc-brand-guide">X-PAC Monochrome Sling EDC</a> (preset 137)</li>
+<li><a href="/diffr/blog/quiet-luxury-edc-brand-guide">Quiet Luxury EDC</a></li>
+<li><a href="/diffr/blog/creative-desk-edc-brand-guide">Creative Desk EDC</a></li>
+</ul>
+
+<h2 id="wimb">WIMB Scenes</h2>
+<p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
+<ul>
+<li><a href="/diffr/blog/wimb-chubby-bag-brand-guide">Stand Oil Chubby Bag WIMB</a> (preset 147)</li>
+<li><a href="/diffr/blog/wimb-munchi-brand-guide">WIMB Munchi Creative Carry</a> (preset 144)</li>
+<li><a href="/diffr/blog/whats-in-my-bag-brand-guide">Luxury Beauty WIMB</a></li>
+<li><a href="/diffr/blog/girl-essentials-brand-guide">Girl Essentials MacBook Kit</a></li>
+</ul>
+
+<h2 id="ootd">OOTD Scenes</h2>
+<p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
+<ul>
+<li><a href="/diffr/blog/styling-navy-trousers-brand-guide">Styling Navy Trousers</a> (preset 148)</li>
+<li><a href="/diffr/blog/styling-summer-linen-brand-guide">Styling Summer Linen</a> (preset 145)</li>
+</ul>
+
+<h2>How Scene Series differs from starter kits</h2>
+<p><a href="/diffr/blog/starter-kits">Starter kits</a> are beginner buying guides for hobbies and scenes (camping, home gym, skincare). Scene Series posts decode <em>editorial flat-lay reference images</em> &mdash; pocket dumps, bag spills, and GRWM outfit grids &mdash; into the same one-brand-per-slot rule with live catalog images. Browse starter kits for &ldquo;what do I need to start?&rdquo;; browse Scene Series for &ldquo;what brands are in this flat lay?&rdquo;</p>
+
+<p>Get the app: <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr on the App Store</a> &mdash; every Scene preset loads with swappable slots and no-repeat enforcement.</p>
+`.trim(),
+  },
+  {
     slug: 'camping-vs-backpacking-starter-kit',
     title: 'Car Camping vs Backpacking: Which Starter Kit Do You Need?',
     description: 'Car camping and backpacking look like the same hobby until you try to pack. Here is how to tell which starter kit you need — shelter, sleep, stove, and carry — plus links to the complete one-brand-per-slot lists for each.',
@@ -2445,6 +2502,29 @@ export const posts: BlogPost[] = [
 
 <p>Source decode: NotebookLM Japanese craftsmanship EDC extract. Editorial corrections: Toyo Steel toolbox decode &rarr; TRUSCO T-190 OD; Tesso pen decode &rarr; Tetzbo Chibien Z; Candy Kendrick decode &rarr; Gordon key ring; Higonokami pinned at 75mm brass catalog line.</p>
 
+<h2>What brands are in the Japanese craft EDC flat lay?</h2>
+<p>Ten Japanese brands on preset 146: <strong>Nagao Kanekoma</strong>, <strong>Moto Bayashi</strong>, <strong>Candy Design &amp; Works</strong>, <strong>Kuoe Kyoto</strong>, <strong>TRUSCO</strong>, <strong>Fujifilm</strong>, <strong>Tsuchiya Kaban</strong>, <strong>Tetzbo</strong>, <strong>Penco</strong>, and <strong>Porter</strong> &mdash; one specialist per slot, zero repeats.</p>
+
+<h2>Japanese craft EDC starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Nagao Kanekoma</td><td>Higonokami 75mm brass pocket knife</td></tr>
+<tr><td>2</td><td>Moto Bayashi</td><td>Prince Dolphin lighter burgundy</td></tr>
+<tr><td>3</td><td>Candy Design &amp; Works</td><td>Gordon key ring</td></tr>
+<tr><td>4</td><td>Kuoe Kyoto</td><td>Old Smith 90-002 bronze watch</td></tr>
+<tr><td>5</td><td>TRUSCO</td><td>T-190 OD trunk toolbox</td></tr>
+<tr><td>6</td><td>Fujifilm</td><td>X-E5 + XF23mm kit silver</td></tr>
+<tr><td>7</td><td>Tsuchiya Kaban</td><td>Diario L Zip KBR27 wallet</td></tr>
+<tr><td>8</td><td>Tetzbo</td><td>Chibien Z KOHEZI pen</td></tr>
+<tr><td>9</td><td>Penco</td><td>Coil note pad S</td></tr>
+<tr><td>10</td><td>Porter</td><td>Tanker hip bag</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this kit in the Diffr app?</h2>
+<p>Open <strong>preset 146</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/japanese-craft-edc-kit">interactive Japanese Craft EDC Scene</a>. Swap any slot without breaking the one-brand-per-slot rule &mdash; the app enforces no repeats in the same Scene.</p>
+
 <h2>The Slots</h2>
 
 <h3>Slot 1 &mdash; Heritage Pocket Knife</h3>
@@ -2497,6 +2577,29 @@ export const posts: BlogPost[] = [
 
 <p>Source decode: Sam and Victor Chubby Bag WIMB via NotebookLM. Two-month Japan travel carry &mdash; luxury card lanes, compact camera, K-beauty lip stack, gachapon charm customization, and travel pain relief in one realistic spill.</p>
 
+<h2>What is in the Stand Oil Chubby Bag WIMB?</h2>
+<p>Ten travel-ready brands on preset 147: <strong>Stand Oil</strong>, <strong>Leica</strong>, <strong>Smythson</strong>, <strong>Celine</strong>, <strong>Cheero</strong>, <strong>Chloé</strong>, <strong>Vaseline</strong>, <strong>Peripera</strong>, <strong>Miffy</strong>, and <strong>Advil</strong> &mdash; one brand per spill slot.</p>
+
+<h2>Chubby Bag WIMB starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Stand Oil</td><td>Chubby bag black</td></tr>
+<tr><td>2</td><td>Leica</td><td>Q Typ 116 silver limited</td></tr>
+<tr><td>3</td><td>Smythson</td><td>Panama 773 Nile card holder</td></tr>
+<tr><td>4</td><td>Celine</td><td>Triomphe oval sunglasses</td></tr>
+<tr><td>5</td><td>Cheero</td><td>Danboard 10000mAh PD PPS</td></tr>
+<tr><td>6</td><td>Chloé</td><td>Flap wallet black</td></tr>
+<tr><td>7</td><td>Vaseline</td><td>Lip Therapy Original</td></tr>
+<tr><td>8</td><td>Peripera</td><td>Ink Glasting Lip Gloss 01 Clear</td></tr>
+<tr><td>9</td><td>Miffy</td><td>Bread bun plush keychain</td></tr>
+<tr><td>10</td><td>Advil</td><td>Liqui-Gel Minis ibuprofen</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this WIMB kit in the Diffr app?</h2>
+<p>Open <strong>preset 147</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-chubby-bag-kit">interactive WIMB Chubby Bag Scene</a>. Same ten pins as this post &mdash; swap any slot while keeping one brand per slot.</p>
+
 <h2>The Slots</h2>
 
 <h3>Slot 1 &mdash; The Daily Bag</h3>
@@ -2548,6 +2651,28 @@ export const posts: BlogPost[] = [
 <p>Daniel Simmons&rsquo; navy-trousers GRWM decodes into nine transitional menswear slots on warm stone: <strong>Nautica</strong> True Khaki deck pants as the anchor, a <strong>Buck Mason</strong> perfect oxford button-down, an <strong>Our Legacy</strong> brown cord trucker jacket, sleek black <strong>Lemaire</strong> Chelsea ankle boots, a polo-brown <strong>Ralph Lauren</strong> equestrian-buckle belt, a navy <strong>New Era</strong> Yankees 59FIFTY fitted, an <strong>Adsum</strong> Core Logo canvas tote, a <strong>Cartier</strong> Tank Must watch, and <strong>Aesop</strong> Ouranon EDP. Nine brands, zero repeats &mdash; rich navy-and-brown layering without a host-owned label in the Scene grid.</p>
 
 <p>Source decode: Daniel Simmons &ldquo;Styling Navy Trousers&rdquo; GRWM via NotebookLM. Slot 1 editorial correction: host-owned Daniel Simmons fatigue trousers &rarr; <strong>Nautica True Khaki Classic Fit deck pants</strong> (catalog anchor with live packshot). Path B wardrobe flat lay &mdash; not an on-body crop.</p>
+
+<h2>What brands go with navy trousers in this OOTD?</h2>
+<p>Nine transitional menswear brands on preset 148: <strong>Nautica</strong>, <strong>Buck Mason</strong>, <strong>Our Legacy</strong>, <strong>Lemaire</strong>, <strong>Ralph Lauren</strong>, <strong>New Era</strong>, <strong>Adsum</strong>, <strong>Cartier</strong>, and <strong>Aesop</strong> &mdash; one brand per wardrobe layer.</p>
+
+<h2>Navy trousers OOTD starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Nautica</td><td>True Khaki deck pants</td></tr>
+<tr><td>2</td><td>Buck Mason</td><td>Perfect oxford button-down</td></tr>
+<tr><td>3</td><td>Our Legacy</td><td>Bank cord trucker jacket</td></tr>
+<tr><td>4</td><td>Lemaire</td><td>Chelsea ankle boots black</td></tr>
+<tr><td>5</td><td>Ralph Lauren</td><td>Equestrian-buckle belt</td></tr>
+<tr><td>6</td><td>New Era</td><td>Yankees 59FIFTY fitted</td></tr>
+<tr><td>7</td><td>Adsum</td><td>Core Logo canvas tote</td></tr>
+<tr><td>8</td><td>Cartier</td><td>Tank Must watch</td></tr>
+<tr><td>9</td><td>Aesop</td><td>Ouranon EDP</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this OOTD kit in the Diffr app?</h2>
+<p>Open <strong>preset 148</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-navy-trousers-kit">interactive OOTD Navy Trousers Scene</a>. Swap layers while the Scene keeps one brand per slot.</p>
 
 <h2>The Slots</h2>
 
@@ -3733,6 +3858,14 @@ export const posts: BlogPost[] = [
 <ul>
 <li><a href="/diffr/blog/dorm-room-essentials-brand-guide">Dorm room essentials</a> &mdash; what you need for a dorm room, buy-first list.</li>
 <li><a href="/diffr/blog/college-packing-list-brand-guide">College packing list</a> &mdash; tech, documents, and what to coordinate with your roommate.</li>
+</ul>
+
+<h2>Scene Series (flat-lay brand guides)</h2>
+<p>Editorial pocket dumps, bag spills, and outfit kits &mdash; one brand per slot with live catalog tiles. Browse all Scenes by lane on the <a href="/diffr/blog/scene-series">Scene Series hub</a>.</p>
+<ul>
+<li><strong><a href="/diffr/blog/scene-series#edc">EDC Scenes</a></strong> &mdash; <a href="/diffr/blog/japanese-craft-edc-brand-guide">Japanese craft EDC</a>, <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a>, <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a>, and more.</li>
+<li><strong><a href="/diffr/blog/scene-series#wimb">WIMB Scenes</a></strong> &mdash; <a href="/diffr/blog/wimb-chubby-bag-brand-guide">Chubby Bag WIMB</a>, <a href="/diffr/blog/wimb-munchi-brand-guide">Munchi creative carry</a>, <a href="/diffr/blog/whats-in-my-bag-brand-guide">luxury beauty WIMB</a>.</li>
+<li><strong><a href="/diffr/blog/scene-series#ootd">OOTD Scenes</a></strong> &mdash; <a href="/diffr/blog/styling-navy-trousers-brand-guide">navy trousers GRWM</a>, <a href="/diffr/blog/styling-summer-linen-brand-guide">summer linen OOTD</a>.</li>
 </ul>
 
 <h2>Brand maps (lines explained)</h2>
@@ -6600,6 +6733,9 @@ export function getAllPosts(): BlogPost[] {
 /** Main blog index — series posts live on hub pages, not the front-page feed. */
 export function getBlogIndexPosts(): BlogPost[] {
   return getAllPosts().filter(
-    (p) => !p.slug.startsWith('behind-the-build-') && !p.slug.startsWith('behind-the-contract-'),
+    (p) =>
+      !p.slug.startsWith('behind-the-build-') &&
+      !p.slug.startsWith('behind-the-contract-') &&
+      p.slug !== 'scene-series',
   )
 }

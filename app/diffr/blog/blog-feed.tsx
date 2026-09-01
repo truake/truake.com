@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
 import type { BlogPost } from './posts'
+import { SceneSeriesHubCard } from './scene-series-hub'
 
 // Editorial "front page" layout: a dominant lead + a "Latest" rail, then
 // section fronts as ruled lists, with a sticky tag-classification filter.
@@ -130,6 +131,8 @@ function FrontPage({
 
   return (
     <>
+      <SceneSeriesHubCard />
+
       {behindTheBuildCount > 0 && (
         <Link
           href="/diffr/blog/behind-the-build"

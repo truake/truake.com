@@ -26,6 +26,17 @@
 
 **Action:** → **Batch U** below（42 正文 URL · ~5 天 · 10/天 quota）
 
+## Batch X — Scene Series hub + Aug 31 batch AEO refresh（2026-09-01）· P0
+
+Hub page + refreshed preset 146–148 posts (query H2, slot tables, app FAQs).
+
+| # | URL | Notes |
+|---|-----|-------|
+| 1 | https://truake.com/diffr/blog/scene-series | **NEW** — EDC · WIMB · OOTD hub |
+| 2 | https://truake.com/diffr/blog/japanese-craft-edc-brand-guide | AEO refresh preset 146 |
+| 3 | https://truake.com/diffr/blog/wimb-chubby-bag-brand-guide | AEO refresh preset 147 |
+| 4 | https://truake.com/diffr/blog/styling-navy-trousers-brand-guide | AEO refresh preset 148 |
+
 ## Batch V — Aritzia in-house brands refresh（2026-08-24）· P0 · 提交这一条
 
 GSC 2026-08-24 显示 `aritzia in house brands`（35 impr）/ `aritzia house brands` / `aritzia different brands`

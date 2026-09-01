@@ -120,7 +120,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'winter-layering-brand-guide':
     'Bottom line: a winter layering starter kit is a system, not one heavy coat — base layer, mid layer, insulation, and a weatherproof shell, plus the three extremities (head, hands, feet) where most heat escapes. Buy in this order: a thermal base layer, a fleece mid layer, and warm boots first, then the insulated jacket and parka — and do not skip the beanie and gloves, the cheapest, highest-impact warmth beginners miss. Add and shed layers to match the cold. Below is one brand per slot, no repeats.',
   'starter-kits':
-    'Bottom line: Diffr starter kits are complete beginner essentials lists — one good brand per slot, buy-in-this-order priority, no repeats. Pick your scene (camping, home gym, dorm, travel, gifts, wardrobe, skincare, and more), open the matching guide, and close the file. This page indexes every kit by category: Gear & Outdoors, Home & Desk, Wardrobe, Beauty & Hobby, Travel, and Gifts.',
+    'Bottom line: Diffr starter kits are complete beginner essentials lists — one good brand per slot, buy-in-this-order priority, no repeats. Pick your scene (camping, home gym, dorm, travel, gifts, wardrobe, skincare, and more), open the matching guide, and close the file. For editorial flat-lay pocket dumps and bag spills, browse Scene Series (EDC · WIMB · OOTD) on the hub page.',
   'film-photography-brand-guide':
     'Bottom line: a beginner film photography starter kit is eleven slots — camera body to mail-in lab — one brand each, no repeats. Buy first: a used Pentax K1000 (or similar fully manual 35mm SLR), a 50mm lens if needed, and Kodak Gold 200 for everyday rolls. Add a mail-in lab (Darkroom), a padded bag, and a rocket blower before accumulating more bodies or films. Skip the forum rabbit hole until you have shot ten rolls.',
   'diffr-vs-wirecutter':
@@ -194,11 +194,13 @@ export const BLOG_TLDR: Record<string, string> = {
   'styling-summer-linen-brand-guide':
     'Bottom line: Daniel Simmons summer linen OOTD is eight wardrobe slots on warm stone — Banana Republic Archive Reissue pleated linen trousers, Daniel Simmons Drape Shirt V2 Ivory, G.H. Bass Larson Weejuns, Seiko 5 vintage square tank, Tom Wood Cushion Satin ring, Diptyque Philosykos EDT, A.P.C. Rebound bag Noir, and Chimi 04 Core sunglasses — one brand each. BR trousers only; namesake overshirt breaks the matching suit. Live catalog tiles below.',
   'japanese-craft-edc-brand-guide':
-    'Bottom line: Japanese Monozukuri craft EDC is ten slots on warm oak — Nagao Higonokami 75mm brass, Moto Bayashi Prince Dolphin burgundy, Candy Gordon key ring, Kuoe Old Smith bronze, TRUSCO T-190 OD toolbox, Fujifilm X-E5+XF23mm kit silver, Tsuchiya Diario KBR27 wallet, Tetzbo Chibien Z pen, Penco coil notepad, Porter Tanker hip bag — one brand each. TRUSCO/Tetzbo/Gordon editorial corrections from NotebookLM decode. Live catalog tiles below.',
+    'Bottom line: Japanese Monozukuri craft EDC is ten slots on warm oak — Nagao Higonokami 75mm brass, Moto Bayashi Prince Dolphin, Candy Gordon key ring, Kuoe Old Smith, TRUSCO T-190, Fujifilm X-E5 kit, Tsuchiya Diario, Tetzbo Chibien Z, Penco notepad, Porter Tanker — one brand each on preset 146. Open the kit in the Diffr iPhone app or the interactive Scene below.',
   'wimb-chubby-bag-brand-guide':
-    'Bottom line: Stand Oil Chubby Bag WIMB is ten travel-ready slots on warm linen — Stand Oil Chubby bag black, Leica Q Typ 116 silver limited, Smythson Panama Nile card holder, Celine Triomphe sunglasses, Cheero Danboard 10000mAh PD PPS, Chloé flap wallet, Vaseline Lip Therapy, Peripera Ink Glasting clear, Miffy bread bun keychain, Advil Liquid-Gels — one brand each. Distinct from preset 144 Munchi tote. Live catalog tiles below.',
+    'Bottom line: Stand Oil Chubby Bag WIMB is ten travel-ready slots — Stand Oil bag, Leica Q Typ 116, Smythson card holder, Celine Triomphe, Cheero Danboard power bank, Chloé wallet, Vaseline, Peripera gloss, Miffy keychain, Advil — one brand each on preset 147. Open the kit in the Diffr iPhone app or the interactive Scene below.',
   'styling-navy-trousers-brand-guide':
-    'Bottom line: Daniel Simmons navy-trousers GRWM is nine transitional menswear slots — Nautica True Khaki deck pants, Buck Mason oxford shirt, Our Legacy cord trucker jacket, Lemaire Chelsea boots, Ralph Lauren equestrian belt, New Era Yankees cap, Adsum canvas tote, Cartier Tank Must, Aesop Ouranon EDP — one brand each. Nautica catalog anchor (not host-owned Daniel Simmons label in Scene). Distinct from preset 145 summer linen. Live catalog tiles below.',
+    'Bottom line: Navy-trousers GRWM is nine transitional menswear slots — Nautica deck pants, Buck Mason oxford, Our Legacy cord jacket, Lemaire Chelsea boots, Ralph Lauren belt, New Era Yankees cap, Adsum tote, Cartier Tank, Aesop Ouranon — one brand each on preset 148. Open the kit in the Diffr iPhone app or the interactive Scene below.',
+  'scene-series':
+    'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
 }
@@ -1922,6 +1924,14 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       q: 'How is this different from evergreen EDC or gray EDC knoll?',
       a: 'Evergreen EDC (preset 143) is a green-toned Western tech kit on sage felt. Gray EDC knoll (preset 134) is tactical-minimal on concrete. Japanese craft EDC celebrates ten Japanese shokunin specialists on warm oak — preset 146.',
     },
+    {
+      q: 'Is there a Diffr app for one-brand-per-slot EDC kits?',
+      a: 'Yes — the Diffr iPhone app on the App Store loads preset 146 with live catalog tiles for all ten Japanese craft EDC slots. Swap any pick without repeating a brand in the same Scene.',
+    },
+    {
+      q: 'How do I open the Japanese craft EDC kit in the app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 146 or the japanese-craft-edc Scene — the same pins as this blog post.',
+    },
   ],
 
   'wimb-chubby-bag-brand-guide': [
@@ -1945,6 +1955,14 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 147. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
     },
+    {
+      q: 'Is there a Diffr app for WIMB starter kits?',
+      a: 'Yes — the Diffr iPhone app on the App Store loads preset 147 with all ten Chubby Bag WIMB slots. Swap card carry, camera, or beauty picks without repeating a brand.',
+    },
+    {
+      q: 'How do I open the Chubby Bag WIMB in the app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 147 or the wimb-chubby-bag Scene — same pins as this post.',
+    },
   ],
 
   'styling-navy-trousers-brand-guide': [
@@ -1963,6 +1981,33 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do the product images come from?',
       a: 'They render live from Diffr\'s catalog via preset 148. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+    {
+      q: 'Is there a Diffr app for OOTD outfit kits?',
+      a: 'Yes — the Diffr iPhone app on the App Store loads preset 148 with all nine navy-trousers OOTD slots. Swap trousers, layers, or accessories without repeating a brand.',
+    },
+    {
+      q: 'How do I open the navy trousers OOTD in the app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 148 or the ootd-navy-trousers Scene — same pins as this post.',
+    },
+  ],
+
+  'scene-series': [
+    {
+      q: 'What is Diffr Scene Series?',
+      a: 'Scene Series are editorial flat-lay brand guides — EDC pocket dumps, WIMB bag spills, and OOTD outfit grids decoded into one specialist brand per slot. Each Scene has live catalog tiles and a matching preset in the Diffr iPhone app.',
+    },
+    {
+      q: 'What are the three Scene Series categories?',
+      a: 'EDC (everyday carry flat lays), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Browse each lane on this hub page — EDC has eleven guides, WIMB has four, OOTD has two.',
+    },
+    {
+      q: 'How is Scene Series different from starter kits?',
+      a: 'Starter kits are beginner buying guides for hobbies (camping, home gym, skincare). Scene Series decodes reference flat-lay images into the same one-brand-per-slot rule with catalog images — for "what brands are in this pocket dump?" not "what do I need to start camping?"',
+    },
+    {
+      q: 'Is there a Diffr app for Scene Series kits?',
+      a: 'Yes — every Scene preset loads in the Diffr iPhone app (https://apps.apple.com/us/app/diffr/id6772870733). Swap any slot while the app enforces one brand per slot with no repeats.',
     },
   ],
 
@@ -2070,6 +2115,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Which starter kit should I open first?',
       a: 'Pick the scene you are actually entering — first camping trip, first home gym, college dorm move-in, international trip, etc. — and open that guide. Use this index page to browse by category; each linked guide has the full slot list, TL;DR, and FAQ for that scene.',
+    },
+    {
+      q: 'Where are the flat-lay EDC, WIMB, and OOTD guides?',
+      a: 'Those live in Scene Series — editorial pocket dumps and bag spills with one brand per slot. Browse EDC, WIMB, and OOTD on the Scene Series hub at /diffr/blog/scene-series.',
     },
   ],
 

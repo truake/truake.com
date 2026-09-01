@@ -284,6 +284,7 @@ body {
 .blog-chip[aria-pressed="true"]:hover { color: #fff !important; }
 @media (max-width: 760px) {
   .blog-lead { grid-template-columns: 1fr !important; }
+  .scene-series-grid { grid-template-columns: 1fr !important; }
   .blog-lead-story {
     border-right: none !important;
     padding-right: 0 !important;
