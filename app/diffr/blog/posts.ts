@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/unusual-edc-brand-guide">Unusual EDC</a> (preset 149)</li>
 <li><a href="/diffr/blog/japanese-craft-edc-brand-guide">Japanese Craft EDC</a> (preset 146)</li>
 <li><a href="/diffr/blog/evergreen-edc-brand-guide">Evergreen EDC</a> (preset 143)</li>
 <li><a href="/diffr/blog/gray-edc-knoll-brand-guide">Gray EDC Knoll</a> (preset 134)</li>
@@ -60,6 +61,7 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-speedy-brand-guide">LV Speedy 25 WIMB</a> (preset 150)</li>
 <li><a href="/diffr/blog/wimb-chubby-bag-brand-guide">Stand Oil Chubby Bag WIMB</a> (preset 147)</li>
 <li><a href="/diffr/blog/wimb-munchi-brand-guide">WIMB Munchi Creative Carry</a> (preset 144)</li>
 <li><a href="/diffr/blog/whats-in-my-bag-brand-guide">Luxury Beauty WIMB</a></li>
@@ -69,6 +71,7 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-day-date-brand-guide">Day Date OOTD</a> (preset 151)</li>
 <li><a href="/diffr/blog/styling-navy-trousers-brand-guide">Styling Navy Trousers</a> (preset 148)</li>
 <li><a href="/diffr/blog/styling-summer-linen-brand-guide">Styling Summer Linen</a> (preset 145)</li>
 </ul>
@@ -2710,6 +2713,219 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'unusual-edc-brand-guide',
+    title: 'Unusual EDC: 9 Idiosyncratic Picks, One Brand Per Slot',
+    description: 'Unusual EDC decoded — The James Brand Palmer Clear, CW&T Pen Type-A, Formawerx Superleggera key, Barebones brass torch, Winter Blade Co. Factor B3, Trova Go vault, Botta Uno 24, Shomer-Tec compass, Aviator Fusion wallet. Nine brands on warm oak.',
+    date: '2026-09-02',
+    readTime: '6 min read',
+    tags: ['brand guide', 'EDC', 'unusual gear', 'flat lay', 'everyday carry', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine unusual EDC picks — Palmer Clear, CW&T Pen Type-A, Formawerx key, Barebones torch, Factor B3, Trova Go, Botta Uno 24, Shomer-Tec compass, Aviator Fusion — one brand per slot.',
+    content: `
+<p>The unusual EDC flat lay breaks the titanium-pen template on warm oak: a transparent <strong>The James Brand</strong> Palmer Clear utility blade, a piston-tight <strong>CW&amp;T</strong> Pen Type-A ruler pen, a CNC-machined <strong>Formawerx</strong> OpenSpec Superleggera key, a vintage-brass <strong>Barebones</strong> Mini Flashlight, a magnetic-suspension <strong>Winter Blade Co.</strong> Factor B3 folder, a biometric <strong>Trova</strong> Go Charcoal V2 vault, a single-hand <strong>Botta Design</strong> Uno 24 Tri-Titanium watch, a coin-disguised <strong>Shomer-Tec</strong> Covert Escape Compass, and an acrylic-window <strong>Aviator</strong> Fusion Silver wallet. Nine slots, nine specialists, zero brand repeats.</p>
+
+<p>Source decode: NotebookLM unusual EDC extract. Editorial correction: Forma Works decode name &rarr; <strong>Formawerx</strong> OpenSpec Superleggera (catalog brand on preset 149).</p>
+
+<h2>What brands are in the unusual EDC flat lay?</h2>
+<p>Nine idiosyncratic EDC brands on preset 149: <strong>The James Brand</strong>, <strong>CW&amp;T</strong>, <strong>Formawerx</strong>, <strong>Barebones</strong>, <strong>Winter Blade Co.</strong>, <strong>Trova</strong>, <strong>Botta Design</strong>, <strong>Shomer-Tec</strong>, and <strong>Aviator</strong> &mdash; one specialist per slot.</p>
+
+<h2>Unusual EDC starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>The James Brand</td><td>The Palmer &mdash; Clear Charcoal + Stainless</td></tr>
+<tr><td>2</td><td>CW&amp;T</td><td>Pen Type-A &mdash; Classic Stainless Ruler</td></tr>
+<tr><td>3</td><td>Formawerx</td><td>OpenSpec&trade; &mdash; Superleggera</td></tr>
+<tr><td>4</td><td>Barebones</td><td>Mini Flashlight &mdash; Brass</td></tr>
+<tr><td>5</td><td>Winter Blade Co.</td><td>Factor B3 &mdash; Full Titanium</td></tr>
+<tr><td>6</td><td>Trova</td><td>GO &mdash; Charcoal V2</td></tr>
+<tr><td>7</td><td>Botta Design</td><td>UNO 24 watch &mdash; Tri-Titanium Automatic</td></tr>
+<tr><td>8</td><td>Shomer-Tec</td><td>Covert Escape Compass &mdash; Nickel</td></tr>
+<tr><td>9</td><td>Aviator</td><td>Fusion Silver transparent slide wallet</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this kit in the Diffr app?</h2>
+<p>Open <strong>preset 149</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/unusual-edc-kit">interactive Unusual EDC Scene</a>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Transparent Utility Blade</h3>
+<p><strong>The Palmer &mdash; Clear Charcoal + Stainless</strong> &mdash; The James Brand recycled PCTG utility knife with tool-free blade swap.</p>
+
+<h3>Slot 2 &mdash; Piston Ruler Pen</h3>
+<p><strong>Pen Type-A &mdash; Classic Stainless Ruler</strong> &mdash; CW&amp;T machined stainless pen-in-ruler housing with magnetic snap.</p>
+
+<h3>Slot 3 &mdash; CNC Car Key</h3>
+<p><strong>OpenSpec&trade; &mdash; Superleggera</strong> &mdash; Formawerx 5-axis CNC sports-car key with Ultem handle.</p>
+
+<h3>Slot 4 &mdash; Antique Brass Torch</h3>
+<p><strong>Mini Flashlight &mdash; Brass</strong> &mdash; Barebones warm-glow brass pocket torch with USB-C recharge.</p>
+
+<h3>Slot 5 &mdash; Magnetic Folder</h3>
+<p><strong>Factor B3 &mdash; Full Titanium</strong> &mdash; Winter Blade Co. neodymium M-Lock titanium folder in M390 steel.</p>
+
+<h3>Slot 6 &mdash; Biometric Vault</h3>
+<p><strong>GO &mdash; Charcoal V2</strong> &mdash; Trova phone-biometric aluminum stash vault with tamper alerts.</p>
+
+<h3>Slot 7 &mdash; 24-Hour Watch</h3>
+<p><strong>UNO 24 watch &mdash; Tri-Titanium Automatic</strong> &mdash; Botta Design single-hand 24-hour German automatic.</p>
+
+<h3>Slot 8 &mdash; Covert Compass</h3>
+<p><strong>Covert Escape Compass &mdash; Nickel</strong> &mdash; Shomer-Tec magnetic north compass disguised as a US nickel.</p>
+
+<h3>Slot 9 &mdash; Transparent Wallet</h3>
+<p><strong>Fusion Silver | Metal Frame | Transparent Slide Wallet</strong> &mdash; Aviator acrylic-window aluminum card wallet.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Standard EDC flat lays repeat the same titanium pen and black flashlight. Diffr maps this idiosyncratic pocket dump into nine specialist slots &mdash; each pinned on preset 149 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/japanese-craft-edc-brand-guide">Japanese craft EDC</a> (preset 146) · <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a> (preset 143) · <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a> (preset 134). Explore the interactive scene: <a href="/diffr/start/unusual-edc-kit">Unusual EDC Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-speedy-brand-guide',
+    title: 'LV Speedy 25 WIMB: 9 Realistic Daily Picks, One Brand Per Slot',
+    description: 'Brandy Nicholl LV Speedy 25 WIMB decoded — Louis Vuitton Speedy khaki, Michael Kors wallet, Audio-Technica ATH-CKS30TW, Lanolips banana balm, Royal Bagger case, Octobuddy Magnet, Vicks VapoRub, Purell sanitizer, Laura Geller palette. Nine brands on warm linen.',
+    date: '2026-09-02',
+    readTime: '5 min read',
+    tags: ['brand guide', 'WIMB', 'whats in my bag', 'Louis Vuitton', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine LV Speedy WIMB picks — Louis Vuitton bag, Michael Kors wallet, Audio-Technica earbuds, Lanolips balm, Royal Bagger case, Octobuddy mount, Vicks, Purell, Laura Geller — one brand per slot.',
+    content: `
+<p>Brandy Nicholl&rsquo;s realistic <em>What&rsquo;s in My Bag</em> spill decodes into nine daily-carry slots on warm linen: a khaki-green <strong>Louis Vuitton</strong> Speedy Bandouli&egrave;re 25, a <strong>Michael Kors</strong> Jet Set Milky Strawberry wallet, <strong>Audio-Technica</strong> ATH-CKS30TW Evergreen earbuds, <strong>Lanolips</strong> Banana Balm Lip Sheen, a <strong>Royal Bagger</strong> leather zip case, an <strong>Octobuddy</strong> Magnet suction mount, <strong>Vicks</strong> VapoRub travel ointment, <strong>Purell</strong> Advanced Hand Sanitizer, and a <strong>Laura Geller</strong> Baked Icons palette. Nine brands, zero repeats &mdash; luxury bag, real-life essentials.</p>
+
+<p>Source decode: Brandy Nicholl LV Speedy 25 WIMB via NotebookLM. Editorial corrections: Apple AirPods &rarr; <strong>Audio-Technica ATH-CKS30TW</strong>; Starbucks rewards card &rarr; <strong>Laura Geller Baked Icons</strong>; secondary LV pouches omitted (LV slot = Speedy bag only); Royal Bagger pinned to leather zip case lane.</p>
+
+<h2>What brands are in the LV Speedy WIMB?</h2>
+<p>Nine realistic daily-carry brands on preset 150: <strong>Louis Vuitton</strong>, <strong>Michael Kors</strong>, <strong>Audio-Technica</strong>, <strong>Lanolips</strong>, <strong>Royal Bagger</strong>, <strong>Octobuddy</strong>, <strong>Vicks</strong>, <strong>Purell</strong>, and <strong>Laura Geller</strong> &mdash; one specialist per slot.</p>
+
+<h2>Speedy WIMB starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Louis Vuitton</td><td>Speedy Bandouli&egrave;re 25 &mdash; Khaki Green</td></tr>
+<tr><td>2</td><td>Michael Kors</td><td>Jet Set Tab Envelope Wallet &mdash; Milky Strawberry</td></tr>
+<tr><td>3</td><td>Audio-Technica</td><td>ATH-CKS30TW Evergreen True Wireless Earbuds</td></tr>
+<tr><td>4</td><td>Lanolips</td><td>Banana Balm Lip Sheen 3-in-1</td></tr>
+<tr><td>5</td><td>Royal Bagger</td><td>Genuine Leather Fashion Glasses Case</td></tr>
+<tr><td>6</td><td>Octobuddy</td><td>OCTOBUDDY Magnet</td></tr>
+<tr><td>7</td><td>Vicks</td><td>Vicks VapoRub Topical Cough Suppressant</td></tr>
+<tr><td>8</td><td>Purell</td><td>PURELL Advanced Hand Sanitizer 2 oz</td></tr>
+<tr><td>9</td><td>Laura Geller</td><td>Baked Icons Complete Full Face Palette</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this WIMB kit in the Diffr app?</h2>
+<p>Open <strong>preset 150</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-speedy-kit">interactive LV Speedy WIMB Scene</a>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Luxury Icon Bag</h3>
+<p><strong>Speedy Bandouli&egrave;re 25 &mdash; Khaki Green</strong> &mdash; Louis Vuitton coated-canvas dome duffel with brass hardware.</p>
+
+<h3>Slot 2 &mdash; Tabbed Envelope Wallet</h3>
+<p><strong>Jet Set Tab Envelope Wallet &mdash; Milky Strawberry</strong> &mdash; Michael Kors pale-pink multi-compartment wallet.</p>
+
+<h3>Slot 3 &mdash; Commuter Audio</h3>
+<p><strong>ATH-CKS30TW Evergreen True Wireless Earbuds</strong> &mdash; Audio-Technica compact wireless earbuds for daily commute.</p>
+
+<h3>Slot 4 &mdash; Fruity Lip Balm</h3>
+<p><strong>Banana Balm Lip Sheen 3-in-1</strong> &mdash; Lanolips lanolin-based banana-flavored lip rescue.</p>
+
+<h3>Slot 5 &mdash; Leather Zip Case</h3>
+<p><strong>Genuine Leather Fashion Glasses Case 4135</strong> &mdash; Royal Bagger textured dark-grain leather zip pouch.</p>
+
+<h3>Slot 6 &mdash; Magnetic Phone Mount</h3>
+<p><strong>OCTOBUDDY Magnet</strong> &mdash; Octobuddy MagSafe suction-cup phone mount for hands-free content.</p>
+
+<h3>Slot 7 &mdash; Emergency Relief</h3>
+<p><strong>Vicks VapoRub Topical Cough Suppressant</strong> &mdash; Vicks travel-sized cooling ointment for congestion relief.</p>
+
+<h3>Slot 8 &mdash; Hand Hygiene</h3>
+<p><strong>PURELL Advanced Hand Sanitizer Refreshing Gel &mdash; 2 oz</strong> &mdash; Purell pocket sanitizer for on-the-go hygiene.</p>
+
+<h3>Slot 9 &mdash; Compact Makeup</h3>
+<p><strong>Baked Icons Complete Full Face Palette</strong> &mdash; Laura Geller baked multi-use face palette.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Luxury WIMB videos often stage identical designer pouches. Diffr maps Brandy Nicholl&rsquo;s candid Speedy spill into nine distinct brand lanes &mdash; each pinned on preset 150 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-chubby-bag-brand-guide">Stand Oil Chubby Bag WIMB</a> (preset 147) · <a href="/diffr/blog/wimb-munchi-brand-guide">WIMB Munchi creative carry</a> (preset 144) · <a href="/diffr/blog/whats-in-my-bag-brand-guide">luxury beauty WIMB</a> (preset 112). Explore the interactive scene: <a href="/diffr/start/wimb-speedy-kit">LV Speedy WIMB Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-day-date-brand-guide',
+    title: 'Day Date OOTD: 9 Tailored & Relaxed Picks, One Brand Per Slot',
+    description: 'Daniel Simmons day-date OOTD decoded — Incotex pleated trousers, Studio Nicholson Sussex Knit, Sunspel vest, Church\'s loafers, Lemaire Croissant bag, Aimé Leon Dore cap, Tom Wood ring, Cartier Tank Must, Penhaligon\'s Lord George. Nine brands on warm stone.',
+    date: '2026-09-02',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'outfit of the day', 'menswear', 'day date', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine day-date OOTD picks — Incotex trousers, Studio Nicholson Sussex Knit, Sunspel vest, Church\'s loafers, Lemaire Croissant, ALD cap, Tom Wood ring, Cartier Tank, Penhaligon\'s Lord George — one brand per slot.',
+    content: `
+<p>Daniel Simmons&rsquo; day-date GRWM decodes into nine tailored-relaxed wardrobe slots on warm stone: <strong>Incotex</strong> pleat-detail charcoal wool trousers, a <strong>Studio Nicholson</strong> Sussex Knit oatmeal sweater, a <strong>Sunspel</strong> superfine cotton vest, <strong>Church&rsquo;s</strong> pebble-grain penny loafers, a dark-chocolate <strong>Lemaire</strong> Croissant bag, an <strong>Aim&eacute; Leon Dore</strong> Core Logo cap, a <strong>Tom Wood</strong> oval silver signet ring, a <strong>Cartier</strong> Tank Must watch, and <strong>Penhaligon&rsquo;s</strong> The Tragedy of Lord George EDP. Nine brands, zero repeats &mdash; smart tailoring with street-level ease.</p>
+
+<p>Source decode: Daniel Simmons &ldquo;Day Date&rdquo; GRWM via NotebookLM. Editorial corrections: host-owned Daniel Simmons trousers &rarr; <strong>Incotex Pleat-detail Tailored Trousers</strong>; Cross V-Neck decode &rarr; <strong>Studio Nicholson Sussex Knit</strong>; Herm&egrave;s H24 &rarr; <strong>Penhaligon&rsquo;s Lord George</strong>.</p>
+
+<h2>What brands are in the day-date OOTD?</h2>
+<p>Nine tailored-relaxed menswear brands on preset 151: <strong>Incotex</strong>, <strong>Studio Nicholson</strong>, <strong>Sunspel</strong>, <strong>Church&rsquo;s</strong>, <strong>Lemaire</strong>, <strong>Aim&eacute; Leon Dore</strong>, <strong>Tom Wood</strong>, <strong>Cartier</strong>, and <strong>Penhaligon&rsquo;s</strong> &mdash; one specialist per layer.</p>
+
+<h2>Day-date OOTD starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Incotex</td><td>Pleat-detail Tailored Trousers &mdash; Charcoal Grey</td></tr>
+<tr><td>2</td><td>Studio Nicholson</td><td>Sussex Knit &mdash; Oatmeal</td></tr>
+<tr><td>3</td><td>Sunspel</td><td>Superfine Cotton Underwear Vest &mdash; White</td></tr>
+<tr><td>4</td><td>Church&rsquo;s</td><td>Pebbled-leather Penny Loafers &mdash; Black</td></tr>
+<tr><td>5</td><td>Lemaire</td><td>Medium Croissant Bag &mdash; Dark Chocolate</td></tr>
+<tr><td>6</td><td>Aim&eacute; Leon Dore</td><td>Core Logo Hat &mdash; Green</td></tr>
+<tr><td>7</td><td>Tom Wood</td><td>Oval Polished Signet Ring &mdash; Silver</td></tr>
+<tr><td>8</td><td>Cartier</td><td>Tank Must de Cartier Watch &mdash; Large Model</td></tr>
+<tr><td>9</td><td>Penhaligon&rsquo;s</td><td>The Tragedy of Lord George Eau de Parfum</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this OOTD kit in the Diffr app?</h2>
+<p>Open <strong>preset 151</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-day-date-kit">interactive Day Date OOTD Scene</a>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Pleated Wool Trousers</h3>
+<p><strong>Pleat-detail Tailored Trousers &mdash; Charcoal Grey Virgin Wool</strong> &mdash; Incotex wide-leg pleated wool anchor.</p>
+
+<h3>Slot 2 &mdash; Chunky Knitwear</h3>
+<p><strong>Sussex Knit &mdash; Oatmeal</strong> &mdash; Studio Nicholson relaxed wool-blend sweater with French tuck.</p>
+
+<h3>Slot 3 &mdash; Scoop-Neck Base Layer</h3>
+<p><strong>Superfine Cotton Underwear Vest &mdash; White</strong> &mdash; Sunspel deep-scoop ribbed cotton vest under the V-neck.</p>
+
+<h3>Slot 4 &mdash; Heritage Loafers</h3>
+<p><strong>Pebbled-leather Penny Loafers &mdash; Black</strong> &mdash; Church&rsquo;s Goodyear-welted pebble-grain leather loafers.</p>
+
+<h3>Slot 5 &mdash; Croissant Crossbody</h3>
+<p><strong>Medium Croissant Bag in Leather &mdash; Dark Chocolate</strong> &mdash; Lemaire nappa-leather ergonomic shoulder bag.</p>
+
+<h3>Slot 6 &mdash; Streetwear Cap</h3>
+<p><strong>Core Logo Hat &mdash; Green</strong> &mdash; Aim&eacute; Leon Dore unstructured low-profile baseball cap.</p>
+
+<h3>Slot 7 &mdash; Signet Ring</h3>
+<p><strong>Oval Polished Signet Ring &mdash; Silver</strong> &mdash; Tom Wood 925 sterling silver architectural ring.</p>
+
+<h3>Slot 8 &mdash; Dress Watch</h3>
+<p><strong>Tank Must de Cartier Watch &mdash; Large Model, Steel</strong> &mdash; Cartier rectangular Tank Must on leather strap.</p>
+
+<h3>Slot 9 &mdash; Signature Scent</h3>
+<p><strong>The Tragedy of Lord George Eau de Parfum</strong> &mdash; Penhaligon&rsquo;s British heritage woody-spicy EDP.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Day-date outfits mix tailoring, knitwear, and street accessories faster than any checklist. Diffr maps Daniel Simmons&rsquo; GRWM into nine specialist wardrobe slots &mdash; each pinned on preset 151 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-navy-trousers-brand-guide">styling navy trousers</a> (preset 148) · <a href="/diffr/blog/styling-summer-linen-brand-guide">styling summer linen</a> (preset 145). Explore the interactive scene: <a href="/diffr/start/ootd-day-date-kit">Day Date OOTD Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',
@@ -3863,9 +4079,9 @@ export const posts: BlogPost[] = [
 <h2>Scene Series (flat-lay brand guides)</h2>
 <p>Editorial pocket dumps, bag spills, and outfit kits &mdash; one brand per slot with live catalog tiles. Browse all Scenes by lane on the <a href="/diffr/blog/scene-series">Scene Series hub</a>.</p>
 <ul>
-<li><strong><a href="/diffr/blog/scene-series#edc">EDC Scenes</a></strong> &mdash; <a href="/diffr/blog/japanese-craft-edc-brand-guide">Japanese craft EDC</a>, <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a>, <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a>, and more.</li>
-<li><strong><a href="/diffr/blog/scene-series#wimb">WIMB Scenes</a></strong> &mdash; <a href="/diffr/blog/wimb-chubby-bag-brand-guide">Chubby Bag WIMB</a>, <a href="/diffr/blog/wimb-munchi-brand-guide">Munchi creative carry</a>, <a href="/diffr/blog/whats-in-my-bag-brand-guide">luxury beauty WIMB</a>.</li>
-<li><strong><a href="/diffr/blog/scene-series#ootd">OOTD Scenes</a></strong> &mdash; <a href="/diffr/blog/styling-navy-trousers-brand-guide">navy trousers GRWM</a>, <a href="/diffr/blog/styling-summer-linen-brand-guide">summer linen OOTD</a>.</li>
+<li><strong><a href="/diffr/blog/scene-series#edc">EDC Scenes</a></strong> &mdash; <a href="/diffr/blog/unusual-edc-brand-guide">unusual EDC</a>, <a href="/diffr/blog/japanese-craft-edc-brand-guide">Japanese craft EDC</a>, <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a>, <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a>, and more.</li>
+<li><strong><a href="/diffr/blog/scene-series#wimb">WIMB Scenes</a></strong> &mdash; <a href="/diffr/blog/wimb-speedy-brand-guide">LV Speedy WIMB</a>, <a href="/diffr/blog/wimb-chubby-bag-brand-guide">Chubby Bag WIMB</a>, <a href="/diffr/blog/wimb-munchi-brand-guide">Munchi creative carry</a>, <a href="/diffr/blog/whats-in-my-bag-brand-guide">luxury beauty WIMB</a>.</li>
+<li><strong><a href="/diffr/blog/scene-series#ootd">OOTD Scenes</a></strong> &mdash; <a href="/diffr/blog/styling-day-date-brand-guide">day date OOTD</a>, <a href="/diffr/blog/styling-navy-trousers-brand-guide">navy trousers GRWM</a>, <a href="/diffr/blog/styling-summer-linen-brand-guide">summer linen OOTD</a>.</li>
 </ul>
 
 <h2>Brand maps (lines explained)</h2>

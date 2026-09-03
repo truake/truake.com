@@ -199,6 +199,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Stand Oil Chubby Bag WIMB is ten travel-ready slots — Stand Oil bag, Leica Q Typ 116, Smythson card holder, Celine Triomphe, Cheero Danboard power bank, Chloé wallet, Vaseline, Peripera gloss, Miffy keychain, Advil — one brand each on preset 147. Open the kit in the Diffr iPhone app or the interactive Scene below.',
   'styling-navy-trousers-brand-guide':
     'Bottom line: Navy-trousers GRWM is nine transitional menswear slots — Nautica deck pants, Buck Mason oxford, Our Legacy cord jacket, Lemaire Chelsea boots, Ralph Lauren belt, New Era Yankees cap, Adsum tote, Cartier Tank, Aesop Ouranon — one brand each on preset 148. Open the kit in the Diffr iPhone app or the interactive Scene below.',
+  'unusual-edc-brand-guide':
+    'Bottom line: Unusual EDC is nine idiosyncratic pocket-dump slots — The James Brand Palmer Clear, CW&T Pen Type-A, Formawerx Superleggera key, Barebones brass torch, Winter Blade Co. Factor B3, Trova Go vault, Botta Uno 24, Shomer-Tec compass, Aviator Fusion wallet — one brand each on preset 149. Open the kit in the Diffr iPhone app or the interactive Scene below.',
+  'wimb-speedy-brand-guide':
+    'Bottom line: Brandy Nicholl LV Speedy 25 WIMB is nine realistic daily-carry slots — Louis Vuitton Speedy, Michael Kors wallet, Audio-Technica earbuds, Lanolips banana balm, Royal Bagger case, Octobuddy mount, Vicks VapoRub, Purell sanitizer, Laura Geller palette — one brand each on preset 150. Open the kit in the Diffr iPhone app or the interactive Scene below.',
+  'styling-day-date-brand-guide':
+    'Bottom line: Daniel Simmons day-date OOTD is nine tailored-relaxed slots — Incotex pleated trousers, Studio Nicholson Sussex Knit, Sunspel vest, Church\'s loafers, Lemaire Croissant bag, Aimé Leon Dore cap, Tom Wood ring, Cartier Tank Must, Penhaligon\'s Lord George — one brand each on preset 151. Open the kit in the Diffr iPhone app or the interactive Scene below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -1992,6 +1998,75 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
   ],
 
+  'unusual-edc-brand-guide': [
+    {
+      q: 'What is the Unusual EDC flat lay?',
+      a: 'It is a nine-slot idiosyncratic everyday-carry kit: The James Brand Palmer Clear, CW&T Pen Type-A, Formawerx OpenSpec Superleggera key, Barebones Mini Brass Flashlight, Winter Blade Co. Factor B3, Trova Go Charcoal V2, Botta Design Uno 24 Tri-Titanium, Shomer-Tec Covert Escape Compass, and Aviator Fusion Silver wallet — nine distinct brands on preset 149.',
+    },
+    {
+      q: 'Why Formawerx instead of Forma Works for the car key slot?',
+      a: 'The NotebookLM decode named Forma Works. Editorial pins Formawerx OpenSpec Superleggera — the catalog brand behind the CNC-machined sports-car key with a live packshot on preset 149.',
+    },
+    {
+      q: 'How is Unusual EDC different from Japanese craft EDC (preset 146)?',
+      a: 'Japanese craft EDC celebrates Monozukuri on warm oak — ten Japanese specialists. Unusual EDC leans into transparent tech, magnetic knives, biometric vaults, and covert survival tools — nine Western micro-brands on preset 149.',
+    },
+    {
+      q: 'Where do the product images come from?',
+      a: 'They render live from Diffr\'s catalog via preset 149. Each slot is pinned to a crawled product line with an R2-hosted image — the same data the iOS app reads.',
+    },
+    {
+      q: 'How do I open Unusual EDC in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 149 or the unusual-edc Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-speedy-brand-guide': [
+    {
+      q: 'What is the LV Speedy 25 WIMB decode?',
+      a: 'It is Brandy Nicholl\'s realistic daily-carry spill in a khaki-green Louis Vuitton Speedy 25: LV bag, Michael Kors Milky Strawberry wallet, Audio-Technica ATH-CKS30TW earbuds, Lanolips Banana Balm, Royal Bagger leather case, Octobuddy Magnet mount, Vicks VapoRub, Purell sanitizer, and Laura Geller Baked Icons palette — nine distinct brands on preset 150.',
+    },
+    {
+      q: 'Why Audio-Technica instead of Apple AirPods?',
+      a: 'The source WIMB video carried Apple AirPods. Editorial pins Audio-Technica ATH-CKS30TW — a distinct wireless earbud lane with a catalog hero, keeping Apple out of the Scene grid.',
+    },
+    {
+      q: 'Why Laura Geller instead of Starbucks for the rewards-card slot?',
+      a: 'Starbucks is a payment card, not a shoppable product line in Diffr\'s catalog. Editorial substitutes Laura Geller Baked Icons palette — a compact makeup lane that matches Brandy\'s real bag-makeup spill without duplicating Louis Vuitton.',
+    },
+    {
+      q: 'Why only the LV Speedy bag — not secondary Louis Vuitton pouches?',
+      a: 'Diffr\'s one-brand-per-slot rule: Louis Vuitton stays on the Speedy 25 handbag only. Secondary LV pouches in the source video map to specialized stand-ins (Royal Bagger case, Michael Kors wallet) on preset 150.',
+    },
+    {
+      q: 'How do I open the Speedy WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 150 or the wimb-speedy Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-day-date-brand-guide': [
+    {
+      q: 'What is the Daniel Simmons day-date OOTD breakdown?',
+      a: 'It is a nine-slot tailored-relaxed date outfit: Incotex pleated wool trousers, Studio Nicholson Sussex Knit oatmeal sweater, Sunspel superfine cotton vest, Church\'s pebble-grain loafers, Lemaire dark-chocolate Croissant bag, Aimé Leon Dore Core Logo cap, Tom Wood silver signet ring, Cartier Tank Must watch, and Penhaligon\'s Lord George EDP — nine distinct brands on preset 151.',
+    },
+    {
+      q: 'Why Incotex instead of Daniel Simmons for the trouser slot?',
+      a: 'Daniel Simmons is the styling host — Diffr Scenes avoid host-owned labels in catalog slots. Editorial pins Incotex Pleat-detail Tailored Trousers as the charcoal wool anchor with a live packshot.',
+    },
+    {
+      q: 'Why Penhaligon\'s instead of Hermès H24 for the fragrance slot?',
+      a: 'The GRWM decode named Hermès H24. Editorial pins Penhaligon\'s The Tragedy of Lord George — a British heritage EDP with a catalog hero on preset 151, keeping Hermès out of the Scene grid.',
+    },
+    {
+      q: 'Why Sussex Knit instead of Cross V-Neck for the sweater slot?',
+      a: 'The decode described Studio Nicholson cross V-neck knitwear. Catalog pins Sussex Knit Oatmeal — the live Studio Nicholson sweater line on preset 151 with an imaged packshot.',
+    },
+    {
+      q: 'How do I open the day-date OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 151 or the ootd-day-date Scene — same pins as this post.',
+    },
+  ],
+
   'scene-series': [
     {
       q: 'What is Diffr Scene Series?',
@@ -1999,7 +2074,7 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
     {
       q: 'What are the three Scene Series categories?',
-      a: 'EDC (everyday carry flat lays), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Browse each lane on this hub page — EDC has eleven guides, WIMB has four, OOTD has two.',
+      a: 'EDC (everyday carry flat lays), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Browse each lane on this hub page — EDC has twelve guides, WIMB has five, OOTD has three.',
     },
     {
       q: 'How is Scene Series different from starter kits?',

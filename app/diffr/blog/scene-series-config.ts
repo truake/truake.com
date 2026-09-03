@@ -23,6 +23,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'EDC Scenes',
     tagline: 'Everyday carry flat lays — one specialist brand per pocket-dump slot.',
     scenes: [
+      { slug: 'unusual-edc-brand-guide', title: 'Unusual EDC', preset: 149 },
       { slug: 'japanese-craft-edc-brand-guide', title: 'Japanese Craft EDC', preset: 146 },
       { slug: 'evergreen-edc-brand-guide', title: 'Evergreen EDC', preset: 143 },
       { slug: 'gray-edc-knoll-brand-guide', title: 'Gray EDC Knoll', preset: 134 },
@@ -41,6 +42,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'WIMB Scenes',
     tagline: 'What\'s in my bag spills — ten travel-ready picks, zero brand repeats.',
     scenes: [
+      { slug: 'wimb-speedy-brand-guide', title: 'LV Speedy 25 WIMB', preset: 150 },
       { slug: 'wimb-chubby-bag-brand-guide', title: 'Stand Oil Chubby Bag WIMB', preset: 147 },
       { slug: 'wimb-munchi-brand-guide', title: 'WIMB Munchi Creative Carry', preset: 144 },
       { slug: 'whats-in-my-bag-brand-guide', title: 'Luxury Beauty WIMB', preset: 112 },
@@ -52,6 +54,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'OOTD Scenes',
     tagline: 'Outfit flat lays — wardrobe slots with one brand per layer.',
     scenes: [
+      { slug: 'styling-day-date-brand-guide', title: 'Day Date OOTD', preset: 151 },
       { slug: 'styling-navy-trousers-brand-guide', title: 'Styling Navy Trousers', preset: 148 },
       { slug: 'styling-summer-linen-brand-guide', title: 'Styling Summer Linen', preset: 145 },
     ],
