@@ -2931,19 +2931,19 @@ export const posts: BlogPost[] = [
   {
     slug: 'under-100-edc-brand-guide',
     title: 'Under $100 Tech EDC: 9 Creative Picks, One Brand Per Slot',
-    description: 'Sub-$100 tech EDC decoded — Mophie Snap+ 10K, Streamlight Wedge, Satechi On-the-Go hub, Journey LOC8 MOTION keys, G-Shock DW5600 RL, O Snap Snap Grip, Nothing Ear (open), Camp Snap CS-PRO, Aer Slim Pouch Ultra. Nine brands on warm linen.',
+    description: 'Sub-$100 tech EDC decoded — Mophie Snap+ 10K, Streamlight Wedge, Satechi On-the-Go hub, Journey LOC8 MOTION keys, G-Shock DW5600 RL, Oh Snap MCON, Nothing Ear (open), Camp Snap CS-PRO, Aer Slim Pouch Ultra. Nine brands on warm linen.',
     date: '2026-09-05',
     readTime: '6 min read',
     tags: ['brand guide', 'EDC', 'tech carry', 'everyday carry', 'flat lay', 'under 100', 'one brand per slot', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Nine sub-$100 tech EDC picks — Mophie power bank, Streamlight Wedge, Satechi hub, Journey keys, G-Shock, O Snap wallet, Nothing Ear (open), Camp Snap camera, Aer pouch — one brand per slot.',
+    excerpt: 'Nine sub-$100 tech EDC picks — Mophie power bank, Streamlight Wedge, Satechi hub, Journey keys, G-Shock, Oh Snap MCON, Nothing Ear (open), Camp Snap camera, Aer pouch — one brand per slot.',
     content: `
-<p>The sub-$100 creative tech EDC flat lay decodes into nine specialist slots on warm linen: a magnetic <strong>Mophie</strong> Snap+ 10K power bank, a flat-profile <strong>Streamlight</strong> Wedge light, a puck <strong>Satechi</strong> On-the-Go 7-in-1 hub, a <strong>Journey</strong> LOC8 MOTION Find My key stack, a heritage <strong>G-Shock</strong> DW5600 RL square watch, an <strong>O Snap</strong> Snap Grip magnetic wallet, transparent <strong>Nothing</strong> Ear (open) hooks, a screenless <strong>Camp Snap</strong> CS-PRO camera, and an <strong>Aer</strong> Slim Pouch 2 Ultra tech organizer. Nine brands, zero repeats &mdash; budget creative synergy without a single-brand accessory wall.</p>
+<p>The sub-$100 creative tech EDC flat lay decodes into nine specialist slots on warm linen: a magnetic <strong>Mophie</strong> Snap+ 10K power bank, a flat-profile <strong>Streamlight</strong> Wedge light, a puck <strong>Satechi</strong> On-the-Go 7-in-1 hub, a <strong>Journey</strong> LOC8 MOTION Find My key stack, a heritage <strong>G-Shock</strong> DW5600 RL square watch, an <strong>Oh Snap</strong> MCON magnetic gaming controller, transparent <strong>Nothing</strong> Ear (open) hooks, a screenless <strong>Camp Snap</strong> CS-PRO camera, and an <strong>Aer</strong> Slim Pouch 2 Ultra tech organizer. Nine brands, zero repeats &mdash; budget creative synergy without a single-brand accessory wall.</p>
 
-<p>Source decode: NotebookLM under-$100 tech EDC extract. Editorial corrections: Anker MagGo &rarr; <strong>Mophie Snap+ 10K</strong> (hidden CN); Olight Ark Pro &rarr; <strong>Streamlight Wedge</strong> (hidden CN).</p>
+<p>Source decode: NotebookLM under-$100 tech EDC extract. Editorial corrections: Anker MagGo &rarr; <strong>Mophie Snap+ 10K</strong> (hidden CN); Olight Ark Pro &rarr; <strong>Streamlight Wedge</strong> (hidden CN); Snap Grip Wallet decode &rarr; <strong>Oh Snap MCON</strong> (avoids power-bank silhouette overlap with Mophie in the flat lay).</p>
 
 <h2>What brands are in the Under $100 Tech EDC flat lay?</h2>
-<p>Nine sub-$100 creative tech brands on preset 152: <strong>Mophie</strong>, <strong>Streamlight</strong>, <strong>Satechi</strong>, <strong>Journey</strong>, <strong>G-Shock</strong>, <strong>O Snap</strong>, <strong>Nothing</strong>, <strong>Camp Snap</strong>, and <strong>Aer</strong> &mdash; one specialist per slot.</p>
+<p>Nine sub-$100 creative tech brands on preset 152: <strong>Mophie</strong>, <strong>Streamlight</strong>, <strong>Satechi</strong>, <strong>Journey</strong>, <strong>G-Shock</strong>, <strong>Oh Snap</strong>, <strong>Nothing</strong>, <strong>Camp Snap</strong>, and <strong>Aer</strong> &mdash; one specialist per slot.</p>
 
 <h2>Under $100 tech EDC starter kit &mdash; one brand per slot</h2>
 <table>
@@ -2954,7 +2954,7 @@ export const posts: BlogPost[] = [
 <tr><td>3</td><td>Satechi</td><td>OntheGo&trade; 7-in-1 Multiport Adapter</td></tr>
 <tr><td>4</td><td>Journey</td><td>LOC8 MOTION Key Organizer</td></tr>
 <tr><td>5</td><td>G-Shock</td><td>DW5600RL-1</td></tr>
-<tr><td>6</td><td>O Snap</td><td>Snap Grip Wallet</td></tr>
+<tr><td>6</td><td>Oh Snap</td><td>MCON &mdash; Magnetic Gaming Controller</td></tr>
 <tr><td>7</td><td>Nothing</td><td>Ear (open)</td></tr>
 <tr><td>8</td><td>Camp Snap</td><td>CS-PRO</td></tr>
 <tr><td>9</td><td>Aer</td><td>Slim Pouch 2 Ultra</td></tr>
@@ -2981,8 +2981,8 @@ export const posts: BlogPost[] = [
 <h3>Slot 5 &mdash; Heritage Square Watch</h3>
 <p><strong>DW5600RL-1</strong> &mdash; G-Shock bio-resin square digital with 1983 heritage accents.</p>
 
-<h3>Slot 6 &mdash; Magnetic Grip Wallet</h3>
-<p><strong>Snap Grip Wallet</strong> &mdash; O Snap rotating MagSafe grip and card wallet.</p>
+<h3>Slot 6 &mdash; Magnetic Gaming Controller</h3>
+<p><strong>MCON &mdash; Magnetic Gaming Controller</strong> &mdash; Oh Snap compact MagSafe Bluetooth controller with deployable grips and slider mechanism.</p>
 
 <h3>Slot 7 &mdash; Open-Ear Audio</h3>
 <p><strong>Ear (open)</strong> &mdash; Nothing transparent hook open-ear earbuds with charging case.</p>

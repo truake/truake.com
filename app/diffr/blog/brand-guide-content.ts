@@ -206,7 +206,7 @@ export const BLOG_TLDR: Record<string, string> = {
   'styling-day-date-brand-guide':
     'Bottom line: Daniel Simmons day-date OOTD is nine tailored-relaxed slots — Incotex pleated trousers, Studio Nicholson Sussex Knit, Sunspel vest, Church\'s loafers, Lemaire Croissant bag, Aimé Leon Dore cap, Tom Wood ring, Cartier Tank Must, Penhaligon\'s Lord George — one brand each on preset 151. Open the kit in the Diffr iPhone app or the interactive Scene below.',
   'under-100-edc-brand-guide':
-    'Bottom line: Under $100 tech EDC is nine creative-carry slots — Mophie Snap+ 10K (Anker sub), Streamlight Wedge (Olight sub), Satechi On-the-Go 7-in-1 hub, Journey LOC8 MOTION keys, G-Shock DW5600 RL, O Snap Snap Grip wallet, Nothing Ear (open), Camp Snap CS-PRO, Aer Slim Pouch 2 Ultra — one brand each on preset 152. Hidden CN brands excluded. Live catalog tiles below.',
+    'Bottom line: Under $100 tech EDC is nine creative-carry slots — Mophie Snap+ 10K (Anker sub), Streamlight Wedge (Olight sub), Satechi On-the-Go 7-in-1 hub, Journey LOC8 MOTION keys, G-Shock DW5600 RL, Oh Snap MCON magnetic controller, Nothing Ear (open), Camp Snap CS-PRO, Aer Slim Pouch 2 Ultra — one brand each on preset 152. Hidden CN brands excluded. Live catalog tiles below.',
   'wimb-parisa-wang-brand-guide':
     'Bottom line: Brandy Nicholl Parisa Wang Gabrielle WIMB is ten organized daily-carry slots — Parisa Wang chocolate bag, Nonvi cash binder, Tory Burch zip card case, Moleskine Volant XS, Sanrio Hello Kitty pouch, Rare Beauty Soft Pinch blush, Bath & Body Works eucalyptus lotion, Santa Maria Novella Angeli di Firenze, Kleenex Balsam pocket tissues, Tic Tac mints — one brand each on preset 153. Gucci/Michael Kors/Octobuddy corrected. Live catalog tiles below.',
   'styling-green-pants-brand-guide':
@@ -2076,7 +2076,7 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   'under-100-edc-brand-guide': [
     {
       q: 'What is the Under $100 Tech EDC flat lay?',
-      a: 'It is a nine-slot sub-$100 creative tech kit: Mophie Snap+ 10K power bank, Streamlight Wedge flat light, Satechi On-the-Go 7-in-1 hub, Journey LOC8 MOTION key organizer, G-Shock DW5600 RL, O Snap Snap Grip wallet, Nothing Ear (open), Camp Snap CS-PRO screenless camera, and Aer Slim Pouch 2 Ultra — nine distinct brands on preset 152.',
+      a: 'It is a nine-slot sub-$100 creative tech kit: Mophie Snap+ 10K power bank, Streamlight Wedge flat light, Satechi On-the-Go 7-in-1 hub, Journey LOC8 MOTION key organizer, G-Shock DW5600 RL, Oh Snap MCON magnetic gaming controller, Nothing Ear (open), Camp Snap CS-PRO screenless camera, and Aer Slim Pouch 2 Ultra — nine distinct brands on preset 152.',
     },
     {
       q: 'Why Mophie instead of Anker for the power bank slot?',
@@ -2087,7 +2087,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: 'Olight is editorially excluded under the hidden CN brands protocol. Editorial pins Streamlight Wedge — a flat-profile multi-mode EDC flashlight with a catalog packshot on preset 152.',
     },
     {
-      q: 'How is Under $100 Tech EDC different from Evergreen EDC (preset 143)?',
+      q: 'Why Oh Snap MCON instead of Snap Grip Wallet?',
+      a: 'The NotebookLM decode named O Snap Snapgrip Wallet. Editorial pins Oh Snap MCON — the brand\'s magnetic gaming controller — because the wallet/grip form factor read too similarly to the Mophie power bank brick in the flat-lay cover. Brand display name corrected to Oh Snap.',
+    },
+    {
       a: 'Evergreen EDC is a ten-slot green Monozukuri-Western kit on sage felt. Under $100 Tech EDC focuses on budget creative tech — magnetic power, puck hub, open-ear audio, and screenless camera — nine Western specialists under $100 on preset 152.',
     },
     {
