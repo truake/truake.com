@@ -205,6 +205,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Brandy Nicholl LV Speedy 25 WIMB is nine realistic daily-carry slots — Louis Vuitton Speedy, Michael Kors wallet, Audio-Technica earbuds, Lanolips banana balm, Royal Bagger case, Octobuddy mount, Vicks VapoRub, Purell sanitizer, Laura Geller palette — one brand each on preset 150. Open the kit in the Diffr iPhone app or the interactive Scene below.',
   'styling-day-date-brand-guide':
     'Bottom line: Daniel Simmons day-date OOTD is nine tailored-relaxed slots — Incotex pleated trousers, Studio Nicholson Sussex Knit, Sunspel vest, Church\'s loafers, Lemaire Croissant bag, Aimé Leon Dore cap, Tom Wood ring, Cartier Tank Must, Penhaligon\'s Lord George — one brand each on preset 151. Open the kit in the Diffr iPhone app or the interactive Scene below.',
+  'under-100-edc-brand-guide':
+    'Bottom line: Under $100 tech EDC is nine creative-carry slots — Mophie Snap+ 10K (Anker sub), Streamlight Wedge (Olight sub), Satechi On-the-Go 7-in-1 hub, Journey LOC8 MOTION keys, G-Shock DW5600 RL, O Snap Snap Grip wallet, Nothing Ear (open), Camp Snap CS-PRO, Aer Slim Pouch 2 Ultra — one brand each on preset 152. Hidden CN brands excluded. Live catalog tiles below.',
+  'wimb-parisa-wang-brand-guide':
+    'Bottom line: Brandy Nicholl Parisa Wang Gabrielle WIMB is ten organized daily-carry slots — Parisa Wang chocolate bag, Nonvi cash binder, Tory Burch zip card case, Moleskine Volant XS, Sanrio Hello Kitty pouch, Rare Beauty Soft Pinch blush, Bath & Body Works eucalyptus lotion, Santa Maria Novella Angeli di Firenze, Kleenex Balsam pocket tissues, Tic Tac mints — one brand each on preset 153. Gucci/Michael Kors/Octobuddy corrected. Live catalog tiles below.',
+  'styling-green-pants-brand-guide':
+    'Bottom line: Daniel Simmons green-trouser OOTD is eight earth-tone wardrobe slots — Brooks Brothers garment-dyed chino, Percival knit polo, New Balance 990v6, Coach Leon sling, Seiko tank watch, Moscot Lemtosh Sun, APM Monaco Up and Down ring, Molinard Vetyver EDP — one brand each on preset 154. Banana Republic/G.H. Bass/Lemaire/Tom Wood/Aesop corrected. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2064,6 +2070,75 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do I open the day-date OOTD in the Diffr app?',
       a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 151 or the ootd-day-date Scene — same pins as this post.',
+    },
+  ],
+
+  'under-100-edc-brand-guide': [
+    {
+      q: 'What is the Under $100 Tech EDC flat lay?',
+      a: 'It is a nine-slot sub-$100 creative tech kit: Mophie Snap+ 10K power bank, Streamlight Wedge flat light, Satechi On-the-Go 7-in-1 hub, Journey LOC8 MOTION key organizer, G-Shock DW5600 RL, O Snap Snap Grip wallet, Nothing Ear (open), Camp Snap CS-PRO screenless camera, and Aer Slim Pouch 2 Ultra — nine distinct brands on preset 152.',
+    },
+    {
+      q: 'Why Mophie instead of Anker for the power bank slot?',
+      a: 'Anker is editorially excluded as a hidden mainland-China-headquartered brand in Diffr flat-lay Scenes. Editorial pins Mophie Snap+ Wireless Powerstation 10K — a Qi2 magnetic power bank with a live catalog hero.',
+    },
+    {
+      q: 'Why Streamlight instead of Olight for the wedge light slot?',
+      a: 'Olight is editorially excluded under the hidden CN brands protocol. Editorial pins Streamlight Wedge — a flat-profile multi-mode EDC flashlight with a catalog packshot on preset 152.',
+    },
+    {
+      q: 'How is Under $100 Tech EDC different from Evergreen EDC (preset 143)?',
+      a: 'Evergreen EDC is a ten-slot green Monozukuri-Western kit on sage felt. Under $100 Tech EDC focuses on budget creative tech — magnetic power, puck hub, open-ear audio, and screenless camera — nine Western specialists under $100 on preset 152.',
+    },
+    {
+      q: 'How do I open Under $100 Tech EDC in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 152 or the under-100-edc Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-parisa-wang-brand-guide': [
+    {
+      q: 'What is the Parisa Wang Gabrielle WIMB decode?',
+      a: 'It is Brandy Nicholl\'s organized chocolate-shoulder-bag spill: Parisa Wang Gabrielle East-West bag, Nonvi smart cash binder, Tory Burch T Monogram zip card case, Moleskine Volant XS planners, Sanrio Hello Kitty pouch, Rare Beauty Soft Pinch blush, Bath & Body Works eucalyptus spearmint lotion, Santa Maria Novella Angeli di Firenze EDP, Kleenex Balsam pocket tissues, and Tic Tac mints — ten distinct brands on preset 153.',
+    },
+    {
+      q: 'Why Tory Burch instead of Michael Kors for the card case slot?',
+      a: 'The source decode named Michael Kors Jet Set. Editorial pins Tory Burch T Monogram Zip Card Case — a distinct slim card wallet with a live packshot, avoiding repeat designer-wallet lanes from prior WIMB batches.',
+    },
+    {
+      q: 'Why Santa Maria Novella instead of Gucci Flora mini?',
+      a: 'Diffr editorial fragrance Scenes prefer heritage perfume houses over luxury beauty lines. Editorial pins Santa Maria Novella Angeli di Firenze EDP — a classic apothecary bottle on preset 153.',
+    },
+    {
+      q: 'Why Kleenex instead of Octobuddy for the pocket essentials slot?',
+      a: 'Octobuddy appeared in preset 150 (LV Speedy WIMB). Editorial substitutes Kleenex Balsam Pocket Tissues — a realistic daily-carry essential with a catalog packshot, keeping phone-mount brands out of repeat slots.',
+    },
+    {
+      q: 'How do I open the Parisa Wang WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 153 or the wimb-parisa-wang Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-green-pants-brand-guide': [
+    {
+      q: 'What is the Daniel Simmons green-trouser OOTD breakdown?',
+      a: 'It is an eight-slot earth-tone spring menswear kit: Brooks Brothers garment-dyed vintage chino olive green, Percival tennis boxy knit polo brown, New Balance 990v6 M990GL6 grey, Coach Leon sling bag, Seiko SWR083 silver tank watch, Moscot Lemtosh Sun sunglasses, APM Monaco Up and Down silver ring, and Molinard Vetyver EDP — eight distinct brands on preset 154.',
+    },
+    {
+      q: 'Why Brooks Brothers instead of Banana Republic for the trouser slot?',
+      a: 'The decode named Banana Republic loose barrel trousers. Editorial pins Brooks Brothers Garment-Dyed Vintage Chino — an olive green chino with a live packshot, breaking the double-Banana-Republic monopoly while keeping the moss-green anchor.',
+    },
+    {
+      q: 'Why New Balance 990v6 instead of G.H. Bass loafers?',
+      a: 'The decode paired the look with G.H. Bass Larson loafers. Editorial pins New Balance 990v6 Made in USA M990GL6 — a grey heritage sneaker lane with catalog imagery, adding a distinct footwear specialist to preset 154.',
+    },
+    {
+      q: 'Why Molinard Vetyver instead of Aesop Tacit for fragrance?',
+      a: 'Diffr editorial fragrance Scenes prefer heritage perfume houses. Editorial pins Molinard Vetyver Eau de Parfum — a vetiver-forward EDP with a catalog bottle on preset 154.',
+    },
+    {
+      q: 'How do I open the green-trouser OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 154 or the ootd-green-pants Scene — same pins as this post.',
     },
   ],
 

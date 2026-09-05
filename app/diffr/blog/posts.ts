@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/under-100-edc-brand-guide">Under $100 Tech EDC</a> (preset 152)</li>
 <li><a href="/diffr/blog/unusual-edc-brand-guide">Unusual EDC</a> (preset 149)</li>
 <li><a href="/diffr/blog/japanese-craft-edc-brand-guide">Japanese Craft EDC</a> (preset 146)</li>
 <li><a href="/diffr/blog/evergreen-edc-brand-guide">Evergreen EDC</a> (preset 143)</li>
@@ -61,6 +62,7 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-parisa-wang-brand-guide">Parisa Wang Gabrielle WIMB</a> (preset 153)</li>
 <li><a href="/diffr/blog/wimb-speedy-brand-guide">LV Speedy 25 WIMB</a> (preset 150)</li>
 <li><a href="/diffr/blog/wimb-chubby-bag-brand-guide">Stand Oil Chubby Bag WIMB</a> (preset 147)</li>
 <li><a href="/diffr/blog/wimb-munchi-brand-guide">WIMB Munchi Creative Carry</a> (preset 144)</li>
@@ -71,6 +73,7 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-green-pants-brand-guide">Styling Green Pants OOTD</a> (preset 154)</li>
 <li><a href="/diffr/blog/styling-day-date-brand-guide">Day Date OOTD</a> (preset 151)</li>
 <li><a href="/diffr/blog/styling-navy-trousers-brand-guide">Styling Navy Trousers</a> (preset 148)</li>
 <li><a href="/diffr/blog/styling-summer-linen-brand-guide">Styling Summer Linen</a> (preset 145)</li>
@@ -2926,6 +2929,219 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'under-100-edc-brand-guide',
+    title: 'Under $100 Tech EDC: 9 Creative Picks, One Brand Per Slot',
+    description: 'Sub-$100 tech EDC decoded — Mophie Snap+ 10K, Streamlight Wedge, Satechi On-the-Go hub, Journey LOC8 MOTION keys, G-Shock DW5600 RL, O Snap Snap Grip, Nothing Ear (open), Camp Snap CS-PRO, Aer Slim Pouch Ultra. Nine brands on warm linen.',
+    date: '2026-09-05',
+    readTime: '6 min read',
+    tags: ['brand guide', 'EDC', 'tech carry', 'everyday carry', 'flat lay', 'under 100', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine sub-$100 tech EDC picks — Mophie power bank, Streamlight Wedge, Satechi hub, Journey keys, G-Shock, O Snap wallet, Nothing Ear (open), Camp Snap camera, Aer pouch — one brand per slot.',
+    content: `
+<p>The sub-$100 creative tech EDC flat lay decodes into nine specialist slots on warm linen: a magnetic <strong>Mophie</strong> Snap+ 10K power bank, a flat-profile <strong>Streamlight</strong> Wedge light, a puck <strong>Satechi</strong> On-the-Go 7-in-1 hub, a <strong>Journey</strong> LOC8 MOTION Find My key stack, a heritage <strong>G-Shock</strong> DW5600 RL square watch, an <strong>O Snap</strong> Snap Grip magnetic wallet, transparent <strong>Nothing</strong> Ear (open) hooks, a screenless <strong>Camp Snap</strong> CS-PRO camera, and an <strong>Aer</strong> Slim Pouch 2 Ultra tech organizer. Nine brands, zero repeats &mdash; budget creative synergy without a single-brand accessory wall.</p>
+
+<p>Source decode: NotebookLM under-$100 tech EDC extract. Editorial corrections: Anker MagGo &rarr; <strong>Mophie Snap+ 10K</strong> (hidden CN); Olight Ark Pro &rarr; <strong>Streamlight Wedge</strong> (hidden CN).</p>
+
+<h2>What brands are in the Under $100 Tech EDC flat lay?</h2>
+<p>Nine sub-$100 creative tech brands on preset 152: <strong>Mophie</strong>, <strong>Streamlight</strong>, <strong>Satechi</strong>, <strong>Journey</strong>, <strong>G-Shock</strong>, <strong>O Snap</strong>, <strong>Nothing</strong>, <strong>Camp Snap</strong>, and <strong>Aer</strong> &mdash; one specialist per slot.</p>
+
+<h2>Under $100 tech EDC starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Mophie</td><td>Snap+ Wireless Powerstation 10K Power Bank with Stand</td></tr>
+<tr><td>2</td><td>Streamlight</td><td>Wedge&reg;</td></tr>
+<tr><td>3</td><td>Satechi</td><td>OntheGo&trade; 7-in-1 Multiport Adapter</td></tr>
+<tr><td>4</td><td>Journey</td><td>LOC8 MOTION Key Organizer</td></tr>
+<tr><td>5</td><td>G-Shock</td><td>DW5600RL-1</td></tr>
+<tr><td>6</td><td>O Snap</td><td>Snap Grip Wallet</td></tr>
+<tr><td>7</td><td>Nothing</td><td>Ear (open)</td></tr>
+<tr><td>8</td><td>Camp Snap</td><td>CS-PRO</td></tr>
+<tr><td>9</td><td>Aer</td><td>Slim Pouch 2 Ultra</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this kit in the Diffr app?</h2>
+<p>Open <strong>preset 152</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/under-100-edc-kit">interactive Under $100 Tech EDC Scene</a>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Magnetic Power Bank</h3>
+<p><strong>Snap+ Wireless Powerstation 10K</strong> &mdash; Mophie Qi2 magnetic power bank with kickstand and USB-C output.</p>
+
+<h3>Slot 2 &mdash; Flat Wedge Light</h3>
+<p><strong>Wedge&reg;</strong> &mdash; Streamlight ultra-flat multi-mode EDC flashlight.</p>
+
+<h3>Slot 3 &mdash; Puck USB-C Hub</h3>
+<p><strong>OntheGo&trade; 7-in-1 Multiport Adapter</strong> &mdash; Satechi magnetic puck hub with coiled USB-C cable.</p>
+
+<h3>Slot 4 &mdash; Find My Key Stack</h3>
+<p><strong>LOC8 MOTION Key Organizer</strong> &mdash; Journey aluminum key organizer with Apple Find My tracking.</p>
+
+<h3>Slot 5 &mdash; Heritage Square Watch</h3>
+<p><strong>DW5600RL-1</strong> &mdash; G-Shock bio-resin square digital with 1983 heritage accents.</p>
+
+<h3>Slot 6 &mdash; Magnetic Grip Wallet</h3>
+<p><strong>Snap Grip Wallet</strong> &mdash; O Snap rotating MagSafe grip and card wallet.</p>
+
+<h3>Slot 7 &mdash; Open-Ear Audio</h3>
+<p><strong>Ear (open)</strong> &mdash; Nothing transparent hook open-ear earbuds with charging case.</p>
+
+<h3>Slot 8 &mdash; Screenless Camera</h3>
+<p><strong>CS-PRO</strong> &mdash; Camp Snap screenless retro digital camera with chrome plates and pebbled leatherette.</p>
+
+<h3>Slot 9 &mdash; Rugged Tech Pouch</h3>
+<p><strong>Slim Pouch 2 Ultra</strong> &mdash; Aer ripstop tech organizer with high-viz green interior.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Sub-$100 tech kits shouldn&rsquo;t read like a single accessory brand catalog. Diffr maps this creative pocket dump into nine specialist lanes &mdash; each pinned on preset 152 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/unusual-edc-brand-guide">unusual EDC</a> (preset 149) · <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a> (preset 143) · <a href="/diffr/blog/charcoal-travel-tech-edc-brand-guide">charcoal travel-tech EDC</a> (preset 142). Explore the interactive scene: <a href="/diffr/start/under-100-edc-kit">Under $100 Tech EDC Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-parisa-wang-brand-guide',
+    title: 'Parisa Wang Gabrielle WIMB: 10 Organized Picks, One Brand Per Slot',
+    description: 'Brandy Nicholl Parisa Wang WIMB decoded — Parisa Wang Gabrielle chocolate bag, Nonvi cash binder, Tory Burch card case, Moleskine Volant XS, Sanrio Hello Kitty pouch, Rare Beauty blush, Bath & Body Works lotion, Santa Maria Novella Angeli di Firenze, Kleenex pocket tissues, Tic Tac mints. Ten brands on warm linen.',
+    date: '2026-09-05',
+    readTime: '5 min read',
+    tags: ['brand guide', 'WIMB', 'whats in my bag', 'Parisa Wang', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten Parisa Wang Gabrielle WIMB picks — chocolate shoulder bag, Nonvi binder, Tory Burch card case, Moleskine planners, Hello Kitty pouch, Rare Beauty blush, BBW lotion, SMN fragrance, Kleenex tissues, Tic Tac — one brand per slot.',
+    content: `
+<p>Brandy Nicholl&rsquo;s organized <em>What&rsquo;s in My Bag</em> spill decodes into ten daily-carry slots on warm linen: a chocolate <strong>Parisa Wang</strong> Gabrielle East-West shoulder bag, a <strong>Nonvi</strong> smart cash binder, a <strong>Tory Burch</strong> T Monogram zip card case, <strong>Moleskine</strong> Volant XS planners, a <strong>Sanrio</strong> Hello Kitty mini pouch, <strong>Rare Beauty</strong> Soft Pinch liquid blush, <strong>Bath & Body Works</strong> eucalyptus spearmint lotion, <strong>Santa Maria Novella</strong> Angeli di Firenze EDP, <strong>Kleenex</strong> Balsam pocket tissues, and a <strong>Tic Tac</strong> Freshmints pack. Ten brands, zero repeats &mdash; luxury bag, real-life organization.</p>
+
+<p>Source decode: Brandy Nicholl Parisa Wang WIMB via NotebookLM. Editorial corrections: Michael Kors card case &rarr; <strong>Tory Burch T Monogram</strong>; Gucci Flora mini &rarr; <strong>Santa Maria Novella Angeli di Firenze</strong>; Octobuddy mount &rarr; <strong>Kleenex Balsam pocket tissues</strong>.</p>
+
+<h2>What brands are in the Parisa Wang Gabrielle WIMB?</h2>
+<p>Ten organized daily-carry brands on preset 153: <strong>Parisa Wang</strong>, <strong>Nonvi</strong>, <strong>Tory Burch</strong>, <strong>Moleskine</strong>, <strong>Sanrio</strong>, <strong>Rare Beauty</strong>, <strong>Bath & Body Works</strong>, <strong>Santa Maria Novella</strong>, <strong>Kleenex</strong>, and <strong>Tic Tac</strong> &mdash; one specialist per slot.</p>
+
+<h2>Parisa Wang WIMB starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Parisa Wang</td><td>Gabrielle East-West Shoulder Bag &mdash; Chocolate Smooth Full-Grain Calfskin</td></tr>
+<tr><td>2</td><td>Nonvi</td><td>Smart Leather Cash Binder Notebook Wallet with Cash Envelope Tabs</td></tr>
+<tr><td>3</td><td>Tory Burch</td><td>T Monogram Zip Card Case</td></tr>
+<tr><td>4</td><td>Moleskine</td><td>Volant Journals Set of 2 &mdash; XS, Ruled, Forget-Me-Not Blue and Amber Yellow</td></tr>
+<tr><td>5</td><td>Sanrio</td><td>Hello Kitty Mini Zipper Pouch &mdash; Fluffy Squirrel Series</td></tr>
+<tr><td>6</td><td>Rare Beauty</td><td>Soft Pinch Liquid Blush &mdash; Hope, Nude Mauve (Dewy)</td></tr>
+<tr><td>7</td><td>Bath & Body Works</td><td>Aromatherapy Eucalyptus Spearmint Body Lotion &mdash; 6.5 fl oz Tube</td></tr>
+<tr><td>8</td><td>Santa Maria Novella</td><td>Angeli di Firenze Eau de Parfum</td></tr>
+<tr><td>9</td><td>Kleenex</td><td>Balsam Pocket Tissues</td></tr>
+<tr><td>10</td><td>Tic Tac</td><td>Tic Tac Freshmints &mdash; 1 oz / 60 Mints Pack</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this WIMB kit in the Diffr app?</h2>
+<p>Open <strong>preset 153</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-parisa-wang-kit">interactive Parisa Wang WIMB Scene</a>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Luxury Shoulder Bag</h3>
+<p><strong>Gabrielle East-West Shoulder Bag</strong> &mdash; Parisa Wang chocolate full-grain calfskin with dual zip and gold hardware.</p>
+
+<h3>Slot 2 &mdash; Cash Binder Wallet</h3>
+<p><strong>Smart Leather Cash Binder</strong> &mdash; Nonvi notebook wallet with cash envelope tabs.</p>
+
+<h3>Slot 3 &mdash; Slim Card Case</h3>
+<p><strong>T Monogram Zip Card Case</strong> &mdash; Tory Burch compact zip card wallet.</p>
+
+<h3>Slot 4 &mdash; Pocket Planners</h3>
+<p><strong>Volant Journals Set of 2 XS</strong> &mdash; Moleskine pocket softcover monthly planners.</p>
+
+<h3>Slot 5 &mdash; Cosmetic Pouch</h3>
+<p><strong>Hello Kitty Mini Zipper Pouch</strong> &mdash; Sanrio fluffy squirrel series cosmetic bag.</p>
+
+<h3>Slot 6 &mdash; Liquid Blush</h3>
+<p><strong>Soft Pinch Liquid Blush</strong> &mdash; Rare Beauty dewy nude-mauve blush tube.</p>
+
+<h3>Slot 7 &mdash; Aromatherapy Lotion</h3>
+<p><strong>Eucalyptus Spearmint Body Lotion</strong> &mdash; Bath & Body Works stress-relief aromatherapy tube.</p>
+
+<h3>Slot 8 &mdash; Heritage Fragrance</h3>
+<p><strong>Angeli di Firenze Eau de Parfum</strong> &mdash; Santa Maria Novella classic apothecary EDP.</p>
+
+<h3>Slot 9 &mdash; Pocket Tissues</h3>
+<p><strong>Balsam Pocket Tissues</strong> &mdash; Kleenex soft pocket pack for daily carry.</p>
+
+<h3>Slot 10 &mdash; Pocket Mints</h3>
+<p><strong>Tic Tac Freshmints</strong> &mdash; Tic Tac 1 oz peppermint mint pack (product packshot; vintage watch case = decode prose only).</p>
+
+<h2>Why This Post Exists</h2>
+<p>Luxury WIMB videos often repeat the same designer monogram on every pouch. Diffr maps Brandy Nicholl&rsquo;s Gabrielle spill into ten distinct brand lanes &mdash; each pinned on preset 153 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-speedy-brand-guide">LV Speedy WIMB</a> (preset 150) · <a href="/diffr/blog/wimb-chubby-bag-brand-guide">Stand Oil Chubby Bag WIMB</a> (preset 147) · <a href="/diffr/blog/wimb-munchi-brand-guide">WIMB Munchi creative carry</a> (preset 144). Explore the interactive scene: <a href="/diffr/start/wimb-parisa-wang-kit">Parisa Wang WIMB Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-green-pants-brand-guide',
+    title: 'Styling Green Pants OOTD: 8 Earth-Tone Picks, One Brand Per Slot',
+    description: 'Daniel Simmons green-trouser OOTD decoded — Brooks Brothers garment-dyed chino, Percival knit polo, New Balance 990v6, Coach Leon sling, Seiko tank watch, Moscot Lemtosh Sun, APM Monaco ring, Molinard Vetyver EDP. Eight brands on warm stone.',
+    date: '2026-09-05',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'outfit of the day', 'menswear', 'earth tones', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight green-trouser OOTD picks — Brooks Brothers chino, Percival knit polo, New Balance 990v6, Coach Leon sling, Seiko tank, Moscot sunglasses, APM Monaco ring, Molinard Vetyver — one brand per slot.',
+    content: `
+<p>Daniel Simmons&rsquo; moss-green trouser GRWM decodes into eight earth-tone wardrobe slots on warm stone: <strong>Brooks Brothers</strong> garment-dyed vintage chino olive green, a <strong>Percival</strong> tennis boxy knitted polo brown, <strong>New Balance</strong> 990v6 Made in USA M990GL6 grey sneakers, a <strong>Coach</strong> Leon sling bag, a <strong>Seiko</strong> SWR083 silver tank watch, <strong>Moscot</strong> Lemtosh Sun acetate sunglasses, an <strong>APM Monaco</strong> Up and Down silver ring, and <strong>Molinard</strong> Vetyver Eau de Parfum. Eight brands, zero repeats &mdash; structural tailoring with warm earth tones.</p>
+
+<p>Source decode: Daniel Simmons green barrel trousers GRWM via NotebookLM. Editorial corrections: Banana Republic trousers &rarr; <strong>Brooks Brothers garment-dyed chino</strong>; G.H. Bass loafers &rarr; <strong>New Balance 990v6</strong>; Lemaire tote &rarr; <strong>Coach Leon sling</strong>; Tom Wood signet &rarr; <strong>APM Monaco Up and Down</strong>; Aesop Tacit &rarr; <strong>Molinard Vetyver EDP</strong>.</p>
+
+<h2>What brands are in the green-trouser OOTD?</h2>
+<p>Eight earth-tone menswear brands on preset 154: <strong>Brooks Brothers</strong>, <strong>Percival</strong>, <strong>New Balance</strong>, <strong>Coach</strong>, <strong>Seiko</strong>, <strong>Moscot</strong>, <strong>APM Monaco</strong>, and <strong>Molinard</strong> &mdash; one specialist per layer.</p>
+
+<h2>Green-trouser OOTD starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Brooks Brothers</td><td>Men&rsquo;s Garment-Dyed Vintage Chino Trousers &mdash; Olive Green</td></tr>
+<tr><td>2</td><td>Percival</td><td>Tennis Boxy Knitted Polo &mdash; Cotton &mdash; Brown</td></tr>
+<tr><td>3</td><td>New Balance</td><td>990v6 Made in USA &mdash; M990GL6 Grey</td></tr>
+<tr><td>4</td><td>Coach</td><td>Leon Sling Bag / Leo Crossbody in Signature Nylon Jacquard</td></tr>
+<tr><td>5</td><td>Seiko</td><td>SWR083 Quartz Rectangular Dress Watch</td></tr>
+<tr><td>6</td><td>Moscot</td><td>LEMTOSH SUN &mdash; Black &mdash; 44</td></tr>
+<tr><td>7</td><td>APM Monaco</td><td>Up and Down Ring &mdash; Silver</td></tr>
+<tr><td>8</td><td>Molinard</td><td>Vetyver Eau de Parfum</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this OOTD kit in the Diffr app?</h2>
+<p>Open <strong>preset 154</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-green-pants-kit">interactive Green Pants OOTD Scene</a>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Olive Chino</h3>
+<p><strong>Garment-Dyed Vintage Chino Trousers</strong> &mdash; Brooks Brothers olive green garment-dyed chino anchor.</p>
+
+<h3>Slot 2 &mdash; Textured Knit Polo</h3>
+<p><strong>Tennis Boxy Knitted Polo</strong> &mdash; Percival warm brown open-knit cotton polo.</p>
+
+<h3>Slot 3 &mdash; Heritage Sneaker</h3>
+<p><strong>990v6 Made in USA M990GL6</strong> &mdash; New Balance grey Made-in-USA 990v6 runner.</p>
+
+<h3>Slot 4 &mdash; Crossbody Sling</h3>
+<p><strong>Leon Sling Bag</strong> &mdash; Coach signature nylon jacquard crossbody sling.</p>
+
+<h3>Slot 5 &mdash; Tank Dress Watch</h3>
+<p><strong>SWR083 Quartz Rectangular Dress Watch</strong> &mdash; Seiko silver tank-style steel bracelet watch.</p>
+
+<h3>Slot 6 &mdash; Classic Sunglasses</h3>
+<p><strong>LEMTOSH SUN Black 44</strong> &mdash; Moscot black acetate classic sunglasses.</p>
+
+<h3>Slot 7 &mdash; Signet Ring</h3>
+<p><strong>Up and Down Ring Silver</strong> &mdash; APM Monaco sterling silver architectural ring.</p>
+
+<h3>Slot 8 &mdash; Vetiver Fragrance</h3>
+<p><strong>Vetyver Eau de Parfum</strong> &mdash; Molinard vetiver-forward heritage EDP.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Earth-tone spring outfits mix trousers, knitwear, and accessories faster than any checklist. Diffr maps Daniel Simmons&rsquo; green-trouser GRWM into eight specialist wardrobe slots &mdash; each pinned on preset 154 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-day-date-brand-guide">day-date OOTD</a> (preset 151) · <a href="/diffr/blog/styling-navy-trousers-brand-guide">styling navy trousers</a> (preset 148) · <a href="/diffr/blog/styling-summer-linen-brand-guide">styling summer linen</a> (preset 145). Explore the interactive scene: <a href="/diffr/start/ootd-green-pants-kit">Green Pants OOTD Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',
@@ -4079,9 +4295,9 @@ export const posts: BlogPost[] = [
 <h2>Scene Series (flat-lay brand guides)</h2>
 <p>Editorial pocket dumps, bag spills, and outfit kits &mdash; one brand per slot with live catalog tiles. Browse all Scenes by lane on the <a href="/diffr/blog/scene-series">Scene Series hub</a>.</p>
 <ul>
-<li><strong><a href="/diffr/blog/scene-series#edc">EDC Scenes</a></strong> &mdash; <a href="/diffr/blog/unusual-edc-brand-guide">unusual EDC</a>, <a href="/diffr/blog/japanese-craft-edc-brand-guide">Japanese craft EDC</a>, <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a>, <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a>, and more.</li>
-<li><strong><a href="/diffr/blog/scene-series#wimb">WIMB Scenes</a></strong> &mdash; <a href="/diffr/blog/wimb-speedy-brand-guide">LV Speedy WIMB</a>, <a href="/diffr/blog/wimb-chubby-bag-brand-guide">Chubby Bag WIMB</a>, <a href="/diffr/blog/wimb-munchi-brand-guide">Munchi creative carry</a>, <a href="/diffr/blog/whats-in-my-bag-brand-guide">luxury beauty WIMB</a>.</li>
-<li><strong><a href="/diffr/blog/scene-series#ootd">OOTD Scenes</a></strong> &mdash; <a href="/diffr/blog/styling-day-date-brand-guide">day date OOTD</a>, <a href="/diffr/blog/styling-navy-trousers-brand-guide">navy trousers GRWM</a>, <a href="/diffr/blog/styling-summer-linen-brand-guide">summer linen OOTD</a>.</li>
+<li><strong><a href="/diffr/blog/scene-series#edc">EDC Scenes</a></strong> &mdash; <a href="/diffr/blog/under-100-edc-brand-guide">under $100 tech EDC</a>, <a href="/diffr/blog/unusual-edc-brand-guide">unusual EDC</a>, <a href="/diffr/blog/japanese-craft-edc-brand-guide">Japanese craft EDC</a>, <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a>, <a href="/diffr/blog/gray-edc-knoll-brand-guide">gray EDC knoll</a>, and more.</li>
+<li><strong><a href="/diffr/blog/scene-series#wimb">WIMB Scenes</a></strong> &mdash; <a href="/diffr/blog/wimb-parisa-wang-brand-guide">Parisa Wang Gabrielle WIMB</a>, <a href="/diffr/blog/wimb-speedy-brand-guide">LV Speedy WIMB</a>, <a href="/diffr/blog/wimb-chubby-bag-brand-guide">Chubby Bag WIMB</a>, <a href="/diffr/blog/wimb-munchi-brand-guide">Munchi creative carry</a>, <a href="/diffr/blog/whats-in-my-bag-brand-guide">luxury beauty WIMB</a>.</li>
+<li><strong><a href="/diffr/blog/scene-series#ootd">OOTD Scenes</a></strong> &mdash; <a href="/diffr/blog/styling-green-pants-brand-guide">styling green pants</a>, <a href="/diffr/blog/styling-day-date-brand-guide">day date OOTD</a>, <a href="/diffr/blog/styling-navy-trousers-brand-guide">navy trousers GRWM</a>, <a href="/diffr/blog/styling-summer-linen-brand-guide">summer linen OOTD</a>.</li>
 </ul>
 
 <h2>Brand maps (lines explained)</h2>

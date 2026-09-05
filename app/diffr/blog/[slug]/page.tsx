@@ -103,6 +103,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'unusual-edc-brand-guide': 149,
   'wimb-speedy-brand-guide': 150,
   'styling-day-date-brand-guide': 151,
+  'under-100-edc-brand-guide': 152,
+  'wimb-parisa-wang-brand-guide': 153,
+  'styling-green-pants-brand-guide': 154,
 }
 
 export async function generateStaticParams() {
