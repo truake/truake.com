@@ -279,8 +279,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'lululemon-lines-explained',
-    title: "Lululemon's Lines, Explained: Which Collection Is for Which Part of Your Life",
-    description: "Lululemon isn't one product — it's a handful of collections, each built for a different scene. Align for everyday, ABC for the commute, Scuba for the weekend, Steady State for the sweat, Tennis & Golf for the court. Here's the map, so you pick your lane and decide once.",
+    title: "Lululemon Lines Explained: Align, ABC, Scuba & More",
+    description: "Lululemon collections mapped to real life: Align for everyday, ABC for the commute, Scuba for the weekend, Steady State for the sweat. Pick your lane once.",
     date: '2026-06-24',
     readTime: '6 min read',
     tags: ['lululemon lines explained', 'lululemon collections', 'align vs abc', 'lululemon align', 'lululemon scuba', 'athleisure', 'one brand rule'],
@@ -316,8 +316,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'adidas-lines-explained',
-    title: "Adidas Lines Explained: Sub-Brands, Originals vs Performance & Which Line Fits Your Scene",
-    description: "Adidas lines explained — Originals vs Performance is a logo test: Trefoil means archive and street, 3-Bar means built for sport. Plus Sportswear for everyday, the full Terrex outdoor range (Free Hiker, Agravic, Five Ten), and why there is no four-stripe adidas.",
+    title: "Adidas Lines Explained: Originals vs Performance",
+    description: "Adidas lines explained: Trefoil means Originals and street, 3-Bar means Performance sport. Plus Sportswear, Terrex outdoor, and why there is no four-stripe adidas.",
     date: '2026-08-03',
     readTime: '8 min read',
     tags: ['adidas lines explained', 'adidas sub brands', 'adidas originals', 'adidas performance', 'adidas terrex', 'terrex range explained', 'original adidas', 'athleisure', 'one brand rule'],
@@ -379,8 +379,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'gap-inc-lines-explained',
-    title: "Athleta vs Lululemon & Gap Inc. Lines Explained: Gap, Banana Republic, Old Navy",
-    description: "Athleta vs Lululemon — which is better? Gap Inc. lines explained: Athleta for active and yoga (Elation vs Align), Banana Republic for work, Gap for everyday denim, Old Navy for budget family casual. Gap brands explained in one map — pick your lane and decide once.",
+    title: "Athleta vs Lululemon: Gap Inc. Brands Explained",
+    description: "Athleta vs Lululemon compared, plus every Gap Inc. brand: Athleta for yoga (Elation vs Align), Banana Republic for work, Gap denim, Old Navy for budget.",
     date: '2026-08-19',
     readTime: '6 min read',
     tags: ['gap inc lines explained', 'gap brands explained', 'athleta vs lululemon', 'banana republic vs gap', 'old navy vs gap', 'athleta', 'one brand rule'],
@@ -410,8 +410,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'uniqlo-lines-explained',
-    title: "Uniqlo Lines Explained: HEATTECH vs AIRism, LifeWear & Which Line for Which Season",
-    description: "Uniqlo HEATTECH vs AIRism — what's the difference? HEATTECH keeps heat in, AIRism lets it out. Full comparison table, all three HEATTECH warmth tiers with temperature ranges, AIRism mesh vs cotton, and where LifeWear Supima fits. Pick the right line once.",
+    title: "HEATTECH vs AIRism: Uniqlo Lines Explained",
+    description: "HEATTECH keeps heat in, AIRism lets it out. Full comparison, all three HEATTECH warmth tiers by temperature, AIRism mesh vs cotton, and where LifeWear fits.",
     date: '2026-08-03',
     readTime: '7 min read',
     tags: ['uniqlo lines explained', 'heattech vs airism', 'uniqlo heattech', 'uniqlo airism', 'airism base layers', 'lifewear', 'basics wardrobe', 'one brand rule'],
@@ -529,8 +529,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'aritzia-sub-brands-guide',
-    title: "Aritzia In-House Brands Explained: Babaton, Wilfred, TNA & What to Buy Instead",
-    description: "Aritzia brands explained — what brands does Aritzia own? All eleven in-house sub-brands: Babaton for work, Wilfred for date night, TNA for the weekend, Denim Forum for jeans, the Super Puff for winter. Full house-brand list plus the independent pick that beats each one.",
+    title: "Aritzia Brands Explained: All 11 In-House Labels",
+    description: "Aritzia owns 11 in-house brands: Babaton, Wilfred, TNA, Denim Forum, Super Puff and more. The full list, who owns Aritzia, and what to buy instead.",
     date: '2026-06-24',
     readTime: '8 min read',
     tags: ['aritzia brands explained', 'aritzia brands', 'aritzia sub brands', 'aritzia in house brands', 'aritzia sister company', 'babaton', 'denim forum', 'aritzia super puff', 'is aritzia worth it', 'womens fashion', 'one brand rule'],
@@ -562,6 +562,11 @@ export const posts: BlogPost[] = [
 <p>It does own one brand beyond its own labels. In June 2021 Aritzia acquired 75% of <strong>CYC Design Corporation</strong>, the company behind premium athletic-wear brand <strong>Reigning Champ</strong>, then bought the remaining 25% in May 2023 &mdash; so Reigning Champ is now wholly owned by Aritzia and is the closest thing to a true Aritzia sister brand. It is also how the company sells menswear. <strong>Fred Segal</strong> is likewise an Aritzia-held trademark.</p>
 <p>One mix-up worth clearing up: <strong>Aritzia and Lululemon are not related.</strong> Both were founded in Vancouver, both run a house-of-lanes strategy, and both sell leggings &mdash; but they are separate public companies with no shared ownership. Cross-shopping the two? See <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a>.</p>
 
+<h2>Who Owns Wilfred?</h2>
+<p><strong>Wilfred is owned by Aritzia.</strong> It is not an independent label that Aritzia happens to stock &mdash; it is one of Aritzia&rsquo;s own in-house brands, designed by Aritzia&rsquo;s internal studio and sold exclusively at Aritzia boutiques and aritzia.com. You cannot buy new Wilfred at Nordstrom, Revolve, or anywhere else, and there is no standalone Wilfred website. The name reads like a separate designer house because that is the point of the house-of-brands strategy: each label gets its own identity so it can own a different part of your week.</p>
+<p>The same answer covers <strong>Wilfred Free</strong>, the label&rsquo;s casual sibling &mdash; also Aritzia-owned, also Aritzia-exclusive. And because Aritzia itself has no parent company, the ownership chain stops there: Wilfred belongs to Aritzia Inc., a publicly traded Canadian company, and to nobody above it.</p>
+<p>Worth noting for anyone searching secondhand: Wilfred pieces circulate heavily on resale sites, and that is the one place you will find the label outside Aritzia. Those are pre-owned, not a sign of wider distribution.</p>
+
 <h2>Babaton — Work</h2>
 <p>Babaton is the polished, tailored core: trousers, blazers, the clean separates that read &ldquo;office&rdquo; without trying. The piece it is famous for is the <strong>Effortless Pant</strong> &mdash; a dress trouser that has become a genuine workwear staple.</p>
 <p><strong>The verdict:</strong> the Effortless Pant earns its hype, and Babaton is the easiest one-stop for a work look. But if you want a pair of trousers that holds its shape for five years, <strong>Theory</strong> tailoring is the upgrade &mdash; better wool, sharper line, built to outlast the trend.</p>
@@ -572,6 +577,7 @@ export const posts: BlogPost[] = [
 
 <h2>Wilfred — Date Night</h2>
 <p>Wilfred is the soft, romantic, French-girl side of the house: slip dresses, fluid midis, anything that drapes. It is the label you reach for when the scenario is dinner, not a desk.</p>
+<p><strong>Wilfred vs Babaton:</strong> the shortest honest answer is that Babaton dresses you for the desk and Wilfred dresses you for dinner. Babaton is structured &mdash; tailored trousers, blazers, crisp separates, fabrics chosen to hold a line. Wilfred is fluid &mdash; slips, midis, drape, fabrics chosen to move. They overlap on knitwear and the occasional dress, but if you are deciding which one to build a wardrobe on, decide by scenario, not by price: they sit at roughly the same tier.</p>
 <p><strong>The verdict:</strong> Wilfred nails the mood. But the slip dress is a category <strong>Reformation</strong> simply owns &mdash; better silhouettes, a deeper range, and the same easy-romantic feel. Wilfred for the full look; Reformation for the one dress.</p>
 
 <h2>Wilfred Free — Everyday</h2>
@@ -754,8 +760,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: '54321-packing-method-brand-guide',
-    title: '54321 Packing Method & Rule: How to Pack a Carry-On Capsule (5-4-3-2-1)',
-    description: 'What is the 54321 packing method? The 54321 packing rule is 5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard — a travel capsule for a week in a carry-on. Two versions circulate: this one, and a widely shared variant with 3 pairs of shoes and 2 layers. Here is which to use, plus the formula for 7 days, 10 days, 2 and 3 weeks, by season, and for men and women.',
+    title: 'The 54321 Packing Method: 5-4-3-2-1 Carry-On Rule',
+    description: 'The 54321 packing rule is 5 tops, 4 bottoms, 3 layers, 2 shoes, 1 wildcard. Which of the two versions to use, plus the formula for 7 days to 3 weeks.',
     date: '2026-07-24',
     readTime: '11 min read',
     tags: ['brand guide', '54321 packing method', '54321 packing rule', 'travel capsule wardrobe', 'carry on packing list', 'one bag essentials', 'packing list carry on', 'non-repetition principle'],

@@ -499,6 +499,14 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: "Not in the usual sense — Aritzia Inc. is independent and publicly traded (TSX: ATZ), founded in Vancouver in 1984, with no parent conglomerate above it. The closest thing to an Aritzia sister brand is Reigning Champ: Aritzia acquired 75% of its parent CYC Design Corporation in June 2021 and the remaining 25% in May 2023, so Reigning Champ is now wholly owned by Aritzia and is how the company sells menswear. Fred Segal is also an Aritzia-held trademark. Aritzia is not related to Lululemon — both were founded in Vancouver, but they are separate public companies.",
     },
     {
+      q: 'Who owns the brand Wilfred?',
+      a: "Wilfred is owned by Aritzia. It is one of Aritzia's own in-house labels — designed by Aritzia's internal studio and sold exclusively at Aritzia boutiques and aritzia.com — not an independent designer house that Aritzia stocks. There is no standalone Wilfred website and no other retailer carries it new. The same is true of Wilfred Free, its casual sibling. Because Aritzia Inc. is itself independent and publicly traded (TSX: ATZ) with no parent company, the ownership chain stops at Aritzia.",
+    },
+    {
+      q: 'Wilfred vs Babaton — what is the difference?',
+      a: "Babaton dresses you for the desk; Wilfred dresses you for dinner. Babaton is the structured label — tailored trousers (the Effortless Pant), blazers and crisp separates in fabrics chosen to hold a line. Wilfred is the fluid one — slip dresses, midis and drape, in fabrics chosen to move. They sit at roughly the same price tier and overlap on knitwear, so choose by scenario rather than by budget. Both are Aritzia in-house brands sold only at Aritzia.",
+    },
+    {
       q: 'Is Babaton a good brand?',
       a: "For the money, yes — Babaton is the strongest label in the Aritzia house, and the Effortless Pant is the piece that built its reputation. It is an Aritzia in-house brand, not a separate company, so you can only buy it at Aritzia. The honest limit is fabric: Babaton is designed to look sharp now rather than survive a decade of dry cleaning. If you want trousers that hold their line for years, Theory is the upgrade.",
     },
@@ -2091,6 +2099,7 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
       a: 'The NotebookLM decode named O Snap Snapgrip Wallet. Editorial pins Oh Snap MCON — the brand\'s magnetic gaming controller — because the wallet/grip form factor read too similarly to the Mophie power bank brick in the flat-lay cover. Brand display name corrected to Oh Snap.',
     },
     {
+      q: 'How is this different from the Evergreen EDC kit?',
       a: 'Evergreen EDC is a ten-slot green Monozukuri-Western kit on sage felt. Under $100 Tech EDC focuses on budget creative tech — magnetic power, puck hub, open-ear audio, and screenless camera — nine Western specialists under $100 on preset 152.',
     },
     {

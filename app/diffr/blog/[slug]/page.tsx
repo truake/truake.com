@@ -136,7 +136,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const ogW = hasKit ? 1200 : hasCover ? 1600 : 1200
   const ogH = hasKit ? 630 : hasCover ? 840 : 630
   return {
-    title: `${post.title} — Diffr Blog`,
+    // Absolute: the root layout's "%s | Truake" template plus a "— Diffr Blog"
+    // suffix cost 21 characters that Google truncates away before the headline
+    // keyword is reached.
+    title: { absolute: post.title },
     description: post.description,
     openGraph: {
       title: post.title,
