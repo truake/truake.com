@@ -138,8 +138,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'nike-lines-explained',
-    title: "Nike Lines Explained: Sub-Brands, Collections & Which Line Is for Which Scene",
-    description: "Nike lines explained — Sportswear (NSW) for everyday, Tech Fleece for travel, Pro for training, Pegasus for the run, ACG for trail, SB for skate, Jordan for court. The map so you pick your lane and decide once.",
+    title: "Nike Lines Explained: NSW, Tech Fleece, Pro, ACG & SB",
+    description: "Nike lines explained: Sportswear for everyday, Tech Fleece for travel, Pro for training, Pegasus for the run, ACG for trail, SB for skate, Jordan for court.",
     date: '2026-06-27',
     readTime: '6 min read',
     tags: ['nike sub brands', 'nike lines explained', 'nike collections', 'nike tech fleece', 'nike acg', 'nike pro', 'athleisure', 'one brand rule'],
@@ -462,8 +462,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'apple-ecosystem-lines-explained',
-    title: "Apple Ecosystem Explained: iPhone, iPad, Mac, Watch & AirPods — Which Device for Which Job",
-    description: "Apple's ecosystem explained — iPhone for mobile, iPad for portable compute, Mac for deep work, Watch for wrist, AirPods for audio. One lane per job so you stop buying overlap.",
+    title: "Apple Ecosystem Explained: Which Device for Which Job",
+    description: "Apple's ecosystem in five lanes: iPhone for mobile, iPad for portable compute, Mac for deep work, Watch for wrist, AirPods for audio. Stop buying overlap.",
     date: '2026-08-03',
     readTime: '6 min read',
     tags: ['apple ecosystem explained', 'iphone vs ipad', 'macbook vs ipad', 'apple watch', 'airpods', 'one brand rule'],
@@ -493,8 +493,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'patagonia-lines-explained',
-    title: "Patagonia Lines Explained: Better Sweater, Capilene, Down Sweater & Which Line Is for Which Job",
-    description: "Patagonia lines explained — Better Sweater for mid-layer fleece, Capilene for base, Down Sweater for warmth, Houdini for wind, Torrentshell for rain, Black Hole for carry. The classic map so you buy one icon per lane and decide once.",
+    title: "Patagonia Lines Explained: Better Sweater to Black Hole",
+    description: "Patagonia lines explained: Better Sweater mid-layer, Capilene base, Down Sweater warmth, Houdini wind, Torrentshell rain, Black Hole carry. One icon per lane.",
     date: '2026-08-09',
     readTime: '6 min read',
     tags: ['patagonia lines explained', 'patagonia better sweater', 'patagonia capilene', 'patagonia down sweater', 'patagonia houdini', 'outdoor layers', 'one brand rule'],
@@ -621,7 +621,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'world-cup-2026-kit-brands',
     title: 'World Cup 2026 Kits: What Brand Every Team Wears (All 48)',
-    description: 'World Cup 2026 kits by brand — all 48 teams and the maker behind each jersey. Adidas dresses 14, Nike 12, Puma 11, plus Kelme, Kappa, Umbro, Marathon and more. The full team-by-team kit-brand list.',
+    description: "World Cup 2026 kits by brand, all 48 teams: Adidas dresses 14, Nike 12, Puma 11, plus Kelme, Kappa, Umbro and Marathon. Full team-by-team list.",
     date: '2026-06-23',
     readTime: '5 min read',
     tags: ['world cup 2026 kits', 'world cup jerseys', 'world cup 2026 jersey brands', 'national team kits', 'soccer', 'one brand rule'],
@@ -4249,7 +4249,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'starter-kits',
     title: 'Starter Kits for Beginners: Every Hobby, One Brand Per Slot',
-    description: 'Every Diffr starter kit in one place — complete beginner buying guides for camping, home gym, work wardrobe, skincare, and more. One brand per slot, every slot assigned, buy in this order.',
+    description: "Every Diffr starter kit in one place: beginner buying guides for camping, home gym, work wardrobe, skincare and more. One brand per slot, buy in this order.",
     date: '2026-06-16',
     readTime: '3 min read',
     tags: ['starter kits', 'beginner buying guides', 'every slot assigned', 'one brand per slot'],
@@ -5937,8 +5937,8 @@ export const posts: BlogPost[] = [
 
   {
     slug: 'claude-code-notebooklm-obsidian-workflow',
-    title: 'How I Use Claude Code, NotebookLM, and Obsidian as One System',
-    description: 'A practical architecture for solo developers: Claude Code as the orchestrator, NotebookLM as the analysis engine, and Obsidian as the persistent second brain — all wired into a self-improving loop.',
+    title: "How I Use Claude Code, NotebookLM and Obsidian as One System",
+    description: "A practical architecture for solo developers: Claude Code as orchestrator, NotebookLM as analysis engine, Obsidian as the persistent second brain.",
     date: '2026-04-05',
     readTime: '7 min read',
     tags: ['dev workflow', 'claude code', 'notebooklm', 'obsidian', 'ai tools', 'productivity'],
@@ -7083,7 +7083,7 @@ Diffr ends with: here is what you get.</p>
   {
     slug: 'bike-commuting-gear-brand-guide',
     title: 'Bike Commuting Gear for Beginners: One Brand Per Slot',
-    description: 'Twelve bike commuting essentials, bike to roadside kit, assigned and closed. The Diffr brand guide to a beginner bike-commuting starter kit: what to buy first to start riding to work, without the gear-forum paralysis.',
+    description: "Twelve bike commuting essentials for beginners: commuter bike, helmet, lights, lock, panniers and roadside repair. One brand per slot, and what to buy first.",
     date: '2026-05-31',
     readTime: '8 min read',
     tags: ['brand guide', 'bike commuting gear', 'bike commuting essentials', 'bike commuting starter kit', 'what to buy first bike commuting', 'commuter gear', 'non-repetition principle'],

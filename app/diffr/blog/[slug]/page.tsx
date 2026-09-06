@@ -17,6 +17,7 @@ import {
   parseBehindTheContractTable,
 } from '../b2b-table-schema'
 import { BLOG_SLUG_TO_START } from '../../blog-slug-maps'
+import { SCENE_SERIES_CATEGORIES, SCENE_SERIES_HUB_SLUG } from '../scene-series-config'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -193,10 +194,22 @@ export default async function BlogPostPage({ params }: Props) {
   const prevPost = allPosts[currentIndex + 1] ?? null
   const nextPost = allPosts[currentIndex - 1] ?? null
 
+  // Scene Series posts belong to a lane (EDC / WIMB / OOTD). The hub is kept
+  // out of the blog index feed, so without a link from each scene it sits on a
+  // single inbound link and Google finds it through the sitemap alone. Linking
+  // every scene back to the hub gives the cluster a crawlable spine, and lane
+  // siblings are a topical cluster rather than a recency list.
+  const sceneLane = SCENE_SERIES_CATEGORIES.find((c) =>
+    c.scenes.some((s) => s.slug === slug),
+  ) ?? null
+  const laneSiblings = sceneLane
+    ? sceneLane.scenes.filter((s) => s.slug !== slug).slice(0, 6)
+    : []
+
   // Brand-guide cluster: cross-link the brand guides to each other so Google
   // reads them as one topical cluster and authority flows between them.
   const isBrandGuide = slug.endsWith('-brand-guide')
-  const relatedGuides = isBrandGuide
+  const relatedGuides = isBrandGuide && !sceneLane
     ? allPosts.filter((p) => p.slug.endsWith('-brand-guide') && p.slug !== slug).slice(0, 6)
     : []
 
@@ -455,6 +468,47 @@ export default async function BlogPostPage({ params }: Props) {
                     {item.a}
                   </p>
                 </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Scene Series lane — sibling scenes plus the hub backlink */}
+        {sceneLane && (
+          <section style={{ marginTop: '48px' }}>
+            <h2 style={{
+              fontFamily: "var(--font-display), 'Playfair Display', serif",
+              fontSize: 'clamp(22px, 3vw, 28px)',
+              fontWeight: 700, letterSpacing: '-0.02em',
+              color: '#2A2620', margin: '0 0 8px',
+            }}>
+              More {sceneLane.label}
+            </h2>
+            <p style={{
+              fontFamily: "var(--font-syne), 'Syne', sans-serif",
+              fontSize: '15px', lineHeight: 1.6,
+              color: 'rgba(42,38,32,0.65)', margin: '0 0 18px',
+            }}>
+              {sceneLane.tagline} Browse every lane on the{' '}
+              <Link href={`/diffr/blog/${SCENE_SERIES_HUB_SLUG}`} style={{ color: '#1B8BF5', fontWeight: 600 }}>
+                Scene Series hub
+              </Link>.
+            </p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '12px' }}>
+              {laneSiblings.map((s) => (
+                <Link key={s.slug} href={`/diffr/blog/${s.slug}`} className="diffr-series-card" style={{
+                  display: 'block', textDecoration: 'none',
+                  background: '#F8F5F1', border: '1px solid rgba(42,38,32,0.10)',
+                  borderRadius: '12px', padding: '16px 18px',
+                }}>
+                  <p style={{
+                    fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                    fontSize: '15px', fontWeight: 600, lineHeight: 1.35,
+                    color: '#1B8BF5', margin: 0,
+                  }}>
+                    {s.title} <span className="diffr-series-arrow">→</span>
+                  </p>
+                </Link>
               ))}
             </div>
           </section>
