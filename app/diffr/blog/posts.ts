@@ -317,7 +317,7 @@ export const posts: BlogPost[] = [
   {
     slug: 'adidas-lines-explained',
     title: "Adidas Lines Explained: Originals vs Performance",
-    description: "Adidas lines explained: Trefoil means Originals and street, 3-Bar means Performance sport. Plus Sportswear, Terrex outdoor, and why there is no four-stripe adidas.",
+    description: "Adidas lines explained: Trefoil means Originals and street, 3-Bar means Performance sport. Plus Sportswear, Terrex outdoor, and the no-four-stripe rule.",
     date: '2026-08-03',
     readTime: '8 min read',
     tags: ['adidas lines explained', 'adidas sub brands', 'adidas originals', 'adidas performance', 'adidas terrex', 'terrex range explained', 'original adidas', 'athleisure', 'one brand rule'],
