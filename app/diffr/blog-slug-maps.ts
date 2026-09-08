@@ -69,6 +69,9 @@ export const BLOG_SLUG_TO_START: Record<string, string> = {
   'under-100-edc-brand-guide': 'under-100-edc-kit',
   'wimb-parisa-wang-brand-guide': 'wimb-parisa-wang-kit',
   'styling-green-pants-brand-guide': 'ootd-green-pants-kit',
+  'blackout-titanium-edc-brand-guide': 'blackout-titanium-edc-kit',
+  'wimb-rachel-zoe-brand-guide': 'wimb-rachel-zoe-kit',
+  'styling-navy-uniform-brand-guide': 'ootd-navy-uniform-kit',
 }
 
 /** Inverse map: start funnel slug → SEO-canonical blog post slug. */

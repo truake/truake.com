@@ -107,6 +107,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'under-100-edc-brand-guide': 152,
   'wimb-parisa-wang-brand-guide': 153,
   'styling-green-pants-brand-guide': 154,
+  'blackout-titanium-edc-brand-guide': 155,
+  'wimb-rachel-zoe-brand-guide': 156,
+  'styling-navy-uniform-brand-guide': 157,
 }
 
 export async function generateStaticParams() {

@@ -3148,6 +3148,101 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'blackout-titanium-edc-brand-guide',
+    title: 'Blackout Titanium EDC: 10 Stealth Essentials, One Brand Per Slot',
+    description: 'Blackout titanium EDC decoded — Ciga Design Black Star, The Ridge titanium wallet, Peachy Design Kootenay, Exceed TiRant V3, Tec Accessories Hi-MARKR, Big Idea Bit Bar II, The James Brand Lowe wallet, ROKA Falcon aviators, Benchmade Mini Narrows, Mech Army RL pry. Ten brands on matte charcoal.',
+    date: '2026-09-08',
+    readTime: '6 min read',
+    tags: ['brand guide', 'EDC', 'titanium', 'blackout', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten blackout titanium EDC picks — Ciga Design watch, Ridge wallet, Peachy carabiner, Exceed utility knife, Tec marker, Bit Bar II, James Brand Lowe wallet, ROKA aviators, Benchmade folder, Mech Army pry — one brand per slot.',
+    content: `
+<p>The blackout titanium stealth EDC flat lay decodes into ten PVD/DLC/Cerakote slots on matte charcoal: a <strong>Ciga Design</strong> Black Star &times; Label Noir automatic, a <strong>The Ridge</strong> matte black titanium wallet, a <strong>Peachy Design</strong> Kootenay carabiner, an <strong>Exceed Designs</strong> TiRant RAZOR V3 utility knife, a <strong>Tec Accessories</strong> Hi-MARKR marker, a <strong>Big Idea Design</strong> Bit Bar II, a <strong>The James Brand</strong> Lowe minimalist wallet, <strong>ROKA</strong> Falcon aviators, a <strong>Benchmade</strong> Mini Narrows 743BK-01, and a <strong>Mech Army</strong> RL3BK pry bar. Ten brands, zero repeats &mdash; full blackout titanium loadout.</p>
+
+<p>Source decode: NotebookLM blackout titanium EDC extract. Editorial correction: The James Brand Benton pen &rarr; <strong>Lowe Minimalist Card Holder Wallet</strong> (pen duplicated Tec Accessories marker slot).</p>
+
+<h2>What brands are in the Blackout Titanium EDC flat lay?</h2>
+<p>Ten stealth titanium specialists on preset 155: <strong>Ciga Design</strong>, <strong>The Ridge</strong>, <strong>Peachy Design</strong>, <strong>Exceed Designs</strong>, <strong>Tec Accessories</strong>, <strong>Big Idea Design</strong>, <strong>The James Brand</strong>, <strong>ROKA</strong>, <strong>Benchmade</strong>, and <strong>Mech Army</strong> &mdash; one brand per slot.</p>
+
+<h2>Blackout titanium EDC starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Ciga Design</td><td>Black Star &times; Label Noir Blue Planet II</td></tr>
+<tr><td>2</td><td>The Ridge</td><td>Matte Black Titanium Wallet &mdash; Cash Strap</td></tr>
+<tr><td>3</td><td>Peachy Design</td><td>Kootenay Titanium Carabiner &mdash; Black Coating</td></tr>
+<tr><td>4</td><td>Exceed Designs</td><td>TiRant RAZOR V3 Utility Knife &mdash; Jet-Black</td></tr>
+<tr><td>5</td><td>Tec Accessories</td><td>Hi-MARKR Titanium &mdash; Armour Black Cerakote</td></tr>
+<tr><td>6</td><td>Big Idea Design</td><td>Bit Bar II &mdash; DLC Black</td></tr>
+<tr><td>7</td><td>The James Brand</td><td>Lowe Minimalist Card Holder Wallet &mdash; Silver Grove</td></tr>
+<tr><td>8</td><td>ROKA</td><td>Falcon Titanium Sunglasses &mdash; Gunmetal / Dark Carbon</td></tr>
+<tr><td>9</td><td>Benchmade</td><td>Mini Narrows 743BK-01 &mdash; Black Titanium</td></tr>
+<tr><td>10</td><td>Mech Army</td><td>RL3BK Titanium EDC Pry Bar &mdash; PVD Black</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this kit in the Diffr app?</h2>
+<p>Open <strong>preset 155</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/blackout-titanium-edc-kit">interactive Blackout Titanium EDC Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Blackout EDC shouldn&rsquo;t read like a single accessory brand catalog. Diffr maps this tactical titanium loadout into ten specialist lanes &mdash; each pinned on preset 155 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/unusual-edc-brand-guide">unusual EDC</a> (preset 149) · <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a> (preset 143) · <a href="/diffr/blog/under-100-edc-brand-guide">under $100 tech EDC</a> (preset 152). Explore the interactive scene: <a href="/diffr/start/blackout-titanium-edc-kit">Blackout Titanium EDC Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-rachel-zoe-brand-guide',
+    title: 'Rachel Zoe Straw Tote WIMB: 10 Summer Essentials, One Brand Per Slot',
+    description: 'Rachel Zoe straw tote WIMB decoded — Rachel Zoe satchel, Chanel Caviar card case, Louis Vuitton cosmetic pouch, Pierotucci eyeglasses case, GHD Unplugged straightener, Muji EVA pouch, Smythson Panama diary, Yankee Candle Berry Mochi, Jellycat Jack charm, Bose QC Ultra Earbuds. Ten brands on warm linen.',
+    date: '2026-09-08',
+    readTime: '5 min read',
+    tags: ['brand guide', 'WIMB', 'whats in my bag', 'Rachel Zoe', 'summer tote', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten Rachel Zoe straw tote WIMB picks — woven satchel, Chanel card case, LV cosmetic pouch, Pierotucci case, GHD styler, Muji zip pouch, Smythson diary, Yankee Candle Berry Mochi, Jellycat charm, Bose earbuds — one brand per slot.',
+    content: `
+<p>Brandy Nicholl&rsquo;s summer straw tote <em>What&rsquo;s in My Bag</em> spill decodes into ten organized carry slots on warm linen: a natural <strong>Rachel Zoe</strong> straw satchel with tassel charm, a <strong>Chanel</strong> Caviar card case, a <strong>Louis Vuitton</strong> monogram cosmetic pouch PM, a <strong>Pierotucci</strong> horizontal kiss-lock eyeglasses case, a <strong>GHD</strong> Unplugged cordless straightener, a translucent <strong>Muji</strong> EVA slider zip pouch, a <strong>Smythson</strong> Stars 2027 Panama weekly diary, a <strong>Yankee Candle</strong> Berry Mochi small jar, a <strong>Jellycat</strong> Jack bag charm, and <strong>Bose</strong> QuietComfort Ultra Earbuds (2nd Gen). Ten brands, zero repeats &mdash; sun-drenched casual chic.</p>
+
+<p>Source decode: NotebookLM Rachel Zoe WIMB extract. Editorial corrections: Royal Bagger (CN) &rarr; <strong>Pierotucci</strong>; Amazon generic straightener &rarr; <strong>GHD</strong>; Target generic pouch &rarr; <strong>Muji</strong>; Smythson glitter clutch &rarr; <strong>Panama weekly diary</strong>; Sanrio Hello Kitty cork &rarr; <strong>Jellycat Jack charm</strong>; Apple AirPods &rarr; <strong>Bose QC Ultra</strong>.</p>
+
+<h2>What brands are in the Rachel Zoe WIMB flat lay?</h2>
+<p>Ten summer carry specialists on preset 156: <strong>Rachel Zoe</strong>, <strong>Chanel</strong>, <strong>Louis Vuitton</strong>, <strong>Pierotucci</strong>, <strong>GHD</strong>, <strong>Muji</strong>, <strong>Smythson</strong>, <strong>Yankee Candle</strong>, <strong>Jellycat</strong>, and <strong>Bose</strong> &mdash; one brand per slot.</p>
+
+<h2>How do I get this WIMB kit in the Diffr app?</h2>
+<p>Open <strong>preset 156</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-rachel-zoe-kit">interactive Rachel Zoe WIMB Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Summer bag dumps shouldn&rsquo;t collapse into one luxury house. Diffr maps this Rachel Zoe straw tote spill into ten specialist lanes &mdash; each pinned on preset 156 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-speedy-brand-guide">LV Speedy WIMB</a> (preset 150) · <a href="/diffr/blog/wimb-parisa-wang-brand-guide">Parisa Wang WIMB</a> (preset 153) · <a href="/diffr/blog/wimb-chubby-bag-brand-guide">Chubby Bag WIMB</a> (preset 147). Explore the interactive scene: <a href="/diffr/start/wimb-rachel-zoe-kit">Rachel Zoe WIMB Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-navy-uniform-brand-guide',
+    title: 'Navy Uniform OOTD: 10 Cohesive Picks, One Brand Per Slot',
+    description: 'Navy uniform OOTD decoded — Stan Ray OG Loose Fatigue navy twill, Arket zip cardigan, Sunspel crewneck tee, Adidas Samba, Acne Studios mohair scarf, Rototo socks, Carhartt beanie, Chopard Ice Cube bracelet, The Row Fisherman belt, Floris Santal EDT. Ten brands on warm grey felt.',
+    date: '2026-09-08',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'outfit of the day', 'menswear', 'navy uniform', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten navy uniform OOTD picks — Stan Ray fatigue trousers, Arket zip sweater, Sunspel tee, Adidas Samba, Acne scarf, Rototo socks, Carhartt beanie, Chopard bracelet, The Row belt, Floris Santal — one brand per slot.',
+    content: `
+<p>Daniel Simmons&rsquo; monochromatic navy GRWM decodes into ten cohesive wardrobe slots on warm grey felt: <strong>Stan Ray</strong> OG Loose Fatigue navy twill trousers, an <strong>Arket</strong> wool-cotton zip cardigan, a <strong>Sunspel</strong> classic cotton crewneck tee, <strong>Adidas</strong> Samba Classic sneakers, an <strong>Acne Studios</strong> mohair checked scarf, <strong>Rototo</strong> ribbed crew socks, a <strong>Carhartt</strong> knit cuffed beanie, a <strong>Chopard</strong> Ice Cube sterling silver bracelet, a <strong>The Row</strong> Fisherman braided leather belt, and <strong>Floris London</strong> Santal Eau de Toilette. Ten brands, zero repeats &mdash; texture-rich navy uniform.</p>
+
+<p>Source decode: NotebookLM navy uniform OOTD extract. Editorial corrections: Daniel Simmons trousers &rarr; <strong>Stan Ray OG Loose Fatigue</strong>; Tom Wood ring &rarr; <strong>Chopard Ice Cube bracelet</strong>; Ralph Lauren belt &rarr; <strong>The Row Fisherman belt</strong>; Aesop Marrakech &rarr; <strong>Floris Santal EDT</strong>; Carhartt WIP &rarr; parent brand <strong>Carhartt</strong>.</p>
+
+<h2>What brands are in the navy uniform OOTD?</h2>
+<p>Ten transitional menswear specialists on preset 157: <strong>Stan Ray</strong>, <strong>Arket</strong>, <strong>Sunspel</strong>, <strong>Adidas</strong>, <strong>Acne Studios</strong>, <strong>Rototo</strong>, <strong>Carhartt</strong>, <strong>Chopard</strong>, <strong>The Row</strong>, and <strong>Floris</strong> &mdash; one brand per layer.</p>
+
+<h2>How do I get this OOTD kit in the Diffr app?</h2>
+<p>Open <strong>preset 157</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-navy-uniform-kit">interactive Navy Uniform OOTD Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Monochromatic navy outfits mix trousers, knitwear, and accessories faster than any checklist. Diffr maps this GRWM into ten specialist wardrobe slots &mdash; each pinned on preset 157 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-navy-trousers-brand-guide">styling navy trousers</a> (preset 148) · <a href="/diffr/blog/styling-summer-linen-brand-guide">styling summer linen</a> (preset 145) · <a href="/diffr/blog/styling-day-date-brand-guide">day-date OOTD</a> (preset 151). Explore the interactive scene: <a href="/diffr/start/ootd-navy-uniform-kit">Navy Uniform OOTD Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',

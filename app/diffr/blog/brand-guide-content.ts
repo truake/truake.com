@@ -211,6 +211,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Brandy Nicholl Parisa Wang Gabrielle WIMB is ten organized daily-carry slots — Parisa Wang chocolate bag, Nonvi cash binder, Tory Burch zip card case, Moleskine Volant XS, Sanrio Hello Kitty pouch, Rare Beauty Soft Pinch blush, Bath & Body Works eucalyptus lotion, Santa Maria Novella Angeli di Firenze, Kleenex Balsam pocket tissues, Tic Tac mints — one brand each on preset 153. Gucci/Michael Kors/Octobuddy corrected. Live catalog tiles below.',
   'styling-green-pants-brand-guide':
     'Bottom line: Daniel Simmons green-trouser OOTD is eight earth-tone wardrobe slots — Brooks Brothers garment-dyed chino, Percival knit polo, New Balance 990v6, Coach Leon sling, Seiko tank watch, Moscot Lemtosh Sun, APM Monaco Up and Down ring, Molinard Vetyver EDP — one brand each on preset 154. Banana Republic/G.H. Bass/Lemaire/Tom Wood/Aesop corrected. Live catalog tiles below.',
+  'blackout-titanium-edc-brand-guide':
+    'Bottom line: Blackout titanium EDC is ten stealth PVD/DLC/Cerakote slots — Ciga Design Black Star, The Ridge titanium wallet, Peachy Design Kootenay carabiner, Exceed Designs TiRant V3, Tec Accessories Hi-MARKR, Big Idea Design Bit Bar II, The James Brand Lowe wallet, ROKA Falcon aviators, Benchmade Mini Narrows, Mech Army RL pry — one brand each on preset 155. Benton pen swapped to Lowe wallet (pen duplicated Tec marker slot). Live catalog tiles below.',
+  'wimb-rachel-zoe-brand-guide':
+    'Bottom line: Rachel Zoe straw tote WIMB is ten summer carry slots — Rachel Zoe straw satchel, Chanel Caviar card case, Louis Vuitton monogram cosmetic pouch, Pierotucci kiss-lock eyeglasses case, GHD Unplugged straightener, Muji EVA zip pouch, Smythson Panama weekly diary, Yankee Candle Berry Mochi small jar, Jellycat Jack bag charm, Bose QuietComfort Ultra Earbuds — one brand each on preset 156. Royal Bagger (CN) replaced with Pierotucci. Live catalog tiles below.',
+  'styling-navy-uniform-brand-guide':
+    'Bottom line: Navy uniform OOTD is ten monochromatic menswear slots — Stan Ray OG Loose Fatigue navy twill, Arket zip cardigan, Sunspel crewneck tee, Adidas Samba, Acne Studios mohair checked scarf, Rototo ribbed socks, Carhartt knit beanie, Chopard Ice Cube bracelet, The Row Fisherman braided belt, Floris Santal EDT — one brand each on preset 157. Daniel Simmons/Tom Wood/Ralph Lauren/Aesop corrected. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2151,6 +2157,75 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do I open the green-trouser OOTD in the Diffr app?',
       a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 154 or the ootd-green-pants Scene — same pins as this post.',
+    },
+  ],
+
+  'blackout-titanium-edc-brand-guide': [
+    {
+      q: 'What is the Blackout Titanium EDC flat lay?',
+      a: 'It is a ten-slot full-blackout titanium loadout: Ciga Design Black Star × Label Noir watch, The Ridge matte black titanium wallet, Peachy Design Kootenay carabiner, Exceed Designs TiRant RAZOR V3 utility knife, Tec Accessories Hi-MARKR marker, Big Idea Design Bit Bar II, The James Brand Lowe minimalist wallet, ROKA Falcon aviators, Benchmade Mini Narrows 743BK-01, and Mech Army RL3BK pry bar — ten distinct brands on preset 155.',
+    },
+    {
+      q: 'Why The James Brand Lowe wallet instead of the Benton pen?',
+      a: 'The NotebookLM decode named the Benton black titanium pen. Editorial pins The James Brand Lowe Minimalist Card Holder Wallet — the Benton pen duplicated the Tec Accessories marker slot type in the flat lay.',
+    },
+    {
+      q: 'Why Tec Accessories and not Tech Accessories?',
+      a: 'The decode misread the brand as Tech Accessories. Catalog pins Tec Accessories (tecaccessories.com) — the Hi-MARKR Armour Black Cerakote titanium marker on preset 155.',
+    },
+    {
+      q: 'How is this different from the Evergreen EDC kit?',
+      a: 'Evergreen EDC is a green Monozukuri-Western kit on sage felt (preset 143). Blackout Titanium EDC is a full matte-black PVD/DLC/Cerakote titanium stealth loadout on charcoal slate — ten specialist makers on preset 155.',
+    },
+    {
+      q: 'How do I open Blackout Titanium EDC in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 155 or the blackout-titanium-edc Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-rachel-zoe-brand-guide': [
+    {
+      q: 'What is the Rachel Zoe straw tote WIMB decode?',
+      a: 'It is a ten-slot summer bag spill: Rachel Zoe natural straw tote, Chanel Caviar card case, Louis Vuitton monogram cosmetic pouch PM, Pierotucci horizontal kiss-lock eyeglasses case, GHD Unplugged cordless straightener, Muji EVA slider zip pouch, Smythson Stars 2027 Panama weekly diary, Yankee Candle Berry Mochi small jar, Jellycat Jack bag charm, and Bose QuietComfort Ultra Earbuds (2nd Gen) — ten distinct brands on preset 156.',
+    },
+    {
+      q: 'Why Pierotucci instead of Royal Bagger for the kiss-lock case?',
+      a: 'Royal Bagger is editorially excluded as a hidden mainland-China-headquartered brand. Editorial pins Pierotucci Horizontal Kiss-lock Eyeglasses Case — green leather Italian craft case with a live catalog hero.',
+    },
+    {
+      q: 'Why GHD and Muji instead of Amazon and Target generics?',
+      a: 'The source decode named Amazon generic straightener and Target generic silicone pouch. Editorial pins GHD Unplugged cordless straightener and Muji EVA slider zip pouch — real brand slots with catalog packshots.',
+    },
+    {
+      q: 'Why Bose instead of Apple AirPods Pro?',
+      a: 'Apple appeared in prior WIMB batches. Editorial pins Bose QuietComfort Ultra Earbuds (2nd Gen) — a distinct wireless-audio specialist on preset 156.',
+    },
+    {
+      q: 'How do I open the Rachel Zoe WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 156 or the wimb-rachel-zoe Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-navy-uniform-brand-guide': [
+    {
+      q: 'What is the navy uniform OOTD breakdown?',
+      a: 'It is a ten-slot monochromatic menswear kit: Stan Ray OG Loose Fatigue navy twill trousers, Arket wool-cotton zip cardigan, Sunspel classic cotton crewneck tee, Adidas Samba Classic sneakers, Acne Studios mohair checked scarf, Rototo ribbed crew socks, Carhartt knit cuffed beanie A18 green, Chopard Ice Cube sterling silver bracelet, The Row Fisherman braided leather belt, and Floris London Santal Eau de Toilette 100 ml — ten distinct brands on preset 157.',
+    },
+    {
+      q: 'Why Stan Ray instead of Daniel Simmons for the trouser slot?',
+      a: 'Daniel Simmons appeared in multiple recent OOTD presets. Editorial pins Stan Ray OG Loose Fatigue — Navy Twill — a heritage workwear trouser with a live packshot on preset 157.',
+    },
+    {
+      q: 'Why Chopard Ice Cube bracelet instead of Tom Wood ring?',
+      a: 'Tom Wood appeared in prior OOTD batches. Editorial pins Chopard Ice Cube Bracelet — sterling silver cube-link chain jewelry, shifting the slot from ring to bracelet on preset 157.',
+    },
+    {
+      q: 'Why Carhartt and not Carhartt WIP?',
+      a: 'The decode named Carhartt WIP fisherman beanie. Catalog pins parent brand Carhartt (id 12447) Knit Cuffed Beanie A18 green — the live packshot on preset 157.',
+    },
+    {
+      q: 'How do I open the navy uniform OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 157 or the ootd-navy-uniform Scene — same pins as this post.',
     },
   ],
 
