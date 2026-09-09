@@ -75,7 +75,7 @@ export function DiffrNav() {
             ))}
           </div>
           <a
-            href="https://apps.apple.com/us/app/diffr/id6772870733"
+            href="https://apps.apple.com/us/app/diffr/id6772870733?utm_source=truake&utm_medium=nav_cta&utm_campaign=app_cta"
             className="diffr-nav-cta"
             style={{
               background: "#1B8BF5",
