@@ -111,6 +111,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'blackout-titanium-edc-brand-guide': 155,
   'wimb-rachel-zoe-brand-guide': 156,
   'styling-navy-uniform-brand-guide': 157,
+  'best-new-edc-2026-brand-guide': 158,
+  'wimb-straw-tote-brand-guide': 159,
+  'styling-tabby-boots-brand-guide': 160,
 }
 
 export async function generateStaticParams() {

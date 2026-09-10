@@ -3243,6 +3243,132 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'best-new-edc-2026-brand-guide',
+    title: 'Best New EDC 2026: 10 Contemporary Essentials, One Brand Per Slot',
+    description: 'Best new EDC 2026 decoded — Big Idea Design Bolt Action Marker, Journey LOC8 MOTION keys, Timex Atelier Marine M1A, NOTHING Phone (4a) Pro, Garant tape measure 462201, Fujifilm Instax Mini Evo Cinema, Belkin BoostCharge Qi2 10K Stand, Leatherman Raptor Rescue, Nice Guy Machine Co. The Minion, Orbitkey Urban Sling 4L. Ten brands on warm oak.',
+    date: '2026-09-10',
+    readTime: '6 min read',
+    tags: ['brand guide', 'EDC', 'everyday carry', '2026', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten best-new EDC 2026 picks — Big Idea marker, Journey key organizer, Timex Atelier watch, NOTHING Phone 4a Pro, Garant tape measure, Fujifilm Instax Evo Cinema, Belkin Qi2 stand, Leatherman Raptor Rescue, Nice Guy Minion, Orbitkey Urban Sling — one brand per slot.',
+    content: `
+<p>The best-new EDC 2026 flat lay decodes into ten contemporary carry slots on warm oak: a <strong>Big Idea Design</strong> Bolt Action Marker, a <strong>Journey</strong> LOC8 MOTION Key Organizer, a <strong>Timex</strong> Atelier Marine M1A, a <strong>NOTHING</strong> Phone (4a) Pro, a <strong>Garant</strong> Tape Measure 462201, a <strong>Fujifilm</strong> Instax Mini Evo Cinema, a <strong>Belkin</strong> BoostCharge Qi2 10K Stand, a <strong>Leatherman</strong> Raptor Rescue, a <strong>Nice Guy Machine Co.</strong> The Minion, and an <strong>Orbitkey</strong> Urban Sling 4L. Ten brands, zero repeats &mdash; forward-looking everyday carry.</p>
+
+<p>Source decode: NotebookLM best-new EDC 2026 extract. Editorial corrections: Aulumu &rarr; <strong>Belkin BoostCharge Qi2 10K Stand</strong>; The James Brand Elko &rarr; <strong>Journey LOC8 MOTION Key Organizer</strong>; Fisher Space Pen &rarr; <strong>Garant Tape Measure 462201</strong>; Benchmade &rarr; <strong>Leatherman Raptor Rescue</strong>; Oh Snap &rarr; <strong>Nice Guy Machine Co. The Minion</strong>; Aer &rarr; <strong>Orbitkey Urban Sling 4L</strong>.</p>
+
+<h2>What brands are in the Best New EDC 2026 flat lay?</h2>
+<p>Ten contemporary carry specialists on preset 158: <strong>Big Idea Design</strong>, <strong>Journey</strong>, <strong>Timex</strong>, <strong>NOTHING</strong>, <strong>Garant</strong>, <strong>Fujifilm</strong>, <strong>Belkin</strong>, <strong>Leatherman</strong>, <strong>Nice Guy Machine Co.</strong>, and <strong>Orbitkey</strong> &mdash; one brand per slot.</p>
+
+<h2>Best new EDC 2026 starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Big Idea Design</td><td>Bolt Action Marker</td></tr>
+<tr><td>2</td><td>Journey</td><td>LOC8 MOTION Key Organizer</td></tr>
+<tr><td>3</td><td>Timex</td><td>Atelier Marine M1A</td></tr>
+<tr><td>4</td><td>NOTHING</td><td>Phone (4a) Pro</td></tr>
+<tr><td>5</td><td>Garant</td><td>Tape Measure 462201</td></tr>
+<tr><td>6</td><td>Fujifilm</td><td>Instax Mini Evo Cinema</td></tr>
+<tr><td>7</td><td>Belkin</td><td>BoostCharge Qi2 10K Stand</td></tr>
+<tr><td>8</td><td>Leatherman</td><td>Raptor Rescue</td></tr>
+<tr><td>9</td><td>Nice Guy Machine Co.</td><td>The Minion</td></tr>
+<tr><td>10</td><td>Orbitkey</td><td>Urban Sling 4L</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this kit in the Diffr app?</h2>
+<p>Open <strong>preset 158</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/best-new-edc-2026-kit">interactive Best New EDC 2026 Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Forward-looking EDC shouldn&rsquo;t read like a single accessory brand catalog. Diffr maps this contemporary pocket dump into ten specialist lanes &mdash; each pinned on preset 158 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/blackout-titanium-edc-brand-guide">blackout titanium EDC</a> (preset 155) · <a href="/diffr/blog/evergreen-edc-brand-guide">evergreen EDC</a> (preset 143) · <a href="/diffr/blog/under-100-edc-brand-guide">under $100 tech EDC</a> (preset 152). Explore the interactive scene: <a href="/diffr/start/best-new-edc-2026-kit">Best New EDC 2026 Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-straw-tote-brand-guide',
+    title: 'Straw Tote WIMB: 9 Summer Carry Essentials, One Brand Per Slot',
+    description: 'Straw tote WIMB decoded — Target Straw XL Tote, NYX Butter Lip Gloss Red Velvet, OtterBox Folding Wireless Power Bank, ThermoFlask 24oz Chug Spout, Dyson HushJet Mini Cool, JLab Epic Air Sport ANC 3, Fisherman\'s Friend Mint Sachet, Louis Vuitton Key Pouch, Tsubota Pearl Hard Edge Lighter. Nine brands on warm linen.',
+    date: '2026-09-10',
+    readTime: '5 min read',
+    tags: ['brand guide', 'WIMB', 'whats in my bag', 'straw tote', 'summer carry', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine straw tote WIMB picks — Target XL straw tote, NYX Butter Lip Gloss, OtterBox folding power bank, ThermoFlask chug bottle, Dyson HushJet Mini, JLab Epic Air Sport ANC 3, Fisherman\'s Friend mint sachet, LV key pouch, Tsubota Pearl lighter — one brand per slot.',
+    content: `
+<p>Brandy Nicholl&rsquo;s summer straw tote <em>What&rsquo;s in My Bag</em> spill decodes into nine organized carry slots on warm linen: a <strong>Target</strong> Straw XL Tote, <strong>NYX</strong> Butter Lip Gloss in Red Velvet, an <strong>OtterBox</strong> Folding Wireless Power Bank, a <strong>ThermoFlask</strong> 24oz Chug Spout bottle, a <strong>Dyson</strong> HushJet Mini Cool, <strong>JLab</strong> Epic Air Sport ANC 3 earbuds, a <strong>Fisherman&rsquo;s Friend</strong> Mint Sachet, a <strong>Louis Vuitton</strong> Key Pouch, and a <strong>Tsubota</strong> Pearl Hard Edge Lighter. Nine brands, zero repeats &mdash; sun-drenched casual carry.</p>
+
+<p>Source decode: NotebookLM straw tote WIMB extract. Editorial corrections: Anker &rarr; <strong>OtterBox Folding Wireless Power Bank</strong>; JISULIFE &rarr; <strong>Dyson HushJet Mini Cool</strong>; Apple AirPods &rarr; <strong>JLab Epic Air Sport ANC 3</strong>; Rare Beauty &rarr; <strong>NYX Butter Lip Gloss Red Velvet</strong>; Smythson &rarr; <strong>Fisherman&rsquo;s Friend Mint Sachet</strong>; Hot Hippie &rarr; <strong>Tsubota Pearl Hard Edge Lighter</strong>.</p>
+
+<h2>What brands are in the straw tote WIMB flat lay?</h2>
+<p>Nine summer carry specialists on preset 159: <strong>Target</strong>, <strong>NYX</strong>, <strong>OtterBox</strong>, <strong>ThermoFlask</strong>, <strong>Dyson</strong>, <strong>JLab</strong>, <strong>Fisherman&rsquo;s Friend</strong>, <strong>Louis Vuitton</strong>, and <strong>Tsubota</strong> &mdash; one brand per slot.</p>
+
+<h2>Straw tote WIMB starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Target</td><td>Straw XL Tote</td></tr>
+<tr><td>2</td><td>NYX</td><td>Butter Lip Gloss &mdash; Red Velvet</td></tr>
+<tr><td>3</td><td>OtterBox</td><td>Folding Wireless Power Bank</td></tr>
+<tr><td>4</td><td>ThermoFlask</td><td>24oz Chug Spout</td></tr>
+<tr><td>5</td><td>Dyson</td><td>HushJet Mini Cool</td></tr>
+<tr><td>6</td><td>JLab</td><td>Epic Air Sport ANC 3</td></tr>
+<tr><td>7</td><td>Fisherman&rsquo;s Friend</td><td>Mint Sachet</td></tr>
+<tr><td>8</td><td>Louis Vuitton</td><td>Key Pouch</td></tr>
+<tr><td>9</td><td>Tsubota</td><td>Pearl Hard Edge Lighter</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this WIMB kit in the Diffr app?</h2>
+<p>Open <strong>preset 159</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-straw-tote-kit">interactive Straw Tote WIMB Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Summer bag dumps shouldn&rsquo;t collapse into one luxury house or one tech brand. Diffr maps this straw tote spill into nine specialist lanes &mdash; each pinned on preset 159 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-rachel-zoe-brand-guide">Rachel Zoe WIMB</a> (preset 156) · <a href="/diffr/blog/wimb-munchi-brand-guide">WIMB Munchi</a> (preset 144). Explore the interactive scene: <a href="/diffr/start/wimb-straw-tote-kit">Straw Tote WIMB Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-tabby-boots-brand-guide',
+    title: 'Tabby Boots OOTD: 8 Split-Toe Layers, One Brand Per Slot',
+    description: 'Tabby boots OOTD decoded — Lemaire barrel jeans, Uniqlo UTme! Basic White tee, Tabio tabi socks, Margiela Tabi ankle boots, Our Legacy cardigan, AMI Paris leather jacket, Le Labo Thé Matcha 26, Chrome Hearts Cemetery Cross ring. Eight brands on warm grey felt.',
+    date: '2026-09-10',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'outfit of the day', 'menswear', 'tabi boots', 'split-toe', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight tabby boots OOTD picks — Lemaire barrel jeans, Uniqlo UTme! white tee, Tabio tabi socks, Margiela Tabi ankle boots, Our Legacy cardigan, AMI Paris leather jacket, Le Labo Thé Matcha 26, Chrome Hearts Cemetery Cross ring — one brand per slot.',
+    content: `
+<p>Daniel Simmons&rsquo; split-toe tabi GRWM decodes into eight cohesive wardrobe slots on warm grey felt: <strong>Lemaire</strong> barrel jeans, a <strong>Uniqlo</strong> UTme! Basic White tee, <strong>Tabio</strong> tabi socks, <strong>Margiela</strong> Tabi ankle boots, an <strong>Our Legacy</strong> cardigan, an <strong>AMI Paris</strong> leather jacket, <strong>Le Labo</strong> Thé Matcha 26, and a <strong>Chrome Hearts</strong> Cemetery Cross ring. Eight brands, zero repeats &mdash; split-toe silhouette from sock to boot.</p>
+
+<p>Source decode: NotebookLM tabby boots OOTD extract. Editorial corrections: Daniel Simmons tee &rarr; <strong>Uniqlo UTme! Basic White tee</strong>; Tom Wood ring &rarr; <strong>Chrome Hearts Cemetery Cross ring</strong>. Split-toe rule: <strong>Tabio</strong> tabi socks pair with <strong>Margiela</strong> Tabi ankle boots &mdash; two distinct brands, one coherent foot slot story.</p>
+
+<h2>What brands are in the tabby boots OOTD?</h2>
+<p>Eight transitional menswear specialists on preset 160: <strong>Lemaire</strong>, <strong>Uniqlo</strong>, <strong>Tabio</strong>, <strong>Margiela</strong>, <strong>Our Legacy</strong>, <strong>AMI Paris</strong>, <strong>Le Labo</strong>, and <strong>Chrome Hearts</strong> &mdash; one brand per layer.</p>
+
+<h2>Tabby boots OOTD starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Lemaire</td><td>Barrel Jeans</td></tr>
+<tr><td>2</td><td>Uniqlo</td><td>UTme! Basic White Tee</td></tr>
+<tr><td>3</td><td>Tabio</td><td>Tabi Socks</td></tr>
+<tr><td>4</td><td>Margiela</td><td>Tabi Ankle Boots</td></tr>
+<tr><td>5</td><td>Our Legacy</td><td>Cardigan</td></tr>
+<tr><td>6</td><td>AMI Paris</td><td>Leather Jacket</td></tr>
+<tr><td>7</td><td>Le Labo</td><td>Thé Matcha 26</td></tr>
+<tr><td>8</td><td>Chrome Hearts</td><td>Cemetery Cross Ring</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this OOTD kit in the Diffr app?</h2>
+<p>Open <strong>preset 160</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-tabby-boots-kit">interactive Tabby Boots OOTD Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Split-toe outfits mix denim, knitwear, and foot layers faster than any checklist. Diffr maps this tabi GRWM into eight specialist wardrobe slots &mdash; each pinned on preset 160 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-navy-uniform-brand-guide">navy uniform OOTD</a> (preset 157) · <a href="/diffr/blog/styling-summer-linen-brand-guide">styling summer linen</a> (preset 145). Explore the interactive scene: <a href="/diffr/start/ootd-tabby-boots-kit">Tabby Boots OOTD Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
     slug: 'gray-edc-knoll-brand-guide',
     title: 'Gray EDC Knoll: 10 Tactical-Minimal Picks, One Brand Per Slot',
     description: 'Gray EDC knoll flat lay decoded — Purist Mover 18oz bottle, G-Shock resin watch, Master & Dynamic MH40, Tactile Turn pen, Leica M rangefinder, Ledlenser P5, Bellroy tech pouch, The James Brand Madison carabiner, Spyderco Delica, and Pelican 1010. Ten brands, no USB adapter.',

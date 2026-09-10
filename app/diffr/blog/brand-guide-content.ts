@@ -217,6 +217,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Rachel Zoe straw tote WIMB is ten summer carry slots — Rachel Zoe straw satchel, Chanel Caviar card case, Louis Vuitton monogram cosmetic pouch, Pierotucci kiss-lock eyeglasses case, GHD Unplugged straightener, Muji EVA zip pouch, Smythson Panama weekly diary, Yankee Candle Berry Mochi small jar, Jellycat Jack bag charm, Bose QuietComfort Ultra Earbuds — one brand each on preset 156. Royal Bagger (CN) replaced with Pierotucci. Live catalog tiles below.',
   'styling-navy-uniform-brand-guide':
     'Bottom line: Navy uniform OOTD is ten monochromatic menswear slots — Stan Ray OG Loose Fatigue navy twill, Arket zip cardigan, Sunspel crewneck tee, Adidas Samba, Acne Studios mohair checked scarf, Rototo ribbed socks, Carhartt knit beanie, Chopard Ice Cube bracelet, The Row Fisherman braided belt, Floris Santal EDT — one brand each on preset 157. Daniel Simmons/Tom Wood/Ralph Lauren/Aesop corrected. Live catalog tiles below.',
+  'best-new-edc-2026-brand-guide':
+    'Bottom line: Best new EDC 2026 is ten contemporary carry slots — Big Idea Design Bolt Action Marker, Journey LOC8 MOTION keys, Timex Atelier Marine M1A, NOTHING Phone (4a) Pro, Garant tape measure 462201, Fujifilm Instax Mini Evo Cinema, Belkin BoostCharge Qi2 10K Stand, Leatherman Raptor Rescue, Nice Guy Machine Co. The Minion, Orbitkey Urban Sling 4L — one brand each on preset 158. Aulumu/TJB Elco/Fisher pen/Benchmade/Oh Snap/Aer corrected. Live catalog tiles below.',
+  'wimb-straw-tote-brand-guide':
+    'Bottom line: Straw tote WIMB is nine summer carry slots — Target Straw XL Tote, NYX Butter Lip Gloss Red Velvet, OtterBox Folding Wireless Power Bank, ThermoFlask 24oz Chug Spout, Dyson HushJet Mini Cool, JLab Epic Air Sport ANC 3, Fisherman\'s Friend Mint Sachet, Louis Vuitton Key Pouch, Tsubota Pearl Hard Edge Lighter — one brand each on preset 159. Anker/JISULIFE/AirPods/Rare Beauty/Smythson/Hot Hippie corrected. Live catalog tiles below.',
+  'styling-tabby-boots-brand-guide':
+    'Bottom line: Tabby boots OOTD is eight split-toe wardrobe slots — Lemaire barrel jeans, Uniqlo UTme! Basic White tee, Tabio tabi socks, Margiela Tabi ankle boots, Our Legacy cardigan, AMI Paris leather jacket, Le Labo Thé Matcha 26, Chrome Hearts Cemetery Cross ring — one brand each on preset 160. Daniel Simmons tee/Tom Wood ring corrected; Tabio/Margiela split-toe rule. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2229,6 +2235,75 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
   ],
 
+  'best-new-edc-2026-brand-guide': [
+    {
+      q: 'What is the Best New EDC 2026 flat lay?',
+      a: 'It is a ten-slot contemporary everyday carry loadout: Big Idea Design Bolt Action Marker, Journey LOC8 MOTION Key Organizer, Timex Atelier Marine M1A, NOTHING Phone (4a) Pro, Garant Tape Measure 462201, Fujifilm Instax Mini Evo Cinema, Belkin BoostCharge Qi2 10K Stand, Leatherman Raptor Rescue, Nice Guy Machine Co. The Minion, and Orbitkey Urban Sling 4L — ten distinct brands on preset 158.',
+    },
+    {
+      q: 'Why Belkin instead of Aulumu for the Qi2 stand?',
+      a: 'Aulumu is editorially excluded as a hidden mainland-China-headquartered brand. Editorial pins Belkin BoostCharge Qi2 10K Stand — a distinct wireless-charging specialist with a live catalog hero on preset 158.',
+    },
+    {
+      q: 'Why Leatherman Raptor Rescue instead of Benchmade?',
+      a: 'Benchmade appeared in the blackout titanium EDC batch (preset 155). Editorial pins Leatherman Raptor Rescue — a medical/rescue multi-tool with a distinct slot type on preset 158.',
+    },
+    {
+      q: 'How is this different from under $100 tech EDC?',
+      a: 'Under $100 tech EDC (preset 152) is a budget creative-carry kit with Mophie, Streamlight, and Aer. Best New EDC 2026 is a forward-looking ten-slot loadout with Timex Atelier, NOTHING Phone, Fujifilm Instax Evo Cinema, and Orbitkey Urban Sling on preset 158.',
+    },
+    {
+      q: 'How do I open Best New EDC 2026 in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 158 or the best-new-edc-2026 Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-straw-tote-brand-guide': [
+    {
+      q: 'What is the straw tote WIMB decode?',
+      a: 'It is a nine-slot summer bag spill: Target Straw XL Tote, NYX Butter Lip Gloss Red Velvet, OtterBox Folding Wireless Power Bank, ThermoFlask 24oz Chug Spout, Dyson HushJet Mini Cool, JLab Epic Air Sport ANC 3, Fisherman\'s Friend Mint Sachet, Louis Vuitton Key Pouch, and Tsubota Pearl Hard Edge Lighter — nine distinct brands on preset 159.',
+    },
+    {
+      q: 'Why OtterBox instead of Anker for the power bank?',
+      a: 'Anker is editorially excluded as a hidden mainland-China-headquartered brand. Editorial pins OtterBox Folding Wireless Power Bank — a distinct mobile-power specialist on preset 159.',
+    },
+    {
+      q: 'Why Dyson HushJet Mini instead of JISULIFE?',
+      a: 'JISULIFE is a CN handheld-fan brand excluded from editorial Scenes. Editorial pins Dyson HushJet Mini Cool — a premium personal-cooling slot with a live catalog hero on preset 159.',
+    },
+    {
+      q: 'Why Fisherman\'s Friend instead of Smythson?',
+      a: 'The source decode named a Smythson diary slot. Editorial pins Fisherman\'s Friend Mint Sachet — shifting the small-format carry slot to a throat-lozenge sachet with a distinct brand on preset 159.',
+    },
+    {
+      q: 'How do I open the straw tote WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 159 or the wimb-straw-tote Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-tabby-boots-brand-guide': [
+    {
+      q: 'What is the tabby boots OOTD breakdown?',
+      a: 'It is an eight-slot split-toe menswear kit: Lemaire barrel jeans, Uniqlo UTme! Basic White tee, Tabio tabi socks, Margiela Tabi ankle boots, Our Legacy cardigan, AMI Paris leather jacket, Le Labo Thé Matcha 26, and Chrome Hearts Cemetery Cross ring — eight distinct brands on preset 160.',
+    },
+    {
+      q: 'Why Tabio and Margiela together?',
+      a: 'Split-toe outfits need a sock-to-boot story. Tabio tabi socks and Margiela Tabi ankle boots are two distinct brands that complete one coherent foot slot — editorial split-toe rule on preset 160.',
+    },
+    {
+      q: 'Why Uniqlo instead of Daniel Simmons for the tee?',
+      a: 'Daniel Simmons appeared in multiple recent OOTD presets. Editorial pins Uniqlo UTme! Basic White tee — a customizable blank with a live packshot on preset 160.',
+    },
+    {
+      q: 'Why Chrome Hearts instead of Tom Wood ring?',
+      a: 'Tom Wood appeared in prior OOTD batches. Editorial pins Chrome Hearts Cemetery Cross ring — sterling silver cross-band jewelry with a distinct catalog hero on preset 160.',
+    },
+    {
+      q: 'How do I open the tabby boots OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 160 or the ootd-tabby-boots Scene — same pins as this post.',
+    },
+  ],
+
   'scene-series': [
     {
       q: 'What is Diffr Scene Series?',
@@ -2236,7 +2311,7 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
     {
       q: 'What are the three Scene Series categories?',
-      a: 'EDC (everyday carry flat lays), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Browse each lane on this hub page — EDC has twelve guides, WIMB has five, OOTD has three.',
+      a: 'EDC (everyday carry flat lays), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Browse each lane on this hub page — EDC has thirteen guides, WIMB has six, OOTD has four.',
     },
     {
       q: 'How is Scene Series different from starter kits?',
