@@ -18,6 +18,7 @@ import SceneBrandKit from "../SceneBrandKit";
 import PresetScenePage from "../PresetScenePage";
 import { blogCanonicalUrl, START_SLUG_TO_BLOG } from "../../blog-slug-maps";
 import { bakedOgUrl } from "../../blog/static-og";
+import { appleItunesApp } from "../../components/dock-context";
 
 function shareImagesForBlogTwin(blogSlug: string | undefined, alt: string) {
   if (!blogSlug) return undefined;
@@ -70,6 +71,9 @@ export async function generateMetadata(
         images,
       },
       alternates: { canonical },
+      other: {
+        "apple-itunes-app": appleItunesApp(`https://truake.com/diffr/start/${slug}`),
+      },
       ...(blogTwin ? { robots: BLOG_TWIN_ROBOTS } : {}),
     };
   }
@@ -87,6 +91,9 @@ export async function generateMetadata(
     },
     alternates: {
       canonical,
+    },
+    other: {
+      "apple-itunes-app": appleItunesApp(`https://truake.com/diffr/start/${slug}`),
     },
     ...(blogTwin ? { robots: BLOG_TWIN_ROBOTS } : {}),
   };

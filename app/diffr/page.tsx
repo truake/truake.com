@@ -6,6 +6,7 @@ import ShinyText from "./components/ShinyText";
 import CountUp from "./components/CountUp";
 import SpotlightCard from "./components/SpotlightCard";
 import ScrollVelocity from "./components/ScrollVelocity";
+import { appleItunesApp } from "./components/dock-context";
 
 /* ─────────────────────────────────────────────────────────────
    SEO
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
     images: ["/diffr-og.png"],
   },
   other: {
-    "apple-itunes-app": `app-id=6772870733`,
+    "apple-itunes-app": appleItunesApp(),
   },
 };
 

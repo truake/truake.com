@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { Playfair_Display, IBM_Plex_Mono, Syne } from "next/font/google";
 import { DiffrNav } from "./diffr-nav";
 import { AppDownloadDock } from "./components/AppDownloadDock";
+import { appleItunesApp } from "./components/dock-context";
 
 export const metadata: Metadata = {
   other: {
     "p:domain_verify": "d558a10299772fe6bb9f812a41e7d8b9",
-    "apple-itunes-app": "app-id=6772870733",
+    "apple-itunes-app": appleItunesApp(),
   },
 };
 

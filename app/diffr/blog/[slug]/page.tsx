@@ -17,6 +17,7 @@ import {
   parseBehindTheContractTable,
 } from '../b2b-table-schema'
 import { BLOG_SLUG_TO_START } from '../../blog-slug-maps'
+import { appleItunesApp } from '../../components/dock-context'
 import { SCENE_SERIES_CATEGORIES, SCENE_SERIES_HUB_SLUG } from '../scene-series-config'
 
 interface Props {
@@ -162,6 +163,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     alternates: {
       canonical: `https://truake.com/diffr/blog/${post.slug}`,
+    },
+    other: {
+      'apple-itunes-app': appleItunesApp(
+        BLOG_SLUG_TO_START[slug]
+          ? `https://truake.com/diffr/start/${BLOG_SLUG_TO_START[slug]}`
+          : `https://truake.com/diffr/blog/${slug}`,
+      ),
     },
   }
 }

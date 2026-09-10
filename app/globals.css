@@ -347,6 +347,29 @@ body {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
+.diffr-app-dock-qr {
+  display: none;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid rgba(42, 38, 32, 0.1);
+}
+.diffr-app-dock-copy-link {
+  display: none;
+  margin: 6px 0 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: var(--font-syne), sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: rgba(42, 38, 32, 0.5);
+  cursor: pointer;
+}
+.diffr-app-dock-copy-link:hover { color: #1B8BF5; }
 .diffr-app-dock-kicker {
   margin: 0 0 2px;
   font-family: var(--font-syne), sans-serif;
@@ -403,6 +426,8 @@ body {
     left: auto;
     right: 28px;
     bottom: calc(24px + env(safe-area-inset-bottom, 0px));
-    width: 360px;
+    width: 420px;
   }
+  .diffr-app-dock-qr,
+  .diffr-app-dock-copy-link { display: block; }
 }

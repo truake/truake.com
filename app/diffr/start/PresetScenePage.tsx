@@ -141,7 +141,7 @@ export default function PresetScenePage({
           <p style={{ fontSize: "15px", color: C.t60, margin: "0 0 28px", lineHeight: 1.6 }}>
             Open the Diffr app for a personalized starter pack — one brand per slot, zero repeats.
           </p>
-          <a href={`diffr://scene/${slug}`} style={{
+          <a href={`diffr://start/${slug}`} style={{
             display: "inline-block", background: C.blue, color: "#fff",
             padding: "14px 36px", borderRadius: "100px",
             textDecoration: "none", fontSize: "15px", fontWeight: 700,

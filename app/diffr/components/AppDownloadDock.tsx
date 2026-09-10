@@ -1,9 +1,10 @@
 'use client'
 
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
+import { resolveDockContext } from './dock-context'
 
-const APP_STORE =
-  'https://apps.apple.com/us/app/diffr/id6772870733?utm_source=truake&utm_medium=sticky_dock&utm_campaign=app_cta'
 const DISMISS_KEY = 'diffr-app-dock-dismissed'
 const DISMISS_MS = 7 * 24 * 60 * 60 * 1000
 const SHOW_AFTER_PX = 280
@@ -17,10 +18,17 @@ function wasDismissed(): boolean {
   }
 }
 
+function qrSrc(url: string): string {
+  return `https://api.qrserver.com/v1/create-qr-code/?size=128x128&margin=8&ecc=M&data=${encodeURIComponent(url)}`
+}
+
 export function AppDownloadDock() {
+  const pathname = usePathname() || '/diffr'
+  const ctx = resolveDockContext(pathname)
   const [ready, setReady] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [dismissed, setDismissed] = useState(true)
+  const [copied, setCopied] = useState(false)
 
   useEffect(() => {
     setDismissed(wasDismissed())
@@ -40,28 +48,61 @@ export function AppDownloadDock() {
     setDismissed(true)
   }
 
+  const copyKit = async () => {
+    try {
+      await navigator.clipboard.writeText(ctx.phoneUrl)
+      setCopied(true)
+      window.setTimeout(() => setCopied(false), 1800)
+    } catch {
+      /* ignore */
+    }
+  }
+
   if (!ready || dismissed) return null
+
+  const ctaClass = 'diffr-app-dock-cta'
+  const cta = ctx.ctaExternal ? (
+    <a
+      href={ctx.ctaHref}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={ctaClass}
+      data-cta={`app-store-sticky-dock-${ctx.mode}`}
+    >
+      {ctx.ctaLabel}
+    </a>
+  ) : (
+    <Link href={ctx.ctaHref} className={ctaClass} data-cta={`open-kit-sticky-dock-${ctx.mode}`}>
+      {ctx.ctaLabel}
+    </Link>
+  )
 
   return (
     <aside
       className={`diffr-app-dock${scrolled ? ' is-visible' : ''}`}
-      aria-label="Download Diffr"
+      aria-label={ctx.title}
     >
       <div className="diffr-app-dock-inner">
+        <img
+          className="diffr-app-dock-qr"
+          src={qrSrc(ctx.phoneUrl)}
+          width={64}
+          height={64}
+          alt=""
+        />
         <div className="diffr-app-dock-copy">
-          <p className="diffr-app-dock-kicker">iPhone app</p>
-          <p className="diffr-app-dock-title">Open this kit in Diffr</p>
+          <p className="diffr-app-dock-kicker">{ctx.kicker}</p>
+          <p className="diffr-app-dock-title">{ctx.title}</p>
+          <button
+            type="button"
+            className="diffr-app-dock-copy-link"
+            onClick={copyKit}
+          >
+            {copied ? 'Copied' : 'Copy link for iPhone'}
+          </button>
         </div>
         <div className="diffr-app-dock-actions">
-          <a
-            href={APP_STORE}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="diffr-app-dock-cta"
-            data-cta="app-store-sticky-dock"
-          >
-            App Store
-          </a>
+          {cta}
           <button
             type="button"
             className="diffr-app-dock-close"
