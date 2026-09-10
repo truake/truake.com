@@ -15,6 +15,24 @@ that only helps if the post is native, not a link drop.
 
 ---
 
+## READY · NotebookLM batch 158–160 — blog live（2026-09-10）
+
+| Preset | Blog slug | Publish copy | Status |
+|--------|-----------|--------------|--------|
+| **158** | `best-new-edc-2026-brand-guide` | `Diffr/social/x/best-new-edc-2026_publish_copy_20260910.md` | ✅ rebaked 2026-09-11 (`?v=1789053997`) |
+| **159** | `wimb-straw-tote-brand-guide` | `Diffr/social/x/wimb-straw-tote_publish_copy_20260910.md` | ✅ cleared |
+| **160** | `styling-tabby-boots-brand-guide` | `Diffr/social/x/styling-tabby-boots_publish_copy_20260910.md` | ✅ cleared |
+
+**Suggested order:** 1) **Blog tweet** per slug (OG share card · link in tweet) → 2) **Video reel** when ready (caption 无 URL · blog link in **首评**)
+
+**GSC:** Request index all three blog slugs.
+
+### Blog · X（主推 ⭐ · 单帖 + share card）
+
+Paste § **Blog 主推** from each publish copy file. **New tweet** — do not edit old posts.
+
+---
+
 ## READY · NotebookLM batch 155–157 — blog live（2026-09-08）
 
 | Preset | Blog slug | Scene |
