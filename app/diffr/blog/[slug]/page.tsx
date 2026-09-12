@@ -146,6 +146,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : hasCover ? `${post.title} — Diffr` : 'Diffr — curated beginner brand guides'
   const ogW = hasKit ? 1200 : hasCover ? 1600 : 1200
   const ogH = hasKit ? 630 : hasCover ? 840 : 630
+  const ogImages = [{
+    url: ogImage,
+    width: ogW,
+    height: ogH,
+    alt: ogAlt,
+    ...(baked ? { type: 'image/jpeg' as const, secureUrl: ogImage } : {}),
+  }]
   return {
     // Absolute: the root layout's "%s | Truake" template plus a "— Diffr Blog"
     // suffix cost 21 characters that Google truncates away before the headline
@@ -159,13 +166,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       publishedTime: post.date,
       tags: post.tags,
-      images: [{ url: ogImage, width: ogW, height: ogH, alt: ogAlt }],
+      images: ogImages,
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.description,
-      images: [{ url: ogImage, width: ogW, height: ogH, alt: ogAlt }],
+      images: ogImages,
     },
     alternates: {
       canonical: `https://truake.com/diffr/blog/${post.slug}`,
@@ -243,6 +250,7 @@ export default async function BlogPostPage({ params }: Props) {
       ? parseBehindTheContractTable(post.content)
       : []
 
+  const shareImage = bakedOgUrl(slug)
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -254,6 +262,11 @@ export default async function BlogPostPage({ params }: Props) {
     url: `https://truake.com/diffr/blog/${post.slug}`,
     keywords: post.tags.join(', '),
     ...(tldr ? { abstract: tldr } : {}),
+    ...(shareImage
+      ? { image: [shareImage] }
+      : coverImage
+        ? { image: [`https://truake.com${coverImage}`] }
+        : {}),
   }
 
   // ItemList of the DB-driven brand picks — a flat "summary list" of names (+image),
