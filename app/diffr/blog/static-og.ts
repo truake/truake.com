@@ -24,13 +24,30 @@ function withVersion(slug: string, filePath: string, url: string): string {
   return `${url}?v=${v}`
 }
 
+function versionFor(slug: string, filePath: string): number {
+  return loadVersions()[slug] ?? Math.floor(statSync(filePath).mtimeMs / 1000)
+}
+
+/**
+ * Prefer a path-versioned file (`slug.<v>.jpg`) so crawlers that strip `?v=`
+ * or key cache on the image path still refetch after a rebake.
+ */
+function shareUrl(slug: string, ext: 'jpg' | 'png', filePath: string): string {
+  const v = versionFor(slug, filePath)
+  const versioned = join(SHARE_DIR, `${slug}.${v}.${ext}`)
+  if (existsSync(versioned)) {
+    return `https://truake.com/diffr/blog/share/${slug}.${v}.${ext}`
+  }
+  return withVersion(slug, filePath, `https://truake.com/diffr/blog/share/${slug}.${ext}`)
+}
+
 /** Pre-baked share PNG/JPG — CDN-static for social crawlers (dynamic /og/ times out on X). */
 export function bakedOgUrl(slug: string): string | null {
   const png = join(SHARE_DIR, `${slug}.png`)
   const jpg = join(SHARE_DIR, `${slug}.jpg`)
   // JPG first — smaller/faster for X crawlers (~17s budget); avoids RGBA PNG edge cases.
-  if (existsSync(jpg)) return withVersion(slug, jpg, `https://truake.com/diffr/blog/share/${slug}.jpg`)
-  if (existsSync(png)) return withVersion(slug, png, `https://truake.com/diffr/blog/share/${slug}.png`)
+  if (existsSync(jpg)) return shareUrl(slug, 'jpg', jpg)
+  if (existsSync(png)) return shareUrl(slug, 'png', png)
   const legacy = join(process.cwd(), 'public', 'og', `${slug}.png`)
   if (existsSync(legacy)) return withVersion(slug, legacy, `https://truake.com/og/${slug}.png`)
   return null

@@ -1,6 +1,6 @@
 #!/usr/bin/env npx tsx
 /** Fetch dynamic OG PNGs and save to public/diffr/blog/share/ for fast social crawlers. */
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs'
+import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { BLOG_SLUG_TO_PRESET } from '../app/diffr/blog/[slug]/page'
 import { getAllPosts } from '../app/diffr/blog/posts'
@@ -21,6 +21,10 @@ function bumpVersions(slugs: string[]): void {
   const now = Math.floor(Date.now() / 1000)
   for (const slug of slugs) {
     versions[slug] = now
+    for (const ext of ['jpg', 'png'] as const) {
+      const src = join(OUT, `${slug}.${ext}`)
+      if (existsSync(src)) copyFileSync(src, join(OUT, `${slug}.${now}.${ext}`))
+    }
   }
   writeFileSync(VERSIONS_PATH, JSON.stringify(versions, null, 2) + '\n')
 }

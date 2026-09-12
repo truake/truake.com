@@ -163,6 +163,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.title,
       description: post.description,
       url: `https://truake.com/diffr/blog/${post.slug}`,
+      siteName: 'Truake',
       type: 'article',
       publishedTime: post.date,
       tags: post.tags,
@@ -387,6 +388,17 @@ export default async function BlogPostPage({ params }: Props) {
           }}>
             {post.description}
           </p>
+          {shareImage && (
+            // WeChat / iMessage often ignore og:image and take the first <img>.
+            // Next/Image optimizer URLs (and AVIF) fail those crawlers.
+            <img
+              src={shareImage}
+              alt=""
+              width={1200}
+              height={630}
+              style={{ position: 'absolute', width: 1, height: 1, opacity: 0, pointerEvents: 'none' }}
+            />
+          )}
           {coverImage && (
             <div style={{ marginTop: '28px', borderRadius: '14px', overflow: 'hidden', border: '1px solid rgba(42,38,32,0.08)' }}>
               <Image
@@ -395,6 +407,7 @@ export default async function BlogPostPage({ params }: Props) {
                 width={1600}
                 height={840}
                 priority
+                unoptimized
                 sizes="(max-width: 760px) 100vw, 720px"
                 style={{ width: '100%', height: 'auto', display: 'block' }}
               />

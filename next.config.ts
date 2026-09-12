@@ -49,7 +49,8 @@ const nextConfig: NextConfig = {
       {
         source: "/diffr/blog/share/:file*",
         headers: [
-          { key: "X-Robots-Tag", value: "noindex, nofollow" },
+          // Scope to Google — a blanket noindex can make Apple/WeChat skip the card.
+          { key: "X-Robots-Tag", value: "googlebot: noindex, googlebot: nofollow" },
           {
             key: "Cache-Control",
             value: "public, max-age=86400, s-maxage=604800, stale-while-revalidate=86400",
