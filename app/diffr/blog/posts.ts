@@ -44,6 +44,8 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/budget-edc-under-30-brand-guide">Budget EDC Under $30</a> (preset 161)</li>
+<li><a href="/diffr/blog/best-new-edc-2026-brand-guide">Best New EDC 2026</a> (preset 158)</li>
 <li><a href="/diffr/blog/under-100-edc-brand-guide">Under $100 Tech EDC</a> (preset 152)</li>
 <li><a href="/diffr/blog/unusual-edc-brand-guide">Unusual EDC</a> (preset 149)</li>
 <li><a href="/diffr/blog/japanese-craft-edc-brand-guide">Japanese Craft EDC</a> (preset 146)</li>
@@ -62,6 +64,8 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-teddy-blake-brand-guide">Teddy Blake Dana WIMB</a> (preset 162)</li>
+<li><a href="/diffr/blog/wimb-straw-tote-brand-guide">Straw Tote WIMB</a> (preset 159)</li>
 <li><a href="/diffr/blog/wimb-parisa-wang-brand-guide">Parisa Wang Gabrielle WIMB</a> (preset 153)</li>
 <li><a href="/diffr/blog/wimb-speedy-brand-guide">LV Speedy 25 WIMB</a> (preset 150)</li>
 <li><a href="/diffr/blog/wimb-chubby-bag-brand-guide">Stand Oil Chubby Bag WIMB</a> (preset 147)</li>
@@ -73,6 +77,8 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-overcoat-brand-guide">Wool Overcoat OOTD</a> (preset 163)</li>
+<li><a href="/diffr/blog/styling-tabby-boots-brand-guide">Tabby Boots OOTD</a> (preset 160)</li>
 <li><a href="/diffr/blog/styling-green-pants-brand-guide">Styling Green Pants OOTD</a> (preset 154)</li>
 <li><a href="/diffr/blog/styling-day-date-brand-guide">Day Date OOTD</a> (preset 151)</li>
 <li><a href="/diffr/blog/styling-navy-trousers-brand-guide">Styling Navy Trousers</a> (preset 148)</li>
@@ -3366,6 +3372,132 @@ export const posts: BlogPost[] = [
 <p>Split-toe outfits mix denim, knitwear, and foot layers faster than any checklist. Diffr maps this tabi GRWM into eight specialist wardrobe slots &mdash; each pinned on preset 160 with live catalog tiles below.</p>
 
 <p>Distinct from <a href="/diffr/blog/styling-navy-uniform-brand-guide">navy uniform OOTD</a> (preset 157) · <a href="/diffr/blog/styling-summer-linen-brand-guide">styling summer linen</a> (preset 145). Explore the interactive scene: <a href="/diffr/start/ootd-tabby-boots-kit">Tabby Boots OOTD Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'budget-edc-under-30-brand-guide',
+    title: 'Budget EDC Under $30: 10 Specialist Picks, One Brand Per Slot',
+    description: 'Budget EDC under $30 decoded — Kershaw Shuffle II, Gerber Prybrid, Fisher Chrome Bullet, Ledlenser P5, SOG PowerPint, Wiha SoftFinish tray, Bellroy Tag Case, Kinto 350ml tumbler, Magpul DAKA pouch, Casio A168W. Ten brands on marble.',
+    date: '2026-09-13',
+    readTime: '6 min read',
+    tags: ['brand guide', 'EDC', 'everyday carry', 'budget', 'under $30', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten sub-$30 EDC picks — Kershaw Shuffle II, Gerber Prybrid, Fisher Chrome Bullet, Ledlenser P5, SOG PowerPint, Wiha SoftFinish tray, Bellroy Tag Case, Kinto 350ml, Magpul DAKA pouch, Casio A168W — one brand per slot.',
+    content: `
+<p>The budget EDC under $30 pocket dump decodes into ten accessible specialist slots on pale marble: a <strong>Kershaw</strong> Shuffle II Black BlackWash, a <strong>Gerber</strong> Prybrid Utility in OD Green, a <strong>Fisher Space Pen</strong> 400 Chrome Bullet, a <strong>Ledlenser</strong> P5, a <strong>SOG</strong> PowerPint, a <strong>Wiha</strong> 10 Piece SoftFinish Cushion Grip Screwdriver Tray Set, a <strong>Bellroy</strong> Tag Case in Terracotta, a <strong>Kinto</strong> Travel Tumbler 350ml, a <strong>Magpul</strong> DAKA Pouch in Flat Dark Earth, and a <strong>Casio</strong> A168WA-1. Ten brands, zero repeats &mdash; inflation-era everyday carry.</p>
+
+<p>Source decode: NotebookLM budget EDC under $30 extract. Editorial corrections: Civivi &rarr; <strong>Kershaw Shuffle II</strong>; Olight &rarr; <strong>Ledlenser P5</strong>; Hoto/Xiaomi &rarr; <strong>Wiha SoftFinish tray set</strong>.</p>
+
+<h2>What brands are in the Budget EDC Under $30 flat lay?</h2>
+<p>Ten accessible carry specialists on preset 161: <strong>Kershaw</strong>, <strong>Gerber</strong>, <strong>Fisher Space Pen</strong>, <strong>Ledlenser</strong>, <strong>SOG</strong>, <strong>Wiha</strong>, <strong>Bellroy</strong>, <strong>Kinto</strong>, <strong>Magpul</strong>, and <strong>Casio</strong> &mdash; one brand per slot.</p>
+
+<h2>Budget EDC Under $30 starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Kershaw</td><td>Shuffle II Black BlackWash 8750TBLKBW</td></tr>
+<tr><td>2</td><td>Gerber</td><td>Prybrid Utility &mdash; OD Green</td></tr>
+<tr><td>3</td><td>Fisher Space Pen</td><td>400 Chrome Bullet Space Pen</td></tr>
+<tr><td>4</td><td>Ledlenser</td><td>Flashlight P5</td></tr>
+<tr><td>5</td><td>SOG</td><td>PowerPint Satin PP1001-CP</td></tr>
+<tr><td>6</td><td>Wiha</td><td>10 Piece SoftFinish Cushion Grip Screwdriver Tray Set</td></tr>
+<tr><td>7</td><td>Bellroy</td><td>Tag Case &mdash; Terracotta</td></tr>
+<tr><td>8</td><td>Kinto</td><td>Travel Tumbler 350ml</td></tr>
+<tr><td>9</td><td>Magpul</td><td>DAKA Pouch &mdash; Flat Dark Earth</td></tr>
+<tr><td>10</td><td>Casio</td><td>A168WA-1 Casio Vintage Digital Watch</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this kit in the Diffr app?</h2>
+<p>Open <strong>preset 161</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/budget-edc-under-30-kit">interactive Budget EDC Under $30 Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Sub-$30 everyday carry shouldn&rsquo;t collapse into one hardware megabrand. Diffr maps this pocket dump into ten specialist lanes &mdash; each pinned on preset 161 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/under-100-edc-brand-guide">under $100 tech EDC</a> (preset 152) · <a href="/diffr/blog/best-new-edc-2026-brand-guide">best new EDC 2026</a> (preset 158) · <a href="/diffr/blog/unusual-edc-brand-guide">unusual EDC</a> (preset 149). Explore the interactive scene: <a href="/diffr/start/budget-edc-under-30-kit">Budget EDC Under $30 Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-teddy-blake-brand-guide',
+    title: 'Teddy Blake Dana WIMB: 9 Travel Pouch Essentials, One Brand Per Slot',
+    description: 'Teddy Blake Dana WIMB decoded — Dana Dollarino 11" Emerald, Celine Triomphe cosmetic pouch, Smythson silver flat pouch, Saint Laurent Cassandre card case, Pierotucci small wallet, Sanrio My Melody case, Rifle Paper Co. Dahlia pouch, Polaroid Go Gen 3, PAVILIA organizer. Nine brands on marble.',
+    date: '2026-09-13',
+    readTime: '5 min read',
+    tags: ['brand guide', 'WIMB', 'whats in my bag', 'teddy blake', 'travel pouch', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine Teddy Blake Dana WIMB picks — Dana Dollarino emerald tote, Celine cosmetic pouch, Smythson silver pouch, YSL Cassandre card, Pierotucci wallet, Sanrio My Melody case, Rifle Paper Dahlia, Polaroid Go, PAVILIA organizer — one brand per slot.',
+    content: `
+<p>Brandy Nicholl&rsquo;s Teddy Blake Dana travel-tote <em>What&rsquo;s in My Bag</em> spill decodes into nine modular pouch slots on pale marble: a <strong>Teddy Blake</strong> Dana Dollarino 11&quot; Emerald, a <strong>Celine</strong> Small Cosmetic Pouch in Triomphe Canvas, a <strong>Smythson</strong> Small Flat Pouch in silver metallic leather, a <strong>Saint Laurent</strong> Cassandre Matelass&eacute; Card Case, a <strong>Pierotucci</strong> Small Wallet Dark Brown, a <strong>Sanrio</strong> My Melody AirPods Case, a <strong>Rifle Paper Co.</strong> Quilted Cosmetic Pouch in Dahlia, a <strong>Polaroid</strong> Go Instant Camera Generation 3 in Light Blue, and a <strong>PAVILIA</strong> Electronic Organizer Travel Case in pink. Nine brands, zero repeats &mdash; emerald leather tote spill.</p>
+
+<p>Source decode: NotebookLM Teddy Blake Dana WIMB extract. Editorial corrections: Royal Bagger &rarr; <strong>Pierotucci Small Wallet Dark Brown</strong>; Louis Vuitton &rarr; <strong>Celine Triomphe cosmetic pouch</strong>; Chanel &rarr; <strong>Saint Laurent Cassandre card case</strong>; Target floral pouch &rarr; <strong>Rifle Paper Co. Dahlia</strong>; Octobuddy &rarr; <strong>Polaroid Go Gen 3</strong>. Apple rule: slot the <strong>Sanrio case</strong>, never an AirPods or iPhone SKU. Retailer is not the brand: the pink organizer is <strong>PAVILIA</strong>.</p>
+
+<h2>What brands are in the Teddy Blake Dana WIMB flat lay?</h2>
+<p>Nine travel-pouch specialists on preset 162: <strong>Teddy Blake</strong>, <strong>Celine</strong>, <strong>Smythson</strong>, <strong>Saint Laurent</strong>, <strong>Pierotucci</strong>, <strong>Sanrio</strong>, <strong>Rifle Paper Co.</strong>, <strong>Polaroid</strong>, and <strong>PAVILIA</strong> &mdash; one brand per slot.</p>
+
+<h2>Teddy Blake Dana WIMB starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Teddy Blake</td><td>Dana Dollarino 11&quot; &mdash; Emerald Green</td></tr>
+<tr><td>2</td><td>Celine</td><td>Small Cosmetic Pouch in Triomphe Canvas and Calfskin</td></tr>
+<tr><td>3</td><td>Smythson</td><td>Small Flat Pouch in Silver Metallic Leather</td></tr>
+<tr><td>4</td><td>Saint Laurent</td><td>Cassandre Matelass&eacute; Card Case &mdash; Patent Leather</td></tr>
+<tr><td>5</td><td>Pierotucci</td><td>Small Wallet Dark Brown &mdash; Portafoglio con Portamonete</td></tr>
+<tr><td>6</td><td>Sanrio</td><td>My Melody AirPods Case</td></tr>
+<tr><td>7</td><td>Rifle Paper Co.</td><td>Quilted Cosmetic Pouch &mdash; Dahlia</td></tr>
+<tr><td>8</td><td>Polaroid</td><td>Go Instant Camera Generation 3 &mdash; Light Blue</td></tr>
+<tr><td>9</td><td>PAVILIA</td><td>Electronic Organizer Travel Case &mdash; Pink</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this WIMB kit in the Diffr app?</h2>
+<p>Open <strong>preset 162</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-teddy-blake-kit">interactive Teddy Blake Dana WIMB Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Travel tote dumps shouldn&rsquo;t collapse into one luxury house. Diffr maps this Dana spill into nine specialist lanes &mdash; each pinned on preset 162 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-straw-tote-brand-guide">straw tote WIMB</a> (preset 159) · <a href="/diffr/blog/wimb-rachel-zoe-brand-guide">Rachel Zoe WIMB</a> (preset 156) · <a href="/diffr/blog/wimb-speedy-brand-guide">LV Speedy WIMB</a> (preset 150). Explore the interactive scene: <a href="/diffr/start/wimb-teddy-blake-kit">Teddy Blake Dana WIMB Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-overcoat-brand-guide',
+    title: 'Wool Overcoat OOTD: 8 Sunday Layers, One Brand Per Slot',
+    description: 'Wool overcoat OOTD decoded — Isabel Marant Fiby coat, Florence Black 1954 crop zip hoodie, Cole Buxton Signature tee, Vuori Sunday Performance Jogger, Clarks Wallabee, New Era Yankees beanie, Byredo Blanche, Goro\'s Gold Top Feather. Eight brands on grey felt.',
+    date: '2026-09-13',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'outfit of the day', 'menswear', 'overcoat', 'sunday layers', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight wool overcoat OOTD picks — Isabel Marant Fiby coat, Florence Black crop hoodie, Cole Buxton tee, Vuori jogger, Clarks Wallabee, New Era Yankees beanie, Byredo Blanche, Goro\'s Gold Top Feather — one brand per slot.',
+    content: `
+<p>Daniel Simmons&rsquo; Sunday wool-overcoat GRWM decodes into eight cohesive wardrobe slots on grey felt: an <strong>Isabel Marant</strong> Fiby Wool Blend Coat, a <strong>Florence Black</strong> 1954 Crop Zip Hoodie, a <strong>Cole Buxton</strong> Signature T-Shirt, <strong>Vuori</strong> Sunday Performance Joggers in Ink Heather, <strong>Clarks</strong> Originals Wallabees in Maple Suede, a <strong>New Era</strong> New York Yankees short-cuff beanie, <strong>Byredo</strong> Blanche Eau de Parfum, and a <strong>Goro&rsquo;s</strong> Gold Top Feather (XL). Eight brands, zero repeats &mdash; unconstructed coat over cropped fleece.</p>
+
+<p>Source decode: NotebookLM wool overcoat OOTD extract. Editorial corrections: Daniel Simmons joggers &rarr; <strong>Vuori Sunday Performance Jogger</strong>; Le Labo Th&eacute; Matcha 26 &rarr; <strong>Byredo Blanche</strong> (Matcha already pinned on preset 160); Tom Wood ring &rarr; <strong>Goro&rsquo;s Gold Top Feather</strong>. Split-house rule: overcoat / hoodie / tee / joggers are four brands.</p>
+
+<h2>What brands are in the wool overcoat OOTD?</h2>
+<p>Eight Sunday-layer specialists on preset 163: <strong>Isabel Marant</strong>, <strong>Florence Black</strong>, <strong>Cole Buxton</strong>, <strong>Vuori</strong>, <strong>Clarks</strong>, <strong>New Era</strong>, <strong>Byredo</strong>, and <strong>Goro&rsquo;s</strong> &mdash; one brand per layer.</p>
+
+<h2>Wool overcoat OOTD starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Isabel Marant</td><td>Fiby Wool Blend Coat &mdash; Black</td></tr>
+<tr><td>2</td><td>Florence Black</td><td>1954 Crop Zip Hoodie &mdash; Black</td></tr>
+<tr><td>3</td><td>Cole Buxton</td><td>Signature T-Shirt &mdash; White</td></tr>
+<tr><td>4</td><td>Vuori</td><td>Sunday Performance Jogger &mdash; Ink Heather</td></tr>
+<tr><td>5</td><td>Clarks</td><td>Clarks Originals Wallabee &mdash; Maple Suede</td></tr>
+<tr><td>6</td><td>New Era</td><td>New York Yankees Short Cuff Cable Knit Navy</td></tr>
+<tr><td>7</td><td>Byredo</td><td>Blanche Eau de Parfum</td></tr>
+<tr><td>8</td><td>Goro&rsquo;s</td><td>Gold Top Feather (XL)</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this OOTD kit in the Diffr app?</h2>
+<p>Open <strong>preset 163</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-overcoat-kit">interactive Wool Overcoat OOTD Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Sunday overcoat outfits mix coat, fleece, and footwear faster than any checklist. Diffr maps this GRWM into eight specialist wardrobe slots &mdash; each pinned on preset 163 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-tabby-boots-brand-guide">tabby boots OOTD</a> (preset 160) · <a href="/diffr/blog/styling-navy-uniform-brand-guide">navy uniform OOTD</a> (preset 157). Explore the interactive scene: <a href="/diffr/start/ootd-overcoat-kit">Wool Overcoat OOTD Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
   {

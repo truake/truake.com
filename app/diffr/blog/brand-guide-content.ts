@@ -223,6 +223,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Straw tote WIMB is nine summer carry slots — Target Straw XL Tote, NYX Butter Lip Gloss Red Velvet, OtterBox Folding Wireless Power Bank, ThermoFlask 24oz Chug Spout, Dyson HushJet Mini Cool, JLab Epic Air Sport ANC 3, Fisherman\'s Friend Mint Sachet, Louis Vuitton Key Pouch, Tsubota Pearl Hard Edge Lighter — one brand each on preset 159. Anker/JISULIFE/AirPods/Rare Beauty/Smythson/Hot Hippie corrected. Live catalog tiles below.',
   'styling-tabby-boots-brand-guide':
     'Bottom line: Tabby boots OOTD is eight split-toe wardrobe slots — Lemaire barrel jeans, Uniqlo UTme! Basic White tee, Tabio tabi socks, Margiela Tabi ankle boots, Our Legacy cardigan, AMI Paris leather jacket, Le Labo Thé Matcha 26, Chrome Hearts Cemetery Cross ring — one brand each on preset 160. Daniel Simmons tee/Tom Wood ring corrected; Tabio/Margiela split-toe rule. Live catalog tiles below.',
+  'budget-edc-under-30-brand-guide':
+    'Bottom line: Budget EDC under $30 is ten accessible carry slots — Kershaw Shuffle II, Gerber Prybrid, Fisher Chrome Bullet, Ledlenser P5, SOG PowerPint, Wiha SoftFinish tray, Bellroy Tag Case, Kinto 350ml tumbler, Magpul DAKA pouch, Casio A168W — one brand each on preset 161. Civivi/Olight/Hoto corrected. Live catalog tiles below.',
+  'wimb-teddy-blake-brand-guide':
+    'Bottom line: Teddy Blake Dana WIMB is nine travel-pouch slots — Dana Dollarino 11" Emerald, Celine Triomphe cosmetic pouch, Smythson silver flat pouch, Saint Laurent Cassandre card case, Pierotucci small wallet, Sanrio My Melody case, Rifle Paper Co. Dahlia pouch, Polaroid Go Gen 3, PAVILIA organizer — one brand each on preset 162. Royal Bagger/LV/Chanel/Target/Octobuddy corrected. Live catalog tiles below.',
+  'styling-overcoat-brand-guide':
+    'Bottom line: Wool overcoat OOTD is eight Sunday-layer slots — Isabel Marant Fiby coat, Florence Black 1954 crop zip hoodie, Cole Buxton Signature tee, Vuori Sunday Performance Jogger, Clarks Wallabee, New Era Yankees beanie, Byredo Blanche, Goro\'s Gold Top Feather — one brand each on preset 163. Daniel Simmons joggers/Le Labo Matcha/Tom Wood corrected. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2304,6 +2310,75 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
   ],
 
+  'budget-edc-under-30-brand-guide': [
+    {
+      q: 'What is the Budget EDC Under $30 flat lay?',
+      a: 'It is a ten-slot accessible everyday carry loadout: Kershaw Shuffle II, Gerber Prybrid Utility, Fisher 400 Chrome Bullet, Ledlenser P5, SOG PowerPint, Wiha SoftFinish tray set, Bellroy Tag Case, Kinto Travel Tumbler 350ml, Magpul DAKA Pouch, and Casio A168WA-1 — ten distinct brands on preset 161.',
+    },
+    {
+      q: 'Why Kershaw instead of Civivi?',
+      a: 'Civivi is editorially excluded as a hidden mainland-China-headquartered brand. Editorial pins Kershaw Shuffle II — a US-designed pocket knife with a live catalog hero on preset 161.',
+    },
+    {
+      q: 'Why Ledlenser instead of Olight?',
+      a: 'Olight is on the hidden-CN editorial blocklist. Editorial pins Ledlenser P5 — a compact cylindrical EDC flashlight with a distinct slot type on preset 161.',
+    },
+    {
+      q: 'How is this different from under $100 tech EDC?',
+      a: 'Under $100 tech EDC (preset 152) is a sub-$100 tech kit with Mophie, Streamlight, and Satechi. Budget EDC Under $30 is a specialist pocket dump — knife, pry, pen, light, multi-tool, driver tray, AirTag case, tumbler, pouch, watch — on preset 161.',
+    },
+    {
+      q: 'How do I open Budget EDC Under $30 in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 161 or the budget-edc-under-30 Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-teddy-blake-brand-guide': [
+    {
+      q: 'What is the Teddy Blake Dana WIMB decode?',
+      a: 'It is a nine-slot travel-tote spill: Teddy Blake Dana Dollarino 11" Emerald, Celine Small Cosmetic Pouch Triomphe, Smythson silver metallic flat pouch, Saint Laurent Cassandre card case, Pierotucci Small Wallet Dark Brown, Sanrio My Melody AirPods Case, Rifle Paper Co. Quilted Cosmetic Pouch Dahlia, Polaroid Go Generation 3 Light Blue, and PAVILIA pink electronic organizer — nine distinct brands on preset 162.',
+    },
+    {
+      q: 'Why Pierotucci instead of Royal Bagger?',
+      a: 'Royal Bagger is on the hidden-CN editorial blocklist. Editorial pins Pierotucci Small Wallet Dark Brown — an Italian leather small-goods slot on preset 162.',
+    },
+    {
+      q: 'Is the pink organizer a Walmart brand?',
+      a: 'No. The retailer listing may be Walmart; the brand is PAVILIA. Preset 162 pins PAVILIA Electronic Organizer Travel Case — Pink.',
+    },
+    {
+      q: 'Why a Sanrio case instead of Apple AirPods?',
+      a: 'Apple hardware is not slotted as an AirPods or iPhone SKU. Editorial pins the Sanrio My Melody AirPods case only — case as accessory, not the earbuds — on preset 162.',
+    },
+    {
+      q: 'How do I open the Teddy Blake Dana WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 162 or the wimb-teddy-blake Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-overcoat-brand-guide': [
+    {
+      q: 'What is the wool overcoat OOTD breakdown?',
+      a: 'It is an eight-slot Sunday-layer kit: Isabel Marant Fiby wool coat, Florence Black 1954 Crop Zip Hoodie, Cole Buxton Signature tee, Vuori Sunday Performance Jogger, Clarks Originals Wallabee, New Era Yankees beanie, Byredo Blanche, and Goro\'s Gold Top Feather — eight distinct brands on preset 163.',
+    },
+    {
+      q: 'Why Vuori instead of Daniel Simmons joggers?',
+      a: 'Daniel Simmons is the creator house, not a catalog jogger brand for this Scene. Editorial pins Vuori Sunday Performance Jogger Ink Heather — a distinct performance-pant specialist on preset 163.',
+    },
+    {
+      q: 'Why Byredo Blanche instead of Le Labo Matcha 26?',
+      a: 'Le Labo Thé Matcha 26 is already pinned on the tabby boots OOTD (preset 160). Editorial pins Byredo Blanche — a distinct fragrance house and juice on preset 163.',
+    },
+    {
+      q: 'Why Goro\'s instead of a Tom Wood ring?',
+      a: 'Tom Wood appeared in prior OOTD batches. Editorial pins Goro\'s Gold Top Feather (XL) — a necklace slot (type Necklaces) with a live catalog hero on preset 163.',
+    },
+    {
+      q: 'How do I open the wool overcoat OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 163 or the ootd-overcoat Scene — same pins as this post.',
+    },
+  ],
+
   'scene-series': [
     {
       q: 'What is Diffr Scene Series?',
@@ -2311,7 +2386,7 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
     {
       q: 'What are the three Scene Series categories?',
-      a: 'EDC (everyday carry flat lays), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Browse each lane on this hub page — EDC has thirteen guides, WIMB has six, OOTD has four.',
+      a: 'EDC (everyday carry flat lays), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Browse each lane on this hub page.',
     },
     {
       q: 'How is Scene Series different from starter kits?',

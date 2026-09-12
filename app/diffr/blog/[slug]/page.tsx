@@ -114,6 +114,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'best-new-edc-2026-brand-guide': 158,
   'wimb-straw-tote-brand-guide': 159,
   'styling-tabby-boots-brand-guide': 160,
+  'budget-edc-under-30-brand-guide': 161,
+  'wimb-teddy-blake-brand-guide': 162,
+  'styling-overcoat-brand-guide': 163,
 }
 
 export async function generateStaticParams() {

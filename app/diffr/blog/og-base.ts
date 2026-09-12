@@ -90,6 +90,9 @@ export const OG_BASE_SLUGS = new Set<string>([
   'best-new-edc-2026-brand-guide',
   'wimb-straw-tote-brand-guide',
   'styling-tabby-boots-brand-guide',
+  'budget-edc-under-30-brand-guide',
+  'wimb-teddy-blake-brand-guide',
+  'styling-overcoat-brand-guide',
   '54321-packing-method-brand-guide',
 ])
 

@@ -23,6 +23,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'EDC Scenes',
     tagline: 'Everyday carry flat lays — one specialist brand per pocket-dump slot.',
     scenes: [
+      { slug: 'budget-edc-under-30-brand-guide', title: 'Budget EDC Under $30', preset: 161 },
       { slug: 'best-new-edc-2026-brand-guide', title: 'Best New EDC 2026', preset: 158 },
       { slug: 'blackout-titanium-edc-brand-guide', title: 'Blackout Titanium EDC', preset: 155 },
       { slug: 'under-100-edc-brand-guide', title: 'Under $100 Tech EDC', preset: 152 },
@@ -45,6 +46,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'WIMB Scenes',
     tagline: 'What\'s in my bag spills — ten travel-ready picks, zero brand repeats.',
     scenes: [
+      { slug: 'wimb-teddy-blake-brand-guide', title: 'Teddy Blake Dana WIMB', preset: 162 },
       { slug: 'wimb-straw-tote-brand-guide', title: 'Straw Tote WIMB', preset: 159 },
       { slug: 'wimb-rachel-zoe-brand-guide', title: 'Rachel Zoe Straw Tote WIMB', preset: 156 },
       { slug: 'wimb-parisa-wang-brand-guide', title: 'Parisa Wang Gabrielle WIMB', preset: 153 },
@@ -60,6 +62,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'OOTD Scenes',
     tagline: 'Outfit flat lays — wardrobe slots with one brand per layer.',
     scenes: [
+      { slug: 'styling-overcoat-brand-guide', title: 'Wool Overcoat OOTD', preset: 163 },
       { slug: 'styling-tabby-boots-brand-guide', title: 'Tabby Boots OOTD', preset: 160 },
       { slug: 'styling-navy-uniform-brand-guide', title: 'Navy Uniform OOTD', preset: 157 },
       { slug: 'styling-green-pants-brand-guide', title: 'Styling Green Pants OOTD', preset: 154 },
