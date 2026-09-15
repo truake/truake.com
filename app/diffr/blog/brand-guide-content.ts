@@ -39,6 +39,10 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Aritzia isn't one brand — it's a house of eleven exclusive in-house labels that together make up roughly 97% of the company's revenue. What brands does Aritzia own? Babaton (work, the Effortless Pant), The Group by Babaton (elevated tailoring), Ten by Babaton (evening), Wilfred (romantic), Wilfred Free (everyday basics), Tna (weekend athleisure), Golden (activewear), Denim Forum (in-house premium denim), Sunday Best (going out), Little Moon, and the Super Puff. All are sold only at Aritzia stores. Aritzia has no parent company — it is independent and publicly traded (TSX: ATZ), founded in Vancouver in 1984, and it wholly owns Reigning Champ. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; Denim Forum is solid but AGOLDE and Citizens of Humanity are the denim specialists; the Super Puff is the style buy while Patagonia is the keep-forever one. Full Wilfred ownership and vs Babaton: see the dedicated Wilfred guide.",
   'wilfred-brand-guide':
     "Bottom line: Wilfred is owned by Aritzia Inc. (TSX: ATZ) — not an independent designer house. It is an Aritzia in-house label sold exclusively at Aritzia boutiques and aritzia.com; there is no standalone Wilfred website. Wilfred vs Wilfred Free: Wilfred is romantic date-night drape (slip dresses, fluid midis); Wilfred Free is everyday knits and bodysuits. Wilfred vs Babaton: Wilfred dresses you for dinner (fluid, drape); Babaton dresses you for the desk (structured tailoring, Effortless Pant). Is Wilfred a good brand? Yes for the mood; for slip dresses reach Reformation, for work trousers reach Theory, for basics reach Quince or Everlane instead of Wilfred Free.",
+  'athleta-vs-lululemon-brand-guide':
+    "Bottom line: Athleta vs Lululemon — Elation vs Align. Lululemon Align (Nulu) is the buttery everyday tight for low-impact, all-day comfort. Athleta Elation (Powervita) is the direct cross-shop — often lower on sale, slightly more hold, built for studio-to-street. Buy Align for maximum softness and the Lululemon fabric story; buy Elation for one performance tight at a sensible receipt. Skip both for office trousers (Banana Republic or Babaton) or hard training (Steady State, Nike Pro, Vuori).",
+  'babaton-brand-guide':
+    "Bottom line: Babaton is Aritzia's in-house work label — not a separate company, sold only at Aritzia. Is Babaton a good brand? Yes for the money; the Effortless Pant is the piece that built its reputation. The limit is fabric longevity — Babaton looks sharp now, Theory outlasts it. Babaton vs Wilfred: desk vs dinner (structured tailoring vs fluid drape). Theory vs Aritzia: buy Babaton for your first serious work trouser; buy Theory once you want wool that still hangs after a year.",
   'world-cup-2026-kit-brands':
     'Bottom line: a national-team kit is one brand head to toe — and at the 2026 World Cup, Adidas dresses the most (14 teams, including Argentina, Germany, Spain, Mexico, Belgium and Japan), Nike 12 (Brazil, France, England, Netherlands, the United States, Croatia and more), and Puma 11 (Portugal, Morocco, Senegal, Switzerland, Egypt and others). The remaining 11 teams split across Kelme (Bosnia, Jordan), Marathon (Ecuador), Kappa (Tunisia), Umbro (DR Congo), Reebok (Panama), Jako (Iraq), Capelli (Cape Verde), Saeta (Haiti), 7Saber (Uzbekistan) and Majid (Iran). Full team-by-team list below.',
   'beginner-soccer-gear-brand-guide':
@@ -396,7 +400,7 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
     {
       q: 'Athleta vs Lululemon — which is better?',
-      a: "Athleta and Lululemon both target studio-to-street activewear. Lululemon Align is the reference for buttery everyday leggings; Athleta Elation is the direct cross-shop, often lower on sale. Lululemon wins on fabric story and community; Athleta wins when you want performance tights and a sensible receipt. For office layers, skip both and shop Banana Republic; for budget travel basics, Gap and Old Navy fill the 54321 capsule slots.",
+      a: "Align (Nulu) wins buttery everyday comfort; Elation (Powervita) wins studio-to-street at a sensible receipt, often lower on sale. Full Elation vs Align comparison table and stand-in picks: see the dedicated Athleta vs Lululemon guide.",
     },
     {
       q: "What's the difference between Gap and Old Navy?",
@@ -528,7 +532,7 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
     {
       q: 'Is Babaton a good brand?',
-      a: "For the money, yes — Babaton is the strongest label in the Aritzia house, and the Effortless Pant is the piece that built its reputation. It is an Aritzia in-house brand, not a separate company, so you can only buy it at Aritzia. The honest limit is fabric: Babaton is designed to look sharp now rather than survive a decade of dry cleaning. If you want trousers that hold their line for years, Theory is the upgrade.",
+      a: "For the money, yes — Babaton is the strongest work label in the Aritzia house, best known for the Effortless Pant. Full verdict plus Theory upgrade and vs Wilfred: see the dedicated Babaton brand guide.",
     },
     {
       q: 'Theory vs Aritzia — which should I buy?',
@@ -553,6 +557,60 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Is the Aritzia Super Puff worth it?',
       a: 'The Super Puff is warm, well-cut and genuinely iconic, so for style it earns its place. If your priority is maximum warmth-to-weight and a jacket you can repair and keep for a decade, Patagonia is the stronger buy, and Uniqlo’s seamless down is the budget alternative. Buy the Super Puff for the look; buy Patagonia for the long haul.',
+    },
+  ],
+
+  'athleta-vs-lululemon-brand-guide': [
+    {
+      q: 'Athleta vs Lululemon — which is better?',
+      a: "Neither is universally better — they win different slots. Lululemon Align (Nulu fabric) is the buttery everyday tight for low-impact days and all-day comfort. Athleta Elation (Powervita) is the direct cross-shop — often lower on sale, slightly more hold, with a back pocket. Lululemon wins on fabric story; Athleta wins on receipt. For office trousers skip both; for hard training reach Steady State, Nike Pro, or Vuori.",
+    },
+    {
+      q: 'Athleta Elation vs Lululemon Align — what is the difference?',
+      a: "Align uses Nulu — weightless, second-skin, built for movement-light days. Elation uses Powervita — soft with more structure, built for studio-to-street with an ultra-high-rise waistband and pocket. Align feels like wearing nothing; Elation feels like a performance tight you can wear to coffee. Same category, different hand-feel and price ceiling.",
+    },
+    {
+      q: 'Is Athleta as good as Lululemon?',
+      a: "For one strong legging at a sensible price, yes — Athleta Elation is a legitimate Align alternative, especially on sale. Lululemon wins if Align-level buttery feel is non-negotiable, or if you want the full collection map (ABC, Scuba, Steady State, court). Athleta is one active storefront, not a whole wall of lanes.",
+    },
+    {
+      q: 'Which Athleta legging compares to Lululemon Align?',
+      a: "The Elation Ultra High Rise Legging in Powervita is the direct cross-shop — Athleta's answer to Align for studio, walks, and gym-to-coffee. PowerSoft is the softer lounge lane; Elation is the performance everyday tight.",
+    },
+    {
+      q: 'Should I buy Athleta or Lululemon leggings?',
+      a: "Buy Align if you want maximum softness and will pay the premium. Buy Elation if you want one performance tight and a smarter receipt. Buy neither if you need commute trousers (Banana Republic or Babaton) or serious sweat gear (Lululemon Steady State or Vuori). Decide by scenario, not brand loyalty.",
+    },
+    {
+      q: 'Is Athleta owned by Gap?',
+      a: "Yes. Athleta is Gap Inc.'s active and yoga line — alongside Banana Republic (work), Gap (everyday denim), and Old Navy (budget). It is not related to Lululemon; both compete in athleisure but are separate companies.",
+    },
+  ],
+
+  'babaton-brand-guide': [
+    {
+      q: 'Is Babaton a good brand?',
+      a: "For the money, yes — Babaton is the strongest work label in the Aritzia house, and the Effortless Pant is the piece that built its reputation. It is an Aritzia in-house brand sold only at Aritzia. The honest limit is fabric: Babaton is designed to look sharp now rather than survive a decade of dry cleaning. For trousers that hold their line for years, Theory is the upgrade.",
+    },
+    {
+      q: 'Is Babaton the same as Aritzia?',
+      a: "Babaton is one of Aritzia's in-house brands — not a separate company. It is the work and tailoring label, best known for the Effortless Pant. The Group by Babaton is its elevated suiting tier. You buy Babaton at Aritzia boutiques and aritzia.com only.",
+    },
+    {
+      q: 'Babaton vs Wilfred — which should I buy?',
+      a: "Buy Babaton for the desk (Effortless Pant, blazers, tailored separates). Buy Wilfred for dinner (slip dresses, fluid midis, drape). Same price tier, different scenario — choose by occasion, not budget. Full comparison: see Wilfred vs Babaton explained.",
+    },
+    {
+      q: 'Theory vs Aritzia — which should I buy?',
+      a: "Theory wins on wool quality, shoulder construction, and how a trouser still hangs after a year of wear. Babaton (Aritzia's work label) wins on price, availability, and trying six sizes in one store. Buy Babaton for your first serious work trousers; buy Theory once you know your size and want the pair that outlasts the job.",
+    },
+    {
+      q: 'Is the Aritzia Effortless Pant worth it?',
+      a: "Yes, with context. The Effortless Pant earns its reputation — the drape, comfort, and desk-to-dinner versatility punch above the price. It is a sharp-now pant, not a ten-year wool investment. When you outgrow it, Theory is the upgrade lane.",
+    },
+    {
+      q: 'What is The Group by Babaton?',
+      a: "The Group is Babaton's elevated tier — heavier fabric, more structure, investment suiting and blazers for interviews and big days. Buy standard Babaton for everyday work; buy The Group when the occasion demands more shoulder and weight in the cloth.",
     },
   ],
 

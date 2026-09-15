@@ -94,6 +94,10 @@ export const OG_BASE_SLUGS = new Set<string>([
   'wimb-teddy-blake-brand-guide',
   'styling-overcoat-brand-guide',
   '54321-packing-method-brand-guide',
+  // Aritzia / athleisure rescue pages (2026-09-15)
+  'wilfred-brand-guide',
+  'athleta-vs-lululemon-brand-guide',
+  'babaton-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {
