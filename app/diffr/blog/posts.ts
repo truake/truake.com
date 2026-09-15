@@ -569,7 +569,7 @@ export const posts: BlogPost[] = [
 <p>One mix-up worth clearing up: <strong>Aritzia and Lululemon are not related.</strong> Both were founded in Vancouver, both run a house-of-lanes strategy, and both sell leggings &mdash; but they are separate public companies with no shared ownership. Cross-shopping the two? See <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a>.</p>
 
 <h2>Who Owns Wilfred?</h2>
-<p><strong>Wilfred is owned by Aritzia.</strong> It is not an independent label that Aritzia happens to stock &mdash; it is one of Aritzia&rsquo;s own in-house brands, designed by Aritzia&rsquo;s internal studio and sold exclusively at Aritzia boutiques and aritzia.com. You cannot buy new Wilfred at Nordstrom, Revolve, or anywhere else, and there is no standalone Wilfred website. The name reads like a separate designer house because that is the point of the house-of-brands strategy: each label gets its own identity so it can own a different part of your week.</p>
+<p><strong>Wilfred is owned by Aritzia.</strong> Full breakdown: <a href="/diffr/blog/wilfred-brand-guide">Who owns Wilfred? Wilfred vs Babaton explained</a>. It is not an independent label that Aritzia happens to stock &mdash; it is one of Aritzia&rsquo;s own in-house brands, designed by Aritzia&rsquo;s internal studio and sold exclusively at Aritzia boutiques and aritzia.com. You cannot buy new Wilfred at Nordstrom, Revolve, or anywhere else, and there is no standalone Wilfred website. The name reads like a separate designer house because that is the point of the house-of-brands strategy: each label gets its own identity so it can own a different part of your week.</p>
 <p>The same answer covers <strong>Wilfred Free</strong>, the label&rsquo;s casual sibling &mdash; also Aritzia-owned, also Aritzia-exclusive. And because Aritzia itself has no parent company, the ownership chain stops there: Wilfred belongs to Aritzia Inc., a publicly traded Canadian company, and to nobody above it.</p>
 <p>Worth noting for anyone searching secondhand: Wilfred pieces circulate heavily on resale sites, and that is the one place you will find the label outside Aritzia. Those are pre-owned, not a sign of wider distribution.</p>
 
@@ -582,7 +582,7 @@ export const posts: BlogPost[] = [
 <p><strong>The verdict:</strong> a strong off-the-rack suit for the money. For a true investment piece you will wear for a decade, <strong>Theory</strong> again wins on fabric and tailoring &mdash; but The Group gets you there for less if you need it this week.</p>
 
 <h2>Wilfred — Date Night</h2>
-<p>Wilfred is the soft, romantic, French-girl side of the house: slip dresses, fluid midis, anything that drapes. It is the label you reach for when the scenario is dinner, not a desk.</p>
+<p>Wilfred is the soft, romantic, French-girl side of the house: slip dresses, fluid midis, anything that drapes. It is the label you reach for when the scenario is dinner, not a desk. Deep dive: <a href="/diffr/blog/wilfred-brand-guide">Wilfred vs Babaton explained</a>.</p>
 <p><strong>Wilfred vs Babaton:</strong> the shortest honest answer is that Babaton dresses you for the desk and Wilfred dresses you for dinner. Babaton is structured &mdash; tailored trousers, blazers, crisp separates, fabrics chosen to hold a line. Wilfred is fluid &mdash; slips, midis, drape, fabrics chosen to move. They overlap on knitwear and the occasional dress, but if you are deciding which one to build a wardrobe on, decide by scenario, not by price: they sit at roughly the same tier.</p>
 <p><strong>The verdict:</strong> Wilfred nails the mood. But the slip dress is a category <strong>Reformation</strong> simply owns &mdash; better silhouettes, a deeper range, and the same easy-romantic feel. Wilfred for the full look; Reformation for the one dress.</p>
 
@@ -622,6 +622,61 @@ export const posts: BlogPost[] = [
 <h2>The Diffr Take</h2>
 <p>Here is the genuinely useful thing about Aritzia: it proves you <em>can</em> dress your whole week from one store, because it quietly built a different brand for each slot. That is the <a href="/diffr/blog/the-one-brand-rule">One-Brand Rule</a> turned inside out &mdash; one company, seven specialists.</p>
 <p>The best closet does the same thing, just without the loyalty: <strong>one best pick per slot, wherever it comes from.</strong> Use Aritzia where it wins on convenience, and swap in the independent pick where it wins on quality. Building the rest of the wardrobe around it? Start with the <a href="/diffr/blog/womens-work-capsule-brand-guide">women&rsquo;s work capsule</a> or the <a href="/diffr/blog/womens-capsule-wardrobe-brand-guide">capsule wardrobe</a>, then <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock one brand per slot &mdash; yours.</p>
+`.trim(),
+  },
+  {
+    slug: 'wilfred-brand-guide',
+    title: 'Who Owns Wilfred? Wilfred vs Babaton Explained',
+    description: 'Wilfred is owned by Aritzia — not a separate designer. Who owns it, Wilfred vs Babaton vs Wilfred Free, and what to buy instead.',
+    date: '2026-09-15',
+    readTime: '5 min read',
+    tags: ['who owns wilfred', 'wilfred vs babaton', 'is wilfred a good brand', 'wilfred free', 'aritzia wilfred', 'babaton', 'womens fashion', 'one brand rule'],
+    category: 'product',
+    excerpt: 'Wilfred is an Aritzia in-house label — not a separate designer house. Here is who owns it, how it differs from Babaton and Wilfred Free, and what to buy instead.',
+    content: `
+<p><strong>Wilfred is owned by Aritzia Inc.</strong> (TSX: ATZ) &mdash; not an independent designer, not a sister company, and not sold anywhere except Aritzia boutiques and aritzia.com. There is no standalone Wilfred website and no other retailer carries it new. The name reads like a separate fashion house because that is how Aritzia&rsquo;s house-of-brands strategy works: each in-house label gets its own identity for a different part of your week. (An independent guide; we are not affiliated with Aritzia or Wilfred.)</p>
+<p>For the full map of all eleven Aritzia labels, see <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia brands explained</a>. This page goes deep on Wilfred only &mdash; ownership, how it compares to Babaton and Wilfred Free, and the independent picks we would reach for instead.</p>
+
+<h2>Wilfred vs Wilfred Free</h2>
+<p>Both are Aritzia-owned and Aritzia-exclusive. The split is scenario, not price tier.</p>
+<ul>
+<li><strong>Wilfred</strong> &mdash; romantic, date-night, drape. Slip dresses, fluid midis, hand-done prints, fabrics chosen to move.</li>
+<li><strong>Wilfred Free</strong> &mdash; the everyday side. Knits, bodysuits, smart-casual basics that bridge coffee, errands, and dinner without thinking.</li>
+</ul>
+<p>If you are building a capsule from one lane: Wilfred for the dress you wear out; Wilfred Free for the knit you reach for three times a week. They overlap on soft separates, so decide by occasion &mdash; dinner vs daily &mdash; not by logo.</p>
+
+<h2>Wilfred vs Babaton</h2>
+<p>This is the comparison most shoppers actually need. Babaton dresses you for the desk; Wilfred dresses you for dinner.</p>
+<table><thead><tr><th></th><th>Wilfred</th><th>Babaton</th></tr></thead><tbody>
+<tr><td><strong>Scenario</strong></td><td>Dinner, wedding guest, date night</td><td>Office, meeting, polished commute</td></tr>
+<tr><td><strong>Silhouette</strong></td><td>Fluid &mdash; slips, midis, drape</td><td>Structured &mdash; trousers, blazers, clean lines</td></tr>
+<tr><td><strong>Signature piece</strong></td><td>Slip dress or fluid midi</td><td>Effortless Pant, tailored blazer</td></tr>
+<tr><td><strong>Fabric logic</strong></td><td>Chosen to move and fall</td><td>Chosen to hold a line</td></tr>
+<tr><td><strong>Independent stand-in</strong></td><td><strong>Reformation</strong> (slip dresses)</td><td><strong>Theory</strong> (tailoring that lasts)</td></tr>
+</tbody></table>
+<p>They sit at roughly the same price tier and overlap on knitwear, so <strong>choose by scenario, not by budget.</strong> Buy Babaton for work trousers and blazers; buy Wilfred for the dress that drapes. For a slip dress specifically, Reformation often wins on silhouette range &mdash; Wilfred nails the mood, Reformation owns the category.</p>
+
+<h2>Is Wilfred a Good Brand?</h2>
+<p><strong>For the mood, yes.</strong> Wilfred is genuinely good at what it is built for: soft, romantic pieces that read French-girl without trying. The prints, the drape, the slip-dress energy &mdash; that is the lane, and Wilfred delivers it inside one fitting room.</p>
+<p><strong>The honest limits:</strong></p>
+<ul>
+<li><strong>Basics carry a brand premium.</strong> Wilfred Free knits and bodysuits are versatile, but <strong>Quince</strong> and <strong>Everlane</strong> deliver the same clean look for less &mdash; the smartest place to save in the Wilfred orbit.</li>
+<li><strong>Slip dresses have a specialist.</strong> Reformation simply has a deeper range and sharper silhouettes for the one dress category Wilfred is famous for.</li>
+<li><strong>Workwear is the wrong lane.</strong> If you need trousers that hold their line through years of dry cleaning, Babaton is the Aritzia pick &mdash; or <strong>Theory</strong> if you want the upgrade that outlasts the trend.</li>
+</ul>
+<p>Bottom line: Wilfred is worth it when you want the full romantic look from one store. It is not the best pick for every slot in your closet.</p>
+
+<h2>What to Buy Instead (Three Stand-In Picks)</h2>
+<p>Diffr&rsquo;s rule is <strong>one best pick per slot</strong> &mdash; wherever it comes from. If Wilfred is not winning a slot for you:</p>
+<ul>
+<li><strong>Reformation</strong> &mdash; slip dresses and fluid midis. Same easy-romantic feel, deeper silhouette range.</li>
+<li><strong>Theory</strong> &mdash; work trousers and blazers that hold their line. The upgrade when Babaton&rsquo;s Effortless Pant is not enough.</li>
+<li><strong>Quince</strong> &mdash; everyday knits and bodysuits. Wilfred Free&rsquo;s job at a lower ticket.</li>
+</ul>
+<p>Cross-shopping athleisure or weekend layers? See <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a> and <a href="/diffr/blog/gap-inc-lines-explained">Athleta vs Lululemon</a> (Gap Inc. brands). Building a work capsule around Babaton? Start with the <a href="/diffr/blog/womens-work-capsule-brand-guide">women&rsquo;s work capsule</a>.</p>
+
+<h2>The Diffr Take</h2>
+<p>Wilfred is not a mystery brand &mdash; it is Aritzia&rsquo;s date-night label, full stop. The useful decision is not &ldquo;Wilfred or not Wilfred&rdquo; but <strong>which slot Wilfred actually wins:</strong> the drape dress for dinner, not the office trouser, not the everyday basic. Use Wilfred where the mood matters; swap in Reformation, Theory, or Quince where the specialist beats the house label. That is <a href="/diffr/blog/the-one-brand-rule">one brand per slot</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock yours.</p>
 `.trim(),
   },
   {

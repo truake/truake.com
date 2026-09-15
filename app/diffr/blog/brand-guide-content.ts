@@ -36,7 +36,9 @@ export const BLOG_TLDR: Record<string, string> = {
   'patagonia-lines-explained':
     "Bottom line: Patagonia isn't one jacket — it's a set of fabric lines, each built for a layer or carry job. Better Sweater is the mid-layer fleece icon; Capilene is the base layer (Cool for most seasons, Thermal for winter); Down Sweater is packable warmth; Houdini is the wind shell; Torrentshell is real rain; Black Hole is the duffel that lasts. Mid-layer → Better Sweater, base → Capilene, puffy → Down Sweater, wind → Houdini, rain → Torrentshell, bag → Black Hole. For a full outdoor kit across brands, still one specialist per slot — see the winter layering and hiking guides.",
   'aritzia-sub-brands-guide':
-    "Bottom line: Aritzia isn't one brand — it's a house of eleven exclusive in-house labels that together make up roughly 97% of the company's revenue. What brands does Aritzia own? Babaton (work, the Effortless Pant), The Group by Babaton (elevated tailoring), Ten by Babaton (evening), Wilfred (romantic), Wilfred Free (everyday basics), Tna (weekend athleisure), Golden (activewear), Denim Forum (in-house premium denim), Sunday Best (going out), Little Moon, and the Super Puff. All are sold only at Aritzia stores. Aritzia has no parent company — it is independent and publicly traded (TSX: ATZ), founded in Vancouver in 1984, and it wholly owns Reigning Champ. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; Denim Forum is solid but AGOLDE and Citizens of Humanity are the denim specialists; the Super Puff is the style buy while Patagonia is the keep-forever one.",
+    "Bottom line: Aritzia isn't one brand — it's a house of eleven exclusive in-house labels that together make up roughly 97% of the company's revenue. What brands does Aritzia own? Babaton (work, the Effortless Pant), The Group by Babaton (elevated tailoring), Ten by Babaton (evening), Wilfred (romantic), Wilfred Free (everyday basics), Tna (weekend athleisure), Golden (activewear), Denim Forum (in-house premium denim), Sunday Best (going out), Little Moon, and the Super Puff. All are sold only at Aritzia stores. Aritzia has no parent company — it is independent and publicly traded (TSX: ATZ), founded in Vancouver in 1984, and it wholly owns Reigning Champ. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; Denim Forum is solid but AGOLDE and Citizens of Humanity are the denim specialists; the Super Puff is the style buy while Patagonia is the keep-forever one. Full Wilfred ownership and vs Babaton: see the dedicated Wilfred guide.",
+  'wilfred-brand-guide':
+    "Bottom line: Wilfred is owned by Aritzia Inc. (TSX: ATZ) — not an independent designer house. It is an Aritzia in-house label sold exclusively at Aritzia boutiques and aritzia.com; there is no standalone Wilfred website. Wilfred vs Wilfred Free: Wilfred is romantic date-night drape (slip dresses, fluid midis); Wilfred Free is everyday knits and bodysuits. Wilfred vs Babaton: Wilfred dresses you for dinner (fluid, drape); Babaton dresses you for the desk (structured tailoring, Effortless Pant). Is Wilfred a good brand? Yes for the mood; for slip dresses reach Reformation, for work trousers reach Theory, for basics reach Quince or Everlane instead of Wilfred Free.",
   'world-cup-2026-kit-brands':
     'Bottom line: a national-team kit is one brand head to toe — and at the 2026 World Cup, Adidas dresses the most (14 teams, including Argentina, Germany, Spain, Mexico, Belgium and Japan), Nike 12 (Brazil, France, England, Netherlands, the United States, Croatia and more), and Puma 11 (Portugal, Morocco, Senegal, Switzerland, Egypt and others). The remaining 11 teams split across Kelme (Bosnia, Jordan), Marathon (Ecuador), Kappa (Tunisia), Umbro (DR Congo), Reebok (Panama), Jako (Iraq), Capelli (Cape Verde), Saeta (Haiti), 7Saber (Uzbekistan) and Majid (Iran). Full team-by-team list below.',
   'beginner-soccer-gear-brand-guide':
@@ -518,11 +520,11 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
     {
       q: 'Who owns the brand Wilfred?',
-      a: "Wilfred is owned by Aritzia. It is one of Aritzia's own in-house labels — designed by Aritzia's internal studio and sold exclusively at Aritzia boutiques and aritzia.com — not an independent designer house that Aritzia stocks. There is no standalone Wilfred website and no other retailer carries it new. The same is true of Wilfred Free, its casual sibling. Because Aritzia Inc. is itself independent and publicly traded (TSX: ATZ) with no parent company, the ownership chain stops at Aritzia.",
+      a: "Wilfred is owned by Aritzia — an in-house label sold exclusively at Aritzia, not an independent designer. For the full ownership answer plus Wilfred vs Babaton vs Wilfred Free, see the dedicated Wilfred brand guide.",
     },
     {
       q: 'Wilfred vs Babaton — what is the difference?',
-      a: "Babaton dresses you for the desk; Wilfred dresses you for dinner. Babaton is the structured label — tailored trousers (the Effortless Pant), blazers and crisp separates in fabrics chosen to hold a line. Wilfred is the fluid one — slip dresses, midis and drape, in fabrics chosen to move. They sit at roughly the same price tier and overlap on knitwear, so choose by scenario rather than by budget. Both are Aritzia in-house brands sold only at Aritzia.",
+      a: "Babaton dresses you for the desk; Wilfred dresses you for dinner. Babaton is structured tailoring (Effortless Pant, blazers); Wilfred is fluid drape (slip dresses, midis). Choose by scenario, not budget — same price tier. Full comparison table and stand-in picks: see the Wilfred brand guide.",
     },
     {
       q: 'Is Babaton a good brand?',
@@ -546,11 +548,38 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     },
     {
       q: 'Wilfred vs Babaton — which Aritzia brand should I buy?',
-      a: 'Wilfred is date-night and romantic — slip dresses, fluid midis, soft drape. Babaton is work and tailoring — Effortless Pant, blazers, polished separates. They are different lanes in the same store, not competitors. Buy Babaton for the office and Wilfred for dinner; for a slip dress specifically, Reformation often wins on silhouette range.',
+      a: 'Buy Babaton for the office (Effortless Pant, blazers) and Wilfred for dinner (slip dresses, drape). Different lanes, not competitors. Full Wilfred vs Babaton breakdown with stand-in picks: see the Wilfred brand guide.',
     },
     {
       q: 'Is the Aritzia Super Puff worth it?',
       a: 'The Super Puff is warm, well-cut and genuinely iconic, so for style it earns its place. If your priority is maximum warmth-to-weight and a jacket you can repair and keep for a decade, Patagonia is the stronger buy, and Uniqlo’s seamless down is the budget alternative. Buy the Super Puff for the look; buy Patagonia for the long haul.',
+    },
+  ],
+
+  'wilfred-brand-guide': [
+    {
+      q: 'Who owns the brand Wilfred?',
+      a: "Wilfred is owned by Aritzia. It is one of Aritzia's in-house labels — designed by Aritzia's internal studio and sold exclusively at Aritzia boutiques and aritzia.com — not an independent designer house that Aritzia stocks. There is no standalone Wilfred website and no other retailer carries it new. Wilfred Free, its casual sibling, is also Aritzia-owned. Aritzia Inc. is independent and publicly traded (TSX: ATZ) with no parent company.",
+    },
+    {
+      q: 'Is Wilfred owned by Aritzia?',
+      a: 'Yes. Wilfred is wholly owned by Aritzia Inc. and sold only at Aritzia. It is not a separate company, licensing deal, or outside brand on the floor — it is an in-house label built for romantic, date-night pieces (slip dresses, fluid midis, drape). The same is true of Wilfred Free, the everyday knits-and-bodysuits sibling.',
+    },
+    {
+      q: 'Wilfred vs Babaton — which should I buy?',
+      a: 'Buy Babaton for the desk and Wilfred for dinner. Babaton is structured workwear — the Effortless Pant, blazers, tailored separates in fabrics that hold a line. Wilfred is fluid and romantic — slips, midis, drape for date night and events. They sit at roughly the same price tier; choose by scenario, not budget. For a slip dress specifically, Reformation often wins on silhouette range.',
+    },
+    {
+      q: 'Is Wilfred a good brand?',
+      a: 'For the mood, yes — Wilfred nails soft, romantic pieces and slip-dress energy inside one store. The honest limits: Wilfred Free basics carry a brand premium (Quince or Everlane are smarter for knits), slip dresses have a specialist in Reformation, and work trousers belong to Babaton or Theory, not Wilfred. Buy Wilfred when you want the full romantic look; swap in specialists where they beat the house label.',
+    },
+    {
+      q: 'Wilfred vs Babaton vs Wilfred Free — what is the difference?',
+      a: 'Three Aritzia in-house labels, three scenarios. Babaton = office and tailoring (Effortless Pant, blazers). Wilfred = date night and drape (slip dresses, fluid midis). Wilfred Free = everyday basics (knits, bodysuits, smart-casual layers). All are Aritzia-exclusive. Pick the label that matches the occasion — desk, dinner, or daily — not the one with the prettiest tag.',
+    },
+    {
+      q: 'Can you buy Wilfred outside of Aritzia?',
+      a: 'No new Wilfred is sold outside Aritzia. You will not find it at Nordstrom, Revolve, or a standalone Wilfred site. Pre-owned Wilfred does circulate on resale platforms — that is secondhand, not wider retail distribution. For the full Aritzia house-of-brands map, see the Aritzia sub-brands guide.',
     },
   ],
 
