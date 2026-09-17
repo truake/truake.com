@@ -1,6 +1,5 @@
-// Local bake hits this route for layered Satori cards. On Vercel the function stays
-// tiny (redirect only) so deploy stays under the 250MB serverless limit — crawlers
-// use pre-baked public/diffr/blog/share/*.jpg from generateMetadata instead.
+// Production crawlers use baked share JPGs from generateMetadata. This handler only
+// redirects stray /og hits; local bake calls lib/dynamic-og-card.tsx directly.
 import { ogProductionRedirect } from './og-production-redirect'
 
 export const runtime = 'nodejs'
@@ -8,12 +7,8 @@ export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
 export async function GET(
-  req: Request,
+  _req: Request,
   ctx: { params: Promise<{ slug: string }> },
 ) {
-  if (process.env.VERCEL === '1') {
-    return ogProductionRedirect(ctx)
-  }
-  const { renderDynamicOgCard } = await import('./dynamic-og-card')
-  return renderDynamicOgCard(req, ctx)
+  return ogProductionRedirect(ctx)
 }

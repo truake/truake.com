@@ -45,11 +45,23 @@ function brandGuideSlugs(): string[] {
  * that got committed as the post's card. So: never follow redirects, and make
  * the route declare what it composited via x-og-* headers.
  */
+async function ogResponse(slug: string): Promise<Response> {
+  const localBase = BASE.includes('localhost') || BASE.includes('127.0.0.1')
+  if (localBase) {
+    const { renderDynamicOgCard } = await import('../lib/dynamic-og-card')
+    return renderDynamicOgCard(new Request(`${BASE}/diffr/blog/${slug}/og`), {
+      params: Promise.resolve({ slug }),
+    })
+  }
+  const url = `${BASE}/diffr/blog/${slug}/og`
+  return fetch(url, { redirect: 'manual' })
+}
+
 async function bake(slug: string): Promise<boolean> {
   const url = `${BASE}/diffr/blog/${slug}/og`
   process.stdout.write(`Fetching ${url} … `)
   const t0 = Date.now()
-  const res = await fetch(url, { redirect: 'manual' })
+  const res = await ogResponse(slug)
 
   if (res.status >= 300 && res.status < 400) {
     console.log(
