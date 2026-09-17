@@ -185,6 +185,12 @@ export const SLUG_TO_PRESET: Record<string, number> = {
   "wimb-teddy-blake-kit": 162,
   "ootd-overcoat-flat-lay": 163,
   "ootd-overcoat-kit": 163,
+  "micro-edc-flat-lay": 164,
+  "micro-edc-kit": 164,
+  "wimb-dark-brown-satchel-flat-lay": 165,
+  "wimb-dark-brown-satchel-kit": 165,
+  "ootd-brown-leather-jacket-flat-lay": 166,
+  "ootd-brown-leather-jacket-kit": 166,
 };
 
 // Slugs with no domain_guide editorial shell — rendered lean from preset data.
@@ -281,6 +287,12 @@ export const PRESET_ONLY_SLUGS = new Set<string>([
   "wimb-teddy-blake-kit",
   "ootd-overcoat-flat-lay",
   "ootd-overcoat-kit",
+  "micro-edc-flat-lay",
+  "micro-edc-kit",
+  "wimb-dark-brown-satchel-flat-lay",
+  "wimb-dark-brown-satchel-kit",
+  "ootd-brown-leather-jacket-flat-lay",
+  "ootd-brown-leather-jacket-kit",
 ]);
 
 export async function getPresetMeta(

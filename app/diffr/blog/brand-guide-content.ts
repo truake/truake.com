@@ -235,6 +235,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Teddy Blake Dana WIMB is nine travel-pouch slots — Dana Dollarino 11" Emerald, Celine Triomphe cosmetic pouch, Smythson silver flat pouch, Saint Laurent Cassandre card case, Pierotucci small wallet, Sanrio My Melody case, Rifle Paper Co. Dahlia pouch, Polaroid Go Gen 3, PAVILIA organizer — one brand each on preset 162. Royal Bagger/LV/Chanel/Target/Octobuddy corrected. Live catalog tiles below.',
   'styling-overcoat-brand-guide':
     'Bottom line: Wool overcoat OOTD is eight Sunday-layer slots — Isabel Marant Fiby coat, Florence Black 1954 crop zip hoodie, Cole Buxton Signature tee, Vuori Sunday Performance Jogger, Clarks Wallabee, New Era Yankees beanie, Byredo Blanche, Goro\'s Gold Top Feather — one brand each on preset 163. Daniel Simmons joggers/Le Labo Matcha/Tom Wood corrected. Live catalog tiles below.',
+  'micro-edc-brand-guide':
+    'Bottom line: Micro EDC Essentials is fourteen ultralight carry slots — CRKT Minimal X, Casio ring watch, Wiha PocketStar, Ledlenser K1, Tekton titanium pry, Matador Droplet, Victorinox Nail Clip 580, Flytanium UFO, Keypry pry bar, Prometheus Kappa QR, ALPAKA HUB, Milwaukee micro ratchet, CountyComm slide-lock knife, Rolling Square inCharge XS — one brand each on preset 164. Olight/Lumintop/Civivi/SOG PowerPint corrected or removed. Live catalog tiles below.',
+  'wimb-dark-brown-satchel-brand-guide':
+    'Bottom line: Dark brown satchel WIMB is twelve modular carry slots — Cambridge Batchel Bay, Burt\'s Bees balm keychain, Moleskine Volant, CIO SMARTCOBY Ex01, Gisou lip oil, Michael Kors card case, 7Clouds Penci 7.1, Smythson Panama, Baggu Go Pouch leopard, Aviot TE-D01m, Asahi Mintia, NEPIA tissues — one brand each on preset 165. Carmex/Mophie/Anker/Royal Bagger/JLab corrected. Live catalog tiles below.',
+  'styling-brown-leather-jacket-brand-guide':
+    'Bottom line: Brown leather jacket OOTD is eight autumn wardrobe slots — Edwin ED-47 denim, Schott NYC LCADAM lambskin jacket, Peregrine wool socks, Polo Ralph Lauren belt, Solovair Gibson hi-shine, La Paz Teixeira knit, Creed Aventus 100 ml, David Yurman Chevron Tag — one brand each on preset 166. Edwin jacket dup/Le Labo Matcha/Tom Wood/Diptyque corrected. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2463,6 +2469,75 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do I open the wool overcoat OOTD in the Diffr app?',
       a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 163 or the ootd-overcoat Scene — same pins as this post.',
+    },
+  ],
+
+  'micro-edc-brand-guide': [
+    {
+      q: 'What is the Micro EDC Essentials flat lay?',
+      a: 'It is a fourteen-slot ultralight everyday carry loadout: CRKT Minimal X, Casio ring watch, Wiha PocketStar, Ledlenser K1, Tekton mini pry, Matador Droplet, Victorinox Nail Clip 580, Flytanium UFO, Keypry EDC pry bar, Prometheus Kappa QR, ALPAKA HUB Keychain, Milwaukee 7-in-1 micro ratchet, CountyComm slide-lock craft knife, and Rolling Square inCharge XS — fourteen distinct brands on preset 164.',
+    },
+    {
+      q: 'Why Wiha instead of Olight Oticle?',
+      a: 'Olight is on the hidden-CN editorial blocklist. Editorial pins Wiha PocketStar — a keychain multi-driver with a live catalog hero on preset 164.',
+    },
+    {
+      q: 'Why is SOG PowerPint not in this Scene?',
+      a: 'SOG PowerPint is already pinned on Budget EDC Under $30 (preset 161). Micro EDC Essentials drops that duplicate and adds fourteen distinct micro-tool specialists on preset 164.',
+    },
+    {
+      q: 'How is Micro EDC different from budget EDC under $30?',
+      a: 'Budget EDC Under $30 (preset 161) is a ten-slot sub-$30 pocket dump with SOG PowerPint and Casio A168W. Micro EDC Essentials (preset 164) is an ultralight fourteen-slot kit — ring watch, UFO fidget, CountyComm craft knife, inCharge XS cable — without repeating preset 161 tools.',
+    },
+    {
+      q: 'How do I open Micro EDC Essentials in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 164 or the micro-edc Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-dark-brown-satchel-brand-guide': [
+    {
+      q: 'What is the Dark Brown Satchel WIMB decode?',
+      a: 'It is a twelve-slot satchel spill: Cambridge 11 Inch Batchel Bay, Burt\'s Bees balm keychain, Moleskine Volant pocket journals, CIO SMARTCOBY Ex01, Gisou Honey Infused Lip Oil Glazed Plum, Michael Kors Hudson card case, 7Clouds Penci 7.1, Smythson Panama flat card holder, Baggu Go Pouch Set leopard, Aviot TE-D01m, Asahi Mintia Mellow Peach, and NEPIA pocket tissues — twelve distinct brands on preset 165.',
+    },
+    {
+      q: 'Why CIO instead of Mophie or Anker?',
+      a: 'Anker is on the hidden-CN editorial blocklist; Mophie was swapped for editorial variety. Editorial pins CIO SMARTCOBY Ex01 — a compact power bank with a distinct catalog hero on preset 165.',
+    },
+    {
+      q: 'Why Aviot instead of JLab or Apple AirPods?',
+      a: 'Apple hardware is not slotted as AirPods SKUs. Editorial pins Aviot TE-D01m wireless earbuds — a distinct audio brand on preset 165.',
+    },
+    {
+      q: 'Why 7Clouds instead of Sea to Summit?',
+      a: 'Sea to Summit was replaced during slot revision. Editorial pins 7Clouds Penci 7.1 — a pencil/tool case slot that substitutes for Royal Bagger mesh pouch patterns on preset 165.',
+    },
+    {
+      q: 'How do I open the Dark Brown Satchel WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 165 or the wimb-dark-brown-satchel Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-brown-leather-jacket-brand-guide': [
+    {
+      q: 'What is the brown leather jacket OOTD breakdown?',
+      a: 'It is an eight-slot autumn kit: Edwin ED-47 raw denim, Schott NYC LCADAM lambskin jacket, Peregrine burnt-orange wool socks, Polo Ralph Lauren pebbled belt, Solovair Gibson hi-shine derbies, La Paz Teixeira wool crew, Creed Aventus 100 ml, and David Yurman Chevron Tag — eight distinct brands on preset 166.',
+    },
+    {
+      q: 'Why Schott NYC instead of an Edwin leather jacket?',
+      a: 'One-brand-per-slot rule: Edwin owns the denim layer. Editorial pins Schott NYC LCADAM Brown Casual Jacket — lambskin outerwear with a live catalog hero on preset 166.',
+    },
+    {
+      q: 'Why Creed Aventus instead of Le Labo Matcha 26?',
+      a: 'Le Labo Thé Matcha 26 is already pinned on tabby boots OOTD (preset 160). Editorial pins Creed Aventus Eau de Parfum 100 ml — a distinct fragrance house on preset 166.',
+    },
+    {
+      q: 'Why David Yurman instead of Tom Wood?',
+      a: 'Tom Wood signets appeared in prior OOTD batches. Editorial pins David Yurman Chevron Tag — 18K gold pendant jewelry with a live catalog hero on preset 166.',
+    },
+    {
+      q: 'How do I open the brown leather jacket OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 166 or the ootd-brown-leather-jacket Scene — same pins as this post.',
     },
   ],
 

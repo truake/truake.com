@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/micro-edc-brand-guide">Micro EDC Essentials</a> (preset 164)</li>
 <li><a href="/diffr/blog/budget-edc-under-30-brand-guide">Budget EDC Under $30</a> (preset 161)</li>
 <li><a href="/diffr/blog/best-new-edc-2026-brand-guide">Best New EDC 2026</a> (preset 158)</li>
 <li><a href="/diffr/blog/under-100-edc-brand-guide">Under $100 Tech EDC</a> (preset 152)</li>
@@ -64,6 +65,7 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-dark-brown-satchel-brand-guide">Dark Brown Satchel WIMB</a> (preset 165)</li>
 <li><a href="/diffr/blog/wimb-teddy-blake-brand-guide">Teddy Blake Dana WIMB</a> (preset 162)</li>
 <li><a href="/diffr/blog/wimb-straw-tote-brand-guide">Straw Tote WIMB</a> (preset 159)</li>
 <li><a href="/diffr/blog/wimb-parisa-wang-brand-guide">Parisa Wang Gabrielle WIMB</a> (preset 153)</li>
@@ -77,6 +79,7 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-brown-leather-jacket-brand-guide">Brown Leather Jacket OOTD</a> (preset 166)</li>
 <li><a href="/diffr/blog/styling-overcoat-brand-guide">Wool Overcoat OOTD</a> (preset 163)</li>
 <li><a href="/diffr/blog/styling-tabby-boots-brand-guide">Tabby Boots OOTD</a> (preset 160)</li>
 <li><a href="/diffr/blog/styling-green-pants-brand-guide">Styling Green Pants OOTD</a> (preset 154)</li>
@@ -3648,6 +3651,139 @@ export const posts: BlogPost[] = [
 <p>Sunday overcoat outfits mix coat, fleece, and footwear faster than any checklist. Diffr maps this GRWM into eight specialist wardrobe slots &mdash; each pinned on preset 163 with live catalog tiles below.</p>
 
 <p>Distinct from <a href="/diffr/blog/styling-tabby-boots-brand-guide">tabby boots OOTD</a> (preset 160) · <a href="/diffr/blog/styling-navy-uniform-brand-guide">navy uniform OOTD</a> (preset 157). Explore the interactive scene: <a href="/diffr/start/ootd-overcoat-kit">Wool Overcoat OOTD Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'micro-edc-brand-guide',
+    title: 'Micro EDC Essentials: 14 Ultralight Picks, One Brand Per Slot',
+    description: 'Micro EDC decoded — CRKT Minimal X, Casio ring watch, Wiha PocketStar, Ledlenser K1, Tekton titanium pry, Matador Droplet, Victorinox Nail Clip 580, Flytanium UFO, Keypry pry bar, Prometheus Kappa QR, ALPAKA HUB, Milwaukee micro ratchet, CountyComm slide-lock knife, Rolling Square inCharge XS. Fourteen brands on felt.',
+    date: '2026-09-18',
+    readTime: '6 min read',
+    tags: ['brand guide', 'EDC', 'everyday carry', 'micro EDC', 'ultralight', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Fourteen micro EDC picks — CRKT Minimal X, Casio ring watch, Wiha PocketStar, Ledlenser K1, Tekton pry, Matador Droplet, Victorinox Nail Clip 580, Flytanium UFO, Keypry, Prometheus Kappa QR, ALPAKA HUB, Milwaukee ratchet, CountyComm craft knife, Rolling Square inCharge XS — one brand per slot.',
+    content: `
+<p>The micro EDC pocket dump decodes into fourteen hyper-compact tool slots on dark felt: a <strong>CRKT</strong> Minimal X, a <strong>Casio</strong> CRW-001-1JR Ring Watch, a <strong>Wiha</strong> PocketStar keychain driver, a <strong>Ledlenser</strong> K1 micro light, a <strong>Tekton</strong> LRD82100 mini titanium pry bar, a <strong>Matador</strong> Droplet 2.5L wet bag, a <strong>Victorinox</strong> Nail Clip 580, a <strong>Flytanium</strong> UFO&reg; Flipping Object, a <strong>Keypry</strong> EDC pry bar, a <strong>Prometheus Lights</strong> Kappa QR, an <strong>ALPAKA</strong> HUB Keychain, a <strong>Milwaukee</strong> 4932498792 7-in-1 micro ratchet, a <strong>CountyComm</strong> Slide Lock Titanium Craft Knife, and a <strong>Rolling Square</strong> inCharge&reg; XS 240W 4-in-1 cable. Fourteen brands, zero repeats &mdash; ultralight pocket dump without a SOG PowerPint duplicate from budget EDC.</p>
+
+<p>Source decode: NotebookLM micro EDC extract (2026-09-15). Editorial corrections: Olight Oticle &rarr; <strong>Wiha PocketStar</strong>; Lumintop Frog &rarr; <strong>Ledlenser K1</strong>; Civivi Ti Bar &rarr; <strong>Tekton mini pry</strong>. Removed SOG PowerPint (preset 161) and HeroClip from this Scene.</p>
+
+<h2>What brands are in the Micro EDC flat lay?</h2>
+<p>Fourteen ultralight carry specialists on preset 164: <strong>CRKT</strong>, <strong>Casio</strong>, <strong>Wiha</strong>, <strong>Ledlenser</strong>, <strong>Tekton</strong>, <strong>Matador</strong>, <strong>Victorinox</strong>, <strong>Flytanium</strong>, <strong>Keypry</strong>, <strong>Prometheus Lights</strong>, <strong>ALPAKA</strong>, <strong>Milwaukee</strong>, <strong>CountyComm</strong>, and <strong>Rolling Square</strong> &mdash; one brand per slot.</p>
+
+<h2>Micro EDC starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>CRKT</td><td>Minimal X</td></tr>
+<tr><td>2</td><td>Casio</td><td>CRW-001-1JR Ring Watch</td></tr>
+<tr><td>3</td><td>Wiha</td><td>PocketStar Keychain Driver</td></tr>
+<tr><td>4</td><td>Ledlenser</td><td>K1</td></tr>
+<tr><td>5</td><td>Tekton</td><td>LRD82100 Mini Titanium Pry Bar</td></tr>
+<tr><td>6</td><td>Matador</td><td>Droplet 2.5L</td></tr>
+<tr><td>7</td><td>Victorinox</td><td>Nail Clip 580</td></tr>
+<tr><td>8</td><td>Flytanium</td><td>UFO&reg; Flipping Object &mdash; Starship Yellow</td></tr>
+<tr><td>9</td><td>Keypry</td><td>EDC Pry Bar</td></tr>
+<tr><td>10</td><td>Prometheus Lights</td><td>Kappa QR</td></tr>
+<tr><td>11</td><td>ALPAKA</td><td>HUB Keychain</td></tr>
+<tr><td>12</td><td>Milwaukee</td><td>4932498792 7-in-1 Micro Ratchet</td></tr>
+<tr><td>13</td><td>CountyComm</td><td>Slide Lock Titanium Craft Knife</td></tr>
+<tr><td>14</td><td>Rolling Square</td><td>inCharge&reg; XS 240W 4-in-1</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this kit in the Diffr app?</h2>
+<p>Open <strong>preset 164</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/micro-edc-kit">interactive Micro EDC Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Ultralight pocket dumps shouldn&rsquo;t recycle the same multi-tool from budget EDC or collapse into hidden-CN flashlight brands. Diffr maps this micro kit into fourteen specialist lanes &mdash; each pinned on preset 164 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/budget-edc-under-30-brand-guide">budget EDC under $30</a> (preset 161) · <a href="/diffr/blog/mini-but-mighty-edc-brand-guide">mini but mighty EDC</a> (preset 139) · <a href="/diffr/blog/best-new-edc-2026-brand-guide">best new EDC 2026</a> (preset 158). Explore the interactive scene: <a href="/diffr/start/micro-edc-kit">Micro EDC Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-dark-brown-satchel-brand-guide',
+    title: 'Dark Brown Satchel WIMB: 12 Modular Essentials, One Brand Per Slot',
+    description: 'Dark brown satchel WIMB decoded — Cambridge Batchel Bay, Burt\'s Bees balm keychain, Moleskine Volant, CIO SMARTCOBY Ex01, Gisou lip oil, Michael Kors card case, 7Clouds Penci 7.1, Smythson Panama, Baggu Go Pouch leopard, Aviot TE-D01m, Asahi Mintia, NEPIA tissues. Twelve brands on marble.',
+    date: '2026-09-18',
+    readTime: '6 min read',
+    tags: ['brand guide', 'WIMB', 'whats in my bag', 'satchel', 'travel essentials', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Twelve dark brown satchel WIMB picks — Cambridge Batchel Bay, Burt\'s Bees balm keychain, Moleskine Volant, CIO SMARTCOBY Ex01, Gisou lip oil, Michael Kors card case, 7Clouds Penci, Smythson Panama, Baggu leopard pouch, Aviot TE-D01m, Asahi Mintia, NEPIA tissues — one brand per slot.',
+    content: `
+<p>The practical dark-brown satchel <em>What&rsquo;s in My Bag</em> spill decodes into twelve modular carry slots on pale marble: a <strong>Cambridge Satchel Company</strong> 11 Inch Batchel in Bay, a <strong>Burt&rsquo;s Bees</strong> The Balm Keychain, a <strong>Moleskine</strong> Volant Journals pocket ruled set, a <strong>CIO</strong> SMARTCOBY Ex01, <strong>Gisou</strong> Honey Infused Lip Oil in Glazed Plum, a <strong>Michael Kors</strong> Hudson pebbled leather snap card case, a <strong>7Clouds</strong> Penci 7.1 pencil case, a <strong>Smythson</strong> Large Flat Card Holder in Panama Nile Blue, a <strong>Baggu</strong> Go Pouch Set in leopard, <strong>Aviot</strong> TE-D01m wireless earbuds, <strong>Asahi</strong> Mintia Sugar-Free Mints in Mellow Peach, and <strong>NEPIA</strong> Pocket Facial Tissues Soft for Nose. Twelve brands, zero repeats &mdash; satchel spill without Anker or Royal Bagger stand-ins missing from the grid.</p>
+
+<p>Source decode: NotebookLM dark brown satchel WIMB extract (2026-09-15). Editorial corrections: Carmex &rarr; <strong>Burt&rsquo;s Bees balm keychain</strong>; Mophie &rarr; <strong>CIO SMARTCOBY Ex01</strong>; Sea to Summit &rarr; <strong>7Clouds Penci 7.1</strong>; JLab &rarr; <strong>Aviot TE-D01m</strong>; added <strong>Asahi Mintia</strong> and <strong>NEPIA</strong> fixed-pit slots. Unbranded vintage satchel &rarr; <strong>Cambridge Batchel Bay</strong>; floral pouch &rarr; <strong>Baggu Go Pouch leopard</strong>.</p>
+
+<h2>What brands are in the Dark Brown Satchel WIMB?</h2>
+<p>Twelve travel-ready specialists on preset 165: <strong>Cambridge Satchel Company</strong>, <strong>Burt&rsquo;s Bees</strong>, <strong>Moleskine</strong>, <strong>CIO</strong>, <strong>Gisou</strong>, <strong>Michael Kors</strong>, <strong>7Clouds</strong>, <strong>Smythson</strong>, <strong>Baggu</strong>, <strong>Aviot</strong>, <strong>Asahi</strong>, and <strong>NEPIA</strong> &mdash; one brand per slot.</p>
+
+<h2>Dark Brown Satchel WIMB starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Cambridge Satchel Company</td><td>The 11 Inch Batchel &mdash; Bay</td></tr>
+<tr><td>2</td><td>Burt&rsquo;s Bees</td><td>The Balm Keychain</td></tr>
+<tr><td>3</td><td>Moleskine</td><td>Volant Journals, Pocket, Ruled, Coral Orange</td></tr>
+<tr><td>4</td><td>CIO</td><td>SMARTCOBY Ex01</td></tr>
+<tr><td>5</td><td>Gisou</td><td>Honey Infused Lip Oil &mdash; Glazed Plum</td></tr>
+<tr><td>6</td><td>Michael Kors</td><td>Hudson Pebbled Leather Snap Card Case &mdash; Black</td></tr>
+<tr><td>7</td><td>7Clouds</td><td>Pencil Case Penci 7.1</td></tr>
+<tr><td>8</td><td>Smythson</td><td>Large Flat Card Holder in Panama &mdash; Nile Blue</td></tr>
+<tr><td>9</td><td>Baggu</td><td>Go Pouch Set &mdash; Leopard</td></tr>
+<tr><td>10</td><td>Aviot</td><td>TE-D01m</td></tr>
+<tr><td>11</td><td>Asahi</td><td>Mintia Sugar-Free Mints &mdash; Mellow Peach Flavor</td></tr>
+<tr><td>12</td><td>NEPIA</td><td>Pocket Facial Tissues Soft for Nose</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this WIMB kit in the Diffr app?</h2>
+<p>Open <strong>preset 165</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-dark-brown-satchel-kit">interactive Dark Brown Satchel WIMB Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Modular satchel spills shouldn&rsquo;t hide mainland-China power banks or collapse into one luxury house. Diffr maps this brown-leather carry grid into twelve specialist lanes &mdash; each pinned on preset 165 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-teddy-blake-brand-guide">Teddy Blake Dana WIMB</a> (preset 162) · <a href="/diffr/blog/wimb-straw-tote-brand-guide">straw tote WIMB</a> (preset 159) · <a href="/diffr/blog/wimb-chubby-bag-brand-guide">Stand Oil chubby bag WIMB</a> (preset 147). Explore the interactive scene: <a href="/diffr/start/wimb-dark-brown-satchel-kit">Dark Brown Satchel WIMB Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-brown-leather-jacket-brand-guide',
+    title: 'Brown Leather Jacket OOTD: 8 Autumn Layers, One Brand Per Slot',
+    description: 'Brown leather jacket OOTD decoded — Edwin ED-47 raw denim, Schott NYC LCADAM lambskin jacket, Peregrine wool socks, Polo Ralph Lauren belt, Solovair Gibson hi-shine, La Paz Teixeira knit, Creed Aventus 100ml, David Yurman Chevron Tag. Eight brands on grey felt.',
+    date: '2026-09-18',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'outfit of the day', 'menswear', 'leather jacket', 'autumn layers', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight brown leather jacket OOTD picks — Edwin ED-47 denim, Schott NYC LCADAM jacket, Peregrine socks, Polo Ralph Lauren belt, Solovair Gibson hi-shine, La Paz Teixeira knit, Creed Aventus 100ml, David Yurman Chevron Tag — one brand per slot.',
+    content: `
+<p>Daniel Simmons&rsquo; autumn brown-leather GRWM decodes into eight cohesive wardrobe slots on grey felt: <strong>Edwin</strong> ED-47 Regular Straight Jeans in blue unwashed, a <strong>Schott NYC</strong> LCADAM Brown Casual Jacket in lamb leather, <strong>Peregrine</strong> British Wool Boot Socks in orange, a <strong>Polo Ralph Lauren</strong> Pebbled Leather Roller-Buckle Belt in brown, <strong>Solovair</strong> Black Hi-Shine Gibson Shoes, a <strong>La Paz</strong> Teixeira Knit in brown mesc Shetland wool, <strong>Creed</strong> Aventus Eau de Parfum 100 ml, and a <strong>David Yurman</strong> Chevron Tag in 18K yellow gold with diamonds. Eight brands, zero repeats &mdash; lambskin jacket over raw denim without a one-brand Edwin violation.</p>
+
+<p>Source decode: NotebookLM brown leather jacket OOTD extract (2026-09-15). Editorial corrections: Edwin-only jacket &rarr; <strong>Schott NYC LCADAM lambskin</strong> (denim stays Edwin); Le Labo Th&eacute; Matcha 26 &rarr; <strong>Creed Aventus</strong> (Matcha pinned on preset 160); Tom Wood signet &rarr; <strong>David Yurman Chevron Tag</strong>; Diptyque Philosykos removed from this Scene.</p>
+
+<h2>What brands are in the brown leather jacket OOTD?</h2>
+<p>Eight autumn-layer specialists on preset 166: <strong>Edwin</strong>, <strong>Schott NYC</strong>, <strong>Peregrine</strong>, <strong>Polo Ralph Lauren</strong>, <strong>Solovair</strong>, <strong>La Paz</strong>, <strong>Creed</strong>, and <strong>David Yurman</strong> &mdash; one brand per layer.</p>
+
+<h2>Brown leather jacket OOTD starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Edwin</td><td>ED-47 Regular Straight Jeans &mdash; Blue Unwashed</td></tr>
+<tr><td>2</td><td>Schott NYC</td><td>LCADAM Brown Casual Jacket &mdash; Lamb Leather</td></tr>
+<tr><td>3</td><td>Peregrine</td><td>British Wool Boot Socks &mdash; Orange</td></tr>
+<tr><td>4</td><td>Polo Ralph Lauren</td><td>Pebbled Leather Roller-Buckle Belt &mdash; Brown</td></tr>
+<tr><td>5</td><td>Solovair</td><td>Black Hi-Shine Gibson Shoe &mdash; S3-995-BK-G</td></tr>
+<tr><td>6</td><td>La Paz</td><td>Teixeira Knit &mdash; Brown Mesc &mdash; 100% Shetland Wool</td></tr>
+<tr><td>7</td><td>Creed</td><td>Aventus &mdash; Eau de Parfum 100 ml</td></tr>
+<tr><td>8</td><td>David Yurman</td><td>Chevron Tag &mdash; 18K Yellow Gold with Diamonds</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this OOTD kit in the Diffr app?</h2>
+<p>Open <strong>preset 166</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-brown-leather-jacket-kit">interactive Brown Leather Jacket OOTD Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Autumn leather-jacket outfits mix denim, knit, and foot layers faster than any checklist. Diffr maps this GRWM into eight specialist wardrobe slots &mdash; each pinned on preset 166 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-overcoat-brand-guide">wool overcoat OOTD</a> (preset 163) · <a href="/diffr/blog/styling-tabby-boots-brand-guide">tabby boots OOTD</a> (preset 160) · <a href="/diffr/blog/styling-day-date-brand-guide">day date OOTD</a> (preset 151). Explore the interactive scene: <a href="/diffr/start/ootd-brown-leather-jacket-kit">Brown Leather Jacket OOTD Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
   {
