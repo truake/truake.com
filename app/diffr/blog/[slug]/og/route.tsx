@@ -7,7 +7,7 @@
 import { readFile } from 'fs/promises'
 import { ImageResponse } from 'next/og'
 import sharp from 'sharp'
-import { posts } from '../../posts'
+import postTitles from '../../post-titles.json'
 import { getSceneBrandKit } from '../../../start/lib'
 import { BLOG_SLUG_TO_PRESET } from '../page'
 import { hasDynamicOgCard, ogBaseLocalPath, ogBaseUrl } from '../../og-base'
@@ -94,7 +94,7 @@ export async function GET(
   { params }: { params: Promise<{ slug: string }> },
 ) {
   const { slug } = await params
-  const post = posts.find((p) => p.slug === slug)
+  const title = postTitles[slug as keyof typeof postTitles]
   const presetId = BLOG_SLUG_TO_PRESET[slug]
   const toyCover = (slug === 'mixed-toy-box' || slug.startsWith('toy-team-'))
     ? `https://truake.com/toy-covers/${slug}.jpg` : null
@@ -105,7 +105,7 @@ export async function GET(
 
   const isBrandGuide = slug.endsWith('-brand-guide')
 
-  if (!post || (!presetId && !coverUrl && !hasDynamicOgCard(slug) && !isBrandGuide)) {
+  if (!title || (!presetId && !coverUrl && !hasDynamicOgCard(slug) && !isBrandGuide)) {
     return Response.redirect('https://truake.com/diffr-og.png', 302)
   }
 
@@ -195,7 +195,7 @@ export async function GET(
               color: onDark ? '#fff' : INK, maxWidth: 1000, letterSpacing: -1,
             }}
           >
-            {post.title.length > 84 ? post.title.slice(0, 81) + '…' : post.title}
+            {title.length > 84 ? title.slice(0, 81) + '…' : title}
           </div>
         </div>
 

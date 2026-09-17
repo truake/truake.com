@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "gen:post-titles": "node scripts/gen-post-titles.mjs",
+    "prebuild": "node scripts/gen-post-titles.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",

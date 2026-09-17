@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Keep sharp out of the /og serverless bundle (native binaries blow past Vercel's 250MB limit).
+  serverExternalPackages: ["sharp"],
   reactCompiler: true,
   images: {
     // Serve AVIF (then WebP) instead of the source JPEGs — the hero phone
