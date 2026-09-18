@@ -28,6 +28,11 @@ function versionFor(slug: string, filePath: string): number {
   return loadVersions()[slug] ?? Math.floor(statSync(filePath).mtimeMs / 1000)
 }
 
+/** Cache-bust `/og-base/<slug>.jpg` after a 404 was CDN-cached. */
+export function versionForOgBase(slug: string): number {
+  return loadVersions()[slug] ?? 0
+}
+
 /**
  * Prefer a path-versioned file (`slug.<v>.jpg`) so crawlers that strip `?v=`
  * or key cache on the image path still refetch after a rebake.

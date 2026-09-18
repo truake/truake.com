@@ -53,9 +53,11 @@ const nextConfig: NextConfig = {
         headers: [
           // Scope to Google — a blanket noindex can make Apple/WeChat skip the card.
           { key: "X-Robots-Tag", value: "googlebot: noindex, googlebot: nofollow" },
+          // Keep CDN TTL short: a missing file 404 (new post before first
+          // successful deploy) would otherwise poison the card for s-maxage.
           {
             key: "Cache-Control",
-            value: "public, max-age=86400, s-maxage=604800, stale-while-revalidate=86400",
+            value: "public, max-age=300, s-maxage=300, stale-while-revalidate=86400",
           },
         ],
       },
@@ -65,7 +67,7 @@ const nextConfig: NextConfig = {
           { key: "X-Robots-Tag", value: "noindex, nofollow" },
           {
             key: "Cache-Control",
-            value: "public, max-age=14400, must-revalidate",
+            value: "public, max-age=300, s-maxage=300, must-revalidate",
           },
         ],
       },

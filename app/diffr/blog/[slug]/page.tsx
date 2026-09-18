@@ -10,7 +10,7 @@ import { BLOG_FAQ, BLOG_TLDR } from '../brand-guide-content'
 import { BEHIND_THE_BUILD_FAQ, BEHIND_THE_BUILD_TLDR } from '../behind-the-build-posts'
 import { BEHIND_THE_CONTRACT_FAQ, BEHIND_THE_CONTRACT_TLDR } from '../behind-the-contract-posts'
 import { hasDynamicOgCard, OG_BASE_SLUGS } from '../og-base'
-import { bakedOgUrl } from '../static-og'
+import { bakedOgUrl, versionForOgBase } from '../static-og'
 import {
   buildSupplierItemListLd,
   parseBehindTheBuildTable,
@@ -214,7 +214,7 @@ export default async function BlogPostPage({ params }: Props) {
   const coverImage = (slug === 'mixed-toy-box' || slug.startsWith('toy-team-'))
     ? `/toy-covers/${slug}.jpg`
     : OG_BASE_SLUGS.has(slug)
-      ? `/og-base/${slug}.jpg`
+      ? `/og-base/${slug}.jpg?v=${versionForOgBase(slug)}`
       : null
 
   const allPosts = getAllPosts()
