@@ -241,6 +241,8 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Dark brown satchel WIMB is twelve modular carry slots — Cambridge Batchel Bay, Burt\'s Bees balm keychain, Moleskine Volant, CIO SMARTCOBY Ex01, Gisou lip oil, Michael Kors card case, 7Clouds Penci 7.1, Smythson Panama, Baggu Go Pouch leopard, Aviot TE-D01m, Asahi Mintia, NEPIA tissues — one brand each on preset 165. Carmex/Mophie/Anker/Royal Bagger/JLab corrected. Live catalog tiles below.',
   'styling-brown-leather-jacket-brand-guide':
     'Bottom line: Brown leather jacket OOTD is eight autumn wardrobe slots — Edwin ED-47 denim, Schott NYC LCADAM lambskin jacket, Peregrine wool socks, Polo Ralph Lauren belt, Solovair Gibson hi-shine, La Paz Teixeira knit, Creed Aventus 100 ml, David Yurman Chevron Tag — one brand each on preset 166. Edwin jacket dup/Le Labo Matcha/Tom Wood/Diptyque corrected. Live catalog tiles below.',
+  'garage-on-your-feet-brand-guide':
+    'Bottom line: A Garage On Your Feet is eight play-meets-H0 slots — Skechers Garage Pit Crew 92 kids adaptive (402152L), Faller 161911 Laser-Street road, Herpa VW Polo minikit, Wiking Käfer 1303, Vollmer 45641 car workshop, Preiser 14090 pedestrians, NOCH 60525 road decoration set, Busch 7154 Strukturmoos-Hecke — one brand each on preset 167. Completes the viral heel-garage hook with a desk-scale driving world. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2515,6 +2517,29 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do I open the Dark Brown Satchel WIMB in the Diffr app?',
       a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 165 or the wimb-dark-brown-satchel Scene — same pins as this post.',
+    },
+  ],
+
+  'garage-on-your-feet-brand-guide': [
+    {
+      q: 'What is A Garage On Your Feet?',
+      a: 'It is an eight-slot kit built around the Skechers Garage Pit Crew 92 kids adaptive sneaker (402152L) with a clear heel toy-car window, plus seven H0 1:87 model-railroad specialists: Faller Laser-Street road strips, Herpa VW Polo minikit, Wiking Käfer 1303, Vollmer car workshop kit, Preiser 14090 pedestrian figures, NOCH 60525 road decoration set, and Busch 7154 hedge strip — eight distinct brands on preset 167.',
+    },
+    {
+      q: 'Is this the men\'s Skechers Garage slip-on?',
+      a: 'Editorial pins the Little Kids adaptive Pit Crew 92 class (402152L) with the visible heel garage — the SKU that matches the viral social hook. Men\'s Garage slip-ons are not verified on this preset.',
+    },
+    {
+      q: 'Why H0 brands instead of generic toy cars?',
+      a: 'The Scene completes a 1:87 driving world on the desk — Car System road, two distinct 1:87 cars, a workshop building, figures, street accessories, and landscape — one specialist brand per slot with live catalog heroes.',
+    },
+    {
+      q: 'How is this different from Micro EDC or Unusual EDC?',
+      a: 'Micro EDC Essentials (preset 164) is fourteen ultralight pocket tools. Unusual EDC (preset 149) is a general oddball carry grid. A Garage On Your Feet (preset 167) is play-meets-hobby: wearable garage anchor plus model-railroad scale world.',
+    },
+    {
+      q: 'How do I open A Garage On Your Feet in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 167 or the garage-on-your-feet Scene — same pins as this post.',
     },
   ],
 

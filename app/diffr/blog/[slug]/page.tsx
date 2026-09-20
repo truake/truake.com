@@ -120,6 +120,7 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'micro-edc-brand-guide': 164,
   'wimb-dark-brown-satchel-brand-guide': 165,
   'styling-brown-leather-jacket-brand-guide': 166,
+  'garage-on-your-feet-brand-guide': 167,
 }
 
 export async function generateStaticParams() {

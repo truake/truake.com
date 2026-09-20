@@ -23,6 +23,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'EDC Scenes',
     tagline: 'Everyday carry flat lays — one specialist brand per pocket-dump slot.',
     scenes: [
+      { slug: 'garage-on-your-feet-brand-guide', title: 'A Garage On Your Feet', preset: 167 },
       { slug: 'micro-edc-brand-guide', title: 'Micro EDC Essentials', preset: 164 },
       { slug: 'budget-edc-under-30-brand-guide', title: 'Budget EDC Under $30', preset: 161 },
       { slug: 'best-new-edc-2026-brand-guide', title: 'Best New EDC 2026', preset: 158 },

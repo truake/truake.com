@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/garage-on-your-feet-brand-guide">A Garage On Your Feet</a> (preset 167)</li>
 <li><a href="/diffr/blog/micro-edc-brand-guide">Micro EDC Essentials</a> (preset 164)</li>
 <li><a href="/diffr/blog/budget-edc-under-30-brand-guide">Budget EDC Under $30</a> (preset 161)</li>
 <li><a href="/diffr/blog/best-new-edc-2026-brand-guide">Best New EDC 2026</a> (preset 158)</li>
@@ -3781,6 +3782,47 @@ export const posts: BlogPost[] = [
 <p>Autumn leather-jacket outfits mix denim, knit, and foot layers faster than any checklist. Diffr maps this GRWM into eight specialist wardrobe slots &mdash; each pinned on preset 166 with live catalog tiles below.</p>
 
 <p>Distinct from <a href="/diffr/blog/styling-overcoat-brand-guide">wool overcoat OOTD</a> (preset 163) · <a href="/diffr/blog/styling-tabby-boots-brand-guide">tabby boots OOTD</a> (preset 160) · <a href="/diffr/blog/styling-day-date-brand-guide">day date OOTD</a> (preset 151). Explore the interactive scene: <a href="/diffr/start/ootd-brown-leather-jacket-kit">Brown Leather Jacket OOTD Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'garage-on-your-feet-brand-guide',
+    title: 'A Garage On Your Feet: Skechers Garage + H0 Driving World, One Brand Per Slot',
+    description: 'Skechers Garage Pit Crew 92 kids adaptive anchor plus Faller Car System road, Herpa and Wiking 1:87 cars, Vollmer workshop, Preiser figures, NOCH street set, Busch hedge — eight brands on marble.',
+    date: '2026-09-21',
+    readTime: '5 min read',
+    tags: ['brand guide', 'EDC', 'Skechers', 'model railroad', 'H0 scale', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight-slot garage-on-your-feet kit — Skechers Garage Pit Crew 92 kids adaptive, Faller Laser-Street, Herpa Polo, Wiking Käfer, Vollmer workshop, Preiser pedestrians, NOCH road set, Busch hedge — one brand per slot.',
+    content: `
+<p>The viral <strong>Skechers Garage</strong> heel window decodes into a wearable anchor plus a spilled H0 driving world on pale marble: a <strong>Skechers</strong> Garage Pit Crew 92 Little Kids adaptive sneaker (402152L class) with the clear heel toy-car garage, <strong>Faller</strong> 161911 Car System Laser-Street straight road strips, a <strong>Herpa</strong> MiniKit VW Polo in black, a <strong>Wiking</strong> VW K&auml;fer 1303 in red, a <strong>Vollmer</strong> 45641 car workshop Polyplate kit, <strong>Preiser</strong> 14090 pedestrian figures, a <strong>NOCH</strong> 60525 road decoration set, and <strong>Busch</strong> 7154 Strukturmoos-Hecke hedge strip. Eight brands, zero repeats &mdash; desk-scale 1:87 world without collapsing into one toy-car brand.</p>
+
+<p>Editorial note: this Scene pins the <strong>Little Kids adaptive Pit Crew 92</strong> SKU that matches the social hook (heel garage visible). Men&rsquo;s Garage slip-ons are not verified on preset 167. Included H0 toy cars in Skechers marketing measure roughly 48&ndash;50&nbsp;mm long &mdash; Herpa and Wiking heroes are chosen as distinct 1:87 passenger cars at that scale class.</p>
+
+<h2>What brands are in A Garage On Your Feet?</h2>
+<p>Eight play-meets-hobby specialists on preset 167: <strong>Skechers</strong>, <strong>Faller</strong>, <strong>Herpa</strong>, <strong>Wiking</strong>, <strong>Vollmer</strong>, <strong>Preiser</strong>, <strong>NOCH</strong>, and <strong>Busch</strong> &mdash; one brand per slot.</p>
+
+<h2>Garage on your feet starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Skechers</td><td>Garage Pit Crew 92 &mdash; 402152L kids adaptive (heel garage window)</td></tr>
+<tr><td>2</td><td>Faller</td><td>161911 Car System Laser-Street straight road (4 pcs)</td></tr>
+<tr><td>3</td><td>Herpa</td><td>012140-006 MiniKit VW Polo black H0 1:87</td></tr>
+<tr><td>4</td><td>Wiking</td><td>079506 VW K&auml;fer 1303 red H0 1:87</td></tr>
+<tr><td>5</td><td>Vollmer</td><td>45641 Car workshop Polyplate kit H0 1:87</td></tr>
+<tr><td>6</td><td>Preiser</td><td>14090 Pedestrians set of 6 H0 1:87</td></tr>
+<tr><td>7</td><td>NOCH</td><td>60525 Road Decoration Set H0 1:87</td></tr>
+<tr><td>8</td><td>Busch</td><td>7154 Strukturmoos-Hecke hedge strip H0/TT</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this kit in the Diffr app?</h2>
+<p>Open <strong>preset 167</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/garage-on-your-feet-kit">interactive Garage On Your Feet Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Skechers put a 1:87 garage on your feet &mdash; hobbyists still need a honest H0 road, cars, building, figures, and street dressing to complete the loop on the desk. Diffr maps that viral hook into eight specialist lanes &mdash; each pinned on preset 167 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/unusual-edc-brand-guide">unusual EDC</a> (preset 149) · <a href="/diffr/blog/creative-desk-edc-brand-guide">creative desk EDC</a> (preset 122) · <a href="/diffr/blog/micro-edc-brand-guide">micro EDC essentials</a> (preset 164). Explore the interactive scene: <a href="/diffr/start/garage-on-your-feet-kit">Garage On Your Feet Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
   {
