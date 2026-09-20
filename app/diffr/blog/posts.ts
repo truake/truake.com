@@ -570,11 +570,7 @@ export const posts: BlogPost[] = [
 <p><strong>Does Aritzia have a sister company?</strong> Aritzia Inc. is not a division of anyone. It is an independent, publicly traded Canadian company (TSX: ATZ), founded in Vancouver in 1984 and still headquartered there. There is no parent conglomerate above it.</p>
 <p>It does own one brand beyond its own labels. In June 2021 Aritzia acquired 75% of <strong>CYC Design Corporation</strong>, the company behind premium athletic-wear brand <strong>Reigning Champ</strong>, then bought the remaining 25% in May 2023 &mdash; so Reigning Champ is now wholly owned by Aritzia and is the closest thing to a true Aritzia sister brand. It is also how the company sells menswear. <strong>Fred Segal</strong> is likewise an Aritzia-held trademark.</p>
 <p>One mix-up worth clearing up: <strong>Aritzia and Lululemon are not related.</strong> Both were founded in Vancouver, both run a house-of-lanes strategy, and both sell leggings &mdash; but they are separate public companies with no shared ownership. Cross-shopping the two? See <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a>.</p>
-
-<h2>Who Owns Wilfred?</h2>
-<p><strong>Wilfred is owned by Aritzia.</strong> Full breakdown: <a href="/diffr/blog/wilfred-brand-guide">Who owns Wilfred? Wilfred vs Babaton explained</a>. It is not an independent label that Aritzia happens to stock &mdash; it is one of Aritzia&rsquo;s own in-house brands, designed by Aritzia&rsquo;s internal studio and sold exclusively at Aritzia boutiques and aritzia.com. You cannot buy new Wilfred at Nordstrom, Revolve, or anywhere else, and there is no standalone Wilfred website. The name reads like a separate designer house because that is the point of the house-of-brands strategy: each label gets its own identity so it can own a different part of your week.</p>
-<p>The same answer covers <strong>Wilfred Free</strong>, the label&rsquo;s casual sibling &mdash; also Aritzia-owned, also Aritzia-exclusive. And because Aritzia itself has no parent company, the ownership chain stops there: Wilfred belongs to Aritzia Inc., a publicly traded Canadian company, and to nobody above it.</p>
-<p>Worth noting for anyone searching secondhand: Wilfred pieces circulate heavily on resale sites, and that is the one place you will find the label outside Aritzia. Those are pre-owned, not a sign of wider distribution.</p>
+<p><strong>Who owns the brand Wilfred?</strong> Wilfred and Wilfred Free are Aritzia in-house labels, not independent designers. Full answer, resale notes, and Wilfred vs Babaton: <a href="/diffr/blog/wilfred-brand-guide">who owns the brand Wilfred — explained</a>.</p>
 
 <h2>Babaton — Work</h2>
 <p>Babaton is the polished, tailored core: trousers, blazers, the clean separates that read &ldquo;office&rdquo; without trying. Deep dive: <a href="/diffr/blog/babaton-brand-guide">Is Babaton good? Babaton vs Wilfred explained</a>. The piece it is famous for is the <strong>Effortless Pant</strong> &mdash; a dress trouser that has become a genuine workwear staple.</p>
@@ -629,15 +625,16 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'wilfred-brand-guide',
-    title: 'Who Owns Wilfred? Wilfred vs Babaton Explained',
-    description: 'Wilfred is owned by Aritzia — not a separate designer. Who owns it, Wilfred vs Babaton vs Wilfred Free, and what to buy instead.',
+    title: 'Who Owns the Brand Wilfred? Aritzia Explained',
+    description: 'Wilfred is owned by Aritzia Inc. — in-house only, not a separate designer. Sold at Aritzia stores. Wilfred vs Babaton & Wilfred Free explained.',
     date: '2026-09-15',
     readTime: '5 min read',
     tags: ['who owns wilfred', 'wilfred vs babaton', 'is wilfred a good brand', 'wilfred free', 'aritzia wilfred', 'babaton', 'womens fashion', 'one brand rule'],
     category: 'product',
     excerpt: 'Wilfred is an Aritzia in-house label — not a separate designer house. Here is who owns it, how it differs from Babaton and Wilfred Free, and what to buy instead.',
     content: `
-<p><strong>Wilfred is owned by Aritzia Inc.</strong> (TSX: ATZ) &mdash; not an independent designer, not a sister company, and not sold anywhere except Aritzia boutiques and aritzia.com. There is no standalone Wilfred website and no other retailer carries it new. The name reads like a separate fashion house because that is how Aritzia&rsquo;s house-of-brands strategy works: each in-house label gets its own identity for a different part of your week. (An independent guide; we are not affiliated with Aritzia or Wilfred.)</p>
+<h2>Who Owns Wilfred?</h2>
+<p><strong>Wilfred is owned by Aritzia Inc.</strong> (TSX: ATZ) &mdash; not an independent designer, not a sister company, and not sold anywhere except Aritzia boutiques and aritzia.com. There is no standalone Wilfred website and no other retailer carries it new. <strong>Wilfred Free</strong> is also wholly owned by Aritzia; there is no parent company above Aritzia. The name reads like a separate fashion house because that is how Aritzia&rsquo;s house-of-brands strategy works: each in-house label gets its own identity for a different part of your week. (An independent guide; we are not affiliated with Aritzia or Wilfred.)</p>
 <p>For the full map of all eleven Aritzia labels, see <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia brands explained</a>. This page goes deep on Wilfred only &mdash; ownership, how it compares to Babaton and Wilfred Free, and the independent picks we would reach for instead.</p>
 
 <h2>Wilfred vs Wilfred Free</h2>
