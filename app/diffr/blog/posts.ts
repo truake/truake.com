@@ -45,6 +45,7 @@ export const posts: BlogPost[] = [
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
 <li><a href="/diffr/blog/garage-on-your-feet-brand-guide">A Garage On Your Feet</a> (preset 167)</li>
+<li><a href="/diffr/blog/hivis-orange-edc-brand-guide">All Orange EDC</a> (preset 168)</li>
 <li><a href="/diffr/blog/micro-edc-brand-guide">Micro EDC Essentials</a> (preset 164)</li>
 <li><a href="/diffr/blog/budget-edc-under-30-brand-guide">Budget EDC Under $30</a> (preset 161)</li>
 <li><a href="/diffr/blog/best-new-edc-2026-brand-guide">Best New EDC 2026</a> (preset 158)</li>
@@ -67,6 +68,7 @@ export const posts: BlogPost[] = [
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
 <li><a href="/diffr/blog/wimb-dark-brown-satchel-brand-guide">Dark Brown Satchel WIMB</a> (preset 165)</li>
+<li><a href="/diffr/blog/wimb-antique-craft-brand-guide">Antique Craft Slouchy Tote WIMB</a> (preset 169)</li>
 <li><a href="/diffr/blog/wimb-teddy-blake-brand-guide">Teddy Blake Dana WIMB</a> (preset 162)</li>
 <li><a href="/diffr/blog/wimb-straw-tote-brand-guide">Straw Tote WIMB</a> (preset 159)</li>
 <li><a href="/diffr/blog/wimb-parisa-wang-brand-guide">Parisa Wang Gabrielle WIMB</a> (preset 153)</li>
@@ -81,6 +83,7 @@ export const posts: BlogPost[] = [
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
 <li><a href="/diffr/blog/styling-brown-leather-jacket-brand-guide">Brown Leather Jacket OOTD</a> (preset 166)</li>
+<li><a href="/diffr/blog/styling-airport-carryon-brand-guide">Cozy Airport Carry-On OOTD</a> (preset 170)</li>
 <li><a href="/diffr/blog/styling-overcoat-brand-guide">Wool Overcoat OOTD</a> (preset 163)</li>
 <li><a href="/diffr/blog/styling-tabby-boots-brand-guide">Tabby Boots OOTD</a> (preset 160)</li>
 <li><a href="/diffr/blog/styling-green-pants-brand-guide">Styling Green Pants OOTD</a> (preset 154)</li>
@@ -3823,6 +3826,134 @@ export const posts: BlogPost[] = [
 <p>Skechers put a 1:87 garage on your feet &mdash; hobbyists still need a honest H0 road, cars, building, figures, and street dressing to complete the loop on the desk. Diffr maps that viral hook into eight specialist lanes &mdash; each pinned on preset 167 with live catalog tiles below.</p>
 
 <p>Distinct from <a href="/diffr/blog/unusual-edc-brand-guide">unusual EDC</a> (preset 149) · <a href="/diffr/blog/creative-desk-edc-brand-guide">creative desk EDC</a> (preset 122) · <a href="/diffr/blog/micro-edc-brand-guide">micro EDC essentials</a> (preset 164). Explore the interactive scene: <a href="/diffr/start/garage-on-your-feet-kit">Garage On Your Feet Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'hivis-orange-edc-brand-guide',
+    title: 'All Orange EDC: 12 High-Vis Safety-Orange Pocket Tools, One Brand Per Slot',
+    description: 'High-viz orange EDC flat lay — Bulova Snorkel Clownfish diver, Benchmade Taggedout, ALPAKA Ark wallet, Field Notes Expedition, Tactile Turn Embrite pen, Dark Energy paracord cable, Dissim Sport torch, The James Brand Hardin keyrings, Leatherman Raptor, Orbitkey Active, Ledlenser thrower, Evergreen Seahorse 56. Twelve brands on marble.',
+    date: '2026-09-22',
+    readTime: '6 min read',
+    tags: ['brand guide', 'EDC', 'high visibility', 'safety orange', 'flat lay', 'everyday carry', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Twelve safety-orange EDC picks — Bulova diver, Benchmade Taggedout, ALPAKA Ark, Field Notes Expedition, Tactile Turn Embrite, Dark Energy cable, Dissim torch, James Brand Hardin, Leatherman Raptor, Orbitkey Active, Ledlenser thrower, Evergreen Seahorse 56 — one brand per slot.',
+    content: `
+<p>The all-orange EDC flat lay is a high-visibility pocket dump on pale marble: a <strong>Bulova</strong> Snorkel Clownfish hybrid ceramic diver, a <strong>Benchmade</strong> Taggedout 15535-01 folder in orange Cerakote, an <strong>ALPAKA</strong> Ark Card Wallet in black X-Pac with orange ripstop lining, a <strong>Field Notes</strong> Expedition Edition Yupo notebook, a <strong>Tactile Turn</strong> Embrite bolt-action pen in orange glow resin, a <strong>Dark Energy</strong> high-viz paracord 96W USB-C cable, a <strong>Dissim</strong> Sport Torch Lighter in orange, <strong>The James Brand</strong> Hardin Keyrings in orange and black, <strong>Leatherman</strong> Raptor Response shears in orange, an <strong>Orbitkey</strong> Key Organizer Active in tangerine TPU, a <strong>Ledlenser</strong> pocket thrower with orange accent hardware, and an <strong>Evergreen Cases</strong> Seahorse 56 orange IP67 dry box. Twelve brands, zero repeats &mdash; safety-orange carry without a single-brand orange wall.</p>
+
+<p>Editorial corrections: unverified DIM Sport torch &rarr; <strong>Dissim Sport Torch</strong>; blocked mainland-China flashlight lane &rarr; <strong>Ledlenser</strong> thrower (not Olight). James Brand slot pins <strong>Hardin Keyrings</strong>, not Madison carabiner.</p>
+
+<h2>What brands are in All Orange EDC?</h2>
+<p>Twelve high-vis specialists on preset 168: <strong>Bulova</strong>, <strong>Benchmade</strong>, <strong>ALPAKA</strong>, <strong>Field Notes</strong>, <strong>Tactile Turn</strong>, <strong>Dark Energy</strong>, <strong>Dissim</strong>, <strong>The James Brand</strong>, <strong>Leatherman</strong>, <strong>Orbitkey</strong>, <strong>Ledlenser</strong>, and <strong>Evergreen Cases</strong> &mdash; one brand per slot.</p>
+
+<h2>All Orange EDC starter kit &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Bulova</td><td>Snorkel Clownfish hybrid ceramic diver (98B422 class)</td></tr>
+<tr><td>2</td><td>Benchmade</td><td>Taggedout 15535-01 &mdash; MagnaCut, orange Cerakote</td></tr>
+<tr><td>3</td><td>ALPAKA</td><td>Ark Card Wallet X-Pac &mdash; orange ripstop lining</td></tr>
+<tr><td>4</td><td>Field Notes</td><td>Expedition Edition Yupo waterproof notebook</td></tr>
+<tr><td>5</td><td>Tactile Turn</td><td>Embrite bolt-action pen &mdash; orange glow resin</td></tr>
+<tr><td>6</td><td>Dark Energy</td><td>High-Viz Paracord 96W USB-C cable</td></tr>
+<tr><td>7</td><td>Dissim</td><td>Sport Torch Lighter &mdash; Orange</td></tr>
+<tr><td>8</td><td>The James Brand</td><td>Hardin Keyrings &mdash; orange / black</td></tr>
+<tr><td>9</td><td>Leatherman</td><td>Raptor Response trauma shears &mdash; orange</td></tr>
+<tr><td>10</td><td>Orbitkey</td><td>Key Organizer Active &mdash; tangerine TPU</td></tr>
+<tr><td>11</td><td>Ledlenser</td><td>Pocket thrower (high-candela class)</td></tr>
+<tr><td>12</td><td>Evergreen Cases</td><td>Seahorse 56 orange IP67 dry box</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this EDC kit in the Diffr app?</h2>
+<p>Open <strong>preset 168</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/hivis-orange-edc-kit">interactive All Orange EDC Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>High-vis orange EDC grids mix diver watches, folders, and rescue tools faster than any checklist. Diffr maps this safety-orange pocket dump into twelve specialist lanes &mdash; each pinned on preset 168 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/best-new-edc-2026-brand-guide">best new EDC 2026</a> (preset 158) · <a href="/diffr/blog/blackout-titanium-edc-brand-guide">blackout titanium EDC</a> (preset 155) · <a href="/diffr/blog/micro-edc-brand-guide">micro EDC essentials</a> (preset 164). Explore the interactive scene: <a href="/diffr/start/hivis-orange-edc-kit">All Orange EDC Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-antique-craft-brand-guide',
+    title: 'Girly & Organized Slouchy Tote WIMB: 9 Chic Daily Picks, One Brand Per Slot',
+    description: 'Antique Craft slouchy tote WIMB — white leather hero bag, Five Below charm, Amazon Basics vanity inserts, Supergoop Unseen SPF, CIO SMARTCOBY Ex01, Fiji Water 330 mL, Louis Vuitton envelope card case, True Utility KeyTool, Gisou lip oil. Nine brands on marble.',
+    date: '2026-09-22',
+    readTime: '5 min read',
+    tags: ['brand guide', 'WIMB', 'whats in my bag', 'slouchy tote', 'beauty', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine antique-craft tote WIMB picks — Antique Craft slouchy bag, Five Below charm, Amazon Basics inserts, Supergoop Unseen, CIO SMARTCOBY, Fiji 330 mL, Louis Vuitton envelope, True Utility KeyTool, Gisou lip oil — one brand per slot.',
+    content: `
+<p>The girly organized slouchy-tote <em>What&rsquo;s in My Bag</em> spill decodes into nine vanity-and-travel slots on pale marble: an <strong>Antique Craft</strong> large slouchy white leather tote, a <strong>Five Below</strong> eggplant coin-purse charm, <strong>Amazon Basics</strong> bow vanity felt inserts, <strong>Supergoop!</strong> Unseen Sunscreen SPF 50, a <strong>CIO</strong> SMARTCOBY Ex01 magnetic power bank, a <strong>Fiji Water</strong> natural artesian 330&nbsp;mL bottle, a <strong>Louis Vuitton</strong> monogram envelope card case, a <strong>True Utility</strong> KeyTool, and <strong>Gisou</strong> Honey Infused Lip Oil. Nine brands, zero repeats &mdash; organized carry without Anker stand-ins or novelty-case brand confusion.</p>
+
+<p>Editorial corrections: Taurus magnetic bank &rarr; <strong>CIO SMARTCOBY Ex01</strong>; Fiji-bottle AirPods silicone &rarr; <strong>Fiji Water 330&nbsp;mL</strong> bottle slot; Sanrio multi-tool charm &rarr; <strong>True Utility KeyTool</strong>. Slots 4 and 9 share a beauty type in the database &mdash; each pins a distinct product line on preset 169.</p>
+
+<h2>What brands are in the Antique Craft slouchy tote WIMB?</h2>
+<p>Nine daily-carry specialists on preset 169: <strong>Antique Craft</strong>, <strong>Five Below</strong>, <strong>Amazon Basics</strong>, <strong>Supergoop!</strong>, <strong>CIO</strong>, <strong>Fiji Water</strong>, <strong>Louis Vuitton</strong>, <strong>True Utility</strong>, and <strong>Gisou</strong> &mdash; one brand per slot.</p>
+
+<h2>Antique Craft slouchy tote WIMB &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Antique Craft</td><td>Large slouchy white leather tote</td></tr>
+<tr><td>2</td><td>Five Below</td><td>Eggplant coin purse / mirror bag charm</td></tr>
+<tr><td>3</td><td>Amazon Basics</td><td>Bow vanity felt inserts</td></tr>
+<tr><td>4</td><td>Supergoop!</td><td>Unseen Sunscreen SPF 50</td></tr>
+<tr><td>5</td><td>CIO</td><td>SMARTCOBY Ex01</td></tr>
+<tr><td>6</td><td>Fiji Water</td><td>Natural artesian water 330 mL</td></tr>
+<tr><td>7</td><td>Louis Vuitton</td><td>Monogram envelope card case</td></tr>
+<tr><td>8</td><td>True Utility</td><td>KeyTool</td></tr>
+<tr><td>9</td><td>Gisou</td><td>Honey Infused Lip Oil</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this WIMB kit in the Diffr app?</h2>
+<p>Open <strong>preset 169</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-antique-craft-kit">interactive Antique Craft Slouchy Tote WIMB Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Slouchy-tote WIMB grids mix hero bags, SPF, power, and novelty charms faster than any checklist. Diffr maps this antique-craft carry spill into nine specialist lanes &mdash; each pinned on preset 169 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-dark-brown-satchel-brand-guide">dark brown satchel WIMB</a> (preset 165) · <a href="/diffr/blog/wimb-straw-tote-brand-guide">straw tote WIMB</a> (preset 159) · <a href="/diffr/blog/wimb-teddy-blake-brand-guide">Teddy Blake Dana WIMB</a> (preset 162). Explore the interactive scene: <a href="/diffr/start/wimb-antique-craft-kit">Antique Craft Slouchy Tote WIMB Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-airport-carryon-brand-guide',
+    title: 'Cozy Airport Carry-On OOTD: 8 Travel Picks, One Brand Per Slot',
+    description: 'Airport carry-on OOTD — FRAM off-white baggy jean, Polo Ralph Lauren croc belt, RoToTo wool socks, Birkenstock Arizona NL, Cole Buxton cashmere crew, Schott NYC brown lambskin jacket, Monos Carry-On Pro, Rimowa Never Still Metro tote. Eight brands, travel uniform flat lay.',
+    date: '2026-09-22',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'airport style', 'carry-on', 'travel outfit', 'flat lay', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight cozy airport OOTD picks — FRAM baggy jean, Polo belt, RoToTo socks, Birkenstock Arizona NL, Cole Buxton crew, Schott lambskin jacket, Monos Carry-On Pro, Rimowa Metro tote — one brand per slot.',
+    content: `
+<p>The cozy airport carry-on uniform flat lay is a heavywear travel GRWM without a person in frame: <strong>FRAM</strong> Baggy Jean in off-white destructed wash, a <strong>Polo Ralph Lauren</strong> croc-effect leather belt, beige <strong>RoToTo</strong> ribbed wool socks, <strong>Birkenstock</strong> Arizona NL sandals, a black <strong>Cole Buxton</strong> heavyweight cashmere crew, a brown <strong>Schott NYC</strong> lambskin jacket (LC5340 class), a <strong>Monos</strong> Carry-On Pro front-pocket hardshell, and a <strong>Rimowa</strong> Never Still Metro tote. Eight brands, zero repeats &mdash; terminal-ready layers plus roller and tote without duplicate footwear DNA from other autumn OOTD presets.</p>
+
+<p>Editorial correction: slot 4 pins <strong>Birkenstock Arizona NL</strong> for airport slip-on comfort (replacing Solovair Gibson overlap with brown leather jacket OOTD preset 166).</p>
+
+<h2>What brands are in the cozy airport carry-on OOTD?</h2>
+<p>Eight travel wardrobe specialists on preset 170: <strong>FRAM</strong>, <strong>Polo Ralph Lauren</strong>, <strong>RoToTo</strong>, <strong>Birkenstock</strong>, <strong>Cole Buxton</strong>, <strong>Schott NYC</strong>, <strong>Monos</strong>, and <strong>Rimowa</strong> &mdash; one brand per slot.</p>
+
+<h2>Cozy airport carry-on OOTD &mdash; one brand per slot</h2>
+<table>
+<thead><tr><th>Slot</th><th>Brand</th><th>Product line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>FRAM</td><td>Baggy Jean &mdash; Off White Destructed</td></tr>
+<tr><td>2</td><td>Polo Ralph Lauren</td><td>Croc-effect leather belt</td></tr>
+<tr><td>3</td><td>RoToTo</td><td>Beige ribbed wool socks</td></tr>
+<tr><td>4</td><td>Birkenstock</td><td>Arizona NL Sandals</td></tr>
+<tr><td>5</td><td>Cole Buxton</td><td>Heavyweight black cashmere crew</td></tr>
+<tr><td>6</td><td>Schott NYC</td><td>Brown lambskin jacket &mdash; LC5340 class</td></tr>
+<tr><td>7</td><td>Monos</td><td>Carry-On Pro front-pocket hardshell</td></tr>
+<tr><td>8</td><td>Rimowa</td><td>Never Still Metro tote</td></tr>
+</tbody>
+</table>
+
+<h2>How do I get this OOTD kit in the Diffr app?</h2>
+<p>Open <strong>preset 170</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-airport-carryon-kit">interactive Cozy Airport Carry-On OOTD Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Airport GRWM grids mix denim, leather jackets, and roller luggage faster than any checklist. Diffr maps this carry-on uniform into eight specialist wardrobe and luggage lanes &mdash; each pinned on preset 170 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-brown-leather-jacket-brand-guide">brown leather jacket OOTD</a> (preset 166) · <a href="/diffr/blog/styling-overcoat-brand-guide">wool overcoat OOTD</a> (preset 163) · <a href="/diffr/blog/daniel-simmons-linen-ootd-brand-guide">Daniel Simmons linen OOTD</a> (preset 145). Explore the interactive scene: <a href="/diffr/start/ootd-airport-carryon-kit">Cozy Airport Carry-On OOTD Kit &rarr;</a> · <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
   {

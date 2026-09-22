@@ -243,6 +243,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Brown leather jacket OOTD is eight autumn wardrobe slots — Edwin ED-47 denim, Schott NYC LCADAM lambskin jacket, Peregrine wool socks, Polo Ralph Lauren belt, Solovair Gibson hi-shine, La Paz Teixeira knit, Creed Aventus 100 ml, David Yurman Chevron Tag — one brand each on preset 166. Edwin jacket dup/Le Labo Matcha/Tom Wood/Diptyque corrected. Live catalog tiles below.',
   'garage-on-your-feet-brand-guide':
     'Bottom line: A Garage On Your Feet is eight play-meets-H0 slots — Skechers Garage Pit Crew 92 kids adaptive (402152L), Faller 161911 Laser-Street road, Herpa VW Polo minikit, Wiking Käfer 1303, Vollmer 45641 car workshop, Preiser 14090 pedestrians, NOCH 60525 road decoration set, Busch 7154 Strukturmoos-Hecke — one brand each on preset 167. Completes the viral heel-garage hook with a desk-scale driving world. Live catalog tiles below.',
+  'hivis-orange-edc-brand-guide':
+    'Bottom line: All Orange EDC is twelve high-vis safety-orange slots — Bulova Snorkel Clownfish diver, Benchmade Taggedout, ALPAKA Ark wallet, Field Notes Expedition, Tactile Turn Embrite pen, Dark Energy paracord cable, Dissim Sport torch, The James Brand Hardin keyrings, Leatherman Raptor, Orbitkey Active tangerine, Ledlenser thrower, Evergreen Seahorse 56 — one brand each on preset 168. Olight blocked; Dissim/Ledlenser editorial pins. Live catalog tiles below.',
+  'wimb-antique-craft-brand-guide':
+    'Bottom line: Antique Craft slouchy tote WIMB is nine organized-carry slots — Antique Craft white leather tote, Five Below charm, Amazon Basics vanity inserts, Supergoop Unseen SPF, CIO SMARTCOBY Ex01, Fiji Water 330 mL, Louis Vuitton envelope card case, True Utility KeyTool, Gisou lip oil — one brand each on preset 169. Taurus/Fiji-case/Sanrio corrected. Live catalog tiles below.',
+  'styling-airport-carryon-brand-guide':
+    'Bottom line: Cozy airport carry-on OOTD is eight travel-uniform slots — FRAM off-white baggy jean, Polo Ralph Lauren belt, RoToTo wool socks, Birkenstock Arizona NL, Cole Buxton cashmere crew, Schott NYC brown lambskin jacket, Monos Carry-On Pro, Rimowa Never Still Metro tote — one brand each on preset 170. Birkenstock replaces Solovair overlap with preset 166. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2517,6 +2523,75 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do I open the Dark Brown Satchel WIMB in the Diffr app?',
       a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 165 or the wimb-dark-brown-satchel Scene — same pins as this post.',
+    },
+  ],
+
+  'hivis-orange-edc-brand-guide': [
+    {
+      q: 'What is All Orange EDC?',
+      a: 'It is a twelve-slot high-visibility orange everyday-carry kit: Bulova Snorkel Clownfish diver, Benchmade Taggedout folder, ALPAKA Ark wallet, Field Notes Expedition notebook, Tactile Turn Embrite pen, Dark Energy paracord USB-C cable, Dissim Sport torch, The James Brand Hardin keyrings, Leatherman Raptor shears, Orbitkey Active organizer, Ledlenser pocket thrower, and Evergreen Seahorse 56 dry box — twelve distinct brands on preset 168.',
+    },
+    {
+      q: 'Why Ledlenser instead of Olight for the flashlight slot?',
+      a: 'Editorial Scene Series blocks mainland-China-headquartered flashlight brands. The high-candela thrower lane pins Ledlenser with a live catalog hero on preset 168 — not Olight Baton Turbo from the reference decode.',
+    },
+    {
+      q: 'Why Dissim instead of DIM Sport for the torch lighter?',
+      a: 'DIM Sport was not verified in catalog during ingest. Editorial pins Dissim Sport Torch Lighter — Orange with a live packshot on preset 168.',
+    },
+    {
+      q: 'How is All Orange EDC different from Best New EDC 2026 or Micro EDC?',
+      a: 'Best New EDC 2026 (preset 158) is a general new-release carry grid. Micro EDC Essentials (preset 164) is fourteen ultralight pocket tools. All Orange EDC (preset 168) is a single-color safety-orange specialist lane across watch, blade, wallet, and rescue tools.',
+    },
+    {
+      q: 'How do I open All Orange EDC in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 168 or the hivis-orange-edc Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-antique-craft-brand-guide': [
+    {
+      q: 'What is the Antique Craft slouchy tote WIMB breakdown?',
+      a: 'It is a nine-slot organized carry spill: Antique Craft large slouchy white leather tote, Five Below eggplant coin charm, Amazon Basics bow vanity felt inserts, Supergoop Unseen Sunscreen SPF 50, CIO SMARTCOBY Ex01, Fiji Water 330 mL bottle, Louis Vuitton monogram envelope card case, True Utility KeyTool, and Gisou Honey Infused Lip Oil — nine distinct brands on preset 169.',
+    },
+    {
+      q: 'Why CIO instead of Taurus for the power bank?',
+      a: 'The reference magnetic bank was corrected to CIO SMARTCOBY Ex01 — a distinct travel-charger brand already used on other editorial WIMB presets, with a verified catalog hero on preset 169.',
+    },
+    {
+      q: 'Why a Fiji Water bottle instead of a Fiji-shaped AirPods case?',
+      a: 'Novelty silicone cases often ingest as unbranded accessories. Editorial pins the Fiji Water 330 mL bottle as a typed hydration slot with a clean packshot on preset 169.',
+    },
+    {
+      q: 'Why True Utility instead of Sanrio for the key tool?',
+      a: 'Sanrio charm hardware was replaced with True Utility KeyTool — a distinct multi-tool brand with a live catalog tile on preset 169.',
+    },
+    {
+      q: 'How do I open the Antique Craft slouchy tote WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 169 or the wimb-antique-craft Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-airport-carryon-brand-guide': [
+    {
+      q: 'What is the cozy airport carry-on OOTD breakdown?',
+      a: 'It is an eight-slot travel uniform: FRAM off-white destructed baggy jean, Polo Ralph Lauren croc belt, RoToTo wool socks, Birkenstock Arizona NL sandals, Cole Buxton black cashmere crew, Schott NYC brown lambskin jacket, Monos Carry-On Pro hardshell, and Rimowa Never Still Metro tote — eight distinct brands on preset 170.',
+    },
+    {
+      q: 'Why Birkenstock Arizona NL instead of Solovair boots?',
+      a: 'Solovair Gibson hi-shine derbies are already pinned on brown leather jacket OOTD (preset 166). Airport uniform editorial pins Birkenstock Arizona NL for slip-on terminal comfort on preset 170.',
+    },
+    {
+      q: 'How is this different from brown leather jacket OOTD (preset 166)?',
+      a: 'Both presets share Schott lambskin and Polo belt DNA on different SKUs, but preset 170 adds Monos roller and Rimowa tote luggage slots and swaps footwear to Birkenstock for airport flow — eight slots total versus eight autumn layers on 166.',
+    },
+    {
+      q: 'Why Monos Carry-On Pro instead of a generic black suitcase?',
+      a: 'Editorial pins Monos Carry-On Pro front-pocket hardshell with a verified catalog hero — not an untyped luggage placeholder on preset 170.',
+    },
+    {
+      q: 'How do I open the cozy airport carry-on OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 170 or the ootd-airport-carryon Scene — same pins as this post.',
     },
   ],
 

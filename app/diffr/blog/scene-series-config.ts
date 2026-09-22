@@ -24,6 +24,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     tagline: 'Everyday carry flat lays — one specialist brand per pocket-dump slot.',
     scenes: [
       { slug: 'garage-on-your-feet-brand-guide', title: 'A Garage On Your Feet', preset: 167 },
+      { slug: 'hivis-orange-edc-brand-guide', title: 'All Orange EDC', preset: 168 },
       { slug: 'micro-edc-brand-guide', title: 'Micro EDC Essentials', preset: 164 },
       { slug: 'budget-edc-under-30-brand-guide', title: 'Budget EDC Under $30', preset: 161 },
       { slug: 'best-new-edc-2026-brand-guide', title: 'Best New EDC 2026', preset: 158 },
@@ -49,6 +50,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     tagline: 'What\'s in my bag spills — ten travel-ready picks, zero brand repeats.',
     scenes: [
       { slug: 'wimb-dark-brown-satchel-brand-guide', title: 'Dark Brown Satchel WIMB', preset: 165 },
+      { slug: 'wimb-antique-craft-brand-guide', title: 'Antique Craft Slouchy Tote WIMB', preset: 169 },
       { slug: 'wimb-teddy-blake-brand-guide', title: 'Teddy Blake Dana WIMB', preset: 162 },
       { slug: 'wimb-straw-tote-brand-guide', title: 'Straw Tote WIMB', preset: 159 },
       { slug: 'wimb-rachel-zoe-brand-guide', title: 'Rachel Zoe Straw Tote WIMB', preset: 156 },
@@ -66,6 +68,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     tagline: 'Outfit flat lays — wardrobe slots with one brand per layer.',
     scenes: [
       { slug: 'styling-brown-leather-jacket-brand-guide', title: 'Brown Leather Jacket OOTD', preset: 166 },
+      { slug: 'styling-airport-carryon-brand-guide', title: 'Cozy Airport Carry-On OOTD', preset: 170 },
       { slug: 'styling-overcoat-brand-guide', title: 'Wool Overcoat OOTD', preset: 163 },
       { slug: 'styling-tabby-boots-brand-guide', title: 'Tabby Boots OOTD', preset: 160 },
       { slug: 'styling-navy-uniform-brand-guide', title: 'Navy Uniform OOTD', preset: 157 },

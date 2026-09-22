@@ -121,6 +121,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'wimb-dark-brown-satchel-brand-guide': 165,
   'styling-brown-leather-jacket-brand-guide': 166,
   'garage-on-your-feet-brand-guide': 167,
+  'hivis-orange-edc-brand-guide': 168,
+  'wimb-antique-craft-brand-guide': 169,
+  'styling-airport-carryon-brand-guide': 170,
 }
 
 export async function generateStaticParams() {
