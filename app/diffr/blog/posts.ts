@@ -629,15 +629,15 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'wilfred-brand-guide',
-    title: 'Who Owns the Brand Wilfred? Aritzia Explained',
-    description: 'Wilfred is owned by Aritzia Inc. — in-house only, not a separate designer. Sold at Aritzia stores. Wilfred vs Babaton & Wilfred Free explained.',
+    title: 'Who Owns the Brand Wilfred? Aritzia Only',
+    description: 'Aritzia Inc. owns Wilfred — no other store sells it new. How it splits from Babaton and Wilfred Free, and when Reformation or Theory wins instead.',
     date: '2026-09-15',
     readTime: '5 min read',
     tags: ['who owns wilfred', 'wilfred vs babaton', 'is wilfred a good brand', 'wilfred free', 'aritzia wilfred', 'babaton', 'womens fashion', 'one brand rule'],
     category: 'product',
-    excerpt: 'Wilfred is an Aritzia in-house label — not a separate designer house. Here is who owns it, how it differs from Babaton and Wilfred Free, and what to buy instead.',
+    excerpt: 'Aritzia Inc. owns Wilfred and sells it nowhere else new. Wilfred vs Babaton vs Wilfred Free, plus when to buy Reformation or Theory instead.',
     content: `
-<h2>Who Owns Wilfred?</h2>
+<h2>Who Owns the Brand Wilfred?</h2>
 <p><strong>Wilfred is owned by Aritzia Inc.</strong> (TSX: ATZ) &mdash; not an independent designer, not a sister company, and not sold anywhere except Aritzia boutiques and aritzia.com. There is no standalone Wilfred website and no other retailer carries it new. <strong>Wilfred Free</strong> is also wholly owned by Aritzia; there is no parent company above Aritzia. The name reads like a separate fashion house because that is how Aritzia&rsquo;s house-of-brands strategy works: each in-house label gets its own identity for a different part of your week. (An independent guide; we are not affiliated with Aritzia or Wilfred.)</p>
 <p>For the full map of all eleven Aritzia labels, see <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia brands explained</a>. This page goes deep on Wilfred only &mdash; ownership, how it compares to Babaton and Wilfred Free, and the independent picks we would reach for instead.</p>
 
