@@ -249,6 +249,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Antique Craft slouchy tote WIMB is nine organized-carry slots — Antique Craft white leather tote, Five Below charm, Amazon Basics vanity inserts, Supergoop Unseen SPF, CIO SMARTCOBY Ex01, Fiji Water 330 mL, Louis Vuitton envelope card case, True Utility KeyTool, Gisou lip oil — one brand each on preset 169. Taurus/Fiji-case/Sanrio corrected. Live catalog tiles below.',
   'styling-airport-carryon-brand-guide':
     'Bottom line: Cozy airport carry-on OOTD is eight travel-uniform slots — FRAM off-white baggy jean, Polo Ralph Lauren belt, RoToTo wool socks, Birkenstock Arizona NL, Cole Buxton cashmere crew, Schott NYC brown lambskin jacket, Monos Carry-On Pro, Rimowa Never Still Metro tote — one brand each on preset 170. Birkenstock replaces Solovair overlap with preset 166. Live catalog tiles below.',
+  'lifetime-edc-brand-guide':
+    'Bottom line: Lifetime EDC Essentials is ten buy-once carry slots — Leatherman Signal, Zippo Classic Brushed Chrome, Stanley Adventure Pre-Party Flask 8 oz Hammertone Green, KeyBar stonewashed aluminum, The Ridge burnt-titanium wallet, Tactile Turn stonewashed bolt pen, GORUCK GR1 USA 26L black, SureFire Titan Plus, Randolph Engineering Aviator gunmetal, GiantMouse GMF1 — one brand each on preset 171. Live catalog tiles below.',
+  'wimb-nanette-lepore-brand-guide':
+    'Bottom line: Nanette Lepore Fall WIMB is eight autumn tote slots — Nanette Lepore faux-leather east-west shoulder bag with scarf, Halls Soothers Cherry, Smythson Panama flat pouch, 3CE Fitting Mesh Cover Cushion P01, Dash Wallet greige MagSafe stand, Mous Limitless sage case, Sanrio Hello Kitty plush zipper pouch, Midori A5 off-white notebook — one brand each on preset 172. Live catalog tiles below.',
+  'styling-trench-coat-brand-guide':
+    'Bottom line: Earth-tone trench OOTD is nine autumn layers — Burberry short Kensington trench in Juniper, Percival Melville ecru cable knit, Represent Aged White Grand Vintage tee, Studio Nicholson Sorte cream pleated pant, Adidas Samba OG JP9500, Aimé Leon Dore green cap, Tom Ford Soleil Blanc 50 ml, Hamilton Ventura H24411732, Dior Saddle messenger Oblique — one brand each on preset 173. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2592,6 +2598,63 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do I open the cozy airport carry-on OOTD in the Diffr app?',
       a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 170 or the ootd-airport-carryon Scene — same pins as this post.',
+    },
+  ],
+
+  'lifetime-edc-brand-guide': [
+    {
+      q: 'What is Lifetime EDC Essentials?',
+      a: 'It is a ten-slot buy-once everyday-carry kit: Leatherman Signal, Zippo Classic Brushed Chrome, Stanley Adventure Pre-Party Flask 8 oz — Hammertone Green, KeyBar Stonewashed Aluminum KeyBar, The Ridge Ridge Wallet — Burnt Titanium, Tactile Turn Titanium Bolt Action Pen — Standard, Stonewashed, GORUCK GR1 USA 26L — Black 1000D, SureFire Titan Plus / TITAN-B, Randolph Engineering Aviator — Gunmetal / SkyTec AGX Polarized Glass — Regular 55mm, and GiantMouse GMF1 — Stonewashed N690 / Brown Leather Sheath. Ten distinct brands on preset 171.',
+    },
+    {
+      q: 'How is Lifetime EDC different from All Orange EDC?',
+      a: 'All Orange EDC (preset 168) is a single-color safety-orange specialist lane. Lifetime EDC (preset 171) is a mixed-material carry built around tools and bags you keep for years — multi-tool, lighter, flask, keybar, wallet, pen, pack, light, sunglasses, and knife.',
+    },
+    {
+      q: 'Why SureFire instead of a hidden-CN flashlight brand?',
+      a: 'Editorial Scene Series blocks mainland-China-headquartered flashlight brands. The pocket-light slot pins SureFire Titan Plus / TITAN-B with a live catalog hero on preset 171.',
+    },
+    {
+      q: 'How do I open Lifetime EDC Essentials in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 171 or the lifetime-edc Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-nanette-lepore-brand-guide': [
+    {
+      q: 'What is the Nanette Lepore Fall WIMB kit?',
+      a: 'It is an eight-slot autumn tote: Nanette Lepore Faux Leather East West Shoulder Bag with Scarf, Halls Soothers Cherry 20 Packs, Smythson Small Panama Leather Flat Pouch, 3CE Fitting Mesh Cover Cushion P01, Dash Wallet Ultra Slim MagSafe Wallet Stand Greige, Mous Limitless Phone Case Sage, Sanrio Hello Kitty Plush Zipper Pouch - Lace and Frills Series, and Midori A5 Off White Notebook. Eight distinct brands on preset 172.',
+    },
+    {
+      q: 'Why eight slots instead of ten?',
+      a: 'Amazon Basics kiss-lock and Five Below compact were held out of preset 172 because they have no verified packshot. The published kit matches the eight products on the cover.',
+    },
+    {
+      q: 'How is this different from Antique Craft WIMB?',
+      a: 'Antique Craft (preset 169) is a white leather slouchy tote with vanity inserts and SPF. Nanette Lepore Fall WIMB (preset 172) is a camel east-west shoulder bag with scarf, plus beauty, phone, and notebook lanes that do not repeat those brands.',
+    },
+    {
+      q: 'How do I open the Nanette Lepore Fall WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 172 or the wimb-nanette-lepore Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-trench-coat-brand-guide': [
+    {
+      q: 'What is the earth-tone trench coat OOTD?',
+      a: 'It is a nine-slot autumn outfit: Burberry Short Tropical Gabardine Kensington Trench Coat - Juniper, Percival Melville Cable Knit Jumper - Wool - Ecru, Represent Aged White Grand Vintage Tee, Studio Nicholson Sorte Pleated Pant - Cream, Adidas Samba OG Shoes - Team Dark Green / Better Scarlet / Gum - JP9500, Aimé Leon Dore Core Logo Hat - Green, Tom Ford Soleil Blanc Parfum 50 ml, Hamilton Ventura Quartz Black Dial H24411732, and Dior Saddle Messenger Bag Oblique. Nine distinct brands on preset 173.',
+    },
+    {
+      q: 'Why a short Burberry Kensington instead of a full-length trench?',
+      a: 'Editorial pins the short tropical gabardine Kensington in Juniper — the catalog hero that matches the cover — not a generic long trench placeholder.',
+    },
+    {
+      q: 'How is this different from wool overcoat OOTD?',
+      a: 'Wool overcoat OOTD (preset 163) is an Isabel Marant coat with hoodie, tee, jogger, and beanie. Earth-tone trench OOTD (preset 173) is a Burberry short trench with cable knit, Represent tee, pleated cream trousers, Samba, and a Dior saddle messenger.',
+    },
+    {
+      q: 'How do I open the trench coat OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 173 or the ootd-trench-coat Scene — same pins as this post.',
     },
   ],
 

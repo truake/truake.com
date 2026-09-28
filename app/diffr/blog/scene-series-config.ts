@@ -23,6 +23,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'EDC Scenes',
     tagline: 'Everyday carry flat lays — one specialist brand per pocket-dump slot.',
     scenes: [
+      { slug: 'lifetime-edc-brand-guide', title: 'Lifetime EDC Essentials', preset: 171 },
       { slug: 'garage-on-your-feet-brand-guide', title: 'A Garage On Your Feet', preset: 167 },
       { slug: 'hivis-orange-edc-brand-guide', title: 'All Orange EDC', preset: 168 },
       { slug: 'micro-edc-brand-guide', title: 'Micro EDC Essentials', preset: 164 },
@@ -49,6 +50,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'WIMB Scenes',
     tagline: 'What\'s in my bag spills — ten travel-ready picks, zero brand repeats.',
     scenes: [
+      { slug: 'wimb-nanette-lepore-brand-guide', title: 'Nanette Lepore Fall WIMB', preset: 172 },
       { slug: 'wimb-dark-brown-satchel-brand-guide', title: 'Dark Brown Satchel WIMB', preset: 165 },
       { slug: 'wimb-antique-craft-brand-guide', title: 'Antique Craft Slouchy Tote WIMB', preset: 169 },
       { slug: 'wimb-teddy-blake-brand-guide', title: 'Teddy Blake Dana WIMB', preset: 162 },
@@ -67,6 +69,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'OOTD Scenes',
     tagline: 'Outfit flat lays — wardrobe slots with one brand per layer.',
     scenes: [
+      { slug: 'styling-trench-coat-brand-guide', title: 'Earth-Tone Trench Coat OOTD', preset: 173 },
       { slug: 'styling-brown-leather-jacket-brand-guide', title: 'Brown Leather Jacket OOTD', preset: 166 },
       { slug: 'styling-airport-carryon-brand-guide', title: 'Cozy Airport Carry-On OOTD', preset: 170 },
       { slug: 'styling-overcoat-brand-guide', title: 'Wool Overcoat OOTD', preset: 163 },

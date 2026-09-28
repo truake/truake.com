@@ -124,6 +124,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'hivis-orange-edc-brand-guide': 168,
   'wimb-antique-craft-brand-guide': 169,
   'styling-airport-carryon-brand-guide': 170,
+  'lifetime-edc-brand-guide': 171,
+  'wimb-nanette-lepore-brand-guide': 172,
+  'styling-trench-coat-brand-guide': 173,
 }
 
 export async function generateStaticParams() {

@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/lifetime-edc-brand-guide">Lifetime EDC Essentials</a> (preset 171)</li>
 <li><a href="/diffr/blog/garage-on-your-feet-brand-guide">A Garage On Your Feet</a> (preset 167)</li>
 <li><a href="/diffr/blog/hivis-orange-edc-brand-guide">All Orange EDC</a> (preset 168)</li>
 <li><a href="/diffr/blog/micro-edc-brand-guide">Micro EDC Essentials</a> (preset 164)</li>
@@ -67,6 +68,7 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-nanette-lepore-brand-guide">Nanette Lepore Fall WIMB</a> (preset 172)</li>
 <li><a href="/diffr/blog/wimb-dark-brown-satchel-brand-guide">Dark Brown Satchel WIMB</a> (preset 165)</li>
 <li><a href="/diffr/blog/wimb-antique-craft-brand-guide">Antique Craft Slouchy Tote WIMB</a> (preset 169)</li>
 <li><a href="/diffr/blog/wimb-teddy-blake-brand-guide">Teddy Blake Dana WIMB</a> (preset 162)</li>
@@ -82,6 +84,7 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-trench-coat-brand-guide">Earth-Tone Trench Coat OOTD</a> (preset 173)</li>
 <li><a href="/diffr/blog/styling-brown-leather-jacket-brand-guide">Brown Leather Jacket OOTD</a> (preset 166)</li>
 <li><a href="/diffr/blog/styling-airport-carryon-brand-guide">Cozy Airport Carry-On OOTD</a> (preset 170)</li>
 <li><a href="/diffr/blog/styling-overcoat-brand-guide">Wool Overcoat OOTD</a> (preset 163)</li>
@@ -7965,6 +7968,162 @@ Diffr ends with: here is what you get.</p>
 
 <h2>The Stack</h2>
 <p>Twelve slots, one of them deleted by a smart upstream choice, and a complete bike-commuting starter kit for a person who wants to ride to work starting Monday. The cycling internet will tell you that a belt-drive bike is &ldquo;not a real bike,&rdquo; that you should learn to maintain a derailleur, that Sold Secure Gold is overkill, that you need three more accessories before you are ready. It is, in every case, optimizing for the hobby of cycling rather than the task of commuting. Those are different problems. The twelve brands above answer the commuting problem completely, and they answer it once. The <a href="/diffr/blog/the-one-brand-rule">one-brand-per-slot rule</a> is what keeps the answer from dissolving back into a forum thread. The slot is closed. The decision is made. <a href="/diffr/blog/the-decide-once-rule">Decide once.</a> Ride more.</p>
+`.trim(),
+  },
+  {
+    slug: 'lifetime-edc-brand-guide',
+    title: '10 EDC Essentials Built to Last a Lifetime',
+    description: 'Ten buy-once everyday-carry picks — Leatherman Signal, Zippo brushed chrome, Stanley hip flask, KeyBar, Ridge titanium wallet, Tactile Turn pen, GORUCK GR1, SureFire Titan Plus, Randolph aviators, GiantMouse GMF1. One brand per slot.',
+    date: '2026-09-29',
+    readTime: '5 min read',
+    tags: ['brand guide', 'EDC', 'everyday carry', 'lifetime', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten lifetime-carry picks — Leatherman, Zippo, Stanley, KeyBar, The Ridge, Tactile Turn, GORUCK, SureFire, Randolph, GiantMouse — one brand per slot.',
+    content: `
+<p>A lifetime everyday carry is the opposite of a seasonal color story. Each slot is a tool you replace only when it fails: a multi-tool, a lighter, a flask, a key organizer, a metal wallet, a bolt pen, a pack, a pocket light, sunglasses, and a knife. Diffr assigns one specialist brand to each function and closes the file.</p>
+
+<p>Ten brands on preset 171: <strong>Leatherman</strong>, <strong>Zippo</strong>, <strong>Stanley</strong>, <strong>KeyBar</strong>, <strong>The Ridge</strong>, <strong>Tactile Turn</strong>, <strong>GORUCK</strong>, <strong>SureFire</strong>, <strong>Randolph Engineering</strong>, and <strong>GiantMouse</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Multi-tool</h3>
+<p><strong>Leatherman Signal</strong></p>
+
+<h3>Slot 2 &mdash; Lighter</h3>
+<p><strong>Zippo Classic Brushed Chrome</strong></p>
+
+<h3>Slot 3 &mdash; Flask</h3>
+<p><strong>Stanley Adventure Pre-Party Flask 8 oz &mdash; Hammertone Green</strong></p>
+
+<h3>Slot 4 &mdash; Keys</h3>
+<p><strong>KeyBar Stonewashed Aluminum KeyBar</strong></p>
+
+<h3>Slot 5 &mdash; Wallet</h3>
+<p><strong>The Ridge Ridge Wallet &mdash; Burnt Titanium</strong></p>
+
+<h3>Slot 6 &mdash; Pen</h3>
+<p><strong>Tactile Turn Titanium Bolt Action Pen &mdash; Standard, Stonewashed</strong></p>
+
+<h3>Slot 7 &mdash; Pack</h3>
+<p><strong>GORUCK GR1 USA 26L &mdash; Black 1000D</strong></p>
+
+<h3>Slot 8 &mdash; Light</h3>
+<p><strong>SureFire Titan Plus / TITAN-B</strong></p>
+
+<h3>Slot 9 &mdash; Sunglasses</h3>
+<p><strong>Randolph Engineering Aviator &mdash; Gunmetal / SkyTec AGX Polarized Glass &mdash; Regular 55mm</strong></p>
+
+<h3>Slot 10 &mdash; Knife</h3>
+<p><strong>GiantMouse GMF1 &mdash; Stonewashed N690 / Brown Leather Sheath</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 171</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/lifetime-edc-kit">interactive Lifetime EDC Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Pocket-dump grids mix rescue orange, micro tools, and titanium blackout faster than any checklist. Diffr maps this lifetime carry into ten specialist lanes &mdash; each pinned on preset 171 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/hivis-orange-edc-brand-guide">All Orange EDC</a> (preset 168) &middot; <a href="/diffr/blog/blackout-titanium-edc-brand-guide">Blackout Titanium EDC</a> (preset 155) &middot; <a href="/diffr/blog/micro-edc-brand-guide">Micro EDC Essentials</a> (preset 164). Explore the interactive scene: <a href="/diffr/start/lifetime-edc-kit">Lifetime EDC Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-nanette-lepore-brand-guide',
+    title: 'Realistic Fall Vibes What\'s in My Bag: 8 Autumn Essentials',
+    description: 'Eight autumn tote picks — Nanette Lepore east-west shoulder bag with scarf, Halls Soothers, Smythson Panama pouch, 3CE Fitting Mesh cushion, Dash Wallet MagSafe stand, Mous Limitless sage case, Sanrio Hello Kitty pouch, Midori A5 notebook. One brand per slot.',
+    date: '2026-09-29',
+    readTime: '5 min read',
+    tags: ['brand guide', 'WIMB', 'what\'s in my bag', 'autumn', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight fall-tote picks — Nanette Lepore, Halls, Smythson, 3CE, Dash Wallet, Mous, Sanrio, Midori — one brand per slot.',
+    content: `
+<p>A fall tote is a small closed kit: the bag, throat soothers, a leather pouch, cushion foundation, a MagSafe wallet, a phone case, a plush zipper pouch, and a notebook. Diffr assigns one brand to each slot. Amazon Basics and Five Below stay out of this preset until a verified packshot exists, so the published kit is the eight products on the cover.</p>
+
+<p>Eight brands on preset 172: <strong>Nanette Lepore</strong>, <strong>Halls</strong>, <strong>Smythson</strong>, <strong>3CE</strong>, <strong>Dash Wallet</strong>, <strong>Mous</strong>, <strong>Sanrio</strong>, and <strong>Midori</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Bag</h3>
+<p><strong>Nanette Lepore Faux Leather East West Shoulder Bag with Scarf</strong></p>
+
+<h3>Slot 2 &mdash; Lozenges</h3>
+<p><strong>Halls Soothers Cherry 20 Packs</strong></p>
+
+<h3>Slot 3 &mdash; Leather pouch</h3>
+<p><strong>Smythson Small Panama Leather Flat Pouch</strong></p>
+
+<h3>Slot 4 &mdash; Cushion foundation</h3>
+<p><strong>3CE Fitting Mesh Cover Cushion P01</strong></p>
+
+<h3>Slot 5 &mdash; MagSafe wallet</h3>
+<p><strong>Dash Wallet Ultra Slim MagSafe Wallet Stand Greige</strong></p>
+
+<h3>Slot 6 &mdash; Phone case</h3>
+<p><strong>Mous Limitless Phone Case Sage</strong></p>
+
+<h3>Slot 7 &mdash; Plush pouch</h3>
+<p><strong>Sanrio Hello Kitty Plush Zipper Pouch - Lace and Frills Series</strong></p>
+
+<h3>Slot 8 &mdash; Notebook</h3>
+<p><strong>Midori A5 Off White Notebook</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 172</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-nanette-lepore-kit">interactive Nanette Lepore Fall WIMB Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Autumn bag spills mix vanity organizers, charm accessories, and a second beauty compact faster than any checklist. Diffr maps this tote into eight specialist lanes &mdash; each pinned on preset 172 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-antique-craft-brand-guide">Antique Craft slouchy tote WIMB</a> (preset 169) &middot; <a href="/diffr/blog/wimb-dark-brown-satchel-brand-guide">Dark Brown Satchel WIMB</a> (preset 165) &middot; <a href="/diffr/blog/wimb-teddy-blake-brand-guide">Teddy Blake Dana WIMB</a> (preset 162). Explore the interactive scene: <a href="/diffr/start/wimb-nanette-lepore-kit">Nanette Lepore Fall WIMB Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-trench-coat-brand-guide',
+    title: 'Styling an Earth-Tone Trench Coat for Autumn',
+    description: 'Nine earth-tone autumn layers — Burberry short Kensington trench in Juniper, Percival ecru cable knit, Represent vintage tee, Studio Nicholson cream trousers, Adidas Samba OG JP9500, Aimé Leon Dore cap, Tom Ford Soleil Blanc, Hamilton Ventura, Dior Saddle messenger. One brand per slot.',
+    date: '2026-09-29',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'trench coat', 'autumn', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine earth-tone layers — Burberry, Percival, Represent, Studio Nicholson, Adidas, Aimé Leon Dore, Tom Ford, Hamilton, Dior — one brand per slot.',
+    content: `
+<p>An earth-tone trench outfit is nine decisions: the coat, the knit, the tee, the trousers, the sneakers, the cap, the perfume, the watch, and the bag. Diffr assigns one brand to each layer so the look does not collapse into a single-house catalog.</p>
+
+<p>Nine brands on preset 173: <strong>Burberry</strong>, <strong>Percival</strong>, <strong>Represent</strong>, <strong>Studio Nicholson</strong>, <strong>Adidas</strong>, <strong>Aim&eacute; Leon Dore</strong>, <strong>Tom Ford</strong>, <strong>Hamilton</strong>, and <strong>Dior</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Trench</h3>
+<p><strong>Burberry Short Tropical Gabardine Kensington Trench Coat - Juniper</strong></p>
+
+<h3>Slot 2 &mdash; Knit</h3>
+<p><strong>Percival Melville Cable Knit Jumper - Wool - Ecru</strong></p>
+
+<h3>Slot 3 &mdash; Tee</h3>
+<p><strong>Represent Aged White Grand Vintage Tee</strong></p>
+
+<h3>Slot 4 &mdash; Trousers</h3>
+<p><strong>Studio Nicholson Sorte Pleated Pant - Cream</strong></p>
+
+<h3>Slot 5 &mdash; Sneakers</h3>
+<p><strong>Adidas Samba OG Shoes - Team Dark Green / Better Scarlet / Gum - JP9500</strong></p>
+
+<h3>Slot 6 &mdash; Cap</h3>
+<p><strong>Aim&eacute; Leon Dore Core Logo Hat - Green</strong></p>
+
+<h3>Slot 7 &mdash; Perfume</h3>
+<p><strong>Tom Ford Soleil Blanc Parfum 50 ml</strong></p>
+
+<h3>Slot 8 &mdash; Watch</h3>
+<p><strong>Hamilton Ventura Quartz Black Dial H24411732</strong></p>
+
+<h3>Slot 9 &mdash; Bag</h3>
+<p><strong>Dior Saddle Messenger Bag Oblique</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 173</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-trench-coat-kit">interactive Earth-Tone Trench Coat OOTD Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Autumn outfit grids mix full-length coats, black Sambas, and a second leather jacket faster than any checklist. Diffr maps this trench look into nine specialist lanes &mdash; each pinned on preset 173 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-overcoat-brand-guide">wool overcoat OOTD</a> (preset 163) &middot; <a href="/diffr/blog/styling-airport-carryon-brand-guide">cozy airport carry-on OOTD</a> (preset 170) &middot; <a href="/diffr/blog/styling-brown-leather-jacket-brand-guide">brown leather jacket OOTD</a> (preset 166). Explore the interactive scene: <a href="/diffr/start/ootd-trench-coat-kit">Earth-Tone Trench Coat Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
 ]

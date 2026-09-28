@@ -100,6 +100,9 @@ export const OG_BASE_SLUGS = new Set<string>([
   'hivis-orange-edc-brand-guide',
   'wimb-antique-craft-brand-guide',
   'styling-airport-carryon-brand-guide',
+  'lifetime-edc-brand-guide',
+  'wimb-nanette-lepore-brand-guide',
+  'styling-trench-coat-brand-guide',
   '54321-packing-method-brand-guide',
   // Aritzia / athleisure rescue pages (2026-09-15)
   'wilfred-brand-guide',
