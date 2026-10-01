@@ -127,6 +127,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'lifetime-edc-brand-guide': 171,
   'wimb-nanette-lepore-brand-guide': 172,
   'styling-trench-coat-brand-guide': 173,
+  'styling-puma-speedcat-brand-guide': 174,
+  'wimb-celine-triomphe-brand-guide': 175,
+  'tough-travel-edc-brand-guide': 176,
 }
 
 export async function generateStaticParams() {

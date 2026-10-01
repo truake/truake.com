@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/tough-travel-edc-brand-guide">Tough Travel EDC</a> (preset 176)</li>
 <li><a href="/diffr/blog/lifetime-edc-brand-guide">Lifetime EDC Essentials</a> (preset 171)</li>
 <li><a href="/diffr/blog/garage-on-your-feet-brand-guide">A Garage On Your Feet</a> (preset 167)</li>
 <li><a href="/diffr/blog/hivis-orange-edc-brand-guide">All Orange EDC</a> (preset 168)</li>
@@ -68,6 +69,7 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-celine-triomphe-brand-guide">Celine Triomphe Tote WIMB</a> (preset 175)</li>
 <li><a href="/diffr/blog/wimb-nanette-lepore-brand-guide">Nanette Lepore Fall WIMB</a> (preset 172)</li>
 <li><a href="/diffr/blog/wimb-dark-brown-satchel-brand-guide">Dark Brown Satchel WIMB</a> (preset 165)</li>
 <li><a href="/diffr/blog/wimb-antique-craft-brand-guide">Antique Craft Slouchy Tote WIMB</a> (preset 169)</li>
@@ -84,6 +86,7 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-puma-speedcat-brand-guide">PUMA Speedcat OOTD</a> (preset 174)</li>
 <li><a href="/diffr/blog/styling-trench-coat-brand-guide">Earth-Tone Trench Coat OOTD</a> (preset 173)</li>
 <li><a href="/diffr/blog/styling-brown-leather-jacket-brand-guide">Brown Leather Jacket OOTD</a> (preset 166)</li>
 <li><a href="/diffr/blog/styling-airport-carryon-brand-guide">Cozy Airport Carry-On OOTD</a> (preset 170)</li>
@@ -8124,6 +8127,162 @@ Diffr ends with: here is what you get.</p>
 <p>Autumn outfit grids mix full-length coats, black Sambas, and a second leather jacket faster than any checklist. Diffr maps this trench look into nine specialist lanes &mdash; each pinned on preset 173 with live catalog tiles below.</p>
 
 <p>Distinct from <a href="/diffr/blog/styling-overcoat-brand-guide">wool overcoat OOTD</a> (preset 163) &middot; <a href="/diffr/blog/styling-airport-carryon-brand-guide">cozy airport carry-on OOTD</a> (preset 170) &middot; <a href="/diffr/blog/styling-brown-leather-jacket-brand-guide">brown leather jacket OOTD</a> (preset 166). Explore the interactive scene: <a href="/diffr/start/ootd-trench-coat-kit">Earth-Tone Trench Coat Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-puma-speedcat-brand-guide',
+    title: 'Styling the PUMA Speedcat for Smart Casual',
+    description: 'Seven smart-casual layers — Weekday Ken trackpants, Gymshark Critical 2.0 stringer, Lemaire sage overshirt, Puma Speedcat OG Haute Coffee/Ivory, Penhaligon\'s Blenheim Bouquet, Jil Sander silver band, Noah NYC core logo tote. One brand per slot.',
+    date: '2026-10-02',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'Speedcat', 'smart casual', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Seven smart-casual layers — Weekday, Gymshark, Lemaire, Puma, Penhaligon\'s, Jil Sander, Noah NYC — one brand per slot.',
+    content: `
+<p>A smart-casual Speedcat outfit is seven decisions: the trousers, the stringer, the overshirt, the sneakers, the fragrance, one ring, and the tote. Diffr assigns one brand to each layer. The shoe is a brown suede Speedcat, not a black ankle boot.</p>
+
+<p>Seven brands on preset 174: <strong>Weekday</strong>, <strong>Gymshark</strong>, <strong>Lemaire</strong>, <strong>Puma</strong>, <strong>Penhaligon&rsquo;s</strong>, <strong>Jil Sander</strong>, and <strong>Noah NYC</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Trousers</h3>
+<p><strong>Weekday Ken Jersey Trackpants</strong></p>
+
+<h3>Slot 2 &mdash; Stringer</h3>
+<p><strong>Gymshark Critical 2.0 Stringer &mdash; Black</strong></p>
+
+<h3>Slot 3 &mdash; Overshirt</h3>
+<p><strong>Lemaire Trucker Overshirt &mdash; Light Sage</strong></p>
+
+<h3>Slot 4 &mdash; Sneakers</h3>
+<p><strong>Puma Speedcat OG &mdash; Haute Coffee/Ivory</strong></p>
+
+<h3>Slot 5 &mdash; Fragrance</h3>
+<p><strong>Penhaligon&rsquo;s Blenheim Bouquet Eau de Toilette</strong></p>
+
+<h3>Slot 6 &mdash; Ring</h3>
+<p><strong>Jil Sander Sterling Silver Band Ring</strong></p>
+
+<h3>Slot 7 &mdash; Tote</h3>
+<p><strong>Noah NYC Classic Core Logo Tote &mdash; Navy</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 174</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-puma-speedcat-kit">interactive PUMA Speedcat OOTD Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Smart-casual grids mix a second ring, a black boot, and a second canvas tote faster than any checklist. Diffr maps this look into seven specialist lanes &mdash; each pinned on preset 174 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-trench-coat-brand-guide">earth-tone trench OOTD</a> (preset 173) &middot; <a href="/diffr/blog/styling-brown-leather-jacket-brand-guide">brown leather jacket OOTD</a> (preset 166). Explore the interactive scene: <a href="/diffr/start/ootd-puma-speedcat-kit">PUMA Speedcat Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-celine-triomphe-brand-guide',
+    title: 'What\'s in a Celine Triomphe Tote',
+    description: 'Ten tote picks — Celine Triomphe Canvas tote, New Matter Sudo, MUJI pen case, Barkleys aniseed tin, SAMO ONDOH Tokiyom keychain, Leuchtturm1917 A6 notebook, Herschel Settlement pencil case, Kleenex Ultra Strong, Mophie Juice Pack Mini, THREE Lip Glow. One brand per slot.',
+    date: '2026-10-02',
+    readTime: '5 min read',
+    tags: ['brand guide', 'WIMB', 'what\'s in my bag', 'Celine', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten tote picks — Celine, New Matter, MUJI, Barkleys, SAMO ONDOH, Leuchtturm1917, Herschel, Kleenex, Mophie, THREE — one brand per slot.',
+    content: `
+<p>A Triomphe tote spill is ten closed choices: the bag, a music player, a pen case, a mint tin, a keychain, a notebook, a second pencil case, tissues, a magnetic charger, and a lip glow. Diffr assigns one brand to each slot. The bag is Celine, not Antique Craft.</p>
+
+<p>Ten brands on preset 175: <strong>Celine</strong>, <strong>New Matter</strong>, <strong>MUJI</strong>, <strong>Barkleys</strong>, <strong>SAMO ONDOH</strong>, <strong>Leuchtturm1917</strong>, <strong>Herschel</strong>, <strong>Kleenex</strong>, <strong>Mophie</strong>, and <strong>THREE</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Tote</h3>
+<p><strong>Celine Triomphe Canvas Tote</strong></p>
+
+<h3>Slot 2 &mdash; Music player</h3>
+<p><strong>New Matter Sudo</strong></p>
+
+<h3>Slot 3 &mdash; Pen case</h3>
+<p><strong>MUJI Polypropylene Pen Case &mdash; Small</strong></p>
+
+<h3>Slot 4 &mdash; Mints</h3>
+<p><strong>Barkleys Aniseed Peppermints Tin 50g</strong></p>
+
+<h3>Slot 5 &mdash; Keychain</h3>
+<p><strong>SAMO ONDOH ACC Tokiyom Keychain &mdash; Eco Shearling Black</strong></p>
+
+<h3>Slot 6 &mdash; Notebook</h3>
+<p><strong>Leuchtturm1917 Pocket Notebook Hardcover A6 &mdash; Fox Red</strong></p>
+
+<h3>Slot 7 &mdash; Pencil case</h3>
+<p><strong>Herschel Settlement Little Kids&rsquo; Pencil Case &mdash; Blue</strong></p>
+
+<h3>Slot 8 &mdash; Tissues</h3>
+<p><strong>Kleenex Ultra Strong</strong></p>
+
+<h3>Slot 9 &mdash; Charger</h3>
+<p><strong>Mophie Snap+ Juice Pack Mini</strong></p>
+
+<h3>Slot 10 &mdash; Lip glow</h3>
+<p><strong>THREE Arising Spirit Lip Glow 03 Perfect Poetry</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 175</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-celine-triomphe-kit">interactive Celine Triomphe WIMB Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Tote spills mix a second leather bag, a Sanrio card, and a Moleskine planner faster than any checklist. Diffr maps this Triomphe kit into ten specialist lanes &mdash; each pinned on preset 175 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-antique-craft-brand-guide">Antique Craft slouchy tote WIMB</a> (preset 169) &middot; <a href="/diffr/blog/wimb-nanette-lepore-brand-guide">Nanette Lepore Fall WIMB</a> (preset 172). Explore the interactive scene: <a href="/diffr/start/wimb-celine-triomphe-kit">Celine Triomphe Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'tough-travel-edc-brand-guide',
+    title: '10 Tough Travel EDC Essentials',
+    description: 'Ten travel-carry picks — Victorinox Air Pro GMT, Elevation Lab TagVault, Snow Peak Titanium Aurora Bottle, DSPTCH Shoe Tote, Pioneer Carry passport wallet, Matador pill canister, Toor Knives keychain tool, Goal Zero Flip 36, WESN The CB, Oakley Sutro Ti. One brand per slot.',
+    date: '2026-10-02',
+    readTime: '5 min read',
+    tags: ['brand guide', 'EDC', 'travel', 'everyday carry', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten travel-carry picks — Victorinox, Elevation Lab, Snow Peak, DSPTCH, Pioneer Carry, Matador, Toor Knives, Goal Zero, WESN, Oakley — one brand per slot.',
+    content: `
+<p>A tough travel carry is ten tools and one bag. The bag is a DSPTCH shoe tote. Everything else stays small: a GMT watch, an AirTag cable, a titanium bottle, a passport wallet, a pill canister, a keychain tool, a power bank, a carabiner, and shield sunglasses.</p>
+
+<p>Ten brands on preset 176: <strong>Victorinox</strong>, <strong>Elevation Lab</strong>, <strong>Snow Peak</strong>, <strong>DSPTCH</strong>, <strong>Pioneer Carry</strong>, <strong>Matador</strong>, <strong>Toor Knives</strong>, <strong>Goal Zero</strong>, <strong>WESN</strong>, and <strong>Oakley</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Watch</h3>
+<p><strong>Victorinox Air Pro Automatic 242005</strong></p>
+
+<h3>Slot 2 &mdash; AirTag cable</h3>
+<p><strong>Elevation Lab TagVault AirTag Security Cable</strong></p>
+
+<h3>Slot 3 &mdash; Bottle</h3>
+<p><strong>Snow Peak Titanium Aurora Bottle</strong></p>
+
+<h3>Slot 4 &mdash; Bag</h3>
+<p><strong>DSPTCH Shoe Tote</strong></p>
+
+<h3>Slot 5 &mdash; Passport</h3>
+<p><strong>Pioneer Carry Passport Wallet &mdash; Onyx 10XD</strong></p>
+
+<h3>Slot 6 &mdash; Pills</h3>
+<p><strong>Matador Waterproof Pill Canister</strong></p>
+
+<h3>Slot 7 &mdash; Multi-tool</h3>
+<p><strong>Toor Knives Keychain Multi-Tool</strong></p>
+
+<h3>Slot 8 &mdash; Power bank</h3>
+<p><strong>Goal Zero Flip 36</strong></p>
+
+<h3>Slot 9 &mdash; Carabiner</h3>
+<p><strong>WESN The CB</strong></p>
+
+<h3>Slot 10 &mdash; Sunglasses</h3>
+<p><strong>Oakley Sutro Ti OO6013</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 176</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/tough-travel-edc-kit">interactive Tough Travel EDC Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Travel dumps stack a second backpack, a dopp kit, and a packing pod onto the same flat lay. Diffr keeps one bag and maps the rest into nine specialist lanes &mdash; each pinned on preset 176 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/lifetime-edc-brand-guide">Lifetime EDC</a> (preset 171) &middot; <a href="/diffr/blog/hivis-orange-edc-brand-guide">All Orange EDC</a> (preset 168). Explore the interactive scene: <a href="/diffr/start/tough-travel-edc-kit">Tough Travel EDC Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
 ]

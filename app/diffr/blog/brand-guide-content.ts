@@ -255,6 +255,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Nanette Lepore Fall WIMB is eight autumn tote slots — Nanette Lepore faux-leather east-west shoulder bag with scarf, Halls Soothers Cherry, Smythson Panama flat pouch, 3CE Fitting Mesh Cover Cushion P01, Dash Wallet greige MagSafe stand, Mous Limitless sage case, Sanrio Hello Kitty plush zipper pouch, Midori A5 off-white notebook — one brand each on preset 172. Live catalog tiles below.',
   'styling-trench-coat-brand-guide':
     'Bottom line: Earth-tone trench OOTD is nine autumn layers — Burberry short Kensington trench in Juniper, Percival Melville ecru cable knit, Represent Aged White Grand Vintage tee, Studio Nicholson Sorte cream pleated pant, Adidas Samba OG JP9500, Aimé Leon Dore green cap, Tom Ford Soleil Blanc 50 ml, Hamilton Ventura H24411732, Dior Saddle messenger Oblique — one brand each on preset 173. Live catalog tiles below.',
+  'styling-puma-speedcat-brand-guide':
+    'Bottom line: PUMA Speedcat OOTD is seven smart-casual layers — Weekday Ken Jersey Trackpants, Gymshark Critical 2.0 Stringer Black, Lemaire light-sage trucker overshirt, Puma Speedcat OG Haute Coffee/Ivory, Penhaligon\'s Blenheim Bouquet, Jil Sander sterling silver band, Noah NYC Classic Core Logo Tote Navy — one brand each on preset 174. Live catalog tiles below.',
+  'wimb-celine-triomphe-brand-guide':
+    'Bottom line: Celine Triomphe WIMB is ten tote slots — Celine Triomphe Canvas tote, New Matter Sudo, MUJI polypropylene pen case, Barkleys aniseed tin 50g, SAMO ONDOH Tokiyom eco-shearling keychain, Leuchtturm1917 fox-red A6 notebook, Herschel Settlement pencil case, Kleenex Ultra Strong, Mophie Snap+ Juice Pack Mini, THREE Arising Spirit Lip Glow 03 — one brand each on preset 175. Live catalog tiles below.',
+  'tough-travel-edc-brand-guide':
+    'Bottom line: Tough Travel EDC is ten carry slots and one bag — Victorinox Air Pro Automatic 242005, Elevation Lab TagVault, Snow Peak Titanium Aurora Bottle, DSPTCH Shoe Tote, Pioneer Carry Onyx 10XD passport wallet, Matador waterproof pill canister, Toor Knives keychain tool, Goal Zero Flip 36, WESN The CB, Oakley Sutro Ti — one brand each on preset 176. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2655,6 +2661,51 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do I open the trench coat OOTD in the Diffr app?',
       a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 173 or the ootd-trench-coat Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-puma-speedcat-brand-guide': [
+    {
+      q: 'What is the PUMA Speedcat OOTD?',
+      a: 'It is a seven-slot smart-casual outfit: Weekday Ken Jersey Trackpants, Gymshark Critical 2.0 Stringer — Black, Lemaire Trucker Overshirt — Light Sage, Puma Speedcat OG — Haute Coffee/Ivory, Penhaligon\'s Blenheim Bouquet Eau de Toilette, Jil Sander Sterling Silver Band Ring, and Noah NYC Classic Core Logo Tote — Navy. Seven distinct brands on preset 174.',
+    },
+    {
+      q: 'Why a Speedcat instead of black ankle boots?',
+      a: 'Editorial pins the Haute Coffee/Ivory Speedcat OG that matches the cover. The outfit is sneakers, a stringer, and one silver band — not a boot pair and not a second ring.',
+    },
+    {
+      q: 'How do I open the Speedcat OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 174 or the ootd-puma-speedcat Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-celine-triomphe-brand-guide': [
+    {
+      q: 'What is in the Celine Triomphe tote kit?',
+      a: 'It is a ten-slot tote spill: Celine Triomphe Canvas Tote, New Matter Sudo, MUJI Polypropylene Pen Case — Small, Barkleys Aniseed Peppermints Tin 50g, SAMO ONDOH ACC Tokiyom Keychain — Eco Shearling Black, Leuchtturm1917 Pocket Notebook Hardcover A6 — Fox Red, Herschel Settlement Little Kids\' Pencil Case — Blue, Kleenex Ultra Strong, Mophie Snap+ Juice Pack Mini, and THREE Arising Spirit Lip Glow 03 Perfect Poetry. Ten distinct brands on preset 175.',
+    },
+    {
+      q: 'How is this different from Antique Craft WIMB?',
+      a: 'Antique Craft (preset 169) is a white slouchy leather tote. Celine Triomphe WIMB (preset 175) is a monogram canvas tote with a music player, fox-red notebook, shearling keychain, and Kleenex Ultra Strong.',
+    },
+    {
+      q: 'How do I open the Celine Triomphe WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 175 or the wimb-celine-triomphe Scene — same pins as this post.',
+    },
+  ],
+
+  'tough-travel-edc-brand-guide': [
+    {
+      q: 'What is Tough Travel EDC?',
+      a: 'It is a ten-slot travel carry with one bag: Victorinox Air Pro Automatic 242005, Elevation Lab TagVault AirTag Security Cable, Snow Peak Titanium Aurora Bottle, DSPTCH Shoe Tote, Pioneer Carry Passport Wallet — Onyx 10XD, Matador Waterproof Pill Canister, Toor Knives Keychain Multi-Tool, Goal Zero Flip 36, WESN The CB, and Oakley Sutro Ti OO6013. Ten distinct brands on preset 176.',
+    },
+    {
+      q: 'Why only one bag?',
+      a: 'The bag slot is the DSPTCH Shoe Tote. A second backpack, dopp kit, or packing pod is not on this preset.',
+    },
+    {
+      q: 'How do I open Tough Travel EDC in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 176 or the tough-travel-edc Scene — same pins as this post.',
     },
   ],
 

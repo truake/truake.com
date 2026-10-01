@@ -88,6 +88,9 @@ export const BLOG_SLUG_TO_START: Record<string, string> = {
   'lifetime-edc-brand-guide': 'lifetime-edc-kit',
   'wimb-nanette-lepore-brand-guide': 'wimb-nanette-lepore-kit',
   'styling-trench-coat-brand-guide': 'ootd-trench-coat-kit',
+  'styling-puma-speedcat-brand-guide': 'ootd-puma-speedcat-kit',
+  'wimb-celine-triomphe-brand-guide': 'wimb-celine-triomphe-kit',
+  'tough-travel-edc-brand-guide': 'tough-travel-edc-kit',
 }
 
 /** Inverse map: start funnel slug → SEO-canonical blog post slug. */
