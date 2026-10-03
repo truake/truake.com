@@ -130,6 +130,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'styling-puma-speedcat-brand-guide': 174,
   'wimb-celine-triomphe-brand-guide': 175,
   'tough-travel-edc-brand-guide': 176,
+  'tech-essentials-edc-brand-guide': 177,
+  'wimb-coach-gray-satchel-brand-guide': 178,
+  'styling-off-white-denim-brand-guide': 179,
 }
 
 export async function generateStaticParams() {

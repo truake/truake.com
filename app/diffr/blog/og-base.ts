@@ -106,6 +106,9 @@ export const OG_BASE_SLUGS = new Set<string>([
   'styling-puma-speedcat-brand-guide',
   'wimb-celine-triomphe-brand-guide',
   'tough-travel-edc-brand-guide',
+  'tech-essentials-edc-brand-guide',
+  'wimb-coach-gray-satchel-brand-guide',
+  'styling-off-white-denim-brand-guide',
   '54321-packing-method-brand-guide',
   // Aritzia / athleisure rescue pages (2026-09-15)
   'wilfred-brand-guide',

@@ -261,6 +261,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Celine Triomphe WIMB is ten tote slots — Celine Triomphe Canvas tote, New Matter Sudo, MUJI polypropylene pen case, Barkleys aniseed tin 50g, SAMO ONDOH Tokiyom eco-shearling keychain, Leuchtturm1917 fox-red A6 notebook, Herschel Settlement pencil case, Kleenex Ultra Strong, Mophie Snap+ Juice Pack Mini, THREE Arising Spirit Lip Glow 03 — one brand each on preset 175. Live catalog tiles below.',
   'tough-travel-edc-brand-guide':
     'Bottom line: Tough Travel EDC is ten carry slots and one bag — Victorinox Air Pro Automatic 242005, Elevation Lab TagVault, Snow Peak Titanium Aurora Bottle, DSPTCH Shoe Tote, Pioneer Carry Onyx 10XD passport wallet, Matador waterproof pill canister, Toor Knives keychain tool, Goal Zero Flip 36, WESN The CB, Oakley Sutro Ti — one brand each on preset 176. Live catalog tiles below.',
+  'tech-essentials-edc-brand-guide':
+    'Bottom line: Tech Essentials EDC is ten creator-carry slots — Crash Baggage Mini Icon Silver, Hublot 542.NX.5610.NR.HEC24, Bang & Olufsen Beoplay Eleven, Ridge 10k matte-black power bank, Nomad Goods ChargeKey, Nokia N-Gage QD, Rolling Square AirCard Pro, Western Digital G-DRIVE ArmorATD 2TB, Leica SOFORT 2 Black, Joby NanoPod — one brand each on preset 177. Live catalog tiles below.',
+  'wimb-coach-gray-satchel-brand-guide':
+    'Bottom line: Coach Gray Satchel WIMB is eleven bag-spill slots — Coach Rowan Dark Stone, Lihit PuniLabo standing pen case, Kate Spade Spencer cardholder, Touchland Beach Coco, Bath & Body Works eucalyptus spearmint 29ml, Burt\'s Bees peppermint, rom&nd Juicy Lasting Tint, elleair +Water tissue, Sony RX100 VII, Belkin 5K, Loewe mouse charm — one brand each on preset 178. Live catalog tiles below.',
+  'styling-off-white-denim-brand-guide':
+    'Bottom line: Navy denim OOTD is eight autumn layers — Studio Nicholson Bill navy denim, Barbour Beaufort olive, Percival Melville ecru cable knit, Sunspel white jersey tank, Paraboot Michael Café, Brunello Cucinelli pull-up belt, Jo Malone Wood Sage & Sea Salt, mastermind JAPAN skull ring — one brand each on preset 179. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2706,6 +2712,51 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do I open Tough Travel EDC in the Diffr app?',
       a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 176 or the tough-travel-edc Scene — same pins as this post.',
+    },
+  ],
+
+  'tech-essentials-edc-brand-guide': [
+    {
+      q: 'What is Tech Essentials EDC?',
+      a: 'It is a ten-slot creator carry: Crash Baggage Mini Icon — Silver, Hublot 542.NX.5610.NR.HEC24, Bang & Olufsen Beoplay Eleven, Ridge Power Bank — 10k mAh — Matte Black, Nomad Goods ChargeKey, Nokia N-Gage QD, Rolling Square AirCard Pro, Western Digital G-DRIVE ArmorATD 2TB, Leica SOFORT 2 — Black, and Joby NanoPod Mini Magnetic Tripod. Ten distinct brands on preset 177.',
+    },
+    {
+      q: 'Why a Mini Icon instead of a suitcase?',
+      a: 'The bag slot is the silver Crash Baggage Mini Icon, a small dented hard-shell sling. A rolling suitcase is not on this preset.',
+    },
+    {
+      q: 'How do I open Tech Essentials EDC in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 177 or the tech-essentials-edc Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-coach-gray-satchel-brand-guide': [
+    {
+      q: 'What is in the Coach gray satchel kit?',
+      a: 'It is an eleven-slot bag spill: Coach Rowan Satchel Bag — Dark Stone, Lihit SMART FIT PuniLabo Standing Pen Case, Kate Spade Spencer Cardholder — Black, Touchland Power Mist Beach Coco, Bath & Body Works Eucalyptus Spearmint mist 29ml, Burt\'s Bees peppermint balm, rom&nd Juicy Lasting Tint, elleair +Water Pocket Tissue, Sony Cyber-shot RX100 VII, Belkin Magnetic Wireless Power Bank 5K, and Loewe Leather Mouse Bag Charm. Eleven distinct brands on preset 178.',
+    },
+    {
+      q: 'How is this different from the Celine Triomphe tote?',
+      a: 'Celine Triomphe WIMB (preset 175) is a monogram canvas tote. This kit is a Coach Rowan satchel with a cat pen case, a lilac 5K bank, and a leather mouse charm.',
+    },
+    {
+      q: 'How do I open the Coach gray satchel WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 178 or the wimb-coach-gray-satchel Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-off-white-denim-brand-guide': [
+    {
+      q: 'What is the navy denim OOTD?',
+      a: 'It is an eight-slot autumn outfit: Studio Nicholson Bill Denim Pant — Navy, Barbour Beaufort Classic Wax Jacket — Olive, Percival Melville Cable Knit Jumper — Ecru, Sunspel Cotton-Jersey Tank Top — White, Paraboot Michael Marche II — Café, Brunello Cucinelli Pull-up Calfskin Belt, Jo Malone Wood Sage & Sea Salt Cologne, and mastermind JAPAN MJ Perfect Skull Ring. Eight distinct brands on preset 179.',
+    },
+    {
+      q: 'Why navy denim instead of cream trousers?',
+      a: 'Editorial pins the navy Bill denim that matches the cover. The knit stays ecru. The trousers are not a cream wide leg.',
+    },
+    {
+      q: 'How do I open the navy denim OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 179 or the ootd-off-white-denim Scene — same pins as this post.',
     },
   ],
 

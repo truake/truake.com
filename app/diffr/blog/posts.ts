@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/tech-essentials-edc-brand-guide">Tech Essentials EDC</a> (preset 177)</li>
 <li><a href="/diffr/blog/tough-travel-edc-brand-guide">Tough Travel EDC</a> (preset 176)</li>
 <li><a href="/diffr/blog/lifetime-edc-brand-guide">Lifetime EDC Essentials</a> (preset 171)</li>
 <li><a href="/diffr/blog/garage-on-your-feet-brand-guide">A Garage On Your Feet</a> (preset 167)</li>
@@ -69,6 +70,7 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-coach-gray-satchel-brand-guide">Coach Gray Satchel WIMB</a> (preset 178)</li>
 <li><a href="/diffr/blog/wimb-celine-triomphe-brand-guide">Celine Triomphe Tote WIMB</a> (preset 175)</li>
 <li><a href="/diffr/blog/wimb-nanette-lepore-brand-guide">Nanette Lepore Fall WIMB</a> (preset 172)</li>
 <li><a href="/diffr/blog/wimb-dark-brown-satchel-brand-guide">Dark Brown Satchel WIMB</a> (preset 165)</li>
@@ -86,6 +88,7 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-off-white-denim-brand-guide">Navy Denim OOTD</a> (preset 179)</li>
 <li><a href="/diffr/blog/styling-puma-speedcat-brand-guide">PUMA Speedcat OOTD</a> (preset 174)</li>
 <li><a href="/diffr/blog/styling-trench-coat-brand-guide">Earth-Tone Trench Coat OOTD</a> (preset 173)</li>
 <li><a href="/diffr/blog/styling-brown-leather-jacket-brand-guide">Brown Leather Jacket OOTD</a> (preset 166)</li>
@@ -8283,6 +8286,168 @@ Diffr ends with: here is what you get.</p>
 <p>Travel dumps stack a second backpack, a dopp kit, and a packing pod onto the same flat lay. Diffr keeps one bag and maps the rest into nine specialist lanes &mdash; each pinned on preset 176 with live catalog tiles below.</p>
 
 <p>Distinct from <a href="/diffr/blog/lifetime-edc-brand-guide">Lifetime EDC</a> (preset 171) &middot; <a href="/diffr/blog/hivis-orange-edc-brand-guide">All Orange EDC</a> (preset 168). Explore the interactive scene: <a href="/diffr/start/tough-travel-edc-kit">Tough Travel EDC Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'tech-essentials-edc-brand-guide',
+    title: '10 Tech Essentials for a Creator EDC',
+    description: 'Ten creator-carry picks — Crash Baggage Mini Icon Silver, Hublot 542.NX.5610.NR.HEC24, Bang & Olufsen Beoplay Eleven, Ridge 10k matte black power bank, Nomad Goods ChargeKey, Nokia N-Gage QD, Rolling Square AirCard Pro, Western Digital G-DRIVE ArmorATD 2TB, Leica SOFORT 2 Black, Joby NanoPod. One brand per slot.',
+    date: '2026-10-04',
+    readTime: '6 min read',
+    tags: ['brand guide', 'EDC', 'creator', 'everyday carry', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten creator-carry picks — Crash Baggage, Hublot, Bang & Olufsen, Ridge, Nomad Goods, Nokia, Rolling Square, Western Digital, Leica, Joby — one brand per slot.',
+    content: `
+<p>A creator EDC is ten closed choices and one small bag. The bag is a silver Crash Baggage Mini Icon, a dented hard-shell sling, not a rolling suitcase. Everything else stays pocket-scale: a titanium watch, earbuds, a matte black power bank, a key cable, a handheld, a card tracker, a rugged drive, an instant camera, and a mini tripod.</p>
+
+<p>Ten brands on preset 177: <strong>Crash Baggage</strong>, <strong>Hublot</strong>, <strong>Bang &amp; Olufsen</strong>, <strong>Ridge</strong>, <strong>Nomad Goods</strong>, <strong>Nokia</strong>, <strong>Rolling Square</strong>, <strong>Western Digital</strong>, <strong>Leica</strong>, and <strong>Joby</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Sling</h3>
+<p><strong>Crash Baggage Mini Icon &mdash; Silver</strong></p>
+
+<h3>Slot 2 &mdash; Watch</h3>
+<p><strong>Hublot 542.NX.5610.NR.HEC24</strong></p>
+
+<h3>Slot 3 &mdash; Earbuds</h3>
+<p><strong>Bang &amp; Olufsen Beoplay Eleven</strong></p>
+
+<h3>Slot 4 &mdash; Power bank</h3>
+<p><strong>Ridge Power Bank &mdash; 10k mAh &mdash; Matte Black</strong></p>
+
+<h3>Slot 5 &mdash; Key cable</h3>
+<p><strong>Nomad Goods ChargeKey</strong></p>
+
+<h3>Slot 6 &mdash; Handheld</h3>
+<p><strong>Nokia N-Gage QD</strong></p>
+
+<h3>Slot 7 &mdash; Card tracker</h3>
+<p><strong>Rolling Square AirCard Pro</strong></p>
+
+<h3>Slot 8 &mdash; Drive</h3>
+<p><strong>Western Digital G-DRIVE ArmorATD 2TB</strong></p>
+
+<h3>Slot 9 &mdash; Instant camera</h3>
+<p><strong>Leica SOFORT 2 &mdash; Black</strong></p>
+
+<h3>Slot 10 &mdash; Mini tripod</h3>
+<p><strong>Joby NanoPod Mini Magnetic Tripod</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 177</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/tech-essentials-edc-kit">interactive Tech Essentials EDC Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Creator dumps stack a second sling, a voice recorder, and smart glasses onto the same table. Diffr keeps one silver Mini Icon and maps the rest into nine specialist lanes &mdash; each pinned on preset 177 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/tough-travel-edc-brand-guide">Tough Travel EDC</a> (preset 176) &middot; <a href="/diffr/blog/lifetime-edc-brand-guide">Lifetime EDC</a> (preset 171). Explore the interactive scene: <a href="/diffr/start/tech-essentials-edc-kit">Tech Essentials EDC Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-coach-gray-satchel-brand-guide',
+    title: 'What\'s in a Coach Gray Satchel',
+    description: 'Eleven bag-spill picks — Coach Rowan Satchel Dark Stone, Lihit PuniLabo pen case, Kate Spade Spencer cardholder, Touchland Beach Coco, Bath & Body Works eucalyptus spearmint mist, Burt\'s Bees peppermint, rom&nd Juicy Lasting Tint, elleair +Water tissue, Sony RX100 VII, Belkin 5K, Loewe mouse charm. One brand per slot.',
+    date: '2026-10-04',
+    readTime: '6 min read',
+    tags: ['brand guide', 'WIMB', 'what\'s in my bag', 'Coach', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eleven bag-spill picks — Coach, Lihit, Kate Spade, Touchland, Bath & Body Works, Burt\'s Bees, rom&nd, elleair, Sony, Belkin, Loewe — one brand per slot.',
+    content: `
+<p>A gray satchel spill is eleven closed choices. The bag is a Coach Rowan in Dark Stone. The rest is what falls out: a standing cat pen case, a black cardholder, sanitizer, a travel mist, lip balm, a tint, pocket tissue, a compact camera, a lilac power bank, and a leather mouse charm.</p>
+
+<p>Eleven brands on preset 178: <strong>Coach</strong>, <strong>Lihit</strong>, <strong>Kate Spade</strong>, <strong>Touchland</strong>, <strong>Bath &amp; Body Works</strong>, <strong>Burt&rsquo;s Bees</strong>, <strong>rom&amp;nd</strong>, <strong>elleair</strong>, <strong>Sony</strong>, <strong>Belkin</strong>, and <strong>Loewe</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Satchel</h3>
+<p><strong>Coach Rowan Satchel Bag &mdash; Dark Stone</strong></p>
+
+<h3>Slot 2 &mdash; Pen case</h3>
+<p><strong>Lihit SMART FIT PuniLabo Standing Pen Case</strong></p>
+
+<h3>Slot 3 &mdash; Cardholder</h3>
+<p><strong>Kate Spade Spencer Cardholder &mdash; Black</strong></p>
+
+<h3>Slot 4 &mdash; Sanitizer</h3>
+<p><strong>Touchland Power Mist Beach Coco Hand Sanitizer</strong></p>
+
+<h3>Slot 5 &mdash; Body mist</h3>
+<p><strong>Bath &amp; Body Works Eucalyptus Spearmint Essential Oil Mist &mdash; 29ml</strong></p>
+
+<h3>Slot 6 &mdash; Lip balm</h3>
+<p><strong>Burt&rsquo;s Bees Beeswax Lip Balm &mdash; Original Peppermint</strong></p>
+
+<h3>Slot 7 &mdash; Lip tint</h3>
+<p><strong>rom&amp;nd Juicy Lasting Tint</strong></p>
+
+<h3>Slot 8 &mdash; Tissue</h3>
+<p><strong>elleair +Water Pocket Tissue</strong></p>
+
+<h3>Slot 9 &mdash; Camera</h3>
+<p><strong>Sony Cyber-shot RX100 VII Compact Camera</strong></p>
+
+<h3>Slot 10 &mdash; Power bank</h3>
+<p><strong>Belkin Magnetic Wireless Power Bank 5K</strong></p>
+
+<h3>Slot 11 &mdash; Charm</h3>
+<p><strong>Loewe Leather Mouse Bag Charm</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 178</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-coach-gray-satchel-kit">interactive Coach Gray Satchel WIMB Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Bag spills repeat a makeup pouch and a mesh pencil case from the last tote post. Diffr maps this Rowan kit into eleven specialist lanes &mdash; each pinned on preset 178 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-celine-triomphe-brand-guide">Celine Triomphe WIMB</a> (preset 175) &middot; <a href="/diffr/blog/wimb-nanette-lepore-brand-guide">Nanette Lepore Fall WIMB</a> (preset 172). Explore the interactive scene: <a href="/diffr/start/wimb-coach-gray-satchel-kit">Coach Gray Satchel Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-off-white-denim-brand-guide',
+    title: 'Styling Navy Denim for Autumn',
+    description: 'Eight autumn layers — Studio Nicholson Bill denim navy, Barbour Beaufort olive, Percival Melville ecru cable knit, Sunspel white jersey tank, Paraboot Michael Café, Brunello Cucinelli pull-up belt, Jo Malone Wood Sage & Sea Salt, mastermind JAPAN skull ring. One brand per slot.',
+    date: '2026-10-04',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'navy denim', 'autumn', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight autumn layers — Studio Nicholson, Barbour, Percival, Sunspel, Paraboot, Brunello Cucinelli, Jo Malone, mastermind JAPAN — one brand per slot.',
+    content: `
+<p>An autumn outfit is eight layers. The trousers are Studio Nicholson Bill denim in navy, with yellow contrast stitch, not a cream wide leg. Around them: an olive waxed jacket, an ecru cable knit, a white jersey tank, café derby shoes, a turquoise-buckle belt, a cologne, and one silver skull ring.</p>
+
+<p>Eight brands on preset 179: <strong>Studio Nicholson</strong>, <strong>Barbour</strong>, <strong>Percival</strong>, <strong>Sunspel</strong>, <strong>Paraboot</strong>, <strong>Brunello Cucinelli</strong>, <strong>Jo Malone</strong>, and <strong>mastermind JAPAN</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Denim</h3>
+<p><strong>Studio Nicholson Bill Denim Pant &mdash; Navy</strong></p>
+
+<h3>Slot 2 &mdash; Jacket</h3>
+<p><strong>Barbour Beaufort Classic Wax Jacket &mdash; Olive</strong></p>
+
+<h3>Slot 3 &mdash; Knit</h3>
+<p><strong>Percival Melville Cable Knit Jumper &mdash; Wool &mdash; Ecru</strong></p>
+
+<h3>Slot 4 &mdash; Tank</h3>
+<p><strong>Sunspel Cotton-Jersey Tank Top &mdash; White</strong></p>
+
+<h3>Slot 5 &mdash; Shoes</h3>
+<p><strong>Paraboot Michael Marche II &mdash; Caf&eacute;</strong></p>
+
+<h3>Slot 6 &mdash; Belt</h3>
+<p><strong>Brunello Cucinelli Pull-up Calfskin Belt</strong></p>
+
+<h3>Slot 7 &mdash; Cologne</h3>
+<p><strong>Jo Malone Wood Sage &amp; Sea Salt Cologne</strong></p>
+
+<h3>Slot 8 &mdash; Ring</h3>
+<p><strong>mastermind JAPAN MJ Perfect Skull Ring</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 179</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-off-white-denim-kit">interactive Navy Denim OOTD Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Autumn grids swap in a second boot and a second ring before the jacket is chosen. Diffr maps this look into eight specialist lanes &mdash; each pinned on preset 179 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-puma-speedcat-brand-guide">PUMA Speedcat OOTD</a> (preset 174) &middot; <a href="/diffr/blog/styling-trench-coat-brand-guide">earth-tone trench OOTD</a> (preset 173). Explore the interactive scene: <a href="/diffr/start/ootd-off-white-denim-kit">Navy Denim Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
 ]
