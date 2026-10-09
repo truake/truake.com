@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/urban-commuter-edc-brand-guide">Urban Commuter EDC</a> (preset 180)</li>
 <li><a href="/diffr/blog/tech-essentials-edc-brand-guide">Tech Essentials EDC</a> (preset 177)</li>
 <li><a href="/diffr/blog/tough-travel-edc-brand-guide">Tough Travel EDC</a> (preset 176)</li>
 <li><a href="/diffr/blog/lifetime-edc-brand-guide">Lifetime EDC Essentials</a> (preset 171)</li>
@@ -70,6 +71,7 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-marc-jacobs-tote-brand-guide">Marc Jacobs Tote WIMB</a> (preset 181)</li>
 <li><a href="/diffr/blog/wimb-coach-gray-satchel-brand-guide">Coach Gray Satchel WIMB</a> (preset 178)</li>
 <li><a href="/diffr/blog/wimb-celine-triomphe-brand-guide">Celine Triomphe Tote WIMB</a> (preset 175)</li>
 <li><a href="/diffr/blog/wimb-nanette-lepore-brand-guide">Nanette Lepore Fall WIMB</a> (preset 172)</li>
@@ -88,6 +90,7 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-suede-jacket-brand-guide">Suede Jacket OOTD</a> (preset 182)</li>
 <li><a href="/diffr/blog/styling-off-white-denim-brand-guide">Navy Denim OOTD</a> (preset 179)</li>
 <li><a href="/diffr/blog/styling-puma-speedcat-brand-guide">PUMA Speedcat OOTD</a> (preset 174)</li>
 <li><a href="/diffr/blog/styling-trench-coat-brand-guide">Earth-Tone Trench Coat OOTD</a> (preset 173)</li>
@@ -8448,6 +8451,165 @@ Diffr ends with: here is what you get.</p>
 <p>Autumn grids swap in a second boot and a second ring before the jacket is chosen. Diffr maps this look into eight specialist lanes &mdash; each pinned on preset 179 with live catalog tiles below.</p>
 
 <p>Distinct from <a href="/diffr/blog/styling-puma-speedcat-brand-guide">PUMA Speedcat OOTD</a> (preset 174) &middot; <a href="/diffr/blog/styling-trench-coat-brand-guide">earth-tone trench OOTD</a> (preset 173). Explore the interactive scene: <a href="/diffr/start/ootd-off-white-denim-kit">Navy Denim Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'urban-commuter-edc-brand-guide',
+    title: '11 Urban Commuter EDC Essentials',
+    description: 'Eleven commuter picks — Bellroy Transit Workpack Bronze, Dango A10 Spec Ops wallet, Orbitkey Leather Key Organiser Espresso, Gear Infusion GhostTi, Bose QuietComfort Ultra Moonstone Blue, Goal Zero Lighthouse Micro Charge, Nimble CHAMP 10K Glacier Lavender, SIGG Shield ONE 0.75 L, Pilot Vanishing Point Decimo Black, Knomo Mayfair Knomad, Tag Heuer Monaco Racing Green. One brand per slot.',
+    date: '2026-10-09',
+    readTime: '6 min read',
+    tags: ['brand guide', 'EDC', 'commute', 'everyday carry', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eleven commuter picks — Bellroy, Dango, Orbitkey, Gear Infusion, Bose, Goal Zero, Nimble, SIGG, Pilot, Knomo, Tag Heuer — one brand per slot.',
+    content: `
+<p>A commuter carry is eleven closed choices on an oak desk. The bag is a Bellroy Transit Workpack in bronze, not a black raven pack. Around it: a single-pocket wallet, espresso keys, a titanium utility knife, moonstone earbuds, a Charge lantern, a lavender power bank, a steel bottle, a glossy black pen, a tech organiser, and a square green chronograph.</p>
+
+<p>Eleven brands on preset 180: <strong>Bellroy</strong>, <strong>Dango</strong>, <strong>Orbitkey</strong>, <strong>Gear Infusion</strong>, <strong>Bose</strong>, <strong>Goal Zero</strong>, <strong>Nimble</strong>, <strong>SIGG</strong>, <strong>Pilot</strong>, <strong>Knomo</strong>, and <strong>Tag Heuer</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Backpack</h3>
+<p><strong>Bellroy Transit Workpack Second Edition 20L &mdash; Bronze</strong></p>
+
+<h3>Slot 2 &mdash; Wallet</h3>
+<p><strong>Dango A10 Spec Ops Single Pocket Adapt Wallet</strong></p>
+
+<h3>Slot 3 &mdash; Keys</h3>
+<p><strong>Orbitkey Leather Key Organiser 2.0 &mdash; Espresso/Brown</strong></p>
+
+<h3>Slot 4 &mdash; Knife</h3>
+<p><strong>Gear Infusion GhostTi Utility Knife</strong></p>
+
+<h3>Slot 5 &mdash; Earbuds</h3>
+<p><strong>Bose QuietComfort Ultra Earbuds &mdash; Moonstone Blue with Charging Case</strong></p>
+
+<h3>Slot 6 &mdash; Lantern</h3>
+<p><strong>Goal Zero Lighthouse Micro Charge</strong></p>
+
+<h3>Slot 7 &mdash; Power bank</h3>
+<p><strong>Nimble CHAMP 10K Portable Charger &mdash; 10000mAh &mdash; Glacier Lavender</strong></p>
+
+<h3>Slot 8 &mdash; Bottle</h3>
+<p><strong>SIGG Shield ONE &mdash; 0.75 L</strong></p>
+
+<h3>Slot 9 &mdash; Pen</h3>
+<p><strong>Pilot Vanishing Point Decimo &mdash; Black</strong></p>
+
+<h3>Slot 10 &mdash; Organiser</h3>
+<p><strong>Knomo Mayfair Knomad Tech Organiser &mdash; Black</strong></p>
+
+<h3>Slot 11 &mdash; Watch</h3>
+<p><strong>Tag Heuer Monaco Chronograph Racing Green &mdash; CAW218E.FC6565</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 180</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/urban-commuter-edc-kit">interactive Urban Commuter EDC Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Commute dumps stack a second backpack and a tactical light onto the same desk. Diffr keeps one bronze workpack and maps the rest into ten specialist lanes &mdash; each pinned on preset 180 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/tech-essentials-edc-brand-guide">Tech Essentials EDC</a> (preset 177) &middot; <a href="/diffr/blog/tough-travel-edc-brand-guide">Tough Travel EDC</a> (preset 176). Explore the interactive scene: <a href="/diffr/start/urban-commuter-edc-kit">Urban Commuter EDC Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-marc-jacobs-tote-brand-guide',
+    title: 'What\'s in a Marc Jacobs Tote',
+    description: 'Nine tote-spill picks — Marc Jacobs Leather Medium Tote Argan Oil, Tory Burch Fleming Soft Zip Continental Wallet Black, L\'Occitane Shea Butter Hand Cream 150ml, Hydro Flask 16 oz Tumbler Oat, Summer Fridays Lip Butter Balm Vanilla Beige, Crumpler The Crypto Pouch, Kindle Paperwhite Signature Edition Agave Green, Spigen ArcHybrid Mag Power Bank, Noshinku Pocket Sprayer Limon. One brand per slot.',
+    date: '2026-10-09',
+    readTime: '6 min read',
+    tags: ['brand guide', 'WIMB', 'what\'s in my bag', 'Marc Jacobs', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine tote-spill picks — Marc Jacobs, Tory Burch, L\'Occitane, Hydro Flask, Summer Fridays, Crumpler, Amazon, Spigen, Noshinku — one brand per slot.',
+    content: `
+<p>A workday tote spill is nine closed choices. The bag is The Leather Medium Tote in Argan Oil. What falls out is a long black zip wallet, shea hand cream, an oat tumbler with a flat lid, vanilla lip butter, a mesh pouch, an agave-green Kindle, a black magnetic power bank, and a Limon sprayer.</p>
+
+<p>Nine brands on preset 181: <strong>Marc Jacobs</strong>, <strong>Tory Burch</strong>, <strong>L&rsquo;Occitane</strong>, <strong>Hydro Flask</strong>, <strong>Summer Fridays</strong>, <strong>Crumpler</strong>, <strong>Amazon</strong>, <strong>Spigen</strong>, and <strong>Noshinku</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Tote</h3>
+<p><strong>Marc Jacobs The Leather Medium Tote Bag &mdash; Argan Oil</strong></p>
+
+<h3>Slot 2 &mdash; Wallet</h3>
+<p><strong>Tory Burch Fleming Soft Zip Continental Wallet &mdash; Black</strong></p>
+
+<h3>Slot 3 &mdash; Hand cream</h3>
+<p><strong>L&rsquo;Occitane Shea Butter Hand Cream &mdash; 150ml</strong></p>
+
+<h3>Slot 4 &mdash; Tumbler</h3>
+<p><strong>Hydro Flask 16 oz Tumbler &mdash; Oat</strong></p>
+
+<h3>Slot 5 &mdash; Lip balm</h3>
+<p><strong>Summer Fridays Lip Butter Balm &mdash; Vanilla Beige, 15 g</strong></p>
+
+<h3>Slot 6 &mdash; Pouch</h3>
+<p><strong>Crumpler The Crypto Pouch</strong></p>
+
+<h3>Slot 7 &mdash; E-reader</h3>
+<p><strong>Kindle Paperwhite Signature Edition &mdash; Agave Green</strong></p>
+
+<h3>Slot 8 &mdash; Power bank</h3>
+<p><strong>Spigen ArcHybrid Mag Power Bank</strong></p>
+
+<h3>Slot 9 &mdash; Sprayer</h3>
+<p><strong>Noshinku Pocket Sprayer &mdash; Limon</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 181</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-marc-jacobs-tote-kit">interactive Marc Jacobs Tote WIMB Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Tote posts repeat a second bag and a straw lid. Diffr keeps one Argan Oil tote, a flat-lid oat tumbler, and a mesh pouch &mdash; each pinned on preset 181 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-coach-gray-satchel-brand-guide">Coach Gray Satchel WIMB</a> (preset 178) &middot; <a href="/diffr/blog/wimb-celine-triomphe-brand-guide">Celine Triomphe WIMB</a> (preset 175). Explore the interactive scene: <a href="/diffr/start/wimb-marc-jacobs-tote-kit">Marc Jacobs Tote Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-suede-jacket-brand-guide',
+    title: 'Styling a Suede Jacket for Fall',
+    description: 'Eight autumn layers — Valstar Valstarino dark chocolate, Todd Snyder Italian Cotton Modern Chino khaki/sand, Fieldworth vintage loopback crew, Lady White Co. Municipal Pocket pigment chalk, Drake\'s Crosby camel chukka, Anderson\'s tobacco woven belt, Maison Margiela By the Fireplace 30ml, Nomos Club Campus 38 Night. One brand per slot.',
+    date: '2026-10-09',
+    readTime: '5 min read',
+    tags: ['brand guide', 'OOTD', 'suede', 'autumn', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Eight autumn layers — Valstar, Todd Snyder, Fieldworth, Lady White Co., Drake\'s, Anderson\'s, Maison Margiela, Nomos Glashütte — one brand per slot.',
+    content: `
+<p>A fall suede outfit is eight layers. The jacket is a Valstar Valstarino in dark chocolate, with a rib-knit collar. Under it: khaki drawstring chinos, an oatmeal loopback crew, a grey pigment pocket tee, camel chukka boots, a tobacco woven belt with a silver buckle, a fireplace eau de toilette, and a dark-dial campus watch.</p>
+
+<p>Eight brands on preset 182: <strong>Valstar</strong>, <strong>Todd Snyder</strong>, <strong>Fieldworth</strong>, <strong>Lady White Co.</strong>, <strong>Drake&rsquo;s</strong>, <strong>Anderson&rsquo;s</strong>, <strong>Maison Margiela</strong>, and <strong>Nomos Glash&uuml;tte</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Jacket</h3>
+<p><strong>Valstar Valstarino &mdash; Dark Chocolate</strong></p>
+
+<h3>Slot 2 &mdash; Chinos</h3>
+<p><strong>Todd Snyder Italian Cotton Modern Chino &mdash; Khaki/Sand</strong></p>
+
+<h3>Slot 3 &mdash; Sweatshirt</h3>
+<p><strong>Fieldworth Crew Sweatshirt &mdash; Vintage Loopback</strong></p>
+
+<h3>Slot 4 &mdash; T-shirt</h3>
+<p><strong>Lady White Co. Municipal Pocket T-Shirt &mdash; Pigment Chalk</strong></p>
+
+<h3>Slot 5 &mdash; Boots</h3>
+<p><strong>Drake&rsquo;s Crosby Suede Chukka &mdash; Camel</strong></p>
+
+<h3>Slot 6 &mdash; Belt</h3>
+<p><strong>Anderson&rsquo;s Tubular Woven Suede Belt &mdash; Tobacco</strong></p>
+
+<h3>Slot 7 &mdash; Fragrance</h3>
+<p><strong>Maison Margiela REPLICA By the Fireplace Eau de Toilette 30ml</strong></p>
+
+<h3>Slot 8 &mdash; Watch</h3>
+<p><strong>Nomos Glash&uuml;tte Club Campus 38 Night &mdash; Reference 738</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 182</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/ootd-suede-jacket-kit">interactive Suede Jacket OOTD Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Autumn grids put a white tee under a suede jacket and call the buckle brass. Diffr pins the grey Municipal pocket tee and the silver-buckle woven belt &mdash; each layer a different brand on preset 182, with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-off-white-denim-brand-guide">Navy Denim OOTD</a> (preset 179) &middot; <a href="/diffr/blog/styling-brown-leather-jacket-brand-guide">Brown Leather Jacket OOTD</a> (preset 166). Explore the interactive scene: <a href="/diffr/start/ootd-suede-jacket-kit">Suede Jacket Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
 ]

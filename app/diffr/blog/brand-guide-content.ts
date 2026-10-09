@@ -267,6 +267,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Coach Gray Satchel WIMB is eleven bag-spill slots — Coach Rowan Dark Stone, Lihit PuniLabo standing pen case, Kate Spade Spencer cardholder, Touchland Beach Coco, Bath & Body Works eucalyptus spearmint 29ml, Burt\'s Bees peppermint, rom&nd Juicy Lasting Tint, elleair +Water tissue, Sony RX100 VII, Belkin 5K, Loewe mouse charm — one brand each on preset 178. Live catalog tiles below.',
   'styling-off-white-denim-brand-guide':
     'Bottom line: Navy denim OOTD is eight autumn layers — Studio Nicholson Bill navy denim, Barbour Beaufort olive, Percival Melville ecru cable knit, Sunspel white jersey tank, Paraboot Michael Café, Brunello Cucinelli pull-up belt, Jo Malone Wood Sage & Sea Salt, mastermind JAPAN skull ring — one brand each on preset 179. Live catalog tiles below.',
+  'urban-commuter-edc-brand-guide':
+    'Bottom line: Urban Commuter EDC is eleven carry slots — Bellroy Transit Workpack Bronze, Dango A10 Spec Ops wallet, Orbitkey Leather Key Organiser Espresso, Gear Infusion GhostTi, Bose QuietComfort Ultra Moonstone Blue, Goal Zero Lighthouse Micro Charge, Nimble CHAMP 10K Glacier Lavender, SIGG Shield ONE 0.75 L, Pilot Vanishing Point Decimo Black, Knomo Mayfair Knomad, Tag Heuer Monaco Racing Green — one brand each on preset 180. Live catalog tiles below.',
+  'wimb-marc-jacobs-tote-brand-guide':
+    'Bottom line: Marc Jacobs Tote WIMB is nine bag-spill slots — Marc Jacobs Leather Medium Tote Argan Oil, Tory Burch Fleming continental wallet, L\'Occitane Shea hand cream 150ml, Hydro Flask 16 oz Oat tumbler, Summer Fridays Vanilla Beige lip butter, Crumpler Crypto Pouch, Kindle Paperwhite Signature Edition Agave Green, Spigen ArcHybrid Mag Power Bank, Noshinku Limon sprayer — one brand each on preset 181. Live catalog tiles below.',
+  'styling-suede-jacket-brand-guide':
+    'Bottom line: Suede jacket OOTD is eight autumn layers — Valstar Valstarino dark chocolate, Todd Snyder khaki chinos, Fieldworth vintage loopback crew, Lady White Co. Municipal Pocket pigment chalk, Drake\'s Crosby camel chukka, Anderson\'s tobacco woven belt, Maison Margiela By the Fireplace 30ml, Nomos Club Campus 38 Night — one brand each on preset 182. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2742,6 +2748,51 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do I open the Coach gray satchel WIMB in the Diffr app?',
       a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 178 or the wimb-coach-gray-satchel Scene — same pins as this post.',
+    },
+  ],
+
+  'urban-commuter-edc-brand-guide': [
+    {
+      q: 'What is Urban Commuter EDC?',
+      a: 'It is an eleven-slot commute carry: Bellroy Transit Workpack Second Edition 20L — Bronze, Dango A10 Spec Ops Single Pocket Adapt Wallet, Orbitkey Leather Key Organiser 2.0 — Espresso/Brown, Gear Infusion GhostTi Utility Knife, Bose QuietComfort Ultra Earbuds — Moonstone Blue, Goal Zero Lighthouse Micro Charge, Nimble CHAMP 10K — Glacier Lavender, SIGG Shield ONE 0.75 L, Pilot Vanishing Point Decimo — Black, Knomo Mayfair Knomad Tech Organiser — Black, and Tag Heuer Monaco Chronograph Racing Green CAW218E.FC6565. Eleven distinct brands on preset 180.',
+    },
+    {
+      q: 'Why a bronze workpack?',
+      a: 'The bag slot is the Bellroy Transit Workpack in bronze. A black raven pack is not on this preset. The lantern is the Goal Zero Lighthouse Micro Charge, not a flashlight named Flash.',
+    },
+    {
+      q: 'How do I open Urban Commuter EDC in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 180 or the urban-commuter-edc Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-marc-jacobs-tote-brand-guide': [
+    {
+      q: 'What is in the Marc Jacobs tote kit?',
+      a: 'It is a nine-slot bag spill: Marc Jacobs The Leather Medium Tote Bag — Argan Oil, Tory Burch Fleming Soft Zip Continental Wallet — Black, L\'Occitane Shea Butter Hand Cream 150ml, Hydro Flask 16 oz Tumbler — Oat, Summer Fridays Lip Butter Balm — Vanilla Beige, Crumpler The Crypto Pouch, Kindle Paperwhite Signature Edition — Agave Green, Spigen ArcHybrid Mag Power Bank, and Noshinku Pocket Sprayer — Limon. Nine distinct brands on preset 181.',
+    },
+    {
+      q: 'Why one tote and a flat lid?',
+      a: 'The bag slot is the Argan Oil medium tote. A second shopper is not on this preset. The Hydro Flask is the oat tumbler with a flat lid, not a straw lid.',
+    },
+    {
+      q: 'How do I open the Marc Jacobs tote WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 181 or the wimb-marc-jacobs-tote Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-suede-jacket-brand-guide': [
+    {
+      q: 'What is the suede jacket OOTD?',
+      a: 'It is an eight-slot autumn outfit: Valstar Valstarino — Dark Chocolate, Todd Snyder Italian Cotton Modern Chino — Khaki/Sand, Fieldworth Crew Sweatshirt — Vintage Loopback, Lady White Co. Municipal Pocket T-Shirt — Pigment Chalk, Drake\'s Crosby Suede Chukka — Camel, Anderson\'s Tubular Woven Suede Belt — Tobacco, Maison Margiela REPLICA By the Fireplace 30ml, and Nomos Club Campus 38 Night reference 738. Eight distinct brands on preset 182.',
+    },
+    {
+      q: 'Why a grey tee under a chocolate jacket?',
+      a: 'The tee slot is Lady White Co. Municipal Pocket in Pigment Chalk, a grey shirt. A chalk-white tee is not on this preset. The belt buckle in the kit is silver.',
+    },
+    {
+      q: 'How do I open the suede jacket OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 182 or the ootd-suede-jacket Scene — same pins as this post.',
     },
   ],
 
