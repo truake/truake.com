@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/minimalist-titanium-edc-brand-guide">Minimalist Titanium EDC</a> (preset 183)</li>
 <li><a href="/diffr/blog/urban-commuter-edc-brand-guide">Urban Commuter EDC</a> (preset 180)</li>
 <li><a href="/diffr/blog/tech-essentials-edc-brand-guide">Tech Essentials EDC</a> (preset 177)</li>
 <li><a href="/diffr/blog/tough-travel-edc-brand-guide">Tough Travel EDC</a> (preset 176)</li>
@@ -71,6 +72,7 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-longchamp-le-pliage-brand-guide">Longchamp Le Pliage Tote WIMB</a> (preset 184)</li>
 <li><a href="/diffr/blog/wimb-marc-jacobs-tote-brand-guide">Marc Jacobs Tote WIMB</a> (preset 181)</li>
 <li><a href="/diffr/blog/wimb-coach-gray-satchel-brand-guide">Coach Gray Satchel WIMB</a> (preset 178)</li>
 <li><a href="/diffr/blog/wimb-celine-triomphe-brand-guide">Celine Triomphe Tote WIMB</a> (preset 175)</li>
@@ -90,6 +92,7 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-barbour-jacket-brand-guide">Autumn Heritage MA-1 &amp; Denim OOTD</a> (preset 185)</li>
 <li><a href="/diffr/blog/styling-suede-jacket-brand-guide">Suede Jacket OOTD</a> (preset 182)</li>
 <li><a href="/diffr/blog/styling-off-white-denim-brand-guide">Navy Denim OOTD</a> (preset 179)</li>
 <li><a href="/diffr/blog/styling-puma-speedcat-brand-guide">PUMA Speedcat OOTD</a> (preset 174)</li>
@@ -8610,6 +8613,168 @@ Diffr ends with: here is what you get.</p>
 <p>Autumn grids put a white tee under a suede jacket and call the buckle brass. Diffr pins the grey Municipal pocket tee and the silver-buckle woven belt &mdash; each layer a different brand on preset 182, with live catalog tiles below.</p>
 
 <p>Distinct from <a href="/diffr/blog/styling-off-white-denim-brand-guide">Navy Denim OOTD</a> (preset 179) &middot; <a href="/diffr/blog/styling-brown-leather-jacket-brand-guide">Brown Leather Jacket OOTD</a> (preset 166). Explore the interactive scene: <a href="/diffr/start/ootd-suede-jacket-kit">Suede Jacket Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'minimalist-titanium-edc-brand-guide',
+    title: 'Minimalist Titanium EDC',
+    description: 'Ten titanium pocket-dump essentials — Tactile Turn bolt action pen, Quiet Carry Q3 key organizer, Kizer Feist front flipper knife, ReyLight Pineapple Mini flashlight, Dango M1 Lite rail wallet, LynchNW All Access Pass V2.5 pry bar, Formex Field Automatic 41mm titanium watch, Machine Era Co. Ti key clip carabiner, Master & Dynamic MW08 Sport earbuds, ALPAKA HUB Pouch Pro black. One brand per slot.',
+    date: '2026-10-20',
+    readTime: '6 min read',
+    tags: ['brand guide', 'EDC', 'titanium', 'minimalist', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten titanium EDC picks — Tactile Turn, Quiet Carry, Kizer, ReyLight, Dango, LynchNW, Formex, Machine Era Co., Master & Dynamic, ALPAKA — one brand per slot.',
+    content: `
+<p>When it comes to Everyday Carry, the pursuit of the ultimate setup often converges on a single material: titanium. Lightweight, virtually indestructible, corrosion-resistant, and aesthetically cohesive across stonewashed and beadblasted finishes, titanium gear represents the pinnacle of utilitarian carry.</p>
+
+<p>Ten brands on preset 183: <strong>Tactile Turn</strong>, <strong>Quiet Carry</strong>, <strong>Kizer</strong>, <strong>ReyLight</strong>, <strong>Dango</strong>, <strong>LynchNW</strong>, <strong>Formex</strong>, <strong>Machine Era Co.</strong>, <strong>Master &amp; Dynamic</strong>, and <strong>ALPAKA</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Pen</h3>
+<p><strong>Tactile Turn Titanium Bolt Action Pen &mdash; Standard, Stonewashed</strong></p>
+
+<h3>Slot 2 &mdash; Key Organizer</h3>
+<p><strong>Quiet Carry The Q3 Key Organizer (SW) - Titanium</strong></p>
+
+<h3>Slot 3 &mdash; Knife</h3>
+<p><strong>Kizer Feist Front Flipper Titanium Knife (CPM-S35VN)</strong></p>
+
+<h3>Slot 4 &mdash; Flashlight</h3>
+<p><strong>ReyLight Pineapple Mini MK3 Titanium Smooth (Nichia 519A)</strong></p>
+
+<h3>Slot 5 &mdash; Wallet</h3>
+<p><strong>Dango M1 Lite Titanium Rail Wallet</strong></p>
+
+<h3>Slot 6 &mdash; Pry Bar</h3>
+<p><strong>LynchNW All Access Pass V2.5 Titanium Pry Bar</strong></p>
+
+<h3>Slot 7 &mdash; Watch</h3>
+<p><strong>Formex Field Automatic Petrol Blue 41mm Titanium Watch</strong></p>
+
+<h3>Slot 8 &mdash; Carabiner</h3>
+<p><strong>Machine Era Co. Ti Key Clip Carabiner</strong></p>
+
+<h3>Slot 9 &mdash; Earphones</h3>
+<p><strong>Master &amp; Dynamic MW08 Sport Active Noise-Cancelling True Wireless Earphones</strong></p>
+
+<h3>Slot 10 &mdash; Pouch</h3>
+<p><strong>ALPAKA HUB Pouch Pro Black</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 183</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/minimalist-titanium-edc-kit">interactive Minimalist Titanium EDC Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Titanium pocket dumps often duplicate brands or mix raw mismatched metals with cheap hardware. Diffr pins dedicated specialists across writing, bladecraft, lighting, horology, and modular carry &mdash; each a unique brand on preset 183 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/blackout-titanium-edc-brand-guide">Blackout Titanium EDC</a> (preset 155) &middot; <a href="/diffr/blog/urban-commuter-edc-brand-guide">Urban Commuter EDC</a> (preset 180). Explore the interactive scene: <a href="/diffr/start/minimalist-titanium-edc-kit">Minimalist Titanium EDC Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-longchamp-le-pliage-brand-guide',
+    title: 'What\'s in a Longchamp Le Pliage Tote',
+    description: 'Ten tote-spill essentials — Longchamp Le Pliage Energy L handbag in black recycled canvas, Peak Design Field Pouch V2 Midnight, Secrid Miniwallet Matte Black, Klean Kanteen 16oz TKWide with Cafe Cap Black, Glossier Beauty Bag Mini Corduroy Edition, Rhode peptide lip tint balm, Byredo Suede hydrating hand sanitizer mist 30ml, Sony WH-1000XM5 wireless noise cancelling headphones, Kobo Clara Colour with SleepCover bundle, Fulton Tiny 2 compact umbrella black. One brand per slot.',
+    date: '2026-10-20',
+    readTime: '6 min read',
+    tags: ['brand guide', 'WIMB', 'what\'s in my bag', 'Longchamp', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Ten tote-spill picks — Longchamp, Peak Design, Secrid, Klean Kanteen, Glossier, Rhode, Byredo, Sony, Kobo, Fulton — one brand per slot.',
+    content: `
+<p>For modern professionals transitioning seamlessly from desk to airport lounge, the Longchamp Le Pliage Energy tote in recycled canvas offers an understated, durable canvas. What spills from its structured zip interior is ten disciplined essentials for work, hydration, grooming, and transit.</p>
+
+<p>Ten brands on preset 184: <strong>Longchamp</strong>, <strong>Peak Design</strong>, <strong>Secrid</strong>, <strong>Klean Kanteen</strong>, <strong>Glossier</strong>, <strong>Rhode</strong>, <strong>Byredo</strong>, <strong>Sony</strong>, <strong>Kobo</strong>, and <strong>Fulton</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Tote</h3>
+<p><strong>Longchamp Le Pliage Energy L Handbag Black Recycled Canvas</strong></p>
+
+<h3>Slot 2 &mdash; Tech Pouch</h3>
+<p><strong>Peak Design Field Pouch V2 Midnight</strong></p>
+
+<h3>Slot 3 &mdash; Wallet</h3>
+<p><strong>Secrid Miniwallet Matte Black</strong></p>
+
+<h3>Slot 4 &mdash; Tumbler</h3>
+<p><strong>Klean Kanteen 16oz TKWide with Cafe Cap Black</strong></p>
+
+<h3>Slot 5 &mdash; Beauty Bag</h3>
+<p><strong>Glossier Beauty Bag Mini (Corduroy Edition)</strong></p>
+
+<h3>Slot 6 &mdash; Lip Tint</h3>
+<p><strong>Rhode rhode Peptide Lip Tint Balm with Peptides, Macadamia Butter Brown</strong></p>
+
+<h3>Slot 7 &mdash; Hand Sanitizer</h3>
+<p><strong>Byredo Suede Hydrating Hand Sanitizer Mist 30ml</strong></p>
+
+<h3>Slot 8 &mdash; Headphones</h3>
+<p><strong>Sony WH-1000XM5 Wireless Noise Cancelling Headphones</strong></p>
+
+<h3>Slot 9 &mdash; E-Reader</h3>
+<p><strong>Kobo Kobo Clara Colour with SleepCover Bundle</strong></p>
+
+<h3>Slot 10 &mdash; Umbrella</h3>
+<p><strong>Fulton Tiny 2 Compact Umbrella Black</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 184</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/wimb-longchamp-le-pliage-kit">interactive Longchamp Le Pliage Tote WIMB Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Bag spills frequently fill pockets with redundant cosmetic cases or single-brand accessory bundles. Diffr pins one specialist per function &mdash; tactile Dutch card protection, Japanese noise isolation, and Canadian color e-ink reading &mdash; all verified on preset 184 with live catalog tiles below.</p>
+
+<p>Distinct from <a href="/diffr/blog/wimb-marc-jacobs-tote-brand-guide">Marc Jacobs Tote WIMB</a> (preset 181) &middot; <a href="/diffr/blog/wimb-coach-gray-satchel-brand-guide">Coach Gray Satchel WIMB</a> (preset 178). Explore the interactive scene: <a href="/diffr/start/wimb-longchamp-le-pliage-kit">Longchamp Le Pliage Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-barbour-jacket-brand-guide',
+    title: 'Autumn Heritage MA-1 & Denim OOTD',
+    description: 'Nine autumn heritage layers — Human Made Men\'s MA-1 Jacket in Olive Drab, Nudie Jeans Lean Dean Dry Japan Selvage, Howlin\' Birth of the Cool Orange Dreams Crewneck Sweater, Merz b. Schwanen 215 Loopwheeled Classic Fit Midweight T-Shirt White, Red Wing Heritage 875 6-Inch Classic Moc Oro Legacy, Tanner Goods Classic Belt Natural, Seiko Alpinist SARB017 Emerald Green, Diptyque Tam Dao Eau de Parfum 75ml, Patagonia Brodeo Beanie Dark Camel. One brand per slot.',
+    date: '2026-10-20',
+    readTime: '6 min read',
+    tags: ['brand guide', 'OOTD', 'heritage', 'MA-1', 'autumn', 'one brand per slot', 'non-repetition principle'],
+    category: 'product',
+    excerpt: 'Nine autumn heritage layers — Human Made, Nudie Jeans, Howlin\', Merz b. Schwanen, Red Wing, Tanner Goods, Seiko, Diptyque, Patagonia — one brand per slot.',
+    content: `
+<p>An autumn heritage outfit balances tactile warmth, military silhouette, and artisanal textures. Centered around Human Made&rsquo;s Japanese flight-nylon MA-1 jacket in olive drab, this wardrobe stack pairs raw Kurabo selvedge denim, shaggy Scottish wool, circular-knit German jersey, and iconic American moc-toe work boots.</p>
+
+<p>Nine brands on preset 185: <strong>Human Made</strong>, <strong>Nudie Jeans</strong>, <strong>Howlin&rsquo;</strong>, <strong>Merz b. Schwanen</strong>, <strong>Red Wing</strong>, <strong>Tanner Goods</strong>, <strong>Seiko</strong>, <strong>Diptyque</strong>, and <strong>Patagonia</strong>.</p>
+
+<h2>The Slots</h2>
+
+<h3>Slot 1 &mdash; Outerwear</h3>
+<p><strong>Human Made Men&rsquo;s MA-1 Jacket in Olive Drab</strong></p>
+
+<h3>Slot 2 &mdash; Denim</h3>
+<p><strong>Nudie Jeans Lean Dean Dry Japan Selvage</strong></p>
+
+<h3>Slot 3 &mdash; Sweater</h3>
+<p><strong>Howlin&rsquo; Birth of the Cool Orange Dreams Crewneck Sweater</strong></p>
+
+<h3>Slot 4 &mdash; T-Shirt</h3>
+<p><strong>Merz b. Schwanen 215 Loopwheeled Classic Fit Midweight T-Shirt White</strong></p>
+
+<h3>Slot 5 &mdash; Boots</h3>
+<p><strong>Red Wing Heritage 875 6-Inch Classic Moc Oro Legacy</strong></p>
+
+<h3>Slot 6 &mdash; Belt</h3>
+<p><strong>Tanner Goods Classic Belt Natural</strong></p>
+
+<h3>Slot 7 &mdash; Watch</h3>
+<p><strong>Seiko Alpinist SARB017 Automatic Watch Emerald Green</strong></p>
+
+<h3>Slot 8 &mdash; Fragrance</h3>
+<p><strong>Diptyque Tam Dao Eau de Parfum 75ml</strong></p>
+
+<h3>Slot 9 &mdash; Beanie</h3>
+<p><strong>Patagonia Brodeo Beanie (Dark Camel)</strong></p>
+
+<h2>How do I get this kit?</h2>
+<p>Open <strong>preset 185</strong> in the <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr iPhone app</a> or the <a href="/diffr/start/styling-barbour-jacket-kit">interactive Autumn Heritage MA-1 &amp; Denim OOTD Scene</a>.</p>
+
+<h2>Why This Post Exists</h2>
+<p>Autumn style guides often default to repeat waxed-cotton outer layers and generic denim labels. Diffr anchors this flat lay with Human Made&rsquo;s vintage-spec olive flight bomber and pairs each layer with a master of its craft &mdash; German loopwheel knitting, Oregon bridle leather, and Japanese mechanical field horology &mdash; with zero brand repeats on preset 185.</p>
+
+<p>Distinct from <a href="/diffr/blog/styling-suede-jacket-brand-guide">Suede Jacket OOTD</a> (preset 182) &middot; <a href="/diffr/blog/styling-off-white-denim-brand-guide">Navy Denim OOTD</a> (preset 179). Explore the interactive scene: <a href="/diffr/start/styling-barbour-jacket-kit">Autumn Heritage Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
 ]

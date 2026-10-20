@@ -112,6 +112,9 @@ export const OG_BASE_SLUGS = new Set<string>([
   'urban-commuter-edc-brand-guide',
   'wimb-marc-jacobs-tote-brand-guide',
   'styling-suede-jacket-brand-guide',
+  'minimalist-titanium-edc-brand-guide',
+  'wimb-longchamp-le-pliage-brand-guide',
+  'styling-barbour-jacket-brand-guide',
   '54321-packing-method-brand-guide',
   // Aritzia / athleisure rescue pages (2026-09-15)
   'wilfred-brand-guide',

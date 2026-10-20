@@ -136,6 +136,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'urban-commuter-edc-brand-guide': 180,
   'wimb-marc-jacobs-tote-brand-guide': 181,
   'styling-suede-jacket-brand-guide': 182,
+  'minimalist-titanium-edc-brand-guide': 183,
+  'wimb-longchamp-le-pliage-brand-guide': 184,
+  'styling-barbour-jacket-brand-guide': 185,
 }
 
 export async function generateStaticParams() {

@@ -273,6 +273,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Marc Jacobs Tote WIMB is nine bag-spill slots — Marc Jacobs Leather Medium Tote Argan Oil, Tory Burch Fleming continental wallet, L\'Occitane Shea hand cream 150ml, Hydro Flask 16 oz Oat tumbler, Summer Fridays Vanilla Beige lip butter, Crumpler Crypto Pouch, Kindle Paperwhite Signature Edition Agave Green, Spigen ArcHybrid Mag Power Bank, Noshinku Limon sprayer — one brand each on preset 181. Live catalog tiles below.',
   'styling-suede-jacket-brand-guide':
     'Bottom line: Suede jacket OOTD is eight autumn layers — Valstar Valstarino dark chocolate, Todd Snyder khaki chinos, Fieldworth vintage loopback crew, Lady White Co. Municipal Pocket pigment chalk, Drake\'s Crosby camel chukka, Anderson\'s tobacco woven belt, Maison Margiela By the Fireplace 30ml, Nomos Club Campus 38 Night — one brand each on preset 182. Live catalog tiles below.',
+  'minimalist-titanium-edc-brand-guide':
+    'Bottom line: Minimalist Titanium EDC is ten pocket-dump slots — Tactile Turn Titanium Bolt Action Pen, Quiet Carry Q3 Key Organizer, Kizer Feist Front Flipper Knife, ReyLight Pineapple Mini MK3, Dango M1 Lite Titanium Rail Wallet, LynchNW All Access Pass V2.5 Pry Bar, Formex Field Automatic 41mm Titanium Watch, Machine Era Co. Ti Key Clip Carabiner, Master & Dynamic MW08 Sport ANC Earphones, ALPAKA HUB Pouch Pro Black — one brand each on preset 183. Live catalog tiles below.',
+  'wimb-longchamp-le-pliage-brand-guide':
+    'Bottom line: Longchamp Le Pliage Tote WIMB is ten bag-spill slots — Longchamp Le Pliage Energy L Handbag in Black Recycled Canvas, Peak Design Field Pouch V2 Midnight, Secrid Miniwallet Matte Black, Klean Kanteen 16oz TKWide with Cafe Cap Black, Glossier Beauty Bag Mini Corduroy Edition, Rhode Peptide Lip Tint Balm in Macadamia, Byredo Suede Hydrating Hand Sanitizer Mist 30ml, Sony WH-1000XM5 Wireless Headphones, Kobo Clara Colour with SleepCover Bundle, Fulton Tiny 2 Compact Umbrella Black — one brand each on preset 184. Live catalog tiles below.',
+  'styling-barbour-jacket-brand-guide':
+    'Bottom line: Autumn Heritage MA-1 & Denim OOTD is nine wardrobe layers — Human Made Men\'s MA-1 Jacket in Olive Drab, Nudie Jeans Lean Dean Dry Japan Selvage, Howlin\' Birth of the Cool Orange Dreams Crewneck Sweater, Merz b. Schwanen 215 Loopwheeled Classic Fit Midweight T-Shirt White, Red Wing Heritage 875 6-Inch Classic Moc Oro Legacy, Tanner Goods Classic Belt Natural, Seiko Alpinist SARB017 Emerald Green, Diptyque Tam Dao Eau de Parfum 75ml, Patagonia Brodeo Beanie Dark Camel — one brand each on preset 185. Live catalog tiles below.',
   'scene-series':
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
@@ -2793,6 +2799,51 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do I open the suede jacket OOTD in the Diffr app?',
       a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 182 or the ootd-suede-jacket Scene — same pins as this post.',
+    },
+  ],
+
+  'minimalist-titanium-edc-brand-guide': [
+    {
+      q: 'What is Minimalist Titanium EDC?',
+      a: 'It is a ten-slot pocket carry: Tactile Turn Titanium Bolt Action Pen — Standard Stonewashed, Quiet Carry The Q3 Key Organizer Titanium, Kizer Feist Front Flipper Titanium Knife (CPM-S35VN), ReyLight Pineapple Mini MK3 Titanium Smooth (Nichia 519A), Dango M1 Lite Titanium Rail Wallet, LynchNW All Access Pass V2.5 Titanium Pry Bar, Formex Field Automatic Petrol Blue 41mm Titanium Watch, Machine Era Co. Ti Key Clip Carabiner, Master & Dynamic MW08 Sport Active Noise-Cancelling Earphones, and ALPAKA HUB Pouch Pro Black. Ten distinct brands on preset 183.',
+    },
+    {
+      q: 'Why stonewashed titanium for EDC?',
+      a: 'Titanium delivers an unmatched strength-to-weight ratio — nearly half the weight of steel with superior corrosion resistance. The stonewashed and beadblasted finishes naturally absorb pocket scratches into a handsome patina without peeling or rusting.',
+    },
+    {
+      q: 'How do I open Minimalist Titanium EDC in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 183 or the minimalist-titanium-edc Scene — same pins as this post.',
+    },
+  ],
+
+  'wimb-longchamp-le-pliage-brand-guide': [
+    {
+      q: 'What is in the Longchamp Le Pliage tote kit?',
+      a: 'It is a ten-slot bag spill: Longchamp Le Pliage Energy L Handbag Black Recycled Canvas, Peak Design Field Pouch V2 Midnight, Secrid Miniwallet Matte Black, Klean Kanteen 16oz TKWide with Cafe Cap Black, Glossier Beauty Bag Mini (Corduroy Edition), Rhode Peptide Lip Tint Balm in Macadamia, Byredo Suede Hydrating Hand Sanitizer Mist 30ml, Sony WH-1000XM5 Wireless Noise Cancelling Headphones, Kobo Clara Colour with SleepCover Bundle, and Fulton Tiny 2 Compact Umbrella Black. Ten distinct brands on preset 184.',
+    },
+    {
+      q: 'Why the Le Pliage Energy recycled canvas?',
+      a: 'The Le Pliage Energy line modernizes the classic nylon silhouette with certified Econyl recycled canvas, tonal matte black hardware, and an ergonomic crossbody strap, making it more structured and durable for daily commutes and flights.',
+    },
+    {
+      q: 'How do I open the Longchamp Le Pliage WIMB in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 184 or the wimb-longchamp-le-pliage Scene — same pins as this post.',
+    },
+  ],
+
+  'styling-barbour-jacket-brand-guide': [
+    {
+      q: 'What is the Autumn Heritage MA-1 & Denim OOTD?',
+      a: 'It is a nine-slot heritage outfit: Human Made Men\'s MA-1 Jacket in Olive Drab, Nudie Jeans Lean Dean Dry Japan Selvage, Howlin\' Birth of the Cool Orange Dreams Crewneck Sweater, Merz b. Schwanen 215 Loopwheeled Classic Fit Midweight T-Shirt White, Red Wing Heritage 875 6-Inch Classic Moc Oro Legacy, Tanner Goods Classic Belt Natural, Seiko Alpinist SARB017 Automatic Watch Emerald Green, Diptyque Tam Dao Eau de Parfum 75ml, and Patagonia Brodeo Beanie (Dark Camel). Nine distinct brands on preset 185.',
+    },
+    {
+      q: 'Why an MA-1 bomber over waxed cotton?',
+      a: 'To avoid repeating brands featured in previous outerwear scenes, this autumn layout spotlights Human Made\'s authentic Japanese flight nylon MA-1 in Olive Drab. Its utilitarian silhouette contrasts effortlessly against raw Japanese selvedge denim and shaggy Scottish knitwear.',
+    },
+    {
+      q: 'How do I open the Autumn Heritage MA-1 & Denim OOTD in the Diffr app?',
+      a: 'Download Diffr from the App Store (https://apps.apple.com/us/app/diffr/id6772870733), then open preset 185 or the styling-barbour-jacket Scene — same pins as this post.',
     },
   ],
 
