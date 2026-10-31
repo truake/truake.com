@@ -5,6 +5,8 @@ import { getAllGuides, toUrlSlug } from "./diffr/start/lib";
 import { START_SLUGS_WITH_BLOG_TWIN } from "./diffr/blog-slug-maps";
 import { SITEMAP_EXCLUDE_SLUGS } from "./seo-config";
 
+export const maxDuration = 60;
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const diffrBlogPosts = getDiffrPosts()
     .filter((post) => !SITEMAP_EXCLUDE_SLUGS.has(post.slug))
