@@ -41,6 +41,8 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Who owns the brand Wilfred? Aritzia Inc. (TSX: ATZ) — Wilfred is an in-house label sold only at Aritzia boutiques and aritzia.com, not a separate designer house. Wilfred Free is also Aritzia-owned. Wilfred vs Wilfred Free: date-night drape vs everyday knits. Wilfred vs Babaton: dinner (fluid) vs desk (Effortless Pant, tailoring). Is Wilfred a good brand? Yes for the mood; for slip dresses choose Reformation, for work trousers Theory, for basics Quince or Everlane over Wilfred Free.",
   'athleta-vs-lululemon-brand-guide':
     "Bottom line: Athleta vs Lululemon — Elation vs Align. Lululemon Align (Nulu) is the buttery everyday tight for low-impact, all-day comfort. Athleta Elation (Powervita) is the direct cross-shop — often lower on sale, slightly more hold, built for studio-to-street. Buy Align for maximum softness and the Lululemon fabric story; buy Elation for one performance tight at a sensible receipt. Skip both for office trousers (Banana Republic or Babaton) or hard training (Steady State, Nike Pro, Vuori).",
+  'vuori-vs-lululemon-brand-guide':
+    "Bottom line: Vuori vs Lululemon is a slot decision, not a brand war. Vuori (DreamKnit) wins everyday lounge, travel, and rest days with unmatched brushed softness (Performance Jogger, Kore Short). Lululemon wins technical workouts, yoga studio compression (Align / Nulu), and structured office commuter trousers (ABC Pant / Warpstreme). Buy Vuori for cloud-like comfort on the couch and flights; buy Lululemon for high-mileage runs, yoga, and business-casual desks. Avoid duplicates by giving Vuori the lounge slot and Lululemon the studio/commute slot.",
   'babaton-brand-guide':
     "Bottom line: Babaton is Aritzia's in-house work label — not a separate company, sold only at Aritzia. Is Babaton a good brand? Yes for the money; the Effortless Pant is the piece that built its reputation. The limit is fabric longevity — Babaton looks sharp now, Theory outlasts it. Babaton vs Wilfred: desk vs dinner (structured tailoring vs fluid drape). Theory vs Aritzia: buy Babaton for your first serious work trouser; buy Theory once you want wool that still hangs after a year.",
   'world-cup-2026-kit-brands':
@@ -628,6 +630,37 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Is Athleta owned by Gap?',
       a: "Yes. Athleta is Gap Inc.'s active and yoga line — alongside Banana Republic (work), Gap (everyday denim), and Old Navy (budget). It is not related to Lululemon; both compete in athleisure but are separate companies.",
+    },
+  ],
+
+  'vuori-vs-lululemon-brand-guide': [
+    {
+      q: 'Vuori vs Lululemon — which brand is better?',
+      a: "Neither brand is universally better; they excel in different slots. Vuori wins on casual lounge, travel, and rest-day comfort thanks to its softer, brushed DreamKnit fabric (Performance Jogger, Kore Short). Lululemon wins on technical yoga, high-impact athletic performance (Align, Pace Breaker), and office-appropriate commuter trousers (ABC Pant in Warpstreme).",
+    },
+    {
+      q: 'Is Vuori better quality than Lululemon?',
+      a: "In terms of hand-feel and brushed softness, Vuori's DreamKnit feels more luxurious and cozy for lounge wear than Lululemon's cotton or Nulu fabrics. However, for sheer technical durability and holding a crisp silhouette at work, Lululemon's Warpstreme (ABC Pant) and Everlux fabrics are more structured and resistant to wear.",
+    },
+    {
+      q: 'Which Vuori pant is like Lululemon ABC?',
+      a: "The Vuori Meta Pant is the direct cross-shop to the Lululemon ABC Pant. Both cost $128 and feature 5-pocket styling with technical stretch. Lululemon ABC (Warpstreme) is slightly crisper and more structured for business-casual offices; Vuori Meta (VersaLife) is stretchier, softer, and more comfortable for travel and casual wear.",
+    },
+    {
+      q: 'Is Vuori owned by Lululemon?',
+      a: "No. Vuori is an independent brand founded in Encinitas, California by Joe Kudla in 2015, with backing from SoftBank Vision Fund 2 and Norwest Venture Partners. Lululemon Athletica is a publicly traded Canadian multinational founded in Vancouver, BC (NASDAQ: LULU). They are distinct competitors.",
+    },
+    {
+      q: 'How does Vuori sizing compare to Lululemon?',
+      a: "Vuori fits true to size with a relaxed, forgiving California cut using standard US letter sizing (S–XXL). Lululemon uses athletic, performance-snug sizing; women's items use numeric sizing (2–14) and often require sizing up for comfort, while men's pants offer precise waist and inseam measurements (e.g. 32x32).",
+    },
+    {
+      q: 'What is the difference between Vuori DreamKnit and Lululemon Nulu?',
+      a: "DreamKnit (Vuori) is a recycled polyester-elastane knit that is micro-brushed on both sides for maximum cloud-like softness, best for sweatpants, joggers, and lounge tees. Nulu (Lululemon Align) is a lightweight nylon-Lycra blend engineered for second-skin yoga performance, weightlessness, and gentle compression without feeling hot.",
+    },
+    {
+      q: 'Which is better for men: Vuori or Lululemon?',
+      a: "For men's gym shorts and weekend lounge, Vuori (Kore Short with built-in liner and Sunday Performance Jogger) is widely preferred for all-day comfort. For professional work trousers and road running, Lululemon (ABC Pant and Pace Breaker) remains the gold standard.",
     },
   ],
 
