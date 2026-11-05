@@ -692,10 +692,68 @@ export const posts: BlogPost[] = [
 <li><strong>Theory</strong> &mdash; work trousers and blazers that hold their line. The upgrade when Babaton&rsquo;s Effortless Pant is not enough.</li>
 <li><strong>Quince</strong> &mdash; everyday knits and bodysuits. Wilfred Free&rsquo;s job at a lower ticket.</li>
 </ul>
-<p>Cross-shopping athleisure or weekend layers? See <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a> and <a href="/diffr/blog/gap-inc-lines-explained">Athleta vs Lululemon</a> (Gap Inc. brands). Building a work capsule around Babaton? Start with the <a href="/diffr/blog/womens-work-capsule-brand-guide">women&rsquo;s work capsule</a>.</p>
+<p>Cross-shopping athleisure or weekend layers? See <a href="/diffr/blog/lululemon-lines-explained">Lululemon lines explained</a>, <a href="/diffr/blog/gap-inc-lines-explained">Athleta vs Lululemon</a> (Gap Inc. brands), and <a href="/diffr/blog/who-owns-free-people-brand-guide">Who owns Free People</a> (URBN brand portfolio). Building a work capsule around Babaton? Start with the <a href="/diffr/blog/womens-work-capsule-brand-guide">women&rsquo;s work capsule</a>.</p>
 
 <h2>The Diffr Take</h2>
 <p>Wilfred is not a mystery brand &mdash; it is Aritzia&rsquo;s date-night label, full stop. The useful decision is not &ldquo;Wilfred or not Wilfred&rdquo; but <strong>which slot Wilfred actually wins:</strong> the drape dress for dinner, not the office trouser, not the everyday basic. Use Wilfred where the mood matters; swap in Reformation, Theory, or Quince where the specialist beats the house label. That is <a href="/diffr/blog/the-one-brand-rule">one brand per slot</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock yours.</p>
+`.trim(),
+  },
+  {
+    slug: 'who-owns-free-people-brand-guide',
+    title: 'Who Owns Free People? The URBN Brand Portfolio & Sub-Brands Explained',
+    description: 'Free People is owned by Urban Outfitters, Inc. (URBN) — along with Anthropologie, FP Movement, and Nuuly. How the house of brands works, Free People vs FP Movement, and what to buy instead.',
+    date: '2026-11-05',
+    readTime: '6 min read',
+    tags: ['who owns free people', 'is free people owned by urban outfitters', 'urbn brands', 'who owns anthropologie', 'free people vs fp movement', 'free people', 'boho fashion', 'one brand rule'],
+    category: 'product',
+    excerpt: 'Free People is not an independent designer boutique — it is wholly owned by Urban Outfitters, Inc. (URBN). Here is the complete URBN brand map, Free People vs FP Movement, and what to buy instead.',
+    content: `
+<h2>Who Owns the Brand Free People?</h2>
+<p><strong>Free People is wholly owned by Urban Outfitters, Inc. (NASDAQ: URBN)</strong> &mdash; the publicly traded American retail conglomerate headquartered in Philadelphia, Pennsylvania. Free People is not an independent boutique label, nor is it a venture-backed startup; it is a flagship division within the same corporate house that owns <strong>Urban Outfitters</strong>, <strong>Anthropologie</strong>, <strong>FP Movement</strong>, <strong>Nuuly</strong>, and <strong>Terrain</strong>. (An independent editorial guide; we are not affiliated with URBN or Free People.)</p>
+<p>Many shoppers assume Free People was acquired by Urban Outfitters. In reality, the history is the exact reverse: in 1970, founder Richard (Dick) Hayne opened a small hippie-inspired store in West Philadelphia called <em>Free People</em>. When the store expanded and rebranded to <em>Urban Outfitters</em>, the original name was shelved &mdash; until 1984, when Hayne resurrected &ldquo;Free People&rdquo; as an in-house wholesale clothing brand. In 2002, Free People opened its first standalone boutique in Paramus, New Jersey, evolving into the global bohemian powerhouse it is today.</p>
+<p>For similar brand house breakdowns, see our guide to <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia&rsquo;s in-house labels</a> (Babaton, Wilfred, TNA) and <a href="/diffr/blog/gap-inc-lines-explained">Gap Inc. brands</a> (Athleta, Banana Republic, Old Navy). Below is the complete map of how URBN divides its portfolio by lifestyle scene.</p>
+
+<h2>The URBN Portfolio: Who Owns What?</h2>
+<p>URBN operates on a strict demographic and lifestyle segmentation model. Rather than forcing one megastore to serve every age and aesthetic, each label targets a distinct life stage:</p>
+<table><thead><tr><th>Brand</th><th>Parent Company</th><th>Target Audience</th><th>Signature Vibe &amp; Categories</th><th>Flagship Staples</th></tr></thead><tbody>
+<tr><td><strong>Free People</strong></td><td>URBN (since 1970/1984)</td><td>Women in their 20s&ndash;30s</td><td>Bohemian, festival, effortless romance, textured knitwear</td><td>Hit The Slopes Fleece, FP One dresses, Ziggy Overalls</td></tr>
+<tr><td><strong>FP Movement</strong></td><td>URBN (Free People sub-brand, launched 2012)</td><td>Active women &amp; studio goers</td><td>Colorblock activewear, running, studio yoga, apres-ski layers</td><td>Pippa Packable Puffer, Good Karma Legging, Never Better Top</td></tr>
+<tr><td><strong>Anthropologie</strong></td><td>URBN (founded 1992)</td><td>Women in their 30s&ndash;45s+</td><td>Sophisticated eclectic, dinner party host, home d&eacute;cor, bridal (BHLDN)</td><td>Somerset Maxi Dress, Primrose Mirror, Colette Pant (Maeve)</td></tr>
+<tr><td><strong>Urban Outfitters</strong></td><td>URBN (flagship brand, 1970)</td><td>Gen Z &amp; college students (18&ndash;25)</td><td>Y2K street style, vintage rework, graphic tees, indie vinyl &amp; dorm essentials</td><td>BDG Denim, graphic baby tees, oversized flannel layers</td></tr>
+<tr><td><strong>Nuuly</strong></td><td>URBN (launched 2019)</td><td>Rental subscribers across all URBN brands</td><td>Monthly fashion rental subscription (\$98/mo for 6 pieces)</td><td>Rotating wedding guest dresses &amp; seasonal coats</td></tr>
+<tr><td><strong>Terrain</strong></td><td>URBN (founded 2008)</td><td>Home &amp; garden enthusiasts</td><td>Upscale garden nursery, outdoor living, artisanal lifestyle</td><td>Planters, outdoor lighting, botanical tabletop</td></tr>
+</tbody></table>
+
+<h2>Free People vs FP Movement: What Is the Difference?</h2>
+<p>A common question is whether FP Movement is a separate company. <strong>FP Movement is an activewear sub-brand created inside Free People in 2012.</strong> It shares the same corporate infrastructure and e-commerce cart, but addresses a completely different physical scenario:</p>
+<ul>
+<li><strong>Free People (Mainline):</strong> Focuses on fashion, romance, and leisure. The silhouettes are oversized, drapey, and heavily textured (crochet, gauze, corduroy, raw-edge seams). It is built for concerts, road trips, casual weekend brunches, and vacations.</li>
+<li><strong>FP Movement:</strong> Focuses on active movement, studio classes, and mountain resort layers. It swaps heavy cotton gauze for technical sweat-wicking synthetics, compression ribs, and packable insulation. Its styling leans heavily into bold retro colorblocking, bright neons, and sporty details.</li>
+</ul>
+<p><strong>The crossover:</strong> Pieces like the <em>Pippa Packable Puffer</em> and <em>Hit The Slopes Fleece Jacket</em> bridge both worlds. If you are cross-shopping technical activewear, see how FP Movement compares to the studio leaders in our <a href="/diffr/blog/vuori-vs-lululemon-brand-guide">Vuori vs Lululemon</a> breakdown and <a href="/diffr/blog/athleta-vs-lululemon-brand-guide">Athleta vs Lululemon</a> guide.</p>
+
+<h2>Is Free People a Good Brand?</h2>
+<p><strong>Yes, for distinct aesthetic pieces &mdash; with clear caveats on value.</strong></p>
+<p>Free People excels at creating pieces that feel discovered in a vintage boutique rather than pulled off a corporate rack. Their outerwear (quilted jackets, teddy fleeces) and tiered maxi dresses have genuine character and strong resale value on Poshmark and Depop.</p>
+<p><strong>Where to be careful:</strong></p>
+<ol>
+<li><strong>Basic tees and layering knits carry extreme markup.</strong> Paying \$58 for a sheer cotton-poly baby tee or simple rib tank is rarely worth it. Direct-to-consumer basics brands deliver equal or superior fabric weight for half the price.</li>
+<li><strong>Sizing inconsistency is real.</strong> Free People is notorious for hyper-oversized silhouettes. A size Small in one tunic may fit like an XL, while a rigid denim piece may run snug. Most experienced shoppers size down 1&ndash;2 sizes for dresses and knits.</li>
+<li><strong>Fast-turnover construction.</strong> While priced in the premium contemporary bracket (\$80&ndash;\$300), the construction uses commercial mass-manufacturing methods. Delicate embroidery and raw-edge hems require gentle laundering (cold wash, mesh bags, line dry) to prevent fraying.</li>
+</ol>
+
+<h2>What to Buy Instead (Slot Replacements)</h2>
+<p>At Diffr, our core philosophy is <strong>One Brand Per Slot</strong>. Rather than filling your entire wardrobe from the URBN mall ecosystem, here is where independent specialists beat Free People at its own game:</p>
+<ul>
+<li><strong>For Slip Dresses &amp; Event Dressing &rarr; <span class="font-semibold text-neutral-900">Reformation</span></strong>: If you want effortless romance for a wedding or dinner date, Reformation offers superior tailored fit, sustainable fabrics (TENCEL, deadstock silk), and less fabric volume than Free People&rsquo;s billowing silhouettes.</li>
+<li><strong>For Parisian Romantic Knitwear &rarr; <span class="font-semibold text-neutral-900">S&eacute;zane</span></strong>: For delicate mohair knits, vintage-inspired cardigans, and floral blouses with heirloom quality, French label S&eacute;zane provides noticeably better yarn and stitching at comparable price points.</li>
+<li><strong>For Everyday Wardrobe Basics &rarr; <span class="font-semibold text-neutral-900">Quince</span> or <span class="font-semibold text-neutral-900">Everlane</span></strong>: Skip Free People&rsquo;s \$70 basic tanks and thermal tees; Quince and Everlane deliver organic cotton and washable silk basics with zero brand markup.</li>
+<li><strong>For Serious Studio &amp; Run Workouts &rarr; <span class="font-semibold text-neutral-900">Lululemon</span> or <span class="font-semibold text-neutral-900">Vuori</span></strong>: FP Movement makes cute pilates sets and viral fleeces, but for marathon training, hot yoga, or sweat endurance, <a href="/diffr/blog/vuori-vs-lululemon-brand-guide">Vuori and Lululemon</a> dominate on technical fabric innovation.</li>
+</ul>
+
+<h2>The Diffr Take</h2>
+<p>Knowing that Free People belongs to Urban Outfitters, Inc. strips away the illusion that you are shopping at a tiny flea-market collective. Free People is a brilliant, highly tuned corporate brand machine designed to capture bohemian romance.</p>
+<p>The intentional shopping rule: <strong>Buy Free People for the one statement jacket or signature maxi dress that you cannot find anywhere else.</strong> Do not buy your basic layers, gym tights, or office trousers there. Assign Free People to the <em>Bohemian Statement</em> slot in your wardrobe, decide once, and keep the rest of your closet lean. That is <a href="/diffr/blog/the-one-brand-rule">the one-brand rule</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr on iOS</a> to lock your personal capsule.</p>
 `.trim(),
   },
   {

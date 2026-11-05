@@ -39,6 +39,8 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Aritzia isn't one brand — it's a house of eleven exclusive in-house labels that together make up roughly 97% of the company's revenue. What brands does Aritzia own? Babaton (work, the Effortless Pant), The Group by Babaton (elevated tailoring), Ten by Babaton (evening), Wilfred (romantic), Wilfred Free (everyday basics), Tna (weekend athleisure), Golden (activewear), Denim Forum (in-house premium denim), Sunday Best (going out), Little Moon, and the Super Puff. All are sold only at Aritzia stores. Aritzia has no parent company — it is independent and publicly traded (TSX: ATZ), founded in Vancouver in 1984, and it wholly owns Reigning Champ. The independent verdict per slot: buy Babaton/The Group for convenience but Theory for tailoring that lasts; Wilfred for the mood but Reformation for the slip dress; Wilfred Free's basics are cheaper at Quince or Everlane; TNA is fine for lounging but Vuori, Alo or Lululemon win for training; Denim Forum is solid but AGOLDE and Citizens of Humanity are the denim specialists; the Super Puff is the style buy while Patagonia is the keep-forever one. Full Wilfred ownership and vs Babaton: see the dedicated Wilfred guide.",
   'wilfred-brand-guide':
     "Bottom line: Who owns the brand Wilfred? Aritzia Inc. (TSX: ATZ) — Wilfred is an in-house label sold only at Aritzia boutiques and aritzia.com, not a separate designer house. Wilfred Free is also Aritzia-owned. Wilfred vs Wilfred Free: date-night drape vs everyday knits. Wilfred vs Babaton: dinner (fluid) vs desk (Effortless Pant, tailoring). Is Wilfred a good brand? Yes for the mood; for slip dresses choose Reformation, for work trousers Theory, for basics Quince or Everlane over Wilfred Free.",
+  'who-owns-free-people-brand-guide':
+    "Bottom line: Who owns the brand Free People? Urban Outfitters, Inc. (NASDAQ: URBN) — the publicly traded retail giant that also owns Urban Outfitters, Anthropologie, FP Movement, and Nuuly. Free People was originally the first store opened by URBN founder Dick Hayne in 1970 before being relaunched as an in-house wholesale label in 1984. FP Movement is its in-house activewear spin-off. Buy Free People for unique bohemian statement jackets and dresses; skip its basic tees (choose Quince or Everlane) and formal wedding guest slips (choose Reformation).",
   'athleta-vs-lululemon-brand-guide':
     "Bottom line: Athleta vs Lululemon — Elation vs Align. Lululemon Align (Nulu) is the buttery everyday tight for low-impact, all-day comfort. Athleta Elation (Powervita) is the direct cross-shop — often lower on sale, slightly more hold, built for studio-to-street. Buy Align for maximum softness and the Lululemon fabric story; buy Elation for one performance tight at a sensible receipt. Skip both for office trousers (Banana Republic or Babaton) or hard training (Steady State, Nike Pro, Vuori).",
   'vuori-vs-lululemon-brand-guide':
@@ -715,6 +717,37 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Can you buy Wilfred outside of Aritzia?',
       a: 'No new Wilfred is sold outside Aritzia. You will not find it at Nordstrom, Revolve, or a standalone Wilfred site. Pre-owned Wilfred does circulate on resale platforms — that is secondhand, not wider retail distribution. For the full Aritzia house-of-brands map, see the Aritzia sub-brands guide.',
+    },
+  ],
+
+  'who-owns-free-people-brand-guide': [
+    {
+      q: 'Who owns the brand Free People?',
+      a: "Free People is wholly owned by Urban Outfitters, Inc. (NASDAQ: URBN), a publicly traded multinational retail corporation headquartered in Philadelphia, PA. It is not an independent designer or private boutique label.",
+    },
+    {
+      q: 'Is Free People owned by Urban Outfitters?',
+      a: "Yes. In fact, 'Free People' was the original name of the very first store opened by URBN founder Dick Hayne in 1970 in Philadelphia before being renamed Urban Outfitters. In 1984, Hayne resurrected Free People as a wholesale brand, and standalone retail stores debuted in 2002.",
+    },
+    {
+      q: 'Who owns Anthropologie?',
+      a: "Anthropologie is also wholly owned by Urban Outfitters, Inc. (URBN). It was launched in 1992 by Dick Hayne to serve women in their 30s and 40s who had outgrown the younger Urban Outfitters aesthetic, focusing on upscale bohemian apparel, home decor, and wedding fashion.",
+    },
+    {
+      q: 'What is the difference between Free People and FP Movement?',
+      a: "FP Movement is an activewear sub-brand launched inside Free People in 2012. While mainline Free People designs bohemian dresses, textured knitwear, and denim for leisure, FP Movement engineers technical sweat-wicking activewear, studio yoga sets, and apres-ski outerwear (like the Pippa Packable Puffer).",
+    },
+    {
+      q: 'What other brands are in the URBN portfolio?',
+      a: "Urban Outfitters, Inc. (URBN) owns six primary lifestyle brands: Urban Outfitters (young adult / Gen Z), Anthropologie (mature bohemian & home), Free People (contemporary boho), FP Movement (activewear), Nuuly (monthly clothing rental subscription), and Terrain (gardening & outdoor living).",
+    },
+    {
+      q: 'Is Free People considered fast fashion or luxury?',
+      a: "Free People occupies the premium contemporary tier ($80–$300) between fast fashion and designer luxury. While higher quality and more artisan-styled than fast-fashion chains, it relies on commercial mass production and seasonal collections rather than luxury heirloom craftsmanship.",
+    },
+    {
+      q: 'What should you buy instead of Free People?',
+      a: "For wedding guest and slip dresses, choose Reformation for sharper tailoring. For delicate romantic knitwear, choose Sézane for heirloom Parisian wools. For everyday basics and layering knits, choose Quince or Everlane to avoid Free People's steep brand markup.",
     },
   ],
 
