@@ -41,6 +41,8 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Who owns the brand Wilfred? Aritzia Inc. (TSX: ATZ) — Wilfred is an in-house label sold only at Aritzia boutiques and aritzia.com, not a separate designer house. Wilfred Free is also Aritzia-owned. Wilfred vs Wilfred Free: date-night drape vs everyday knits. Wilfred vs Babaton: dinner (fluid) vs desk (Effortless Pant, tailoring). Is Wilfred a good brand? Yes for the mood; for slip dresses choose Reformation, for work trousers Theory, for basics Quince or Everlane over Wilfred Free.",
   'who-owns-free-people-brand-guide':
     "Bottom line: Who owns the brand Free People? Urban Outfitters, Inc. (NASDAQ: URBN) — the publicly traded retail giant that also owns Urban Outfitters, Anthropologie, FP Movement, and Nuuly. Free People was originally the first store opened by URBN founder Dick Hayne in 1970 before being relaunched as an in-house wholesale label in 1984. FP Movement is its in-house activewear spin-off. Buy Free People for unique bohemian statement jackets and dresses; skip its basic tees (choose Quince or Everlane) and formal wedding guest slips (choose Reformation).",
+  'arcteryx-lines-explained':
+    "Bottom line: Arc'teryx Alpha vs Beta — buy Beta for 90% of people (All-Mountain shell with normal hand pockets for rain, hiking, and daily wear); buy Alpha strictly for climbers (high crossover chest pockets that clear a harness, no waist pockets). Arc'teryx Atom vs Proton — buy Atom for everyday active warmth and windy cold commutes (Tyono wind-resistant face fabric, Coreloft insulation); buy Proton for high-output mountain exertion and touring (Fortius air-permeable fabric that dumps heat). Suffixes: SV is severe weather armor; AR is all-round durability; LT is lightweight everyday minimalist.",
   'athleta-vs-lululemon-brand-guide':
     "Bottom line: Athleta vs Lululemon — Elation vs Align. Lululemon Align (Nulu) is the buttery everyday tight for low-impact, all-day comfort. Athleta Elation (Powervita) is the direct cross-shop — often lower on sale, slightly more hold, built for studio-to-street. Buy Align for maximum softness and the Lululemon fabric story; buy Elation for one performance tight at a sensible receipt. Skip both for office trousers (Banana Republic or Babaton) or hard training (Steady State, Nike Pro, Vuori).",
   'vuori-vs-lululemon-brand-guide':
@@ -748,6 +750,33 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'What should you buy instead of Free People?',
       a: "For wedding guest and slip dresses, choose Reformation for sharper tailoring. For delicate romantic knitwear, choose Sézane for heirloom Parisian wools. For everyday basics and layering knits, choose Quince or Everlane to avoid Free People's steep brand markup.",
+    },
+  ],
+
+  'arcteryx-lines-explained': [
+    {
+      q: "Arc'teryx Alpha vs Beta — what is the difference?",
+      a: "Beta is an All-Mountain hardshell designed for hiking, daily rain, travel, and skiing, featuring standard waist hand pockets and a relaxed cut. Alpha is a specialized alpine climbing shell featuring high-chest crossover pockets designed to sit clear of a climbing harness or pack hip belt, with no lower pockets and a shorter front hem.",
+    },
+    {
+      q: "Arc'teryx Atom vs Proton — which should I buy?",
+      a: "Buy Atom if you want an everyday insulated jacket for cold commutes, walking, travel, and camp warmth (its Tyono face fabric blocks wind). Buy Proton if you sweat heavily during aerobic mountain sports like ski touring, climbing, or winter trail running (its Fortius Air fabric actively vents body heat).",
+    },
+    {
+      q: "What do the Arc'teryx suffixes SV, AR, LT, and SL mean?",
+      a: "SV stands for Severe Weather (thickest 100D GORE-TEX Pro fabrics for extreme conditions); AR stands for All-Round (balanced durability and weight for multi-sport use); LT stands for Lightweight (streamlined minimalist features, popular for city and hiking); SL stands for Superlight (ultra-thin packable emergency protection).",
+    },
+    {
+      q: "Is Arc'teryx Gamma waterproof?",
+      a: "No. Gamma is a breathable, stretchy softshell, not a waterproof hardshell. It resists wind and light drizzle while offering superior rock abrasion resistance and comfort, but it will saturate in sustained downpours.",
+    },
+    {
+      q: "Which Arc'teryx jacket is best for everyday use and rain?",
+      a: "The Arc'teryx Beta LT (or standard Beta Jacket) is widely considered the best single waterproof jacket for everyday life, travel, and hiking. It uses genuine GORE-TEX waterproofing, has regular hand-warmer pockets, and layers easily over street clothes.",
+    },
+    {
+      q: "Can you machine wash Arc'teryx GORE-TEX jackets?",
+      a: "Yes, and you should. Dirt and body oils degrade the waterproof membrane over time. Wash on a warm gentle cycle using a technical cleaner (like Nikwax Tech Wash or Grangers), rinse thoroughly, and tumble dry on medium heat for 20–30 minutes to reactivate the DWR water-repellent coating.",
     },
   ],
 

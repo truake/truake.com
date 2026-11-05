@@ -552,7 +552,83 @@ export const posts: BlogPost[] = [
 <h2>The Diffr Take</h2>
 <p>Inside Patagonia, <strong>decide once per line:</strong> mid-layer &rarr; Better Sweater, base &rarr; Capilene, puffy &rarr; Down Sweater, wind &rarr; Houdini, rain &rarr; Torrentshell, carry &rarr; Black Hole. That is how you stop rebuying three fleeces that do the same job.</p>
 <p>When you build a <em>full scene kit</em> &mdash; hiking, winter commute, international travel &mdash; Diffr still recommends <strong><a href="/diffr/blog/the-one-brand-rule">one brand per slot, no repeats</a>:</strong> Patagonia might own your fleece mid-layer, but your boots, socks, stove, and shell can each come from the specialist that wins that slot. See the cross-brand <a href="/diffr/blog/winter-layering-brand-guide">winter layering guide</a> and <a href="/diffr/blog/camping-gear-brand-guide">car-camping kit</a> for kits where every slot is a different brand. Patagonia is excellent at fabric lines; your whole closet is still a system of slots.</p>
-<p>Compare with <a href="/diffr/blog/nike-lines-explained">Nike lines</a>, <a href="/diffr/blog/adidas-lines-explained">Adidas lines</a>, or <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo fabric lines</a> &mdash; same map-the-lanes pattern. <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get Diffr</a> to lock one pick per slot everywhere else too.</p>
+<p>Compare with <a href="/diffr/blog/arcteryx-lines-explained">Arc&rsquo;teryx lines explained</a> (Alpha vs Beta, Atom vs Proton), <a href="/diffr/blog/nike-lines-explained">Nike lines</a>, <a href="/diffr/blog/adidas-lines-explained">Adidas lines</a>, or <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo fabric lines</a> &mdash; same map-the-lanes pattern. <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get Diffr</a> to lock one pick per slot everywhere else too.</p>
+`.trim(),
+  },
+  {
+    slug: 'arcteryx-lines-explained',
+    title: 'Arc\'teryx Lines Explained: Alpha vs Beta, Atom vs Proton',
+    description: "Arc'teryx lines decoded: Alpha vs Beta hardshells, Atom vs Proton active insulation, LT vs AR vs SV suffixes, GORE-TEX Pro fabrics, and which shell to buy.",
+    date: '2026-11-05',
+    readTime: '7 min read',
+    tags: ['arcteryx lines explained', 'arcteryx alpha vs beta', 'arcteryx atom vs proton', 'alpha vs beta', 'atom vs proton', 'arcteryx lt vs ar', 'gore tex pro', 'one brand rule'],
+    category: 'product',
+    excerpt: "Arc'teryx has the most confusing naming system in outdoor apparel. Here is the plain-English decoder: Alpha vs Beta, Atom vs Proton, SV vs AR vs LT, and which jacket owns your slot.",
+    content: `
+<p><strong>Arc&rsquo;teryx makes some of the finest mountain gear in the world &mdash; and also the most needlessly confusing product names in fashion.</strong> Between Alpha, Beta, Gamma, Atom, Proton, and suffixes like SV, AR, and LT, stepping into an Arc&rsquo;teryx flagship feels like reading an aerospace engineering patent. Shoppers routinely spend \$600&ndash;\$900 on an extreme alpine climbing shell only to discover it has no hand pockets for walking in the city. (An independent guide; we are not affiliated with Arc&rsquo;teryx or Amer Sports.)</p>
+<p>Here is the truth: Arc&rsquo;teryx products follow a strict <strong>[Family Name] + [Modifier Suffix]</strong> naming formula. Once you know the two core matchups &mdash; <strong>Alpha vs Beta</strong> for waterproof hardshells, and <strong>Atom vs Proton</strong> for insulated mid-layers &mdash; the entire catalogue collapses into clean, obvious choices. Pair this with <a href="/diffr/blog/patagonia-lines-explained">Patagonia lines explained</a> if you are cross-shopping mid-layers, or the <a href="/diffr/blog/winter-layering-brand-guide">winter layering guide</a> to build your cold-weather kit.</p>
+
+<h2>The One-Line Decoder: The Two Great Matchups</h2>
+<p><strong>Alpha vs Beta (Waterproof Hardshells):</strong></p>
+<ul>
+<li><strong>Beta is for 90% of people:</strong> It is Arc&rsquo;teryx&rsquo;s <em>All-Mountain</em> jacket. It has standard hand-warmer pockets at waist height, a regular cut that fits over street clothes, and a versatile storm hood. If you want one rain jacket for hiking, city downpours, travel, and casual skiing, <strong>buy Beta</strong>.</li>
+<li><strong>Alpha is strictly for climbers and alpinists:</strong> It has <em>cross-chest Napoleon pockets</em> placed high so a climbing harness or backpack hip belt does not block them. It has zero lower hand pockets, a shorter front hem so gear loops stay accessible, and an oversized helmet-compatible hood. If you do not wear a climbing harness, you will find Alpha frustrating in daily life.</li>
+</ul>
+<p><strong>Atom vs Proton (Insulated Mid-Layers / Puffy Jackets):</strong></p>
+<ul>
+<li><strong>Atom is for everyday warmth &amp; stop-and-go activity:</strong> It uses <em>Tyono&trade;</em> face fabric, which blocks wind and light drizzle, paired with Coreloft&trade; insulation and breathable fleece side panels. It is the cozy, cloud-soft jacket you wear walking the dog, commuting on chilly mornings, and lounging at camp.</li>
+<li><strong>Proton is for high-output mountain exertion:</strong> It uses <em>Fortius&trade; Air</em> face fabric, which is extremely air-permeable. It actively vents body heat and sweat while you are climbing, ski touring, or trail running. If you wear Proton in the city on a windy day, the wind cuts straight through it; if you wear Atom while skinning up a mountain, you will overheat and soak in sweat.</li>
+</ul>
+
+<h2>Arc&rsquo;teryx Hardshell Comparison: Alpha vs Beta</h2>
+<table><thead><tr><th>Feature</th><th>Arc&rsquo;teryx Beta (All-Mountain)</th><th>Arc&rsquo;teryx Alpha (Climbing &amp; Alpinism)</th></tr></thead><tbody>
+<tr><td><strong>Primary Scenario</strong></td><td>Hiking, rainy city commute, travel, casual skiing</td><td>Ice climbing, mountaineering, rock climbing</td></tr>
+<tr><td><strong>Pocket Configuration</strong></td><td>Standard lower hand pockets (easy to rest hands)</td><td>Crossover chest pockets (harness / hip-belt clear)</td></tr>
+<tr><td><strong>Jacket Hem Cut</strong></td><td>Even hem with standard seat coverage</td><td>Shorter front hem for mobility; drop back hem</td></tr>
+<tr><td><strong>Fit Profile</strong></td><td>Regular fit &mdash; layers easily over fleece or hoodies</td><td>Trim / tapered athletic fit &mdash; engineered for high reach</td></tr>
+<tr><td><strong>Fabric Membrane</strong></td><td>GORE-TEX 3L or GORE-TEX ePE (light, supple)</td><td>GORE-TEX Pro Most Rugged (maximum rock abrasion resistance)</td></tr>
+<tr><td><strong>Best-Selling Model</strong></td><td><strong>Beta LT / Beta Jacket</strong> (\$450&ndash;\$500)</td><td><strong>Alpha SV</strong> (\$900) / <strong>Alpha Jacket</strong> (\$700)</td></tr>
+<tr><td><strong>Slot Verdict</strong></td><td><strong>Wins the Everyday &amp; Hiking Slot</strong></td><td><strong>Wins the Technical Climbing Slot only</strong></td></tr>
+</tbody></table>
+
+<h2>Arc&rsquo;teryx Mid-Layer Comparison: Atom vs Proton</h2>
+<table><thead><tr><th>Feature</th><th>Arc&rsquo;teryx Atom (Everyday Active Warmth)</th><th>Arc&rsquo;teryx Proton (High-Output Aerobic Exertion)</th></tr></thead><tbody>
+<tr><td><strong>Face Fabric</strong></td><td>Tyono&trade; 20 (smooth, wind-resistant, light DWR)</td><td>Fortius&trade; Air 20 (stretchy, highly air-permeable, abrasion-tough)</td></tr>
+<tr><td><strong>Wind Protection</strong></td><td>High &mdash; cuts cold wind on body and arms</td><td>Low &mdash; deliberately lets air flow through to dump heat</td></tr>
+<tr><td><strong>Breathability</strong></td><td>Moderate &mdash; vents primarily through side fleece panels</td><td>Maximum &mdash; the entire garment acts as a breathable membrane</td></tr>
+<tr><td><strong>Insulation</strong></td><td>Coreloft&trade; Compact (silky, light, retains loft)</td><td>Coreloft&trade; Continuous (resilient, handles heavy moisture)</td></tr>
+<tr><td><strong>Hand Feel &amp; Sound</strong></td><td>Silky, quiet, soft against the skin</td><td>Textured, slightly matte, technical exterior</td></tr>
+<tr><td><strong>Best Scenario</strong></td><td>Fall commute, casual travel, cool dry campsite</td><td>Ski touring, ice climbing, winter trail running</td></tr>
+<tr><td><strong>Slot Verdict</strong></td><td><strong>Wins the Casual Puffy &amp; Travel Slot</strong></td><td><strong>Wins the Mountain Performance Mid-Layer Slot</strong></td></tr>
+</tbody></table>
+
+<h2>Deciphering the Modifiers: What Do SV, AR, LT, and SL Mean?</h2>
+<p>Once you pick your family (Alpha, Beta, Gamma, Atom, Proton), the two-letter suffix tells you the weight and durability tier:</p>
+<ul>
+<li><strong>SV (Severe Weather):</strong> The tank tier. Uses the heaviest face fabrics (e.g. 100-denier nylon) and maximum weather protection. Heavy, crinkly, and expensive &mdash; built for blizzards in Alaska or Patagonia. Overkill for city rain.</li>
+<li><strong>AR (All-Round):</strong> The sweet spot for durability. Balances heavy-duty weatherproofing with packability. A <em>Beta AR</em> is the single most indestructible shell you can buy that still packs down for a weekend trip.</li>
+<li><strong>LT (Lightweight):</strong> Stripped of excess bulk (e.g. streamlined pit zips, lighter 40-denier fabric). The <em>Beta LT</em> and <em>Atom LT</em> are Arc&rsquo;teryx&rsquo;s most popular jackets worldwide because they offer 90% of the protection at half the stiffness.</li>
+<li><strong>SL (Superlight):</strong> Ultra-packable emergency weather protection. Extremely thin face fabrics designed to sit in your backpack until an unexpected mountain storm hits.</li>
+</ul>
+
+<h2>What About Gamma? (The Softshell Lane)</h2>
+<p>Shoppers often confuse <strong>Gamma</strong> with Beta. Gamma is not waterproof &mdash; it is a <strong>softshell</strong> made of stretchy, highly breathable, weather-resistant nylon. It will soak through in a prolonged torrential downpour, but for 80% of mountain days with wind and light snow, a <em>Gamma Hoody</em> breathes ten times better than any GORE-TEX hardshell while resisting tearing against granite rocks.</p>
+
+<h2>Which Arc&rsquo;teryx Jacket Should You Actually Buy?</h2>
+<p><strong>1. If you need one waterproof rain jacket for your whole life:</strong> Buy the <strong>Arc&rsquo;teryx Beta LT</strong> (or standard Beta Jacket). You get real GORE-TEX waterproofing, comfortable hand pockets, and a clean silhouette that works over a hoodie in Tokyo or a fleece on a mountain pass.</p>
+<p><strong>2. If you need a lightweight fall/winter jacket you will wear 150 days a year:</strong> Buy the <strong>Arc&rsquo;teryx Atom Hoody</strong>. It weighs almost nothing, packs into its own sleeve, cuts the chill, and outlasts generic down jackets that leak feathers.</p>
+<p><strong>3. Skip Alpha unless:</strong> you actively climb rocks, climb ice, or ski with a heavy technical mountaineering pack. You will miss having normal hand pockets every single day.</p>
+
+<h2>The Diffr Take: One Brand Per Slot</h2>
+<p>Arc&rsquo;teryx is legendary for a reason, but buying three different Arc&rsquo;teryx jackets for \$2,000 creates redundancy, not versatility. You do not need an Alpha SV, a Beta AR, and a Beta LT.</p>
+<p>Apply the <strong>One Brand Per Slot</strong> rule:</p>
+<ul>
+<li><strong>Slot 1: The Indestructible Storm Shell</strong> &rarr; <span class="font-semibold text-neutral-900">Arc&rsquo;teryx</span> (Beta LT or Beta AR in black or dark navy).</li>
+<li><strong>Slot 2: The Fleece Mid-Layer</strong> &rarr; <a href="/diffr/blog/patagonia-lines-explained">Patagonia</a> (R1 Air or Better Sweater for cozy breathability).</li>
+<li><strong>Slot 3: The Base Layer</strong> &rarr; <span class="font-semibold text-neutral-900">Smartwool</span> (Classic All-Season Merino 150).</li>
+<li><strong>Slot 4: Commute Athletic Pants</strong> &rarr; <a href="/diffr/blog/vuori-vs-lululemon-brand-guide">Lululemon ABC or Vuori Meta</a>.</li>
+</ul>
+<p>Pick one shell that lasts a decade, lock your slot, and stop rebuying the rack. That is <a href="/diffr/blog/the-one-brand-rule">the one-brand rule</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr on iOS</a> to build your minimalist gear matrix.</p>
 `.trim(),
   },
   {
