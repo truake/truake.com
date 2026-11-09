@@ -43,6 +43,8 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Who owns the brand Free People? Urban Outfitters, Inc. (NASDAQ: URBN) — the publicly traded retail giant that also owns Urban Outfitters, Anthropologie, FP Movement, and Nuuly. Free People was originally the first store opened by URBN founder Dick Hayne in 1970 before being relaunched as an in-house wholesale label in 1984. FP Movement is its in-house activewear spin-off. Buy Free People for unique bohemian statement jackets and dresses; skip its basic tees (choose Quince or Everlane) and formal wedding guest slips (choose Reformation).",
   'arcteryx-lines-explained':
     "Bottom line: Arc'teryx Alpha vs Beta — buy Beta for 90% of people (All-Mountain shell with normal hand pockets for rain, hiking, and daily wear); buy Alpha strictly for climbers (high crossover chest pockets that clear a harness, no waist pockets). Arc'teryx Atom vs Proton — buy Atom for everyday active warmth and windy cold commutes (Tyono wind-resistant face fabric, Coreloft insulation); buy Proton for high-output mountain exertion and touring (Fortius air-permeable fabric that dumps heat). Suffixes: SV is severe weather armor; AR is all-round durability; LT is lightweight everyday minimalist.",
+  'patagonia-r1-vs-r2-brand-guide':
+    "Bottom line: Patagonia R1 vs R2 — buy R1 (Air or Classic) as an active mid-layer for high-cardio cold weather (hiking, climbing, ski touring); its air-permeable grid fleece dumps body heat and dries in minutes under a shell. Buy R2 (TechFace) for standalone weather protection and lower-output warmth; its dense double-weave fleece blocks cold wind and sheds light precipitation where traditional fleece gets soaked. Skip the Better Sweater for the mountain — that is a casual lifestyle knit.",
   'athleta-vs-lululemon-brand-guide':
     "Bottom line: Athleta vs Lululemon — Elation vs Align. Lululemon Align (Nulu) is the buttery everyday tight for low-impact, all-day comfort. Athleta Elation (Powervita) is the direct cross-shop — often lower on sale, slightly more hold, built for studio-to-street. Buy Align for maximum softness and the Lululemon fabric story; buy Elation for one performance tight at a sensible receipt. Skip both for office trousers (Banana Republic or Babaton) or hard training (Steady State, Nike Pro, Vuori).",
   'vuori-vs-lululemon-brand-guide':
@@ -777,6 +779,33 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: "Can you machine wash Arc'teryx GORE-TEX jackets?",
       a: "Yes, and you should. Dirt and body oils degrade the waterproof membrane over time. Wash on a warm gentle cycle using a technical cleaner (like Nikwax Tech Wash or Grangers), rinse thoroughly, and tumble dry on medium heat for 20–30 minutes to reactivate the DWR water-repellent coating.",
+    },
+  ],
+
+  'patagonia-r1-vs-r2-brand-guide': [
+    {
+      q: 'Patagonia R1 vs R2 — what is the difference?',
+      a: "Patagonia R1 is a lightweight active mid-layer designed for high-exertion cold-weather activities; it features highly breathable grid fleece (or zigzag hollow-core yarn in R1 Air) that dumps excess heat and sweat under a shell. Patagonia R2 (TechFace) is a heavier, warmer fleece jacket with a durable, weather-shedding exterior treated with DWR that blocks wind and repels light snow as standalone outerwear.",
+    },
+    {
+      q: 'Is Patagonia R1 warm enough for winter?',
+      a: "As a standalone piece in freezing temperatures, no — R1 has high air-permeability and virtually no wind resistance. However, when layered under a wind shell (like Houdini) or a hardshell (like Arc'teryx Beta), R1 traps significant warm air in its grid pockets while keeping you dry during active movement down to sub-freezing temperatures.",
+    },
+    {
+      q: 'What is the difference between Patagonia R1 Air and R1 TechFace?',
+      a: "R1 Air is made from ultra-breathable zigzag hollow-core fleece engineered for maximum moisture-wicking and heat dumping during steep ascents. R1 TechFace adds a hard-wearing, weather-resistant outer face treated with DWR, providing wind protection and rock abrasion resistance at the expense of pure breathability.",
+    },
+    {
+      q: 'Patagonia R1 vs Better Sweater — which should I buy?',
+      a: "Buy the Better Sweater for casual everyday office wear, travel, and lifestyle lounging; it looks like a sweater-knit wool piece but is heavy, stiff, and dries slowly. Buy the R1 for actual outdoor performance, hiking, and active sports where stretch, packability, and fast moisture management are essential.",
+    },
+    {
+      q: 'Does Patagonia still make the classic R2 fleece?',
+      a: "Patagonia has phased out the original high-loft 'monkey fleece' R2 in favor of the R2 TechFace. The R2 TechFace provides comparable high-pile thermal insulation inside while adding a tough, wind-resistant double-weave exterior that functions as standalone alpine outerwear.",
+    },
+    {
+      q: 'How does Patagonia R1 sizing fit?',
+      a: "Patagonia R1 (Classic and TechFace) has a slim, athletic fit designed to sit close to the body for optimal moisture transfer. If you prefer a relaxed everyday fit or plan to layer thick shirts underneath, consider sizing up. R1 Air has a slightly more relaxed, casual silhouette.",
     },
   ],
 

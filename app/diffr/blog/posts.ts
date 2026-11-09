@@ -624,11 +624,88 @@ export const posts: BlogPost[] = [
 <p>Apply the <strong>One Brand Per Slot</strong> rule:</p>
 <ul>
 <li><strong>Slot 1: The Indestructible Storm Shell</strong> &rarr; <span class="font-semibold text-neutral-900">Arc&rsquo;teryx</span> (Beta LT or Beta AR in black or dark navy).</li>
-<li><strong>Slot 2: The Fleece Mid-Layer</strong> &rarr; <a href="/diffr/blog/patagonia-lines-explained">Patagonia</a> (R1 Air or Better Sweater for cozy breathability).</li>
+<li><strong>Slot 2: The Fleece Mid-Layer</strong> &rarr; <a href="/diffr/blog/patagonia-r1-vs-r2-brand-guide">Patagonia R1 vs R2</a> (R1 Air for active breathability).</li>
 <li><strong>Slot 3: The Base Layer</strong> &rarr; <span class="font-semibold text-neutral-900">Smartwool</span> (Classic All-Season Merino 150).</li>
 <li><strong>Slot 4: Commute Athletic Pants</strong> &rarr; <a href="/diffr/blog/vuori-vs-lululemon-brand-guide">Lululemon ABC or Vuori Meta</a>.</li>
 </ul>
 <p>Pick one shell that lasts a decade, lock your slot, and stop rebuying the rack. That is <a href="/diffr/blog/the-one-brand-rule">the one-brand rule</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr on iOS</a> to build your minimalist gear matrix.</p>
+`.trim(),
+  },
+  {
+    slug: 'patagonia-r1-vs-r2-brand-guide',
+    title: 'Patagonia R1 vs R2: Grid Fleece, TechFace & Which Mid-Layer Wins',
+    description: 'Patagonia R1 vs R2 compared: R1 Air vs R2 TechFace, grid fleece breathability, wind resistance, warmth-to-weight, sizing, and which mid-layer to buy.',
+    date: '2026-11-07',
+    readTime: '6 min read',
+    tags: ['patagonia r1 vs r2', 'r1 vs r2', 'patagonia r1 air vs r2 techface', 'patagonia fleece', 'patagonia mid layer', 'grid fleece', 'outdoor layers', 'one brand rule'],
+    category: 'product',
+    excerpt: 'Patagonia R1 and R2 are legendary technical fleeces — but they solve completely different weather problems. Here is the direct comparison between R1 Air, R2 TechFace, and Better Sweater.',
+    content: `
+<p><strong>Patagonia&rsquo;s Regulator&reg; fleece system (the R-series) is the gold standard of technical outdoor mid-layers &mdash; but cross-shopping R1 and R2 causes endless confusion.</strong> Both use recycled polyester fleeces, both cost between \$140 and \$230, and both promise breathable mountain warmth. Yet buying the wrong one means either freezing on a windy ridge or overheating into a puddle of sweat twenty minutes into a hike. (An independent guide; we are not affiliated with Patagonia.)</p>
+<p>For the full landscape of Patagonia classics (Down Sweater, Better Sweater, Houdini, Torrentshell), see <a href="/diffr/blog/patagonia-lines-explained">Patagonia lines explained</a>. For how to pair technical fleece with hardshells, see <a href="/diffr/blog/arcteryx-lines-explained">Arc&rsquo;teryx lines explained</a> (Beta vs Alpha) and the <a href="/diffr/blog/winter-layering-brand-guide">winter layering guide</a>. This page settles the exact question: <strong>Patagonia R1 vs R2 &mdash; which mid-layer wins your slot?</strong></p>
+
+<h2>The One-Line Verdict: R1 vs R2</h2>
+<p><strong>Patagonia R1 is an active, breathable mid-layer:</strong> It is lightweight, uses an air-permeable grid (or hollow-core zigzag in R1 Air), and is engineered to dump heat and move sweat while your body is working hard in cold temperatures. It has near-zero wind resistance and is designed to be worn under a windbreaker or hardshell.</p>
+<p><strong>Patagonia R2 (specifically R2 TechFace) is an all-in-one protective outer fleece:</strong> It is thicker, significantly warmer, and features a hardened, weather-shedding exterior treated with DWR that cuts cold wind and repels light snow. You can wear it as a standalone jacket on blustery alpine days without needing an extra shell.</p>
+
+<h2>Patagonia R1 vs R2 — Comparison Table</h2>
+<table><thead><tr><th>Feature</th><th>Patagonia R1 (Air / Classic)</th><th>Patagonia R2 (TechFace)</th></tr></thead><tbody>
+<tr><td><strong>Primary Job</strong></td><td>Active breathable mid-layer under a shell</td><td>Weather-resistant standalone jacket or high-warmth mid-layer</td></tr>
+<tr><td><strong>Fabric Construction</strong></td><td>Zigzag hollow-core yarn (R1 Air) or Polartec&reg; Power Grid</td><td>Double-weave technical fleece with hard-wearing exterior</td></tr>
+<tr><td><strong>Warmth Tier</strong></td><td>Moderate active warmth (temps 30&deg;F&ndash;55&deg;F with movement)</td><td>High thermal warmth (temps 20&deg;F&ndash;45&deg;F)</td></tr>
+<tr><td><strong>Wind Resistance</strong></td><td>Minimal &mdash; air flows freely through to dump body heat</td><td>High &mdash; tightly woven face fabric blocks cutting winds</td></tr>
+<tr><td><strong>Moisture Management</strong></td><td>Unmatched &mdash; dries in minutes during steep ascents</td><td>Good breathability, but retains more moisture due to density</td></tr>
+<tr><td><strong>Packability &amp; Weight</strong></td><td>Ultralight (~10&ndash;12 oz); packs down small in a backpack</td><td>Midweight (~18&ndash;19 oz); takes up more pack volume</td></tr>
+<tr><td><strong>Price Range</strong></td><td>\$139&ndash;\$179 (Crew, Half-Zip, Full-Zip Hoody)</td><td>\$199&ndash;\$229 (Jacket, Hoody)</td></tr>
+<tr><td><strong>Slot Winner</strong></td><td><strong>Wins High-Output Mountain Cardio &amp; Layering</strong></td><td><strong>Wins Cold Windy Days &amp; Standalone Outerwear</strong></td></tr>
+</tbody></table>
+
+<h2>The R-Series Lineup Decoded: Air vs TechFace vs Daily</h2>
+<p>Patagonia currently sells multiple variations of both R1 and R2. Here is how each variant splits:</p>
+
+<h3>1. Patagonia R1 Air (The Cult Favorite Active Mid-Layer)</h3>
+<p>Made from 100% recycled polyester hollow-core yarns with a distinctive zigzag wave pattern. It is the most breathable fleece Patagonia has ever built. When you are sweating on a steep snowshoe or winter trail run, sweat evaporates almost instantly. <strong>The caveat:</strong> Because it is porous, any stiff breeze cuts right through it. You must pair it with a wind shell (like the Patagonia Houdini) or a storm shell (like the Arc&rsquo;teryx Beta LT).</p>
+
+<h3>2. Patagonia R1 TechFace (The Hybrid Weather Fleece)</h3>
+<p>Takes the classic R1 grid fleece and bonds it to a tough, water-repellent face fabric. It gives you 60% of the weather protection of a softshell with the soft stretch of an R1. Ideal for rock climbing and shoulder-season scrambles where abrasive stone tears standard knit fleece.</p>
+
+<h3>3. Patagonia R2 TechFace (The Cold-Weather Fortress)</h3>
+<p>The heaviest and warmest member of the Regulator family. Patagonia discontinued the fluffy, high-loft &ldquo;monkey fleece&rdquo; original R2 in favor of the R2 TechFace. It has a high-pile grid fleece interior that traps body heat like a furnace, combined with a weather-resistant exterior. It serves as a legitimate autumn and early-winter jacket in dry, windy climates.</p>
+
+<h2>R1 vs Better Sweater: Mountain Gear vs Mall Classic</h2>
+<p>Many shoppers cross-shop the R1 with the ubiquitous <strong>Patagonia Better Sweater</strong>. While both are fleeces made by the same company, they are built for entirely different lives:</p>
+<ul>
+<li><strong>Better Sweater:</strong> Knit to look like wool outerwear. It is heavy, stiff, slow to dry, and will pill if worn under heavy pack straps. It is built for coffee shops, casual offices, and weekend errands.</li>
+<li><strong>R1 / R2:</strong> Pure technical alpine equipment. It is stretchy, ergonomic, packs into a fraction of the space, and features elasticized cuffs that push up your forearms comfortably when climbing.</li>
+</ul>
+
+<h2>How to Layer R1 and R2 with Arc&rsquo;teryx Shells</h2>
+<p>A classic cold-weather 3-layer system works like this:</p>
+<ol>
+<li><strong>Base Layer (Next-to-skin):</strong> Moves moisture away from your skin. (e.g. Smartwool Merino 150 or Patagonia Capilene Cool).</li>
+<li><strong>Mid-Layer (Thermal regulation):</strong>
+  <ul>
+    <li>Choose <strong>Patagonia R1 Air</strong> if temperatures are freezing but you are hiking uphill and generating high body heat.</li>
+    <li>Choose <strong>Patagonia R2 TechFace</strong> if temperatures are below freezing or you are in windy, stop-and-go mountain conditions.</li>
+  </ul>
+</li>
+<li><strong>Hardshell (Weather fortress):</strong> Blocks torrential rain, snow, and gale-force wind. Pair with an <a href="/diffr/blog/arcteryx-lines-explained">Arc&rsquo;teryx Beta LT or Beta AR</a> (or Patagonia Torrentshell 3L).</li>
+</ol>
+
+<h2>Which Should You Buy?</h2>
+<p><strong>Buy Patagonia R1 (Air or Classic) if:</strong> you need a genuine mid-layer that lives underneath a shell, you hike or climb aggressively in cold weather, and your biggest enemy is soaking your clothes in sweat from the inside out.</p>
+<p><strong>Buy Patagonia R2 TechFace if:</strong> you want a single do-it-all fleece jacket for cold, blustery mornings, casual hiking in windy fall weather, and you dislike having to put on and take off a noisy hardshell every time a light breeze kicks up.</p>
+
+<h2>The Diffr Take</h2>
+<p>Fleece is an area where consumers buy four versions of the exact same weight. That is unnecessary closet bloat.</p>
+<p>Apply the <strong>One Brand Per Slot</strong> rule:</p>
+<ul>
+<li><strong>Slot 1: The Active Technical Fleece</strong> &rarr; <span class="font-semibold text-neutral-900">Patagonia R1 Air</span> (unrivaled heat dumping and sweat management).</li>
+<li><strong>Slot 2: The Waterproof Storm Shell</strong> &rarr; <a href="/diffr/blog/arcteryx-lines-explained">Arc&rsquo;teryx Beta LT</a> (indestructible GORE-TEX protection).</li>
+<li><strong>Slot 3: Casual Commute &amp; Travel Fleece</strong> &rarr; <a href="/diffr/blog/patagonia-lines-explained">Patagonia Better Sweater</a> or <a href="/diffr/blog/vuori-vs-lululemon-brand-guide">Vuori Sunday Performance</a>.</li>
+<li><strong>Slot 4: Next-to-Skin Merino Base</strong> &rarr; <span class="font-semibold text-neutral-900">Smartwool</span> (Classic All-Season).</li>
+</ul>
+<p>Pick the fleece that matches your physical activity level, decide once, and keep your layering system lean. That is <a href="/diffr/blog/the-one-brand-rule">the one-brand rule</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr on iOS</a> to lock your minimalist cold-weather capsule.</p>
 `.trim(),
   },
   {
