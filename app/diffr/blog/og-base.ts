@@ -120,6 +120,11 @@ export const OG_BASE_SLUGS = new Set<string>([
   'wilfred-brand-guide',
   'athleta-vs-lululemon-brand-guide',
   'babaton-brand-guide',
+  // High-ROI SEO Brand Guides (2026-11)
+  'patagonia-r1-vs-r2-brand-guide',
+  'arcteryx-lines-explained',
+  'vuori-vs-lululemon-brand-guide',
+  'who-owns-free-people-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {
