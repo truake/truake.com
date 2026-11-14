@@ -401,11 +401,11 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   'adidas-lines-explained': [
     {
       q: 'What are Adidas lines?',
-      a: "Adidas is organized into lines built for different scenes: Originals (street heritage — Samba, Gazelle, campus suede), Sportswear (everyday athletic joggers and hoodies), Performance (training and running — Ultraboost, Adizero), Terrex (trail and outdoors), and Y-3 (Yohji Yamamoto design collab). Knowing the map lets you skip the wall of stripes and pick the line that matches your activity.",
+      a: "Adidas lines explained: Adidas organizes its catalog into distinct lines built for different scenes. 1) Adidas Originals (Trefoil logo) is the lifestyle archive worn on the street (Samba, Gazelle, Superstar). 2) Adidas Performance (3-Bar Badge of Sport) is engineered for active training, running, and competition (Ultraboost, Adizero, Predator). 3) Adidas Terrex is the dedicated outdoor division for hiking and trail running (Free Hiker, Agravic). 4) Adidas Sportswear covers casual athletic hoodies and joggers. 5) Y-3 is the luxury avant-garde collaboration with Yohji Yamamoto.",
     },
     {
-      q: 'What are Adidas sub-brands and lines?',
-      a: "Adidas is organized into lines built for different scenes: Originals (street heritage — Samba, Gazelle, campus suede), Sportswear (everyday athletic joggers and hoodies), Performance (training and running — Ultraboost, Adizero), Terrex (trail and outdoors), and Y-3 (Yohji Yamamoto design collab). Knowing the map lets you skip the wall of stripes and pick the line that matches your activity.",
+      q: 'Adidas Trefoil vs Originals — what is the difference?',
+      a: "There is no difference between Adidas Trefoil and Originals — the Trefoil is the official logo of the Adidas Originals collection. Designed in 1971 and introduced at the 1972 Munich Olympics, the Trefoil was the primary corporate logo until 1997. Today, any Adidas product bearing the three-leaf Trefoil belongs strictly to the Originals heritage and street lifestyle division, whereas sportswear and athletic training gear use the 3-Bar Badge of Sport.",
     },
     {
       q: "What's the difference between Adidas Originals and Performance?",
@@ -1451,6 +1451,10 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
   ],
 
   'hiking-gear-brand-guide': [
+    {
+      q: 'How to start hiking boots at home before a hike?',
+      a: 'To break in and start hiking boots at home, wear them with the exact merino wool socks you plan to hike in. Walk around indoors for 1–2 hours daily, climb stairs to flex the ankle collars and forefoot crease, and ensure your heels do not slip. Once the footbed molds to your arches and leather softens without hot spots, transition to short neighborhood walks before hitting real trails.',
+    },
     {
       q: 'What do I actually need for my first day hike?',
       a: 'Realistically four things: trail-worthy shoes, a small pack, water, and weather-appropriate layers you likely already own. Add a hat, sun protection, and a basic first aid kit and you are equipped for almost any maintained day-hike trail. Poles, headlamps, and technical apparel come once the trail tells you that you want them.',

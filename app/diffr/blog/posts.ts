@@ -344,8 +344,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'adidas-lines-explained',
-    title: "Adidas Lines Explained: Originals vs Performance",
-    description: "Adidas lines explained: Trefoil means Originals and street, 3-Bar means Performance sport. Plus Sportswear, Terrex outdoor, and the no-four-stripe rule.",
+    title: 'Adidas Lines Explained: Originals vs Performance vs Terrex',
+    description: "Adidas lines explained: Trefoil means Originals (lifestyle & street), 3-Bar Badge of Sport means Performance (training & running). Plus Terrex for trail outdoors, Sportswear, and the no-four-stripe rule.",
     date: '2026-08-03',
     readTime: '8 min read',
     tags: ['adidas lines explained', 'adidas sub brands', 'adidas originals', 'adidas performance', 'adidas terrex', 'terrex range explained', 'original adidas', 'athleisure', 'one brand rule'],
@@ -3956,14 +3956,16 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'micro-edc-brand-guide',
-    title: 'Micro EDC Essentials: 14 Ultralight Picks, One Brand Per Slot',
-    description: 'Micro EDC decoded — CRKT Minimal X, Casio ring watch, Wiha PocketStar, Ledlenser K1, Tekton titanium pry, Matador Droplet, Victorinox Nail Clip 580, Flytanium UFO, Keypry pry bar, Prometheus Kappa QR, ALPAKA HUB, Milwaukee micro ratchet, CountyComm slide-lock knife, Rolling Square inCharge XS. Fourteen brands on felt.',
+    title: 'Micro EDC: 14 Ultralight Pocket Essentials, One Brand Per Slot',
+    description: 'What is Micro EDC? The ultimate guide to ultralight coin-pocket everyday carry — 14 essential micro tools including CRKT Minimal X, Casio ring watch, Wiha PocketStar, Ledlenser K1, Tekton titanium pry, and Rolling Square inCharge XS. 14 distinct brands on felt.',
     date: '2026-09-18',
     readTime: '6 min read',
     tags: ['brand guide', 'EDC', 'everyday carry', 'micro EDC', 'ultralight', 'flat lay', 'one brand per slot', 'non-repetition principle'],
     category: 'product',
-    excerpt: 'Fourteen micro EDC picks — CRKT Minimal X, Casio ring watch, Wiha PocketStar, Ledlenser K1, Tekton pry, Matador Droplet, Victorinox Nail Clip 580, Flytanium UFO, Keypry, Prometheus Kappa QR, ALPAKA HUB, Milwaukee ratchet, CountyComm craft knife, Rolling Square inCharge XS — one brand per slot.',
+    excerpt: 'What is Micro EDC? The definitive coin-pocket loadout: 14 ultralight micro EDC essentials across 14 dedicated specialists — CRKT, Casio, Wiha, Ledlenser, Tekton, Matador, Victorinox, and more.',
     content: `
+<p><strong>What is Micro EDC?</strong> Micro EDC (Micro Everyday Carry) is a minimalist pocket carry philosophy where every essential tool is scaled down to coin-pocket or keychain dimensions without sacrificing real-world utility. Instead of carrying a heavy multi-tool, a dedicated micro EDC setup gives you quick access to cutting, prying, lighting, screw-driving, and timekeeping in under 3 ounces.</p>
+
 <p>The micro EDC pocket dump decodes into fourteen hyper-compact tool slots on dark felt: a <strong>CRKT</strong> Minimal X, a <strong>Casio</strong> CRW-001-1JR Ring Watch, a <strong>Wiha</strong> PocketStar keychain driver, a <strong>Ledlenser</strong> K1 micro light, a <strong>Tekton</strong> LRD82100 mini titanium pry bar, a <strong>Matador</strong> Droplet 2.5L wet bag, a <strong>Victorinox</strong> Nail Clip 580, a <strong>Flytanium</strong> UFO&reg; Flipping Object, a <strong>Keypry</strong> EDC pry bar, a <strong>Prometheus Lights</strong> Kappa QR, an <strong>ALPAKA</strong> HUB Keychain, a <strong>Milwaukee</strong> 4932498792 7-in-1 micro ratchet, a <strong>CountyComm</strong> Slide Lock Titanium Craft Knife, and a <strong>Rolling Square</strong> inCharge&reg; XS 240W 4-in-1 cable. Fourteen brands, zero repeats &mdash; ultralight pocket dump without a SOG PowerPint duplicate from budget EDC.</p>
 
 <p>Source decode: NotebookLM micro EDC extract (2026-09-15). Editorial corrections: Olight Oticle &rarr; <strong>Wiha PocketStar</strong>; Lumintop Frog &rarr; <strong>Ledlenser K1</strong>; Civivi Ti Bar &rarr; <strong>Tekton mini pry</strong>. Removed SOG PowerPint (preset 161) and HeroClip from this Scene.</p>
