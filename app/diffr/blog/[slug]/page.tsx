@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { getAllPosts, getPostBySlug } from '../posts'
 import { PostNavLinks } from './nav-links'
-import { AppStoreButton } from './AppStoreCta'
+import { MidArticleAppStoreCta, BottomAppStoreCta } from './AppStoreCta'
 import { getSceneBrandKit } from '../../start/lib'
 import SceneBrandKit from '../../start/SceneBrandKit'
 import { BLOG_FAQ, BLOG_TLDR } from '../brand-guide-content'
@@ -495,35 +495,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Mid-article contextual CTA — captures high-intent readers right after the prose */}
         {!slug.startsWith('behind-the-build-') && !slug.startsWith('behind-the-contract-') && (
-          <div style={{
-            marginTop: '36px',
-            padding: '20px 24px',
-            background: 'rgba(255,255,255,0.55)',
-            border: '1px solid rgba(42,38,32,0.10)',
-            borderLeft: '4px solid #1B8BF5',
-            borderRadius: '0 12px 12px 0',
-            display: 'flex',
-            flexWrap: 'wrap',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            gap: '16px',
-          }}>
-            <div style={{ flex: '1 1 260px' }}>
-              <p style={{
-                fontFamily: "var(--font-syne), 'Syne', sans-serif",
-                fontSize: '14px', fontWeight: 700, color: '#2A2620', margin: '0 0 4px',
-              }}>
-                Compare 47,000+ brands &amp; lock your one-brand-per-slot kit
-              </p>
-              <p style={{
-                fontFamily: 'Georgia, serif',
-                fontSize: '13.5px', lineHeight: 1.5, color: 'rgba(42,38,32,0.68)', margin: 0,
-              }}>
-                Save picks from this guide, check durability &amp; value scores, and stop overbuying. Free on iOS.
-              </p>
-            </div>
-            <AppStoreButton slug={slug} placement="mid_article" label="Open in Diffr (iOS)" variant="compact" />
-          </div>
+          <MidArticleAppStoreCta slug={slug} />
         )}
 
         {/* Live shoppable kit — DB-driven brand picks + affiliate buy links.
@@ -679,27 +651,7 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
 
         {/* CTA */}
-        <div style={{
-          marginTop: '48px',
-          background: 'rgba(255,255,255,0.5)',
-          border: '1px solid rgba(42,38,32,0.10)',
-          borderTop: '3px solid #1B8BF5',
-          borderRadius: '0 0 16px 16px',
-          padding: '36px 32px',
-          textAlign: 'center',
-        }}>
-          <p style={{
-            fontFamily: "var(--font-display), 'Playfair Display', Georgia, serif",
-            fontSize: '22px', fontWeight: 700, letterSpacing: '-0.01em',
-            lineHeight: 1.3, margin: '0 0 10px', color: '#2A2620',
-          }}>
-            Decide once. Keep your kit lean.
-          </p>
-          <p style={{ fontSize: '15px', lineHeight: 1.6, margin: '0 auto 22px', color: 'rgba(42,38,32,0.68)', maxWidth: '460px' }}>
-            Compare 47,000+ brands across durability, value, and craft — and lock one trusted brand per slot in Diffr. Free on iOS.
-          </p>
-          <AppStoreButton slug={slug} placement="bottom_card" label="Get Diffr Free on the App Store" />
-        </div>
+        <BottomAppStoreCta slug={slug} />
 
         <PostNavLinks prev={prevPost} next={nextPost} />
       </article>
