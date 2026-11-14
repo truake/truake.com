@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { getAllPosts, getPostBySlug } from '../posts'
 import { PostNavLinks } from './nav-links'
+import { AppStoreButton } from './AppStoreCta'
 import { getSceneBrandKit } from '../../start/lib'
 import SceneBrandKit from '../../start/SceneBrandKit'
 import { BLOG_FAQ, BLOG_TLDR } from '../brand-guide-content'
@@ -253,11 +254,30 @@ export default async function BlogPostPage({ params }: Props) {
     ? sceneLane.scenes.filter((s) => s.slug !== slug).slice(0, 6)
     : []
 
-  // Brand-guide cluster: cross-link the brand guides to each other so Google
-  // reads them as one topical cluster and authority flows between them.
-  const isBrandGuide = slug.endsWith('-brand-guide')
-  const relatedGuides = isBrandGuide && !sceneLane
-    ? allPosts.filter((p) => p.slug.endsWith('-brand-guide') && p.slug !== slug).slice(0, 6)
+  // Brand-guide & lines-explained cluster: cross-link topically related guides
+  // (overlapping tags first, then newest posts) so authority flows to new pages.
+  const isEditorialGuide =
+    !sceneLane
+    && !slug.startsWith('behind-the-build-')
+    && !slug.startsWith('behind-the-contract-')
+    && !slug.startsWith('toy-team-')
+    && (slug.endsWith('-brand-guide') || slug.endsWith('-lines-explained') || slug === 'aritzia-sub-brands-guide')
+  const postTagSet = new Set(post.tags.map((t) => t.toLowerCase()))
+  const relatedGuides = isEditorialGuide
+    ? allPosts
+        .filter(
+          (p) =>
+            p.slug !== slug
+            && (p.slug.endsWith('-brand-guide') || p.slug.endsWith('-lines-explained') || p.slug === 'aritzia-sub-brands-guide')
+            && !SCENE_SERIES_CATEGORIES.some((c) => c.scenes.some((s) => s.slug === p.slug)),
+        )
+        .map((p) => ({
+          post: p,
+          overlap: p.tags.reduce((acc, t) => acc + (postTagSet.has(t.toLowerCase()) ? 1 : 0), 0),
+        }))
+        .sort((a, b) => b.overlap - a.overlap || b.post.date.localeCompare(a.post.date))
+        .slice(0, 6)
+        .map((x) => x.post)
     : []
 
   // Live shoppable kit for brand-guide posts (DB-driven + affiliate).
@@ -473,6 +493,39 @@ export default async function BlogPostPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
 
+        {/* Mid-article contextual CTA — captures high-intent readers right after the prose */}
+        {!slug.startsWith('behind-the-build-') && !slug.startsWith('behind-the-contract-') && (
+          <div style={{
+            marginTop: '36px',
+            padding: '20px 24px',
+            background: 'rgba(255,255,255,0.55)',
+            border: '1px solid rgba(42,38,32,0.10)',
+            borderLeft: '4px solid #1B8BF5',
+            borderRadius: '0 12px 12px 0',
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '16px',
+          }}>
+            <div style={{ flex: '1 1 260px' }}>
+              <p style={{
+                fontFamily: "var(--font-syne), 'Syne', sans-serif",
+                fontSize: '14px', fontWeight: 700, color: '#2A2620', margin: '0 0 4px',
+              }}>
+                Compare 47,000+ brands &amp; lock your one-brand-per-slot kit
+              </p>
+              <p style={{
+                fontFamily: 'Georgia, serif',
+                fontSize: '13.5px', lineHeight: 1.5, color: 'rgba(42,38,32,0.68)', margin: 0,
+              }}>
+                Save picks from this guide, check durability &amp; value scores, and stop overbuying. Free on iOS.
+              </p>
+            </div>
+            <AppStoreButton slug={slug} placement="mid_article" label="Open in Diffr (iOS)" variant="compact" />
+          </div>
+        )}
+
         {/* Live shoppable kit — DB-driven brand picks + affiliate buy links.
             Renders on the now-light page (matches /diffr/start). */}
         {brandKit && brandKit.slots.length > 0 && (
@@ -640,20 +693,12 @@ export default async function BlogPostPage({ params }: Props) {
             fontSize: '22px', fontWeight: 700, letterSpacing: '-0.01em',
             lineHeight: 1.3, margin: '0 0 10px', color: '#2A2620',
           }}>
-            One good brand per slot.<br />Every slot assigned.
+            Decide once. Keep your kit lean.
           </p>
-          <p style={{ fontSize: '15px', lineHeight: 1.6, margin: '0 auto 22px', color: 'rgba(42,38,32,0.68)', maxWidth: '440px' }}>
-            Diffr is a brand curation app built on the no-repeat principle. It is live on the App Store.
+          <p style={{ fontSize: '15px', lineHeight: 1.6, margin: '0 auto 22px', color: 'rgba(42,38,32,0.68)', maxWidth: '460px' }}>
+            Compare 47,000+ brands across durability, value, and craft — and lock one trusted brand per slot in Diffr. Free on iOS.
           </p>
-          <a href="https://apps.apple.com/us/app/diffr/id6772870733" className="diffr-nav-cta" style={{
-            display: 'inline-block',
-            background: '#1B8BF5', color: '#fff',
-            padding: '14px 32px', borderRadius: '100px',
-            textDecoration: 'none', fontSize: '15px', fontWeight: 700,
-            fontFamily: "var(--font-syne), 'Syne', sans-serif",
-          }}>
-            Get Diffr on the App Store
-          </a>
+          <AppStoreButton slug={slug} placement="bottom_card" label="Get Diffr Free on the App Store" />
         </div>
 
         <PostNavLinks prev={prevPost} next={nextPost} />

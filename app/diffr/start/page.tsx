@@ -6,7 +6,7 @@ import GuideCard from "./GuideCard";
 export const metadata: Metadata = {
   title: "Beginner Starter Guides — Diffr",
   description:
-    "Diffr analyzed 6,800 brands to build the definitive beginner starter guides for hiking, coffee, gaming, skincare, photography, home office, cycling, cooking, and personal finance.",
+    "Diffr analyzed 47,000+ brands to build the definitive beginner starter guides for hiking, coffee, gaming, skincare, photography, home office, cycling, cooking, and personal finance.",
   openGraph: {
     title: "Beginner Starter Guides — Diffr",
     description:

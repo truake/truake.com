@@ -401,6 +401,16 @@ export const posts: BlogPost[] = [
 <p>If you stand or walk for most of a shift, <strong>line choice matters more than colorway.</strong> Originals lifestyle lasts (Samba, Gazelle) are narrow heritage shapes &mdash; fine for mixed sit/stand, painful as a sole 10-hour floor shoe. <strong>Performance</strong> daily trainers (Ultraboost-class cushioning) are the Adidas lane for walk-heavy work. <strong>Terrex</strong> is for trail and weather, not hospital tile or retail concrete. Sportswear joggers and tees stretch for commute and lounge; they are not a substitute for compression socks or insoles when you are on concrete all day.</p>
 <p>Adidas is one brand in a closed kit, not the whole wall. For a <strong>cross-brand standing-at-work kit</strong> (on your feet all day shoes, socks, insoles, pants, hydration &mdash; one specialist per slot), see <a href="/diffr/blog/on-your-feet-all-day-work-brand-guide">On Your Feet All Day Shoes &amp; Work Kit</a>.</p>
 
+<h2>Adidas Product Line Price Differences</h2>
+<p>Beyond style and sport function, each Adidas line sits in a clear price tier:</p>
+<table><thead><tr><th>Line</th><th>Typical Footwear Price</th><th>Typical Apparel Price</th><th>What You Pay For</th></tr></thead><tbody>
+<tr><td><strong>Sportswear</strong></td><td>$65&ndash;$100</td><td>$35&ndash;$80</td><td>Accessible daily hoodies, joggers, and Essentials basics</td></tr>
+<tr><td><strong>Originals</strong></td><td>$90&ndash;$130</td><td>$55&ndash;$120</td><td>Heritage silhouettes (Samba, Gazelle, Spezial) and suede/leather craft</td></tr>
+<tr><td><strong>Performance</strong></td><td>$120&ndash;$260</td><td>$45&ndash;$150</td><td>Engineered foams (Lightstrike Pro, Boost), carbon plates, and moisture-wicking knits</td></tr>
+<tr><td><strong>Terrex</strong></td><td>$130&ndash;$230</td><td>$80&ndash;$350</td><td>Continental&trade; rubber lugs and GORE-TEX waterproof membranes</td></tr>
+<tr><td><strong>Y-3</strong></td><td>$300&ndash;$450+</td><td>$180&ndash;$800+</td><td>Yohji Yamamoto luxury tailoring and avant-garde materials</td></tr>
+</tbody></table>
+
 <h2>The Diffr Take</h2>
 <p>Adidas already split the wall into lanes; your job is to match the lane to your week. Everyday street &rarr; Originals; casual athletic &rarr; Sportswear; sweat &rarr; Performance; trail &rarr; Terrex. One lane, one decision. That is <a href="/diffr/blog/the-decide-once-rule">decide once</a> &mdash; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">download Diffr</a> to lock picks across every scene, not just the stripes.</p>
 `.trim(),
@@ -483,6 +493,16 @@ export const posts: BlogPost[] = [
 
 <h2>+J &amp; UT — Collabs (Optional)</h2>
 <p>The lane: limited design drops &mdash; Jil Sander-era minimalism (+J when available) and graphic UT tees. <strong>Skip for your first kit</strong> unless you already love the collab; LifeWear covers the core.</p>
+
+<h2>Breathability vs. Warmth Matrix: Choosing Daily Uniqlo Layers</h2>
+<p>If you are narrowing down Uniqlo layers for lightweight daily utility, match the fabric tier to your indoor/outdoor temperature swing:</p>
+<table><thead><tr><th>Layer</th><th>Breathability</th><th>Warmth</th><th>Best Daily Utility</th></tr></thead><tbody>
+<tr><td><strong>AIRism Mesh</strong></td><td>Maximum</td><td>Minimal (cooling)</td><td>Hot commutes, humid cities, and high-sweat underlayers</td></tr>
+<tr><td><strong>AIRism Cotton</strong></td><td>High</td><td>Light</td><td>Everyday t-shirt drape with hidden quick-dry interior</td></tr>
+<tr><td><strong>LifeWear Supima / Uniqlo U</strong></td><td>Moderate&ndash;High</td><td>Light&ndash;Moderate</td><td>Year-round breathable cotton staple without technical sheen</td></tr>
+<tr><td><strong>HEATTECH (Regular)</strong></td><td>Moderate</td><td>Light&ndash;Medium</td><td>Crisp fall mornings and heated offices (5&ndash;15&deg;C / 40&ndash;60&deg;F)</td></tr>
+<tr><td><strong>HEATTECH Extra Warm / Ultra Warm</strong></td><td>Low&ndash;Moderate</td><td>High&ndash;Maximum</td><td>Sub-freezing winter commutes where wind protection matters more than airflow</td></tr>
+</tbody></table>
 
 <h2>The Diffr Take</h2>
 <p>Uniqlo wins when you buy by fabric system, not by wandering the floor. Everyday &rarr; LifeWear Supima; cold &rarr; HEATTECH base; heat &rarr; AIRism; outer &rarr; Ultra Light Down or BlockTech. One line per season, <a href="/diffr/blog/the-decide-once-rule">decide once</a>. See every starter kit on the <a href="/diffr/blog/starter-kits">index</a> or <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">get Diffr</a> to lock your picks.</p>
@@ -797,8 +817,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'wilfred-brand-guide',
-    title: 'Who Owns the Brand Wilfred? Aritzia Only',
-    description: 'Aritzia Inc. owns Wilfred — no other store sells it new. How it splits from Babaton and Wilfred Free, and when Reformation or Theory wins instead.',
+    title: 'Who Owns Wilfred? Is It a Good Brand? (Aritzia Guide)',
+    description: 'Aritzia Inc. owns Wilfred and sells it exclusively. Is Wilfred a good brand? Yes for fluid drape and date-night tops; here is how it compares to Babaton, Wilfred Free, and Reformation.',
     date: '2026-09-15',
     readTime: '5 min read',
     tags: ['who owns wilfred', 'wilfred vs babaton', 'is wilfred a good brand', 'wilfred free', 'aritzia wilfred', 'babaton', 'womens fashion', 'one brand rule'],
@@ -4403,8 +4423,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'housewarming-gift-ideas-brand-guide',
-    title: 'Best Housewarming Gifts They\'ll Actually Use (By Budget, One Pick Each)',
-    description: 'Best housewarming gifts they will actually use — one great pick per vibe and budget, from a $25 Nest candle to a Le Creuset Dutch oven. No hundred-item roundup, just gifts that earn their place in a new home.',
+    title: 'Housewarming Gift Ideas: 12 Picks They\'ll Actually Use (By Budget)',
+    description: 'Best housewarming gift ideas they will actually use — one curated pick per vibe and budget, from a $25 Nest candle to a Le Creuset Dutch oven. No clutter, just upgrades that earn a spot in a new home.',
     date: '2026-06-19',
     readTime: '6 min read',
     tags: ['brand guide', 'housewarming gift ideas', 'housewarming gifts', 'best housewarming gifts', 'gift guide', 'non-repetition principle'],
