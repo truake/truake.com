@@ -45,6 +45,12 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Who owns Alo Yoga? Color Image Apparel, Inc. — a privately held Los Angeles company co-founded in 2007 by Danny Harris and Marco DeGeorge, who also own wholesale blank apparel giant Bella+Canvas. Alo Yoga is independent and has no ownership ties to Lululemon or Nike. Buy Alo for studio-to-street sculpting sets (Airlift 7/8 Legging) and Pilates looks; skip Alo for intense sweaty runs (choose Lululemon Wunder Train), plush everyday lounge joggers (choose Vuori DreamKnit), or basic studio tees (Bella+Canvas / Quince).",
   'who-owns-skims-brand-guide':
     "Bottom line: Who owns SKIMS? Skims Body, Inc. — a privately held company co-founded in 2019 by Kim Kardashian, Jens Grede, and Emma Grede, backed by growth investors including Thrive Capital, Greenoaks, Wellington Management, Lone Pine Capital, and D1 Capital. Buy SKIMS for Seamless Sculpt shapewear bodysuits and Fits Everybody second-skin layering tees; skip overpriced Cotton Rib basics (choose Uniqlo AIRism or Quince) and formal slip dresses (choose Reformation).",
+  'alo-yoga-vs-lululemon-brand-guide':
+    "Bottom line: Alo Yoga vs Lululemon — buy Lululemon (Wunder Train Everlux) for sweaty gym workouts, running, and long-term pill resistance, or Align (Nulu) for weightless everyday comfort. Buy Alo Yoga (7/8 Airlift Legging) for sleek studio-to-street compression sheen and monochrome Pilates styling. Skip Alo Accolade fleece if you hate pilling — choose Lululemon Scuba or Vuori DreamKnit instead.",
+  'barbour-bedale-vs-beaufort-brand-guide':
+    "Bottom line: Barbour Bedale vs Beaufort — both are 6oz waxed cotton made in South Shields, England. Buy Bedale (30-inch back, ribbed knit storm cuffs, side riding vents) for a shorter casual cut worn with jeans and sweaters. Buy Beaufort (33-inch back, Velcro wind cuffs, full-width rear game pocket) if you are taller or want full hem coverage over a suit blazer. Skip Ashby unless you specifically want a slim urban silhouette.",
+  'canada-goose-vs-moncler-brand-guide':
+    "Bottom line: Canada Goose vs Moncler (vs Mackage) — buy Canada Goose (Langford or Expedition with Arctic-Tech shell) for wind-blocking sub-zero utility down to -25°C. Buy Moncler (Maya) for featherweight European luxury warmth in milder city winters (0°C to -10°C). Buy Mackage (Edward) if you want a sharp tailored middle ground with -20°C storm protection.",
   'arcteryx-lines-explained':
     "Bottom line: Arc'teryx Alpha vs Beta — buy Beta for 90% of people (All-Mountain shell with normal hand pockets for rain, hiking, and daily wear); buy Alpha strictly for climbers (high crossover chest pockets that clear a harness, no waist pockets). Arc'teryx Atom vs Proton — buy Atom for everyday active warmth and windy cold commutes (Tyono wind-resistant face fabric, Coreloft insulation); buy Proton for high-output mountain exertion and touring (Fortius air-permeable fabric that dumps heat). Suffixes: SV is severe weather armor; AR is all-round durability; LT is lightweight everyday minimalist.",
   'patagonia-r1-vs-r2-brand-guide':
@@ -837,6 +843,63 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How does SKIMS sizing run?',
       a: "SKIMS Seamless Sculpt shapewear runs snug and compressive — size up if you are between sizes or want all-day comfort. Fits Everybody and Soft Lounge run true to size with generous stretch.",
+    },
+  ],
+
+  'alo-yoga-vs-lululemon-brand-guide': [
+    {
+      q: 'Is Alo Yoga better than Lululemon?',
+      a: "Neither is universally better — they win different slots. Lululemon wins sweat performance, durability, and sizing variety (especially Wunder Train Everlux for lifting and running). Alo Yoga wins studio-to-street fashion polish and sleek compression sets (especially Airlift leggings for Pilates).",
+    },
+    {
+      q: 'Alo Airlift vs Lululemon Align — which should I buy?',
+      a: "Buy Alo 7/8 High-Waist Airlift Leggings if you want firm, sculpted compression with a subtle sheen that repels pet hair and lint. Buy Lululemon Align High-Rise Pants (Nulu) if you want zero-compression, buttery-soft matte comfort for low-impact yoga and lounging.",
+    },
+    {
+      q: 'Does Alo Yoga pill more than Lululemon?',
+      a: "In fleece sweatshirts (like the Alo Accolade Crew Neck), yes — Alo's 65/35 cotton-poly fleece tends to pill faster than Lululemon's Scuba. For leggings, Alo Airlift resists pilling very well, whereas Lululemon Align (Nulu) can pill if worn for high-friction workouts (choose Wunder Train instead).",
+    },
+    {
+      q: 'How does Alo Yoga sizing compare to Lululemon?',
+      a: "Alo uses alpha sizing (XXS–L) while Lululemon uses numeric sizing (0–20) with five inseam lengths. Generally, Lululemon 4 equals Alo XS/S and Lululemon 6 equals Alo S. Alo runs slightly shorter in standard leggings, making the 7/8 Airlift popular for average heights.",
+    },
+  ],
+
+  'barbour-bedale-vs-beaufort-brand-guide': [
+    {
+      q: 'Barbour Bedale vs Beaufort — what is the main difference?',
+      a: "Length, cuffs, and rear pocket. The Barbour Bedale is a 30-inch equestrian jacket with internal ribbed knit storm cuffs and side snap vents. The Barbour Beaufort is a 33-inch shooting coat with Velcro-adjustable nylon cuffs and a full-width zip-access rear game pocket.",
+    },
+    {
+      q: 'Which Barbour jacket fits over a suit or blazer?',
+      a: "The Barbour Beaufort. Its 33-inch back length completely covers the hem of a standard tailored blazer or sport coat, whereas the 30-inch Bedale is shorter and will let a blazer tail peek out underneath.",
+    },
+    {
+      q: 'Barbour Bedale vs Ashby — which is better?',
+      a: "Buy the Classic Bedale if you want heritage boxy fit, breathable 100% cotton tartan sleeve lining, and Made-in-England construction. Buy the Ashby only if you want a slimmer, tapered modern city cut (noting the Ashby is made outside the UK and has polyester-lined sleeves).",
+    },
+    {
+      q: 'What is the difference between Barbour Sylkoil and Thornproof wax?',
+      a: "Classic Bedale and Beaufort jackets use Sylkoil 6oz wax, which has a softer, matte, brushed finish right out of the box. Original Olive, Navy, and Black editions use Thornproof wax, which starts slightly stiffer and shinier before developing a rugged patina.",
+    },
+  ],
+
+  'canada-goose-vs-moncler-brand-guide': [
+    {
+      q: 'Canada Goose vs Moncler — which is warmer?',
+      a: "Canada Goose is warmer in freezing wind and sleet. Even though Moncler uses higher fill-power 90/10 goose down, Canada Goose's heavy Arctic-Tech poly-cotton outer shell blocks icy gusts and wet snow far better than Moncler's thin glossy nylon.",
+    },
+    {
+      q: 'Is Moncler worth the price compared to Canada Goose?',
+      a: "Moncler (such as the Maya) is worth it if you want a featherweight, tailored luxury coat for mild-to-moderate city winters (0°C to -10°C) where Canada Goose parkas feel too heavy and bulky. For extreme sub-zero cold (-15°C to -30°C), Canada Goose is the stronger functional buy.",
+    },
+    {
+      q: 'Canada Goose vs Mackage — how do they compare?',
+      a: "Mackage (like the Edward Down Parka) sits right between Canada Goose and Moncler: it delivers -20°C storm-rated down warmth and wind resistance like Canada Goose, but with sharper tailored lines and signature leather trim at a slightly lower price than Moncler.",
+    },
+    {
+      q: 'Which Canada Goose jacket is best for everyday city wear?',
+      a: "The Canada Goose Langford Parka is the cleanest all-around city choice — mid-thigh length for wind protection, streamlined exterior without oversized expedition cargo pockets, and TEI 4 warmth down to -25°C.",
     },
   ],
 

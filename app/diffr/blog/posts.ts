@@ -817,6 +817,137 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'alo-yoga-vs-lululemon-brand-guide',
+    title: 'Alo Yoga vs Lululemon: Airlift vs Align, Quality & Which Wins Each Slot',
+    description: 'Alo Yoga vs Lululemon compared honestly: Airlift vs Align (Nulu), Airbrush vs Wunder Train, Accolade vs Scuba pilling, sizing, and which brand actually earns each activewear slot.',
+    date: '2026-11-16',
+    readTime: '7 min read',
+    tags: ['alo yoga vs lululemon', 'alo vs lululemon', 'alo airlift vs lululemon align', 'lululemon wunder train', 'athleisure', 'womens activewear', 'one brand rule'],
+    category: 'product',
+    excerpt: 'Alo Yoga wins studio-to-street aesthetic and Airlift compression sheen; Lululemon wins sweat performance, Wunder Train durability, and technical running. Here is the side-by-side verdict.',
+    content: `
+<p><strong>Alo Yoga vs Lululemon</strong> is the defining luxury activewear split. Both price leggings between $98 and $138, both dominate Pilates studios, and both run massive lifestyle apparel lines. Yet once you wash and wear them for six months, they separate cleanly by fabric engineering.</p>
+<p>In short: <strong>Lululemon wins technical performance and durability</strong> (<a href="/diffr/blog/lululemon-lines-explained">Wunder Train Everlux &amp; Swift</a>), while <strong>Alo Yoga wins studio-to-street polish and sleek compression</strong> (<a href="/diffr/blog/who-owns-alo-yoga-brand-guide">Airlift</a>).</p>
+
+<h2>Side-by-Side Comparison: Alo Yoga vs. Lululemon</h2>
+<table><thead><tr><th>Category</th><th>Alo Yoga</th><th>Lululemon</th><th>Winner</th></tr></thead><tbody>
+<tr><td><strong>Signature Sleek / Studio Tight</strong></td><td>Alo 7/8 High-Waist Airlift Legging ($128)</td><td>Lululemon Align High-Rise Pant 25&Prime; ($98)</td><td><strong>Split</strong> (Airlift for sheen/hold; Align for softness)</td></tr>
+<tr><td><strong>High-Sweat Training Tight</strong></td><td>Alo Airbrush High-Waist Legging ($108)</td><td>Lululemon Wunder Train High-Rise Tight 25&Prime; ($98)</td><td><strong>Lululemon</strong> (Everlux dries faster &amp; resists pilling)</td></tr>
+<tr><td><strong>Oversized Fleece Sweatshirt</strong></td><td>Alo Accolade Crew Neck Pullover ($128)</td><td>Lululemon Scuba Oversized Half-Zip ($118)</td><td><strong>Lululemon</strong> (heavier cotton fleece pills less)</td></tr>
+<tr><td><strong>Colorway &amp; Studio Aesthetic</strong></td><td>Trend-forward monochrome sets &amp; matching bras</td><td>Classic core neutrals + seasonal drops</td><td><strong>Alo Yoga</strong></td></tr>
+<tr><td><strong>Sizing &amp; Inseam Options</strong></td><td>XXS&ndash;L (7/8 &amp; Regular, fewer lengths)</td><td>0&ndash;20 (21&Prime;, 23&Prime;, 25&Prime;, 28&Prime;, 31&Prime; inseams)</td><td><strong>Lululemon</strong></td></tr>
+</tbody></table>
+
+<h2>1. Airlift vs. Align: Compression Sheen vs. Naked Softness</h2>
+<p>People often cross-shop the <strong>Alo 7/8 High-Waist Airlift Legging</strong> against the <strong>Lululemon Align High-Rise Pant 25&Prime;</strong>, even though they feel completely different:</p>
+<ul>
+<li><strong>Alo Airlift:</strong> Smooth, slick, micro-performance knit with high compression and a subtle glossy finish. It holds everything in, sheds pet hair effortlessly, and looks sharp with an oversized blazer after Pilates.</li>
+<li><strong>Lululemon Align (Nulu):</strong> Brushed, zero-compression, matte &ldquo;naked&rdquo; softness. Unbeatable for restorative yoga and all-day lounging, though Nulu pills quickly if worn for spinning or high-friction runs.</li>
+</ul>
+
+<h2>2. Airbrush vs. Wunder Train: Where Durability Splits</h2>
+<p>If you lift weights, run, or take heated Sculpt classes, skip Alo Airbrush and buy the <strong>Lululemon Wunder Train High-Rise Tight 25&Prime;</strong>. Airbrush is a thick, cotton-hand nylon that traps heat during cardio and can bag slightly at the knees. Lululemon&rsquo;s <strong>Everlux</strong> fabric in Wunder Train is engineered specifically to wick heavy sweat in humid rooms while maintaining matte, pill-resistant compression.</p>
+
+<h2>3. Accolade Fleece vs. Scuba: The Pilling Reality Check</h2>
+<p>The <strong>Alo Accolade Crew Neck Pullover</strong> has the best boxy streetwear drape in athleisure, but its 65/35 cotton-poly blend is notorious for pilling after a few machine washes. If you want an oversized sweatshirt you can actually wear for years, Lululemon&rsquo;s thicker cotton-fleece Scuba holds up noticeably better &mdash; or look at <a href="/diffr/blog/vuori-vs-lululemon-brand-guide">Vuori DreamKnit</a> for zero-pill travel comfort.</p>
+
+<h2>The Diffr Take: One Brand Per Slot</h2>
+<p>Buying four pairs of Alo leggings and four pairs of Aligns creates closet overlap without solving more outfits. Apply the <strong>One Brand Per Slot</strong> rule:</p>
+<ul>
+<li><strong>Slot 1: Studio-to-Street Sculpt Legging</strong> &rarr; <strong>Alo 7/8 High-Waist Airlift Legging</strong> (sleek hold + zero lint).</li>
+<li><strong>Slot 2: Heavy Sweat &amp; Gym Training</strong> &rarr; <strong>Lululemon Wunder Train High-Rise Tight 25&Prime;</strong> (Everlux performance).</li>
+<li><strong>Slot 3: Rest Day &amp; Travel Loungewear</strong> &rarr; <a href="/diffr/blog/vuori-vs-lululemon-brand-guide"><strong>Vuori Sunday Performance Jogger</strong></a> (beats both on lounge softness).</li>
+<li><strong>Slot 4: Budget Studio Alternative</strong> &rarr; <a href="/diffr/blog/athleta-vs-lululemon-brand-guide"><strong>Athleta Elation</strong></a> (comparable Powervita softness at lower sale prices).</li>
+</ul>
+<p>Decide once per slot and <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">open Diffr on iOS</a> to keep your activewear rotation sharp.</p>
+`.trim(),
+  },
+  {
+    slug: 'barbour-bedale-vs-beaufort-brand-guide',
+    title: 'Barbour Bedale vs Beaufort (vs Ashby): Length, Cuffs, Fit & Which to Buy',
+    description: 'Barbour Bedale vs Beaufort compared: jacket length (30 vs 33 in), storm cuffs, rear game pocket, Sylkoil vs Thornproof wax, sizing over a suit, and how the Ashby slim fit compares.',
+    date: '2026-11-16',
+    readTime: '7 min read',
+    tags: ['barbour bedale vs beaufort', 'barbour beaufort vs bedale', 'barbour bedale vs ashby', 'barbour waxed jacket', 'heritage outerwear', 'menswear', 'one brand rule'],
+    category: 'product',
+    excerpt: 'The Barbour Bedale is a 30-inch equestrian cut with ribbed storm cuffs; the Beaufort is a 33-inch field coat with a rear game pocket built to cover a suit jacket. Here is how to pick the right one once.',
+    content: `
+<p><strong>Barbour Bedale vs Beaufort</strong> comes down to two numbers and two cuff designs: the <strong>Bedale</strong> is 30 inches long with internal ribbed knit cuffs, while the <strong>Beaufort</strong> is 33 inches long with Velcro-adjustable wind cuffs and a full-width rear game pocket.</p>
+<p>Both are made in South Shields, England out of 6oz waxed cotton, both accept Barbour&rsquo;s zip-in fleece liners and snap-on hoods, and both last decades if re-waxed. Choosing wrong usually comes down to whether you wear tailored blazers underneath or prefer a shorter everyday field jacket.</p>
+
+<h2>Side-by-Side Specs: Bedale vs. Beaufort vs. Ashby</h2>
+<table><thead><tr><th>Spec</th><th>Barbour Bedale</th><th>Barbour Beaufort</th><th>Barbour Ashby</th></tr></thead><tbody>
+<tr><td><strong>Original Purpose</strong></td><td>Equestrian riding jacket (1980)</td><td>Country shooting &amp; field coat (1983)</td><td>Tailored modern city fit (2013)</td></tr>
+<tr><td><strong>Back Length</strong></td><td>~30 inches (hits mid-seat)</td><td>~33 inches (covers a suit blazer)</td><td>~30.5 inches (tapered waist)</td></tr>
+<tr><td><strong>Sleeves &amp; Cuffs</strong></td><td>Ribbed internal knit storm cuffs</td><td>Velcro-adjustable nylon inner cuffs</td><td>Ribbed cuffs + polyester-lined sleeves</td></tr>
+<tr><td><strong>Rear Game Pocket</strong></td><td>No (dual snap riding vents instead)</td><td>Yes (full-width zip-access poached pocket)</td><td>No (dual snap rear vents)</td></tr>
+<tr><td><strong>Sizing Format</strong></td><td>Chest inches (C36, C38, C40&hellip;)</td><td>Chest inches (C36, C38, C40&hellip;)</td><td>Alpha sizing (S, M, L, XL)</td></tr>
+<tr><td><strong>Manufacturing</strong></td><td>Made in England (South Shields)</td><td>Made in England (South Shields)</td><td>Made outside UK (Eastern Europe / Asia)</td></tr>
+</tbody></table>
+
+<h2>1. Length &amp; Layering: Will It Cover a Blazer?</h2>
+<p>If you commute in sport coats, tweed blazers, or longer overshirts, buy the <strong>Barbour Beaufort Waxed Jacket</strong>. Its 33-inch hem completely covers the tail of a standard suit jacket so nothing peeks out underneath. The <strong>Barbour Classic Bedale Waxed Jacket</strong> sits higher (~30 inches) with side riding vents, making it cleaner with denim, flannel, and chunky knitwear (<a href="/diffr/blog/styling-barbour-jacket-brand-guide">see our Heritage OOTD slot guide</a>).</p>
+
+<h2>2. Storm Cuffs vs. Sleeve Lining (The Hidden Dealbreaker)</h2>
+<ul>
+<li><strong>Bedale Ribbed Knit Cuffs:</strong> Seal warmly around your wrists in chilly wind, though they can feel tight over thick watch cases or shirt cuffs.</li>
+<li><strong>Beaufort Velcro Nylon Cuffs:</strong> Stay dry in pouring rain and pull easily over watches and blazer sleeves, though they let slightly more draft in if left unfastened.</li>
+<li><strong>Ashby Nylon-Lined Sleeves:</strong> Both the Bedale and Beaufort have 100% cotton tartan sleeve linings, which are breathable; the slim-cut <strong>Barbour Ashby</strong> uses polyester sleeve lining, which slides over sweaters easily but traps noticeably more arm sweat.</li>
+</ul>
+
+<h2>3. Classic Sylkoil vs. Thornproof Wax</h2>
+<p>Original Bedale and Beaufort models (Olive, Navy, Black) use <strong>Thornproof</strong> wax &mdash; slightly stiffer and shinier out of the box before breaking in. The <strong>Classic</strong> editions (always Olive) use <strong>Sylkoil</strong> wax, which has a softer, matte, slightly brushed hand feel from day one.</p>
+
+<h2>The Diffr Take: One Brand Per Slot</h2>
+<p>You only ever need <strong>one</strong> heritage waxed jacket in your closet. Apply the <strong>One Brand Per Slot</strong> rule:</p>
+<ul>
+<li><strong>Slot 1: Heritage Waxed Field Coat</strong> &rarr; <strong>Barbour Classic Bedale</strong> (if casual/shorter under 5&rsquo;10&Prime;) or <strong>Barbour Beaufort</strong> (if taller or layering over blazers).</li>
+<li><strong>Slot 2: Technical Waterproof Storm Shell</strong> &rarr; <a href="/diffr/blog/arcteryx-lines-explained"><strong>Arc&rsquo;teryx Beta LT</strong></a> (for torrential rain and alpine travel where waxed cotton wets out).</li>
+<li><strong>Slot 3: Breathable Mid-Layer Fleece</strong> &rarr; <a href="/diffr/blog/patagonia-r1-vs-r2-brand-guide"><strong>Patagonia R1 Air or R2 TechFace</strong></a> (warmer and more breathable than Barbour&rsquo;s synthetic zip-in vest).</li>
+</ul>
+<p>Pick your Barbour silhouette once and <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">lock your outerwear slots in Diffr</a>.</p>
+`.trim(),
+  },
+  {
+    slug: 'canada-goose-vs-moncler-brand-guide',
+    title: 'Canada Goose vs Moncler (vs Mackage): Warmth, Luxury & Which Parka Wins',
+    description: 'Canada Goose vs Moncler compared (plus Mackage): Arctic-Tech 625-fill utility vs 90/10 goose down luxury, sub-zero warmth, durability, pricing, and which winter coat earns the slot.',
+    date: '2026-11-16',
+    readTime: '7 min read',
+    tags: ['canada goose vs moncler', 'moncler vs canada goose', 'canada goose vs mackage', 'luxury winter coat', 'down parka', 'menswear', 'womenswear', 'one brand rule'],
+    category: 'product',
+    excerpt: 'Canada Goose is built for wind-scoured sub-zero utility; Moncler is built for lightweight city luxury; Mackage sits between them with tailored storm warmth. Here is the honest slot verdict.',
+    content: `
+<p><strong>Canada Goose vs Moncler</strong> is a clash between two completely different philosophies of winter outerwear: <strong>Canada Goose</strong> builds windproof, abrasion-resistant Arctic utility parkas (like the Langford and Expedition), while <strong>Moncler</strong> builds ultra-lightweight, fashion-tailored luxury down jackets (like the Maya).</p>
+<p>Meanwhile, many shoppers cross-shop <strong>Canada Goose vs Mackage</strong> for a middle ground that looks sharper than a boxy expedition parka without Moncler&rsquo;s $1,600+ price tag.</p>
+
+<h2>Side-by-Side Comparison: Canada Goose vs. Moncler vs. Mackage</h2>
+<table><thead><tr><th>Metric</th><th>Canada Goose (e.g., Langford Parka)</th><th>Moncler (e.g., Maya Short Down)</th><th>Mackage (e.g., Edward Parka)</th></tr></thead><tbody>
+<tr><td><strong>Down Fill Quality</strong></td><td>625-fill-power white duck down (80/20)</td><td>~750+ fill-power white goose down (90/10)</td><td>800+ fill-power duck/goose down (90/10)</td></tr>
+<tr><td><strong>Outer Shell Fabric</strong></td><td>Heavy matte 85/15 poly-cotton Arctic-Tech</td><td>Lightweight glossy Nylon Laqu&eacute;</td><td>Matte water-repellent technical weave + leather trim</td></tr>
+<tr><td><strong>Sub-Zero Wind Protection</strong></td><td><strong>Extreme</strong> (TEI 3 to TEI 5, &minus;25&deg;C / &minus;30&deg;C+)</td><td><strong>Moderate</strong> (best for 0&deg;C to &minus;10&deg;C city cold)</td><td><strong>High</strong> (rated down to &minus;20&deg;C / &minus;25&deg;C)</td></tr>
+<tr><td><strong>Weight &amp; Mobility</strong></td><td>Heavy &amp; structured</td><td>Featherlight &amp; packable</td><td>Medium-heavy, tailored waist</td></tr>
+<tr><td><strong>Price Tier</strong></td><td>$1,250&ndash;$1,750</td><td>$1,550&ndash;$2,500+</td><td>$1,050&ndash;$1,450</td></tr>
+</tbody></table>
+
+<h2>1. Warmth &amp; Shell Durability: Where Canada Goose Wins</h2>
+<p>Despite Moncler using higher-grade 90/10 goose down, <strong>Canada Goose is noticeably warmer in real winter wind and wet snow</strong>. The secret is its heavy <strong>Arctic-Tech</strong> outer shell (85% polyester, 15% cotton treated with DWR), which blocks icy gusts completely and shrugs off subway turnstiles, dog claws, and rough luggage. Moncler&rsquo;s glossy Nylon Laqu&eacute; looks sleek on European avenues, but its thin shell can snag easily and lets wind chill through faster below &minus;10&deg;C.</p>
+
+<h2>2. City Tailoring &amp; Weight: Where Moncler (and Mackage) Win</h2>
+<p>If your winter is mostly 30&deg;F (&minus;1&deg;C) commutes into heated offices and restaurants in New York, London, or Tokyo, wearing a Canada Goose Expedition Parka makes you sweat in five minutes. The <strong>Moncler Maya Short Down Jacket</strong> weighs half as much and transitions cleanly into evening dining.</p>
+<p><strong>What about Canada Goose vs Mackage?</strong> The <strong>Mackage Edward Down Parka</strong> bridges the gap: it delivers genuine &minus;20&deg;C rated down warmth and wind protection like Canada Goose, but with sharper tailored lines and signature leather pocket trim that looks dressier over knitwear.</p>
+
+<h2>The Diffr Take: One Brand Per Slot</h2>
+<p>High-ticket winter coats are the easiest place to overspend on redundant warmth. Apply the <strong>One Brand Per Slot</strong> rule:</p>
+<ul>
+<li><strong>Slot 1: Deep-Freeze Utility Parka (&minus;15&deg;C &amp; below)</strong> &rarr; <strong>Canada Goose Langford Parka</strong> (clean, fur-free versatility with real Arctic-Tech windproofing).</li>
+<li><strong>Slot 2: Lightweight City Luxury Puffer (0&deg;C to &minus;10&deg;C)</strong> &rarr; <strong>Moncler Maya</strong> (or <strong>Mackage Edward</strong> if you want tailored dress warmth with storm rating).</li>
+<li><strong>Slot 3: Everyday Active Rain &amp; Layering System</strong> &rarr; Pair <a href="/diffr/blog/patagonia-r1-vs-r2-brand-guide"><strong>Patagonia R1/R2</strong></a> under an <a href="/diffr/blog/arcteryx-lines-explained"><strong>Arc&rsquo;teryx Beta LT</strong></a> &mdash; far more versatile across 3 seasons than any heavyweight down coat.</li>
+</ul>
+<p>Buy for the climate you actually walk in, decide once, and <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">open Diffr on iOS</a> to lock your winter coat slot.</p>
+`.trim(),
+  },
+  {
     slug: 'aritzia-sub-brands-guide',
     title: "Aritzia Brands Explained: All 11 In-House Labels",
     description: "Aritzia owns 11 in-house brands: Babaton, Wilfred, TNA, Denim Forum, Super Puff and more. The full list, who owns Aritzia, and what to buy instead.",
