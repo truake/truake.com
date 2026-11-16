@@ -41,6 +41,8 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Who owns the brand Wilfred? Aritzia Inc. (TSX: ATZ) — Wilfred is an in-house label sold only at Aritzia boutiques and aritzia.com, not a separate designer house. Wilfred Free is also Aritzia-owned. Wilfred vs Wilfred Free: date-night drape vs everyday knits. Wilfred vs Babaton: dinner (fluid) vs desk (Effortless Pant, tailoring). Is Wilfred a good brand? Yes for the mood; for slip dresses choose Reformation, for work trousers Theory, for basics Quince or Everlane over Wilfred Free.",
   'who-owns-free-people-brand-guide':
     "Bottom line: Who owns the brand Free People? Urban Outfitters, Inc. (NASDAQ: URBN) — the publicly traded retail giant that also owns Urban Outfitters, Anthropologie, FP Movement, and Nuuly. Free People was originally the first store opened by URBN founder Dick Hayne in 1970 before being relaunched as an in-house wholesale label in 1984. FP Movement is its in-house activewear spin-off. Buy Free People for unique bohemian statement jackets and dresses; skip its basic tees (choose Quince or Everlane) and formal wedding guest slips (choose Reformation).",
+  'who-owns-alo-yoga-brand-guide':
+    "Bottom line: Who owns Alo Yoga? Color Image Apparel, Inc. — a privately held Los Angeles company co-founded in 2007 by Danny Harris and Marco DeGeorge, who also own wholesale blank apparel giant Bella+Canvas. Alo Yoga is independent and has no ownership ties to Lululemon or Nike. Buy Alo for studio-to-street sculpting sets (Airlift 7/8 Legging) and Pilates looks; skip Alo for intense sweaty runs (choose Lululemon Wunder Train), plush everyday lounge joggers (choose Vuori DreamKnit), or basic studio tees (Bella+Canvas / Quince).",
   'arcteryx-lines-explained':
     "Bottom line: Arc'teryx Alpha vs Beta — buy Beta for 90% of people (All-Mountain shell with normal hand pockets for rain, hiking, and daily wear); buy Alpha strictly for climbers (high crossover chest pockets that clear a harness, no waist pockets). Arc'teryx Atom vs Proton — buy Atom for everyday active warmth and windy cold commutes (Tyono wind-resistant face fabric, Coreloft insulation); buy Proton for high-output mountain exertion and touring (Fortius air-permeable fabric that dumps heat). Suffixes: SV is severe weather armor; AR is all-round durability; LT is lightweight everyday minimalist.",
   'patagonia-r1-vs-r2-brand-guide':
@@ -779,6 +781,33 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: "Can you machine wash Arc'teryx GORE-TEX jackets?",
       a: "Yes, and you should. Dirt and body oils degrade the waterproof membrane over time. Wash on a warm gentle cycle using a technical cleaner (like Nikwax Tech Wash or Grangers), rinse thoroughly, and tumble dry on medium heat for 20–30 minutes to reactivate the DWR water-repellent coating.",
+    },
+  ],
+
+  'who-owns-alo-yoga-brand-guide': [
+    {
+      q: 'Who owns Alo Yoga?',
+      a: "Alo Yoga is owned by Color Image Apparel, Inc., a privately held Los Angeles apparel company founded by Danny Harris and Marco DeGeorge. They launched Alo Yoga in 2007 and still privately own and operate the brand today.",
+    },
+    {
+      q: 'What other brands does Alo Yoga’s parent company own?',
+      a: "Color Image Apparel, Inc. also owns Bella+Canvas, one of the largest wholesale blank t-shirt and fleece manufacturers in the United States. Danny Harris and Marco DeGeorge founded Bella+Canvas in 1992 before launching Alo Yoga in 2007.",
+    },
+    {
+      q: 'Does Lululemon or Nike own Alo Yoga?',
+      a: "No. Alo Yoga is completely independent from Lululemon, Nike, Gap Inc. (Athleta), and Aritzia. Although Alo and Lululemon directly compete in the luxury yoga and athleisure space, they are separate companies with different owners.",
+    },
+    {
+      q: 'What is the difference between Alo Airlift and Airbrush leggings?',
+      a: "Alo Airlift is a sleek, lightweight, second-skin compression fabric with a subtle luminous sheen, best for hot yoga, Pilates, and studio-to-street styling. Alo Airbrush is a thicker, matte, cotton-soft sculpting fabric with zero sheen, best for low-impact movement and casual everyday wear.",
+    },
+    {
+      q: 'Is Alo Yoga worth the money compared to Lululemon and Vuori?',
+      a: "Alo Yoga is worth buying for its signature Airlift legging fit and fashion-forward studio silhouettes. However, Lululemon (Wunder Train / Everlux) outperforms Alo for high-sweat training, and Vuori (DreamKnit) beats Alo Accolade fleece on long-term softness and resistance to pilling.",
+    },
+    {
+      q: 'What does "Alo" stand for?',
+      a: "Alo stands for Air, Land, and Ocean — reflecting the brand's Los Angeles yoga studio roots and lifestyle aesthetic.",
     },
   ],
 

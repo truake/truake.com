@@ -729,6 +729,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'who-owns-alo-yoga-brand-guide',
+    title: 'Who Owns Alo Yoga? Color Image Apparel, Sister Brand & Honest Verdict',
+    description: 'Who owns Alo Yoga? Color Image Apparel, Inc. — the privately held Los Angeles company founded by Danny Harris and Marco DeGeorge that also owns Bella+Canvas. Full ownership, fabric lines (Airlift vs Airbrush), and what to buy instead.',
+    date: '2026-11-16',
+    readTime: '7 min read',
+    tags: ['who owns alo yoga', 'who owns alo', 'alo yoga parent company', 'alo vs lululemon', 'alo airlift vs airbrush', 'athleisure', 'womens activewear', 'one brand rule'],
+    category: 'product',
+    excerpt: 'Alo Yoga is owned by Color Image Apparel, Inc., a privately held Los Angeles company founded by Danny Harris and Marco DeGeorge — the same founders behind Bella+Canvas. Here is the ownership breakdown and how Alo stacks up against Lululemon and Vuori.',
+    content: `
+<p><strong>Who owns Alo Yoga?</strong> Alo Yoga is owned by <strong>Color Image Apparel, Inc.</strong>, a privately held apparel company headquartered in Los Angeles, California. It was co-founded in 2007 by childhood friends <strong>Danny Harris</strong> and <strong>Marco DeGeorge</strong>, who still own and run the business today.</p>
+<p>Unlike <a href="/diffr/blog/who-owns-free-people-brand-guide">Free People (owned by URBN)</a> or <a href="/diffr/blog/athleta-vs-lululemon-brand-guide">Athleta (owned by Gap Inc.)</a>, Alo Yoga is not part of a public retail conglomerate, and it has no ownership ties to Lululemon or Nike. Its actual sister company inside Color Image Apparel is <strong>Bella+Canvas</strong> &mdash; one of the largest wholesale blank t-shirt and fleece manufacturers in the United States, which Harris and DeGeorge founded in 1992 before launching Alo.</p>
+
+<h2>Alo Yoga Ownership &amp; Corporate Tree</h2>
+<table><thead><tr><th>Entity</th><th>Relationship to Alo</th><th>Headquarters &amp; Status</th></tr></thead><tbody>
+<tr><td><strong>Color Image Apparel, Inc.</strong></td><td>Parent company</td><td>Los Angeles / Beverly Hills, CA &mdash; Privately held</td></tr>
+<tr><td><strong>Danny Harris &amp; Marco DeGeorge</strong></td><td>Co-founders &amp; owners</td><td>Founded Bella+Canvas (1992) and Alo Yoga (2007)</td></tr>
+<tr><td><strong>Bella+Canvas</strong></td><td>Sister brand</td><td>Wholesale blank tees &amp; fleece under Color Image Apparel</td></tr>
+<tr><td><strong>Lululemon / Vuori / Aritzia</strong></td><td>No affiliation</td><td>Separate independent competitors</td></tr>
+</tbody></table>
+
+<h2>Alo Yoga Fabric Lines Explained: Airlift vs. Airbrush vs. Alosoft</h2>
+<p>If you are cross-shopping Alo&rsquo;s leggings and studio sets, the brand splits into four core signatures:</p>
+<ul>
+<li><strong>Airlift (e.g., Alo 7/8 High-Waist Airlift Legging):</strong> Alo&rsquo;s signature sleek, high-compression fabric with a subtle luminous sheen. Built for hot yoga, Pilates, and studio-to-coffee styling where you want a sculpted, slightly glossy look.</li>
+<li><strong>Airbrush (e.g., Alo Airbrush High-Waist Legging):</strong> Thicker, matte, cotton-soft sculpting fabric that smooths without sheen. Best for low-impact studio classes and casual errands, though warmer than Airlift.</li>
+<li><strong>Alosoft (e.g., Alo Alosoft Lounge Legging):</strong> Ultra-soft brushed matte finish engineered for lounging, travel, and gentle stretching &mdash; Alo&rsquo;s closest answer to <a href="/diffr/blog/vuori-vs-lululemon-brand-guide">Vuori DreamKnit</a> or Lululemon Align.</li>
+<li><strong>Accolade (e.g., Alo Accolade Crew Neck Pullover):</strong> Heavyweight 65/35 cotton-poly French terry sweats with chrome Alo badges. Iconic boxy drape, though the cotton-blend fleece can pill after heavy machine washing.</li>
+</ul>
+
+<h2>Alo Yoga vs. Lululemon vs. Vuori: Honest Slot Verdict</h2>
+<p>Every athleisure brand has one lane it actually wins &mdash; and three lanes where you are just paying for the logo:</p>
+<table><thead><tr><th>Wardrobe Slot</th><th>Winner</th><th>Why It Wins</th><th>Skip</th></tr></thead><tbody>
+<tr><td><strong>Studio-to-Street Sculpt Legging</strong></td><td><strong>Alo Yoga (Airlift)</strong></td><td>Unmatched sleek sheen and second-skin hold for Pilates and coffee runs</td><td>Alo Accolade if you hate pilling</td></tr>
+<tr><td><strong>High-Sweat Training &amp; Running</strong></td><td><a href="/diffr/blog/lululemon-lines-explained"><strong>Lululemon (Wunder Train)</strong></a></td><td>Everlux fabric dries faster and handles friction far better than Alo</td><td>Alo Airbrush (too warm for heavy cardio)</td></tr>
+<tr><td><strong>Travel &amp; Everyday Lounge</strong></td><td><a href="/diffr/blog/vuori-vs-lululemon-brand-guide"><strong>Vuori (DreamKnit)</strong></a></td><td>Superior softness and zero-pill longevity on flights and rest days</td><td>Alo loungewear at full markup</td></tr>
+<tr><td><strong>Everyday Blank Tees &amp; Basics</strong></td><td><strong>Bella+Canvas / Quince</strong></td><td>Literally Alo&rsquo;s sister factory blank or organic cotton at a fraction of the price</td><td>$68+ branded studio basic tees</td></tr>
+</tbody></table>
+
+<h2>The Diffr Take: One Brand Per Slot</h2>
+<p>Alo Yoga shines when you want high-fashion Pilates silhouettes and clean monochrome studio sets &mdash; especially the <strong>Alo 7/8 High-Waist Airlift Legging</strong>. Where shoppers waste money is buying an entire Alo-branded closet from tees to socks to heavy winter coats, even though Color Image Apparel&rsquo;s own sister label Bella+Canvas makes industry-standard blanks for a quarter of the price.</p>
+<p>Apply the <strong>One Brand Per Slot</strong> rule: give Alo the sleek studio-to-street legging slot, give <a href="/diffr/blog/lululemon-lines-explained">Lululemon</a> the hard training slot, and give <a href="/diffr/blog/vuori-vs-lululemon-brand-guide">Vuori</a> the recovery and travel jogger slot. Decide once, and <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">open Diffr on iOS</a> to lock your non-redundant athleisure kit.</p>
+`.trim(),
+  },
+  {
     slug: 'aritzia-sub-brands-guide',
     title: "Aritzia Brands Explained: All 11 In-House Labels",
     description: "Aritzia owns 11 in-house brands: Babaton, Wilfred, TNA, Denim Forum, Super Puff and more. The full list, who owns Aritzia, and what to buy instead.",
