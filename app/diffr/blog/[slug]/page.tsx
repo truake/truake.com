@@ -140,6 +140,16 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'minimalist-titanium-edc-brand-guide': 183,
   'wimb-longchamp-le-pliage-brand-guide': 184,
   'styling-barbour-jacket-brand-guide': 185,
+  // November 2026 High-ROI Brand Guides (DB slots + R2 white-bg tiles)
+  'vuori-vs-lululemon-brand-guide': 186,
+  'who-owns-free-people-brand-guide': 187,
+  'arcteryx-lines-explained': 188,
+  'patagonia-r1-vs-r2-brand-guide': 189,
+  'who-owns-alo-yoga-brand-guide': 190,
+  'who-owns-skims-brand-guide': 191,
+  'alo-yoga-vs-lululemon-brand-guide': 192,
+  'barbour-bedale-vs-beaufort-brand-guide': 193,
+  'canada-goose-vs-moncler-brand-guide': 194,
 }
 
 export async function generateStaticParams() {
