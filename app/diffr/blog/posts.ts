@@ -773,6 +773,50 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'who-owns-skims-brand-guide',
+    title: 'Who Owns SKIMS? Founders, Investors, Valuation & What Is Worth Buying',
+    description: 'Who owns SKIMS? Kim Kardashian, Jens Grede, and Emma Grede co-founded Skims Body, Inc. in 2019 alongside institutional backers. Full ownership breakdown, Fits Everybody vs Soft Lounge vs Seamless Sculpt, and what to skip.',
+    date: '2026-11-16',
+    readTime: '7 min read',
+    tags: ['who owns skims', 'skims parent company', 'who founded skims', 'skims fits everybody vs soft lounge', 'shapewear', 'loungewear', 'womens fashion', 'one brand rule'],
+    category: 'product',
+    excerpt: 'SKIMS is operated by privately held Skims Body, Inc., co-founded in 2019 by Kim Kardashian, Jens Grede, and Emma Grede. Here is the ownership map, sister-venture context (Good American), and an honest verdict on which SKIMS pieces actually earn a wardrobe slot.',
+    content: `
+<p><strong>Who owns SKIMS?</strong> SKIMS is owned by <strong>Skims Body, Inc.</strong>, a privately held American apparel and shapewear company co-founded in September 2019 by <strong>Kim Kardashian</strong>, CEO <strong>Jens Grede</strong>, and Chief Product Officer <strong>Emma Grede</strong>. Kim Kardashian and Jens Grede remain the largest individual shareholders alongside institutional venture and growth investors including <strong>Thrive Capital</strong>, <strong>Greenoaks</strong>, <strong>Wellington Management</strong>, <strong>Lone Pine Capital</strong>, and <strong>D1 Capital Partners</strong>.</p>
+<p>Unlike legacy mall intimates brands such as Victoria&rsquo;s Secret or <a href="/diffr/blog/who-owns-free-people-brand-guide">Free People (owned by URBN)</a>, SKIMS is not owned by a traditional public retail conglomerate. Nor is it affiliated with <a href="/diffr/blog/who-owns-alo-yoga-brand-guide">Alo Yoga</a>, Lululemon, or <a href="/diffr/blog/aritzia-sub-brands-guide">Aritzia</a>. Its closest corporate cousins are other Grede-co-founded brands &mdash; notably <strong>Good American</strong> (co-founded by Emma Grede and Khlo&eacute; Kardashian) and <strong>Safely</strong> &mdash; though SKIMS operates as a separate legal entity.</p>
+
+<h2>SKIMS Ownership &amp; Corporate Structure</h2>
+<table><thead><tr><th>Stakeholder</th><th>Role in SKIMS</th><th>Notes</th></tr></thead><tbody>
+<tr><td><strong>Skims Body, Inc.</strong></td><td>Operating parent company</td><td>Privately held, headquartered in Los Angeles, CA</td></tr>
+<tr><td><strong>Kim Kardashian</strong></td><td>Co-Founder &amp; Chief Creative Officer</td><td>Largest individual creative stakeholder</td></tr>
+<tr><td><strong>Jens Grede &amp; Emma Grede</strong></td><td>Co-Founders (CEO / CPO)</td><td>Swedish/British retail operators behind Frame &amp; Good American</td></tr>
+<tr><td><strong>Institutional Backers</strong></td><td>Minority growth investors</td><td>Thrive Capital, Greenoaks, Wellington, Lone Pine, D1 Capital</td></tr>
+<tr><td><strong>Nike (SKIMS x Nike)</strong></td><td>Activewear joint collaboration</td><td>Strategic partnership announced for women&rsquo;s training &mdash; separate ownership</td></tr>
+</tbody></table>
+
+<h2>SKIMS Core Lines Decoded: Seamless Sculpt vs. Fits Everybody vs. Soft Lounge</h2>
+<p>SKIMS grew beyond shapewear into a full basics house, which means quality varies wildly across fabric lines:</p>
+<ul>
+<li><strong>Seamless Sculpt (e.g., SKIMS Seamless Sculpt Bodysuit):</strong> The original core shapewear line. High-compression nylon-spandex knit that smooths cleanly under fitted dresses without rolling at the leg or bust. This is still SKIMS&rsquo;s strongest technical moat.</li>
+<li><strong>Fits Everybody (e.g., SKIMS Fits Everybody T-Shirt):</strong> Double-layered butter-soft polyamide stretch jersey. Ultra-thin, second-skin feel that stays cool, though lighter colors can sheer slightly and the thin fabric demands gentle cold washing.</li>
+<li><strong>Soft Lounge (e.g., SKIMS Soft Lounge Long Slip Dress):</strong> Modal-spandex ribbed drape engineered for sleep and lounging. Extremely flattering cut, though the long length drags if you are petite and modal pills if tumbled hot.</li>
+<li><strong>Cotton Rib (e.g., SKIMS Cotton Rib Tank):</strong> Everyday 95% cotton / 5% spandex ribbed basics. Comfortable, but at $38&ndash;$54 per tank you are paying a heavy brand markup over standard cotton basics.</li>
+</ul>
+
+<h2>What to Buy at SKIMS vs. What to Buy Elsewhere</h2>
+<table><thead><tr><th>Wardrobe Slot</th><th>Winner</th><th>Why It Wins</th><th>Skip</th></tr></thead><tbody>
+<tr><td><strong>Under-Dress Shapewear Bodysuit</strong></td><td><strong>SKIMS (Seamless Sculpt)</strong></td><td>Best-in-class shade range (9+ skin tones) and seamless edge recovery</td><td>Cheap Amazon compression that rolls down</td></tr>
+<tr><td><strong>Second-Skin Fitted Layering Tee</strong></td><td><strong>SKIMS (Fits Everybody)</strong></td><td>Sleek double-layer drape under blazers without bulk</td><td>Cotton Rib at full price (Uniqlo / Quince win value)</td></tr>
+<tr><td><strong>Date-Night or Wedding Slip Dress</strong></td><td><a href="/diffr/blog/wilfred-brand-guide"><strong>Reformation / Wilfred</strong></a></td><td>True silk/viscose tailoring reads elevated outside the house</td><td>Wearing Soft Lounge modal ribs to formal events</td></tr>
+<tr><td><strong>Everyday Breathable Base Layer</strong></td><td><a href="/diffr/blog/uniqlo-lines-explained"><strong>Uniqlo AIRism</strong></a></td><td>Better moisture management at a third of the price</td><td>$50+ everyday synthetic basics</td></tr>
+</tbody></table>
+
+<h2>The Diffr Take: One Brand Per Slot</h2>
+<p>SKIMS earned its reputation by solving a real problem: invisible, shade-matched shapewear that actually fits. The trap is letting a shapewear brand become your entire t-shirt, pajama, and loungewear drawer.</p>
+<p>Apply the <strong>One Brand Per Slot</strong> rule: keep <strong>SKIMS Seamless Sculpt</strong> for your shapewear slot and <strong>Fits Everybody</strong> for a fitted layering tee, then let <a href="/diffr/blog/uniqlo-lines-explained">Uniqlo AIRism</a> own everyday underlayers and <a href="/diffr/blog/who-owns-alo-yoga-brand-guide">Alo Yoga</a> or <a href="/diffr/blog/vuori-vs-lululemon-brand-guide">Vuori</a> own active lounge. Decide once, and <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">open Diffr on iOS</a> to lock a lean, zero-bloat wardrobe.</p>
+`.trim(),
+  },
+  {
     slug: 'aritzia-sub-brands-guide',
     title: "Aritzia Brands Explained: All 11 In-House Labels",
     description: "Aritzia owns 11 in-house brands: Babaton, Wilfred, TNA, Denim Forum, Super Puff and more. The full list, who owns Aritzia, and what to buy instead.",

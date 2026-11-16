@@ -125,6 +125,7 @@ export const OG_BASE_SLUGS = new Set<string>([
   'arcteryx-lines-explained',
   'vuori-vs-lululemon-brand-guide',
   'who-owns-free-people-brand-guide',
+  'who-owns-alo-yoga-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {

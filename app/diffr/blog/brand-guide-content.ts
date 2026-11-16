@@ -43,6 +43,8 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Who owns the brand Free People? Urban Outfitters, Inc. (NASDAQ: URBN) — the publicly traded retail giant that also owns Urban Outfitters, Anthropologie, FP Movement, and Nuuly. Free People was originally the first store opened by URBN founder Dick Hayne in 1970 before being relaunched as an in-house wholesale label in 1984. FP Movement is its in-house activewear spin-off. Buy Free People for unique bohemian statement jackets and dresses; skip its basic tees (choose Quince or Everlane) and formal wedding guest slips (choose Reformation).",
   'who-owns-alo-yoga-brand-guide':
     "Bottom line: Who owns Alo Yoga? Color Image Apparel, Inc. — a privately held Los Angeles company co-founded in 2007 by Danny Harris and Marco DeGeorge, who also own wholesale blank apparel giant Bella+Canvas. Alo Yoga is independent and has no ownership ties to Lululemon or Nike. Buy Alo for studio-to-street sculpting sets (Airlift 7/8 Legging) and Pilates looks; skip Alo for intense sweaty runs (choose Lululemon Wunder Train), plush everyday lounge joggers (choose Vuori DreamKnit), or basic studio tees (Bella+Canvas / Quince).",
+  'who-owns-skims-brand-guide':
+    "Bottom line: Who owns SKIMS? Skims Body, Inc. — a privately held company co-founded in 2019 by Kim Kardashian, Jens Grede, and Emma Grede, backed by growth investors including Thrive Capital, Greenoaks, Wellington Management, Lone Pine Capital, and D1 Capital. Buy SKIMS for Seamless Sculpt shapewear bodysuits and Fits Everybody second-skin layering tees; skip overpriced Cotton Rib basics (choose Uniqlo AIRism or Quince) and formal slip dresses (choose Reformation).",
   'arcteryx-lines-explained':
     "Bottom line: Arc'teryx Alpha vs Beta — buy Beta for 90% of people (All-Mountain shell with normal hand pockets for rain, hiking, and daily wear); buy Alpha strictly for climbers (high crossover chest pockets that clear a harness, no waist pockets). Arc'teryx Atom vs Proton — buy Atom for everyday active warmth and windy cold commutes (Tyono wind-resistant face fabric, Coreloft insulation); buy Proton for high-output mountain exertion and touring (Fortius air-permeable fabric that dumps heat). Suffixes: SV is severe weather armor; AR is all-round durability; LT is lightweight everyday minimalist.",
   'patagonia-r1-vs-r2-brand-guide':
@@ -808,6 +810,33 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'What does "Alo" stand for?',
       a: "Alo stands for Air, Land, and Ocean — reflecting the brand's Los Angeles yoga studio roots and lifestyle aesthetic.",
+    },
+  ],
+
+  'who-owns-skims-brand-guide': [
+    {
+      q: 'Who owns SKIMS?',
+      a: "SKIMS is owned by Skims Body, Inc., a privately held American apparel company co-founded in 2019 by Kim Kardashian, CEO Jens Grede, and Chief Product Officer Emma Grede. Kim Kardashian and Jens Grede remain the largest individual shareholders alongside institutional backers such as Thrive Capital, Greenoaks, Wellington Management, Lone Pine Capital, and D1 Capital.",
+    },
+    {
+      q: 'Is SKIMS owned by a public conglomerate or Victoria’s Secret?',
+      a: "No. SKIMS is an independent, privately held company with no parent conglomerate ownership from Victoria's Secret, Lululemon, URBN, or Aritzia. It has a separate brand partnership with Nike for women's activewear, but remains independently owned.",
+    },
+    {
+      q: 'What is SKIMS’s sister company?',
+      a: "SKIMS does not sit under a single holding conglomerate, but co-founders Jens and Emma Grede also co-founded Good American (with Khloé Kardashian), Frame Denim, and Safely. Good American is often seen as a sister-venture cousin, though each brand operates separately.",
+    },
+    {
+      q: 'What is the difference between SKIMS Fits Everybody and Soft Lounge?',
+      a: "SKIMS Fits Everybody is a thin, ultra-stretchy, double-layered polyamide knit designed for second-skin tees, bodysuits, and seamless underlayers. SKIMS Soft Lounge is a heavier ribbed modal-spandex fabric designed for sleepwear, slip dresses, and relaxed lounging.",
+    },
+    {
+      q: 'What is actually worth buying from SKIMS?',
+      a: "The Seamless Sculpt shapewear bodysuits and Fits Everybody fitted layering tees earn their price for shade matching and smooth drape under clothes. Everyday Cotton Rib tanks and basic tees carry a heavy brand markup compared to Uniqlo AIRism or Quince.",
+    },
+    {
+      q: 'How does SKIMS sizing run?',
+      a: "SKIMS Seamless Sculpt shapewear runs snug and compressive — size up if you are between sizes or want all-day comfort. Fits Everybody and Soft Lounge run true to size with generous stretch.",
     },
   ],
 
