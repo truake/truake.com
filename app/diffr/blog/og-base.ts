@@ -127,6 +127,9 @@ export const OG_BASE_SLUGS = new Set<string>([
   'who-owns-free-people-brand-guide',
   'who-owns-alo-yoga-brand-guide',
   'who-owns-skims-brand-guide',
+  'alo-yoga-vs-lululemon-brand-guide',
+  'barbour-bedale-vs-beaufort-brand-guide',
+  'canada-goose-vs-moncler-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {
