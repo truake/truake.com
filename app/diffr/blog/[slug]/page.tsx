@@ -150,6 +150,10 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'alo-yoga-vs-lululemon-brand-guide': 192,
   'barbour-bedale-vs-beaufort-brand-guide': 193,
   'canada-goose-vs-moncler-brand-guide': 194,
+  'yeti-vs-stanley-brand-guide': 195,
+  'patagonia-nano-puff-vs-down-sweater-brand-guide': 196,
+  'lululemon-align-vs-wunder-train-brand-guide': 197,
+  'tumi-vs-briggs-and-riley-brand-guide': 198,
 }
 
 export async function generateStaticParams() {

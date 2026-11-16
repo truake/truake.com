@@ -130,6 +130,10 @@ export const OG_BASE_SLUGS = new Set<string>([
   'alo-yoga-vs-lululemon-brand-guide',
   'barbour-bedale-vs-beaufort-brand-guide',
   'canada-goose-vs-moncler-brand-guide',
+  'yeti-vs-stanley-brand-guide',
+  'patagonia-nano-puff-vs-down-sweater-brand-guide',
+  'lululemon-align-vs-wunder-train-brand-guide',
+  'tumi-vs-briggs-and-riley-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {
