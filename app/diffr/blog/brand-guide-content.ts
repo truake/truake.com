@@ -51,6 +51,14 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Barbour Bedale vs Beaufort — both are 6oz waxed cotton made in South Shields, England. Buy Bedale (30-inch back, ribbed knit storm cuffs, side riding vents) for a shorter casual cut worn with jeans and sweaters. Buy Beaufort (33-inch back, Velcro wind cuffs, full-width rear game pocket) if you are taller or want full hem coverage over a suit blazer. Skip Ashby unless you specifically want a slim urban silhouette.",
   'canada-goose-vs-moncler-brand-guide':
     "Bottom line: Canada Goose vs Moncler (vs Mackage) — buy Canada Goose (Langford or Expedition with Arctic-Tech shell) for wind-blocking sub-zero utility down to -25°C. Buy Moncler (Maya) for featherweight European luxury warmth in milder city winters (0°C to -10°C). Buy Mackage (Edward) if you want a sharp tailored middle ground with -20°C storm protection.",
+  'yeti-vs-stanley-brand-guide':
+    "Bottom line: YETI vs Stanley — buy YETI (Rambler 30 oz) for superior DuraCoat dishwasher durability, tighter lid seals, and rugged outdoor longevity. Buy Stanley (Quencher H2.0 40 oz) if you want maximum desk hydration capacity with an oversized comfort handle. Skip both for backpack carry — use a screw-top bottle like YETI Chug Cap or Hydro Flask instead.",
+  'patagonia-nano-puff-vs-down-sweater-brand-guide':
+    "Bottom line: Patagonia Nano Puff vs Down Sweater — buy the Nano Puff (60g PrimaLoft synthetic) for damp coastal climates, active hiking, and 40°F–55°F layering under a shell. Buy the Down Sweater (800-fill goose down) for dry, freezing winter cold below 35°F where true thermal loft matters.",
+  'lululemon-align-vs-wunder-train-brand-guide':
+    "Bottom line: Lululemon Align vs Wunder Train — buy Align (Nulu) for zero-compression, buttery-soft comfort in yoga, travel, and lounging. Buy Wunder Train (Everlux) for heavy gym lifting, spinning, HIIT, and sweat-wicking pill resistance with an internal waist drawcord.",
+  'tumi-vs-briggs-and-riley-brand-guide':
+    "Bottom line: Tumi vs Briggs & Riley — buy Briggs & Riley (Baseline Essential 22) for carry-on roller luggage thanks to its unconditional lifetime airline-damage warranty, flat Outsider handle floor, and CX compression. Buy Tumi (Alpha Bravo) for slim executive laptop backpacks and briefcases.",
   'arcteryx-lines-explained':
     "Bottom line: Arc'teryx Alpha vs Beta — buy Beta for 90% of people (All-Mountain shell with normal hand pockets for rain, hiking, and daily wear); buy Alpha strictly for climbers (high crossover chest pockets that clear a harness, no waist pockets). Arc'teryx Atom vs Proton — buy Atom for everyday active warmth and windy cold commutes (Tyono wind-resistant face fabric, Coreloft insulation); buy Proton for high-output mountain exertion and touring (Fortius air-permeable fabric that dumps heat). Suffixes: SV is severe weather armor; AR is all-round durability; LT is lightweight everyday minimalist.",
   'patagonia-r1-vs-r2-brand-guide':
@@ -900,6 +908,66 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Which Canada Goose jacket is best for everyday city wear?',
       a: "The Canada Goose Langford Parka is the cleanest all-around city choice — mid-thigh length for wind protection, streamlined exterior without oversized expedition cargo pockets, and TEI 4 warmth down to -25°C.",
+    },
+  ],
+
+  'yeti-vs-stanley-brand-guide': [
+    {
+      q: 'Which keeps drinks cold longer: YETI or Stanley?',
+      a: "Both YETI Rambler and Stanley Quencher use double-wall vacuum-insulated 18/8 stainless steel and keep ice frozen for 24+ hours. The 40 oz Stanley Quencher holds slightly more ice mass simply due to larger volume, while YETI's thicker steel and MagSlider lid seal slightly tighter.",
+    },
+    {
+      q: 'Is YETI or Stanley more leakproof?',
+      a: "YETI is more splash- and leak-resistant around its silicone gasket, though neither straw tumbler is 100% leakproof inside a backpack. If you need a bag-safe bottle, pick a screw-cap bottle like the YETI Rambler Chug Cap.",
+    },
+    {
+      q: 'Why does YETI cost less or hold up better in the dishwasher?',
+      a: "YETI's DuraCoat finish is baked directly onto the stainless steel, so it resists chipping and peeling through repeated dishwasher cycles better than many Stanley powder-coated editions.",
+    },
+  ],
+
+  'patagonia-nano-puff-vs-down-sweater-brand-guide': [
+    {
+      q: 'Which is warmer: Patagonia Nano Puff or Down Sweater?',
+      a: "The Patagonia Down Sweater is noticeably warmer. Its 800-fill goose down traps far more insulating air than the Nano Puff's 60g synthetic PrimaLoft Gold, making the Down Sweater suitable down to 20°F–35°F while the Nano Puff shines at 40°F–55°F.",
+    },
+    {
+      q: 'Is the Patagonia Nano Puff waterproof?',
+      a: "No — the Nano Puff is water-resistant with a DWR finish, not waterproof. However, because it uses synthetic PrimaLoft insulation, it still retains ~98% of its warmth if it gets damp in mist or sweat, unlike down.",
+    },
+    {
+      q: 'Should you buy the Nano Puff or Down Sweater for travel?',
+      a: "For wet, unpredictable destinations or active day hikes, choose the Nano Puff. For cold, dry winter city trips where packable warmth is priority #1, choose the Down Sweater.",
+    },
+  ],
+
+  'lululemon-align-vs-wunder-train-brand-guide': [
+    {
+      q: 'What is the main difference between Lululemon Align and Wunder Train?',
+      a: "Align uses brushed Nulu fabric with virtually zero compression for yoga and lounging. Wunder Train uses fast-drying Everlux fabric with medium-high compression, an internal waist drawcord, and high resistance to pilling for lifting, spin, and HIIT.",
+    },
+    {
+      q: 'Do Lululemon Wunder Trains pill like Aligns?',
+      a: "No. Everlux is engineered with a durable outer yarn that resists thigh friction, barbells, and repeated machine washes far better than delicate Nulu.",
+    },
+    {
+      q: 'Should I size up in Wunder Train vs Align?',
+      a: "Many shoppers wear one size up in Wunder Train compared to Align, because Wunder Train's higher compression and continuous waist drawcord run noticeably snugger.",
+    },
+  ],
+
+  'tumi-vs-briggs-and-riley-brand-guide': [
+    {
+      q: 'Is Briggs & Riley better than Tumi?',
+      a: "For carry-on and checked roller luggage, yes — Briggs & Riley offers an unconditional lifetime warranty that covers airline damage forever without a receipt, plus a flat interior packing floor (Outsider handle) and CX compression. Tumi wins for slim laptop backpacks and executive briefcases.",
+    },
+    {
+      q: 'What does Tumi’s warranty cover vs Briggs & Riley?',
+      a: "Tumi covers manufacturing defects for 5 years and airline damage only during year 1. Briggs & Riley's 'Simple as That' warranty covers functional damage — including airline baggage handling damage — for the lifetime of the bag.",
+    },
+    {
+      q: 'Does Briggs & Riley Baseline 22 fit in overhead bins?',
+      a: "Yes. The Briggs & Riley Baseline Essential 22\" Carry-On Spinner is sized for standard US domestic and major international overhead bins, and its CX compression system lets you expand 25% while packing and ratchet it back down to standard depth.",
     },
   ],
 

@@ -948,6 +948,157 @@ export const posts: BlogPost[] = [
 `.trim(),
   },
   {
+    slug: 'yeti-vs-stanley-brand-guide',
+    title: 'YETI vs Stanley: Insulation, Leaks, Durability & Which Tumbler Wins',
+    description: 'YETI vs Stanley compared honestly: Rambler vs Quencher H2.0 leak resistance, ice retention, dishwasher safety, handle ergonomics, and which tumbler earns your daily hydration slot.',
+    date: '2026-11-16',
+    readTime: '6 min read',
+    tags: ['yeti vs stanley', 'stanley vs yeti', 'yeti rambler vs stanley quencher', 'tumbler guide', 'gift ideas', 'edc', 'one brand rule'],
+    category: 'product',
+    excerpt: 'YETI wins durability, dishwasher finish, and leakproof lids; Stanley wins all-day 40 oz sip ergonomics and car cup-holder fit. Here is which tumbler actually deserves your counter space.',
+    content: `
+<p><strong>YETI vs Stanley</strong> is the defining insulated drinkware debate. Both use 18/8 recycled stainless steel with double-wall vacuum insulation, both keep ice frozen for 24+ hours, and both fit standard car cup holders. Yet they are built around two very different daily habits.</p>
+<p>In short: <strong>YETI Rambler wins rugged durability, dishwasher longevity, and leak resistance</strong>; <strong>Stanley Quencher H2.0 wins effortless one-handed straw sipping and desk hydration volume</strong>.</p>
+
+<h2>Side-by-Side Comparison: YETI Rambler vs. Stanley Quencher</h2>
+<table><thead><tr><th>Spec</th><th>YETI Rambler 30 oz / 42 oz</th><th>Stanley Quencher H2.0 40 oz</th><th>Winner</th></tr></thead><tbody>
+<tr><td><strong>Lid &amp; Leak Resistance</strong></td><td>MagSlider / Stronghold / Straw Lid (tighter gasket seal)</td><td>FlowState 3-position rotating lid (spills if tipped with straw)</td><td><strong>YETI</strong></td></tr>
+<tr><td><strong>Powder Coat &amp; Dishwasher</strong></td><td>DuraCoat finish rarely chips in top/bottom rack</td><td>Powder coat can scuff faster over time</td><td><strong>YETI</strong></td></tr>
+<tr><td><strong>Handle &amp; Ergonomics</strong></td><td>No handle on standard 30 oz; sturdy welded handle on 42 oz</td><td>Oversized comfort-grip handle (easy carry at 40 oz)</td><td><strong>Stanley</strong></td></tr>
+<tr><td><strong>Ice Retention</strong></td><td>~24&ndash;30 hours</td><td>~24&ndash;48 hours (larger 40 oz thermal mass)</td><td><strong>Tie</strong></td></tr>
+<tr><td><strong>Price</strong></td><td>$38&ndash;$45</td><td>$45</td><td><strong>YETI (slightly cheaper)</strong></td></tr>
+</tbody></table>
+
+<h2>1. Leak Test: Desk vs. Bag Carry</h2>
+<p>Neither straw tumbler is 100% backpack-proof like a screw-top bottle. However, the <strong>YETI Rambler 30 oz Tumbler</strong> seals noticeably tighter around its silicone gasket and MagSlider magnet, whereas the <strong>Stanley Quencher H2.0 FlowState Tumbler 40 oz</strong> will drip from the straw grommet if knocked sideways on a car seat. If you actually toss your drinkware in a commuter tote, skip tumblers altogether and buy a true screw-cap bottle (like YETI Chug Cap or Hydro Flask).</p>
+
+<h2>2. Durability &amp; Daily Cleaning</h2>
+<p>YETI&rsquo;s <strong>DuraCoat</strong> exterior and thick-gauge steel handle drops onto concrete and daily dishwasher cycles better than Stanley&rsquo;s finish. YETI&rsquo;s magnetic MagSlider pops off in one second for mold-free cleaning, whereas Stanley&rsquo;s rotating spinner requires twisting out to scrub underneath.</p>
+
+<h2>The Diffr Take: One Brand Per Slot</h2>
+<p>Nobody needs a cabinet overflowing with twelve pastel tumblers. Apply the <strong>One Brand Per Slot</strong> rule:</p>
+<ul>
+<li><strong>Slot 1: Desk &amp; Car Sipper</strong> &rarr; <strong>Stanley Quencher H2.0 (40 oz)</strong> if you want maximum capacity with a comfort handle, or <strong>YETI Rambler (30 oz)</strong> if you want tougher dishwasher durability.</li>
+<li><strong>Slot 2: Leakproof Backpack &amp; Trail Bottle</strong> &rarr; <strong>YETI Rambler 26 oz Chug Cap</strong> (or <strong>Hydro Flask</strong> Wide Mouth).</li>
+</ul>
+<p>Pick one cup for your desk and one bottle for your bag, decide once, and <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">open Diffr on iOS</a> to keep your kitchen shelf clutter-free.</p>
+`.trim(),
+  },
+  {
+    slug: 'patagonia-nano-puff-vs-down-sweater-brand-guide',
+    title: 'Patagonia Nano Puff vs Down Sweater: Warmth, Wet Weather & Which to Buy',
+    description: 'Patagonia Nano Puff vs Down Sweater compared: PrimaLoft synthetic vs 800-fill goose down, packability, rain & sweat performance, durability, and which jacket wins your wardrobe slot.',
+    date: '2026-11-16',
+    readTime: '6 min read',
+    tags: ['patagonia nano puff vs down sweater', 'nano puff vs down sweater', 'patagonia jacket', 'winter layering', 'outdoor gear', 'one brand rule'],
+    category: 'product',
+    excerpt: 'The Patagonia Nano Puff is a packable synthetic jacket built for damp, active layering; the Patagonia Down Sweater is an 800-fill down powerhouse built for dry, freezing cold. Here is how to pick the right one once.',
+    content: `
+<p><strong>Patagonia Nano Puff vs Down Sweater</strong> is the classic lightweight puffy dilemma. They look similar on the rack, weigh roughly the same (~12&ndash;13 oz), and both pack into their own chest pockets. Yet inside the shell, they use opposite insulation technologies built for different climates.</p>
+<p>In short: <strong>buy the Patagonia Nano Puff Jacket</strong> for damp commutes, active hiking, and 40&deg;F&ndash;55&deg;F (4&deg;C&ndash;13&deg;C) layering; <strong>buy the Patagonia Down Sweater</strong> for dry freezing cold below 35&deg;F (2&deg;C).</p>
+
+<h2>Side-by-Side Specs: Nano Puff vs. Down Sweater</h2>
+<table><thead><tr><th>Spec</th><th>Patagonia Nano Puff Jacket</th><th>Patagonia Down Sweater</th><th>Winner</th></tr></thead><tbody>
+<tr><td><strong>Insulation Type</strong></td><td>60g PrimaLoft&reg; Gold Eco synthetic (100% recycled)</td><td>800-fill-power RDS-certified goose down</td><td><strong>Split by weather</strong></td></tr>
+<tr><td><strong>True Warmth Range</strong></td><td>40&deg;F to 55&deg;F standalone (lighter warmth)</td><td>20&deg;F to 40&deg;F standalone (noticeably warmer)</td><td><strong>Down Sweater</strong></td></tr>
+<tr><td><strong>Wet &amp; Sweat Performance</strong></td><td>Retains ~98% warmth when damp; dries fast</td><td>Clumps and loses loft if soaked</td><td><strong>Nano Puff</strong></td></tr>
+<tr><td><strong>Packability &amp; Loft</strong></td><td>Flat brick quilting; layers cleanly under shells</td><td>Loftier baffles; compresses smaller in a pack</td><td><strong>Down Sweater</strong></td></tr>
+<tr><td><strong>Price</strong></td><td>$239</td><td>$279</td><td><strong>Nano Puff ($40 less)</strong></td></tr>
+</tbody></table>
+
+<h2>1. Warmth Reality: Synthetic vs. 800-Fill Down</h2>
+<p>The <strong>Patagonia Down Sweater</strong> is dramatically warmer than the Nano Puff. Its 800-fill down traps far more dead air, making it a legitimate winter coat over a sweater in dry cities like Chicago, Denver, or Toronto. The <strong>Patagonia Nano Puff Jacket</strong> is closer to a windproof insulated shirt &mdash; ideal over a fleece (<a href="/diffr/blog/patagonia-r1-vs-r2-brand-guide">like the Patagonia R1 Air</a>) or under a waterproof shell (<a href="/diffr/blog/arcteryx-lines-explained">like the Arc&rsquo;teryx Beta LT</a>).</p>
+
+<h2>2. Damp Cities &amp; Active Movement</h2>
+<p>If you live in Seattle, London, or Vancouver &mdash; or sweat during brisk walks &mdash; down loses loft when damp and takes hours to dry. The Nano Puff&rsquo;s 60g PrimaLoft Gold insulation stays warm in mist and washes effortlessly in a standard machine without needing tennis balls to re-loft.</p>
+
+<h2>The Diffr Take: One Brand Per Slot</h2>
+<p>You do not need two lightweight Patagonia puffers hanging side by side. Apply the <strong>One Brand Per Slot</strong> rule:</p>
+<ul>
+<li><strong>Slot 1: Active Damp-Weather Puffer (40&deg;F+)</strong> &rarr; <strong>Patagonia Nano Puff Jacket</strong> (or <a href="/diffr/blog/arcteryx-lines-explained"><strong>Arc&rsquo;teryx Atom Hoody</strong></a> if you want stretch side panels).</li>
+<li><strong>Slot 2: Dry Sub-Freezing Lightweight Down</strong> &rarr; <strong>Patagonia Down Sweater</strong> (best warmth-to-weight ratio under $300).</li>
+<li><strong>Slot 3: Breathable Fleece Mid-Layer</strong> &rarr; <a href="/diffr/blog/patagonia-r1-vs-r2-brand-guide"><strong>Patagonia R1 Air</strong></a> (wear underneath either puffy when temperatures drop).</li>
+</ul>
+<p>Match the insulation to your local forecast, decide once, and <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">open Diffr on iOS</a> to lock your outerwear kit.</p>
+`.trim(),
+  },
+  {
+    slug: 'lululemon-align-vs-wunder-train-brand-guide',
+    title: 'Lululemon Align vs Wunder Train: Fabric, Compression & Which to Buy',
+    description: 'Lululemon Align vs Wunder Train compared: Nulu vs Everlux fabric, pilling durability, sweat wicking, waist drawstring, sizing, and which legging wins for yoga, gym, and daily wear.',
+    date: '2026-11-16',
+    readTime: '6 min read',
+    tags: ['lululemon align vs wunder train', 'align vs wunder train', 'nulu vs everlux', 'lululemon leggings', 'womens activewear', 'one brand rule'],
+    category: 'product',
+    excerpt: 'Lululemon Align (Nulu) is built for weightless yoga and everyday comfort; Wunder Train (Everlux) is built for sweaty lifting, HIIT, and pill-free durability. Here is how to choose.',
+    content: `
+<p><strong>Lululemon Align vs Wunder Train</strong> is the #1 question inside Lululemon fitting rooms. Both retail around $98, both come in 23&Prime;, 25&Prime;, and 28&Prime; inseams, and both look nearly identical on the hanger. The entire difference is the fabric yarn and hidden waistband construction.</p>
+<p>In short: <strong>buy the Align</strong> for low-impact yoga, flights, and buttery all-day comfort; <strong>buy the Wunder Train</strong> for lifting, spinning, hot HIIT classes, and zero-pill longevity.</p>
+
+<h2>Side-by-Side Comparison: Align (Nulu) vs. Wunder Train (Everlux)</h2>
+<table><thead><tr><th>Spec</th><th>Lululemon Align High-Rise Pant 25&Prime;</th><th>Lululemon Wunder Train High-Rise Tight 25&Prime;</th></tr></thead><tbody>
+<tr><td><strong>Fabric</strong></td><td><strong>Nulu&trade;</strong> (brushed, weightless, buttery-soft)</td><td><strong>Everlux&trade;</strong> (fastest-drying, cool inside, soft matte outside)</td></tr>
+<tr><td><strong>Compression</strong></td><td>Minimal / naked feel</td><td>Medium-high supportive hold</td></tr>
+<tr><td><strong>Waistband Drawcord</strong></td><td>No (flat seamless band)</td><td>Yes (hidden continuous drawcord stops slipping during squats)</td></tr>
+<tr><td><strong>Pilling Resistance</strong></td><td>Low (delicate; pills under barbell or thigh friction)</td><td>High (built for heavy gym abrasion &amp; frequent washing)</td></tr>
+<tr><td><strong>Best Activity</strong></td><td>Pilates, restorative yoga, travel, lounging</td><td>Strength training, spin, HIIT, running, hot yoga</td></tr>
+</tbody></table>
+
+<h2>1. Why Aligns Pill (And How Wunder Train Fixes It)</h2>
+<p>Lululemon&rsquo;s <strong>Nulu</strong> fabric is brushed for that famous cloud-soft hand feel, which leaves microscopic fibers exposed on the surface. Wearing Aligns for barbell deadlifts, spin bikes, or brushing past velcro quickly fuzzes the thighs. <strong>Wunder Train (Everlux)</strong> keeps a lightly brushed matte exterior so it still looks clean for coffee runs, while using a slick, cool-to-the-touch interior yarn that wicks heavy sweat fast and resists pilling.</p>
+
+<h2>2. Fit &amp; Sizing: Should You Size Up in Wunder Train?</h2>
+<p>Because Align has virtually no compression, many shoppers wear their true size (or size down). In <strong>Wunder Train</strong>, the medium-high hold and internal drawcord feel noticeably tighter through the waist and hips &mdash; if you are between Lululemon sizes, <strong>size up in Wunder Train</strong> (especially in Contour Fit if you have a smaller waist and fuller hips).</p>
+
+<h2>The Diffr Take: One Brand Per Slot</h2>
+<p>Do not buy five pairs of Aligns and ruin them at the gym. Apply the <strong>One Brand Per Slot</strong> rule across your activewear:</p>
+<ul>
+<li><strong>Slot 1: Hard Gym &amp; Sweat Legging</strong> &rarr; <strong>Lululemon Wunder Train High-Rise Tight 25&Prime;</strong> (unmatched Everlux durability).</li>
+<li><strong>Slot 2: Studio-to-Street Sculpt Legging</strong> &rarr; <a href="/diffr/blog/alo-yoga-vs-lululemon-brand-guide"><strong>Alo 7/8 High-Waist Airlift</strong></a> (if you want sleek sheen) or <strong>Lululemon Align</strong> (if you want zero-compression softness).</li>
+<li><strong>Slot 3: Rest Day &amp; Travel Jogger</strong> &rarr; <a href="/diffr/blog/vuori-vs-lululemon-brand-guide"><strong>Vuori Performance Jogger</strong></a>.</li>
+</ul>
+<p>Lock one winner per slot and <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">open Diffr on iOS</a> to skip wardrobe duplicates.</p>
+`.trim(),
+  },
+  {
+    slug: 'tumi-vs-briggs-and-riley-brand-guide',
+    title: 'Tumi vs Briggs & Riley: Warranty, Ballistic Nylon & Which Carry-On Wins',
+    description: 'Tumi vs Briggs & Riley compared: Alpha 3 vs Baseline Essential 22 carry-on, CX compression expansion, lifetime unconditional repair warranty vs 5-year coverage, weight, and price.',
+    date: '2026-11-16',
+    readTime: '7 min read',
+    tags: ['tumi vs briggs and riley', 'briggs and riley vs tumi', 'carry on luggage', 'travel gear', 'gift ideas', 'one brand rule'],
+    category: 'product',
+    excerpt: 'Briggs & Riley wins warranty, packing compression, and true lifetime value; Tumi wins sleek aesthetic, lightweight backpacks, and executive brand polish. Here is the road-warrior verdict.',
+    content: `
+<p><strong>Tumi vs Briggs &amp; Riley</strong> is the classic frequent-flyer debate for ballistic nylon carry-on luggage. Both sit in the $650&ndash;$950 tier, both survive decades of tarmac abuse, and both appear in every airport lounge. Yet their engineering priorities and post-purchase warranties are night and day.</p>
+<p>In short: <strong>Briggs &amp; Riley wins checked/carry-on roller luggage</strong> thanks to its unconditional lifetime repair guarantee and flat-bottom CX compression; <strong>Tumi wins slim leather-trimmed laptop backpacks and briefcase aesthetics</strong>.</p>
+
+<h2>Side-by-Side Comparison: Tumi Alpha 3 vs. Briggs &amp; Riley Baseline</h2>
+<table><thead><tr><th>Spec</th><th>Tumi Alpha 3 Int&rsquo;l Carry-On</th><th>Briggs &amp; Riley Baseline Essential 22&Prime;</th><th>Winner</th></tr></thead><tbody>
+<tr><td><strong>Warranty</strong></td><td>5 years limited (1st year covers airline damage)</td><td><strong>Simple as That&reg; Lifetime</strong> (covers airline damage forever, no receipt needed)</td><td><strong>Briggs &amp; Riley (by a mile)</strong></td></tr>
+<tr><td><strong>Expansion System</strong></td><td>Standard zipper gusset</td><td><strong>CX&reg; Ratchet Compression</strong> (expands 25%, compresses back flat)</td><td><strong>Briggs &amp; Riley</strong></td></tr>
+<tr><td><strong>Handle Placement</strong></td><td>Inside bag (creates interior ridges)</td><td><strong>Outsider&reg; Handle</strong> (mounted outside for a 100% flat packing floor)</td><td><strong>Briggs &amp; Riley</strong></td></tr>
+<tr><td><strong>Shell Material</strong></td><td>FXT&reg; Ballistic Nylon (ultra-sleek weave)</td><td>1680D Ballistic Nylon</td><td><strong>Tie</strong></td></tr>
+<tr><td><strong>Style &amp; Weight</strong></td><td>Sharper aesthetic, lighter (~9.5&ndash;10 lbs)</td><td>Slightly boxier utilitarian look (~10.0 lbs)</td><td><strong>Tumi</strong></td></tr>
+</tbody></table>
+
+<h2>1. The Warranty Difference Is Huge</h2>
+<p>If an airline baggage handler rips a wheel off your <strong>Tumi Alpha 3 International Dual Access Carry-On</strong> in year three, you pay out of pocket. If an airline destroys a wheel, zipper, or handle on a <strong>Briggs &amp; Riley Baseline Essential 22&Prime; Carry-On Spinner</strong> ten years from now, Briggs &amp; Riley repairs it free of charge &mdash; even without proof of purchase.</p>
+
+<h2>2. Packing Architecture: Outsider Handle + CX Compression</h2>
+<p>Briggs &amp; Riley mounts its telescoping handle bars on the <em>outside</em> of the suitcase back rather than inside the main compartment. That gives you a completely flat interior floor so dress shirts and blazers pack without creasing over handle tubes. Paired with the mechanical CX expansion system, you get noticeably more usable volume inside the same overhead bin footprint.</p>
+
+<h2>The Diffr Take: One Brand Per Slot</h2>
+<p>You don&rsquo;t need a matching five-piece luggage set from a single logo. Apply the <strong>One Brand Per Slot</strong> rule to your <a href="/diffr/blog/travel-essentials-brand-guide">travel kit</a>:</p>
+<ul>
+<li><strong>Slot 1: Roller Carry-On Suitcase</strong> &rarr; <strong>Briggs &amp; Riley Baseline Essential 22&Prime;</strong> (buy once for life with airline-damage protection).</li>
+<li><strong>Slot 2: Commuter Laptop Backpack</strong> &rarr; <strong>Tumi Alpha Bravo Navigation</strong> (sleeker silhouette and better exterior tech pockets for daily office use).</li>
+<li><strong>Slot 3: Hard-Shell Luxury Weekender</strong> &rarr; <strong>Rimowa Original / Away</strong> (only if you strictly prefer aluminum or polycarbonate).</li>
+</ul>
+<p>Lock the luggage slot once and <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">open Diffr on iOS</a> to build your zero-bloat travel setup.</p>
+`.trim(),
+  },
+  {
     slug: 'aritzia-sub-brands-guide',
     title: "Aritzia Brands Explained: All 11 In-House Labels",
     description: "Aritzia owns 11 in-house brands: Babaton, Wilfred, TNA, Denim Forum, Super Puff and more. The full list, who owns Aritzia, and what to buy instead.",
