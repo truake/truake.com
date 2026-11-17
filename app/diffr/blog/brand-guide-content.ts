@@ -59,6 +59,12 @@ export const BLOG_TLDR: Record<string, string> = {
     "Bottom line: Lululemon Align vs Wunder Train — buy Align (Nulu) for zero-compression, buttery-soft comfort in yoga, travel, and lounging. Buy Wunder Train (Everlux) for heavy gym lifting, spinning, HIIT, and sweat-wicking pill resistance with an internal waist drawcord.",
   'tumi-vs-briggs-and-riley-brand-guide':
     "Bottom line: Tumi vs Briggs & Riley — buy Briggs & Riley (Baseline Essential 22) for carry-on roller luggage thanks to its unconditional lifetime airline-damage warranty, flat Outsider handle floor, and CX compression. Buy Tumi (Alpha Bravo) for slim executive laptop backpacks and briefcases.",
+  'vuori-vs-alo-brand-guide':
+    "Bottom line: Vuori vs Alo Yoga — buy Vuori (Sunday Performance Jogger, Halo Hoodie) for unmatched DreamKnit softness, travel comfort, and long-term pill resistance. Buy Alo Yoga (7/8 Airlift Legging) for sleek studio-to-street compression sheen and Pilates styling.",
+  'aesop-vs-le-labo-brand-guide':
+    "Bottom line: Aesop vs Le Labo — buy Aesop (Resurrection Aromatique 500 mL) for hand wash, body balm, and sink care (twice the volume per dollar). Buy Le Labo (Thé Matcha 26, Santal 33) for long-lasting personal Eau de Parfum and custom-labeled gifts, and Diptyque for candles.",
+  'rimowa-vs-away-brand-guide':
+    "Bottom line: Rimowa vs Away — buy Away (The Bigger Carry-On, $295) for lighter weight, value, and stress-free polycarbonate travel. Buy Rimowa (Original Cabin, $1,450) strictly if you want zipperless anodized aluminum engineering and never gate-check your bag — or Briggs & Riley Baseline for airline-proof lifetime durability.",
   'arcteryx-lines-explained':
     "Bottom line: Arc'teryx Alpha vs Beta — buy Beta for 90% of people (All-Mountain shell with normal hand pockets for rain, hiking, and daily wear); buy Alpha strictly for climbers (high crossover chest pockets that clear a harness, no waist pockets). Arc'teryx Atom vs Proton — buy Atom for everyday active warmth and windy cold commutes (Tyono wind-resistant face fabric, Coreloft insulation); buy Proton for high-output mountain exertion and touring (Fortius air-permeable fabric that dumps heat). Suffixes: SV is severe weather armor; AR is all-round durability; LT is lightweight everyday minimalist.",
   'patagonia-r1-vs-r2-brand-guide':
@@ -968,6 +974,39 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Does Briggs & Riley Baseline 22 fit in overhead bins?',
       a: "Yes. The Briggs & Riley Baseline Essential 22\" Carry-On Spinner is sized for standard US domestic and major international overhead bins, and its CX compression system lets you expand 25% while packing and ratchet it back down to standard depth.",
+    },
+  ],
+
+  'vuori-vs-alo-brand-guide': [
+    {
+      q: 'Is Vuori better quality than Alo Yoga?',
+      a: "For loungewear, hoodies, and joggers, yes — Vuori's DreamKnit fabric resists pilling and fading through years of machine washing, whereas Alo's Accolade cotton-poly fleece tends to pill quickly. Alo wins sleek Pilates studio compression with its Airlift leggings.",
+    },
+    {
+      q: 'Which is better for travel: Vuori or Alo?',
+      a: "Vuori wins travel comfortably. The Sunday Performance Jogger and Halo Hoodie are lighter, softer, and don't crease or pill on long flights.",
+    },
+  ],
+
+  'aesop-vs-le-labo-brand-guide': [
+    {
+      q: 'Is Aesop or Le Labo better for gifts?',
+      a: "For housewarming and bathroom sink gifts under $50, Aesop Resurrection Aromatique Hand Wash (500 mL) wins on value and size. For personal luxury fragrance gifts ($230+), Le Labo wins with stronger 8+ hour longevity and personalized bottle labels.",
+    },
+    {
+      q: 'Do Aesop perfumes last as long as Le Labo?',
+      a: "Generally no. Aesop fragrances (like Tacit or Marrakech Intense) are botanical and wear closer to the skin for 4–5 hours, whereas Le Labo Eau de Parfums (like Santal 33 or Thé Matcha 26) project cleanly for 7–10+ hours.",
+    },
+  ],
+
+  'rimowa-vs-away-brand-guide': [
+    {
+      q: 'Is Rimowa worth 5x the price of Away?',
+      a: "Only if you strictly carry on mainline flights and value zipperless anodized aluminum engineering and Rimowa's Multiwheel precision. For most travelers, Away's $295 polycarbonate Carry-On is lighter, holds just as much, and won't dent if gate-checked.",
+    },
+    {
+      q: 'Which is lighter: Rimowa Original Cabin or Away Carry-On?',
+      a: "Away The Bigger Carry-On weighs ~7.9 lbs, making it ~1.6 lbs lighter than the 9.5 lb aluminum Rimowa Original Cabin.",
     },
   ],
 

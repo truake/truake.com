@@ -154,6 +154,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'patagonia-nano-puff-vs-down-sweater-brand-guide': 196,
   'lululemon-align-vs-wunder-train-brand-guide': 197,
   'tumi-vs-briggs-and-riley-brand-guide': 198,
+  'vuori-vs-alo-brand-guide': 199,
+  'aesop-vs-le-labo-brand-guide': 200,
+  'rimowa-vs-away-brand-guide': 201,
 }
 
 export async function generateStaticParams() {
