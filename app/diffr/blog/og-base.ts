@@ -134,6 +134,9 @@ export const OG_BASE_SLUGS = new Set<string>([
   'patagonia-nano-puff-vs-down-sweater-brand-guide',
   'lululemon-align-vs-wunder-train-brand-guide',
   'tumi-vs-briggs-and-riley-brand-guide',
+  'vuori-vs-alo-brand-guide',
+  'aesop-vs-le-labo-brand-guide',
+  'rimowa-vs-away-brand-guide',
 ])
 
 export function ogBaseUrl(slug: string): string | null {
