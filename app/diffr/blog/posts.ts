@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/alpine-winter-edc-brand-guide">Alpine Winter EDC</a> (preset 204)</li>
 <li><a href="/diffr/blog/minimalist-titanium-edc-brand-guide">Minimalist Titanium EDC</a> (preset 183)</li>
 <li><a href="/diffr/blog/urban-commuter-edc-brand-guide">Urban Commuter EDC</a> (preset 180)</li>
 <li><a href="/diffr/blog/tech-essentials-edc-brand-guide">Tech Essentials EDC</a> (preset 177)</li>
@@ -72,6 +73,7 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-parisian-cafe-brand-guide">Parisian Cafe Tote WIMB</a> (preset 203)</li>
 <li><a href="/diffr/blog/wimb-longchamp-le-pliage-brand-guide">Longchamp Le Pliage Tote WIMB</a> (preset 184)</li>
 <li><a href="/diffr/blog/wimb-marc-jacobs-tote-brand-guide">Marc Jacobs Tote WIMB</a> (preset 181)</li>
 <li><a href="/diffr/blog/wimb-coach-gray-satchel-brand-guide">Coach Gray Satchel WIMB</a> (preset 178)</li>
@@ -92,6 +94,7 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-nordic-knitwear-brand-guide">Nordic Knitwear &amp; Tailored Wool OOTD</a> (preset 202)</li>
 <li><a href="/diffr/blog/styling-barbour-jacket-brand-guide">Autumn Heritage MA-1 &amp; Denim OOTD</a> (preset 185)</li>
 <li><a href="/diffr/blog/styling-suede-jacket-brand-guide">Suede Jacket OOTD</a> (preset 182)</li>
 <li><a href="/diffr/blog/styling-off-white-denim-brand-guide">Navy Denim OOTD</a> (preset 179)</li>
@@ -9560,6 +9563,101 @@ Diffr ends with: here is what you get.</p>
 <p>Autumn style guides often default to repeat waxed-cotton outer layers and generic denim labels. Diffr anchors this flat lay with Human Made&rsquo;s vintage-spec olive flight bomber and pairs each layer with a master of its craft &mdash; German loopwheel knitting, Oregon bridle leather, and Japanese mechanical field horology &mdash; with zero brand repeats on preset 185.</p>
 
 <p>Distinct from <a href="/diffr/blog/styling-suede-jacket-brand-guide">Suede Jacket OOTD</a> (preset 182) &middot; <a href="/diffr/blog/styling-off-white-denim-brand-guide">Navy Denim OOTD</a> (preset 179). Explore the interactive scene: <a href="/diffr/start/styling-barbour-jacket-kit">Autumn Heritage Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-nordic-knitwear-brand-guide',
+    title: 'Nordic Knitwear & Tailored Wool OOTD: Nine-Slot Brand Guide (Preset 202)',
+    description: 'One-brand-per-slot Nordic winter outfit flat lay: Auralee knitwear, Norse Projects alpaca sweater, Camber 302 pocket tee, Officine Generale wool trousers, RM Williams Chelsea boots, Maximum Henry belt, Johnstons of Elgin cashmere scarf, Junghans Max Bill, and Comme des Garcons Hinoki.',
+    date: '2026-11-19',
+    readTime: '5 min read',
+    tags: ['OOTD', 'nordic knitwear', 'Auralee', 'Norse Projects', 'RM Williams', 'Junghans', 'one brand per slot', 'scene series'],
+    category: 'product',
+    excerpt: 'Nine tactile winter layers — Japanese wool-cashmere knitwear, Nordic alpaca, 8oz American jersey, Parisian pleated wool trousers, and Australian wholecut Chelsea boots with zero brand repeats.',
+    content: `
+<p>Winter layering works best when every garment owns a distinct textile weight rather than duplicating a single house look. This nine-slot <strong>Nordic Knitwear &amp; Tailored Wool OOTD</strong> (preset 202) pairs Japanese and Scandinavian knitwear with Parisian tailoring, Australian wholecut boots, and Bauhaus horology.</p>
+
+<h2>Slot-by-Slot Brand Breakdown</h2>
+<ul>
+<li><strong>Outer Knitwear &mdash; Auralee</strong>: Shetland wool-cashmere rib knit pullover, brushed for loft without bulk.</li>
+<li><strong>Mid-Layer Sweater &mdash; Norse Projects</strong>: Nordrevik baby alpaca sweater for breathable warmth under wool or outerwear.</li>
+<li><strong>Base Layer Tee &mdash; Camber</strong>: Model 302 8oz heavyweight USA cotton pocket tee that holds a crisp collar line.</li>
+<li><strong>Tailored Trousers &mdash; Officine G&eacute;n&eacute;rale</strong>: Paul pleated virgin wool trousers in relaxed Parisian drape.</li>
+<li><strong>Footwear &mdash; RM Williams</strong>: Comfort Craftsman wholecut Chelsea boots in chestnut yearling leather.</li>
+<li><strong>Belt &mdash; Maximum Henry</strong>: Standard 1-inch black bridle leather belt, hand-finished in New York.</li>
+<li><strong>Scarf &mdash; Johnstons of Elgin</strong>: Charcoal Scottish cashmere scarf woven at the Elgin mill.</li>
+<li><strong>Watch &mdash; Junghans</strong>: Max Bill Automatic white dial with clean Bauhaus typography.</li>
+<li><strong>Fragrance &mdash; Comme des Gar&ccedil;ons</strong>: Monocle Scent One Hinoki EDT &mdash; dry cypress, cedar, and moss.</li>
+</ul>
+
+<h2>Why This Post Exists</h2>
+<p>Most winter outfit flat lays collapse into one heritage store or a single luxury house. Diffr assigns one specialist maker per wardrobe slot on preset 202 so you can inspect and swap every piece cleanly.</p>
+
+<p>Explore the interactive scene: <a href="/diffr/start/styling-nordic-knitwear-ootd-kit">Nordic Knitwear OOTD Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-parisian-cafe-brand-guide',
+    title: 'Parisian Cafe Tote WIMB: Ten-Slot Brand Guide (Preset 203)',
+    description: 'What is in my Polene Cyme Mini bag for a Parisian cafe morning: Dior velvet pouch, Aesop hand mist, Pastilles Vichy mints, Midori A5 notebook, Satechi USB-C hub, Ricoh GR IIIx, Bang & Olufsen Beoplay EX, Dagne Dover toiletry bag, and D.S. & Durga Debaser.',
+    date: '2026-11-19',
+    readTime: '5 min read',
+    tags: ['WIMB', 'whats in my bag', 'Polene', 'Ricoh GR IIIx', 'Aesop', 'Bang & Olufsen', 'one brand per slot', 'scene series'],
+    category: 'product',
+    excerpt: 'Ten compact cafe-table essentials tucked inside a Polene Cyme Mini Camel tote — analog paper, APS-C street photography, aluminum audio, and botanical scent with zero brand repeats.',
+    content: `
+<p>A morning cafe carry has to balance sculptural style with real-world utility &mdash; room for a notebook, a street camera, and a USB-C hub without turning into a heavy commuter backpack. This ten-slot <strong>Parisian Cafe Tote WIMB</strong> (preset 203) maps every pocket of a Pol&egrave;ne Cyme Mini spill to one specialist brand.</p>
+
+<h2>Slot-by-Slot Brand Breakdown</h2>
+<ul>
+<li><strong>Primary Tote &mdash; Pol&egrave;ne</strong>: Cyme Mini tote in camel grained calfskin with sculptural side folds.</li>
+<li><strong>Cosmetic Pouch &mdash; Dior</strong>: Black velvet half-moon pouch for lip balm and compact touch-ups.</li>
+<li><strong>Hand Mist &mdash; Aesop</strong>: Resurrection rinse-free hand mist in a pocketable travel spray.</li>
+<li><strong>Pocket Mints &mdash; Pastilles Vichy</strong>: Classic octagonal French mint tin.</li>
+<li><strong>Notebook &mdash; Midori</strong>: A5 off-white MD notebook for fountain-pen-friendly cafe notes.</li>
+<li><strong>USB-C Hub &mdash; Satechi</strong>: OntheGo 7-in-1 compact magnetic multiport adapter for quick laptop or SD transfers.</li>
+<li><strong>Camera &mdash; Ricoh</strong>: GR IIIx 40mm-equivalent APS-C compact camera for effortless street frames.</li>
+<li><strong>Wireless Earbuds &mdash; Bang &amp; Olufsen</strong>: Beoplay EX active noise-cancelling earbuds in aluminum &amp; glass.</li>
+<li><strong>Toiletry Organizer &mdash; Dagne Dover</strong>: Hunter neoprene pouch keeping cables and travel liquids tidy.</li>
+<li><strong>Fragrance &mdash; D.S. &amp; Durga</strong>: Debaser Eau de Parfum &mdash; fig, iris, and warm blonde woods.</li>
+</ul>
+
+<h2>Why This Post Exists</h2>
+<p>Bag-spill posts rarely list the exact makers behind the small pouches, mint tins, and tech adapters. Preset 203 keeps all ten slots distinct with live catalog tiles and zero duplicate brands.</p>
+
+<p>Explore the interactive scene: <a href="/diffr/start/wimb-parisian-cafe-kit">Parisian Cafe WIMB Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'alpine-winter-edc-brand-guide',
+    title: 'Alpine Winter EDC: Ten-Slot Brand Guide (Preset 204)',
+    description: 'One-brand-per-slot winter everyday carry flat lay: Marathon GSAR diver watch, Spyderco Delica 4 Lightweight, Zebralight SC700Fd flashlight, Karas Kustoms Bolt V2 pen, Trayvax Contour wallet, Vero Fulcrum pry bar, Jibbon key organizer, Rite in the Rain notebook, YETI Rambler, and Evergoods CAP1.',
+    date: '2026-11-19',
+    readTime: '5 min read',
+    tags: ['EDC', 'alpine winter EDC', 'Marathon GSAR', 'Spyderco', 'Zebralight', 'Evergoods', 'one brand per slot', 'scene series'],
+    category: 'product',
+    excerpt: 'Ten cold-weather pocket tools built for short winter days, gloved hands, and wet sleet — tritium watch, high-CRI floodlight, machined pen, weatherproof paper, and modular pouch.',
+    content: `
+<p>Cold weather exposes weak everyday carry gear fast: slippery handles, dead batteries, and ink that skips on damp paper. This ten-slot <strong>Alpine Winter EDC</strong> (preset 204) pairs glove-friendly ergonomics and all-weather materials across ten independent specialists.</p>
+
+<h2>Slot-by-Slot Brand Breakdown</h2>
+<ul>
+<li><strong>Watch &mdash; Marathon</strong>: GSAR Automatic diver with self-illuminating tritium gas tubes for dark winter mornings.</li>
+<li><strong>Folding Knife &mdash; Spyderco</strong>: Delica 4 Lightweight with bi-directional textured FRN grip.</li>
+<li><strong>Flashlight &mdash; Zebralight</strong>: SC700Fd high-CRI floodlight engineered for cold-weather runtime.</li>
+<li><strong>Machined Pen &mdash; Karas Kustoms</strong>: Bolt V2 pen with reliable mechanical action.</li>
+<li><strong>Wallet &mdash; Trayvax</strong>: Contour CNC-machined frame and leather wallet.</li>
+<li><strong>Pry Bar &mdash; Vero Engineering</strong>: Fulcrum titanium pocket pry bar with integrated bit storage.</li>
+<li><strong>Key Organizer &mdash; Jibbon</strong>: Italian leather key wrap with silent spring-lock D-ring.</li>
+<li><strong>Notebook &mdash; Rite in the Rain</strong>: Weatherproof pocket notebook that resists snow, sleet, and slush.</li>
+<li><strong>Insulated Tumbler &mdash; YETI</strong>: Rambler 20 oz stainless steel vacuum tumbler with MagSlider lid.</li>
+<li><strong>Organizer Pouch &mdash; Evergoods</strong>: Civic Access Pouch 1L (CAP1) for modular coat-to-pack transfer.</li>
+</ul>
+
+<h2>Why This Post Exists</h2>
+<p>Instead of repeating the same titanium catalog across every pocket slot, preset 204 assigns each winter carry job to a purpose-built brand &mdash; backed by live catalog tiles and zero repeats.</p>
+
+<p>Explore the interactive scene: <a href="/diffr/start/alpine-winter-edc-kit">Alpine Winter EDC Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
 ]

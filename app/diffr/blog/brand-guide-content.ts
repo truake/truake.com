@@ -315,6 +315,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Diffr Scene Series are editorial flat-lay brand guides in three lanes — EDC (everyday carry pocket dumps), WIMB (what\'s in my bag spills), and OOTD (outfit flat lays). Each Scene assigns one specialist brand per slot with live catalog tiles and a matching preset in the Diffr iPhone app. Browse EDC, WIMB, or OOTD below.',
   'on-your-feet-all-day-work-brand-guide':
     'Bottom line: on your feet all day shoes start with Hoka cushioned walking shoes — then Comrad compression socks, Superfeet insoles, Lululemon stretch pants, Uniqlo AIRism tee, O\'Keeffe\'s foot cream, Owala bottle, and Gorilla Grip anti-fatigue mat — one brand per slot. Shift comfort on hard floors; not a single-brand Adidas wall. Live catalog tiles below as crawled.',
+  'styling-nordic-knitwear-brand-guide':
+    'Bottom line: Nordic Knitwear & Tailored Wool OOTD is nine wardrobe layers — Auralee Shetland wool cashmere rib knit pullover, Norse Projects Nordrevik baby alpaca sweater, Camber 302 8oz heavyweight cotton pocket tee, Officine Generale Paul pleated virgin wool trousers, RM Williams Comfort Craftsman Chelsea boots, Maximum Henry Standard 1-inch black bridle belt, Johnstons of Elgin charcoal cashmere scarf, Junghans Max Bill Automatic white dial, and Comme des Garcons Monocle Scent One Hinoki EDT — one brand each on preset 202. Live catalog tiles below.',
+  'wimb-parisian-cafe-brand-guide':
+    'Bottom line: Parisian Cafe Tote WIMB is ten bag-spill slots — Polene Cyme Mini camel tote, Dior black velvet half-moon cosmetic pouch, Aesop Resurrection rinse-free hand mist, Pastilles Vichy classic mint tin, Midori A5 off-white notebook, Satechi OntheGo 7-in-1 USB-C hub, Ricoh GR IIIx camera, Bang & Olufsen Beoplay EX wireless earbuds, Dagne Dover Hunter neoprene toiletry bag, and D.S. & Durga Debaser Eau de Parfum — one brand each on preset 203. Live catalog tiles below.',
+  'alpine-winter-edc-brand-guide':
+    'Bottom line: Alpine Winter EDC is ten pocket-dump slots — Marathon GSAR Automatic diver watch, Spyderco Delica 4 Lightweight knife, Zebralight SC700Fd flashlight, Karas Kustoms Bolt V2 pen, Trayvax Contour wallet, Vero Fulcrum pry bar, Jibbon leather key organizer, Rite in the Rain weatherproof notebook, YETI Rambler 20 oz tumbler, and Evergoods Civic Access Pouch 1L — one brand each on preset 204. Live catalog tiles below.',
 }
 
 export interface FaqItem {
@@ -3567,6 +3573,60 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Where do I download Diffr?',
       a: 'Search "Diffr" on the App Store or go to https://apps.apple.com/us/app/diffr/id6772870733. iPhone only at launch.',
+    },
+  ],
+  'styling-nordic-knitwear-brand-guide': [
+    {
+      q: 'What are the nine pieces in the Nordic Knitwear & Tailored Wool OOTD?',
+      a: 'Auralee Shetland wool-cashmere knitwear, Norse Projects Nordrevik baby alpaca sweater, Camber 302 8oz cotton pocket tee, Officine Generale Paul pleated virgin wool trousers, RM Williams Comfort Craftsman Chelsea boots, Maximum Henry 1-inch black bridle belt, Johnstons of Elgin charcoal cashmere scarf, Junghans Max Bill Automatic watch, and Comme des Garcons Monocle Scent One Hinoki EDT (preset 202).',
+    },
+    {
+      q: 'Why pair Auralee knitwear with Norse Projects and Camber?',
+      a: 'Each label owns a different textile weight: Camber brings 8oz American heavyweight jersey as the base tee, Norse Projects handles airy baby-alpaca mid-layer texture, and Auralee anchors the Japanese wool-cashmere outer knitwear.',
+    },
+    {
+      q: 'Can I preview this outfit kit in the Diffr iPhone app?',
+      a: 'Yes — open preset 202 in Diffr or browse the interactive kit at truake.com/diffr/start/styling-nordic-knitwear-ootd-kit.',
+    },
+    {
+      q: 'Are there any brand repeats across the nine slots?',
+      a: 'Zero repeats: every wardrobe layer from knitwear down to fragrance is assigned to one specialist brand.',
+    },
+  ],
+  'wimb-parisian-cafe-brand-guide': [
+    {
+      q: 'What fits inside the Polene Cyme Mini Parisian Cafe WIMB?',
+      a: 'Nine compact daily companions: Dior velvet cosmetic pouch, Aesop Resurrection hand mist, Pastilles Vichy mint tin, Midori A5 notebook, Satechi OntheGo 7-in-1 USB-C hub, Ricoh GR IIIx camera, Bang & Olufsen Beoplay EX earbuds, Dagne Dover Hunter neoprene toiletry bag, and D.S. & Durga Debaser Eau de Parfum (preset 203).',
+    },
+    {
+      q: 'Why separate the Dior pouch from the Dagne Dover toiletry bag?',
+      a: 'Dior handles small lipstick and compact touch-ups in velvet, while Dagne Dover washable neoprene keeps cables, adapters, and travel liquids organized.',
+    },
+    {
+      q: 'Is the Ricoh GR IIIx really pocketable inside a small cafe tote?',
+      a: 'Yes — the GR IIIx packs an APS-C sensor and 40mm-equivalent lens into a coat-pocket body, leaving room for a Midori A5 notebook and USB-C hub.',
+    },
+    {
+      q: 'Where can I view live product tiles for this WIMB?',
+      a: 'Scroll to the live kit grid on this page or open truake.com/diffr/start/wimb-parisian-cafe-kit (preset 203 in the Diffr iPhone app).',
+    },
+  ],
+  'alpine-winter-edc-brand-guide': [
+    {
+      q: 'What is in the Alpine Winter EDC 10-slot kit?',
+      a: 'Marathon GSAR Automatic diver watch, Spyderco Delica 4 Lightweight knife, Zebralight SC700Fd flashlight, Karas Kustoms Bolt V2 pen, Trayvax Contour wallet, Vero Fulcrum pry bar, Jibbon leather key organizer, Rite in the Rain weatherproof notebook, YETI Rambler 20 oz tumbler, and Evergoods Civic Access Pouch 1L (preset 204).',
+    },
+    {
+      q: 'Why choose Rite in the Rain and Marathon for winter carry?',
+      a: 'Rite in the Rain paper sheds snow and sleet without smearing, and Marathon builds ISO-6425 tritium-illuminated divers to military specs for low-light winter days.',
+    },
+    {
+      q: 'Does the Evergoods CAP1 hold the smaller pocket tools?',
+      a: 'Yes — the Civic Access Pouch 1L acts as the modular organizer for the Karas Kustoms pen, Vero Fulcrum pry bar, and spare batteries when moving between coat pockets and packs.',
+    },
+    {
+      q: 'How do I load preset 204 in Diffr?',
+      a: 'Open the interactive kit at truake.com/diffr/start/alpine-winter-edc-kit or select Alpine Winter EDC Flat Lay (preset 204) in the Diffr iPhone app.',
     },
   ],
 }

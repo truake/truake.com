@@ -157,6 +157,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'vuori-vs-alo-brand-guide': 199,
   'aesop-vs-le-labo-brand-guide': 200,
   'rimowa-vs-away-brand-guide': 201,
+  'styling-nordic-knitwear-brand-guide': 202,
+  'wimb-parisian-cafe-brand-guide': 203,
+  'alpine-winter-edc-brand-guide': 204,
 }
 
 export async function generateStaticParams() {
