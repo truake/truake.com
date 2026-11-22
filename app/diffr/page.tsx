@@ -12,9 +12,9 @@ import { appleItunesApp } from "./components/dock-context";
    SEO
 ───────────────────────────────────────────────────────────── */
 export const metadata: Metadata = {
-  title: { absolute: "Diffr — What to buy first when you're new to a hobby" },
+  title: { absolute: "Diffr App — One-Brand-Per-Slot Gear & Outfit Starter Kits (iOS)" },
   description:
-    "Running, camping, dorm room, coffee — curated beginner starter kits with one trusted brand per slot. 47,000+ brands scored across six axes. Free on iOS.",
+    "Diffr is a curated gear, EDC, and outfit starter-kit app for iPhone — one trusted brand per slot, zero choice overload. 47,000+ brands scored across six axes. Free on iOS.",
   alternates: { canonical: "https://truake.com/diffr" },
   keywords: [
     "Diffr",

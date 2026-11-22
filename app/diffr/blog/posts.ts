@@ -347,8 +347,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'adidas-lines-explained',
-    title: 'Adidas Lines Explained: Originals vs Performance vs Terrex',
-    description: "Adidas lines explained: Trefoil means Originals (lifestyle & street), 3-Bar Badge of Sport means Performance (training & running). Plus Terrex for trail outdoors, Sportswear, and the no-four-stripe rule.",
+    title: 'Adidas Originals vs Performance vs Sportswear: What Is the Difference? (2026)',
+    description: "Adidas Originals (Trefoil = street lifestyle) vs Performance (3-Bar = sport training) vs Sportswear & Terrex. Quick comparison table, price tiers, and which line to buy.",
     date: '2026-08-03',
     readTime: '8 min read',
     tags: ['adidas lines explained', 'adidas sub brands', 'adidas originals', 'adidas performance', 'adidas terrex', 'terrex range explained', 'original adidas', 'athleisure', 'one brand rule'],
@@ -656,8 +656,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'patagonia-r1-vs-r2-brand-guide',
-    title: 'Patagonia R1 vs R2: Grid Fleece, TechFace & Which Mid-Layer Wins',
-    description: 'Patagonia R1 vs R2 compared: R1 Air vs R2 TechFace, grid fleece breathability, wind resistance, warmth-to-weight, sizing, and which mid-layer to buy.',
+    title: 'Patagonia R1 vs R2 (2026): R1 Air vs R2 TechFace Warmth & Fit',
+    description: 'Patagonia R1 vs R2 compared side-by-side: R1 Air active breathability vs R2 TechFace wind resistance, warmth-to-weight, sizing, and which fleece mid-layer to buy.',
     date: '2026-11-07',
     readTime: '6 min read',
     tags: ['patagonia r1 vs r2', 'r1 vs r2', 'patagonia r1 air vs r2 techface', 'patagonia fleece', 'patagonia mid layer', 'grid fleece', 'outdoor layers', 'one brand rule'],
@@ -777,8 +777,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'who-owns-skims-brand-guide',
-    title: 'Who Owns SKIMS? Founders, Investors, Valuation & What Is Worth Buying',
-    description: 'Who owns SKIMS? Kim Kardashian, Jens Grede, and Emma Grede co-founded Skims Body, Inc. in 2019 alongside institutional backers. Full ownership breakdown, Fits Everybody vs Soft Lounge vs Seamless Sculpt, and what to skip.',
+    title: 'Who Owns SKIMS in 2026? Skims Body Inc., Founders & Best Lines',
+    description: 'SKIMS is owned by privately held Skims Body, Inc. (co-founded by Kim Kardashian, Jens Grede, and Emma Grede). Full ownership, valuation, Fits Everybody vs Soft Lounge, and what to buy.',
     date: '2026-11-16',
     readTime: '7 min read',
     tags: ['who owns skims', 'skims parent company', 'who founded skims', 'skims fits everybody vs soft lounge', 'shapewear', 'loungewear', 'womens fashion', 'one brand rule'],
@@ -1225,10 +1225,10 @@ export const posts: BlogPost[] = [
 <h2>Aritzia In-House Brands: The Full List</h2>
 <p><strong>What brands does Aritzia own?</strong> Aritzia designs and sells eleven exclusive in-house labels, and those exclusive brands account for roughly <strong>97% of the company&rsquo;s net revenue</strong>. This is the complete list of Aritzia house brands:</p>
 <ul>
-<li><strong>Babaton</strong> &mdash; atelier-inspired tailoring and workwear (home of the Effortless Pant)</li>
+<li><strong><a href="/diffr/blog/babaton-brand-guide">Babaton</a></strong> &mdash; atelier-inspired tailoring and workwear (home of the Effortless Pant)</li>
 <li><strong>The Group by Babaton</strong> &mdash; Babaton&rsquo;s elevated tier: heavier fabric, more structure</li>
 <li><strong>Ten (Ten by Babaton)</strong> &mdash; the evening line: sleek silhouettes for going out</li>
-<li><strong>Wilfred</strong> &mdash; romantic pieces built on unique textiles and hand-done prints</li>
+<li><strong><a href="/diffr/blog/wilfred-brand-guide">Wilfred</a></strong> &mdash; romantic pieces built on unique textiles and hand-done prints</li>
 <li><strong>Wilfred Free</strong> &mdash; Wilfred&rsquo;s casual side: knits, bodysuits, everyday basics</li>
 <li><strong>Tna</strong> &mdash; cozy athleisure and time-perfected casual fits</li>
 <li><strong>Golden</strong> &mdash; luxuriously crafted activewear, the sportier end of the house</li>
@@ -1412,8 +1412,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'athleta-vs-lululemon-brand-guide',
-    title: 'Athleta vs Lululemon: Elation vs Align Explained',
-    description: 'Athleta Elation vs Lululemon Align compared — fabric, price, fit, and when each wins. Plus which athleisure lane to shop instead.',
+    title: 'Athleta vs Lululemon (2026): Elation vs Align Quality & Price',
+    description: 'Athleta Elation vs Lululemon Align compared: Powervita vs Nulu fabric feel, pilling, price, sizing, and which legging wins studio vs everyday wear.',
     date: '2026-09-15',
     readTime: '5 min read',
     tags: ['athleta vs lululemon', 'athleta elation vs lululemon align', 'elation vs align', 'athleta leggings', 'lululemon align', 'athleisure', 'one brand rule'],
@@ -1459,8 +1459,8 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'vuori-vs-lululemon-brand-guide',
-    title: 'Vuori vs Lululemon: Quality, Sizing, and Which Brand Owns Each Slot',
-    description: 'Vuori vs Lululemon compared — DreamKnit vs Align Nulu, Meta vs ABC Pant, Kore Short vs Pace Breaker, sizing, durability, and which brand to choose.',
+    title: 'Vuori vs Lululemon (2026): Quality, Sizing & Which One Is Better',
+    description: 'Vuori vs Lululemon head-to-head: DreamKnit vs Align Nulu, Meta Pant vs ABC Pant, Kore Short vs Pace Breaker, sizing, pilling durability, and which brand wins each slot.',
     date: '2026-11-05',
     readTime: '6 min read',
     tags: ['vuori vs lululemon', 'vuori vs lululemon men', 'vuori vs lululemon joggers', 'vuori dreamknit vs lululemon align', 'vuori meta pant vs abc pant', 'vuori kore short vs pace breaker', 'athleisure', 'one brand rule'],
