@@ -321,6 +321,14 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Parisian Cafe Tote WIMB is ten bag-spill slots — Polene Cyme Mini camel tote, Dior black velvet half-moon cosmetic pouch, Aesop Resurrection rinse-free hand mist, Pastilles Vichy classic mint tin, Midori A5 off-white notebook, Satechi OntheGo 7-in-1 USB-C hub, Ricoh GR IIIx camera, Bang & Olufsen Beoplay EX wireless earbuds, Dagne Dover Hunter neoprene toiletry bag, and D.S. & Durga Debaser Eau de Parfum — one brand each on preset 203. Live catalog tiles below.',
   'alpine-winter-edc-brand-guide':
     'Bottom line: Alpine Winter EDC is ten pocket-dump slots — Marathon GSAR Automatic diver watch, Spyderco Delica 4 Lightweight knife, Zebralight SC700Fd flashlight, Karas Kustoms Bolt V2 pen, Trayvax Contour wallet, Vero Fulcrum pry bar, Jibbon leather key organizer, Rite in the Rain weatherproof notebook, YETI Rambler 20 oz tumbler, and Evergoods Civic Access Pouch 1L — one brand each on preset 204. Live catalog tiles below.',
+  'on-vs-hoka-brand-guide':
+    'Bottom line: On Cloud vs Hoka comes down to feel and geometry — On (CloudTec) delivers a firmer, snappier ride and cleaner street styling (Cloudtilt, Cloudmonster), while Hoka (thick EVA rocker) delivers maximum plush impact protection for long miles and standing all day (Clifton 9, Bondi 8). Live 4-brand rotation on preset 205 below.',
+  'salomon-lines-explained':
+    'Bottom line: Salomon splits into three distinct lanes — Sportstyle (XT-6, XT-4, ACS Pro for street/gorpcore), Trail Running (Speedcross 6 for mud, Ultra Glide for distance, Genesis for technical rock), and S/Lab (pro racing). Live 4-brand trail & sportstyle kit on preset 206 below.',
+  'arcteryx-vs-patagonia-brand-guide':
+    'Bottom line: Arc\'teryx wins technical alpine hardshells (Beta LT / Beta AR with precision GORE-TEX patterning), while Patagonia wins everyday fleece, packable insulation, and Ironclad Repair value (R1 Air, Retro Pile, Nano Puff). Live 4-brand alpine kit on preset 207 below.',
+  'new-balance-lines-explained':
+    'Bottom line: New Balance separates by series — 990v6 (Made in USA flagship comfort & heritage), 1906R & 2002R (2000s Y2K mesh runners), 9060 (sculpted chunky lifestyle), and 574/608 (entry everyday trainers). Live 4-brand sneaker rotation on preset 208 below.',
 }
 
 export interface FaqItem {
@@ -3627,6 +3635,62 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How do I load preset 204 in Diffr?',
       a: 'Open the interactive kit at truake.com/diffr/start/alpine-winter-edc-kit or select Alpine Winter EDC Flat Lay (preset 204) in the Diffr iPhone app.',
+    },
+  ],
+  'on-vs-hoka-brand-guide': [
+    {
+      q: 'Which is better for walking and standing all day: On Cloud or Hoka?',
+      a: 'Hoka (Clifton 9 or Bondi 8) wins for standing all day on hard floors and high-mileage recovery because of its thicker, softer EVA stack and meta-rocker. On (Cloudtilt or Cloudmonster) wins if you prefer a firmer, more responsive step and slimmer lifestyle look.',
+    },
+    {
+      q: 'Do On Cloud shoes last as long as Hoka?',
+      a: 'Both midsoles typically compress around 300–450 miles of running. On CloudTec pods can occasionally trap small pebbles on gravel, whereas Hoka wide foam outsoles wear down faster on rough asphalt if you heel-strike.',
+    },
+    {
+      q: 'Which Hoka model competes directly with the On Cloudmonster?',
+      a: 'The Hoka Clifton 9 and Skyflow compete directly with the On Cloudmonster 2 as max-cushion daily trainers; the Bondi 8 sits closer to the On Cloudsurfer Max / Cloudeclipse.',
+    },
+  ],
+  'salomon-lines-explained': [
+    {
+      q: 'What is the difference between Salomon XT-6, XT-4, and Speedcross?',
+      a: 'XT-6 and XT-4 sit in Salomon Sportstyle — originally 2013/2012 ultra-trail chassis reissued for street and light trails (XT-4 has a slightly wider forefoot and carbon Agile Chassis). Speedcross is a pure mud-and-soft-trail shoe with aggressive deep chevrons that wear quickly on pavement.',
+    },
+    {
+      q: 'What does Salomon S/Lab mean?',
+      a: 'S/Lab (Salomon Lab) is Salomon’s pro-athlete racing division — lighter, narrower, and built for podium speed rather than casual daily wear.',
+    },
+    {
+      q: 'Are Salomon XT-6 shoes waterproof?',
+      a: 'Standard XT-6 mesh models are breathable and not waterproof. Look for the GTX (GORE-TEX) tag if you want a waterproof membrane for winter rain.',
+    },
+  ],
+  'arcteryx-vs-patagonia-brand-guide': [
+    {
+      q: 'Is Arc\'teryx worth the extra cost over Patagonia?',
+      a: 'For technical alpine hardshells (Beta LT, Beta AR, Alpha SV), Arc\'teryx still leads in 3-layer GORE-TEX articulation, seam taping, and storm-hood engineering. For fleece, down mid-layers, and everyday rain shells, Patagonia offers better value and an easier lifetime repair guarantee.',
+    },
+    {
+      q: 'Which Patagonia jacket competes with the Arc\'teryx Beta LT?',
+      a: 'The Patagonia Granite Crest and Triolet are the closest 3-layer waterproof competitors to the Arc\'teryx Beta series; the Torrentshell 3L is the budget-friendly daily rain alternative.',
+    },
+    {
+      q: 'Can you mix Arc\'teryx and Patagonia in one layering kit?',
+      a: 'Yes — the most popular alpine combination pairs a Patagonia R1 Air or Retro Pile mid-layer under an Arc\'teryx Beta hardshell (preset 207).',
+    },
+  ],
+  'new-balance-lines-explained': [
+    {
+      q: 'What is the difference between New Balance 990v6, 2002R, and 1906R?',
+      a: 'The 990v6 is New Balance’s Made in USA flagship (~$200) with FuelCell + ENCAP cushioning and premium pigskin suede. The 2002R and 1906R sit in the ~$145–$160 Asia-made heritage-runner tier using N-ergy shock absorption and sleek 2000s mesh styling.',
+    },
+    {
+      q: 'Which New Balance sneaker is best for walking all day?',
+      a: 'The 990v6 offers the best all-day arch support, wide sizing options (D, 2E, 4E), and long-term midsole durability. For a lighter Y2K mesh feel under $160, choose the 1906R or 2002R.',
+    },
+    {
+      q: 'How does the New Balance 9060 fit compared to the 574?',
+      a: 'The 9060 runs slightly roomy with a wide, sculpted ABZORB sole, whereas the classic 574 has a shorter, rounder toe box that some people size up half a size in.',
     },
   ],
 }

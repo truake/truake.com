@@ -160,6 +160,10 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'styling-nordic-knitwear-brand-guide': 202,
   'wimb-parisian-cafe-brand-guide': 203,
   'alpine-winter-edc-brand-guide': 204,
+  'on-vs-hoka-brand-guide': 205,
+  'salomon-lines-explained': 206,
+  'arcteryx-vs-patagonia-brand-guide': 207,
+  'new-balance-lines-explained': 208,
 }
 
 export async function generateStaticParams() {

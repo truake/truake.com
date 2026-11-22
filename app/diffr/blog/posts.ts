@@ -9660,6 +9660,112 @@ Diffr ends with: here is what you get.</p>
 <p>Explore the interactive scene: <a href="/diffr/start/alpine-winter-edc-kit">Alpine Winter EDC Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
+  {
+    slug: 'on-vs-hoka-brand-guide',
+    title: 'On Cloud vs Hoka (2026): Cushioning, Durability & Which Running Shoe Wins',
+    description: 'On Cloud vs Hoka compared side-by-side: CloudTec vs thick EVA meta-rocker, walking vs running, durability, sizing, and when Brooks or ASICS wins instead.',
+    date: '2026-11-22',
+    readTime: '6 min read',
+    tags: ['on vs hoka', 'on cloud vs hoka', 'hoka clifton 9 vs on cloudmonster', 'best walking shoes', 'running shoes', 'one brand rule'],
+    category: 'product',
+    excerpt: 'On Cloud and Hoka dominate daily walking and running shoes — but CloudTec and thick EVA rockers feel completely different underfoot. Here is which brand wins each slot.',
+    content: `
+<p><strong>On vs Hoka</strong> is the #1 cushioned sneaker cross-shop for runners, travelers, and anyone standing on hard floors all day. Both brands built cult followings by rejecting flat 2010s trainers, yet they solve impact differently: <strong>On</strong> uses hollow CloudTec&reg; pods for a firmer, snappier transition and sleeker everyday styling, while <strong>Hoka</strong> uses an oversized EVA foam stack and curved meta-rocker for maximum plush shock absorption. (An independent guide; we are not affiliated with On or Hoka.)</p>
+<p>Also cross-shopping stability or classic daily trainers? See <a href="/diffr/blog/on-your-feet-all-day-work-brand-guide">the standing all-day work kit</a> and <a href="/diffr/blog/running-gear-brand-guide">the running starter kit</a>.</p>
+
+<h2>The One-Line Verdict: On vs Hoka</h2>
+<p><strong>Choose Hoka</strong> (Clifton 9 or Bondi 8) if your top priority is joint protection, long-distance recovery, or 8+ hour shifts on concrete. <strong>Choose On</strong> (Cloudtilt or Cloudmonster 2) if you want a firmer, springier step, cleaner travel aesthetics, and less bulky sole overhang.</p>
+
+<h2>On Cloud vs Hoka — Head-to-Head Table</h2>
+<table><thead><tr><th>Category</th><th>On (Cloudtilt / Cloudmonster)</th><th>Hoka (Clifton 9 / Bondi 8)</th></tr></thead><tbody>
+<tr><td><strong>Underfoot Feel</strong></td><td>Firm, responsive, quick toe-off</td><td>Plush, pillowy, rolling meta-rocker</td></tr>
+<tr><td><strong>Best Daily Model</strong></td><td>Cloudtilt (walking) / Cloudmonster 2 (running)</td><td>Clifton 9 (all-around) / Bondi 8 (max cushion)</td></tr>
+<tr><td><strong>Standing All Day</strong></td><td>Good for moderate arches</td><td>Best-in-class for hard floors &amp; recovery</td></tr>
+<tr><td><strong>Styling &amp; Travel</strong></td><td>Sleek Swiss silhouette; pairs easily with trousers</td><td>Chunky athletic profile</td></tr>
+<tr><td><strong>Midsole Lifespan</strong></td><td>300&ndash;400 miles</td><td>300&ndash;450 miles</td></tr>
+</tbody></table>
+
+<h2>When Brooks or ASICS Wins Instead</h2>
+<p>Inside Diffr&rsquo;s 4-brand rotation (preset 205), neither On nor Hoka owns every foot shape: <strong>Brooks Glycerin 23</strong> beats both for traditional plush heel-to-toe stability without rocker wobble, while <strong>ASICS GT-1000 / Gel-1130</strong> delivers reliable arch guidance at a lower price point.</p>
+
+<p>Explore the 4-brand rotation in <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr on iPhone</a> (preset 205).</p>
+`.trim(),
+  },
+  {
+    slug: 'salomon-lines-explained',
+    title: 'Salomon Lines Explained (2026): XT-6 vs XT-4 vs Speedcross vs S/Lab',
+    description: 'Salomon lines explained: Sportstyle (XT-6, XT-4, ACS Pro) vs Trail Running (Speedcross, Genesis) vs S/Lab racing. Sizing, Gore-Tex differences, and what to buy.',
+    date: '2026-11-22',
+    readTime: '6 min read',
+    tags: ['salomon lines explained', 'salomon xt-6 vs xt-4', 'salomon sportstyle vs trail', 'salomon s/lab', 'gorpcore', 'trail running', 'one brand rule'],
+    category: 'product',
+    excerpt: 'Salomon makes both muddy mountain racing shoes and fashion-week street sneakers — often with nearly identical names. Here is how Sportstyle, Trail, and S/Lab actually differ.',
+    content: `
+<p><strong>Salomon</strong> has become the defining crossover brand between technical alpine trail running and everyday street style. Walk into a store and you will see <strong>XT-6</strong>, <strong>XT-4 OG</strong>, <strong>ACS Pro</strong>, <strong>Speedcross</strong>, and <strong>S/Lab</strong> side by side &mdash; yet buying a mud lug shoe for city pavement (or a narrow S/Lab racer for wide feet) is an expensive mistake. (An independent guide; we are not affiliated with Salomon.)</p>
+<p>Building a full outdoor kit? Pair this with <a href="/diffr/blog/arcteryx-lines-explained">Arc&rsquo;teryx lines explained</a> and <a href="/diffr/blog/patagonia-r1-vs-r2-brand-guide">Patagonia R1 vs R2</a>.</p>
+
+<h2>Salomon&rsquo;s Three Main Lines</h2>
+<table><thead><tr><th>Line</th><th>Flagship Models</th><th>Built For</th><th>Fit &amp; Sole</th></tr></thead><tbody>
+<tr><td><strong>Sportstyle</strong></td><td>XT-6, XT-4 OG, ACS Pro, XA Pro 3D</td><td>City streets, travel, light dry trails</td><td>Quicklace&trade;; XT-4 is slightly wider than XT-6</td></tr>
+<tr><td><strong>Trail Running</strong></td><td>Speedcross 6, Ultra Glide, Genesis</td><td>Mud, wet roots, mountain singletrack</td><td>Deep Contagrip&reg; lugs; wears fast on concrete</td></tr>
+<tr><td><strong>S/Lab (Salomon Lab)</strong></td><td>S/Lab Pulsar, S/Lab Genesis</td><td>Pro ultra-marathon &amp; alpine racing</td><td>Ultra-light, narrow race last, minimal padding</td></tr>
+</tbody></table>
+
+<h2>XT-6 vs XT-4 OG: Which Should You Buy?</h2>
+<p><strong>XT-6</strong> is narrower through the midfoot with sleeker heat-welded overlays, making it the streetwear icon. <strong>XT-4 OG</strong> uses a full-length carbon Agile Chassis Skeleton and a slightly roomier forefoot &mdash; better for wider feet and long city walking days.</p>
+
+<p>See the full 4-brand trail &amp; gorpcore kit (Salomon, Merrell, Arc&rsquo;teryx, Patagonia) on preset 206 in <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Diffr</a>.</p>
+`.trim(),
+  },
+  {
+    slug: 'arcteryx-vs-patagonia-brand-guide',
+    title: 'Arc\'teryx vs Patagonia (2026): Hardshells, Fleece & Warranty Compared',
+    description: 'Arc\'teryx vs Patagonia compared: Beta LT vs Granite Crest, Atom vs Nano Puff, R1 Air fleece, Ironclad warranty vs Arc\'teryx ReBIRD, and which wins each layer.',
+    date: '2026-11-22',
+    readTime: '6 min read',
+    tags: ['arcteryx vs patagonia', 'beta lt vs torrentshell', 'outdoor jackets', 'gorpcore', 'winter layering', 'one brand rule'],
+    category: 'product',
+    excerpt: 'Arc\'teryx and Patagonia sit at the top of technical outdoor apparel — but neither brand owns every layer. Here is where Arc\'teryx precision wins and where Patagonia value takes over.',
+    content: `
+<p><strong>Arc&rsquo;teryx vs Patagonia</strong> is the classic outdoor wardrobe dilemma: spend \$450&ndash;\$750 on Coast Mountain alpine engineering, or invest in Ventura&rsquo;s recycled workhorse layers backed by the strongest repair guarantee in apparel. The smartest climbers and commuters do not pick one wall &mdash; they split the slots. (An independent guide; we are not affiliated with Arc&rsquo;teryx or Patagonia.)</p>
+<p>Deep dives on each brand: <a href="/diffr/blog/arcteryx-lines-explained">Arc&rsquo;teryx lines explained</a> (Beta vs Alpha vs Atom), <a href="/diffr/blog/patagonia-lines-explained">Patagonia lines explained</a>, and <a href="/diffr/blog/patagonia-r1-vs-r2-brand-guide">Patagonia R1 vs R2</a>.</p>
+
+<h2>Arc&rsquo;teryx vs Patagonia — Slot-by-Slot Verdict</h2>
+<table><thead><tr><th>Layer Slot</th><th>Arc&rsquo;teryx Pick</th><th>Patagonia Pick</th><th>Winner</th></tr></thead><tbody>
+<tr><td><strong>Storm Hardshell</strong></td><td>Beta LT / Beta AR (GORE-TEX)</td><td>Granite Crest / Triolet</td><td><strong>Arc&rsquo;teryx</strong> (unmatched hood &amp; articulation)</td></tr>
+<tr><td><strong>Active Fleece</strong></td><td>Delta / Kyanite</td><td>R1 Air / Retro Pile</td><td><strong>Patagonia</strong> (better loft-to-price &amp; breathability)</td></tr>
+<tr><td><strong>Packable Puffer</strong></td><td>Cerium / Atom</td><td>Nano Puff / Down Sweater</td><td><strong>Draw</strong> (Atom for breathability; Nano Puff for value)</td></tr>
+<tr><td><strong>Warranty &amp; Repair</strong></td><td>Limited practical lifespan policy</td><td>Ironclad Guarantee (lifetime repair)</td><td><strong>Patagonia</strong> by a wide margin</td></tr>
+</tbody></table>
+
+<p>The Diffr alpine layering kit (preset 207) pairs an <strong>Arc&rsquo;teryx Beta LT</strong> shell over a <strong>Patagonia Retro Pile</strong> / <strong>The North Face TKA 100</strong> fleece and <strong>Outdoor Research Gripper</strong> gloves &mdash; one specialist per slot.</p>
+`.trim(),
+  },
+  {
+    slug: 'new-balance-lines-explained',
+    title: 'New Balance Lines Explained (2026): 990v6 vs 1906R vs 9060 vs 574',
+    description: 'New Balance sneaker lines explained: Made in USA 990v6 vs 1906R & 2002R mesh runners vs 9060 chunky lifestyle vs 574 & 608. Comfort, sizing, and price tiers.',
+    date: '2026-11-22',
+    readTime: '6 min read',
+    tags: ['new balance lines explained', 'new balance 990v6 vs 2002r', '1906r vs 2002r', 'new balance 9060', 'sneakers', 'one brand rule'],
+    category: 'product',
+    excerpt: 'New Balance numbers look like a spreadsheet until you map the four core families: Made in USA 990s, 2000s Y2K runners (1906R/2002R), sculpted 9060s, and classic 574s.',
+    content: `
+<p><strong>New Balance</strong> names its sneakers with numbers instead of stories, which makes comparing a <strong>990v6</strong>, <strong>1906R</strong>, <strong>2002R</strong>, <strong>9060</strong>, and <strong>574</strong> surprisingly confusing. Once you group them into four tiers by midsole tech and origin, picking the right pair takes thirty seconds. (An independent guide; we are not affiliated with New Balance.)</p>
+<p>Cross-shopping other sneaker houses? See <a href="/diffr/blog/adidas-lines-explained">Adidas Originals vs Performance</a> and <a href="/diffr/blog/nike-lines-explained">Nike lines explained</a>.</p>
+
+<h2>New Balance&rsquo;s Four Core Sneaker Tiers</h2>
+<table><thead><tr><th>Series</th><th>Price Tier</th><th>Cushioning &amp; Build</th><th>Best For</th></tr></thead><tbody>
+<tr><td><strong>990v6 (Made in USA)</strong></td><td>~\$200</td><td>FuelCell + ENCAP; pigskin suede &amp; wide widths</td><td>All-day walking, travel, maximum arch support</td></tr>
+<tr><td><strong>1906R / 2002R</strong></td><td>~\$145&ndash;\$160</td><td>N-ergy + ABZORB; breathable 2000s mesh</td><td>Lightweight Y2K street style &amp; warm weather</td></tr>
+<tr><td><strong>9060</strong></td><td>~\$150</td><td>Dual-density ABZORB + SBS chunky pods</td><td>Wide-leg trousers &amp; bold lifestyle silhouettes</td></tr>
+<tr><td><strong>574 / 608</strong></td><td>~\$75&ndash;\$90</td><td>Classic ENCAP / EVA entry trainers</td><td>Budget daily beaters</td></tr>
+</tbody></table>
+
+<h2>990v6 vs 1906R: Which One Wins?</h2>
+<p>If you walk 15,000+ steps a day or need wide sizing (2E/4E), the <strong>990v6</strong> is worth the extra \$45 for its deeper FuelCell rebound and USA suede durability. If you want a lighter, sharper 2000s mesh runner under \$160, pick the <strong>1906R</strong> (or cross-shop the <strong>ASICS Gel-1130</strong> on preset 208).</p>
+`.trim(),
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
