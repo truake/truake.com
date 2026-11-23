@@ -118,6 +118,10 @@ export const OG_BASE_SLUGS = new Set<string>([
   'styling-nordic-knitwear-brand-guide',
   'wimb-parisian-cafe-brand-guide',
   'alpine-winter-edc-brand-guide',
+  'on-vs-hoka-brand-guide',
+  'salomon-lines-explained',
+  'arcteryx-vs-patagonia-brand-guide',
+  'new-balance-lines-explained',
   '54321-packing-method-brand-guide',
   // Aritzia / athleisure rescue pages (2026-09-15)
   'wilfred-brand-guide',
