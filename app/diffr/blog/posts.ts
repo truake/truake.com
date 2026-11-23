@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/urban-architect-edc-brand-guide">Urban Architect &amp; Draftsman EDC</a> (preset 209)</li>
 <li><a href="/diffr/blog/alpine-winter-edc-brand-guide">Alpine Winter EDC</a> (preset 204)</li>
 <li><a href="/diffr/blog/minimalist-titanium-edc-brand-guide">Minimalist Titanium EDC</a> (preset 183)</li>
 <li><a href="/diffr/blog/urban-commuter-edc-brand-guide">Urban Commuter EDC</a> (preset 180)</li>
@@ -73,6 +74,7 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-rainy-london-commute-brand-guide">Rainy London Commute WIMB</a> (preset 210)</li>
 <li><a href="/diffr/blog/wimb-parisian-cafe-brand-guide">Parisian Cafe Tote WIMB</a> (preset 203)</li>
 <li><a href="/diffr/blog/wimb-longchamp-le-pliage-brand-guide">Longchamp Le Pliage Tote WIMB</a> (preset 184)</li>
 <li><a href="/diffr/blog/wimb-marc-jacobs-tote-brand-guide">Marc Jacobs Tote WIMB</a> (preset 181)</li>
@@ -94,6 +96,7 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-ivy-prep-autumn-brand-guide">Ivy-Prep &amp; Heritage Menswear OOTD</a> (preset 211)</li>
 <li><a href="/diffr/blog/styling-nordic-knitwear-brand-guide">Nordic Knitwear &amp; Tailored Wool OOTD</a> (preset 202)</li>
 <li><a href="/diffr/blog/styling-barbour-jacket-brand-guide">Autumn Heritage MA-1 &amp; Denim OOTD</a> (preset 185)</li>
 <li><a href="/diffr/blog/styling-suede-jacket-brand-guide">Suede Jacket OOTD</a> (preset 182)</li>
@@ -9764,6 +9767,92 @@ Diffr ends with: here is what you get.</p>
 
 <h2>990v6 vs 1906R: Which One Wins?</h2>
 <p>If you walk 15,000+ steps a day or need wide sizing (2E/4E), the <strong>990v6</strong> is worth the extra \$45 for its deeper FuelCell rebound and USA suede durability. If you want a lighter, sharper 2000s mesh runner under \$160, pick the <strong>1906R</strong> (or cross-shop the <strong>ASICS Gel-1130</strong> on preset 208).</p>
+`.trim(),
+  },
+  {
+    slug: 'urban-architect-edc-brand-guide',
+    title: 'Urban Architect & Studio Draftsman EDC: 10-Slot Brand Guide (Preset 209)',
+    description: 'One-brand-per-slot architect EDC: Zero Tolerance 0450, Streamlight MicroStream USB, Victorinox Pioneer X Alox, Hamilton Khaki Field Mechanical, rOtring 600, Bellroy Apex Slim Sleeve, Belkin 5K, Peak Design Sling 3L, Rhodia A6, and Sennheiser Momentum TW4.',
+    date: '2026-11-23',
+    readTime: '5 min read',
+    tags: ['EDC', 'architect EDC', 'Zero Tolerance 0450', 'rOtring 600', 'Hamilton Khaki Field', 'Peak Design', 'one brand per slot', 'scene series'],
+    category: 'product',
+    excerpt: 'Ten studio-to-site essentials built for tactile precision, clean industrial geometry, and quiet reliability — zero brand repeats on preset 209.',
+    content: `
+<p>For architects, industrial designers, and studio creatives, everyday carry is an extension of the drafting table. This ten-slot <strong>Urban Architect &amp; Studio Draftsman EDC</strong> (preset 209) pairs machined titanium, German drafting brass, Swiss horology, and French vellum paper with zero brand repeats.</p>
+
+<h2>Slot-by-Slot Brand Breakdown</h2>
+<ul>
+<li><strong>Folder / Knife &mdash; Zero Tolerance</strong>: 0450 Sinkevich Titanium folder with 3.25&quot; CPM S35VN drop-point blade and slim 2.9 oz frame lock.</li>
+<li><strong>Flashlight &mdash; Streamlight</strong>: MicroStream USB (Coyote) 250-lumen compact inspection light.</li>
+<li><strong>Multitool &mdash; Victorinox</strong>: Swiss Army Pioneer X Alox (Silver) with precision scissors for foamcore and swatches.</li>
+<li><strong>Watch &mdash; Hamilton</strong>: Khaki Field Mechanical 38mm (H69439931) with 80-hour H-50 hand-wound movement.</li>
+<li><strong>Writing Instrument &mdash; rOtring</strong>: 600 Ballpoint Pen (Matte Black) hexagonal brass drafting barrel.</li>
+<li><strong>Wallet &mdash; Bellroy</strong>: Apex Slim Sleeve (Raven) stitchless pre-molded leather with magnetic closure.</li>
+<li><strong>Power Bank &mdash; Belkin</strong>: BoostCharge Magnetic Wireless Power Bank 5K with fold-out stand.</li>
+<li><strong>Sling / Bag &mdash; Peak Design</strong>: Everyday Sling 3L (Ash) weatherproof 400D recycled nylon with FlexFold divider.</li>
+<li><strong>Notebook &mdash; Rhodia</strong>: Webnotebook A6 (Black, Dot Grid) 90gsm Clairefontaine ivory vellum paper.</li>
+<li><strong>Audio &mdash; Sennheiser</strong>: Momentum True Wireless 4 with 7mm TrueResponse transducers and adaptive ANC.</li>
+</ul>
+
+<p>Explore the interactive scene: <a href="/diffr/start/urban-architect-edc-kit">Urban Architect EDC Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-rainy-london-commute-brand-guide',
+    title: 'Rainy London Commute WIMB: Ten-Slot Brand Guide (Preset 210)',
+    description: 'What is in my Mulberry Bayswater Tote for a rainy London commute: Chanel Rouge Coco Baume, Jo Malone English Pear hand cream, Altoids mints, Smythson Panama notebook, mophie snap+ 5K, Bose QC Ultra Earbuds, Cuyana travel case, Aesop Marrakech Intense, and Bottega Veneta card case.',
+    date: '2026-11-23',
+    readTime: '5 min read',
+    tags: ['WIMB', 'Mulberry Bayswater', 'Smythson', 'Bottega Veneta', 'Jo Malone', 'Bose QC Ultra', 'one brand per slot', 'scene series'],
+    category: 'product',
+    excerpt: 'Ten rainy-day London commute essentials anchored by a Mulberry Bayswater Tote — structured leather, quiet Tube ANC, and spill-proof organization with zero brand repeats.',
+    content: `
+<p>Built on the <strong>6 Fixed Core + 4 Dynamic Scene Slots</strong> framework, this <strong>Rainy London Commute WIMB</strong> (preset 210) pairs water-resilient British leather with quiet transit audio, Bond Street stationery, and Italian Intrecciato SLG craft.</p>
+
+<h2>Slot-by-Slot Brand Breakdown</h2>
+<ul>
+<li><strong>Prime Bag &mdash; Mulberry</strong>: Bayswater Tote in Black Small Classic Grain calfskin with Postman&rsquo;s Lock hardware.</li>
+<li><strong>Lip Care &mdash; Chanel</strong>: Rouge Coco Baume (912 Dreamy White) sheer hydrating balm.</li>
+<li><strong>Hygiene &amp; Care &mdash; Jo Malone London</strong>: English Pear &amp; Freesia Hand Cream (30mL).</li>
+<li><strong>Refreshment &mdash; Altoids</strong>: Curiously Strong Peppermint Mints in the classic 1.76 oz hinged tin.</li>
+<li><strong>Planning &amp; Journal &mdash; Smythson</strong>: Panama Notebook in Navy crossgrain lambskin with gilt-edged Featherweight paper.</li>
+<li><strong>Power &amp; Charge &mdash; mophie</strong>: snap+ juice pack mini 5,000mAh magnetic wireless battery.</li>
+<li><strong>Audio &mdash; Bose</strong>: QuietComfort Ultra Earbuds (White Smoke) with CustomTune Tube-rumble ANC.</li>
+<li><strong>Utility Pouch &mdash; Cuyana</strong>: Leather Travel Case Small (Stone) protecting the Bayswater&rsquo;s suede interior.</li>
+<li><strong>Fragrance &mdash; Aesop</strong>: Marrakech Intense Parfum (10mL Roll-On) for discreet pulse-point refreshes.</li>
+<li><strong>SLG &mdash; Bottega Veneta</strong>: Intrecciato Credit Card Case in black woven calfskin.</li>
+</ul>
+
+<p>Explore the interactive scene: <a href="/diffr/start/wimb-rainy-london-commute-kit">Rainy London Commute Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-ivy-prep-autumn-brand-guide',
+    title: 'Ivy-Prep & Heritage Menswear OOTD: Nine-Slot Brand Guide (Preset 211)',
+    description: 'One-brand-per-slot Ivy-Prep autumn outfit: Mackintosh Dunkeld bonded cotton coat, Drake\'s brushed Shetland crewneck, Gitman Vintage white OCBD, Beams Plus 2-pleat chinos, Alden 986 Color 8 shell cordovan loafers, Tory Leather bridle belt, Timex Marlin 34mm, Creed Green Irish Tweed, and Moscot Lemtosh.',
+    date: '2026-11-23',
+    readTime: '5 min read',
+    tags: ['OOTD', 'ivy prep', 'Mackintosh', 'Alden 986', 'Beams Plus', 'Gitman Vintage', 'one brand per slot', 'scene series'],
+    category: 'product',
+    excerpt: 'Nine heritage Ivy-Prep layers — Scottish bonded cotton, brushed Shetland wool, Japanese double-pleat twill, and Horween Color 8 shell cordovan loafers with zero brand repeats.',
+    content: `
+<p>True Ivy-Prep menswear thrives on provenance rather than loud logos: Scottish rubberized cotton, shaggy Shetland wool, American Oxford cloth, Japanese double-pleated twill, and Horween shell cordovan. Preset 211 assigns each of the nine autumn layers to one specialist maker.</p>
+
+<h2>Slot-by-Slot Brand Breakdown</h2>
+<ul>
+<li><strong>Outerwear &mdash; Mackintosh</strong>: Dunkeld Short Bonded Cotton Coat (Fawn) with hand-taped waterproof seams.</li>
+<li><strong>Mid-Layer Knitwear &mdash; Drake&rsquo;s</strong>: Brushed Shetland Wool Crewneck (Forest Green) knitted in Scotland.</li>
+<li><strong>Base Layer Shirt &mdash; Gitman Vintage</strong>: Classic Oxford Button-Down Shirt (White) cut and sewn in Pennsylvania.</li>
+<li><strong>Trousers &mdash; Beams Plus</strong>: 2 Pleat Twill Chino Trousers (Khaki) with cropped 9-inch turn-up cuff.</li>
+<li><strong>Footwear &mdash; Alden</strong>: Leisure Handsewn Penny Loafer 986 in Color 8 Shell Cordovan.</li>
+<li><strong>Belt &mdash; Tory Leather</strong>: 1.25&quot; English Bridle Leather Belt in Havana with solid cast brass buckle.</li>
+<li><strong>Watch &mdash; Timex</strong>: Marlin Hand-Wound 34mm mechanical dress watch with silver sunburst dial.</li>
+<li><strong>Fragrance &mdash; Creed</strong>: Green Irish Tweed Eau de Parfum (50mL).</li>
+<li><strong>Eyewear &mdash; Moscot</strong>: Lemtosh Sunglasses (Tortoise, 46mm) with G-15 glass lenses.</li>
+</ul>
+
+<p>Explore the interactive scene: <a href="/diffr/start/styling-ivy-prep-autumn-kit">Ivy-Prep Autumn Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
 ]

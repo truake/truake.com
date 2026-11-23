@@ -329,6 +329,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Arc\'teryx wins technical alpine hardshells (Beta LT / Beta AR with precision GORE-TEX patterning), while Patagonia wins everyday fleece, packable insulation, and Ironclad Repair value (R1 Air, Retro Pile, Nano Puff). Live 4-brand alpine kit on preset 207 below.',
   'new-balance-lines-explained':
     'Bottom line: New Balance separates by series — 990v6 (Made in USA flagship comfort & heritage), 1906R & 2002R (2000s Y2K mesh runners), 9060 (sculpted chunky lifestyle), and 574/608 (entry everyday trainers). Live 4-brand sneaker rotation on preset 208 below.',
+  'urban-architect-edc-brand-guide':
+    'Bottom line: Urban Architect & Draftsman EDC is ten studio-to-site slots — Zero Tolerance 0450 Sinkevich titanium folder, Streamlight MicroStream USB, Victorinox Pioneer X Alox, Hamilton Khaki Field Mechanical 38mm, rOtring 600 ballpoint pen, Bellroy Apex Slim Sleeve, Belkin BoostCharge Magnetic 5K, Peak Design Everyday Sling 3L, Rhodia Webnotebook A6, and Sennheiser Momentum True Wireless 4 — one brand each on preset 209. Live catalog tiles below.',
+  'wimb-rainy-london-commute-brand-guide':
+    'Bottom line: Rainy London Commute WIMB is ten bag-spill slots — Mulberry Bayswater Tote in Black Small Classic Grain, Chanel Rouge Coco Baume 912, Jo Malone London English Pear & Freesia Hand Cream, Altoids Peppermint Mints, Smythson Panama Notebook, mophie snap+ juice pack mini, Bose QuietComfort Ultra Earbuds, Cuyana Leather Travel Case Small, Aesop Marrakech Intense 10mL roll-on, and Bottega Veneta Intrecciato Credit Card Case — one brand each on preset 210. Live catalog tiles below.',
+  'styling-ivy-prep-autumn-brand-guide':
+    'Bottom line: Ivy-Prep & Heritage Menswear OOTD is nine wardrobe layers — Mackintosh Dunkeld bonded cotton coat, Drake\'s brushed Shetland wool crewneck, Gitman Vintage white Oxford button-down shirt, Beams Plus 2 pleat khaki chino trousers, Alden 986 Color 8 shell cordovan penny loafers, Tory Leather 1.25-inch bridle belt, Timex Marlin 34mm watch, Creed Green Irish Tweed EDP, and Moscot Lemtosh tortoise sunglasses — one brand each on preset 211. Live catalog tiles below.',
 }
 
 export interface FaqItem {
@@ -3691,6 +3697,48 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'How does the New Balance 9060 fit compared to the 574?',
       a: 'The 9060 runs slightly roomy with a wide, sculpted ABZORB sole, whereas the classic 574 has a shorter, rounder toe box that some people size up half a size in.',
+    },
+  ],
+  'urban-architect-edc-brand-guide': [
+    {
+      q: 'Why pair a rOtring 600 ballpoint with Rhodia 90gsm paper?',
+      a: 'Rhodia’s Clairefontaine ivory vellum paper is ultra-smooth and acid-free, letting weighted brass rOtring 600 ballpoint or gel refills glide cleanly without feathering during site sketches and redlining.',
+    },
+    {
+      q: 'Why does the Zero Tolerance 0450 work for studio and client meetings?',
+      a: 'At 2.9 oz and under 0.4 inches thick in bead-blasted titanium, the ZT 0450 disappears into tailored trouser pockets and reads as a precision instrument rather than tactical gear.',
+    },
+    {
+      q: 'Can the Peak Design Everyday Sling 3L hold both a compact camera and A6 notebook?',
+      a: 'Yes — one FlexFold divider keeps a compact camera or laser measurer separate from the Rhodia A6 Webnotebook, Belkin 5K battery, and Sennheiser earbuds.',
+    },
+  ],
+  'wimb-rainy-london-commute-brand-guide': [
+    {
+      q: 'How do you protect an unlined Mulberry Bayswater Tote from rain and interior spills?',
+      a: 'Small Classic Grain calfskin shrugs off light London drizzle with a neutral water-repellent spray, while a structured Cuyana Stone Leather Travel Case keeps cosmetics and pens off the raw suede lining.',
+    },
+    {
+      q: 'Why pick a roll-on parfum like Aesop Marrakech Intense for commuting?',
+      a: 'A 10mL rollerball lets you refresh pulse points discreetly at your desk without spraying mist in crowded Tube cars or quiet offices.',
+    },
+    {
+      q: 'Does the mophie snap+ mini affect the Bottega Veneta card case?',
+      a: 'Keeping the Bottega Veneta Intrecciato card case inside the Bayswater’s zippered slip pocket keeps RFID/chip cards clear of the phone’s magnetic battery.',
+    },
+  ],
+  'styling-ivy-prep-autumn-brand-guide': [
+    {
+      q: 'Why choose a 34mm watch like the Timex Marlin for Ivy-Prep tailoring?',
+      a: 'Vintage 34mm proportions sit cleanly beneath Gitman Vintage Oxford cuffs and brushed Shetland sleeves without bulk.',
+    },
+    {
+      q: 'How do you care for Alden 986 Color 8 Shell Cordovan loafers in damp autumn weather?',
+      a: 'Shell cordovan is non-porous and naturally resists water spotting — wipe moisture with a damp cloth, insert cedar shoe trees, and buff with a horsehair brush.',
+    },
+    {
+      q: 'Do Beams Plus 2 Pleat Chinos work with both loafers and winter boots?',
+      a: 'Yes — the double-pleated thigh and 9-inch turn-up cuff drape cleanly over Alden 986 loafers while still clearing heritage chukkas or service boots.',
     },
   ],
 }

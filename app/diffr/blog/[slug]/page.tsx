@@ -164,6 +164,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'salomon-lines-explained': 206,
   'arcteryx-vs-patagonia-brand-guide': 207,
   'new-balance-lines-explained': 208,
+  'urban-architect-edc-brand-guide': 209,
+  'wimb-rainy-london-commute-brand-guide': 210,
+  'styling-ivy-prep-autumn-brand-guide': 211,
 }
 
 export async function generateStaticParams() {
