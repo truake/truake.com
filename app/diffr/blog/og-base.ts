@@ -122,6 +122,9 @@ export const OG_BASE_SLUGS = new Set<string>([
   'salomon-lines-explained',
   'arcteryx-vs-patagonia-brand-guide',
   'new-balance-lines-explained',
+  'urban-architect-edc-brand-guide',
+  'wimb-rainy-london-commute-brand-guide',
+  'styling-ivy-prep-autumn-brand-guide',
   '54321-packing-method-brand-guide',
   // Aritzia / athleisure rescue pages (2026-09-15)
   'wilfred-brand-guide',
