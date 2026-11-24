@@ -170,7 +170,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
 }
 
 export async function generateStaticParams() {
-  return getAllPosts().map((post) => ({ slug: post.slug }))
+  return getAllPosts()
+    .filter((post) => post.slug !== SCENE_SERIES_HUB_SLUG)
+    .map((post) => ({ slug: post.slug }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
