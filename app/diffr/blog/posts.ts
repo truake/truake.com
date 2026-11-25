@@ -9855,6 +9855,92 @@ Diffr ends with: here is what you get.</p>
 <p>Explore the interactive scene: <a href="/diffr/start/styling-ivy-prep-autumn-kit">Ivy-Prep Autumn Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
+  {
+    slug: 'classic-christmas-decor-ideas',
+    title: 'Classic Christmas Decor: 11 Timeless Holiday Essentials',
+    description: 'Discover timeless Christmas decorating ideas, from Balsam Hill Christmas trees to iconic ornaments, stockings, Christmas villages and festive home essentials.',
+    date: '2026-11-25',
+    readTime: '7 min read',
+    tags: ['classic christmas decor', 'traditional christmas decorating ideas', 'christmas decorating essentials', 'balsam hill christmas tree', 'old world christmas ornaments', 'department 56 christmas village', 'one brand per slot'],
+    category: 'product',
+    excerpt: 'A warm, lived-in American family living room built around 11 heirloom holiday essentials — from a Balsam Hill Fraser Fir tree to Old World glass ornaments, L.L.Bean stockings, Department 56 snow village, and a Lionel train circling the skirt.',
+    content: `
+<p>A <strong>Classic American Christmas</strong> living room does not happen by piling random seasonal impulse buys onto every surface. It comes from building one coherent, reusable scene anchored in evergreen foliage, warm white lighting, Christmas red, champagne gold, and natural wood &mdash; nostalgic, welcoming, and refined rather than showroom-stiff. (An independent guide; we are not affiliated with any listed brand.)</p>
+<p>Following Diffr&rsquo;s <strong>one-brand-per-slot</strong> method, every piece in this 11-slot holiday room comes from a heritage specialist &mdash; so your tree, mantel, and floor-level display age gracefully together year after year.</p>
+
+<h2>1. Christmas Tree: Balsam Hill (Pre-Lit Fraser Fir)</h2>
+<p>The Balsam Hill artificial Fraser Fir anchors the room with realistic molded foliage and warm white lights, giving ornaments depth and eliminating annual needle cleanup.</p>
+
+<h2>2. Christmas Ornaments: Old World Christmas (Blown Glass)</h2>
+<p>Traditional mouth-blown, hand-painted glass ornaments catch warm tree lights from deep inside the boughs without feeling mass-produced.</p>
+
+<h2>3. Tree Topper: Kurt S. Adler (Classic Gold Star)</h2>
+<p>A timeless champagne-gold star crowns the tree silhouette without competing with the glass ornaments below.</p>
+
+<h2>4. Tree Skirt: Pottery Barn (Red Velvet Tree Skirt)</h2>
+<p>Rich red velvet grounds the base of the tree, hides the stand and cords, and frames wrapped gifts cleanly.</p>
+
+<h2>5. Christmas Stockings: L.L.Bean (Needlepoint Stockings)</h2>
+<p>Heavyweight needlepoint wool stockings bring classic New England hearth warmth to the fireplace mantel.</p>
+
+<h2>6. Christmas Wreath: National Tree Company (Evergreen with Pinecones &amp; Berries)</h2>
+<p>Hanging a full evergreen wreath with pinecones and red berries above the mantel or entry echoes the tree&rsquo;s foliage across the room.</p>
+
+<h2>7. Christmas Garland: Frontgate (Pre-Lit Mantel Garland)</h2>
+<p>A lush pre-lit evergreen garland ties the mantel stockings and wreath together in continuous warm-white glow. <em>Safety note: keep real candles well clear of greenery and use flameless alternatives near dry garlands.</em></p>
+
+<h2>8. Christmas Village: Department 56 (Original Snow Village)</h2>
+<p>Illuminated miniature ceramic buildings create a secondary nostalgic focal point on a console table or hearth edge.</p>
+
+<h2>9. Nutcracker: Steinbach (Traditional Wooden Soldier)</h2>
+<p>Hand-turned German wooden nutcrackers add vertical sculptural heritage beside the fireplace.</p>
+
+<h2>10. Scented Candle: Yankee Candle (Balsam &amp; Cedar)</h2>
+<p>Fresh pine, balsam, and warm cedarwood scent brings authentic forest aroma to an artificial-tree living room.</p>
+
+<h2>11. Christmas Train Set: Lionel (Classic Holiday Model Train)</h2>
+<p>A classic Lionel train circling the velvet tree skirt completes the nostalgic American floor-level scene.</p>
+
+<p>Explore the interactive scene: <a href="/diffr/start/classic-christmas-decor-kit">Classic American Christmas Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'kids-art-craft-studio-brand-guide',
+    title: 'The Ultimate Kids\' Art & Craft Studio: Essential Art Supplies for Ages 6–10',
+    description: 'Build a screen-free kids art & craft studio for ages 6–10 with 15 trusted non-Chinese stationery brands: Usborne, Kumon, Faber-Castell, Staedtler, Sakura, Crayola, Pelikan, Da Vinci, Fiskars, Pritt, Clairefontaine, Canson, Tombow, Maped, and JOVI.',
+    date: '2026-11-25',
+    readTime: '7 min read',
+    tags: ['art supplies for kids', 'arts and crafts for kids', 'kids art kit', 'art supplies for 6 year olds', 'homeschool art curriculum', 'montessori art supplies', 'screen-free activities for kids', 'one brand per slot'],
+    category: 'product',
+    excerpt: 'A 15-slot progressive home art studio for ages 6–10 — pairing heritage European, Japanese, and American stationery makers into a 7-step creative curriculum.',
+    content: `
+<p>Parents setting up a creative corner at home often buy a giant all-in-one plastic art case &mdash; only to watch waxy pencils snap, markers dry out, and blunt scissors chew paper instead of cutting it. This <strong>Kids&rsquo; Art &amp; Craft Studio</strong> (preset 213) takes a different approach: <strong>one proven stationery specialist per slot</strong> across a 15-piece progressive curriculum for ages 6&ndash;10. (An independent guide; always check age labels and provide adult supervision for scissors and sharpeners.)</p>
+
+<h2>The 15 Core Studio Slots (Zero Brand Repeats)</h2>
+<ul>
+<li><strong>01. Art Activity Book &mdash; Usborne</strong>: Complete Book of Art Ideas / Drawing &amp; Doodling for line work and open-ended prompts.</li>
+<li><strong>02. Craft Workbook &mdash; KUMON</strong>: Introductory cutting, folding, and 3D paper construction (ideal as an entry workbook around age 6).</li>
+<li><strong>03. Drawing Pencils &mdash; Faber-Castell</strong>: Ergonomic grip graphite pencils for line control and sketching.</li>
+<li><strong>04. Colored Pencils &mdash; STAEDTLER</strong>: Rich pigment colored pencils for detailed shading and patterns.</li>
+<li><strong>05. Oil Pastels &mdash; Sakura</strong>: Cray-Pas Junior Artist 25-color set for bold blending and scratch art.</li>
+<li><strong>06. Washable Markers &mdash; Crayola</strong>: Ultra-Clean washable markers for vibrant color with easy cleanup.</li>
+<li><strong>07. Opaque Watercolor Box &mdash; Pelikan</strong>: Classic German K12 opaque paint box for color mixing and brushwork.</li>
+<li><strong>08. Paint Brushes &mdash; Da Vinci</strong>: Durable school round and flat brushes that hold their tip.</li>
+<li><strong>09. Kids&rsquo; Scissors &mdash; Fiskars</strong>: 5-inch blunt-tip kids&rsquo; scissors for clean, safe paper cutting.</li>
+<li><strong>10. Glue Stick &mdash; Pritt</strong>: Solvent-free original glue stick for paper collage.</li>
+<li><strong>11. Colored Craft Paper &mdash; Clairefontaine</strong>: Crisp French dyed paper for collage and paper sculpture.</li>
+<li><strong>12. Mixed-Media Sketchbook &mdash; Canson</strong>: XL Mixed Media pad heavy enough for paint, pastel, and glue.</li>
+<li><strong>13. Eraser &mdash; Tombow</strong>: MONO clean-erasing block that won&rsquo;t tear paper.</li>
+<li><strong>14. Pencil Sharpener &mdash; Maped</strong>: Clean Grip 2-hole sharpener with enclosed shavings canister.</li>
+<li><strong>15. Modeling Clay &mdash; JOVI</strong>: Non-hardening Plastilina modeling clay for 3D proportion and spatial skills.</li>
+</ul>
+
+<h2>7-Step Home Curriculum</h2>
+<p>Rotate the kit through seven focused sessions: (1) Lines &amp; pencil control (Usborne + Faber-Castell), (2) Geometry &amp; shapes (Usborne + Staedtler), (3) Color blending (Sakura + Crayola), (4) Watercolor control (Pelikan + Da Vinci), (5) Paper cutting &amp; collage (Kumon + Fiskars + Pritt + Clairefontaine), (6) 3D modeling (JOVI), and (7) Open mixed-media portfolio projects (Canson).</p>
+
+<p>Explore the interactive scene: <a href="/diffr/start/kids-art-craft-studio-kit">Kids&rsquo; Art &amp; Craft Studio Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

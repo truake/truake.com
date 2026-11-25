@@ -335,6 +335,10 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Rainy London Commute WIMB is ten bag-spill slots — Mulberry Bayswater Tote in Black Small Classic Grain, Chanel Rouge Coco Baume 912, Jo Malone London English Pear & Freesia Hand Cream, Altoids Peppermint Mints, Smythson Panama Notebook, mophie snap+ juice pack mini, Bose QuietComfort Ultra Earbuds, Cuyana Leather Travel Case Small, Aesop Marrakech Intense 10mL roll-on, and Bottega Veneta Intrecciato Credit Card Case — one brand each on preset 210. Live catalog tiles below.',
   'styling-ivy-prep-autumn-brand-guide':
     'Bottom line: Ivy-Prep & Heritage Menswear OOTD is nine wardrobe layers — Mackintosh Dunkeld bonded cotton coat, Drake\'s brushed Shetland wool crewneck, Gitman Vintage white Oxford button-down shirt, Beams Plus 2 pleat khaki chino trousers, Alden 986 Color 8 shell cordovan penny loafers, Tory Leather 1.25-inch bridle belt, Timex Marlin 34mm watch, Creed Green Irish Tweed EDP, and Moscot Lemtosh tortoise sunglasses — one brand each on preset 211. Live catalog tiles below.',
+  'classic-christmas-decor-ideas':
+    'Bottom line: Classic American Christmas is an 11-slot living room scene anchored by a Balsam Hill Fraser Fir pre-lit tree — paired with Old World Christmas glass ornaments, Kurt S. Adler gold star topper, Pottery Barn velvet tree skirt, L.L.Bean needlepoint stockings, National Tree Company wreath, Frontgate pre-lit mantel garland, Department 56 Snow Village, Steinbach wooden nutcracker, Yankee Candle Balsam & Cedar, and a Lionel Christmas train set (preset 212). Live catalog tiles below.',
+  'kids-art-craft-studio-brand-guide':
+    'Bottom line: Kids\' Art & Craft Studio for ages 6–10 is a 15-slot progressive home curriculum — Usborne art activity book, Kumon craft workbook, Faber-Castell drawing pencils, Staedtler colored pencils, Sakura Cray-Pas oil pastels, Crayola washable markers, Pelikan K12 opaque watercolors, Da Vinci brushes, Fiskars blunt-tip scissors, Pritt glue stick, Clairefontaine craft paper, Canson XL mixed-media pad, Tombow MONO eraser, Maped sharpener, and JOVI Plastilina clay (preset 213). Live catalog tiles below.',
 }
 
 export interface FaqItem {
@@ -3739,6 +3743,34 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Do Beams Plus 2 Pleat Chinos work with both loafers and winter boots?',
       a: 'Yes — the double-pleated thigh and 9-inch turn-up cuff drape cleanly over Alden 986 loafers while still clearing heritage chukkas or service boots.',
+    },
+  ],
+  'classic-christmas-decor-ideas': [
+    {
+      q: 'How do you decorate a traditional American Christmas living room without clutter?',
+      a: 'Anchor the room with one realistic pre-lit tree (such as a Balsam Hill Fraser Fir), repeat evergreen and warm-white lighting across the mantel garland and wreath, and keep accents to classic red velvet, champagne gold, and natural wood.',
+    },
+    {
+      q: 'How can an artificial Christmas tree look realistic?',
+      a: 'Choose molded PE branch tips on the outer silhouette, fluff every branch outward and slightly upward, and hang heirloom blown-glass ornaments deeper inside the branches to create depth.',
+    },
+    {
+      q: 'How do you style a Christmas fireplace mantel safely?',
+      a: 'Drape a pre-lit evergreen garland across the mantel, hang needlepoint stockings from weighted hooks, and keep real candles well away from dry greenery or use flameless alternatives near garlands.',
+    },
+  ],
+  'kids-art-craft-studio-brand-guide': [
+    {
+      q: 'What age range is this Kids\' Art & Craft Studio kit designed for?',
+      a: 'The 15-slot curriculum is built for ages 6–10 — transitioning from introductory paper-cutting (Kumon is best as an entry option around age 6) into independent drawing, color blending, watercolor control, and 3D clay modeling.',
+    },
+    {
+      q: 'Why mix Faber-Castell, Staedtler, Sakura, Pelikan, and Canson instead of one all-in-one box?',
+      a: 'All-in-one boxed art sets often cut corners on pigment load, paper weight, and scissors sharpness. Assigning one heritage stationery specialist per slot ensures real tools that don’t frustrate kids.',
+    },
+    {
+      q: 'Are all 15 brands safe for unsupervised kids?',
+      a: 'Always check age labels on each supply and provide adult supervision for 5-inch blunt-tip scissors, sharpeners, and craft projects as appropriate.',
     },
   ],
 }
