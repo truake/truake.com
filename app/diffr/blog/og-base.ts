@@ -125,6 +125,8 @@ export const OG_BASE_SLUGS = new Set<string>([
   'urban-architect-edc-brand-guide',
   'wimb-rainy-london-commute-brand-guide',
   'styling-ivy-prep-autumn-brand-guide',
+  'classic-christmas-decor-ideas',
+  'kids-art-craft-studio-brand-guide',
   '54321-packing-method-brand-guide',
   // Aritzia / athleisure rescue pages (2026-09-15)
   'wilfred-brand-guide',
