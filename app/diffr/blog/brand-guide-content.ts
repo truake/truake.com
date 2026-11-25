@@ -339,6 +339,12 @@ export const BLOG_TLDR: Record<string, string> = {
     'Bottom line: Classic American Christmas is an 11-slot living room scene anchored by a Balsam Hill Fraser Fir pre-lit tree — paired with Old World Christmas glass ornaments, Kurt S. Adler gold star topper, Pottery Barn velvet tree skirt, L.L.Bean needlepoint stockings, National Tree Company wreath, Frontgate pre-lit mantel garland, Department 56 Snow Village, Steinbach wooden nutcracker, Yankee Candle Balsam & Cedar, and a Lionel Christmas train set (preset 212). Live catalog tiles below.',
   'kids-art-craft-studio-brand-guide':
     'Bottom line: Kids\' Art & Craft Studio for ages 6–10 is a 15-slot progressive home curriculum — Usborne art activity book, Kumon craft workbook, Faber-Castell drawing pencils, Staedtler colored pencils, Sakura Cray-Pas oil pastels, Crayola washable markers, Pelikan K12 opaque watercolors, Da Vinci brushes, Fiskars blunt-tip scissors, Pritt glue stick, Clairefontaine craft paper, Canson XL mixed-media pad, Tombow MONO eraser, Maped sharpener, and JOVI Plastilina clay (preset 213). Live catalog tiles below.',
+  'maritime-harbor-edc-brand-guide':
+    'Bottom line: Maritime Coastal & Harbor Field EDC is ten saltwater-tough essentials — Sinn 556 I automatic watch, Chris Reeve Small Sebenza 31 MagnaCut knife, Prometheus Beta QRv2 flashlight, Kaweco AL Sport raw aluminum pen, Pioneer Carry Molecule 10XD cardholder, Nimble Champ Lite 5K power bank, Craighill Wilson solid brass keyring, Filson Rugged Twill compact briefcase, Fellow Carter Move Mug 16oz, and Devialet Gemini II ANC earbuds — one brand each on preset 214. Live catalog tiles below.',
+  'wimb-milan-espresso-brand-guide':
+    'Bottom line: Milanese Gallery & Espresso Stroll WIMB is ten bag-spill slots — Toteme T-Lock small black calfskin bag, Hermès Rouge Hermès lip care balm, Diptyque Velvet Hand Lotion 50mL, Barkleys classic peppermint tin, Appointed Wire-O grid notebook, Twelve South ButterFly Qi2 charger, Fujifilm X100VI silver camera, Apple AirPods Pro 2, Anya Hindmarch In-Flight clear vanity case, and Kilian Paris Angels\' Share travel set — one brand each on preset 215. Live catalog tiles below.',
+  'styling-tokyo-sartorial-brand-guide':
+    'Bottom line: Downtown Tokyo Sartorial Casual OOTD is nine autumn/winter layers — Margaret Howell proofed cotton drill work jacket, Inverallan 1A cable-knit ecru sweater, Schiesser Revival Karl-Heinz undershirt, A.P.C. Martin pleated tobacco corduroy trousers, Kleman Padror black Tyrolean shoes, Il Bisonte cowhide belt, Cartier Tank Must large watch, Maison Francis Kurkdjian Grand Soir EDP, and Cutler and Gross 1386 round acetate frames — one brand each on preset 216. Live catalog tiles below.',
 }
 
 export interface FaqItem {
@@ -3771,6 +3777,48 @@ export const BLOG_FAQ: Record<string, FaqItem[]> = {
     {
       q: 'Are all 15 brands safe for unsupervised kids?',
       a: 'Always check age labels on each supply and provide adult supervision for 5-inch blunt-tip scissors, sharpeners, and craft projects as appropriate.',
+    },
+  ],
+  'maritime-harbor-edc-brand-guide': [
+    {
+      q: 'Why is CPM MagnaCut steel ideal for maritime EDC knives?',
+      a: 'CPM MagnaCut balances carbon, vanadium, and nitrogen to achieve 62–64 HRC edge retention while remaining virtually rustproof in salt air and harbor spray.',
+    },
+    {
+      q: 'How does Filson Rugged Twill hold up against salt spray compared to nylon?',
+      a: 'Deep paraffin wax absorption in 2-ply cotton swells when damp to repel water and can be re-waxed indefinitely, whereas synthetic polyurethane coatings eventually peel.',
+    },
+    {
+      q: 'Why pick a Nichia 219C flashlight like the Prometheus Beta QRv2 in coastal fog?',
+      a: 'High-CRI (>92) warm light cuts through drizzle and mist with less glare and lets you read charts and rusted hardware accurately.',
+    },
+  ],
+  'wimb-milan-espresso-brand-guide': [
+    {
+      q: 'How does Toteme pebble-grained calfskin handle rainy commutes?',
+      a: 'Drum-tumbled pebble-grained calfskin compresses the leather grain so light rain beads off instead of leaving water spots like smooth box calf.',
+    },
+    {
+      q: 'Why pack the Twelve South ButterFly instead of a heavy MagSafe battery?',
+      a: 'The folding anodized aluminum Qi2 puck is smaller than an AirPods case and fast-charges both iPhone and Apple Watch at café outlets without lithium bulk.',
+    },
+    {
+      q: 'Why use a clear TPU pouch like Anya Hindmarch In-Flight?',
+      a: 'Clear optical TPU prevents dark-bag rummaging and keeps cosmetic spills contained away from raw suede or calfskin linings.',
+    },
+  ],
+  'styling-tokyo-sartorial-brand-guide': [
+    {
+      q: 'Why do Kleman Padror Tyrolean shoes pair so well with wide corduroy trousers?',
+      a: 'Their Norwegian-welted rounded moc toe and lugged rubber sole balance wide pleated 8-wale corduroy hems better than slim dress oxfords.',
+    },
+    {
+      q: 'Why choose untreated Scottish Aran wool like Inverallan 1A?',
+      a: 'Hand-knit untreated wool retains natural lanolin oils that shed light drizzle while denser stitch tension traps warmth.',
+    },
+    {
+      q: 'How do you style navy cotton drill outerwear with tobacco corduroy?',
+      a: 'Contrasting matte proofed cotton drill on top with plush 8-wale corduroy ridges below keeps navy-and-brown cohesive without feeling like a uniform.',
     },
   ],
 }

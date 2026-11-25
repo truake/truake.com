@@ -169,6 +169,9 @@ export const BLOG_SLUG_TO_PRESET: Record<string, number> = {
   'styling-ivy-prep-autumn-brand-guide': 211,
   'classic-christmas-decor-ideas': 212,
   'kids-art-craft-studio-brand-guide': 213,
+  'maritime-harbor-edc-brand-guide': 214,
+  'wimb-milan-espresso-brand-guide': 215,
+  'styling-tokyo-sartorial-brand-guide': 216,
 }
 
 export async function generateStaticParams() {

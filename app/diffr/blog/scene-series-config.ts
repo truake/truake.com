@@ -23,6 +23,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'EDC Scenes',
     tagline: 'Everyday carry flat lays — one specialist brand per pocket-dump slot.',
     scenes: [
+      { slug: 'maritime-harbor-edc-brand-guide', title: 'Maritime Coastal & Harbor Field EDC', preset: 214 },
       { slug: 'urban-architect-edc-brand-guide', title: 'Urban Architect & Draftsman EDC', preset: 209 },
       { slug: 'alpine-winter-edc-brand-guide', title: 'Alpine Winter EDC', preset: 204 },
       { slug: 'minimalist-titanium-edc-brand-guide', title: 'Minimalist Titanium EDC', preset: 183 },
@@ -56,6 +57,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'WIMB Scenes',
     tagline: 'What\'s in my bag spills — ten travel-ready picks, zero brand repeats.',
     scenes: [
+      { slug: 'wimb-milan-espresso-brand-guide', title: 'Milanese Gallery & Espresso Stroll WIMB', preset: 215 },
       { slug: 'wimb-rainy-london-commute-brand-guide', title: 'Rainy London Commute WIMB', preset: 210 },
       { slug: 'wimb-parisian-cafe-brand-guide', title: 'Parisian Cafe Tote WIMB', preset: 203 },
       { slug: 'wimb-longchamp-le-pliage-brand-guide', title: 'Longchamp Le Pliage Tote WIMB', preset: 184 },
@@ -81,6 +83,7 @@ export const SCENE_SERIES_CATEGORIES: SceneSeriesCategory[] = [
     label: 'OOTD Scenes',
     tagline: 'Outfit flat lays — wardrobe slots with one brand per layer.',
     scenes: [
+      { slug: 'styling-tokyo-sartorial-brand-guide', title: 'Downtown Tokyo Sartorial Casual OOTD', preset: 216 },
       { slug: 'styling-ivy-prep-autumn-brand-guide', title: 'Ivy-Prep & Heritage Menswear OOTD', preset: 211 },
       { slug: 'styling-nordic-knitwear-brand-guide', title: 'Nordic Knitwear & Tailored Wool OOTD', preset: 202 },
       { slug: 'styling-barbour-jacket-brand-guide', title: 'Autumn Heritage MA-1 & Denim OOTD', preset: 185 },

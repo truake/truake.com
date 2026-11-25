@@ -108,6 +108,9 @@ export const BLOG_SLUG_TO_START: Record<string, string> = {
   'styling-ivy-prep-autumn-brand-guide': 'styling-ivy-prep-autumn-kit',
   'classic-christmas-decor-ideas': 'classic-christmas-decor-kit',
   'kids-art-craft-studio-brand-guide': 'kids-art-craft-studio-kit',
+  'maritime-harbor-edc-brand-guide': 'maritime-harbor-edc-kit',
+  'wimb-milan-espresso-brand-guide': 'wimb-milan-espresso-kit',
+  'styling-tokyo-sartorial-brand-guide': 'styling-tokyo-sartorial-kit',
 }
 
 /** Inverse map: start funnel slug → SEO-canonical blog post slug. */

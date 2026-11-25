@@ -44,6 +44,7 @@ export const posts: BlogPost[] = [
 <h2 id="edc">EDC Scenes</h2>
 <p>Everyday carry flat lays &mdash; knives, watches, pens, and carry bags with one Japanese or Western specialist per slot.</p>
 <ul>
+<li><a href="/diffr/blog/maritime-harbor-edc-brand-guide">Maritime Coastal &amp; Harbor Field EDC</a> (preset 214)</li>
 <li><a href="/diffr/blog/urban-architect-edc-brand-guide">Urban Architect &amp; Draftsman EDC</a> (preset 209)</li>
 <li><a href="/diffr/blog/alpine-winter-edc-brand-guide">Alpine Winter EDC</a> (preset 204)</li>
 <li><a href="/diffr/blog/minimalist-titanium-edc-brand-guide">Minimalist Titanium EDC</a> (preset 183)</li>
@@ -74,6 +75,7 @@ export const posts: BlogPost[] = [
 <h2 id="wimb">WIMB Scenes</h2>
 <p>What&rsquo;s in my bag spills &mdash; luxury card lanes, compact cameras, beauty tint, and travel pain relief without brand monopolies.</p>
 <ul>
+<li><a href="/diffr/blog/wimb-milan-espresso-brand-guide">Milanese Gallery &amp; Espresso Stroll WIMB</a> (preset 215)</li>
 <li><a href="/diffr/blog/wimb-rainy-london-commute-brand-guide">Rainy London Commute WIMB</a> (preset 210)</li>
 <li><a href="/diffr/blog/wimb-parisian-cafe-brand-guide">Parisian Cafe Tote WIMB</a> (preset 203)</li>
 <li><a href="/diffr/blog/wimb-longchamp-le-pliage-brand-guide">Longchamp Le Pliage Tote WIMB</a> (preset 184)</li>
@@ -96,6 +98,7 @@ export const posts: BlogPost[] = [
 <h2 id="ootd">OOTD Scenes</h2>
 <p>Outfit flat lays &mdash; trousers, layers, footwear, and accessories with one brand per wardrobe slot.</p>
 <ul>
+<li><a href="/diffr/blog/styling-tokyo-sartorial-brand-guide">Downtown Tokyo Sartorial Casual OOTD</a> (preset 216)</li>
 <li><a href="/diffr/blog/styling-ivy-prep-autumn-brand-guide">Ivy-Prep &amp; Heritage Menswear OOTD</a> (preset 211)</li>
 <li><a href="/diffr/blog/styling-nordic-knitwear-brand-guide">Nordic Knitwear &amp; Tailored Wool OOTD</a> (preset 202)</li>
 <li><a href="/diffr/blog/styling-barbour-jacket-brand-guide">Autumn Heritage MA-1 &amp; Denim OOTD</a> (preset 185)</li>
@@ -9939,6 +9942,92 @@ Diffr ends with: here is what you get.</p>
 <p>Rotate the kit through seven focused sessions: (1) Lines &amp; pencil control (Usborne + Faber-Castell), (2) Geometry &amp; shapes (Usborne + Staedtler), (3) Color blending (Sakura + Crayola), (4) Watercolor control (Pelikan + Da Vinci), (5) Paper cutting &amp; collage (Kumon + Fiskars + Pritt + Clairefontaine), (6) 3D modeling (JOVI), and (7) Open mixed-media portfolio projects (Canson).</p>
 
 <p>Explore the interactive scene: <a href="/diffr/start/kids-art-craft-studio-kit">Kids&rsquo; Art &amp; Craft Studio Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'maritime-harbor-edc-brand-guide',
+    title: 'Maritime Coastal & Harbor Field EDC: 10 Saltwater-Tough Essentials (Preset 214)',
+    description: 'One-brand-per-slot maritime EDC: Sinn 556 I watch, Chris Reeve Small Sebenza 31 MagnaCut, Prometheus Beta QRv2, Kaweco AL Sport, Pioneer Carry Molecule 10XD, Nimble Champ Lite 5K, Craighill Wilson keyring, Filson Rugged Twill briefcase, Fellow Carter Move Mug, and Devialet Gemini II.',
+    date: '2026-11-25',
+    readTime: '6 min read',
+    tags: ['EDC', 'maritime EDC', 'Sinn 556 I', 'Chris Reeve Sebenza 31', 'Filson Rugged Twill', 'Kaweco AL Sport', 'one brand per slot', 'scene series'],
+    category: 'product',
+    excerpt: 'Ten saltwater-tough coastal carry essentials — marine-grade MagnaCut steel, 200m German instrument horology, solid brass, and paraffin-waxed cotton twill with zero brand repeats.',
+    content: `
+<p>Salt spray, harbor fog, and damp coastal winds punish casual pocket gear fast. This ten-slot <strong>Maritime Coastal &amp; Harbor Field EDC</strong> (preset 214) assigns one saltwater-tough specialist per slot &mdash; consolidating blade duties into a single CPM MagnaCut heirloom folder with zero brand repeats.</p>
+
+<h2>Slot-by-Slot Brand Breakdown</h2>
+<ul>
+<li><strong>Horology &mdash; Sinn</strong>: 556 I Automatic Instrument Watch (200m water-resistant, anti-magnetic German steel).</li>
+<li><strong>Cutting Tool &mdash; Chris Reeve Knives</strong>: Small Sebenza 31 Drop Point in rustproof CPM MagnaCut and plain titanium.</li>
+<li><strong>Flashlight &mdash; Prometheus Lights</strong>: Beta QRv2 Quick-Release Keychain Light with high-CRI Nichia 219C LED.</li>
+<li><strong>Writing Instrument &mdash; Kaweco</strong>: AL Sport Fountain Pen in solid raw CNC aluminum.</li>
+<li><strong>Cardholder &mdash; Pioneer Carry</strong>: Molecule Minimalist Cardholder in hydrophobic 10XD ripstop fabric.</li>
+<li><strong>Power Bank &mdash; Nimble</strong>: Champ Lite 5,000mAh recycled-plastic USB-C portable charger.</li>
+<li><strong>Keyring &mdash; Craighill</strong>: Wilson Solid Brass Wire Keyring with knurled flat-lock gate.</li>
+<li><strong>Bag &mdash; Filson</strong>: Rugged Twill Compact Briefcase (Tan) with bridle leather handles.</li>
+<li><strong>Hydration &mdash; Fellow</strong>: Carter Move Mug 16oz (Matte Black) with ceramic interior and 360 sip lid.</li>
+<li><strong>Audio &mdash; Devialet</strong>: Gemini II ANC Earbuds with Active Wind Reduction and IPX4 weather protection.</li>
+</ul>
+
+<p>Explore the interactive scene: <a href="/diffr/start/maritime-harbor-edc-kit">Maritime Harbor EDC Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'wimb-milan-espresso-brand-guide',
+    title: 'Milanese Gallery & Espresso Stroll WIMB: 10-Slot Brand Guide (Preset 215)',
+    description: 'What is in my Toteme T-Lock bag for a Milanese gallery and espresso stroll: Hermès lip balm, Diptyque hand lotion, Barkleys mints, Appointed notebook, Twelve South ButterFly Qi2, Fujifilm X100VI, Apple AirPods Pro 2, Anya Hindmarch clear vanity case, and Kilian Angels\' Share.',
+    date: '2026-11-25',
+    readTime: '6 min read',
+    tags: ['WIMB', 'Toteme T-Lock', 'Fujifilm X100VI', 'Hermes', 'Diptyque', 'Kilian', 'one brand per slot', 'scene series'],
+    category: 'product',
+    excerpt: 'Ten gallery-to-espresso essentials tucked inside a Toteme T-Lock Top Handle Bag — Swedish leather geometry, 40.2MP rangefinder photography, and cognac gourmand scent.',
+    content: `
+<p>Walking between Brera art galleries and afternoon espresso bars near the Duomo calls for sculptural minimalism paired with tactile ritual. Built on Diffr&rsquo;s <strong>6 Fixed Core + 4 Dynamic Scene Slots</strong> framework, preset 215 maps every piece inside a Toteme T-Lock bag with zero brand repeats.</p>
+
+<h2>Slot-by-Slot Brand Breakdown</h2>
+<ul>
+<li><strong>Prime Bag &mdash; Toteme</strong>: T-Lock Small Leather Top Handle Bag in black pebble-grained calfskin.</li>
+<li><strong>Lip Care &mdash; Herm&egrave;s</strong>: Rouge Herm&egrave;s Lip Care Balm in refillable matte white-and-gold metal casing.</li>
+<li><strong>Hygiene &amp; Care &mdash; Diptyque</strong>: Velvet Hand Lotion (50mL) with fast-absorbing Immortelle floral water.</li>
+<li><strong>Refreshment &mdash; Barkleys</strong>: Classic Peppermint Intense Mints in an embossed 50g metal tin.</li>
+<li><strong>Planning &amp; Journal &mdash; Appointed</strong>: Compact Lay-Flat Wire-O Grid Notebook in water-resistant charcoal bookcloth.</li>
+<li><strong>Power &amp; Charge &mdash; Twelve South</strong>: ButterFly 2-in-1 MagSafe Qi2 aluminum travel charger.</li>
+<li><strong>Camera &mdash; Fujifilm</strong>: X100VI 40.2MP silver compact camera with 23mm f/2.0 lens and IBIS.</li>
+<li><strong>Audio &mdash; Apple</strong>: AirPods Pro 2 with H2 Adaptive Audio and USB-C MagSafe case.</li>
+<li><strong>Utility Pouch &mdash; Anya Hindmarch</strong>: In-Flight Clear Travel Vanity Case with black capra leather trim.</li>
+<li><strong>Fragrance &mdash; Kilian Paris</strong>: Angels&rsquo; Share Eau de Parfum Travel Set in lacquered magnetic atomizer.</li>
+</ul>
+
+<p>Explore the interactive scene: <a href="/diffr/start/wimb-milan-espresso-kit">Milanese Espresso WIMB Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
+`.trim(),
+  },
+  {
+    slug: 'styling-tokyo-sartorial-brand-guide',
+    title: 'Downtown Tokyo Sartorial Casual OOTD: 9-Slot Brand Guide (Preset 216)',
+    description: 'One-brand-per-slot Tokyo sartorial casual outfit: Margaret Howell cotton drill work jacket, Inverallan 1A cable knit sweater, Schiesser Revival undershirt, A.P.C. Martin corduroy trousers, Kleman Padror Tyrolean shoes, Il Bisonte belt, Cartier Tank Must, MFK Grand Soir, and Cutler and Gross 1386.',
+    date: '2026-11-25',
+    readTime: '6 min read',
+    tags: ['OOTD', 'tokyo menswear', 'Margaret Howell', 'Inverallan', 'Kleman Padror', 'Cartier Tank Must', 'one brand per slot', 'scene series'],
+    category: 'product',
+    excerpt: 'Nine textured autumn/winter menswear layers — British proofed cotton drill, hand-knit Scottish Aran wool, 8-wale French corduroy, and Norwegian-welted Tyrolean shoes.',
+    content: `
+<p>From Daikanyama art bookshops to Shibuya listening bars, Tokyo&rsquo;s sartorial casual uniform blends relaxed European workwear tailoring with tactile heritage fabrics. Preset 216 assigns each of the nine autumn/winter layers to one specialist maker.</p>
+
+<h2>Slot-by-Slot Brand Breakdown</h2>
+<ul>
+<li><strong>Outerwear &mdash; Margaret Howell</strong>: Proofed Cotton Drill Work Jacket in dark navy.</li>
+<li><strong>Knitwear &mdash; Inverallan</strong>: 1A Heavy Cable Knit Crewneck Sweater hand-knit in Scotland (Natural Ecru).</li>
+<li><strong>Base Layer &mdash; Schiesser Revival</strong>: Karl-Heinz Long Sleeve Grandad Undershirt in optic white mako cotton.</li>
+<li><strong>Trousers &mdash; A.P.C.</strong>: Martin Pleated 8-wale Corduroy Trousers in tobacco brown.</li>
+<li><strong>Footwear &mdash; Kleman</strong>: Padror Leather Tyrolean Shoes in black calfskin with Norwegian welt.</li>
+<li><strong>Belt &mdash; Il Bisonte</strong>: Classic Hand-Burnished Tuscan Vacchetta Leather Belt (Nero / Brass).</li>
+<li><strong>Horology &mdash; Cartier</strong>: Tank Must Watch Large Model in steel on black grained leather.</li>
+<li><strong>Fragrance &mdash; Maison Francis Kurkdjian</strong>: Grand Soir Eau de Parfum (70mL).</li>
+<li><strong>Eyewear &mdash; Cutler and Gross</strong>: 1386 Round 9mm Italian Acetate Optical Frame.</li>
+</ul>
+
+<p>Explore the interactive scene: <a href="/diffr/start/styling-tokyo-sartorial-kit">Tokyo Sartorial OOTD Kit &rarr;</a> &middot; <a href="https://apps.apple.com/us/app/diffr/id6772870733" target="_blank" rel="noopener noreferrer">Get the app</a></p>
 `.trim(),
   },
 ]
